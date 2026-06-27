@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TechChronicle — Every day in technology, preserved forever. Premium daily technology publication." />
+  <meta name="keywords" content="technology, news, AI, programming, cybersecurity, cloud, startups" />
+  <meta property="og:title" content="TechChronicle" />
+  <meta property="og:description" content="Every day in technology, preserved forever." />
+  <meta property="og:type" content="website" />
+  <title>TechChronicle — Every day in technology, preserved forever.</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/typography.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/edition.css" />
+  <link rel="stylesheet" href="css/reader.css" />
+  <link rel="stylesheet" href="css/calendar.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
+  <link rel="stylesheet" href="css/categories.css" />
+  <link rel="stylesheet" href="css/search.css" />
+  <link rel="stylesheet" href="css/stats.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/dark-mode.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo" aria-label="TechChronicle Home">
+        <span class="nav__logo-icon" aria-hidden="true">⌬</span>
+        <span class="nav__logo-text">TechChronicle</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="#edition" class="nav__link">Today</a></li>
+        <li><a href="#timeline" class="nav__link">Timeline</a></li>
+        <li><a href="#categories" class="nav__link">Topics</a></li>
+        <li><a href="#search-section" class="nav__link">Search</a></li>
+      </ul>
+      <div class="nav__actions">
+        <button class="btn btn--ghost btn--sm" id="searchToggle" aria-label="Open search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="btn btn--ghost btn--sm theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle__icon theme-toggle__sun" aria-hidden="true">☀</span>
+          <span class="theme-toggle__icon theme-toggle__moon" aria-hidden="true">◑</span>
+        </button>
+        <button class="btn btn--primary btn--sm" id="readTodayNav">Read Today</button>
+      </div>
+      <button class="nav__hamburger" id="navHamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero" aria-label="Hero">
+    <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__badge reveal">
+        <span class="hero__badge-dot" aria-hidden="true"></span>
+        Volume I · Est. 2026
+      </div>
+      <h1 class="hero__title reveal">
+        <span class="hero__title-line">Tech</span><span class="hero__title-accent">Chronicle</span>
+      </h1>
+      <p class="hero__subtitle reveal">Every day in technology,<br />preserved forever.</p>
+      <div class="hero__actions reveal">
+        <button class="btn btn--primary btn--lg" id="readTodayHero">
+          Read Today
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+        <button class="btn btn--ghost btn--lg" id="browseTimeline">
+          Browse Timeline
+        </button>
+      </div>
+      <div class="hero__meta reveal">
+        <div class="hero__stat">
+          <span class="hero__stat-value" data-count="12847">0</span>
+          <span class="hero__stat-label">Articles</span>
+        </div>
+        <div class="hero__divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-value" data-count="4200">0</span>
+          <span class="hero__stat-label">Companies</span>
+        </div>
+        <div class="hero__divider" aria-hidden="true"></div>
+        <div class="hero__stat">
+          <span class="hero__stat-value" data-count="365">0</span>
+          <span class="hero__stat-label">Days</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint reveal" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Today's Edition -->
+  <section class="edition" id="edition" aria-label="Today's Edition">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Daily Edition</div>
+        <h2 class="section-title">Today's Edition</h2>
+        <p class="section-desc">Curated technology stories, hand-picked from across the industry.</p>
+      </div>
+      <div class="edition__card reveal" id="editionCard">
+        <div class="edition__card-header">
+          <div class="edition__date" id="editionDate"></div>
+          <div class="edition__badge">Live</div>
+        </div>
+        <div class="edition__stats">
+          <div class="edition__stat">
+            <span class="edition__stat-value">20</span>
+            <span class="edition__stat-label">Articles</span>
+          </div>
+          <div class="edition__stat">
+            <span class="edition__stat-value">42</span>
+            <span class="edition__stat-label">Min read</span>
+          </div>
+          <div class="edition__stat">
+            <span class="edition__stat-value">8</span>
+            <span class="edition__stat-label">Categories</span>
+          </div>
+        </div>
+        <div class="edition__categories" id="editionCategories">
+          <span class="tag">AI</span>
+          <span class="tag">Cloud</span>
+          <span class="tag">Security</span>
+          <span class="tag">Hardware</span>
+          <span class="tag">Startups</span>
+          <span class="tag">Open Source</span>
+        </div>
+        <button class="btn btn--primary btn--lg edition__cta" id="startReadingBtn">
+          Start Reading
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </button>
+      </div>
+      <div class="edition__preview reveal" id="articlePreviewGrid"></div>
+    </div>
+  </section>
+
+  <!-- Reader -->
+  <section class="reader" id="reader" aria-label="Article Reader" hidden>
+    <div class="reader__progress" id="readerProgress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="reader__progress-bar" id="readerProgressBar"></div>
+    </div>
+    <div class="reader__header">
+      <button class="btn btn--ghost btn--sm" id="closeReader" aria-label="Close reader">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        Close
+      </button>
+      <div class="reader__page-indicator" id="pageIndicator">Page 1 of 20</div>
+      <div class="reader__reading-time" id="readerTime">5 min read</div>
+    </div>
+    <div class="reader__content" id="readerContent" role="main" aria-live="polite"></div>
+    <div class="reader__nav">
+      <button class="btn btn--ghost" id="prevArticle" aria-label="Previous article">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        Previous
+      </button>
+      <div class="reader__dots" id="readerDots" aria-label="Article navigation" role="tablist"></div>
+      <button class="btn btn--primary" id="nextArticle" aria-label="Next article">
+        Next
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Calendar -->
+  <section class="calendar-section" id="calendar" aria-label="Article Calendar">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Archive</div>
+        <h2 class="section-title">Browse by Date</h2>
+        <p class="section-desc">Every day preserved. Click any highlighted date to explore.</p>
+      </div>
+      <div class="calendar reveal" id="calendarWidget" role="application" aria-label="Calendar"></div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline-section" id="timeline" aria-label="Timeline">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">History</div>
+        <h2 class="section-title">Timeline</h2>
+        <p class="section-desc">Journey through technology's most defining moments.</p>
+      </div>
+      <div class="timeline" id="timelineWidget" role="list"></div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories-section" id="categories" aria-label="Categories">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Topics</div>
+        <h2 class="section-title">Explore Categories</h2>
+        <p class="section-desc">Dive deep into the topics that shape our world.</p>
+      </div>
+      <div class="categories-grid reveal" id="categoriesGrid" role="list"></div>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <section class="search-section" id="search-section" aria-label="Search">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">Discovery</div>
+        <h2 class="section-title">Search Everything</h2>
+        <p class="section-desc">Find articles by company, technology, keyword, or category.</p>
+      </div>
+      <div class="search reveal" id="searchWidget">
+        <div class="search__input-wrap">
+          <svg class="search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input
+            type="search"
+            class="search__input"
+            id="searchInput"
+            placeholder="Search articles, companies, technologies…"
+            autocomplete="off"
+            aria-label="Search articles"
+            aria-controls="searchResults"
+          />
+          <button class="search__clear" id="searchClear" aria-label="Clear search" hidden>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div class="search__filters" role="group" aria-label="Filter by category">
+          <button class="search__filter active" data-filter="all">All</button>
+          <button class="search__filter" data-filter="AI">AI</button>
+          <button class="search__filter" data-filter="Programming">Programming</button>
+          <button class="search__filter" data-filter="Cybersecurity">Security</button>
+          <button class="search__filter" data-filter="Cloud">Cloud</button>
+          <button class="search__filter" data-filter="Hardware">Hardware</button>
+          <button class="search__filter" data-filter="Startups">Startups</button>
+        </div>
+        <div class="search__results" id="searchResults" role="region" aria-live="polite" aria-label="Search results"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics -->
+  <section class="stats-section" id="stats" aria-label="Statistics">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-eyebrow">By the Numbers</div>
+        <h2 class="section-title">The Chronicle</h2>
+        <p class="section-desc">Building the world's most comprehensive technology archive.</p>
+      </div>
+      <div class="stats-grid reveal" id="statsGrid" role="list"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo" aria-label="TechChronicle Home">
+            <span class="nav__logo-icon" aria-hidden="true">⌬</span>
+            <span class="nav__logo-text">TechChronicle</span>
+          </a>
+          <p class="footer__tagline">Every day in technology, preserved forever.</p>
+          <div class="footer__social">
+            <a href="https://github.com" class="footer__social-link" aria-label="GitHub" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4 class="footer__col-title">Publication</h4>
+            <ul class="footer__col-list" role="list">
+              <li><a href="#edition" class="footer__link">Today's Edition</a></li>
+              <li><a href="#timeline" class="footer__link">Timeline</a></li>
+              <li><a href="#categories" class="footer__link">Categories</a></li>
+              <li><a href="#calendar" class="footer__link">Archive</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Company</h4>
+            <ul class="footer__col-list" role="list">
+              <li><a href="#" class="footer__link">About</a></li>
+              <li><a href="#" class="footer__link">Contact</a></li>
+              <li><a href="#" class="footer__link">License</a></li>
+              <li><a href="https://github.com" class="footer__link" rel="noopener">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Topics</h4>
+            <ul class="footer__col-list" role="list">
+              <li><a href="#" class="footer__link">Artificial Intelligence</a></li>
+              <li><a href="#" class="footer__link">Cybersecurity</a></li>
+              <li><a href="#" class="footer__link">Open Source</a></li>
+              <li><a href="#" class="footer__link">Developer Tools</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 TechChronicle. All rights reserved.</p>
+        <p class="footer__version">v1.0.0</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile search overlay -->
+  <div class="search-overlay" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Search" hidden>
+    <div class="search-overlay__inner">
+      <div class="search__input-wrap">
+        <svg class="search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="search" class="search__input" id="overlaySearchInput" placeholder="Search…" autocomplete="off" aria-label="Quick search" />
+      </div>
+      <button class="btn btn--ghost btn--sm" id="closeSearchOverlay" aria-label="Close search">Cancel</button>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/hero.js"></script>
+  <script src="js/edition.js"></script>
+  <script src="js/reader.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/timeline.js"></script>
+  <script src="js/categories.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/stats.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
