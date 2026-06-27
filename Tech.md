@@ -581,3 +581,35 @@ Quantisation methods like TurboQuant directly impact the economics of AI deploym
 ---
 
 *Next execution: append new daily section below this line. Never edit above.*
+
+---
+
+---
+
+# 2026-06-27 — Supplemental Edition (Articles 021–030)
+
+> **Appended:** 2026-06-27 | **New Articles:** 10 | **Running Total:** 30
+
+---
+
+## Article 021
+
+**Title:** IBM Commits $10B+ to Quantum Computing Over Five Years — Targets Fault-Tolerant System by 2029
+
+**Date:** June 2, 2026
+**Company:** IBM
+**Category:** Quantum Computing · Research
+
+**Summary:**
+IBM announced a commitment of more than $10 billion in quantum computing investment over the next five years, spanning research and development, capital expenditure, manufacturing scaling, ecosystem partnerships, and M&A activity. The roadmap targets delivery of the world's first large-scale fault-tolerant quantum computer by 2029, building on its existing Heron and Eagle processor families.
+
+**Key Takeaways:**
+- $10B+ is the single largest publicly-announced quantum computing commitment by any company
+- 2029 fault-tolerant target is aggressive but grounded in IBM's published roadmap milestones
+- Investment spans hardware, software (Qiskit), and ecosystem — not just chip fabrication
+- IBM's quantum network already connects 100+ organisations to live quantum hardware
+
+**Why It Matters:**
+Fault-tolerant quantum computing would render current public-key cryptography obsolete and enable breakthroughs in drug discovery, materials science, and optimisation at scales classical computers cannot reach. IBM's $10B bet signals that the industry has moved from "if" to "when" — and 2029 is the target date the entire cryptographic infrastructure of the internet must prepare for.
+
+**Source:** [IBM Commits $10B+ to Quantum Computing — IBM Newsroom](https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers)
