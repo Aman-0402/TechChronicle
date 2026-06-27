@@ -1,0 +1,40 @@
+/* ============================================================
+   Dark Mode Overrides
+   (Variables handle most; this file for cases needing specifics)
+   ============================================================ */
+
+/* Smooth theme transition on body elements */
+*, *::before, *::after {
+  transition:
+    background-color var(--dur-slow) var(--ease),
+    border-color var(--dur-slow) var(--ease),
+    color var(--dur-slow) var(--ease),
+    box-shadow var(--dur-slow) var(--ease);
+}
+
+/* Prevent transition on interactive elements (they have their own) */
+button, a, input, select, textarea {
+  transition: all var(--dur-fast) var(--ease);
+}
+
+[data-theme="dark"] .hero__grid {
+  opacity: 0.18;
+}
+
+[data-theme="dark"] .edition__card::before {
+  opacity: 0.7;
+}
+
+[data-theme="dark"] .stats-section::before {
+  opacity: 0.4;
+}
+
+/* Dark mode chart/illustration placeholders */
+[data-theme="dark"] .article-hero-image {
+  background: var(--surface-2);
+}
+
+/* Scrollbar dark */
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: var(--surface-3);
+}

@@ -1,0 +1,80 @@
+/* ============================================================
+   Animations & Scroll Reveal
+   ============================================================ */
+
+/* Reveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity var(--dur-slower) var(--ease-out), transform var(--dur-slower) var(--ease-out);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal--delay-1 { transition-delay: 80ms; }
+.reveal--delay-2 { transition-delay: 160ms; }
+.reveal--delay-3 { transition-delay: 240ms; }
+.reveal--delay-4 { transition-delay: 320ms; }
+
+/* Fade in */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Slide up */
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Scale in */
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Shimmer / loading skeleton */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--surface-2) 25%,
+    var(--surface-3) 50%,
+    var(--surface-2) 75%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+  border-radius: var(--radius-sm);
+}
+
+/* Stagger children */
+.stagger > * {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.stagger.visible > *:nth-child(1)  { animation: slide-up var(--dur-slow) var(--ease-out)  50ms  forwards; }
+.stagger.visible > *:nth-child(2)  { animation: slide-up var(--dur-slow) var(--ease-out) 100ms forwards; }
+.stagger.visible > *:nth-child(3)  { animation: slide-up var(--dur-slow) var(--ease-out) 150ms forwards; }
+.stagger.visible > *:nth-child(4)  { animation: slide-up var(--dur-slow) var(--ease-out) 200ms forwards; }
+.stagger.visible > *:nth-child(5)  { animation: slide-up var(--dur-slow) var(--ease-out) 250ms forwards; }
+.stagger.visible > *:nth-child(6)  { animation: slide-up var(--dur-slow) var(--ease-out) 300ms forwards; }
+.stagger.visible > *:nth-child(7)  { animation: slide-up var(--dur-slow) var(--ease-out) 350ms forwards; }
+.stagger.visible > *:nth-child(8)  { animation: slide-up var(--dur-slow) var(--ease-out) 400ms forwards; }
+.stagger.visible > *:nth-child(n+9){ animation: slide-up var(--dur-slow) var(--ease-out) 450ms forwards; }
+
+/* Hover card lift */
+.hover-lift {
+  transition: transform var(--dur-base) var(--ease), box-shadow var(--dur-base) var(--ease);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
