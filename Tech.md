@@ -613,3 +613,27 @@ IBM announced a commitment of more than $10 billion in quantum computing investm
 Fault-tolerant quantum computing would render current public-key cryptography obsolete and enable breakthroughs in drug discovery, materials science, and optimisation at scales classical computers cannot reach. IBM's $10B bet signals that the industry has moved from "if" to "when" — and 2029 is the target date the entire cryptographic infrastructure of the internet must prepare for.
 
 **Source:** [IBM Commits $10B+ to Quantum Computing — IBM Newsroom](https://newsroom.ibm.com/2026-06-02-ibm-commits-more-than-10-billion-to-quantum-computing,-funding-its-roadmap-from-todays-leading-systems-to-the-worlds-first-fault-tolerant-quantum-computers)
+
+---
+
+## Article 022
+
+**Title:** SpaceX Lists on Nasdaq — Launches Starlink Mission Same Day as Stock Debut
+
+**Date:** June 12, 2026
+**Company:** SpaceX
+**Category:** Startups · Space Technology
+
+**Summary:**
+SpaceX began publicly trading its stock on the Nasdaq exchange on June 12, 2026, marking a landmark transition from private to public company for one of the most valuable private companies in history. On the same day, SpaceX launched a Starlink satellite mission from Cape Canaveral — a deliberate symbolic alignment of the stock debut with operational activity. Starship Flight 13 (Starship V3's second flight) is scheduled for July 2026, targeting Starlink V3 satellite deployment in H2 2026.
+
+**Key Takeaways:**
+- SpaceX IPO on Nasdaq is one of the largest tech listings in years
+- Same-day Starlink launch reinforces operational momentum narrative to new public investors
+- Starship V3 second flight (Flight 13) slated for July — critical milestone for Mars programme
+- Starlink V3 deployment in H2 2026 will substantially increase per-satellite throughput
+
+**Why It Matters:**
+SpaceX going public changes the capital structure of the commercial space industry permanently. Public market scrutiny will pressure SpaceX to monetise Starlink more aggressively while simultaneously funding the Starship programme — creating a tension between near-term revenue and long-term vision that Elon Musk has previously avoided as a private company.
+
+**Source:** [SpaceX Launches Starlink as Stock Trades on Nasdaq — Spaceflight Now](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/)
