@@ -637,3 +637,27 @@ SpaceX began publicly trading its stock on the Nasdaq exchange on June 12, 2026,
 SpaceX going public changes the capital structure of the commercial space industry permanently. Public market scrutiny will pressure SpaceX to monetise Starlink more aggressively while simultaneously funding the Starship programme — creating a tension between near-term revenue and long-term vision that Elon Musk has previously avoided as a private company.
 
 **Source:** [SpaceX Launches Starlink as Stock Trades on Nasdaq — Spaceflight Now](https://spaceflightnow.com/2026/06/12/live-coverage-spacex-to-launch-final-starlink-mission-as-it-begins-publicly-trade-its-stock-on-the-nasdaq-for-the-first-time/)
+
+---
+
+## Article 023
+
+**Title:** Florida Sues OpenAI and Sam Altman — First US State Lawsuit Over ChatGPT Safety
+
+**Date:** June 2026
+**Company:** OpenAI · State of Florida
+**Category:** Artificial Intelligence · Legal · Policy
+
+**Summary:**
+Florida became the first US state to file a lawsuit directly against OpenAI and CEO Sam Altman, alleging that ChatGPT contributed to harmful real-world incidents including violence involving users. The complaint accuses OpenAI of systematically prioritising rapid growth and commercial expansion over user safety obligations, and of failing to implement adequate safeguards despite awareness of risks to vulnerable users.
+
+**Key Takeaways:**
+- First state-level lawsuit targeting an AI company's CEO personally (Sam Altman named individually)
+- Allegations centre on product liability and consumer protection — not IP or privacy law
+- Florida's action may trigger copycat litigation across other US states
+- OpenAI faces mounting legal pressure across IP lawsuits, regulatory probes, and now state liability suits
+
+**Why It Matters:**
+Product liability law applied to AI outputs would be a seismic legal development. If a court accepts that ChatGPT responses can trigger tort liability analogous to a defective product causing harm, every AI company deploying a consumer-facing model faces retroactive exposure. Florida's lawsuit is a test case for whether AI companies can be treated as product manufacturers under existing law.
+
+**Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
