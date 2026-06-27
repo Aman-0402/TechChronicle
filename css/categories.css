@@ -1,0 +1,88 @@
+/* ============================================================
+   Categories
+   ============================================================ */
+
+.categories-section { background: var(--bg-primary); }
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-4);
+}
+
+.category-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  cursor: pointer;
+  transition: all var(--dur-base) var(--ease);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--category-color, var(--accent));
+  opacity: 0;
+  transition: opacity var(--dur-base) var(--ease);
+}
+
+.category-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  border-color: transparent;
+}
+
+.category-card:hover::before { opacity: 0.06; }
+
+.category-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: var(--accent-soft);
+  position: relative;
+  z-index: 1;
+  transition: transform var(--dur-base) var(--ease-spring);
+}
+
+.category-card:hover .category-card__icon { transform: scale(1.1) rotate(5deg); }
+
+.category-card__name {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+  position: relative;
+  z-index: 1;
+}
+
+.category-card__count {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  position: relative;
+  z-index: 1;
+}
+
+.category-card__arrow {
+  position: absolute;
+  right: var(--space-5);
+  bottom: var(--space-5);
+  color: var(--text-tertiary);
+  font-size: 1rem;
+  transition: all var(--dur-fast) var(--ease);
+  z-index: 1;
+}
+.category-card:hover .category-card__arrow {
+  color: var(--accent);
+  transform: translateX(3px);
+}
