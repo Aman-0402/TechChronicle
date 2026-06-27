@@ -661,3 +661,27 @@ Florida became the first US state to file a lawsuit directly against OpenAI and 
 Product liability law applied to AI outputs would be a seismic legal development. If a court accepts that ChatGPT responses can trigger tort liability analogous to a defective product causing harm, every AI company deploying a consumer-facing model faces retroactive exposure. Florida's lawsuit is a test case for whether AI companies can be treated as product manufacturers under existing law.
 
 **Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
+
+---
+
+## Article 024
+
+**Title:** NVIDIA and LG Group Announce Wide-Ranging AI Partnership — Robotics, Smart Home, Autonomous Driving
+
+**Date:** June 7, 2026
+**Company:** NVIDIA · LG Group
+**Category:** Artificial Intelligence · Robotics · Hardware
+
+**Summary:**
+NVIDIA and LG Group announced a comprehensive strategic partnership covering four distinct domains: AI factory infrastructure deployment, home robotics development, autonomous driving components, and sovereign AI model development for the South Korean market. The partnership integrates NVIDIA's DRIVE platform and Isaac robotics SDK with LG's manufacturing scale and consumer electronics distribution.
+
+**Key Takeaways:**
+- Partnership spans factory AI, home robots, autonomous vehicles, and national AI — unusually broad scope
+- LG's consumer electronics scale gives NVIDIA distribution reach into home robotics at volume
+- Sovereign AI model development component addresses South Korea's national AI strategy
+- NVIDIA Isaac SDK integration positions LG robots on standard tooling used by enterprise robotics
+
+**Why It Matters:**
+LG manufactures at consumer scale — appliances, displays, components — across dozens of countries. NVIDIA's partnership gives its robotics and AI platforms access to one of the world's largest consumer hardware distribution networks. The sovereign AI component signals that national governments are increasingly funding domestic AI capability rather than depending on US or Chinese cloud AI providers.
+
+**Source:** [Autonomous Vehicles News June 2026 — Mean CEO](https://blog.mean.ceo/autonomous-vehicles-news-june-2026/)
