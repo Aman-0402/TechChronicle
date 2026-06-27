@@ -66,16 +66,12 @@
     if (!content) return;
 
     const icon = CATEGORY_ICONS[article.category] || '📄';
-    const bg = BG_PATTERNS[idx % BG_PATTERNS.length];
     const bodyHTML = article.body
       .map(p => p.startsWith('<blockquote>') ? p : `<p>${p}</p>`)
       .join('');
 
     content.innerHTML = `
       <div class="reader__article">
-        <div class="article-hero-image" style="background: ${bg}; font-size: 4rem; justify-content: center;">
-          ${icon}
-        </div>
         <div class="article-category-pill">${icon} ${article.category}</div>
         <h1 class="article-title">${article.title}</h1>
         <div class="article-meta">
