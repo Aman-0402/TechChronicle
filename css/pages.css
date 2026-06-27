@@ -1,0 +1,266 @@
+/* ============================================================
+   Page-specific styles — page header, features grid,
+   timeline-calendar layout, topic articles, search browse
+   ============================================================ */
+
+/* ---- Page Header ---- */
+.page-header {
+  padding: calc(var(--nav-height) + var(--space-16)) 0 var(--space-12);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: 0.4;
+  -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 0%, black 20%, transparent 80%);
+  mask-image: radial-gradient(ellipse 100% 100% at 50% 0%, black 20%, transparent 80%);
+}
+
+[data-theme="dark"] .page-header::before { opacity: 0.15; }
+
+.page-header__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-4);
+}
+
+.page-header__desc {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  max-width: 540px;
+  line-height: 1.7;
+}
+
+/* ---- Features Grid (landing) ---- */
+.features {
+  background: var(--bg-primary);
+  padding: var(--space-24) 0;
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-5);
+}
+
+@media (max-width: 640px) {
+  .features__grid { grid-template-columns: 1fr; }
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-8);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  text-decoration: none;
+  transition: all var(--dur-base) var(--ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), #BF5AF2);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-slow) var(--ease-out);
+}
+
+.feature-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.feature-card:hover::after { transform: scaleX(1); }
+
+.feature-card__icon {
+  font-size: 2.25rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-2);
+  border-radius: var(--radius-md);
+  transition: transform var(--dur-base) var(--ease-spring);
+}
+
+.feature-card:hover .feature-card__icon { transform: scale(1.1) rotate(5deg); }
+
+.feature-card__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.feature-card__desc {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.feature-card__link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: var(--space-2);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+/* ---- Timeline page: side-by-side calendar ---- */
+.timeline-calendar-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .timeline-calendar-wrap { grid-template-columns: 1fr; }
+}
+
+.calendar-articles {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  min-height: 400px;
+}
+
+.calendar-articles__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  gap: var(--space-4);
+  color: var(--text-tertiary);
+  text-align: center;
+}
+
+.calendar-articles__empty-icon { font-size: 3rem; opacity: 0.4; }
+
+.calendar-articles__title {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--border);
+}
+
+.calendar-article-item {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--dur-fast) var(--ease);
+  margin-bottom: var(--space-2);
+  border: 1px solid transparent;
+}
+
+.calendar-article-item:hover {
+  background: var(--surface-2);
+  border-color: var(--border);
+}
+
+.calendar-article-item__cat {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  margin-bottom: var(--space-1);
+}
+
+.calendar-article-item__title {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---- Topics page ---- */
+.topic-articles {
+  padding: var(--space-12) 0 var(--space-24);
+  background: var(--bg-secondary);
+}
+
+.topic-articles__header {
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--border);
+}
+
+.topic-articles__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.topic-articles__title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* ---- Search page ---- */
+.search-page {
+  background: var(--bg-primary);
+  min-height: calc(100vh - var(--nav-height));
+  padding-bottom: var(--space-24);
+}
+
+.search-browse { }
+
+.search-browse__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-4);
+}
+
+/* Shared section spacing overrides for inner pages */
+.timeline-section { background: var(--bg-primary); }
+.calendar-section  { background: var(--bg-secondary); }
+
+/* section-header modifiers (replace inline styles) */
+.section-header--spaced  { margin-top: var(--space-16); }
+.section-header--browse  { margin-bottom: var(--space-8); }
+.section-title--sm       { font-size: 1.75rem; }
