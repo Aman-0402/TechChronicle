@@ -685,3 +685,27 @@ NVIDIA and LG Group announced a comprehensive strategic partnership covering fou
 LG manufactures at consumer scale — appliances, displays, components — across dozens of countries. NVIDIA's partnership gives its robotics and AI platforms access to one of the world's largest consumer hardware distribution networks. The sovereign AI component signals that national governments are increasingly funding domestic AI capability rather than depending on US or Chinese cloud AI providers.
 
 **Source:** [Autonomous Vehicles News June 2026 — Mean CEO](https://blog.mean.ceo/autonomous-vehicles-news-june-2026/)
+
+---
+
+## Article 025
+
+**Title:** Alphabet Plans $80B Stock Offering to Fund AI Infrastructure Expansion
+
+**Date:** June 2026
+**Company:** Google / Alphabet
+**Category:** Cloud Computing · AI Infrastructure · Finance
+
+**Summary:**
+Alphabet announced plans to raise $80 billion through a stock offering to fund continued large-scale investment in AI infrastructure, compute capacity, and global data centre expansion. The raise comes amid record revenue growth at Google Cloud and is intended to sustain the capital expenditure programme that drove the $600B+ hyperscaler investment figure for 2026. Anthropic also moved toward a public offering in the same period, signalling broad capital market confidence in AI companies.
+
+**Key Takeaways:**
+- $80B offering is one of the largest equity raises in tech history
+- Capital directed at AI infrastructure: data centres, TPU clusters, networking
+- Anthropic IPO movement signals AI companies broadly seeking public market capital
+- SpaceX also warns that water scarcity is becoming a critical AI data centre constraint
+
+**Why It Matters:**
+An $80B equity raise by Alphabet restructures how Wall Street thinks about AI infrastructure companies. It frames hyperscalers not as mature cash-flow businesses but as infrastructure builders in a once-in-a-generation investment cycle — similar to how telecoms raised capital to lay fibre in the 1990s. The water scarcity warning from SpaceX foreshadows a physical constraint that no amount of capital solves directly.
+
+**Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
