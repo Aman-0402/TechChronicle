@@ -1111,3 +1111,25 @@ Mistral AI released Mistral Large 2, a 123 billion parameter model matching GPT-
 Mistral Large 2 demonstrated that frontier-scale model capability is no longer exclusively a US tech giant domain. A European startup with significantly less compute budget achieved GPT-4-class benchmark performance and released it openly. This shifts the geopolitical calculus of AI — frontier capability is now accessible outside the closed US hyperscaler ecosystem, with implications for European AI sovereignty and the open-source AI supply chain globally.
 
 **Source:** [Mistral Large 2 — Mistral AI Blog](https://mistral.ai/news/mistral-large-2407/)
+
+## Article 043
+
+**Title:** TSMC Begins 2nm Risk Production — N2 Process Targets 2025 Volume Ramp
+
+**Date:** April 2026
+**Company:** TSMC
+**Category:** Hardware · Semiconductors · Manufacturing
+
+**Summary:**
+TSMC commenced risk production of its 2nm (N2) process node at its Hsinchu fab in Taiwan, with volume production scheduled for late 2025 and major customer tape-outs expected from Apple, AMD, and NVIDIA. N2 achieves an estimated 15% performance improvement over N3E at the same power, or 25–30% power reduction at the same performance. TSMC's N2 uses nanosheet (Gate-All-Around) transistor architecture for the first time, replacing FinFET used since 16nm.
+
+**Key Takeaways:**
+- N2 switches to nanosheet GAA transistor — first architecture change since FinFET at 16nm
+- 15% performance gain or 25–30% power reduction versus N3E
+- Apple expected to be first major customer — likely for A20 chip in iPhone 18
+- TSMC 2nm fab in Arizona under construction to reduce geopolitical concentration risk
+
+**Why It Matters:**
+The move from FinFET to Gate-All-Around transistors at 2nm is the most significant transistor architecture change in a decade. FinFET scaling was approaching physical limits — GAA enables continued improvement by surrounding the channel on all four sides rather than three. For AI and mobile chips, the power efficiency gains matter more than raw frequency: training runs become cheaper per FLOP, and mobile devices extend battery life while running more capable on-device models.
+
+**Source:** [TSMC 2nm Process — TSMC](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm)
