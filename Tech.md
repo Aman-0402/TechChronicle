@@ -1155,3 +1155,25 @@ Waymo reached 50,000 paid autonomous robotaxi rides per week in San Francisco, m
 Waymo at 50,000 rides per week is no longer a pilot — it is a functioning transportation business. Every competitor in autonomous vehicles (Cruise, Zoox, Mobileye, Tesla FSD) has either retreated, narrowed scope, or not yet achieved public deployment. Waymo's commercial scale creates a data flywheel that smaller programs cannot replicate: more miles driven, more edge cases encountered, better model, more miles. The gap compounds.
 
 **Source:** [Waymo One — Waymo](https://waymo.com/waymo-one/)
+
+## Article 045
+
+**Title:** Stack Overflow Traffic Drops 50% as Developers Shift to AI Coding Assistants
+
+**Date:** April 2026
+**Company:** Stack Overflow · GitHub · OpenAI
+**Category:** Developer Tools · Artificial Intelligence · Open Source
+
+**Summary:**
+Stack Overflow reported a greater than 50% decline in monthly active users and page views between 2023 and 2026, directly attributed to developers using AI coding assistants — GitHub Copilot, Cursor, ChatGPT, and Claude — to answer programming questions that were previously sourced from Stack Overflow. The decline accelerated after GPT-4 and Claude 3 were released. Stack Overflow announced a partnership with OpenAI to license its content for AI training while simultaneously pivoting its business model toward enterprise developer tools and OverflowAI.
+
+**Key Takeaways:**
+- >50% traffic decline in under 3 years — fastest user exodus of any major developer platform
+- Developers report AI answers faster, more contextual, and more specific than Stack Overflow results
+- Stack Overflow-OpenAI partnership licenses decades of Q&A content for AI training data
+- OverflowAI product attempts to integrate AI into Stack Overflow's core knowledge base
+
+**Why It Matters:**
+Stack Overflow's decline is the clearest signal that AI coding assistants have crossed a quality threshold where they are the preferred information source over curated human expert communities. The platform that hosted 58 million developer questions for 15 years is losing to a model that learned from those questions. This creates a circular dependency problem for AI training data: the communities that generated the training data are being displaced by the models trained on it.
+
+**Source:** [Stack Overflow Annual Developer Survey 2025](https://survey.stackoverflow.co/2025/)
