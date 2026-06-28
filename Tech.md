@@ -1001,3 +1001,25 @@ The European Union AI Act officially entered into force on August 1, 2025, becom
 The EU AI Act does to AI what GDPR did to data — establishes a compliance baseline that shapes global product development because companies building for the EU market must comply regardless of where they are headquartered. GPAI provisions directly affect frontier model providers including OpenAI, Anthropic, Google, and Meta. The Act is already influencing regulatory discussions in the US, UK, Japan, and Canada.
 
 **Source:** [EU AI Act — EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
+
+## Article 038
+
+**Title:** Tesla Optimus Gen 2 Robot Demonstrated Folding Laundry and Sorting Objects Autonomously
+
+**Date:** January 2026
+**Company:** Tesla
+**Category:** Robotics · Artificial Intelligence · Hardware
+
+**Summary:**
+Tesla unveiled Optimus Gen 2, the second generation of its humanoid robot, demonstrating autonomous laundry folding, object sorting, and egg handling without breaking shells — all using neural network-based end-to-end control rather than scripted motion. Gen 2 achieved 30% faster walking speed than Gen 1, weighs 10kg less at 57kg total, and features Tesla-designed actuators with force/torque sensing in all joints. Elon Musk projected Optimus production at tens of thousands of units in 2025 scaling to millions by 2030.
+
+**Key Takeaways:**
+- Autonomous laundry folding is first real-world dexterity benchmark achieved by a commercial humanoid
+- Neural end-to-end control replaces scripted motions — generalises to unseen objects
+- 57kg weight and 30% speed improvement enable factory floor deployment
+- Tesla aims to sell Optimus externally after internal factory use — potential $20K price target
+
+**Why It Matters:**
+Laundry folding is a canonical hard robotics problem — soft, irregular, deformable objects with infinite shape configurations. Tesla solving it with a neural end-to-end policy rather than hand-coded manipulation is significant because the same policy architecture generalises. Combined with vertical integration of actuators, compute, and training data from internal factory use, Tesla's robotics approach mirrors the advantage that gave it an edge in self-driving: massive proprietary real-world data collection.
+
+**Source:** [Tesla Optimus Gen 2 — Tesla](https://www.tesla.com/AI)
