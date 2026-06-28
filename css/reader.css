@@ -1,10 +1,13 @@
 /* ============================================================
-   Reading Experience
+   Reading Experience — Full Page
    ============================================================ */
 
 .reader {
   position: fixed;
-  inset: 0;                    /* true fullscreen — covers nav too */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background: var(--bg-primary);
   z-index: var(--z-modal);
   display: flex;
@@ -14,17 +17,16 @@
 }
 
 @keyframes reader-open {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-/* ---- Progress bar — sits at very top ---- */
+/* ---- Progress bar — very top, 0 height gap ---- */
 .reader__progress {
-  position: relative;          /* not fixed — part of flex column */
+  position: relative;
   height: 3px;
   background: var(--border);
   flex-shrink: 0;
-  z-index: 1;
 }
 .reader__progress-bar {
   height: 100%;
@@ -33,18 +35,17 @@
   width: 0%;
 }
 
-/* ---- Header bar ---- */
+/* ---- Header — compact, no wasted height ---- */
 .reader__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-3) var(--space-6);
+  padding: 10px var(--space-6);
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
   background: var(--bg-glass);
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  min-height: 52px;
+  backdrop-filter: blur(16px);
 }
 
 .reader__page-indicator {
@@ -61,25 +62,25 @@
   letter-spacing: 0.05em;
 }
 
-/* ---- Scrollable content area ---- */
+/* ---- Scrollable content — full width, minimal side padding ---- */
 .reader__content {
   flex: 1;
   overflow-y: auto;
   scroll-behavior: smooth;
-  padding: 0 var(--space-6);   /* horizontal padding here, not on article */
+  padding: 0;                 /* no container padding — article handles it */
 }
 
-/* Article: wide reading column — big and noticeable */
+/* ---- Article — full-page width, tight top spacing ---- */
 .reader__article {
-  max-width: 860px;
+  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
-  padding: var(--space-12) 0 var(--space-20);
+  padding: var(--space-8) var(--space-10) var(--space-12);
   animation: article-in var(--dur-base) var(--ease-out);
 }
 
 @keyframes article-in {
-  from { opacity: 0; transform: translateX(20px); }
+  from { opacity: 0; transform: translateX(16px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 
@@ -91,26 +92,25 @@
 }
 
 @keyframes article-slide-left {
-  from { opacity: 0; transform: translateX(-20px); }
+  from { opacity: 0; transform: translateX(-16px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 @keyframes article-slide-right {
-  from { opacity: 0; transform: translateX(20px); }
+  from { opacity: 0; transform: translateX(16px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 
-/* ---- Bottom nav ---- */
+/* ---- Bottom nav — compact ---- */
 .reader__nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-3) var(--space-6);
+  padding: 10px var(--space-6);
   border-top: 1px solid var(--border);
   flex-shrink: 0;
   background: var(--bg-glass);
-  backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  min-height: 64px;
+  backdrop-filter: blur(16px);
   gap: var(--space-4);
 }
 
@@ -122,7 +122,7 @@
   flex: 1;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 480px;
+  max-width: 600px;
 }
 
 .reader__dot {
@@ -149,7 +149,7 @@
   transform: none;
 }
 
-/* ---- Article category pill ---- */
+/* ---- Category pill ---- */
 .article-category-pill {
   display: inline-flex;
   align-items: center;
@@ -164,24 +164,23 @@
   font-family: var(--font-mono);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
 }
 
 /* ---- Mobile ---- */
 @media (max-width: 768px) {
-  .reader__content { padding: 0 var(--space-4); }
+  .reader__article {
+    padding: var(--space-6) var(--space-4) var(--space-10);
+  }
 
   .reader__header,
-  .reader__nav { padding: var(--space-3) var(--space-4); }
-
-  .reader__article { padding: var(--space-8) 0 var(--space-12); }
-
-  /* Hide Previous text label on small screens */
-  .reader__nav .btn--ghost svg + * { display: none; }
+  .reader__nav {
+    padding: 10px var(--space-4);
+  }
 }
 
 @media (max-width: 480px) {
-  .reader__dots { max-width: 200px; }
-  .reader__dot  { width: 5px; height: 5px; gap: 4px; }
-  .reader__dot.active { width: 16px; }
+  .reader__dots { max-width: 220px; }
+  .reader__dot  { width: 5px; height: 5px; }
+  .reader__dot.active { width: 14px; }
 }
