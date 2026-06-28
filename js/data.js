@@ -564,6 +564,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Cloudflare', 'LLM', 'API Gateway', 'Semantic Caching', 'AI Infrastructure'],
   },
+
+  {
+    id: 33,
+    category: 'Hardware',
+    title: 'Intel Foundry Services Lands TSMC Rival Contract with Microsoft for 18A Process Node',
+    excerpt: 'Microsoft commits to manufacturing next-gen server CPUs on Intel 18A, validating the foundry turnaround strategy.',
+    body: [
+      "Intel Foundry Services has secured a major manufacturing contract with Microsoft to produce a custom server CPU on the Intel 18A process node — the company's most advanced manufacturing technology, which uses Gate-All-Around (GAA) transistors and backside power delivery for the first time.",
+      "The deal is a significant milestone for Intel CEO Lip-Bu Tan's foundry turnaround strategy, which depends on winning external customers to justify the enormous capital expenditure of maintaining a competitive process node roadmap. Analysts estimate the Microsoft contract is worth between $3.5B and $5B over five years.",
+      "Intel 18A features RibbonFET GAA transistors that enable tighter scaling and lower leakage than FinFET, and PowerVia backside power delivery that reduces IR drop and frees up routing resources on the front side. Early yield data shared with customers reportedly shows 18A is competitive with TSMC N2 on both performance and power efficiency metrics.",
+      "<blockquote>We chose Intel 18A because the technical specifications are genuinely competitive, the geopolitical diversification is strategically important, and Intel's US manufacturing footprint matters for our sovereign infrastructure commitments. — Satya Nadella, CEO, Microsoft</blockquote>",
+      "Production is expected to begin in Q3 2027. The contract covers an undisclosed volume of custom Arm-architecture processors that Microsoft will use in its Azure datacenter AI inference clusters — competing directly with Graviton5 chips from AWS.",
+    ],
+    company: 'Intel / Microsoft',
+    readTime: 5,
+    tags: ['Intel', 'Intel 18A', 'Microsoft', 'Foundry', 'GAA Transistors'],
+  },
 ];
 
 TC.timelineData = {
