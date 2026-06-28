@@ -912,3 +912,25 @@ Microsoft launched Copilot+ PC as a hardware certification category requiring a 
 Copilot+ PCs mark the first time AI inference is a mandatory hardware specification for a mainstream PC category — equivalent to when SSDs became the baseline for laptops. The 40 TOPS floor ensures that the next three-to-five years of Windows AI features run locally without network dependency. The Recall feature, controversial for privacy reasons, represents the most ambitious use of on-device AI in a consumer OS to date.
 
 **Source:** [Introducing Copilot+ PCs — Microsoft](https://blogs.microsoft.com/blog/2024/05/20/introducing-copilot-pcs/)
+
+## Article 034
+
+**Title:** Apple Announces Apple Intelligence — On-Device and Private Cloud AI Across iPhone, iPad, Mac
+
+**Date:** June 2026
+**Company:** Apple
+**Category:** Artificial Intelligence · Privacy · Mobile
+
+**Summary:**
+Apple announced Apple Intelligence at WWDC, integrating AI capabilities across iOS 18, iPadOS 18, and macOS Sequoia. Apple Intelligence runs the majority of models on-device using a dedicated on-device model, with more complex requests routed to Private Cloud Compute — Apple-controlled servers that process requests without Apple seeing the data. Features include Writing Tools across all apps, Image Playground, priority notification summaries, and a significantly upgraded Siri with cross-app awareness.
+
+**Key Takeaways:**
+- On-device model handles most tasks with no data leaving the device
+- Private Cloud Compute for complex tasks — verifiably private, no Apple data access
+- Siri gains cross-app action capability: "Send the photos from last weekend to Mom"
+- Writing Tools and Image Playground embedded system-wide across all apps
+
+**Why It Matters:**
+Apple Intelligence establishes privacy as a differentiating constraint rather than a marketing claim — Private Cloud Compute is verifiable by security researchers because the server software is published. This is the first major AI platform where the privacy architecture is independently auditable. Combined with 1.8 billion active Apple devices, Apple Intelligence immediately becomes the widest-deployed on-device AI system in history on launch.
+
+**Source:** [Introducing Apple Intelligence — Apple](https://www.apple.com/apple-intelligence/)
