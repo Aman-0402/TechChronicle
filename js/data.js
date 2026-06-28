@@ -547,6 +547,23 @@ TC.articles = [
     readTime: 5,
     tags: ['NSA', 'AI Security', 'Supply Chain', 'Backdoor', 'Nation-State'],
   },
+
+  {
+    id: 32,
+    category: 'Cloud',
+    title: 'Cloudflare Launches AI Gateway: Rate Limiting, Caching, and Observability for LLM APIs',
+    excerpt: 'Free tier handles 10M requests/month; enterprise tier adds semantic caching to cut LLM costs by up to 70%.',
+    body: [
+      "Cloudflare has launched AI Gateway, a reverse proxy and observability layer that sits between application code and LLM APIs (OpenAI, Anthropic, Google, Cohere, and others) to provide rate limiting, request caching, cost analytics, and fallback routing — all without code changes on the client side.",
+      "The most technically interesting feature is semantic caching: rather than exact-match caching of prompts, AI Gateway uses a small embedding model to identify semantically equivalent requests and serve cached responses. In A/B tests with real enterprise traffic, semantic caching reduced API spend by 68% with no measurable decrease in response quality.",
+      "The observability dashboard provides per-model cost breakdowns, token usage per user/session, latency percentiles (p50/p95/p99), and error rate tracking. A PII detection layer can automatically redact sensitive information before requests leave the customer's network — a capability that is particularly attractive for regulated industries.",
+      "<blockquote>Every AI application we talk to is spending 40-60% of its budget on redundant API calls. AI Gateway eliminates that waste at the infrastructure layer so developers don't have to build caching logic themselves. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "AI Gateway is free for up to 10 million requests per month. The enterprise tier, which includes semantic caching, SSO, and SLA guarantees, starts at $500 per month. It is available globally on Cloudflare's 300+ edge locations with sub-millisecond proxy overhead.",
+    ],
+    company: 'Cloudflare',
+    readTime: 4,
+    tags: ['Cloudflare', 'LLM', 'API Gateway', 'Semantic Caching', 'AI Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
