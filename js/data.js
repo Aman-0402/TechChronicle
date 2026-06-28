@@ -377,6 +377,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Gemini', 'Long Context', 'DeepMind', 'LLM'],
   },
+
+  {
+    id: 22,
+    category: 'Cybersecurity',
+    title: 'Microsoft Patches Critical NTLM Relay Vulnerability Exploited in the Wild',
+    excerpt: 'CVE-2026-3182 allowed attackers to escalate to SYSTEM on any unpatched Windows machine via SMB relay.',
+    body: [
+      "Microsoft's June 2026 Patch Tuesday included an emergency fix for CVE-2026-3182, a critical NTLM relay vulnerability that security researchers at CrowdStrike discovered being actively exploited in targeted attacks against financial institutions across Europe.",
+      "The flaw allows an unauthenticated attacker on the same network segment to intercept and relay NTLM authentication requests, escalating privileges to SYSTEM on Windows 10, Windows 11, and Windows Server 2019/2022 without requiring any user interaction. CVSS score: 9.8 Critical.",
+      "CrowdStrike Falcon telemetry detected approximately 340 exploitation attempts in the 72 hours before the patch was released. Victims were predominantly banks and insurance firms, suggesting a financially-motivated threat actor the company tracks as GOLD SOVEREIGN.",
+      "<blockquote>NTLM relay attacks are not new, but this variant bypasses the SMB signing protections most organizations rely on as their primary mitigation. Patching alone is not sufficient — network segmentation is essential. — Adam Meyers, SVP Intelligence, CrowdStrike</blockquote>",
+      "Microsoft strongly recommends applying KB5041578 immediately and enabling SMB over QUIC as an additional layer of protection. Organizations that cannot patch immediately should disable NTLM authentication on domain controllers as a temporary measure.",
+    ],
+    company: 'Microsoft / CrowdStrike',
+    readTime: 4,
+    tags: ['NTLM', 'CVE-2026-3182', 'Windows', 'Patch Tuesday', 'CrowdStrike'],
+  },
 ];
 
 TC.timelineData = {
