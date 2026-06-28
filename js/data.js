@@ -428,6 +428,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Linux', 'Rust', 'Kernel', 'Memory Safety', 'Open Source'],
   },
+
+  {
+    id: 25,
+    category: 'Hardware',
+    title: 'Apple M5 Pro Benchmarks Leak: 60% GPU Jump Over M4 Pro',
+    excerpt: 'Pre-release benchmarks show unprecedented GPU leap driven by a new 40-core graphics architecture.',
+    body: [
+      "Benchmark results for an unannounced Apple silicon chip, widely believed to be the M5 Pro, have surfaced across Geekbench, GPU benchmark databases, and an internal Apple developer portal leak. The results paint a picture of a dramatic generational leap, particularly on the GPU side.",
+      "The chip appears to feature a 40-core GPU — up from 20 cores on the M4 Pro — built on TSMC's 2nm N2 process. Geekbench Metal scores of 182,000 represent a 60% improvement over the best-known M4 Pro results, placing it ahead of AMD's RX 7900 XTX in the Metal compute benchmark.",
+      "CPU performance is also strong: single-core scores of 4,100 and multi-core scores of 28,500 suggest roughly 25% and 30% improvements respectively. The memory bandwidth figure — 400 GB/s — is double that of the M4 Pro, suggesting the Unified Memory architecture has been substantially reworked.",
+      "<blockquote>If these numbers hold up in production silicon, the M5 Pro will be the fastest laptop chip in history by a wide margin. — Anandtech preliminary analysis</blockquote>",
+      "Apple is expected to announce M5 Pro and M5 Max MacBook Pros at a special event in September 2026. Pricing is expected to remain consistent with prior Pro generations, starting at ,999.",
+    ],
+    company: 'Apple',
+    readTime: 4,
+    tags: ['Apple Silicon', 'M5 Pro', 'GPU', 'MacBook Pro', 'TSMC 2nm'],
+  },
 ];
 
 TC.timelineData = {
