@@ -1221,3 +1221,25 @@ Microsoft made a $650 million payment to Inflection AI and hired co-founder Must
 The Inflection acquisition structure — pay for a licence, hire the team separately — became a template for tech-AI dealmaking that regulators subsequently scrutinised. More substantively, Mustafa Suleyman's arrival at Microsoft shifted the company's consumer AI strategy from pure OpenAI partnership dependency toward building internal AI leadership. It also removed Inflection as a standalone competitor while the FTC and UK CMA began investigating whether the structure constituted an unreviewed merger.
 
 **Source:** [Microsoft Inflection AI — Microsoft Blog](https://blogs.microsoft.com/blog/2024/03/19/microsoft-and-inflection-ai/)
+
+## Article 048
+
+**Title:** DeepSeek R1 Released — Chinese Open-Source Model Matches OpenAI o1 Reasoning Performance
+
+**Date:** January 2026
+**Company:** DeepSeek
+**Category:** Artificial Intelligence · Open Source · Language Models
+
+**Summary:**
+DeepSeek released R1, an open-source chain-of-thought reasoning model trained using reinforcement learning that matched OpenAI o1 performance on mathematics, coding, and science reasoning benchmarks — at a reported training cost of under $6 million. DeepSeek published the full technical report and released model weights under an MIT licence. The release caused a single-day 17% decline in NVIDIA stock as investors reassessed whether AI training would require the level of compute investment previously assumed.
+
+**Key Takeaways:**
+- Matches OpenAI o1 on AIME, Codeforces, and GPQA benchmarks
+- Trained for under $6M — orders of magnitude cheaper than comparable US frontier models
+- Full MIT licence — weights downloadable, fine-tunable, and deployable commercially
+- NVIDIA stock fell 17% in one day on DeepSeek release — $600B market cap loss
+
+**Why It Matters:**
+DeepSeek R1 shattered the assumption that frontier AI performance required billion-dollar compute budgets. The training efficiency was achieved under export-restricted conditions — without access to NVIDIA H100s — forcing a reassessment of how much of the AI compute investment thesis is about genuine compute necessity versus inefficient training practice. The MIT licence made the model the most capable freely deployable reasoning model ever released, directly threatening the revenue models of every closed AI API provider.
+
+**Source:** [DeepSeek R1 — DeepSeek](https://api-docs.deepseek.com/news/news250120)
