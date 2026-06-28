@@ -344,12 +344,7 @@ TC.articles = [
 
 TC.timelineData = {
   2026: {
-    January:  { count: 620,  topics: ['AI Regulation', 'CES 2026',     'New Year Tech'] },
-    February: { count: 580,  topics: ['Chip Wars',     'Open Source',  'Security'] },
-    March:    { count: 610,  topics: ['Cloud Native',  'Startups',     'Research'] },
-    April:    { count: 590,  topics: ['AI Models',     'Hardware',     'Dev Tools'] },
-    May:      { count: 640,  topics: ['Build Season',  'Open Source',  'Infrastructure'] },
-    June:     { count: 430,  topics: ['WWDC',          'Privacy',      'AI Ethics'] },
+    June: { count: 20, topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools'] },
   },
 };
 
