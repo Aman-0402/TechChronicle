@@ -1045,3 +1045,25 @@ Google announced Gemini 1.5 Pro with a 1 million token context window — the la
 Context length was a fundamental limit of language models — you could ask questions about long documents only by chunking them, losing cross-document relationships. At 1M tokens, Gemini 1.5 Pro can reason over an entire software repository, a company's full document archive, or a year's worth of meeting recordings simultaneously. This changes the design pattern for AI applications: instead of retrieval-augmented generation to manage context limits, entire knowledge bases can be passed directly to the model.
 
 **Source:** [Gemini 1.5 Pro — Google DeepMind](https://deepmind.google/technologies/gemini/pro/)
+
+## Article 040
+
+**Title:** xAI Raises $6 Billion Series B — Grok 2 Released With Real-Time X Platform Data Access
+
+**Date:** May 2026
+**Company:** xAI
+**Category:** Artificial Intelligence · Startups · Language Models
+
+**Summary:**
+Elon Musk's xAI raised a $6 billion Series B at an $18 billion valuation and simultaneously released Grok 2, the second generation of its AI assistant embedded in X (formerly Twitter). Grok 2 has real-time access to X platform data — enabling it to answer questions about current events as they happen, a capability no other model had natively at the time. The model also supports image generation via Black Forest Labs' FLUX model and is available to X Premium subscribers.
+
+**Key Takeaways:**
+- $6B raise at $18B valuation — fastest to Series B scale in AI company history at the time
+- Real-time X data integration: Grok 2 answers questions about trending events as they unfold
+- FLUX-based image generation integrated directly into chat interface
+- X platform's 600M+ users give xAI distribution that other AI labs must pay to acquire
+
+**Why It Matters:**
+Real-time data access from a live social platform eliminates the training cutoff problem for current events — Grok 2 does not have a knowledge cutoff for things happening on X. Combined with 600 million potential users as distribution, xAI has a data and distribution moat that is structurally different from OpenAI, Anthropic, or Google's. The $18B valuation at Series B established xAI as a tier-1 AI company within 18 months of founding.
+
+**Source:** [xAI Series B — xAI Blog](https://x.ai/blog)
