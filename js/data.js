@@ -598,6 +598,23 @@ TC.articles = [
     readTime: 5,
     tags: ['PostgreSQL', 'Vector Search', 'Columnar Storage', 'Database', 'Open Source'],
   },
+
+  {
+    id: 35,
+    category: 'AI',
+    title: 'Meta Releases Llama 4 Scout: 17B Active Parameters, 109B Total, Runs on a Single GPU',
+    excerpt: 'Mixture-of-experts architecture allows frontier-class reasoning on consumer hardware for the first time.',
+    body: [
+      "Meta has open-sourced Llama 4 Scout, a 17B active parameter / 109B total parameter mixture-of-experts model that achieves performance comparable to dense 70B models while requiring only a single A100 or RTX 4090 GPU for inference — a democratization milestone for local AI deployment.",
+      "The model uses a 16-expert sparse MoE architecture where each token activates only 2 experts per layer, keeping the active parameter count at 17B regardless of total model size. The routing algorithm is a learned sparse gate trained with auxiliary load-balancing losses to ensure even distribution across experts.",
+      "On MMLU, Scout scores 84.2% — within 2 points of Llama 3 405B and above GPT-4o-mini on 8 of 12 benchmark categories. On code generation (HumanEval), it scores 79.1%, outperforming all previous Llama models and matching Claude 3.5 Sonnet on most programming tasks.",
+      "<blockquote>We believe intelligence should not require a data center. Llama 4 Scout is our clearest statement yet that open models can match closed models at a fraction of the cost and with full local privacy. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "Llama 4 Scout is released under the Llama 4 Community License, which permits commercial use for organizations with fewer than 700 million monthly active users. GGUF quantized versions are available on Hugging Face immediately, with 4-bit quantization fitting comfortably in 12GB VRAM.",
+    ],
+    company: 'Meta',
+    readTime: 5,
+    tags: ['Llama 4', 'Meta', 'MoE', 'Open Source AI', 'Local LLM'],
+  },
 ];
 
 TC.timelineData = {
