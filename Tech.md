@@ -978,3 +978,26 @@ AMD launched the Ryzen AI 300 series processors featuring a 50 TOPS NPU — exce
 AMD's entry into the AI PC NPU race with a competitive 50 TOPS figure prevents Qualcomm from owning the Copilot+ market segment alone. For the first time in two decades, NPU performance is a primary purchasing consideration for mainstream laptops — not just CPU clock speed or GPU tier. AMD's x86 compatibility removes the application compatibility risk that hampered early Snapdragon X Elite adoption.
 
 **Source:** [AMD Ryzen AI 300 Series — AMD](https://www.amd.com/en/products/processors/laptop/ryzen-ai.html)
+
+## Article 037
+
+**Title:** EU AI Act Enters Into Force — First Comprehensive AI Regulation Framework Globally
+
+**Date:** August 2025
+**Company:** European Union
+**Category:** Policy · Regulation · Artificial Intelligence
+
+**Summary:**
+The European Union AI Act officially entered into force on August 1, 2025, becoming the world's first comprehensive binding legal framework for artificial intelligence. The Act classifies AI systems by risk level — unacceptable, high, limited, and minimal — with corresponding obligations for developers and deployers. Prohibited systems include social scoring, real-time biometric surveillance in public spaces, and subliminal manipulation. High-risk systems (medical devices, critical infrastructure, hiring tools) face conformity assessments, transparency requirements, and mandatory human oversight provisions.
+
+**Key Takeaways:**
+- Risk-based classification: unacceptable (banned), high, limited, minimal risk tiers
+- Real-time biometric surveillance and social scoring prohibited in the EU
+- High-risk AI requires conformity assessments before deployment
+- GPAI (General Purpose AI) models above 10²⁵ FLOPs face systemic risk obligations
+- Fines up to 7% of global annual turnover for the most serious violations
+
+**Why It Matters:**
+The EU AI Act does to AI what GDPR did to data — establishes a compliance baseline that shapes global product development because companies building for the EU market must comply regardless of where they are headquartered. GPAI provisions directly affect frontier model providers including OpenAI, Anthropic, Google, and Meta. The Act is already influencing regulatory discussions in the US, UK, Japan, and Canada.
+
+**Source:** [EU AI Act — EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)
