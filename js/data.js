@@ -581,6 +581,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Intel', 'Intel 18A', 'Microsoft', 'Foundry', 'GAA Transistors'],
   },
+
+  {
+    id: 34,
+    category: 'Open Source',
+    title: 'PostgreSQL 18 Released with Native Vector Search and Columnar Storage Extension',
+    excerpt: 'Core team ships two flagship features that have been the primary reason developers add external databases.',
+    body: [
+      "The PostgreSQL Global Development Group has released PostgreSQL 18, delivering two features that fundamentally extend the database's capabilities: native vector similarity search and a built-in columnar storage extension (pg_columnar) for analytical workloads.",
+      "Vector search is implemented as a new index type — VAMANA — based on Microsoft Research's DiskANN algorithm, which outperforms HNSW (used by pgvector) on high-recall searches over datasets larger than available RAM by 3-5x. The implementation supports L2, cosine, and inner product distance metrics and integrates directly with existing GiST index infrastructure.",
+      "pg_columnar introduces an optional columnar storage format for tables flagged as USING COLUMNAR. Columnar tables compress 8-12x better than heap tables for analytical data and execute aggregation queries 40-60x faster on large datasets. The feature targets the common pattern of using PostgreSQL for OLTP but needing to add ClickHouse or DuckDB for analytics.",
+      "<blockquote>For twenty years, people have said PostgreSQL is a great OLTP database but you need something else for analytics and vectors. With PG18, that is no longer true for most workloads. — Peter Eisentraut, PostgreSQL Core Team</blockquote>",
+      "PostgreSQL 18 also introduces asynchronous I/O by default, removing one of the last major performance gaps with Oracle and SQL Server on I/O-heavy workloads. Benchmarks on NVMe-backed storage show 2-3x throughput improvements for write-heavy OLTP at high concurrency.",
+    ],
+    company: 'PostgreSQL Global Development Group',
+    readTime: 5,
+    tags: ['PostgreSQL', 'Vector Search', 'Columnar Storage', 'Database', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
