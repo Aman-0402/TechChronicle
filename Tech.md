@@ -1243,3 +1243,25 @@ DeepSeek released R1, an open-source chain-of-thought reasoning model trained us
 DeepSeek R1 shattered the assumption that frontier AI performance required billion-dollar compute budgets. The training efficiency was achieved under export-restricted conditions — without access to NVIDIA H100s — forcing a reassessment of how much of the AI compute investment thesis is about genuine compute necessity versus inefficient training practice. The MIT licence made the model the most capable freely deployable reasoning model ever released, directly threatening the revenue models of every closed AI API provider.
 
 **Source:** [DeepSeek R1 — DeepSeek](https://api-docs.deepseek.com/news/news250120)
+
+## Article 049
+
+**Title:** Perplexity AI Launches Answer Engine With Real-Time Web Citations — Valued at $3B
+
+**Date:** April 2026
+**Company:** Perplexity AI
+**Category:** Artificial Intelligence · Search · Startups
+
+**Summary:**
+Perplexity AI reached a $3 billion valuation after raising $250 million from SoftBank, NVIDIA, and Jeff Bezos, positioning itself as the primary alternative to Google Search for AI-native information retrieval. Perplexity's answer engine combines real-time web search with language model synthesis, returning cited, sourced answers rather than a list of links. Monthly active queries reached 100 million, with strong adoption among researchers, students, and professionals seeking synthesised information over raw search results.
+
+**Key Takeaways:**
+- $3B valuation from SoftBank/NVIDIA/Bezos backing — AI search emerging as investment category
+- 100M monthly active queries — meaningful scale for a product launched 18 months prior
+- Every answer includes inline citations with source links — addressable hallucination concern
+- Targets Google's professional research use case rather than casual search
+
+**Why It Matters:**
+Perplexity represents the most credible challenge to Google's search dominance since Bing — but the threat mechanism is different. It does not try to return better links; it returns no links at all, synthesising an answer instead. If users can get researched, cited answers faster than they can read multiple search result pages, the ten blue links paradigm faces structural disruption. Google's response — AI Overviews in Search — confirms that Perplexity successfully forced Google to change its product.
+
+**Source:** [Perplexity AI — Perplexity](https://www.perplexity.ai/hub/blog)
