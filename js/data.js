@@ -462,6 +462,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Mistral', 'AI Startup', 'Series C', 'Open Source AI', 'Europe'],
   },
+
+  {
+    id: 27,
+    category: 'Programming',
+    title: 'TypeScript 6.0 Released with Full Type-Level Computation and Strict Mode by Default',
+    excerpt: 'Microsoft ships a landmark release that closes the gap between TypeScript and theorem provers.',
+    body: [
+      "Microsoft has released TypeScript 6.0, the most significant version since the language's inception. The headline feature is full type-level computation: TypeScript can now express recursive type transformations that previously required workarounds or were simply impossible, bringing it closer to dependently-typed languages like Idris.",
+      "Strict mode is now enabled by default in all new projects created with tsc --init. This long-requested change eliminates the most common source of TypeScript bugs in large codebases — developers forgetting to enable strictNullChecks, noImplicitAny, and strictFunctionTypes after project creation.",
+      "The compiler itself is 40% faster in 6.0, thanks to a complete rewrite of the type-checking pipeline using a persistent incremental IR. Large monorepos that previously took 90 seconds to type-check now complete in under 30 seconds. Watch mode latency has dropped from ~400ms to ~60ms on cold incremental builds.",
+      "<blockquote>TypeScript 6.0 is the release we've been building toward for five years. It's the point where the type system becomes expressive enough to eliminate entire categories of runtime errors, not just common ones. — Anders Hejlsberg, Lead Architect, TypeScript</blockquote>",
+      "Ecosystem adoption is expected to be rapid: the top 1,000 npm packages have already been tested against the 6.0 RC with a compatibility rate of 94.7%. Breaking changes are limited to strict-mode enforcement and a handful of deprecated utility type removals.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['TypeScript', 'JavaScript', 'Microsoft', 'Programming Languages', 'Compiler'],
+  },
 ];
 
 TC.timelineData = {
