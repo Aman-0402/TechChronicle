@@ -956,3 +956,25 @@ Anthropic released Claude 3.5 Sonnet, outperforming both GPT-4o and Gemini 1.5 P
 Computer use turns Claude from a language model into an agent that can operate software. Passing SWE-bench at state-of-the-art levels means the model can fix real bugs in real codebases — not toy problems. Combined with Artifacts as a UI paradigm, Claude 3.5 Sonnet shifted competitive expectations for what a mid-tier model in a product should deliver and forced a recalibration of benchmark targets across the industry.
 
 **Source:** [Claude 3.5 Sonnet — Anthropic](https://www.anthropic.com/news/claude-3-5-sonnet)
+
+## Article 036
+
+**Title:** AMD Ryzen AI 300 Series Launches — 50 TOPS NPU Tops Copilot+ PC Specification
+
+**Date:** June 2026
+**Company:** AMD
+**Category:** Hardware · Artificial Intelligence
+
+**Summary:**
+AMD launched the Ryzen AI 300 series processors featuring a 50 TOPS NPU — exceeding Microsoft's 40 TOPS Copilot+ PC minimum requirement by 25%. Built on TSMC 4nm process, the Ryzen AI 300 combines Zen 5 CPU cores with RDNA 3.5 integrated graphics and the new XDNA 2 NPU architecture. The series targets thin-and-light laptops and directly competes with Qualcomm's Snapdragon X Elite in the AI PC market for the second half of 2026.
+
+**Key Takeaways:**
+- 50 TOPS NPU surpasses Copilot+ minimum, highest in x86 laptop processors at launch
+- XDNA 2 NPU architecture enables parallel AI workloads alongside CPU and GPU tasks
+- Zen 5 cores deliver approximately 16% IPC improvement over Zen 4
+- Positions AMD to compete for AI PC market share Qualcomm captured with Snapdragon X
+
+**Why It Matters:**
+AMD's entry into the AI PC NPU race with a competitive 50 TOPS figure prevents Qualcomm from owning the Copilot+ market segment alone. For the first time in two decades, NPU performance is a primary purchasing consideration for mainstream laptops — not just CPU clock speed or GPU tier. AMD's x86 compatibility removes the application compatibility risk that hampered early Snapdragon X Elite adoption.
+
+**Source:** [AMD Ryzen AI 300 Series — AMD](https://www.amd.com/en/products/processors/laptop/ryzen-ai.html)
