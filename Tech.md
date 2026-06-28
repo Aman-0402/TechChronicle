@@ -709,3 +709,27 @@ Alphabet announced plans to raise $80 billion through a stock offering to fund c
 An $80B equity raise by Alphabet restructures how Wall Street thinks about AI infrastructure companies. It frames hyperscalers not as mature cash-flow businesses but as infrastructure builders in a once-in-a-generation investment cycle — similar to how telecoms raised capital to lay fibre in the 1990s. The water scarcity warning from SpaceX foreshadows a physical constraint that no amount of capital solves directly.
 
 **Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
+
+---
+
+## Article 026
+
+**Title:** Meta Llama 4 Scout and Maverick Released — First Open-Weight Natively Multimodal MoE Models
+
+**Date:** June 2026
+**Company:** Meta
+**Category:** Artificial Intelligence · Open Source · Language Models
+
+**Summary:**
+Meta released Llama 4 Scout and Llama 4 Maverick, the first models in the Llama lineage built on a Mixture-of-Experts (MoE) architecture and the first to be natively multimodal from the ground up. Llama 4 Maverick features 400 billion total parameters with selective expert activation, industry-leading context windows, and advanced reasoning. Meta confirmed it will continue releasing open-weight versions of next-generation models, sustaining its open-source AI strategy.
+
+**Key Takeaways:**
+- First open-weight MoE architecture in the Llama family — more efficient per-inference than dense models
+- Native multimodality means image, text, and audio handled without adapter layers
+- Maverick's 400B parameters with MoE activation keeps inference cost manageable
+- Meta's open-source commitment keeps frontier AI accessible outside closed API ecosystems
+
+**Why It Matters:**
+Every Llama release resets the baseline of what open-weight models can do, forcing closed-model providers to compete on more than capability alone. Llama 4's MoE architecture and native multimodality close two gaps that previously made open models clearly inferior to GPT-4-class systems. When the open-weight baseline reaches parity with closed models on most tasks, the entire economic model of AI-as-a-service faces fundamental pressure.
+
+**Source:** [Meta Confirms Open-Source Next-Gen AI Models — AI Productivity](https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026/)
