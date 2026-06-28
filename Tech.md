@@ -1265,3 +1265,25 @@ Perplexity AI reached a $3 billion valuation after raising $250 million from Sof
 Perplexity represents the most credible challenge to Google's search dominance since Bing — but the threat mechanism is different. It does not try to return better links; it returns no links at all, synthesising an answer instead. If users can get researched, cited answers faster than they can read multiple search result pages, the ten blue links paradigm faces structural disruption. Google's response — AI Overviews in Search — confirms that Perplexity successfully forced Google to change its product.
 
 **Source:** [Perplexity AI — Perplexity](https://www.perplexity.ai/hub/blog)
+
+## Article 050
+
+**Title:** OpenAI Reaches $100 Billion Valuation — Becomes Most Valuable Private Tech Company in History
+
+**Date:** October 2025
+**Company:** OpenAI
+**Category:** Artificial Intelligence · Startups · Finance
+
+**Summary:**
+OpenAI closed a $6.6 billion funding round at a $157 billion post-money valuation — making it the most valuable private technology company in history at the time of the raise. Investors included Thrive Capital, Microsoft, NVIDIA, SoftBank, and UAE's MGX. OpenAI's annualised revenue run-rate reached $3.4 billion at close, growing approximately 3x year over year. The round also included a planned conversion of OpenAI's capped-profit structure to a for-profit public benefit corporation.
+
+**Key Takeaways:**
+- $157B valuation — highest ever for a private tech company, surpassing ByteDance
+- $6.6B raised in single round with Thrive Capital, Microsoft, NVIDIA, SoftBank, MGX
+- $3.4B annualised revenue run-rate — fastest revenue ramp in enterprise software history
+- Structural change: nonprofit-controlled capped-profit converting to public benefit corporation
+
+**Why It Matters:**
+OpenAI's $157B valuation reflects investor belief that AI will restructure the software industry at a scale that justifies pricing a startup at multiples of established profitable tech companies. The structural conversion from nonprofit to PBC is equally significant — it removes the governance constraints that had created friction with the board (see November 2023 Sam Altman firing) and opens a path to IPO. At $3.4B ARR growing 3x annually, OpenAI is the fastest-scaling enterprise software company ever measured.
+
+**Source:** [OpenAI Funding Round — OpenAI Blog](https://openai.com/blog/)
