@@ -411,6 +411,23 @@ TC.articles = [
     readTime: 5,
     tags: ['AWS', 'Graviton5', 'ARM', 'Cloud Compute', 'ML Inference'],
   },
+
+  {
+    id: 24,
+    category: 'Open Source',
+    title: 'Linux Kernel 6.10 Ships with Rust as First-Class Driver Language',
+    excerpt: 'Linus Torvalds merges Rust infrastructure for writing production kernel drivers after three years of staging.',
+    body: [
+      "Linux 6.10 marks a watershed moment for systems programming: Rust is now a fully supported language for writing in-tree kernel drivers, with all infrastructure code merged into the mainline tree after three years of iterative review and testing.",
+      "The release includes production-quality Rust bindings for the device driver model, memory management subsystem, and IRQ handling APIs. The first in-tree Rust drivers — a Nova GPU driver for NVIDIA open firmware and a PHY driver for Qualcomm USB hardware — ship as production-ready alternatives to their C counterparts.",
+      "Memory safety benefits are immediate and measurable: a retrospective analysis by the kernel security team found that 67% of privilege-escalation CVEs filed against the kernel in 2025 involved C-specific memory safety bugs that would have been prevented by Rust's ownership model.",
+      "<blockquote>I still don't particularly like Rust, but I like the bugs it prevents. The data speaks for itself. — Linus Torvalds</blockquote>",
+      "The Rust-for-Linux project now has 48 active contributors and Google, Microsoft, and ARM have each committed engineering resources to expanding the Rust driver ecosystem. A RISC-V Rust driver for the kernel's crypto subsystem is expected in 6.11.",
+    ],
+    company: 'Linux Foundation / Rust-for-Linux',
+    readTime: 5,
+    tags: ['Linux', 'Rust', 'Kernel', 'Memory Safety', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
