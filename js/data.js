@@ -513,6 +513,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Bun', 'JavaScript', 'Runtime', 'Node.js', 'Performance'],
   },
+
+  {
+    id: 30,
+    category: 'AI',
+    title: 'Anthropic Releases Claude 4 Sonnet with Extended Thinking and Tool Use v3',
+    excerpt: 'New model introduces transparent multi-step reasoning chains that users can inspect and verify before execution.',
+    body: [
+      "Anthropic has released Claude 4 Sonnet, a mid-tier model that introduces two major capabilities: Extended Thinking 2.0 and Tool Use v3. Extended Thinking 2.0 allows the model to perform visible, multi-step reasoning before generating a final answer — and crucially, users can inspect, pause, and redirect the thinking chain before it completes.",
+      "This 'transparent reasoning' approach addresses a key criticism of AI systems: that their chain-of-thought is a post-hoc rationalization rather than the actual computation. Anthropic's research team published a companion paper demonstrating that Extended Thinking 2.0's visible reasoning is causally linked to the model's output, not decorative.",
+      "Tool Use v3 introduces parallel tool calling, tool result streaming, and a new 'tool memory' feature that allows Claude to persist information between tool calls within a session without it counting against the context window. In benchmarks, Claude 4 Sonnet with tools outperforms Claude 3.5 Opus on agentic task completion by 34%.",
+      "<blockquote>Making reasoning transparent is not just a UX feature — it is a safety feature. When AI systems can show their work, humans can catch mistakes before they propagate. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "Claude 4 Sonnet is priced at $3 per million input tokens and $15 per million output tokens. It is available via API today, with integrations into Cursor, Sourcegraph Cody, and Amazon Bedrock available immediately.",
+    ],
+    company: 'Anthropic',
+    readTime: 5,
+    tags: ['Claude', 'Anthropic', 'Extended Thinking', 'Tool Use', 'AI Reasoning'],
+  },
 ];
 
 TC.timelineData = {
