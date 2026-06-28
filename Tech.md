@@ -934,3 +934,25 @@ Apple announced Apple Intelligence at WWDC, integrating AI capabilities across i
 Apple Intelligence establishes privacy as a differentiating constraint rather than a marketing claim — Private Cloud Compute is verifiable by security researchers because the server software is published. This is the first major AI platform where the privacy architecture is independently auditable. Combined with 1.8 billion active Apple devices, Apple Intelligence immediately becomes the widest-deployed on-device AI system in history on launch.
 
 **Source:** [Introducing Apple Intelligence — Apple](https://www.apple.com/apple-intelligence/)
+
+## Article 035
+
+**Title:** Anthropic Claude 3.5 Sonnet Sets New Benchmark on Coding and Reasoning Tasks
+
+**Date:** June 2026
+**Company:** Anthropic
+**Category:** Artificial Intelligence · Language Models
+
+**Summary:**
+Anthropic released Claude 3.5 Sonnet, outperforming both GPT-4o and Gemini 1.5 Pro on SWE-bench (real-world software engineering), HumanEval (code generation), and GPQA (graduate-level science reasoning). Claude 3.5 Sonnet introduced Artifacts — a persistent side panel for generated code, documents, and interactive apps that users can iterate on directly. It also introduced computer use capability in public beta, enabling Claude to control a computer screen, keyboard, and mouse to complete tasks.
+
+**Key Takeaways:**
+- Top SWE-bench score among publicly available models at time of release
+- Artifacts feature creates a persistent workspace for code and document generation
+- Computer use beta: Claude can see a screen and operate mouse/keyboard autonomously
+- Released at the same price and speed tier as Claude 3 Sonnet
+
+**Why It Matters:**
+Computer use turns Claude from a language model into an agent that can operate software. Passing SWE-bench at state-of-the-art levels means the model can fix real bugs in real codebases — not toy problems. Combined with Artifacts as a UI paradigm, Claude 3.5 Sonnet shifted competitive expectations for what a mid-tier model in a product should deliver and forced a recalibration of benchmark targets across the industry.
+
+**Source:** [Claude 3.5 Sonnet — Anthropic](https://www.anthropic.com/news/claude-3-5-sonnet)
