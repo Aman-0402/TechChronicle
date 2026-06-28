@@ -846,3 +846,25 @@ Nearly all current quantum hardware requires cooling to within fractions of a de
 ---
 
 *Next execution: append new daily section below this line. Never edit above.*
+
+## Article 031
+
+**Title:** Google DeepMind AlphaFold 3 Expands to Predict All Biomolecular Interactions
+
+**Date:** June 2026
+**Company:** Google DeepMind
+**Category:** Artificial Intelligence · Biotechnology · Research
+
+**Summary:**
+Google DeepMind released AlphaFold 3, extending the AlphaFold system beyond protein structure prediction to model interactions between proteins, DNA, RNA, and small molecules simultaneously. AlphaFold 3 uses a diffusion-based architecture replacing the previous evoformer, enabling prediction of entire molecular complexes rather than individual protein chains. The model is freely accessible to researchers via the AlphaFold Server, accelerating drug discovery and molecular biology research globally.
+
+**Key Takeaways:**
+- AlphaFold 3 models protein-DNA, protein-RNA, and protein-ligand interactions — not just protein folding
+- Diffusion architecture replaces evoformer for full complex structure prediction
+- Free access via AlphaFold Server removes cost barrier for academic research
+- Directly applicable to drug target identification and binding site analysis
+
+**Why It Matters:**
+AlphaFold 2 solved single-protein structure prediction — a problem biology had worked on for 50 years. AlphaFold 3 solves the harder problem: how molecules interact. Drug discovery is fundamentally a problem of molecular interaction — understanding what binds where and with what affinity. Making that capability freely accessible compresses years of experimental biology into hours of compute for research labs without wet lab infrastructure.
+
+**Source:** [AlphaFold 3 — Google DeepMind](https://deepmind.google/technologies/alphafold/)
