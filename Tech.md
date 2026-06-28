@@ -1199,3 +1199,25 @@ Baidu's ERNIE Bot crossed 200 million registered users, establishing itself as t
 The AI chatbot market is bifurcating geopolitically — Chinese and non-Chinese ecosystems with limited overlap. ERNIE Bot at 200M users demonstrates that domestic Chinese AI capability, built under export-restricted compute conditions (no Nvidia H100s), has reached a scale that creates its own feedback loop of data and usage. The technological and regulatory separation means two parallel AI development tracks are now operating with minimal influence on each other.
 
 **Source:** [Baidu ERNIE Bot — Baidu Newsroom](https://ir.baidu.com/)
+
+## Article 047
+
+**Title:** Microsoft Acquires Inflection AI Team — Mustafa Suleyman Joins as CEO of Microsoft AI
+
+**Date:** March 2025
+**Company:** Microsoft · Inflection AI
+**Category:** Artificial Intelligence · Mergers & Acquisitions
+
+**Summary:**
+Microsoft made a $650 million payment to Inflection AI and hired co-founder Mustafa Suleyman — who previously co-founded DeepMind — along with most of Inflection's research team. Suleyman became CEO of Microsoft AI, a new division encompassing Copilot, Bing, and consumer AI products. The deal was structured as a licensing agreement and talent acquisition rather than a traditional merger to avoid regulatory merger review. Inflection's Pi chatbot continued operating under a restructured Inflection entity.
+
+**Key Takeaways:**
+- $650M licensing fee effectively acquires Inflection's IP and team without triggering merger review
+- Mustafa Suleyman — DeepMind co-founder — becomes CEO of Microsoft AI division
+- Most of Inflection's research team moves to Microsoft, including Karen Simonyan
+- Structured as licence + hire to sidestep US and UK merger review processes
+
+**Why It Matters:**
+The Inflection acquisition structure — pay for a licence, hire the team separately — became a template for tech-AI dealmaking that regulators subsequently scrutinised. More substantively, Mustafa Suleyman's arrival at Microsoft shifted the company's consumer AI strategy from pure OpenAI partnership dependency toward building internal AI leadership. It also removed Inflection as a standalone competitor while the FTC and UK CMA began investigating whether the structure constituted an unreviewed merger.
+
+**Source:** [Microsoft Inflection AI — Microsoft Blog](https://blogs.microsoft.com/blog/2024/03/19/microsoft-and-inflection-ai/)
