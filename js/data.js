@@ -479,6 +479,23 @@ TC.articles = [
     readTime: 5,
     tags: ['TypeScript', 'JavaScript', 'Microsoft', 'Programming Languages', 'Compiler'],
   },
+
+  {
+    id: 28,
+    category: 'Research',
+    title: 'MIT CSAIL Publishes Proof That Transformers Are Turing Complete Under Finite Precision',
+    excerpt: 'Formal proof settles a decade-long theoretical debate about the computational limits of attention-based models.',
+    body: [
+      "Researchers at MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) have published a formal proof demonstrating that transformer architectures are Turing complete under finite-precision arithmetic — settling a decade-long theoretical debate in deep learning research.",
+      "Previous work had shown that transformers with infinite precision could simulate any Turing machine, but the practical question — whether real-world transformers running in float16 or bfloat16 are similarly expressive — remained open. The new proof, accepted to NeurIPS 2026, closes this gap by constructing an explicit encoding of a Universal Turing Machine in a 12-layer transformer with 512-dimensional embeddings.",
+      "The result has immediate practical implications: it provides a theoretical foundation for why large language models can solve problems that appear to require symbolic reasoning, and it suggests that scale — rather than architectural novelty — may be the primary lever for improving model capability.",
+      "<blockquote>This proof tells us something profound: the architecture we already have is not the limiting factor. What we feed it and how we train it matters far more than the scaffold. — Prof. Tomás Lozano-Pérez, CSAIL</blockquote>",
+      "The paper also derives tight bounds on the minimum number of parameters required to represent a given computation, providing a formal basis for model compression research and suggesting that current LLMs may be significantly over-parameterized for most tasks they perform in practice.",
+    ],
+    company: 'MIT CSAIL',
+    readTime: 6,
+    tags: ['Transformers', 'Turing Completeness', 'AI Theory', 'NeurIPS', 'Research'],
+  },
 ];
 
 TC.timelineData = {
