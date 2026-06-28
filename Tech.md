@@ -1023,3 +1023,25 @@ Tesla unveiled Optimus Gen 2, the second generation of its humanoid robot, demon
 Laundry folding is a canonical hard robotics problem — soft, irregular, deformable objects with infinite shape configurations. Tesla solving it with a neural end-to-end policy rather than hand-coded manipulation is significant because the same policy architecture generalises. Combined with vertical integration of actuators, compute, and training data from internal factory use, Tesla's robotics approach mirrors the advantage that gave it an edge in self-driving: massive proprietary real-world data collection.
 
 **Source:** [Tesla Optimus Gen 2 — Tesla](https://www.tesla.com/AI)
+
+## Article 039
+
+**Title:** Google Announces Gemini 1.5 Pro With 1 Million Token Context Window
+
+**Date:** February 2026
+**Company:** Google DeepMind
+**Category:** Artificial Intelligence · Language Models
+
+**Summary:**
+Google announced Gemini 1.5 Pro with a 1 million token context window — the largest of any publicly available model at the time. The context window is large enough to contain all of Shakespeare's works, an entire codebase, or an hour of video. Gemini 1.5 Pro uses a sparse Mixture-of-Experts architecture and achieved near-perfect recall on needle-in-a-haystack retrieval tasks across the full 1M token window. A 10 million token experimental version was made available to select developers.
+
+**Key Takeaways:**
+- 1 million token context — processes 1 hour of video, 30,000 lines of code, or 700,000 words in one pass
+- Near-perfect retrieval recall maintained across the entire context length
+- MoE architecture keeps inference costs viable despite extreme context length
+- Multimodal: handles text, images, video, audio, and code within same context window
+
+**Why It Matters:**
+Context length was a fundamental limit of language models — you could ask questions about long documents only by chunking them, losing cross-document relationships. At 1M tokens, Gemini 1.5 Pro can reason over an entire software repository, a company's full document archive, or a year's worth of meeting recordings simultaneously. This changes the design pattern for AI applications: instead of retrieval-augmented generation to manage context limits, entire knowledge bases can be passed directly to the model.
+
+**Source:** [Gemini 1.5 Pro — Google DeepMind](https://deepmind.google/technologies/gemini/pro/)
