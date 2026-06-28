@@ -666,6 +666,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Perplexity', 'AI Search', 'Startup', 'Growth', 'Google'],
   },
+
+  {
+    id: 39,
+    category: 'Dev Tools',
+    title: 'Vercel Ships v0 3.0: Full-Stack App Generation from Natural Language in Under 60 Seconds',
+    excerpt: 'Updated platform generates production-ready Next.js apps with database schema, auth, and deployment in one prompt.',
+    body: [
+      "Vercel has released v0 3.0, a significant upgrade to its AI-powered development platform that extends generation from UI components to complete full-stack applications. A single natural language prompt can now produce a Next.js 15 application with Prisma database schema, NextAuth authentication, Tailwind styling, and a live Vercel deployment — typically in 45-60 seconds.",
+      "The technical architecture behind v0 3.0 uses a multi-agent system: a 'planner' LLM decomposes the prompt into a dependency graph of components, a 'coder' agent generates each component in parallel, and a 'reviewer' agent runs static analysis and automated tests before the deployment step. The parallel generation is the key to the speed improvement over v0 2.0, which generated code sequentially.",
+      "Quality has improved dramatically: in an independent evaluation by LogRocket, v0 3.0 produced apps that required fewer than 3 manual corrections on 78% of standard CRUD application prompts — up from 34% for v0 2.0. The remaining 22% required between 3-10 corrections, primarily for complex business logic.",
+      "<blockquote>v0 is not a prototyping tool anymore. It is a production tool. The apps it generates today are deploying to real users. That was not true six months ago. — Guillermo Rauch, CEO, Vercel</blockquote>",
+      "v0 3.0 is available on all Vercel plans. The free tier includes 200 generation credits per month. Pro users ($20/month) receive unlimited generations with priority compute. An API is available for integrating v0 generation into CI/CD pipelines and internal developer platforms.",
+    ],
+    company: 'Vercel',
+    readTime: 4,
+    tags: ['Vercel', 'v0', 'AI Coding', 'Next.js', 'Full-Stack Generation'],
+  },
 ];
 
 TC.timelineData = {
