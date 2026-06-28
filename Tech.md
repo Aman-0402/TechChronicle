@@ -1177,3 +1177,25 @@ Stack Overflow reported a greater than 50% decline in monthly active users and p
 Stack Overflow's decline is the clearest signal that AI coding assistants have crossed a quality threshold where they are the preferred information source over curated human expert communities. The platform that hosted 58 million developer questions for 15 years is losing to a model that learned from those questions. This creates a circular dependency problem for AI training data: the communities that generated the training data are being displaced by the models trained on it.
 
 **Source:** [Stack Overflow Annual Developer Survey 2025](https://survey.stackoverflow.co/2025/)
+
+## Article 046
+
+**Title:** China's Baidu ERNIE Bot Reaches 200 Million Users — Largest AI Chatbot in Asia
+
+**Date:** February 2026
+**Company:** Baidu
+**Category:** Artificial Intelligence · Language Models · China Tech
+
+**Summary:**
+Baidu's ERNIE Bot crossed 200 million registered users, establishing itself as the dominant AI chatbot platform in China and the largest AI assistant by users in Asia. ERNIE 4.0, the underlying model, achieves competitive performance against GPT-4 on Chinese-language benchmarks and Baidu has integrated it across its Search, Maps, Drive, and Cloud products. China's AI chatbot market is regulated — foreign models including ChatGPT are blocked — giving domestic players structural market dominance.
+
+**Key Takeaways:**
+- 200 million users — largest AI chatbot deployment outside of ChatGPT globally
+- ERNIE 4.0 competitive with GPT-4 on Chinese-language reasoning and knowledge tasks
+- Integration across Baidu Search, Maps, Drive, and Baidu Cloud products
+- Chinese AI market structurally separated from global market by regulatory controls
+
+**Why It Matters:**
+The AI chatbot market is bifurcating geopolitically — Chinese and non-Chinese ecosystems with limited overlap. ERNIE Bot at 200M users demonstrates that domestic Chinese AI capability, built under export-restricted compute conditions (no Nvidia H100s), has reached a scale that creates its own feedback loop of data and usage. The technological and regulatory separation means two parallel AI development tracks are now operating with minimal influence on each other.
+
+**Source:** [Baidu ERNIE Bot — Baidu Newsroom](https://ir.baidu.com/)
