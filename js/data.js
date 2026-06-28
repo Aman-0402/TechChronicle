@@ -632,6 +632,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Deno', 'JavaScript', 'npm', 'Deno KV', 'Runtime'],
   },
+
+  {
+    id: 37,
+    category: 'Research',
+    title: 'Stanford HAI Report: AI Is Now Responsible for 25% of All New Code at Major Tech Companies',
+    excerpt: 'Annual AI Index reveals AI-generated code has crossed the quarter-mark threshold across surveyed enterprises.',
+    body: [
+      "Stanford's Human-Centered AI Institute has released its 2026 AI Index report, revealing that AI-generated code now accounts for 25% of all net new code committed at major technology companies — up from 4% in 2023 and 14% in 2024. The survey covered 180 organizations with more than 1,000 software engineers.",
+      "The figure varies significantly by company type: AI-native companies (those founded after 2020 with AI-first development cultures) report AI-generated code percentages as high as 55%, while traditional enterprises and financial institutions average closer to 12%. The gap is closing as enterprise adoption accelerates.",
+      "The report also documents a significant shift in the nature of AI-generated code: in 2024, AI primarily generated boilerplate and unit tests; in 2026, AI is generating architecture, business logic, and database schemas at increasing rates. This shift is correlated with adoption of agentic coding tools rather than autocomplete-style assistants.",
+      "<blockquote>The 25% figure is not a ceiling — it is an inflection point. Every indicator in our data suggests the trajectory leads to AI generating the majority of code within three to five years. The question is not if, but whether organizations are prepared. — Fei-Fei Li, Co-Director, Stanford HAI</blockquote>",
+      "Productivity data is striking: developers using AI coding tools commit 37% more code per week, but code review time has increased by 28% as reviewers spend more time validating AI output. Net productivity gain, accounting for review overhead, is estimated at 22%.",
+    ],
+    company: 'Stanford HAI',
+    readTime: 5,
+    tags: ['AI Coding', 'Stanford', 'Research', 'Developer Productivity', 'AI Index'],
+  },
 ];
 
 TC.timelineData = {
