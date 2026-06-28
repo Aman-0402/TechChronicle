@@ -394,6 +394,23 @@ TC.articles = [
     readTime: 4,
     tags: ['NTLM', 'CVE-2026-3182', 'Windows', 'Patch Tuesday', 'CrowdStrike'],
   },
+
+  {
+    id: 23,
+    category: 'Cloud',
+    title: 'AWS Announces Graviton5 Chip: 40% Better Price-Performance for Cloud Workloads',
+    excerpt: 'Third-generation custom ARM chip brings server-class ML inference to EC2 at dramatically lower cost.',
+    body: [
+      "Amazon Web Services unveiled its Graviton5 processor at AWS re:Invent 2026, promising a 40% improvement in price-performance over Graviton4 for general-purpose cloud workloads. The chip is manufactured on TSMC's 3nm N3E process and features 96 Neoverse V3 cores per socket.",
+      "Most notably, Graviton5 includes a dedicated matrix engine for ML inference — a first for the Graviton line. AWS claims this allows customers to run quantized LLM inference (INT8/FP8) at a cost 3x lower than equivalent GPU-based instances, making it competitive for latency-tolerant inference workloads.",
+      "The chip introduces hardware-enforced memory tagging (MTE) as a standard feature, providing automatic detection of buffer overflows and use-after-free vulnerabilities at runtime with less than 2% performance overhead. This is expected to reduce memory-safety CVEs in applications running on Graviton5 by an estimated 70%.",
+      "<blockquote>Graviton5 is the culmination of a decade of silicon investment. We believe it will power the majority of AWS compute within three years. — Adam Selipsky, CEO, AWS</blockquote>",
+      "New instance families — C8g, M8g, and R8g — are available today in us-east-1, eu-west-1, and ap-southeast-1. Spot pricing for C8g instances starts at /usr/bin/bash.018 per vCPU-hour, undercutting equivalent x86 instances by approximately 35%.",
+    ],
+    company: 'Amazon Web Services',
+    readTime: 5,
+    tags: ['AWS', 'Graviton5', 'ARM', 'Cloud Compute', 'ML Inference'],
+  },
 ];
 
 TC.timelineData = {
