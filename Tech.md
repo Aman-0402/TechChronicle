@@ -757,3 +757,27 @@ French quantum computing company Quandela successfully integrated its photonic Q
 Quantum computing's practical value has been bottlenecked not by qubit count but by the latency of shuttling data between quantum and classical processors. At 5,000ms, most hybrid algorithms are impractical. At 30ms, they become usable. Quandela and NVIDIA have solved the interface problem — the equivalent of putting a fast bus between CPU and GPU. This may matter more than raw qubit improvements in the near term.
 
 **Source:** [5 Key Quantum Computing Breakthroughs 2026 — BQPSim](https://www.bqpsim.com/blogs/quantum-computing-breakthroughs)
+
+---
+
+## Article 028
+
+**Title:** Hackers Use AI-Powered Support Bots to Hijack Instagram Accounts at Scale
+
+**Date:** June 2026
+**Company:** Meta / Instagram (victim) · Unknown Threat Actors
+**Category:** Cybersecurity · AI Exploitation
+
+**Summary:**
+Security researchers documented a new attack vector where threat actors manipulate AI-powered customer support systems to gain unauthorised access to Instagram accounts. Attackers exploit the natural language flexibility of AI support agents to craft social-engineering prompts that bypass identity verification logic — effectively using the AI system's helpfulness as an attack surface. The technique targets the AI layer rather than traditional authentication infrastructure.
+
+**Key Takeaways:**
+- AI support agents introduce a new social-engineering surface that traditional security models do not account for
+- Attackers craft adversarial prompts that elicit account recovery actions from AI agents
+- Scale potential is high — one prompt template can be iterated across millions of accounts
+- Demonstrates that AI deployment in customer-facing roles requires adversarial robustness testing
+
+**Why It Matters:**
+This attack class — using AI's own helpfulness against its deployer — is fundamentally different from prior cyberattacks. Traditional security hardens perimeters and authentication. AI social-engineering attacks exploit the model's reasoning, not its code. Every company deploying an AI support agent now has an attack surface that security teams have no established playbook for defending.
+
+**Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
