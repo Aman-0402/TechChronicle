@@ -1089,3 +1089,25 @@ Samsung launched Galaxy AI as a suite of on-device and cloud-hybrid AI features 
 Samsung Galaxy AI represents the first time a major Android OEM bundled AI as a first-party product identity rather than a third-party app. This forced other Android manufacturers to respond and signalled to the industry that AI capability would be a primary smartphone differentiator in 2025–2026, displacing camera megapixels as the headline spec. Live Translate in particular addresses a real-world language barrier problem that no previous smartphone feature had solved at call latency.
 
 **Source:** [Samsung Galaxy AI — Samsung Newsroom](https://news.samsung.com/global/galaxy-ai)
+
+## Article 042
+
+**Title:** Mistral AI Releases Mistral Large 2 — 123B Parameter Open-Weight Frontier Model
+
+**Date:** July 2025
+**Company:** Mistral AI
+**Category:** Artificial Intelligence · Open Source · Language Models
+
+**Summary:**
+Mistral AI released Mistral Large 2, a 123 billion parameter model matching GPT-4-class performance on reasoning, mathematics, and code benchmarks while remaining available under a permissive research licence. The model supports a 128K token context window, multilingual capability across 13 languages, and function calling. Mistral Large 2 is one of the largest open-weight models ever released by a startup and marked Mistral's entry into the frontier model tier previously occupied only by closed labs.
+
+**Key Takeaways:**
+- 123B parameters — frontier scale open-weight model from a European AI startup
+- Matches GPT-4 Turbo on MMLU, HumanEval, and GSM8K benchmarks at release
+- 128K context window and native function calling for agent applications
+- Research licence allows academic and non-commercial use without restriction
+
+**Why It Matters:**
+Mistral Large 2 demonstrated that frontier-scale model capability is no longer exclusively a US tech giant domain. A European startup with significantly less compute budget achieved GPT-4-class benchmark performance and released it openly. This shifts the geopolitical calculus of AI — frontier capability is now accessible outside the closed US hyperscaler ecosystem, with implications for European AI sovereignty and the open-source AI supply chain globally.
+
+**Source:** [Mistral Large 2 — Mistral AI Blog](https://mistral.ai/news/mistral-large-2407/)
