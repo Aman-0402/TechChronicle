@@ -83,7 +83,7 @@
     if (!browseGrid || !TC.articles) return;
 
     browseGrid.innerHTML = TC.articles.map((a, i) => `
-      <article class="article-card" data-id="${a.id}" tabindex="0" role="button" aria-label="Read: ${a.title}">
+      <article class="article-card" data-id="${a.id}" data-category="${a.category}" tabindex="0" role="button" aria-label="Read: ${a.title}">
         <div class="article-card__category">${a.category}</div>
         <h3 class="article-card__title">${a.title}</h3>
         <p class="article-card__excerpt">${a.excerpt}</p>

@@ -434,3 +434,27 @@
     border-radius: var(--radius-sm);
   }
 }
+
+/* ---- Per-category card colours ---- */
+.article-card { --cat-color: var(--accent); }
+
+.article-card[data-category="AI"]           { --cat-color: #4F8EF7; }
+.article-card[data-category="Cybersecurity"]{ --cat-color: #E85454; }
+.article-card[data-category="Cloud"]        { --cat-color: #3DBD7D; }
+.article-card[data-category="Programming"]  { --cat-color: #A36FE8; }
+.article-card[data-category="Hardware"]     { --cat-color: #E8943A; }
+.article-card[data-category="Startups"]     { --cat-color: #E8545A; }
+.article-card[data-category="Open Source"]  { --cat-color: #3BBFCF; }
+.article-card[data-category="Research"]     { --cat-color: #7B6FE8; }
+.article-card[data-category="Dev Tools"]    { --cat-color: #4EBF6E; }
+
+/* Apply cat-color to label, top stripe, and card number */
+.article-card .article-card__category { color: var(--cat-color); }
+.article-card .article-card__num      { color: var(--cat-color); }
+.article-card::before                 { background: linear-gradient(90deg, var(--cat-color), color-mix(in srgb, var(--cat-color) 60%, transparent)); }
+
+/* Left border flash on hover using cat-color */
+.article-card:hover {
+  border-left: 3px solid var(--cat-color);
+  padding-left: calc(var(--space-6) - 3px);
+}
