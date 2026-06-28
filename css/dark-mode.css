@@ -1,9 +1,8 @@
 /* ============================================================
-   Dark Mode Overrides
-   (Variables handle most; this file for cases needing specifics)
+   Dark Mode — targeted overrides beyond token swaps
    ============================================================ */
 
-/* Smooth theme transition on body elements */
+/* Smooth theme transition on all elements */
 *, *::before, *::after {
   transition:
     background-color var(--dur-slow) var(--ease),
@@ -12,29 +11,68 @@
     box-shadow var(--dur-slow) var(--ease);
 }
 
-/* Prevent transition on interactive elements (they have their own) */
+/* Interactive elements use their own faster transitions */
 button, a, input, select, textarea {
   transition: all var(--dur-fast) var(--ease);
 }
 
+/* Hero grid — more subtle in dark */
 [data-theme="dark"] .hero__grid {
-  opacity: 0.18;
+  opacity: 0.15;
 }
 
+/* Hero warm glow — slightly stronger in dark for drama */
+[data-theme="dark"] .hero::before {
+  opacity: 1.2;
+}
+
+/* Edition card accent stripe slightly dimmed */
 [data-theme="dark"] .edition__card::before {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
+/* Stats section accent reduced */
 [data-theme="dark"] .stats-section::before {
   opacity: 0.4;
 }
 
-/* Dark mode chart/illustration placeholders */
-[data-theme="dark"] .article-hero-image {
-  background: var(--surface-2);
+/* Slightly warmer surface rendering in dark */
+[data-theme="dark"] .feature-card {
+  background: var(--surface-1);
 }
 
-/* Scrollbar dark */
+/* Page header grid overlay — more subtle in dark */
+[data-theme="dark"] .page-header::before {
+  opacity: 0.1;
+}
+
+/* Accent top line on page headers brighter in dark */
+[data-theme="dark"] .page-header::after {
+  opacity: 0.9;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
 [data-theme="dark"] ::-webkit-scrollbar-thumb {
   background: var(--surface-3);
+}
+
+/* Selection colour */
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+[data-theme="dark"] ::selection {
+  background: var(--accent-soft);
+  color: var(--accent-light);
 }

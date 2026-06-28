@@ -1,64 +1,85 @@
 /* ============================================================
-   Typography
+   Typography — Premium Editorial Scale
    ============================================================ */
 
 .section-eyebrow {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   font-family: var(--font-mono);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.12em;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--accent);
-  margin-bottom: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+
+.section-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 1.5px;
+  background: var(--accent);
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
 .section-title {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.25rem, 4.5vw, 3.25rem);
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: var(--space-4);
-  line-height: 1.1;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
 }
 
 .section-desc {
   font-size: 1.125rem;
   color: var(--text-secondary);
-  max-width: 540px;
-  line-height: 1.7;
+  max-width: 560px;
+  line-height: 1.75;
+  font-weight: 400;
 }
 
 .section-header {
   margin-bottom: var(--space-12);
 }
 
-/* Article typography inside reader */
+/* ---- Article Reader Typography ---- */
 .article-title {
   font-family: var(--font-serif);
-  font-size: clamp(1.75rem, 3.5vw, 2.75rem);
+  font-size: clamp(1.875rem, 3.5vw, 3rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.12;
   color: var(--text-primary);
   margin-bottom: var(--space-6);
+  letter-spacing: -0.03em;
 }
 
 .article-meta {
   display: flex;
   align-items: center;
   gap: var(--space-4);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   color: var(--text-tertiary);
   font-family: var(--font-mono);
   margin-bottom: var(--space-8);
   flex-wrap: wrap;
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--border);
 }
 
-.article-meta span { display: flex; align-items: center; gap: var(--space-1); }
+.article-meta span {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
 
 .article-body {
   font-size: 1.0625rem;
-  line-height: 1.8;
+  line-height: 1.82;
   color: var(--text-primary);
 }
 
@@ -68,41 +89,47 @@
 
 .article-body p:first-of-type::first-letter {
   font-family: var(--font-serif);
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 700;
   float: left;
-  line-height: 0.8;
+  line-height: 0.78;
   margin-right: var(--space-2);
-  margin-top: var(--space-1);
+  margin-top: 6px;
   color: var(--accent);
+  padding-right: 4px;
 }
 
 .article-body h3 {
   font-family: var(--font-serif);
-  font-size: 1.375rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin: var(--space-8) 0 var(--space-4);
+  margin: var(--space-10) 0 var(--space-4);
   color: var(--text-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .article-body code {
   font-family: var(--font-mono);
-  font-size: 0.875em;
+  font-size: 0.85em;
   background: var(--surface-2);
-  padding: 2px 6px;
+  padding: 2px 7px;
   border-radius: var(--radius-sm);
   color: var(--accent);
+  border: 1px solid var(--border);
 }
 
 .article-body blockquote {
   border-left: 3px solid var(--accent);
-  padding-left: var(--space-6);
+  padding: var(--space-4) var(--space-6);
   margin: var(--space-8) 0;
+  background: var(--surface-2);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 1.25rem;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .article-tags {
@@ -114,7 +141,7 @@
   border-top: 1px solid var(--border);
 }
 
-/* Tags */
+/* ---- Tags ---- */
 .tag {
   display: inline-flex;
   align-items: center;
@@ -122,22 +149,31 @@
   padding: 4px 10px;
   background: var(--surface-2);
   border: 1px solid var(--border);
-  border-radius: var(--radius-full);
-  font-size: 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.6875rem;
+  font-family: var(--font-mono);
   font-weight: 500;
   color: var(--text-secondary);
   white-space: nowrap;
   transition: all var(--dur-fast) var(--ease);
+  letter-spacing: 0.04em;
 }
 
 .tag:hover {
   background: var(--accent-soft);
-  border-color: var(--accent);
+  border-color: var(--border-accent);
   color: var(--accent);
 }
 
 .tag--accent {
   background: var(--accent-soft);
-  border-color: transparent;
+  border-color: var(--border-accent);
   color: var(--accent);
+}
+
+/* ---- Divider ---- */
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: var(--space-12) 0;
 }
