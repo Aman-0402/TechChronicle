@@ -649,6 +649,23 @@ TC.articles = [
     readTime: 5,
     tags: ['AI Coding', 'Stanford', 'Research', 'Developer Productivity', 'AI Index'],
   },
+
+  {
+    id: 38,
+    category: 'Startups',
+    title: 'Perplexity AI Hits 100M Monthly Active Users, Eyes $9B Valuation in New Round',
+    excerpt: 'Answer engine reaches a milestone no AI search startup has hit before as it prepares to challenge Google directly.',
+    body: [
+      "Perplexity AI has reached 100 million monthly active users — a milestone that took Google over a decade to achieve and ChatGPT 18 months — announced alongside plans to raise a new funding round that would value the company at $9 billion, up from the $3 billion valuation it commanded just 12 months ago.",
+      "The growth has been driven primarily by Perplexity Pro, a $20/month subscription that unlocks access to multiple underlying models (GPT-5 Turbo, Claude 4 Sonnet, Gemini 2.5 Ultra), unlimited searches, and Perplexity's proprietary 'Deep Research' mode that autonomously searches the web for 5-15 minutes to produce comprehensive, cited reports.",
+      "The company is now generating $200 million in annualized revenue, with 60% from Pro subscriptions and 40% from API partnerships with telecom carriers who are embedding Perplexity as the default AI assistant in mobile devices across Asia and Latin America.",
+      "<blockquote>We are not building a better search engine. We are building the answer layer of the internet — a system where you ask any question and get a trusted, sourced answer rather than a list of links to wade through. — Aravind Srinivas, CEO, Perplexity AI</blockquote>",
+      "Google has responded by accelerating its AI Overviews product and filing a patent infringement complaint regarding Perplexity's crawling infrastructure, escalating a legal conflict that observers say could define the boundaries of AI search for years.",
+    ],
+    company: 'Perplexity AI',
+    readTime: 4,
+    tags: ['Perplexity', 'AI Search', 'Startup', 'Growth', 'Google'],
+  },
 ];
 
 TC.timelineData = {
