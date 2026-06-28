@@ -1133,3 +1133,25 @@ TSMC commenced risk production of its 2nm (N2) process node at its Hsinchu fab i
 The move from FinFET to Gate-All-Around transistors at 2nm is the most significant transistor architecture change in a decade. FinFET scaling was approaching physical limits — GAA enables continued improvement by surrounding the channel on all four sides rather than three. For AI and mobile chips, the power efficiency gains matter more than raw frequency: training runs become cheaper per FLOP, and mobile devices extend battery life while running more capable on-device models.
 
 **Source:** [TSMC 2nm Process — TSMC](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm)
+
+## Article 044
+
+**Title:** Waymo Expands Robotaxi Service to San Francisco — 50,000 Paid Rides Per Week
+
+**Date:** March 2026
+**Company:** Waymo (Alphabet)
+**Category:** Autonomous Vehicles · Robotics · Transportation
+
+**Summary:**
+Waymo reached 50,000 paid autonomous robotaxi rides per week in San Francisco, making it the first fully driverless ride-hail service to achieve meaningful commercial scale in a major US city. The fleet operates without safety drivers across San Francisco, Phoenix, and Los Angeles. Waymo uses a custom sensor suite combining lidar, radar, and camera with its proprietary Waymo Driver software stack. Alphabet reported Waymo revenue growing faster than any prior Alphabet moonshot business unit at comparable stage.
+
+**Key Takeaways:**
+- 50,000 paid rides/week in San Francisco without any human safety driver in vehicle
+- Multi-city deployment: San Francisco, Phoenix, Los Angeles simultaneously
+- Waymo Driver software stack trained on tens of millions of real-world miles
+- First autonomous vehicle company generating significant recurring revenue at scale
+
+**Why It Matters:**
+Waymo at 50,000 rides per week is no longer a pilot — it is a functioning transportation business. Every competitor in autonomous vehicles (Cruise, Zoox, Mobileye, Tesla FSD) has either retreated, narrowed scope, or not yet achieved public deployment. Waymo's commercial scale creates a data flywheel that smaller programs cannot replicate: more miles driven, more edge cases encountered, better model, more miles. The gap compounds.
+
+**Source:** [Waymo One — Waymo](https://waymo.com/waymo-one/)
