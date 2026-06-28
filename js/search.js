@@ -34,7 +34,7 @@
     if (!results.length) {
       container.innerHTML = `
         <div class="search__empty">
-          <div class="search__empty-icon">🔍</div>
+          <div class="search__empty-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
           <div class="search__empty-title">No results found</div>
           <div class="search__empty-sub">Try different keywords or clear the filter</div>
         </div>
@@ -66,7 +66,7 @@
   function showEmpty(container) {
     container.innerHTML = `
       <div class="search__empty">
-        <div class="search__empty-icon">✦</div>
+        <div class="search__empty-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
         <div class="search__empty-title">Start searching</div>
         <div class="search__empty-sub">Enter a keyword, company, or technology above</div>
       </div>

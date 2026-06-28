@@ -4,25 +4,45 @@
 
 const TC = window.TC = {};
 
+// SVG icon strings — 20×20 viewBox, stroke-based, currentColor
+const _svg = {
+  ai:       `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>`,
+  code:     `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
+  shield:   `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>`,
+  cloud:    `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>`,
+  cpu:      `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>`,
+  flask:    `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M9 3v7l-5 8h14l-5-8V3"/></svg>`,
+  rocket:   `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>`,
+  box:      `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>`,
+  wrench:   `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>`,
+  // stats icons
+  file:     `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>`,
+  building: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`,
+  layers:   `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>`,
+  calendar: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>`,
+  clock:    `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`,
+  globe:    `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`,
+};
+
 TC.categories = [
-  { id: 'AI',           label: 'Artificial Intelligence', icon: '🤖', color: '#BF5AF2', count: 3240 },
-  { id: 'Programming',  label: 'Programming',             icon: '💻', color: '#0A84FF', count: 2180 },
-  { id: 'Cybersecurity',label: 'Cybersecurity',           icon: '🔐', color: '#FF375F', count: 1560 },
-  { id: 'Cloud',        label: 'Cloud Computing',         icon: '☁️',  color: '#30D158', count: 1340 },
-  { id: 'Hardware',     label: 'Hardware',                icon: '🖥️',  color: '#FF9F0A', count: 980  },
-  { id: 'Research',     label: 'Research',                icon: '🔬', color: '#64D2FF', count: 760  },
-  { id: 'Startups',     label: 'Startups',                icon: '🚀', color: '#FF6961', count: 1120 },
-  { id: 'Open Source',  label: 'Open Source',             icon: '📦', color: '#30D158', count: 890  },
-  { id: 'Dev Tools',    label: 'Developer Tools',         icon: '🛠️',  color: '#0A84FF', count: 780  },
+  { id: 'AI',           label: 'Artificial Intelligence', icon: _svg.ai,     color: '#BF5AF2', count: 3240 },
+  { id: 'Programming',  label: 'Programming',             icon: _svg.code,   color: '#0A84FF', count: 2180 },
+  { id: 'Cybersecurity',label: 'Cybersecurity',           icon: _svg.shield, color: '#FF375F', count: 1560 },
+  { id: 'Cloud',        label: 'Cloud Computing',         icon: _svg.cloud,  color: '#30D158', count: 1340 },
+  { id: 'Hardware',     label: 'Hardware',                icon: _svg.cpu,    color: '#FF9F0A', count: 980  },
+  { id: 'Research',     label: 'Research',                icon: _svg.flask,  color: '#64D2FF', count: 760  },
+  { id: 'Startups',     label: 'Startups',                icon: _svg.rocket, color: '#FF6961', count: 1120 },
+  { id: 'Open Source',  label: 'Open Source',             icon: _svg.box,    color: '#30D158', count: 890  },
+  { id: 'Dev Tools',    label: 'Developer Tools',         icon: _svg.wrench, color: '#0A84FF', count: 780  },
 ];
 
 TC.stats = [
-  { icon: '📰', value: 12847, suffix: '',    label: 'Total Articles',   desc: 'Published since launch' },
-  { icon: '🏢', value: 4200,  suffix: '+',   label: 'Companies Covered',desc: 'From startups to giants' },
-  { icon: '⚙️', value: 890,   suffix: '',    label: 'Technologies',     desc: 'Tracked & indexed' },
-  { icon: '📅', value: 365,   suffix: '',    label: 'Days of Coverage', desc: 'Uninterrupted publishing' },
-  { icon: '⏱️', value: 52000, suffix: '+',   label: 'Reading Hours',    desc: 'Total content library' },
-  { icon: '🌍', value: 94,    suffix: '',    label: 'Countries',        desc: 'Global coverage' },
+  { icon: _svg.file,     value: 12847, suffix: '',    label: 'Total Articles',   desc: 'Published since launch' },
+  { icon: _svg.building, value: 4200,  suffix: '+',   label: 'Companies Covered',desc: 'From startups to giants' },
+  { icon: _svg.layers,   value: 890,   suffix: '',    label: 'Technologies',     desc: 'Tracked & indexed' },
+  { icon: _svg.calendar, value: 365,   suffix: '',    label: 'Days of Coverage', desc: 'Uninterrupted publishing' },
+  { icon: _svg.clock,    value: 52000, suffix: '+',   label: 'Reading Hours',    desc: 'Total content library' },
+  { icon: _svg.globe,    value: 94,    suffix: '',    label: 'Countries',        desc: 'Global coverage' },
 ];
 
 TC.articles = [

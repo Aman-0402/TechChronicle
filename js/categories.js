@@ -47,7 +47,7 @@
 
       const filtered = TC.articles.filter(a => a.category === categoryId);
 
-      titleEl.textContent = `${cat.icon} ${cat.label}`;
+      titleEl.innerHTML = `<span style="display:inline-flex;vertical-align:middle;margin-right:8px">${cat.icon}</span>${cat.label}`;
       articleGrid.innerHTML = filtered.length
         ? filtered.map((a, i) => `
           <article class="article-card" data-id="${a.id}" data-category="${a.category}" tabindex="0" role="button" aria-label="Read: ${a.title}">
