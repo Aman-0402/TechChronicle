@@ -63,7 +63,7 @@
         : `<p style="color:var(--text-tertiary);padding:var(--space-6)">No articles in this category yet.</p>`;
 
       section.hidden = false;
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(() => section.scrollIntoView({ behavior: 'smooth', block: 'start' }), 20);
 
       // Open reader on card click
       articleGrid.querySelectorAll('.article-card').forEach(card => {

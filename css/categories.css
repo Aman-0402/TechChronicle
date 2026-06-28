@@ -2,7 +2,10 @@
    Categories
    ============================================================ */
 
-.categories-section { background: var(--bg-primary); }
+.categories-section {
+  background: var(--bg-primary);
+  padding: var(--space-8) 0 var(--space-12); /* override layout.css section { padding: 96px 0 } */
+}
 
 .categories-grid {
   display: grid;
