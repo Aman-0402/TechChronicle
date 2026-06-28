@@ -5,7 +5,7 @@
 
 /* ---- Page Header ---- */
 .page-header {
-  padding: calc(var(--nav-height) + var(--space-16)) 0 var(--space-14);
+  padding: calc(var(--nav-height) + var(--space-20)) 0 var(--space-16);
   background: var(--bg-secondary);
   border-bottom: 1px solid var(--border);
   position: relative;
