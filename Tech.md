@@ -805,3 +805,44 @@ OMRON Robotics demonstrated the next-generation LD Series autonomous mobile robo
 Autonomous mobile robots are replacing fixed conveyor systems in factories and distribution centres worldwide. The LD series competes in a market growing faster than any other robotics segment as labour shortages and wage inflation make AMR ROI positive within 18–24 months at most sites. OMRON's expanded payload range directly addresses the gap between light-payload AMRs and heavy-load forklifts that previously required human operation.
 
 **Source:** [OMRON Robotics at Automate 2026 — RoboticsTomorrow](https://www.roboticstomorrow.com/news/2026/06/09/omron-robotics-to-demonstrate-next-generation-autonomous-mobile-robots-at-automate-2026/26689/)
+
+---
+
+## Article 030
+
+**Title:** Monash University Builds Room-Temperature Photonic Chip That Generates, Steers, and Reads Quantum Light
+
+**Date:** June 1, 2026
+**Company:** Monash University
+**Category:** Quantum Computing · Research · Photonics
+
+**Summary:**
+Researchers at Monash University created a nanoscale photonic chip that can generate, steer, and read light-based quantum information all within a single device — operating at room temperature. The chip uses atomically thin materials and nanoscale structures to control the "valley" degree of freedom of light, a quantum property that encodes information in the orbital path of photons rather than their spin or polarisation. The room-temperature operation eliminates the cryogenic infrastructure requirement that makes most quantum systems impractical for deployment outside laboratory settings.
+
+**Key Takeaways:**
+- Room-temperature operation is a fundamental breakthrough — removes cryogenic infrastructure barrier
+- Single-chip generate-steer-read integration eliminates lossy inter-component photon transfer
+- Valley degree of freedom adds a new quantum information encoding dimension
+- Atomically thin materials enable CMOS-compatible fabrication at potential scale
+
+**Why It Matters:**
+Nearly all current quantum hardware requires cooling to within fractions of a degree of absolute zero — making deployment outside specialised facilities effectively impossible. A photonic quantum chip that operates at room temperature and integrates all three core functions on a single device solves the infrastructure problem that has kept quantum computing confined to research labs. If fabrication scales, this architecture could bring quantum sensing, communication, and computing capabilities to standard datacentres and eventually to edge devices.
+
+**Source:** [New Light-Powered Chip Could Accelerate AI and Quantum Computing — ScienceDaily](https://www.sciencedaily.com/releases/2026/06/260601025343.htm)
+
+---
+
+## Updated Execution Report — 2026-06-27 (Supplemental)
+
+| Metric | Value |
+|--------|-------|
+| **Original Articles** | 20 |
+| **Supplemental Articles Added** | 10 |
+| **Total Articles in DB** | 30 |
+| **Duplicates Removed** | 0 |
+| **Articles Committed Individually** | 10 (021–030) |
+| **Categories Added** | Quantum Computing · Robotics · Legal/Policy · Space |
+
+---
+
+*Next execution: append new daily section below this line. Never edit above.*
