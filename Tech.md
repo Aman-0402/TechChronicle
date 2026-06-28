@@ -781,3 +781,27 @@ Security researchers documented a new attack vector where threat actors manipula
 This attack class — using AI's own helpfulness against its deployer — is fundamentally different from prior cyberattacks. Traditional security hardens perimeters and authentication. AI social-engineering attacks exploit the model's reasoning, not its code. Every company deploying an AI support agent now has an attack surface that security teams have no established playbook for defending.
 
 **Source:** [Explosive Tech News June 2026 — IMFounder](https://imfounder.com/science-tech/explosive-tech-news-june-2026-ai-lawsuits-ipos-cyberattacks/)
+
+---
+
+## Article 029
+
+**Title:** OMRON Demos LD-150 and LD-300 Autonomous Mobile Robots at Automate 2026 in Chicago
+
+**Date:** June 22–25, 2026
+**Company:** OMRON Robotics
+**Category:** Robotics · Industrial Automation
+
+**Summary:**
+OMRON Robotics demonstrated the next-generation LD Series autonomous mobile robots (AMRs) — the LD-150 and LD-300 — at Automate 2026, held at McCormick Place in Chicago from June 22–25. The new LD models feature enhanced payload capacity, improved obstacle detection via upgraded sensor fusion, and native integration with OMRON's industrial automation ecosystem. The demonstration showcased coordinated multi-robot workflows in simulated factory and warehouse environments.
+
+**Key Takeaways:**
+- LD-150 and LD-300 expand payload range for medium-to-heavy industrial logistics tasks
+- Upgraded sensor fusion improves dynamic obstacle avoidance in crowded factory floors
+- Native ecosystem integration reduces deployment complexity for existing OMRON automation customers
+- Automate 2026 drew major AMR vendors — signals accelerating industrial robotics adoption
+
+**Why It Matters:**
+Autonomous mobile robots are replacing fixed conveyor systems in factories and distribution centres worldwide. The LD series competes in a market growing faster than any other robotics segment as labour shortages and wage inflation make AMR ROI positive within 18–24 months at most sites. OMRON's expanded payload range directly addresses the gap between light-payload AMRs and heavy-load forklifts that previously required human operation.
+
+**Source:** [OMRON Robotics at Automate 2026 — RoboticsTomorrow](https://www.roboticstomorrow.com/news/2026/06/09/omron-robotics-to-demonstrate-next-generation-autonomous-mobile-robots-at-automate-2026/26689/)
