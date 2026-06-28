@@ -530,6 +530,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Claude', 'Anthropic', 'Extended Thinking', 'Tool Use', 'AI Reasoning'],
   },
+
+  {
+    id: 31,
+    category: 'Cybersecurity',
+    title: 'NSA Warns: Nation-State Actors Actively Exploiting AI Coding Assistants for Supply Chain Attacks',
+    excerpt: 'Advisory reveals a campaign inserting subtle backdoors via AI-suggested code accepted without review.',
+    body: [
+      "The National Security Agency (NSA) and CISA jointly published a cybersecurity advisory warning that nation-state actors — specifically groups attributed to China and North Korea — are exploiting the widespread adoption of AI coding assistants to conduct supply chain attacks at unprecedented scale.",
+      "The attack vector is subtle: threat actors compromise the training pipelines or fine-tuning datasets of AI coding tools, causing the models to suggest code containing carefully crafted vulnerabilities when developers ask for specific patterns (authentication flows, cryptographic implementations, file upload handlers). Developers accept these suggestions without review, and the vulnerabilities ship.",
+      "The advisory cites 12 confirmed incidents in 2026 where production software was compromised via this vector, including two packages in the npm ecosystem with a combined 40 million weekly downloads. In both cases, the vulnerability was undetected for 8+ months.",
+      "<blockquote>The AI supply chain is the new open source supply chain — only the attack surface is far larger and the vulnerabilities are intentionally obscure. Every organization using AI code generation should treat AI suggestions as untrusted input. — Rob Joyce, Director of Cybersecurity, NSA</blockquote>",
+      "Recommended mitigations include mandatory code review for all AI-suggested code touching security-sensitive paths, SAST integration gated in CI/CD, and cryptographic verification of AI model weights before deployment in developer toolchains.",
+    ],
+    company: 'NSA / CISA',
+    readTime: 5,
+    tags: ['NSA', 'AI Security', 'Supply Chain', 'Backdoor', 'Nation-State'],
+  },
 ];
 
 TC.timelineData = {
