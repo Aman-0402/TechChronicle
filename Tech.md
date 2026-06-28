@@ -868,3 +868,25 @@ Google DeepMind released AlphaFold 3, extending the AlphaFold system beyond prot
 AlphaFold 2 solved single-protein structure prediction — a problem biology had worked on for 50 years. AlphaFold 3 solves the harder problem: how molecules interact. Drug discovery is fundamentally a problem of molecular interaction — understanding what binds where and with what affinity. Making that capability freely accessible compresses years of experimental biology into hours of compute for research labs without wet lab infrastructure.
 
 **Source:** [AlphaFold 3 — Google DeepMind](https://deepmind.google/technologies/alphafold/)
+
+## Article 032
+
+**Title:** OpenAI Releases GPT-4o With Native Real-Time Voice and Vision
+
+**Date:** May 2026
+**Company:** OpenAI
+**Category:** Artificial Intelligence · Language Models
+
+**Summary:**
+OpenAI released GPT-4o ("omni"), a single model natively processing text, audio, and images in real time without separate pipeline stages. GPT-4o achieves human-like response latency of 232ms average for voice interactions, matches GPT-4 Turbo on text and code benchmarks, and significantly outperforms prior voice pipelines on naturalness and emotional range. The model is available to all ChatGPT users including the free tier.
+
+**Key Takeaways:**
+- Single unified model for text, audio, image — no separate speech-to-text or TTS pipeline
+- 232ms average voice response latency matches natural human conversation speed
+- Free tier access democratises frontier multimodal AI beyond paid subscribers
+- Emotional tone, laughter, and dynamic speaking style supported natively
+
+**Why It Matters:**
+Every previous "voice AI" system was three models stitched together: speech recognition, language model, text-to-speech. Each stage added latency and lost information — tone, emotion, hesitation. GPT-4o processes audio end-to-end, preserving paralinguistic information. That difference transforms voice AI from a command interface into something that feels conversational. Combined with free-tier access, this sets a new floor for what AI assistants are expected to do.
+
+**Source:** [Hello GPT-4o — OpenAI](https://openai.com/index/hello-gpt-4o/)
