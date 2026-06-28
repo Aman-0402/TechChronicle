@@ -683,6 +683,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Vercel', 'v0', 'AI Coding', 'Next.js', 'Full-Stack Generation'],
   },
+
+  {
+    id: 40,
+    category: 'AI',
+    title: 'xAI's Grok-3 Tops LMSYS Chatbot Arena for First Time, Beating GPT-5 and Gemini',
+    excerpt: 'Elon Musk's AI company stuns the research community with a model trained on 100,000 H100s over 90 days.',
+    body: [
+      "xAI's Grok-3 has reached the top of the LMSYS Chatbot Arena leaderboard with an Elo score of 1412, surpassing GPT-5 Turbo (1398) and Gemini 2.5 Ultra (1391) to claim the #1 spot — the first time a non-OpenAI, non-Google model has led the arena since its inception in 2023.",
+      "The model was trained on a cluster of 100,000 NVIDIA H100 GPUs over a 90-day run, making it the largest single training job in AI history by compute used. xAI has not disclosed the exact parameter count, describing the architecture only as a 'post-transformer design with dynamic compute allocation' — suggesting a mixture-of-experts or routing-based approach.",
+      "Grok-3 shows particular strength in mathematics and scientific reasoning: it achieves 88% on MATH-500 (vs GPT-5 Turbo's 84%), 72% on FrontierMath problems that require multi-hour human expert effort, and 94% on the International Mathematics Olympiad problems from 2025.",
+      "<blockquote>The compute scaling laws have not hit a ceiling. Grok-3 is proof. If you throw enough H100s at the problem and do the training right, you keep getting smarter models. The wall people predicted has not appeared. — Elon Musk, CEO, xAI</blockquote>",
+      "Grok-3 is available to X Premium+ subscribers at $50/month and via API at $10 per million input tokens and $30 per million output tokens. xAI is also offering a 'Grok-3 Mini' variant with similar reasoning capabilities but 4x lower cost, targeting developers building math tutoring and scientific computing applications.",
+    ],
+    company: 'xAI',
+    readTime: 5,
+    tags: ['Grok-3', 'xAI', 'LLM Benchmark', 'Chatbot Arena', 'Elon Musk'],
+  },
 ];
 
 TC.timelineData = {
