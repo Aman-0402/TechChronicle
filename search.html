@@ -65,47 +65,56 @@
   <!-- Search -->
   <section class="search-section search-page" id="search-section" aria-label="Search">
     <div class="container">
-      <div class="search reveal" id="searchWidget">
-        <div class="search__input-wrap">
-          <svg class="search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-          <input
-            type="search"
-            class="search__input"
-            id="searchInput"
-            placeholder="Search articles, companies, technologies…"
-            autocomplete="off"
-            aria-label="Search articles"
-            aria-controls="searchResults"
-            autofocus
-          />
-          <button type="button" class="search__clear" id="searchClear" aria-label="Clear search" hidden>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
-          </button>
-        </div>
-        <div class="search__filters" role="group" aria-label="Filter by category">
-          <button type="button" class="search__filter active" data-filter="all">All</button>
-          <button type="button" class="search__filter" data-filter="AI">AI</button>
-          <button type="button" class="search__filter" data-filter="Programming">Programming</button>
-          <button type="button" class="search__filter" data-filter="Cybersecurity">Security</button>
-          <button type="button" class="search__filter" data-filter="Cloud">Cloud</button>
-          <button type="button" class="search__filter" data-filter="Hardware">Hardware</button>
-          <button type="button" class="search__filter" data-filter="Research">Research</button>
-          <button type="button" class="search__filter" data-filter="Startups">Startups</button>
-          <button type="button" class="search__filter" data-filter="Open Source">Open Source</button>
-          <button type="button" class="search__filter" data-filter="Dev Tools">Dev Tools</button>
-        </div>
-        <div class="search__results" id="searchResults" role="region" aria-live="polite" aria-label="Search results"></div>
-      </div>
+      <div class="search" id="searchWidget">
 
-      <!-- Browse all -->
-      <div class="search-browse reveal" id="searchBrowse">
-        <div class="section-header section-header--spaced section-header--browse">
-          <div class="section-eyebrow">Or browse</div>
-          <h2 class="section-title section-title--sm">All 20 Articles</h2>
+        <!-- Left: input + filters -->
+        <div class="search__controls">
+          <div class="search__input-wrap">
+            <svg class="search__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input
+              type="search"
+              class="search__input"
+              id="searchInput"
+              placeholder="Search articles, companies, technologies…"
+              autocomplete="off"
+              aria-label="Search articles"
+              aria-controls="searchResults"
+              autofocus
+            />
+            <button type="button" class="search__clear" id="searchClear" aria-label="Clear search" hidden>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+          <div class="search__filters" role="group" aria-label="Filter by category">
+            <button type="button" class="search__filter active" data-filter="all">All</button>
+            <button type="button" class="search__filter" data-filter="AI">AI</button>
+            <button type="button" class="search__filter" data-filter="Programming">Programming</button>
+            <button type="button" class="search__filter" data-filter="Cybersecurity">Security</button>
+            <button type="button" class="search__filter" data-filter="Cloud">Cloud</button>
+            <button type="button" class="search__filter" data-filter="Hardware">Hardware</button>
+            <button type="button" class="search__filter" data-filter="Research">Research</button>
+            <button type="button" class="search__filter" data-filter="Startups">Startups</button>
+            <button type="button" class="search__filter" data-filter="Open Source">Open Source</button>
+            <button type="button" class="search__filter" data-filter="Dev Tools">Dev Tools</button>
+          </div>
         </div>
-        <div class="search-browse__grid" id="browseGrid"></div>
-      </div>
-    </div>
+
+        <!-- Right: results panel -->
+        <div class="search__panel">
+          <div class="search__results" id="searchResults" role="region" aria-live="polite" aria-label="Search results"></div>
+
+          <!-- Browse all (shown when no query) -->
+          <div class="search-browse" id="searchBrowse">
+            <div class="section-header section-header--browse">
+              <div class="section-eyebrow">Browse all</div>
+              <h2 class="section-title section-title--sm">All 20 Articles</h2>
+            </div>
+            <div class="search-browse__grid" id="browseGrid"></div>
+          </div>
+        </div><!-- /.search__panel -->
+
+      </div><!-- /.search -->
+    </div><!-- /.container -->
   </section>
 
   <!-- Reader overlay -->

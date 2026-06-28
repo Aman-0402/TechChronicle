@@ -2,11 +2,27 @@
    Search
    ============================================================ */
 
-.search-section { background: var(--bg-secondary); }
+.search-section {
+  background: var(--bg-secondary);
+  padding: var(--space-8) 0 var(--space-16); /* override section 96px */
+}
 
+/* 2-col layout: controls left (sticky), results right */
 .search {
-  max-width: 720px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+.search__controls {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--space-6));
+}
+
+@media (max-width: 860px) {
+  .search { grid-template-columns: 1fr; }
+  .search__controls { position: static; }
 }
 
 .search__input-wrap {
@@ -99,7 +115,7 @@
 
 .search__empty {
   text-align: center;
-  padding: var(--space-16) var(--space-6);
+  padding: var(--space-10) var(--space-6);
   color: var(--text-tertiary);
 }
 
