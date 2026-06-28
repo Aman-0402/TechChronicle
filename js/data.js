@@ -445,6 +445,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Apple Silicon', 'M5 Pro', 'GPU', 'MacBook Pro', 'TSMC 2nm'],
   },
+
+  {
+    id: 26,
+    category: 'Startups',
+    title: 'Mistral AI Raises $1B Series C at $12B Valuation to Compete with US Giants',
+    excerpt: 'Paris-based AI lab bets on open-weight models and European sovereignty to carve a profitable niche.',
+    body: [
+      "Mistral AI has closed a $1 billion Series C funding round led by General Catalyst and Andreessen Horowitz, with participation from Lightspeed Venture Partners and several European sovereign wealth funds, valuing the company at $12 billion — a 3x increase from its Series B valuation 10 months ago.",
+      "Unlike OpenAI and Anthropic, Mistral has built its business model around open-weight models with an enterprise licensing layer on top. The company's Mistral Large 3 and Mixtral 8x22B models are widely used by European enterprises, governments, and cloud providers who are unwilling to route sensitive data through US-based APIs.",
+      "The funding will be used to train a new frontier model — internally codenamed 'Le Monstre' — that Mistral claims will match GPT-5 Turbo on reasoning benchmarks while running at 40% lower inference cost due to a novel sparse mixture-of-experts architecture.",
+      "<blockquote>We are proving that you do not need to be American to build frontier AI. Europe's values — privacy, transparency, openness — are becoming a competitive advantage, not a handicap. — Arthur Mensch, CEO, Mistral AI</blockquote>",
+      "The company also announced Mistral Cloud, a sovereign AI platform targeting EU public sector customers with data residency guarantees and GDPR-native compliance built into the infrastructure layer.",
+    ],
+    company: 'Mistral AI',
+    readTime: 4,
+    tags: ['Mistral', 'AI Startup', 'Series C', 'Open Source AI', 'Europe'],
+  },
 ];
 
 TC.timelineData = {
