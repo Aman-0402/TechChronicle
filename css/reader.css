@@ -8,6 +8,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  padding: 0;              /* override section { padding: var(--space-24) 0 } */
   background: var(--bg-primary);
   z-index: var(--z-modal);
   display: flex;
