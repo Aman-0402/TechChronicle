@@ -733,3 +733,27 @@ Meta released Llama 4 Scout and Llama 4 Maverick, the first models in the Llama 
 Every Llama release resets the baseline of what open-weight models can do, forcing closed-model providers to compete on more than capability alone. Llama 4's MoE architecture and native multimodality close two gaps that previously made open models clearly inferior to GPT-4-class systems. When the open-weight baseline reaches parity with closed models on most tasks, the entire economic model of AI-as-a-service faces fundamental pressure.
 
 **Source:** [Meta Confirms Open-Source Next-Gen AI Models — AI Productivity](https://aiproductivity.ai/news/meta-open-source-next-ai-models-2026/)
+
+---
+
+## Article 027
+
+**Title:** Quandela Integrates Photonic QPUs With NVIDIA HPC via NVQLink — Latency Drops From 5,000ms to 30ms
+
+**Date:** June 2026
+**Company:** Quandela · NVIDIA
+**Category:** Quantum Computing · Hardware
+
+**Summary:**
+French quantum computing company Quandela successfully integrated its photonic Quantum Processing Units (QPUs) with NVIDIA's accelerated high-performance computing infrastructure using NVQLink — a low-latency interconnect developed jointly. The integration reduced round-trip quantum-classical compute latency from approximately 5,000ms (typical for cloud-based quantum access) to approximately 30ms, enabling practical hybrid quantum-classical workloads for the first time at production scale.
+
+**Key Takeaways:**
+- 166× latency reduction (5,000ms → 30ms) crosses the threshold for real-time hybrid algorithms
+- NVQLink positions NVIDIA as the interconnect standard between classical and quantum compute
+- Photonic QPUs operate at room temperature — removing cryogenic infrastructure requirement
+- Hybrid quantum-classical at 30ms opens optimisation, simulation, and ML use cases previously impossible
+
+**Why It Matters:**
+Quantum computing's practical value has been bottlenecked not by qubit count but by the latency of shuttling data between quantum and classical processors. At 5,000ms, most hybrid algorithms are impractical. At 30ms, they become usable. Quandela and NVIDIA have solved the interface problem — the equivalent of putting a fast bus between CPU and GPU. This may matter more than raw qubit improvements in the near term.
+
+**Source:** [5 Key Quantum Computing Breakthroughs 2026 — BQPSim](https://www.bqpsim.com/blogs/quantum-computing-breakthroughs)
