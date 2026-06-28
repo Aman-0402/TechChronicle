@@ -496,6 +496,23 @@ TC.articles = [
     readTime: 6,
     tags: ['Transformers', 'Turing Completeness', 'AI Theory', 'NeurIPS', 'Research'],
   },
+
+  {
+    id: 29,
+    category: 'Dev Tools',
+    title: 'Bun 2.0 Launches as Full Node.js Drop-In Replacement with 5x Faster Startup',
+    excerpt: 'Oven ships Bun 2.0 with 100% Node.js API compatibility and native Windows support after two years of development.',
+    body: [
+      "Oven has released Bun 2.0, a landmark update to the JavaScript runtime that the company claims achieves 100% compatibility with the Node.js API surface — a milestone that allows any existing Node.js application to run on Bun without modification.",
+      "Startup time remains Bun's signature advantage: a cold-start Express server launches in 8ms versus 42ms on Node.js 22, and a TypeScript file is executed in 11ms versus 380ms when accounting for ts-node transpilation overhead. These gains compound in serverless environments where cold starts directly affect user-perceived latency.",
+      "Bun 2.0 introduces native Windows support for the first time, including native Named Pipe support, Windows-native symlinks, and full PowerShell integration. The Windows build achieves 80% of the performance of the macOS and Linux builds, a significant achievement given Windows's historically hostile environment for POSIX-style runtimes.",
+      "<blockquote>We made a bet that JavaScript developers deserved a runtime that felt as fast as a compiled language. Bun 2.0 is that runtime, and it works everywhere your code needs to run. — Jarred Sumner, CEO, Oven</blockquote>",
+      "The npm ecosystem compatibility rate for the top 10,000 packages is now 99.1%, up from 87% in Bun 1.0. The remaining 0.9% are packages that use internal Node.js APIs explicitly marked as unstable, which Bun intentionally does not implement.",
+    ],
+    company: 'Oven (Bun)',
+    readTime: 4,
+    tags: ['Bun', 'JavaScript', 'Runtime', 'Node.js', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
