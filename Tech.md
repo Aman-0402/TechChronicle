@@ -890,3 +890,25 @@ OpenAI released GPT-4o ("omni"), a single model natively processing text, audio,
 Every previous "voice AI" system was three models stitched together: speech recognition, language model, text-to-speech. Each stage added latency and lost information — tone, emotion, hesitation. GPT-4o processes audio end-to-end, preserving paralinguistic information. That difference transforms voice AI from a command interface into something that feels conversational. Combined with free-tier access, this sets a new floor for what AI assistants are expected to do.
 
 **Source:** [Hello GPT-4o — OpenAI](https://openai.com/index/hello-gpt-4o/)
+
+## Article 033
+
+**Title:** Microsoft Copilot+ PCs Launch With On-Device Neural Processing Units at 40+ TOPS
+
+**Date:** June 2026
+**Company:** Microsoft · Qualcomm · AMD · Intel
+**Category:** Hardware · Artificial Intelligence · Operating Systems
+
+**Summary:**
+Microsoft launched Copilot+ PC as a hardware certification category requiring a minimum 40 TOPS (tera operations per second) Neural Processing Unit. The first wave of Copilot+ PCs shipped with Qualcomm Snapdragon X Elite, followed by AMD Ryzen AI 300 and Intel Core Ultra 200 variants. Key features include real-time live captions in 44 languages, AI-powered image generation in Paint, and Recall — a semantic search engine over everything the user has ever seen on screen.
+
+**Key Takeaways:**
+- 40 TOPS NPU minimum sets a new floor for AI-capable PC hardware
+- Recall indexes screen history for semantic search — find anything seen, typed, or read
+- Live captions support 44 languages with real-time translation on-device
+- Cocreator in Paint runs Stable Diffusion-class generation locally without cloud
+
+**Why It Matters:**
+Copilot+ PCs mark the first time AI inference is a mandatory hardware specification for a mainstream PC category — equivalent to when SSDs became the baseline for laptops. The 40 TOPS floor ensures that the next three-to-five years of Windows AI features run locally without network dependency. The Recall feature, controversial for privacy reasons, represents the most ambitious use of on-device AI in a consumer OS to date.
+
+**Source:** [Introducing Copilot+ PCs — Microsoft](https://blogs.microsoft.com/blog/2024/05/20/introducing-copilot-pcs/)
