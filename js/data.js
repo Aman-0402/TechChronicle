@@ -615,6 +615,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Llama 4', 'Meta', 'MoE', 'Open Source AI', 'Local LLM'],
   },
+
+  {
+    id: 36,
+    category: 'Programming',
+    title: 'Deno 3.0 Merges npm Compatibility Layer and Ships Built-In Key-Value Store',
+    excerpt: 'Ryan Dahl releases the version that closes the last major gap with Node.js while staying true to Deno's original security model.',
+    body: [
+      "Ryan Dahl and the Deno team have released Deno 3.0, a release that completes the npm compatibility work started in Deno 1.28 and introduces Deno KV — a built-in, globally replicated key-value store powered by FoundationDB — as a stable, production-ready feature.",
+      "npm compatibility is now seamless: any package.json project runs on Deno 3.0 without modification, including packages that use native Node.js addons (via a new NAPI compatibility shim). The deno.json configuration file can now coexist with package.json, allowing gradual migration from Node.js toolchains.",
+      "Deno KV removes the need for a separate database for applications that require simple persistent state. It provides atomic transactions, eventual consistency across Deno Deploy's global edge network, and a straightforward API: kv.set(), kv.get(), kv.list(). Storage is billed at $0.25 per GB-month with unlimited reads and writes.",
+      "<blockquote>Deno started as a reaction to mistakes in Node.js. Three years later, we've proven you can have security-by-default, a great developer experience, and full npm compatibility — they are not mutually exclusive. — Ryan Dahl, Creator, Deno</blockquote>",
+      "Deno 3.0 also ships a built-in OpenTelemetry integration for automatic request tracing, a native HTML templating engine based on JSX, and V8 12.4 which brings significant performance improvements to Promise chains and async iterator performance.",
+    ],
+    company: 'Deno Land Inc.',
+    readTime: 5,
+    tags: ['Deno', 'JavaScript', 'npm', 'Deno KV', 'Runtime'],
+  },
 ];
 
 TC.timelineData = {
