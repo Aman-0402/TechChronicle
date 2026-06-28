@@ -360,6 +360,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Cursor', 'AI IDE', 'Code Review', 'Developer Tools'],
   },
+
+  {
+    id: 21,
+    category: 'AI',
+    title: 'Google DeepMind Releases Gemini 2.5 Ultra with 2M Token Context Window',
+    excerpt: 'New flagship model handles entire codebases and multi-hour video in a single prompt.',
+    body: [
+      "Google DeepMind today launched Gemini 2.5 Ultra, expanding the model's context window to two million tokens — enough to hold roughly 1,500 research papers, a full feature film transcript, or a large software repository in a single prompt.",
+      "The architecture change relies on a new sparse-attention mechanism called 'Ring Attention Sparse' (RAS), which processes distant tokens in parallel across TPU pods rather than sequentially. DeepMind reports near-linear scaling with context length, avoiding the quadratic cost that has historically made long-context models impractical.",
+      "Gemini 2.5 Ultra scores 91.2% on the MMLU-Pro benchmark and 87.5% on GPQA Diamond, surpassing GPT-5 Turbo on scientific reasoning tasks. On long-context retrieval benchmarks it achieves near-perfect accuracy up to the full two-million-token limit.",
+      "<blockquote>Long context is not a gimmick — it is the foundation of genuine reasoning over real-world information. We believe 2M tokens changes what AI can do in enterprise settings. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "Enterprise pricing starts at $8 per million tokens for Ultra-class access. Google is also offering a 1M-token free tier through AI Studio for researchers and developers building experimental applications.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 4,
+    tags: ['Gemini', 'Long Context', 'DeepMind', 'LLM'],
+  },
 ];
 
 TC.timelineData = {
@@ -369,3 +386,5 @@ TC.timelineData = {
 };
 
 TC.activeDates = [1,2,3,5,6,7,8,9,10,12,13,14,15,16,17,19,20,21,22,23,24,26,27];
+
+// Articles 21-40 appended below
