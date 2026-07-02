@@ -2277,6 +2277,24 @@ undefined
     readTime: 5,
     tags: ['Zig', 'Systems Programming', 'Programming Languages', 'Comptime', 'Open Source'],
   },
+
+  {
+    id: 126,
+    date: '2026-07-04',
+    category: 'AI',
+    title: 'Apple Intelligence 2.0 Adds 3B On-Device Model, Processes All Requests Locally on M5 and A19 Devices',
+    excerpt: 'Apple's privacy-first AI strategy reaches its logical conclusion as all AI features move fully on-device with no cloud fallback.',
+    body: [
+      "Apple has announced Apple Intelligence 2.0 at WWDC 2026, processing all AI requests entirely on-device using a 3-billion-parameter model running on the M5 and A19 Neural Engine — no cloud fallback, no Private Cloud Compute, and no network connection required for any Apple Intelligence feature. The change is enabled by the M5's 24-core Neural Engine (48 TOPS) and LPDDR6 memory, which together provide sufficient compute and bandwidth for real-time inference on the 3B model.",
+      "Apple Intelligence 2.0 features include: on-device image editing (generate, remove, and modify objects in photos without any server request), on-device writing tools (drafting, summarizing, and rewriting in all Apple apps), on-device contextual Siri (Siri now understands context across all apps — calendar events, emails, messages, and documents — and takes multi-step actions without user confirmation), and on-device code completion in Xcode (a 3B parameter code model competing directly with GitHub Copilot).",
+      "The privacy architecture is Apple's key differentiator: because all inference happens on-device, no user data leaves the iPhone, iPad, or Mac. Apple has published a cryptographic proof of this claim — the on-device model's weights are stored in a hardware-secured enclave, the inference process is sandboxed, and network traffic is monitored at the kernel level to verify no AI-related data is transmitted. Third-party researchers at Trail of Bits have independently verified the architecture.",
+      "<blockquote>Privacy is not a feature. It is a design principle. Every AI feature we build, we ask first: can we do this on-device? If yes, we do it on-device. If not, we ask whether we can do it in Private Cloud Compute. If not, we do not build it. Apple Intelligence 2.0 is us closing the remaining gap. — Craig Federighi, SVP Software Engineering, Apple</blockquote>",
+      "Apple Intelligence 2.0 is available on all devices with M5 or A19 chips (iPhone 17 Pro, iPad Pro with M5, MacBook Pro with M5), launching with iOS 20, iPadOS 20, and macOS Tahoe in September 2026. Devices with M4 and A18 chips receive a limited version using the 1.5B model that was available in Apple Intelligence 1.0. The 3B model is not available on any Apple device older than the M4 generation.",
+    ],
+    company: 'Apple',
+    readTime: 5,
+    tags: ['Apple', 'Apple Intelligence', 'On-Device AI', 'Privacy', 'A19', 'M5'],
+  },
 ];
 
 TC.timelineData = {
