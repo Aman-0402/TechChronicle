@@ -1302,6 +1302,23 @@ undefined
     readTime: 5,
     tags: ['Post-Quantum Cryptography', 'CNSA 2.0', 'NSA', 'Federal Security', 'Quantum Computing'],
   },
+
+  {
+    id: 76,
+    category: 'AI',
+    title: 'Waymo One Crosses 50 Million Fully Autonomous Miles with Zero Fatalities in Commercial Fleet',
+    excerpt: 'Waymo's robotaxi fleet reaches historic safety milestone, providing strongest real-world evidence yet for autonomous vehicle viability.',
+    body: [
+      "Waymo has announced that its Waymo One commercial robotaxi fleet has crossed 50 million fully autonomous miles driven without a human safety driver — and with zero fatalities attributable to Waymo system error. The milestone represents the largest real-world autonomous driving safety dataset ever compiled by a single operator.",
+      "Across the 50 million miles, Waymo reports 0 fatalities, 0 serious injuries caused by Waymo-at-fault incidents, and a serious injury rate 4.2x lower than the US human-driver average for comparable urban driving conditions. The data was independently audited by Swiss Re, the global reinsurer, and submitted to NHTSA as part of Waymo's ongoing voluntary safety self-assessment.",
+      "The fleet currently operates in San Francisco, Los Angeles, Phoenix, and Austin, completing approximately 150,000 paid trips per week. Waymo One became fully driverless (no safety driver) in San Francisco in August 2023 and expanded to all four cities by late 2025. The average trip distance is 3.4 miles, the average speed 19 mph — both typical of urban rideshare patterns.",
+      "<blockquote>Fifty million miles is not a demo. It is not a pilot. It is production. Every one of those miles was a real rider, going somewhere real, trusting our system completely. We take that seriously in a way words can't fully express. — Dmitri Dolgov, Co-CEO, Waymo</blockquote>",
+      "Waymo's next expansion targets Atlanta and Miami for 2026, with a new geofence in New York City pending regulatory approval. The company has filed for a commercial operating permit in NYC, where a favorable ruling would make it the first autonomous vehicle operator in the five boroughs. A Waymo partnership with Hyundai to produce the IONIQ 6-based sixth-generation Waymo Driver vehicle is expected to scale production to 100,000 vehicles annually by 2028.",
+    ],
+    company: 'Waymo',
+    readTime: 5,
+    tags: ['Autonomous Vehicles', 'Robotaxi', 'AI Safety', 'Waymo', 'Transportation'],
+  },
 ];
 
 TC.timelineData = {
