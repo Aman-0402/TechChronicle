@@ -2403,6 +2403,24 @@ undefined
     readTime: 5,
     tags: ['Passkeys', 'FIDO2', 'Authentication', 'Password Security', 'WebAuthn'],
   },
+
+  {
+    id: 133,
+    date: '2026-07-04',
+    category: 'Cloud',
+    title: 'Azure Container Apps Serverless GPU: Run AI Inference with Per-Millisecond Billing and Zero Cold Starts',
+    excerpt: 'Microsoft brings serverless pricing to GPU compute, eliminating the $3-per-hour idle GPU cost that made AI inference infrastructure expensive at low utilization.',
+    body: [
+      "Microsoft Azure has launched Container Apps Serverless GPU, a new compute tier that runs GPU-accelerated containers with per-millisecond billing rather than per-hour reservation pricing, zero cold starts for containers under 512MB (via snapshot-based restore), and automatic scale-to-zero when no requests are active. The offering targets AI inference workloads that experience bursty traffic — a request every few seconds rather than continuous load — where traditional GPU VM instances are prohibitively expensive at $2.50–$8.00/hour.",
+      "The pricing model is transformative for small and medium AI applications: a Stable Diffusion image generation service receiving 100 requests per day, each taking 3 seconds of GPU compute time, would cost $0.90/day versus $60/day on an always-on A100 instance. Serverless GPU achieves this via a shared GPU pool where idle containers release GPU memory to other tenants and reclaim it on demand, with the CUDA context preserved in a snapshot that restores in under 50ms.",
+      "Cold start elimination for containers under 512MB works via Azure's Firecracker-based container snapshot technology: a running container is snapshotted to SSD storage when idle, and restored from snapshot on the next request without re-running initialization code. For larger containers (512MB–4GB), cold start time is 2–8 seconds. For AI inference containers with model weights pre-loaded (typically 8–20GB), cold starts take 15–60 seconds — Azure recommends keeping a minimum of 1 warm instance for latency-sensitive inference.",
+      "<blockquote>We looked at how developers were actually using GPU instances and found 70% of inference workloads are active less than 20% of the time. Those workloads were paying full price for 80% of GPU time they did not use. Serverless GPU solves that problem — you pay for the milliseconds you use, not the hours you reserved. — Scott Guthrie, EVP, Microsoft Cloud and AI</blockquote>",
+      "Serverless GPU supports NVIDIA A10G (24GB VRAM) and A100 40GB instances, with L40S (48GB VRAM) planned for Q4 2026. Integration with Azure Container Registry, Azure Monitor, and Azure Managed Identities is native. The service is available in East US 2, West Europe, and Southeast Asia, with additional regions in Q3 2026. Microsoft reports 40,000 developer sign-ups in the first week of public preview.",
+    ],
+    company: 'Microsoft Azure',
+    readTime: 5,
+    tags: ['Azure', 'Serverless GPU', 'AI Inference', 'Container Apps', 'Cloud Computing'],
+  },
 ];
 
 TC.timelineData = {
