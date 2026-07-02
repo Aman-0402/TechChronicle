@@ -2241,6 +2241,24 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'AlloyDB', 'PostgreSQL', 'Database', 'On-Premises', 'Hybrid Cloud'],
   },
+
+  {
+    id: 124,
+    date: '2026-07-04',
+    category: 'Hardware',
+    title: 'Samsung Ships 256GB LPDDR6 Mobile RAM Module: First Smartphone With 24GB of On-Device AI Memory',
+    excerpt: 'Memory density milestone enables on-device inference of 7B parameter models at full precision in flagship smartphones for the first time.',
+    body: [
+      "Samsung has begun mass production of LPDDR6 (Low Power Double Data Rate 6) memory in a 256Gb (32GB) die configuration using its 12nm DRAM process, enabling smartphone manufacturers to ship devices with 24GB of unified memory — sufficient to run 7-billion-parameter language models at full INT8 precision on-device, without cloud inference. The first commercial device using LPDDR6 24GB is the Samsung Galaxy S26 Ultra, shipping in September 2026.",
+      "LPDDR6 introduces two key improvements over LPDDR5X (the current generation): 17.6Gbps per pin data rate (versus 8.5Gbps for LPDDR5X), doubling memory bandwidth to 140.8GB/s for a 64-bit channel system, and a 25% reduction in power consumption at equivalent performance via a new voltage domain architecture that separately regulates core logic and I/O circuits. For AI workloads, the bandwidth improvement is more significant than raw capacity.",
+      "The 24GB configuration is significant because 7B parameter models in INT8 precision require approximately 7GB of memory. At 24GB, a flagship smartphone can simultaneously hold the model in memory, maintain the operating system and foreground applications, and have 8–10GB for context (input/output) — enabling continuous on-device AI without model swapping or cloud round-trips. Apple's M5-based iPhones (the first to support LPDDR6) are expected to ship with 16GB or 24GB configurations.",
+      "<blockquote>Memory is the constraint that limits on-device AI. We have been constrained at 12GB, then 16GB. At 24GB, the constraint moves to the NPU, not the memory. The smartphones shipping with LPDDR6 24GB will run AI applications that simply cannot run on any device shipping today. — Young-Hyun Jun, President, Samsung Memory Business</blockquote>",
+      "The broader supply chain impact: SK Hynix has announced LPDDR6 production for Q1 2027, and Micron for Q2 2027. The 3-quarter Samsung lead in LPDDR6 availability makes Samsung the exclusive supplier to the first wave of LPDDR6 devices, providing competitive advantage to Samsung Galaxy phones over competing Android flagships. Qualcomm's Snapdragon 8 Gen 4 and MediaTek's Dimensity 9500 have both been certified for LPDDR6 compatibility.",
+    ],
+    company: 'Samsung',
+    readTime: 5,
+    tags: ['Samsung', 'LPDDR6', 'Mobile Memory', 'On-Device AI', 'Smartphones', 'Hardware'],
+  },
 ];
 
 TC.timelineData = {
