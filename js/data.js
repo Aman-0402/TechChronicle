@@ -2601,6 +2601,24 @@ undefined
     readTime: 5,
     tags: ['Oracle Cloud', 'NVIDIA', 'AI Supercomputing', 'H200 GPU', 'Cloud Infrastructure'],
   },
+
+  {
+    id: 144,
+    date: '2026-07-05',
+    category: 'Hardware',
+    title: 'Qualcomm Snapdragon X Elite 2 for AI PCs: 100 TOPS NPU, Beats Apple M4 on Windows AI Benchmarks',
+    excerpt: 'Qualcomm's second-generation ARM PC chip delivers sustained AI performance leadership on Windows, solidifying the shift away from x86 in thin-and-light laptops.',
+    body: [
+      "Qualcomm has announced Snapdragon X Elite 2, the successor to its breakthrough Snapdragon X Elite processor, achieving 100 TOPS (Tera Operations Per Second) NPU performance — double the 45 TOPS of the original X Elite and surpassing Apple M4's 38 TOPS on the Windows AI benchmark suite. The chip is manufactured on TSMC N3P (3nm Plus) process and delivers 25% higher CPU performance versus X Elite, with a new Oryon V2 CPU core that Qualcomm claims is the highest-performance ARM core ever shipped in a PC processor.",
+      "The 100 TOPS NPU enables new Windows AI features in partnership with Microsoft: Recall 2.0 (the AI-powered search across everything you have seen on your PC, reintroduced with on-device processing after the privacy-related delay of the original Recall), Cocreator 2.0 in Paint (real-time AI image editing on the PC), and Windows AI Studio (a developer tool for testing AI models locally before cloud deployment).",
+      "Snapdragon X Elite 2 maintains the battery life advantage of its predecessor: Qualcomm reports 25 hours of video playback on a 75Wh battery in the reference design, versus 18–20 hours for equivalent AMD and Intel laptops at the same battery capacity. The efficiency advantage is structural: ARM instruction set density and Qualcomm's custom cache hierarchy result in significantly lower energy per instruction versus x86 designs.",
+      "<blockquote>The first Snapdragon X Elite proved that ARM could win on Windows. The X Elite 2 proves it was not a fluke. We now have the fastest Windows CPU, the highest TOPS NPU, and the best battery life in a PC processor. x86 is not the answer for thin-and-light AI PCs. Qualcomm is. — Cristiano Amon, CEO, Qualcomm</blockquote>",
+      "Microsoft Surface Pro 11 and Surface Laptop 7 using Snapdragon X Elite 2 ship September 2026, alongside laptops from Dell XPS 15 (ARM), HP Spectre x360 16 (ARM), and Lenovo ThinkPad X1 Carbon 14 (ARM). Intel and AMD have announced competing AI PC processors (Core Ultra 300 and Ryzen AI 400 series) for the same September launch window, making fall 2026 the most competitive PC processor launch period in a decade.",
+    ],
+    company: 'Qualcomm',
+    readTime: 5,
+    tags: ['Qualcomm', 'Snapdragon X Elite 2', 'AI PC', 'ARM', 'NPU', 'Windows'],
+  },
 ];
 
 TC.timelineData = {
