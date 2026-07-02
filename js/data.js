@@ -2205,6 +2205,24 @@ undefined
     readTime: 5,
     tags: ['Sora', 'OpenAI', 'Video Generation', 'AI Creativity', 'Film'],
   },
+
+  {
+    id: 122,
+    date: '2026-07-04',
+    category: 'Cybersecurity',
+    title: 'EU Cyber Resilience Act Takes Effect: All Connected Devices Sold in Europe Must Ship Security Updates for 5 Years',
+    excerpt: 'Landmark EU regulation transforms product security liability, forcing hardware and software vendors to treat security as an ongoing obligation.',
+    body: [
+      "The European Union's Cyber Resilience Act (CRA) has taken full effect, making the EU the first major jurisdiction to legally mandate security update support windows for all connected products sold within its borders. Under the CRA, any product with digital components sold in the EU — from routers and smart speakers to industrial sensors and medical devices — must receive security updates for a minimum of 5 years from the date of sale, and manufacturers must report exploited vulnerabilities to ENISA (the EU's cybersecurity agency) within 24 hours of discovery.",
+      "The CRA's liability framework is its most consequential provision: manufacturers are now legally liable for damages caused by security vulnerabilities in their products if they fail to meet the Act's requirements. This is the first time product liability law has been extended to software security in any major jurisdiction. Insurance implications are immediate: product liability insurers have begun pricing CRA compliance risk, with non-compliant products facing insurance premiums 3–5x higher than compliant alternatives.",
+      "US tech companies face the most significant compliance challenge: Apple, Google, Microsoft, and Amazon all sell connected products in Europe and must now maintain security update programs meeting CRA standards or face removal from the EU market. All four have published compliance statements. Smaller vendors — estimated at 8,000 companies selling connected devices in Europe — face the steeper challenge of establishing formal vulnerability disclosure and response programs that most lacked entirely.",
+      "<blockquote>For too long, the market has rewarded speed to market and punished security investment. The CRA changes that calculus permanently. A company that ships an insecure product now faces five years of mandatory remediation costs, ENISA reporting obligations, and potential liability for damages. Security is no longer optional — it is the cost of selling in Europe. — Thierry Breton, EU Commissioner for Internal Market</blockquote>",
+      "Enforcement falls to national market surveillance authorities, with penalties up to 15 million euros or 2.5% of global annual turnover for violations. The first enforcement actions are expected in Q1 2027, after a 12-month grace period for manufacturers to achieve compliance. Security researchers have broadly welcomed the legislation; critics including the Internet Society have raised concerns that the 24-hour vulnerability reporting requirement may discourage coordinated disclosure.",
+    ],
+    company: 'European Union',
+    readTime: 6,
+    tags: ['EU CRA', 'Cyber Resilience Act', 'Product Security', 'Regulation', 'IoT Security'],
+  },
 ];
 
 TC.timelineData = {
