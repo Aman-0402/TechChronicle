@@ -921,6 +921,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Stripe', 'Stablecoin', 'USDC', 'Payments', 'Crypto'],
   },
+
+  {
+    id: 54,
+    category: 'Programming',
+    title: 'Go 1.24 Ships Generic Type Aliases and Faster GC with 40% Lower Pause Times',
+    excerpt: 'Google releases the most developer-friendly Go update in years, closing long-standing generics limitations.',
+    body: [
+      "Google has released Go 1.24, delivering two headline improvements: full generic type aliases (the last major generics limitation from the Go 1.18 release) and a reworked garbage collector that reduces stop-the-world pause times by 40% at the 99th percentile — a change with immediate impact for latency-sensitive microservices.",
+      "Generic type aliases allow developers to write type MyMap[K, V] = map[K]V — creating parameterized aliases for existing generic types. This closes the largest usability gap in Go's generics implementation that forced workarounds like wrapper types or code generation for common patterns in library design.",
+      "The GC improvement uses a new 'concurrent stack scanning' technique that moves most stack scanning work out of stop-the-world pauses and into concurrent goroutines. At p99, pause times drop from ~2ms to ~1.2ms on typical microservice workloads. At p999, the improvement is more dramatic: from ~8ms to ~2.5ms.",
+      "<blockquote>Go 1.24 is the release that finishes what 1.18 started. Generic type aliases were the last piece we owed the community. And the GC work is the kind of invisible improvement that just makes everything faster without asking anything from developers. — Russ Cox, Go Tech Lead, Google</blockquote>",
+      "The release also ships profile-guided optimization (PGO) 2.0, which can now apply optimizations across package boundaries for the first time. Production profiles uploaded to the Go compiler produce an average 8% performance improvement on real-world applications, up from 4% in Go 1.21.",
+    ],
+    company: 'Google (Go Team)',
+    readTime: 4,
+    tags: ['Go', 'Golang', 'Generics', 'Garbage Collector', 'Google'],
+  },
 ];
 
 TC.timelineData = {
