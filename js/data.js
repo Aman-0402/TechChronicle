@@ -819,6 +819,23 @@ TC.articles = [
     readTime: 5,
     tags: ['SSI', 'Ilya Sutskever', 'AI Safety', 'Superintelligence', 'Startup'],
   },
+
+  {
+    id: 48,
+    category: 'Dev Tools',
+    title: 'GitHub Copilot Workspace GA: Entire Feature Branches Generated from a Single Issue',
+    excerpt: 'Agentic coding environment moves beyond autocomplete to full pull-request generation from GitHub issues.',
+    body: [
+      "GitHub has announced the general availability of Copilot Workspace, its agentic coding environment that takes a GitHub issue as input and produces a complete, tested pull request as output — including code changes, updated tests, documentation, and a description of the approach taken.",
+      "The workflow is: a developer opens a GitHub issue, clicks 'Open in Copilot Workspace', and the system autonomously explores the codebase, proposes an implementation plan, writes the code, runs the test suite in a sandboxed environment, fixes any failures, and opens a pull request for human review. The average time from issue to PR is 8 minutes for typical bug fixes and 22 minutes for new features.",
+      "In a survey of 2,400 GitHub enterprise customers using the beta, 67% of Copilot Workspace PRs required fewer than 5 review comments before merge — comparable to PRs written by junior-to-mid engineers. 23% were merged without changes. The remaining 10% required significant rework, typically on complex cross-cutting changes.",
+      "<blockquote>Copilot Workspace is the first time AI has made me feel like I have a junior engineer on my team rather than a slightly smarter autocomplete. I give it issues; it gives me PRs. — Thomas Dohmke, CEO, GitHub</blockquote>",
+      "Copilot Workspace is included in GitHub Copilot Enterprise at $39/user/month. It supports all languages with GitHub Copilot support and integrates with GitHub Actions for CI/CD. Private repositories are processed in isolated environments with no data retention.",
+    ],
+    company: 'GitHub (Microsoft)',
+    readTime: 4,
+    tags: ['GitHub Copilot', 'Agentic AI', 'Developer Tools', 'Pull Request', 'Automation'],
+  },
 ];
 
 TC.timelineData = {
