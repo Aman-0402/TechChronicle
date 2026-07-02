@@ -1625,6 +1625,23 @@ undefined
     readTime: 5,
     tags: ['Azure', 'Satellite Computing', 'Edge Computing', 'Cloud Infrastructure', 'Microsoft'],
   },
+
+  {
+    id: 95,
+    category: 'AI',
+    title: 'Anthropic Releases Claude 4 Opus: 200K Context, Native Multimodal Output, Computer Use 2.0',
+    excerpt: 'Anthropic's flagship model leap introduces image generation, video understanding, and dramatically improved agentic task completion.',
+    body: [
+      "Anthropic has released Claude 4 Opus, the most capable model in the Claude family, featuring a 200,000-token context window (double Claude 3.7), native multimodal output (the model can generate and edit images as part of responses), full video understanding (analyzing up to 2-hour video files frame by frame), and Computer Use 2.0 — a significantly improved agentic interface for controlling web browsers and desktop applications.",
+      "Claude 4 Opus scores 91.2% on MMLU, 89.4% on GPQA Diamond (the highest score of any model on graduate-level science questions), and 85.3% on the SWE-bench software engineering benchmark. On the new MAIA (Multimodal AI Assessment) benchmark introduced alongside the release, Claude 4 Opus scores 78.4% — 6 points above GPT-4o multimodal and 4 points above Gemini 2.0 Ultra.",
+      "Computer Use 2.0 addresses the most significant criticisms of the original Computer Use feature: reliability and safety. The new version introduces a Careful Mode that pauses before irreversible actions (form submissions, file deletions, purchases), a Sandbox Mode that previews all actions in a headless browser before executing them in the real browser, and an Audit Log that records every action taken for human review. Task completion rate on standard web automation benchmarks improves from 62% (Claude 3.5) to 84% (Claude 4 Opus).",
+      "<blockquote>We spent the past year thinking carefully about what it means to build a model that is simultaneously more capable and more trustworthy. Those two things should not be in tension. They are in tension in poorly designed systems. We worked to resolve the tension in the design, not paper over it in the marketing. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "Claude 4 Opus is available via the Anthropic API at $15/million input tokens and $75/million output tokens. It is integrated into Amazon Bedrock, Google Cloud Vertex AI, and available via Claude.ai Pro and Enterprise subscriptions. Anthropic has published a full model card, safety evaluation results, and red team findings concurrently with the release under its responsible scaling policy.",
+    ],
+    company: 'Anthropic',
+    readTime: 5,
+    tags: ['Anthropic', 'Claude 4', 'LLM', 'Multimodal AI', 'Computer Use', 'AI Agents'],
+  },
 ];
 
 TC.timelineData = {
