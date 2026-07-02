@@ -2115,6 +2115,24 @@ undefined
     readTime: 5,
     tags: ['Deno', 'JavaScript', 'npm', 'Open Source', 'Runtime', 'TypeScript'],
   },
+
+  {
+    id: 117,
+    date: '2026-07-03',
+    category: 'Startups',
+    title: 'Scale AI Hits $1 Billion ARR, Closes $1.4B Series F at $14 Billion Valuation for AI Data Infrastructure',
+    excerpt: 'The company that labels the data that trains AI becomes a billion-dollar business as AI training appetite grows exponentially.',
+    body: [
+      "Scale AI has announced $1 billion in annualized recurring revenue, a milestone that comes 8 years after its 2016 founding and less than 3 years after its $7.3 billion Series E valuation. Concurrent with the ARR announcement, the company has closed a $1.4 billion Series F at a $14 billion valuation led by Accel and existing investors Founders Fund, Index Ventures, and Tiger Global. The funding will accelerate Scale's expansion into AI evaluation and red-teaming services.",
+      "Scale AI's core business — human-in-the-loop data labeling for AI training — has grown with the AI training market: as models grow larger and require more training data, Scale's revenue grows proportionally. Current customers include OpenAI (a long-term strategic partner), Microsoft, Meta, the US Department of Defense (via Scale's federal division), Toyota, and Airbus. Scale processes approximately 10 billion data annotations per month across text, image, video, and 3D point cloud modalities.",
+      "The Series F funds two growth initiatives: Scale Evaluation (red-teaming and safety evaluation services for AI models, growing 400% year-over-year as AI labs face regulatory pressure to demonstrate safety) and Scale Donovan (a defense-specific AI platform for intelligence analysis and logistics, the company's fastest-growing product at $200M ARR after 18 months).",
+      "<blockquote>Every AI model that exists was trained on labeled data. That means every AI capability that exists required Scale, or a company doing what Scale does, to create the training signal. We are the picks-and-shovels business for the AI gold rush — except that unlike the original gold rush, the gold rush is not ending. — Alexandr Wang, CEO, Scale AI</blockquote>",
+      "Scale AI's path to profitability is accelerated by its RLHF (Reinforcement Learning from Human Feedback) automation product, which uses AI to pre-label data that human annotators then verify rather than create from scratch — reducing the human time required per annotation by 60–80% while maintaining quality. The company projects positive EBITDA by Q2 2027. Alexandr Wang, who founded Scale at age 19 and is 27 years old, remains the majority shareholder and sole voting control holder via a dual-class share structure.",
+    ],
+    company: 'Scale AI',
+    readTime: 5,
+    tags: ['Scale AI', 'AI Data', 'Startups', 'Data Labeling', 'Venture Capital', 'RLHF'],
+  },
 ];
 
 TC.timelineData = {
