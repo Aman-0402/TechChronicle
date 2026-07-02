@@ -1676,6 +1676,23 @@ undefined
     readTime: 6,
     tags: ['Neuralink', 'Brain-Computer Interface', 'Paralysis', 'Medical Technology', 'BCI'],
   },
+
+  {
+    id: 98,
+    category: 'Cybersecurity',
+    title: 'NIST Finalizes Post-Quantum Cryptography Standard: ML-KEM, ML-DSA, and SLH-DSA Are Now Official FIPS',
+    excerpt: 'Eight-year standardization process concludes as NIST publishes the three post-quantum algorithms as Federal Information Processing Standards.',
+    body: [
+      "The National Institute of Standards and Technology has published FIPS 203 (ML-KEM, key encapsulation), FIPS 204 (ML-DSA, digital signatures), and FIPS 205 (SLH-DSA, stateless hash-based signatures) as finalized Federal Information Processing Standards — completing an eight-year standardization process that began in 2016 with a global call for quantum-resistant cryptographic algorithms.",
+      "The finalization of these FIPS standards has immediate legal implications: all US government systems handling sensitive-but-unclassified information must begin transitioning to these algorithms within 12 months of publication. Commercial systems certified under FIPS 140-3 (cryptographic module validation) must add support for at least ML-KEM-768 and ML-DSA-65 by December 2026 or lose certification.",
+      "The three algorithms have distinct use cases: ML-KEM (Module-Lattice Key Encapsulation Mechanism) replaces ECDH for key exchange in protocols like TLS and SSH. ML-DSA (Module-Lattice Digital Signature Algorithm) replaces ECDSA for code signing, document signing, and certificate authorities. SLH-DSA (Stateless Hash-Based Digital Signature Algorithm) provides a hash-function-based alternative for scenarios requiring long-term signature security.",
+      "<blockquote>The greatest threat from quantum computing is not to systems we build tomorrow but to data encrypted today. If an adversary has harvested encrypted traffic and waits 10 years for a cryptographically relevant quantum computer, everything encrypted with RSA or ECDH today becomes readable. The time to act is now, not when quantum computers mature. — Dustin Moody, NIST Post-Quantum Cryptography Project Lead</blockquote>",
+      "Major platforms have committed to timelines: Apple's iOS 19 will include ML-KEM for iMessage and iCloud key exchange (already partially deployed via PQ3 protocol). Google Chrome 130 includes ML-KEM hybrid mode for TLS. Amazon Web Services has deployed ML-KEM in AWS KMS and ACM. OpenSSL 4.0 (expected Q4 2026) includes all three FIPS algorithms natively. The IETF has fast-tracked RFC drafts for ML-KEM in TLS 1.3 and SSH.",
+    ],
+    company: 'NIST',
+    readTime: 6,
+    tags: ['Post-Quantum Cryptography', 'NIST', 'FIPS', 'ML-KEM', 'Cryptography', 'Security Standards'],
+  },
 ];
 
 TC.timelineData = {
