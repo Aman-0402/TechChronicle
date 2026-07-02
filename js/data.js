@@ -1540,6 +1540,23 @@ undefined
     readTime: 5,
     tags: ['Vercel', 'v0', 'Full-Stack', 'AI Code Generation', 'Next.js', 'Dev Tools'],
   },
+
+  {
+    id: 90,
+    category: 'Cybersecurity',
+    title: 'GitHub Copilot Security Scans Now Block 94% of Vulnerable Code Patterns Before Commit',
+    excerpt: 'GitHub integrates real-time vulnerability detection directly into the code suggestion loop, catching security bugs before they leave the IDE.',
+    body: [
+      "GitHub has shipped a major update to Copilot Security that moves vulnerability detection from a post-commit scan to an inline suggestion-time block. When Copilot suggests code containing a known vulnerable pattern — SQL injection, command injection, hardcoded secrets, insecure deserialization, XSS, path traversal — the suggestion is now blocked and replaced with a secure alternative, with an inline explanation of why the original was rejected.",
+      "The system uses a fine-tuned security model (GitHub calls it Copilot Secure) trained on 4.2 million known-vulnerable code patterns from GitHub's CVE database, NVD, OSV, and GitHub's own security advisory dataset. The model classifies suggested code in real time (under 40ms latency impact) across 23 vulnerability categories from OWASP Top 10 and CWE Top 25, supporting Python, JavaScript/TypeScript, Java, C#, Go, Ruby, PHP, and Rust.",
+      "In a controlled study across 5,000 GitHub Enterprise repositories, Copilot Security blocked 94.3% of vulnerable code patterns that would have previously reached pull requests, compared to 67% caught by CodeQL post-commit scanning. The false positive rate is 1.2% — one in 83 blocked suggestions is a false alarm — which GitHub considers acceptable given the security gain.",
+      "<blockquote>Every CVE that starts as a line of code that a developer typed. We are now in a position to intercept that line before it ever reaches version control. Not after the PR, not after the deploy, not after the breach — at the moment of creation. — Mike Hanley, Chief Security Officer, GitHub</blockquote>",
+      "Copilot Security is available for all GitHub Copilot Enterprise subscriptions ($39/user/month) starting July 2026, with no additional configuration required beyond enabling the feature in organization settings. GitHub reports that in early access, 78% of developers accepted the secure replacement suggestion rather than dismissing the warning and writing their own alternative — indicating developers trust the system's replacements.",
+    ],
+    company: 'GitHub',
+    readTime: 5,
+    tags: ['GitHub Copilot', 'Security', 'Vulnerability Detection', 'DevSecOps', 'AI Code Review'],
+  },
 ];
 
 TC.timelineData = {
