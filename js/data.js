@@ -1438,6 +1438,23 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'Storage', 'NVMe', 'Database', 'Hyperdisk', 'Cloud Infrastructure'],
   },
+
+  {
+    id: 84,
+    category: 'Startups',
+    title: 'Anduril Industries Valued at $48 Billion After $2.8B Series F for Autonomous Defense Systems',
+    excerpt: 'Defense tech unicorn becomes the highest-valued venture-backed defense company in history as military AI spending accelerates.',
+    body: [
+      "Anduril Industries has closed a $2.8 billion Series F round at a $48 billion post-money valuation, making it the highest-valued venture-backed defense technology company in history. The round was led by Andreessen Horowitz and Founders Fund, with participation from General Catalyst, Thrive Capital, and new institutional investors including three sovereign wealth funds. The capital will fund production scale-up of the Roadrunner autonomous interceptor and the Ghost Shark autonomous submarine.",
+      "Anduril's Lattice AI operating system — which fuses sensor data from satellites, drones, radar, and ground sensors to provide real-time battlefield awareness — is now deployed with 14 US allies and contracted across the US Army, Navy, Air Force, Space Force, and Marine Corps. Annualized revenue has crossed $2 billion, up from $500 million in 2023, representing 4x growth in three years.",
+      "The Roadrunner autonomous interceptor, which Anduril describes as a 'fighter jet in a tube,' can launch in 30 seconds, intercept targets at ranges up to 100km, and return to base for reuse if the intercept is aborted — unlike traditional one-way interceptor missiles. The system is designed to counter swarms of cheap drones (a major vulnerability exposed in recent conflicts) at $50,000 per intercept versus $2–4 million for Patriot PAC-3 missiles.",
+      "<blockquote>We started Anduril because we believed the US defense industrial base was structurally incapable of moving at software speed. Eight years later, that belief is validated. We are building the defense company that the next 50 years require. — Palmer Luckey, Founder and CEO, Anduril</blockquote>",
+      "The valuation eclipses legacy defense contractors on a revenue-multiple basis: Anduril's $48B valuation at $2B revenue is a 24x multiple versus Lockheed Martin's 2x and Raytheon's 2.5x. Critics note that Anduril's revenue depends heavily on US government contract renewals and that autonomous weapons systems face potential international treaty restrictions. Anduril's IPO, expected in 2027 or 2028, is anticipated to be the largest defense sector public offering in decades.",
+    ],
+    company: 'Anduril Industries',
+    readTime: 5,
+    tags: ['Anduril', 'Defense Tech', 'Autonomous Weapons', 'Startups', 'Venture Capital'],
+  },
 ];
 
 TC.timelineData = {
