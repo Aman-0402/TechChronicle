@@ -1953,6 +1953,24 @@ undefined
     readTime: 6,
     tags: ['DeepSeek', 'Open Source AI', 'Reasoning Models', 'MoE', 'China AI', 'R3'],
   },
+
+  {
+    id: 108,
+    date: '2026-07-03',
+    category: 'Open Source',
+    title: 'Node.js 24 LTS: Built-in Fetch, WebCrypto, and SQLite — the First No-NPM-Install Server Runtime',
+    excerpt: 'Node.js 24 ships with three major APIs built in that previously required npm packages, closing the gap with Deno and Bun on batteries-included development.',
+    body: [
+      "Node.js 24 has been designated the new Long-Term Support (LTS) release, shipping with three previously npm-dependent APIs as built-in globals: fetch (HTTP client, previously requiring node-fetch), Web Crypto API (cryptographic operations, previously requiring the webcrypto package), and SQLite (embedded database, previously requiring better-sqlite3 or sqlite3). The result is the first version of Node.js where a simple HTTP client, encryption, and a local database work without a single npm install.",
+      "The built-in SQLite module uses the same API surface as better-sqlite3 (the most-used SQLite package in Node.js, with 22 million weekly downloads) with 100% API compatibility for its core methods. Existing code using better-sqlite3 can switch to the built-in module with only the require path changed. The built-in module is 2.4x faster for read-heavy workloads due to tighter integration with V8's garbage collector.",
+      "Fetch and WebCrypto have been available in Node.js since version 18 but were flagged as experimental. Node.js 24 marks both as stable and removes the experimental warning. The fetch implementation passes the Web Platform Tests for the Fetch specification at 99.2% compliance. WebCrypto implements all 26 algorithms specified in the W3C WebCryptoAPI, including the post-quantum algorithms ML-KEM and SLH-DSA added in a supplemental specification.",
+      "<blockquote>Every npm install is a dependency, a supply chain risk, and a maintenance burden. When we ask 'why do developers use Deno or Bun instead of Node.js?' the honest answer is often 'because they needed fetch without an npm install.' Node.js 24 eliminates that answer. — Matteo Collina, Node.js TSC member, Nearform</blockquote>",
+      "Node.js 24 also upgrades the V8 JavaScript engine to version 13.2, gaining the latest ECMAScript 2026 features: Array.fromAsync, Promise.try, and the Iterator Helpers proposal. The test runner (node:test), introduced experimentally in Node.js 18, is now the recommended testing approach and gains mock timers, code coverage reporting, and a TAP reporter compatible with all major CI systems. Node.js 24 will receive Active LTS support until October 2027 and Maintenance LTS until April 2029.",
+    ],
+    company: 'Node.js Foundation',
+    readTime: 5,
+    tags: ['Node.js', 'JavaScript', 'Open Source', 'SQLite', 'Runtime'],
+  },
 ];
 
 TC.timelineData = {
