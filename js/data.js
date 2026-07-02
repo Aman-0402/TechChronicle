@@ -2655,6 +2655,24 @@ undefined
     readTime: 6,
     tags: ['NASA', 'Exoplanets', 'James Webb Telescope', 'AI Discovery', 'Astronomy', 'DeepMind'],
   },
+
+  {
+    id: 147,
+    date: '2026-07-05',
+    category: 'AI',
+    title: 'Mistral AI Raises $1 Billion Series C at $6 Billion Valuation, Opens Paris AI Research Lab',
+    excerpt: 'Europe's leading AI company secures funding to challenge US AI dominance, with emphasis on open-source models and European sovereignty.',
+    body: [
+      "Mistral AI has closed a $1 billion Series C round at a $6 billion post-money valuation, making it the highest-valued European AI company by post-money valuation. The round was led by General Catalyst and a16z, with participation from Salesforce Ventures, BPI France, and NVIDIA (strategic investment including GPU credits). The funding brings Mistral's total raised to $1.4 billion since its June 2023 founding — a remarkable trajectory for a 3-year-old company.",
+      "Concurrent with the funding, Mistral is opening a 400-person AI research lab in Paris's Station F campus, hiring across three research teams: fundamental language model research (targeting next-generation MoE architectures), multilingual AI (focusing on underrepresented European languages including Basque, Catalan, Welsh, and Maltese), and AI safety (evaluating models for misuse potential and bias, publishing research under Creative Commons).",
+      "Mistral's open-source strategy has been central to its European positioning: French and EU regulators have publicly endorsed Mistral as an example of responsible AI development, and the European Commission cited Mistral's open-weight models in its AI Act compliance guidance as examples of high-transparency AI systems. Mistral's commercial models (Mistral Large 3) compete with GPT-4o and Claude 3.7 on performance; its open-weight models (Mistral 7B, Mixtral 8x22B, Mistral Large 3) are used by European companies that cannot send data to US-based API providers.",
+      "<blockquote>Europe is not behind in AI. Europe has chosen a different path — open models, regulatory alignment, sovereign infrastructure. We think that path is better. Not just ethically better, but competitively better. The companies that can verify their AI model's behavior will win the regulated industries of the next decade. — Arthur Mensch, CEO, Mistral AI</blockquote>",
+      "Mistral's annualized revenue is $180 million, growing 400% year-over-year. The company's largest revenue streams are enterprise API access (40%), Mistral Cloud inference (30%), and strategic partnerships with European telecom providers (30%). Mistral has declined to pursue an IPO before reaching $500 million in revenue, targeting that milestone in 2027. The company is valued at 33x revenue — a premium reflecting investor confidence in the European AI market and Mistral's open-source positioning.",
+    ],
+    company: 'Mistral AI',
+    readTime: 5,
+    tags: ['Mistral AI', 'European AI', 'Startups', 'Open Source AI', 'Venture Capital', 'France'],
+  },
 ];
 
 TC.timelineData = {
