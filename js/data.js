@@ -874,7 +874,7 @@ TC.articles = [
 
 TC.timelineData = {
   2026: {
-    June: { count: 40, topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools'] },
+    June: { count: 50, topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools'] },
   },
 };
 
