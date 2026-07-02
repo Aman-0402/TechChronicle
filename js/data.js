@@ -2025,6 +2025,24 @@ undefined
     readTime: 6,
     tags: ['Volt Typhoon', 'Critical Infrastructure', 'ICS Security', 'China', 'CISA', 'Cybersecurity'],
   },
+
+  {
+    id: 112,
+    date: '2026-07-03',
+    category: 'Cloud',
+    title: 'Cloudflare Workers AI Free Tier: Run 20 Open-Source Models with No Credit Card, No Rate Limits for Devs',
+    excerpt: 'Cloudflare eliminates cost barrier for AI inference at the edge, making serverless AI as accessible as its original Workers free tier.',
+    body: [
+      "Cloudflare has announced a permanent free tier for Workers AI, its serverless AI inference platform, allowing any developer to run 20 pre-loaded open-source models — including Llama 3.1 8B, Mistral 7B, Gemma 2B, Whisper (speech-to-text), FLUX.1 (image generation), and mxbai-embed-large (text embeddings) — with no credit card required and no rate limits on the free tier for individual developer accounts. The announcement fundamentally changes the economics of AI development for indie developers and small teams.",
+      "Workers AI runs inference at Cloudflare's edge network — 310 data centers in 120 countries — rather than in centralized cloud regions, delivering median AI inference latency of 28ms globally. For speech-to-text (Whisper) and embedding generation use cases, the free tier allows up to 1,000 requests per day; for text generation (Llama, Mistral), up to 500 requests per day. Image generation is limited to 50 images per day.",
+      "The 20 included models cover the primary AI use cases for web applications: text generation, chat, function calling, embeddings (for semantic search and RAG), speech-to-text, image classification, image generation, and translation. The models run on Cloudflare's proprietary AI inference hardware — a custom chip called Qualcomm Cloud AI 100, co-designed with Qualcomm — achieving lower inference cost than GPU-based inference.",
+      "<blockquote>The original Workers free tier was transformative for web development. It showed that platform infrastructure should not be a barrier to experimentation. AI inference is now platform infrastructure. The free tier is how we do the same for AI. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "Paid tiers start at $0.011 per 1,000 neurons (Cloudflare's compute unit for AI inference) for higher volume and additional models, scaling to enterprise SLAs for production deployments. The free tier is available immediately to all Cloudflare accounts, including accounts on the existing Workers free plan. Cloudflare reports the free tier has seen 800,000 developer activations in the 72 hours since launch.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'Workers AI', 'AI Inference', 'Edge Computing', 'Free Tier', 'Open Source AI'],
+  },
 ];
 
 TC.timelineData = {
