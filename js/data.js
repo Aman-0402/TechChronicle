@@ -1108,6 +1108,23 @@ TC.articles = [
     readTime: 5,
     tags: ['AI Facts', 'Neural Networks', 'Human Brain', 'LLM Scale', 'Neuroscience'],
   },
+
+  {
+    id: 65,
+    category: 'Programming',
+    title: 'Zig 1.0 Released After 8 Years: The C Replacement That Never Compromised on Simplicity',
+    excerpt: 'Andrew Kelley ships the stable release of Zig with the language specification finalized and a self-hosted compiler.',
+    body: [
+      "Zig 1.0 has been released after eight years of development, marking the language's emergence from a passion project into a production systems programming language with a finalized specification, a self-hosted compiler written entirely in Zig, and a standard library that covers networking, cryptography, JSON parsing, and HTTP.",
+      "Zig's core promise is 'no hidden control flow, no hidden allocations, no undefined behavior by default' — a sharper version of C's philosophy without C's undefined behavior traps. There are no exceptions, no operator overloading, no implicit type coercions. Memory allocation is explicit and allocator-agnostic: every standard library function that allocates memory accepts an allocator parameter.",
+      "The self-hosted compiler — a compiler written in Zig that compiles Zig — is 60% faster than the previous LLVM-bootstrap compiler for incremental builds and produces smaller binaries by default. The compiler includes a build system (zig build) that replaces make/cmake with a Zig API, and a package manager that was one of the most anticipated missing features.",
+      "<blockquote>The goal was never to be the most popular language. It was to build the language I wish existed when I was writing C. Simple, fast, safe from undefined behavior, and honest about what it is doing. 1.0 means we are done changing what Zig is. — Andrew Kelley, Creator, Zig</blockquote>",
+      "Zig is gaining significant traction in embedded systems, WebAssembly targets, and as a C compiler (zig cc) that can cross-compile C projects to any target. Bun, the JavaScript runtime, uses Zig as its systems layer. TigerBeetle, a financial database, is written entirely in Zig and uses it in production for SWIFT-level transaction processing.",
+    ],
+    company: 'Zig Software Foundation',
+    readTime: 5,
+    tags: ['Zig', 'Systems Programming', 'C Alternative', 'Compiler', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
