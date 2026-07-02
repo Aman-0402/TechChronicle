@@ -1210,6 +1210,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Tailwind CSS', 'CSS', 'Lightning CSS', 'Container Queries', 'Frontend'],
   },
+
+  {
+    id: 71,
+    category: 'Cybersecurity',
+    title: 'Apple Fixes AirDrop Zero-Click RCE Used in Active Exploitation Against Journalists',
+    excerpt: 'CVE-2026-23708 allowed arbitrary code execution on any iPhone within Bluetooth range with no interaction required.',
+    body: [
+      "Apple has released emergency security updates for iOS 19.4.1, macOS Sequoia 15.4.1, and watchOS 11.4.1 to patch CVE-2026-23708, a critical zero-click remote code execution vulnerability in the AirDrop implementation that requires no user interaction and works on any Apple device with Bluetooth enabled.",
+      "The vulnerability was discovered by researchers at Citizen Lab, who identified it being exploited in active campaigns against journalists and opposition figures in three countries. The exploit chain uses a malformed AWDL (Apple Wireless Direct Link) packet to trigger a heap buffer overflow in the AirDrop daemon, achieving kernel-level code execution.",
+      "The attack requires the attacker to be within Bluetooth range (approximately 30 meters). There is no indication to the victim that an attack is occurring. In the observed exploitation, attackers positioned themselves near targets at airports, hotels, and coffee shops — environments where targets' devices were discoverable.",
+      "<blockquote>This vulnerability is exactly the kind of capability that state-sponsored actors pay millions of dollars for. The fact that it was being used against journalists before Apple could patch it shows how narrow the window between discovery and exploitation has become. — John Scott-Railton, Citizen Lab</blockquote>",
+      "All Apple users are urged to update immediately. As a temporary mitigation before patching, disabling AirDrop (Settings > General > AirDrop > Receiving Off) prevents exploitation. Apple has credited Citizen Lab and committed to a 90-day coordinated disclosure policy for all future critical vulnerabilities reported by security researchers.",
+    ],
+    company: 'Apple / Citizen Lab',
+    readTime: 4,
+    tags: ['Apple', 'AirDrop', 'Zero-Click', 'CVE-2026-23708', 'RCE'],
+  },
 ];
 
 TC.timelineData = {
