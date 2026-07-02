@@ -2331,6 +2331,24 @@ undefined
     readTime: 5,
     tags: ['Firefox', 'Mozilla', 'Translation', 'On-Device AI', 'Privacy', 'Open Source'],
   },
+
+  {
+    id: 129,
+    date: '2026-07-04',
+    category: 'Startups',
+    title: 'Runway ML Closes $300M Series D at $4 Billion Valuation: AI Video Tools for Professional Production',
+    excerpt: 'Creative AI platform achieves unicorn status as Hollywood studios and advertising agencies adopt AI video generation for commercial production.',
+    body: [
+      "Runway ML has closed a $300 million Series D round at a $4 billion post-money valuation, led by Google and Salesforce Ventures, with participation from existing investors Andreessen Horowitz, Lux Capital, and Compound. The funding confirms Runway's position as the leading AI video and creative tools platform for professional media production, with the company reporting $180 million in annualized revenue and 2.5 million active professional users.",
+      "Runway's flagship product, Gen-4 (released in March 2026), generates photorealistic video from text and image prompts with temporal consistency sufficient for commercial use. Unlike Sora (which is consumer-oriented), Runway positions Gen-4 for professional workflows: it integrates with Adobe Premiere Pro, DaVinci Resolve, and Final Cut Pro as a plugin, supports ARRI RAW output for color grading, and maintains shot-to-shot consistency for editorial continuity.",
+      "Professional adoption has been Runway's differentiator: current clients include three of the five major Hollywood studios (Warner Bros. Discovery, Universal, and Sony Pictures), the advertising agencies BBDO, Wieden+Kennedy, and Ogilvy (combined 400 campaigns using Runway tools in 2025), and the game studios CD Projekt Red and Naughty Dog for cinematics production. The company has published case studies showing 60–80% cost reduction for VFX shots using AI-assisted generation versus traditional production.",
+      "<blockquote>We are not disrupting Hollywood. We are tooling Hollywood. The studios that are winning with AI are the ones that have the strongest creative vision and use AI to realize it faster and cheaper. The studios that are losing are the ones that thought AI would replace creative judgment. It does not. — Cristóbal Valenzuela, CEO, Runway ML</blockquote>",
+      "The Series D includes a strategic partnership with Google: Runway's models will be available via Google Cloud's Vertex AI Model Garden, and Google's infrastructure team will provide dedicated TPU v6 capacity for Runway's model training. Runway is exploring an IPO for 2027 but has not filed preliminary documents. The company faces competition from Sora (OpenAI), Kling (Kuaishou), and Veo (Google DeepMind) but maintains a 6–12 month professional workflow integration lead.",
+    ],
+    company: 'Runway ML',
+    readTime: 5,
+    tags: ['Runway ML', 'AI Video', 'Startups', 'Creative AI', 'Hollywood', 'Venture Capital'],
+  },
 ];
 
 TC.timelineData = {
