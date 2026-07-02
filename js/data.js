@@ -734,6 +734,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Ransomware', 'BlackCat', 'Healthcare', 'EDR Evasion', 'BYOVD'],
   },
+
+  {
+    id: 43,
+    category: 'Cloud',
+    title: 'Google Cloud Launches Axion 2: Custom ARM CPU Cuts Compute Costs 38% vs N2D',
+    excerpt: 'Second-generation custom CPU built on Neoverse V3 architecture targets enterprise migration from x86.',
+    body: [
+      "Google Cloud has launched Axion 2, the second generation of its custom ARM-based CPU for cloud compute, built on Arm Neoverse V3 cores and manufactured on TSMC N3 process technology. Google claims Axion 2 delivers 38% better price-performance than its N2D Intel instances and 15% better performance than AWS Graviton4 on equivalent workloads.",
+      "The benchmark results are particularly strong for Java workloads — a critical signal for enterprise migration — with Axion 2 running Apache Kafka 42% faster and Elasticsearch 31% faster than comparable N2D instances. Google has partnered with Broadcom to validate VMware workloads on Axion 2, removing a key barrier for enterprise lift-and-shift migrations.",
+      "Axion 2 introduces hardware-level confidential computing via AMD SEV-SNP equivalent technology implemented in ARM's Realm Management Extension (RME), allowing customers to run encrypted workloads that are isolated from Google's own infrastructure operators — a feature critical for regulated industries.",
+      "<blockquote>Axion 2 is not just about cost — it is about giving enterprises a credible path to ARM in the cloud without rewriting their applications. The Java and JVM story is what enterprises have been waiting for. — Thomas Kurian, CEO, Google Cloud</blockquote>",
+      "C4A (Axion 2) instances are available today in 8 regions with general availability. Preemptible Axion 2 spot instances start at $0.016 per vCPU-hour, undercutting equivalent x86 spot pricing by 41%. A committed use discount of 57% is available for 3-year commitments.",
+    ],
+    company: 'Google Cloud',
+    readTime: 4,
+    tags: ['Google Cloud', 'Axion', 'ARM', 'Cloud Compute', 'Enterprise'],
+  },
 ];
 
 TC.timelineData = {
