@@ -1193,6 +1193,23 @@ TC.articles = [
     readTime: 5,
     tags: ['AI History', 'Neural Networks', 'Deep Learning', 'ChatGPT', 'Tech Facts'],
   },
+
+  {
+    id: 70,
+    category: 'Dev Tools',
+    title: 'Tailwind CSS v5 Ships: Lightning CSS Engine, Zero Config, and Native Container Queries',
+    excerpt: 'Adam Wathan releases the most requested features in Tailwind history alongside a 10x faster build engine.',
+    body: [
+      "Tailwind CSS v5 has been released, delivering three headline features that the community has requested since v3: native container queries without a plugin, zero-config PostCSS setup using Vite and Bun's native CSS processing, and a complete rewrite of the build engine using Lightning CSS (Rust-based) that reduces build times by 10x.",
+      "Container queries allow components to respond to their container's size rather than the viewport — solving the fundamental limitation that made Tailwind classes like sm: and lg: context-dependent. The new @container: prefix works identically to responsive breakpoints: @container:sm:flex applies flex when the nearest container is at least 640px wide.",
+      "Zero config is achieved by replacing the tailwind.config.js requirement with automatic content detection using static analysis. Tailwind v5 scans all .html, .jsx, .tsx, .vue, and .svelte files in your project automatically. The configuration file is now optional and only needed for theme customization.",
+      "<blockquote>v5 is the version where Tailwind stops apologizing for its build step. Lightning CSS makes it faster than hand-written CSS in most real-world scenarios because it eliminates the PostCSS/autoprefixer chain entirely. — Adam Wathan, Creator, Tailwind CSS</blockquote>",
+      "The upgrade path from v4 to v5 uses an automated codemod that handles class renames and removes deprecated utilities. The Tailwind team reports a 99.1% automated migration success rate on the top 500 open source Tailwind projects tested in the pre-release period.",
+    ],
+    company: 'Tailwind Labs',
+    readTime: 4,
+    tags: ['Tailwind CSS', 'CSS', 'Lightning CSS', 'Container Queries', 'Frontend'],
+  },
 ];
 
 TC.timelineData = {
