@@ -2151,6 +2151,24 @@ undefined
     readTime: 5,
     tags: ['Tailwind CSS', 'CSS', 'Dev Tools', 'Frontend', 'Build Tools'],
   },
+
+  {
+    id: 119,
+    date: '2026-07-03',
+    category: 'AI',
+    title: 'OpenAI o3-mini Becomes Most Used AI Model in History: 500 Million Daily Active Users in 90 Days',
+    excerpt: 'Compact reasoning model achieves mass adoption faster than any technology product ever measured, driven by free availability and mobile integration.',
+    body: [
+      "OpenAI has announced that o3-mini — the compact, fast, and free-to-use version of its o3 reasoning model — has reached 500 million daily active users in 90 days since launch, the fastest product adoption in recorded history. The milestone surpasses ChatGPT's 1 million users in 5 days record (2022), TikTok's 1 billion monthly active users in 9 months (2018), and YouTube's 1 billion hours watched per day in 10 years. At 500 million daily actives, o3-mini surpasses ChatGPT's all-time peak.",
+      "The adoption drivers are straightforward: o3-mini is available for free with no account required via a web widget and mobile keyboard integration (iOS 19 and Android 16 both include it as a default system AI). The model processes requests in under 500ms on mobile, making it faster than Google Search for many query types. Its free tier allows 100 queries per day with a 10-page context window — sufficient for the majority of everyday use cases.",
+      "o3-mini's capabilities are deliberately constrained versus o3 and o4-Pro: it does not do extended reasoning chains, does not support code execution, and has a 10,000-token context window. But for factual questions, summarization, writing assistance, translation, and basic coding help, independent evaluations show o3-mini within 8% of full o3 performance at 1/20th the inference cost — the right tradeoff for a free, always-on AI assistant.",
+      "<blockquote>Five hundred million people using a reasoning model every day is not a product metric. It is a civilization metric. We are in the period where AI goes from 'used by some people who are interested in AI' to 'used by everyone, for everything, as naturally as electricity.' That transition is happening faster than our most optimistic projections. — Sam Altman, CEO, OpenAI</blockquote>",
+      "The geographic distribution of o3-mini users reflects global AI adoption: India (120M daily actives), United States (85M), Indonesia (40M), Brazil (38M), and Nigeria (22M) are the top five markets. The developing-world adoption is notable: AI access was previously gated by ability to pay for API access or premium subscriptions. Free, mobile-first AI has democratized access in ways that even optimistic researchers had not projected for 2026.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'o3-mini', 'AI Adoption', 'Mobile AI', 'Free AI'],
+  },
 ];
 
 TC.timelineData = {
