@@ -2439,6 +2439,24 @@ undefined
     readTime: 5,
     tags: ['Swift', 'Swift 6', 'Concurrency', 'Apple', 'Programming Languages', 'iOS'],
   },
+
+  {
+    id: 135,
+    date: '2026-07-04',
+    category: 'AI',
+    title: 'Google Gemma 3 27B: Open-Weight Multimodal Model with Video Understanding Beats Llama 3.1 70B',
+    excerpt: 'Google releases its largest open-weight model with video input capabilities, setting a new standard for freely available multimodal AI.',
+    body: [
+      "Google has released Gemma 3 27B, the largest model in its Gemma open-weights family, under the Gemma Terms of Use (free for commercial use). Gemma 3 27B is multimodal — accepting text, images, and video (up to 60 seconds) as input — and outperforms Llama 3.1 70B on MMLU (87.4% versus 85.2%), HumanEval (76.8% versus 72.1%), and GPQA Diamond (64.2% versus 58.7%) despite being 2.6x smaller in parameter count.",
+      "The efficiency advantage comes from Gemma 3's architectural choices: Grouped Query Attention (reducing KV cache memory by 8x versus Multi-Head Attention), ShiftedRoPE positional encoding (enabling longer context with lower memory than standard RoPE), and knowledge distillation from Gemini 2.0 Ultra (the model was trained to reproduce Gemini 2.0's outputs, transferring reasoning patterns). At 27 billion parameters, Gemma 3 27B runs in 16-bit precision on a single NVIDIA RTX 4090.",
+      "Video understanding in Gemma 3 27B is enabled by a new video encoder that samples frames at 2 frames per second and encodes them as visual tokens appended to the text context. The model can answer questions about video content, describe actions across time, identify visual inconsistencies between frames, and extract information from screen recordings. At 60 seconds of video input, Gemma 3 27B processes 120 frames as 7,680 visual tokens.",
+      "<blockquote>We release Gemma because we believe the AI ecosystem is stronger when powerful open models exist. Gemma 3 27B is the most capable open-weight multimodal model we have released. We are not releasing it to be nice. We are releasing it because open models make the entire field better — including the models we do not release. — Jeff Dean, Chief Scientist, Google DeepMind</blockquote>",
+      "Gemma 3 27B is available on Hugging Face, Kaggle, Vertex AI Model Garden, and via Google AI Studio. Google has published optimized versions for llama.cpp (Q4_K_M quantization, 17GB, runs on consumer GPUs), Ollama (available via ollama pull gemma3:27b), and GGUF format for all major inference runtimes. Fine-tuning datasets, RLHF reward models, and reference training configurations are released alongside the weights.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 5,
+    tags: ['Gemma 3', 'Google', 'Open Source AI', 'Multimodal', 'Video AI', 'Open Weights'],
+  },
 ];
 
 TC.timelineData = {
