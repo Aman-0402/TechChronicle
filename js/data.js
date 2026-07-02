@@ -1845,6 +1845,24 @@ undefined
     readTime: 5,
     tags: ['Gemini', 'Google', 'LLM', 'Benchmarks', 'Multimodal AI'],
   },
+
+  {
+    id: 102,
+    date: '2026-07-03',
+    category: 'Cybersecurity',
+    title: 'Salt Typhoon Telecom Breach: 9 US Carriers Compromised, Senate Passes Emergency Telecom Security Act',
+    excerpt: 'The largest known state-sponsored telecom espionage campaign in US history triggers sweeping legislative response.',
+    body: [
+      "The US Senate has passed the Emergency Telecom Security Act by a vote of 94-6, responding to the Salt Typhoon intrusion campaign attributed to Chinese state-sponsored hackers that compromised the lawful intercept systems of nine major US telecommunications carriers including AT&T, Verizon, T-Mobile, Lumen, and five regional carriers. The breach, which CISA now describes as 'the most damaging cyber espionage campaign against US telecommunications infrastructure in history,' gave attackers access to call metadata, text content, and real-time location data for millions of Americans.",
+      "Salt Typhoon exploited a fundamental architectural vulnerability: the Communications Assistance for Law Enforcement Act (CALEA) requires US carriers to build government-accessible backdoors into their networks. Salt Typhoon compromised the administrative access to those backdoors, effectively using the legal intercept infrastructure as an entry point. Attackers maintained persistent access for an estimated 18 months before detection in late 2025.",
+      "The Emergency Telecom Security Act mandates end-to-end encryption for all inter-carrier signaling protocols (SS7 and Diameter replacements), requires annual third-party security audits of all CALEA infrastructure, and establishes a 72-hour mandatory disclosure window for carrier breaches. It also allocates $4.2 billion for a Secure Telecom Infrastructure Fund to subsidize the cost of network upgrades for smaller carriers.",
+      "<blockquote>We built these backdoors at the government's request. We never anticipated that our adversaries would use those same backdoors against us. That architectural mistake must be corrected now, regardless of the policy debates around lawful access. — Kate Johnson, CEO, Lumen Technologies</blockquote>",
+      "The Act has a contentious provision: it does not prohibit future CALEA-style backdoor requirements but mandates that any such requirements be implemented in cryptographically isolated systems with hardware security module protection. Civil liberties organizations including the EFF and ACLU have criticized this as insufficient, arguing that any mandatory backdoor creates a systemic vulnerability. The FBI has not commented publicly on how the Act affects its lawful intercept capabilities.",
+    ],
+    company: 'US Senate / CISA',
+    readTime: 6,
+    tags: ['Salt Typhoon', 'Telecom Security', 'China', 'Espionage', 'CALEA', 'Cybersecurity'],
+  },
 ];
 
 TC.timelineData = {
