@@ -2493,6 +2493,24 @@ undefined
     readTime: 5,
     tags: ['VS Code', 'Microsoft', 'IDE', 'Developer Tools', 'Open Source'],
   },
+
+  {
+    id: 138,
+    date: '2026-07-04',
+    category: 'Startups',
+    title: 'Cohere Raises $500M Series E at $5.5 Billion Valuation to Dominate Enterprise AI Language Models',
+    excerpt: 'Canadian AI company doubles down on enterprise use cases where data privacy, deployment flexibility, and customization outweigh raw benchmark performance.',
+    body: [
+      "Cohere has raised $500 million in Series E funding at a $5.5 billion post-money valuation, with the round led by PSP Investments and Ontario Teachers' Pension Plan — a signal of Canadian institutional confidence in one of the country's most significant AI companies. The funding brings Cohere's total raised to $1.35 billion. The company reports $320 million in annualized revenue, driven by enterprise contracts with Oracle, SAP, McKinsey, and 200+ Fortune 500 companies.",
+      "Cohere's enterprise positioning is distinct from OpenAI's and Anthropic's: the company offers deployment flexibility unavailable from competitors — models that run on-premises (in the customer's own data center), in private VPCs on any cloud, or via Cohere's SaaS API — with the same model weights across all deployment modes. Enterprise customers with data residency requirements (banking, healthcare, government) can run Cohere Command R+ locally with no data leaving their infrastructure.",
+      "Command R+ (Cohere's flagship model) achieves 87.1% on MMLU, competitive with GPT-4o-mini, but excels on the enterprise-specific benchmarks that Cohere considers most important: RAG (Retrieval Augmented Generation) accuracy (94.3% on Cohere's enterprise benchmark), long-document summarization (top-ranked on the L-Eval benchmark), and instruction following in structured formats (94.1% on IFEval). For enterprise workflows involving long documents and structured outputs, Command R+ leads the market.",
+      "<blockquote>We are not trying to build the most capable model for every use case. We are building the most capable model for enterprise use cases. That means RAG, long documents, structured outputs, and deployment flexibility. OpenAI optimizes for benchmarks. We optimize for enterprise ROI. — Aidan Gomez, CEO, Cohere</blockquote>",
+      "The Series E funds international expansion: Cohere has established a UK headquarters and received approval from the UK Financial Conduct Authority for financial services customers, and is pursuing FedRAMP High authorization for US federal government customers. The company projects profitability by Q4 2026 — earlier than most AI companies of comparable scale — driven by high enterprise contract values (average contract size $2.4M annually) and lower inference costs versus frontier model competitors.",
+    ],
+    company: 'Cohere',
+    readTime: 5,
+    tags: ['Cohere', 'Enterprise AI', 'Startups', 'LLM', 'Venture Capital', 'On-Premises AI'],
+  },
 ];
 
 TC.timelineData = {
