@@ -1971,6 +1971,24 @@ undefined
     readTime: 5,
     tags: ['Node.js', 'JavaScript', 'Open Source', 'SQLite', 'Runtime'],
   },
+
+  {
+    id: 109,
+    date: '2026-07-03',
+    category: 'Startups',
+    title: 'Cursor IDE Surpasses 2 Million Paid Subscribers, Raises $500M Series C at $9 Billion Valuation',
+    excerpt: 'AI-native code editor becomes the fastest-growing developer tool in history, prompting Microsoft to accelerate GitHub Copilot IDE features.',
+    body: [
+      "Cursor, the AI-native code editor built on VS Code's open-source base, has announced 2 million paid subscribers and a $500 million Series C round at a $9 billion valuation — making it the highest-valued pure developer tooling company in history. The round was led by Thrive Capital with participation from a16z, Benchmark, and new investor Tiger Global. Revenue run rate has crossed $400 million annually, up from $100 million in January 2026.",
+      "Cursor's growth trajectory is unprecedented for developer tooling: it crossed 1 million paid users in December 2025 (18 months after launch) and doubled to 2 million in six months. The growth is driven by the Composer feature — a multi-file AI agent that understands entire codebases, makes coordinated changes across files, runs tests, reads error messages, and iterates until tests pass, all autonomously. Anecdotal reports suggest teams completing sprint-worth of work in hours.",
+      "The $20/month Pro plan and $40/month Business plan offer unlimited AI completions with Cursor's custom models (trained on code, smaller and faster than GPT-4 class), plus access to frontier models (Claude 3.7, GPT-4o, Gemini 2.0) with usage caps. Business plan adds SSO, audit logs, and admin controls. Enterprise pricing is custom, starting at $60/user/month.",
+      "<blockquote>We built Cursor because we believed the future of software development was not a chat interface bolted onto an existing editor — it was an editor built from the ground up around AI. Every design decision, from the file context algorithm to the diff rendering, was made with AI-first collaboration in mind. That native integration is why people switch and do not switch back. — Aman Sanger, CEO, Anysphere (Cursor)</blockquote>",
+      "Microsoft has responded by accelerating GitHub Copilot's IDE features: Copilot Workspace (multi-file editing) launched in GA in March 2026, and the VS Code team announced three Copilot features previously exclusive to Cursor — inline chat with file context, terminal command suggestion, and multi-file edit preview — in the May 2026 VS Code release. The competitive pressure has benefited developers regardless of which tool they choose.",
+    ],
+    company: 'Anysphere (Cursor)',
+    readTime: 5,
+    tags: ['Cursor', 'AI IDE', 'Developer Tools', 'Startups', 'Venture Capital', 'VS Code'],
+  },
 ];
 
 TC.timelineData = {
