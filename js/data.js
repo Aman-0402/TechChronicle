@@ -2259,6 +2259,24 @@ undefined
     readTime: 5,
     tags: ['Samsung', 'LPDDR6', 'Mobile Memory', 'On-Device AI', 'Smartphones', 'Hardware'],
   },
+
+  {
+    id: 125,
+    date: '2026-07-04',
+    category: 'Programming',
+    title: 'Zig 1.0 Stable Release: Systems Language with Comptime, No Hidden Allocations, Ships After 8 Years',
+    excerpt: 'After eight years of development, Zig reaches its first stable release with a promise of long-term API stability for systems programmers.',
+    body: [
+      "Zig 1.0 has been released — the first stable release of the systems programming language founded by Andrew Kelley in 2016. The 1.0 release carries a semantic versioning guarantee: all code compiling with Zig 1.0 will compile without modification through all future 1.x releases. This stability guarantee, combined with Zig's unique combination of comptime (compile-time code execution), explicit allocator passing, and guaranteed absence of undefined behavior, has driven adoption by systems programmers looking for a safe-but-not-managed alternative to C.",
+      "Zig's defining feature is comptime — the ability to execute arbitrary Zig code at compile time, producing types, values, and code as output. Comptime enables generics without a separate type system, interface polymorphism without runtime dispatch, and code generation without macros. A Zig function that accepts a comptime type parameter generates specialized code for each type it is called with, similar to C++ templates but with a cleaner syntax and no separate template language.",
+      "The 1.0 standard library includes a comprehensive allocator interface: all standard library functions that allocate memory accept an explicit allocator parameter (std.mem.Allocator), and the caller decides what memory allocation strategy to use. This makes Zig code trivially embeddable in constrained environments (microcontrollers, kernels) where heap allocation may be unavailable, and makes allocation decisions visible rather than hidden.",
+      "<blockquote>Zig 1.0 is a promise. We are promising that the language you learn today is the language you will use in 2030. We are promising that code written today will still compile in 2030. For systems programmers who invest years in learning a language and decades in maintaining codebases, that promise is not a small thing. — Andrew Kelley, creator, Zig</blockquote>",
+      "The Zig Software Foundation reports 180,000 Zig users (measured by weekly compiler downloads), up from 40,000 in 2023. Major adopters include Bun (the JavaScript runtime, written in Zig), Tigerbeetle (a financial database), and several safety-critical embedded systems vendors. The 1.0 release includes an official package manager (zig fetch and build.zig.zon dependency manifest), filling the last major ecosystem gap before the stable release.",
+    ],
+    company: 'Zig Software Foundation',
+    readTime: 5,
+    tags: ['Zig', 'Systems Programming', 'Programming Languages', 'Comptime', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
