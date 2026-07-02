@@ -1387,6 +1387,23 @@ undefined
     readTime: 6,
     tags: ['Photonic Computing', 'AI Hardware', 'LLM Inference', 'Research', 'Energy Efficiency'],
   },
+
+  {
+    id: 81,
+    category: 'AI',
+    title: 'OpenAI Launches o4-Pro: First Model to Score Perfect 100% on MATH and AIME 2026 Benchmarks',
+    excerpt: 'OpenAI's latest reasoning model achieves unprecedented perfect scores on both major mathematics competition benchmarks.',
+    body: [
+      "OpenAI has released o4-Pro, the most advanced model in its reasoning model family, reporting the first-ever perfect scores on both MATH (100%) and AIME 2026 (100%) — two of the most demanding mathematics benchmarks used to evaluate AI reasoning capability. Previous top models had scored 97.2% on MATH and 91.7% on AIME 2026, with the remaining problems considered intractable at current capability levels.",
+      "o4-Pro uses a new extended thinking architecture that allocates up to 32,000 reasoning tokens per problem — four times the budget of o3 — and employs a novel verification loop that independently checks each reasoning step using a separate critic model before committing to a solution path. OpenAI reports this self-verification mechanism eliminates 94% of 'confident wrong answers' that plagued earlier reasoning models.",
+      "Beyond mathematics, o4-Pro scores 88.3% on the GPQA Diamond benchmark (graduate-level biology, chemistry, and physics questions), 76.4% on the FrontierMath benchmark (research-level unsolved problems), and 92.1% on the International Mathematical Olympiad 2025 problem set. The model is available via API at $30/million input tokens and $150/million output tokens.",
+      "<blockquote>We set out to build a model that could solve any math problem a human could solve given sufficient time. We believe we've done that. What comes next is extending this capability to empirical sciences — not just computing solutions but designing experiments. — Ilya Sutskever, OpenAI Chief Scientist</blockquote>",
+      "The MATH benchmark perfect score has particular symbolic weight: it was set by MIT researchers in 2021 as a target that would represent 'human-expert level mathematical reasoning.' Achieving it has taken five years of scaling, architecture innovation, and training data curation. OpenAI has published a technical report and is releasing the evaluation harness as open source for independent verification.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'o4-Pro', 'Mathematics', 'Reasoning', 'Benchmarks', 'AI'],
+  },
 ];
 
 TC.timelineData = {
