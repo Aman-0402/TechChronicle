@@ -2475,6 +2475,24 @@ undefined
     readTime: 6,
     tags: ['AlphaCode', 'Competitive Programming', 'AI Reasoning', 'DeepMind', 'Code AI'],
   },
+
+  {
+    id: 137,
+    date: '2026-07-04',
+    category: 'Open Source',
+    title: 'VS Code Reaches 100 Million Monthly Active Users, Becomes Most Used Developer Tool in History',
+    excerpt: 'Microsoft's open-source code editor crosses a milestone that no developer tool has previously reached, cementing its position as the universal IDE.',
+    body: [
+      "Microsoft has announced that Visual Studio Code has crossed 100 million monthly active users — the first developer tool in history to reach that milestone. The figure, verified by Stack Overflow's annual developer survey (which independently measures VS Code usage at 79% of professional developers), reflects VS Code's remarkable dominance: launched in 2015, it overtook Eclipse in 2018, Vim in 2020, IntelliJ IDEA in 2022, and has maintained and grown its lead since.",
+      "VS Code's open-source strategy is central to its success: the editor is MIT-licensed on GitHub, with an extension marketplace hosting 60,000 extensions from the community. Microsoft publishes the VS Code editor core openly and maintains the proprietary Microsoft distribution (which includes telemetry and the Microsoft extension marketplace). The open-source core enables Cursor, Gitpod, GitHub Codespaces, and dozens of browser-based editors to build on VS Code's foundation.",
+      "The 100 million figure includes VS Code running in all environments: desktop (Windows, macOS, Linux), browser (vscode.dev and GitHub Codespaces), and embedded in third-party tools (Cursor, Gitpod, Replit, StackBlitz). The top installed extensions reveal the developer ecosystem: GitLens (45M installs), GitHub Copilot (38M), Prettier (35M), ESLint (32M), and the Python extension (30M) are the most-used extensions.",
+      "<blockquote>One hundred million developers chose VS Code, and we take that responsibility seriously. Every decision we make — what features to add, what defaults to change, what extensions to promote — affects how 100 million people work every day. That is not a metrics achievement. That is an obligation. — Erich Gamma, VS Code creator, Microsoft</blockquote>",
+      "Microsoft's investment in VS Code continues despite its commercial success: 120 full-time engineers work on VS Code core, with an additional 40 engineers on the GitHub Copilot VS Code integration. The 2026 VS Code roadmap includes a new remote development protocol (superseding the Dev Container spec), native AI pair programming features (competing with Cursor's Composer), and a new UI framework (Electron replacement using native OS webview controls) that reduces memory consumption by 40%.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['VS Code', 'Microsoft', 'IDE', 'Developer Tools', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
