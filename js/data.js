@@ -1159,6 +1159,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Cursor', 'AI IDE', 'SaaS Growth', 'Developer Tools', 'ARR'],
   },
+
+  {
+    id: 68,
+    category: 'Open Source',
+    title: 'Firefox 140 Reclaims 5% Market Share as Chrome's Manifest V3 Forces Ublock Origin Exodus',
+    excerpt: 'Mozilla benefits as Chrome's ad blocker restrictions send millions of users to the only browser with full V2 support.',
+    body: [
+      "Firefox has reached 8.2% global browser market share according to StatCounter — up from 3.1% in January 2025 — as Google's enforcement of Manifest V3 restrictions in Chrome effectively crippled uBlock Origin, the world's most popular ad blocker, sending millions of power users to Firefox where uBlock Origin continues to function fully.",
+      "Manifest V3 limits the number of declarative filter rules to 30,000 and removes the webRequest API that allowed dynamic, real-time request blocking. uBlock Origin's Raymond Hill publicly stated that the Manifest V3 version (uBlock Origin Lite) blocks approximately 30-40% fewer ads than the classic version. The gap is particularly noticeable on YouTube and news sites.",
+      "Mozilla's response has been Firefox 140, a release focused on performance and compatibility: Speedometer 3.0 benchmark score of 340 (vs Chrome's 380), CSS houdini full support, zero-copy video decoding on Apple Silicon, and native vertical tabs. The browser also ships 'Total Cookie Protection' as default across all users.",
+      "<blockquote>Every time Google makes a decision that prioritizes its advertising business over its users, some of those users look for an alternative. We have spent two years making Firefox the browser they find when they look. — Mitchell Baker, Executive Chair, Mozilla Foundation</blockquote>",
+      "The growth is meaningful but the challenge remains: Firefox needs to maintain momentum against Safari (which has grown to 20% on mobile) and must convince users who left for Chrome in 2010-2015 that the browser has genuinely improved. Internal Mozilla data shows 72% of new Firefox users in 2026 cite ad blocking as the primary reason for switching.",
+    ],
+    company: 'Mozilla',
+    readTime: 5,
+    tags: ['Firefox', 'Mozilla', 'Chrome', 'Manifest V3', 'Browser'],
+  },
 ];
 
 TC.timelineData = {
