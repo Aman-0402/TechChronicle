@@ -1353,6 +1353,23 @@ undefined
     readTime: 5,
     tags: ['TSMC', 'Semiconductor', '1.4nm', 'Apple', 'NVIDIA', 'Chip Manufacturing'],
   },
+
+  {
+    id: 79,
+    category: 'Open Source',
+    title: 'Linux Kernel 7.0 Releases: Rust Reaches Parity with C for Driver Development, Removes Legacy IDE Support',
+    excerpt: 'Decade-defining kernel release formalizes Rust as a first-class driver language and drops decade-old compatibility layers.',
+    body: [
+      "Linus Torvalds has released Linux kernel 7.0, the most significant major version release since the 4.0→5.0 transition in 2019. The headline changes: Rust-for-Linux has reached full parity with C for driver development (all kernel subsystem APIs now have Rust bindings), legacy IDE (PATA) driver support is removed after a three-release deprecation cycle, and a new unified GPU memory management subsystem (UGMM) replaces the aging TTM/GEM split.",
+      "Rust parity in 7.0 means any kernel subsystem — network drivers, filesystem drivers, input drivers, USB drivers, PCIe drivers — can now be written entirely in Rust with full access to kernel APIs via safe, idiomatic abstractions. The Rust-for-Linux project has contributed 78 kernel subsystem API bindings, 12 complete driver rewrites (including a new NVMe driver 30% faster in interrupt latency), and 6 new filesystem drivers.",
+      "The removal of legacy IDE/PATA support affects approximately 0.002% of deployed Linux systems, all hardware manufactured before 2006. The kernel team conducted a 24-month survey across Debian, Ubuntu, Fedora, Arch, and enterprise distributions and found zero active production usage. The removal reduces kernel image size by 1.8MB and eliminates 42,000 lines of C code.",
+      "<blockquote>I've been saying for years that I don't personally care what language drivers are written in as long as they're correct, maintainable, and don't break the kernel. Rust has now proven all three. 7.0 is us putting that on paper. — Linus Torvalds, LKML announcement</blockquote>",
+      "Linux 7.0 also introduces io_uring v3 with full POSIX socket operation support (eliminating the last category of operations requiring fallback to traditional syscalls), a 15% reduction in scheduler wakeup latency for real-time workloads, and official support for RISC-V Vector Extension 1.0 across all distributions. The release has 73,000 commits from 4,200 developers across 640 organizations.",
+    ],
+    company: 'Linux Foundation',
+    readTime: 6,
+    tags: ['Linux', 'Rust', 'Open Source', 'Kernel', 'Operating Systems'],
+  },
 ];
 
 TC.timelineData = {
