@@ -1506,6 +1506,23 @@ undefined
     readTime: 6,
     tags: ['AI Coding', 'Software Engineering', 'Research', 'Productivity', 'Stanford', 'Developer Tools'],
   },
+
+  {
+    id: 88,
+    category: 'Hardware',
+    title: 'Samsung Unveils 3D-Stacked HBM4 Memory: 2TB/s Bandwidth, 64GB Per Stack, Ships Q4 2026',
+    excerpt: 'Next-generation high-bandwidth memory redefines the AI training memory wall, delivering twice the bandwidth of HBM3E at identical power.',
+    body: [
+      "Samsung has unveiled High-Bandwidth Memory 4 (HBM4), the next generation of its stacked DRAM technology, with specifications that double the bandwidth of HBM3E (the current state of the art used in NVIDIA's H200 GPU): 2TB/s per stack, 64GB capacity per stack, at identical 20W power consumption. Engineering samples ship to NVIDIA and AMD in Q3 2026 for integration into next-generation AI accelerators, with volume production targeted for Q4 2026.",
+      "HBM4 achieves the bandwidth improvement through two architectural advances: a 16-layer die stack (up from 12 in HBM3E) using Samsung's new Through-Silicon Via 2.0 process with 5 micron via diameter, and a 2048-bit wide memory bus (up from 1024-bit) that doubles the data path width. The 64GB capacity per stack (up from 36GB) directly addresses the memory capacity constraint that has limited LLM training on 8-GPU nodes.",
+      "For AI training context: an NVIDIA H100 80GB uses HBM3 with 3.35TB/s bandwidth. An H200 141GB uses HBM3E with 4.8TB/s. A next-generation GPU with HBM4 would achieve 16TB/s across eight stacks — sufficient to train a 1-trillion-parameter model at full precision on a single node, without the cross-node communication overhead that currently limits multi-node training runs.",
+      "<blockquote>The memory wall is the real AI scaling bottleneck. Compute has outpaced memory bandwidth by a factor of ten over the past decade. HBM4 does not close the gap — nothing can — but it keeps the ratio manageable for another generation. — Kyung-Ryun Kim, EVP, Samsung Memory Business</blockquote>",
+      "SK Hynix, Samsung's primary HBM competitor, has not yet announced HBM4 specifications. The company's current roadmap lists HBM4 for H1 2027, giving Samsung a two-quarter lead. Micron Technology, the third major DRAM manufacturer, exited the HBM market in 2024 to focus on LPDDR5X for mobile and automotive. HBM4 will be manufactured at Samsung's Pyeongtaek P4 fab using the 1b nm DRAM process node.",
+    ],
+    company: 'Samsung',
+    readTime: 5,
+    tags: ['Samsung', 'HBM4', 'Memory', 'AI Hardware', 'GPU', 'DRAM'],
+  },
 ];
 
 TC.timelineData = {
