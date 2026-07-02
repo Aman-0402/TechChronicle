@@ -1591,6 +1591,23 @@ undefined
     readTime: 6,
     tags: ['PostgreSQL', 'Database', 'Open Source', 'Analytics', 'Columnar Storage'],
   },
+
+  {
+    id: 93,
+    category: 'Startups',
+    title: 'Perplexity AI Hits 200 Million Monthly Active Users, Announces Perplexity Pages and Enterprise API',
+    excerpt: 'Search startup turned knowledge platform crosses major milestone as it evolves beyond question-answering into structured knowledge products.',
+    body: [
+      "Perplexity AI has announced 200 million monthly active users, up from 100 million in October 2025 — a doubling in eight months driven by its expansion into mobile (iOS and Android), the launch of Perplexity for Business, and its integration as the default AI search in Samsung Galaxy phones. The company's annualized revenue has crossed $300 million, positioning it for a 2027 IPO at an estimated $20–25 billion valuation.",
+      "The announcement accompanies two product launches: Perplexity Pages (structured knowledge documents generated from real-time web research, automatically updated as new information becomes available) and the Perplexity Enterprise API (giving companies access to Perplexity's real-time search-augmented generation infrastructure with SLA guarantees, data isolation, and audit logging).",
+      "Perplexity Pages represents a new category: rather than answering a question once, Pages create persistent, auto-updating documents on any topic. A 'Page' on a company, a technology, or a research area continuously monitors the web and updates with new developments, citations, and context. Pages are shareable, embeddable, and indexable by search engines. Enterprise customers can create internal Pages connected to private knowledge bases.",
+      "<blockquote>Search is not a box you type in and a list comes out. Search is the thing you reach for when you need to understand something. Perplexity is building the understanding layer of the internet. Pages are what happens when that layer becomes persistent. — Aravind Srinivas, CEO, Perplexity AI</blockquote>",
+      "Perplexity's trajectory has attracted attention from Google, which launched AI Mode in Search (similar to Perplexity's format) and from Microsoft, which has heavily invested in AI-native Bing Copilot. Industry analysts note that Perplexity's advantage is its independent foundation — it is not defending a legacy search business — allowing faster iteration. The company has not yet turned profitable but operates at a burn rate of $15 million per month on $520 million in total funding.",
+    ],
+    company: 'Perplexity AI',
+    readTime: 5,
+    tags: ['Perplexity', 'AI Search', 'Startups', 'Knowledge Platform', 'Search'],
+  },
 ];
 
 TC.timelineData = {
