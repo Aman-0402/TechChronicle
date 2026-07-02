@@ -1881,6 +1881,24 @@ undefined
     readTime: 5,
     tags: ['AWS Aurora', 'Vector Search', 'PostgreSQL', 'AI Infrastructure', 'Database'],
   },
+
+  {
+    id: 104,
+    date: '2026-07-03',
+    category: 'Hardware',
+    title: 'Apple M5 Chip Announced: 3nm Second Generation, 40-Core GPU, 24-Core NPU, 30% Faster Than M4',
+    excerpt: 'Apple Silicon fifth generation delivers largest single-generation CPU performance leap since M1, with NPU doubling AI inference throughput.',
+    body: [
+      "Apple has announced the M5 chip family at WWDC 2026, built on TSMC's N3E (3nm second generation) process. The M5 delivers 30% faster single-threaded CPU performance versus M4, 35% faster GPU performance, and doubles the Neural Engine throughput to 48 TOPS — enabling on-device inference for models up to 7 billion parameters at full precision without quality degradation. M5 launches first in the MacBook Pro 14-inch and 16-inch, shipping July 15.",
+      "The M5 CPU cluster increases the performance core count to 6 (from 4 in M4) while maintaining 4 efficiency cores, with a new branch predictor that reduces misprediction penalties by 22%. The 40-core GPU adds a new hardware ray tracing unit per core and supports hardware mesh shading — two capabilities that bring M5 into parity with mid-range discrete GPU cards for game development workloads. ProRes acceleration is extended to 12K video encoding.",
+      "The 24-core Neural Engine achieves 38 TOPS (trillion operations per second), double the M4's 19 TOPS. Apple Intelligence 2.0 — announced concurrently — uses the expanded NPU to run a 3-billion-parameter on-device model that handles writing assistance, image editing, and context-aware Siri responses entirely locally, without any server round-trip, with a median inference latency of 40ms per response.",
+      "<blockquote>M5 is not a refinement of M4. It is a leap. The CPU performance improvement is the largest we have achieved in a single generation since M1. The doubling of Neural Engine performance is deliberate — Apple Intelligence requires it, and we designed M5 around Apple Intelligence first. — Johny Srouji, SVP of Hardware Technologies, Apple</blockquote>",
+      "M5 Pro and M5 Max variants will follow in Q4 2026 with the Mac Studio and Mac Pro. The M5 Ultra (two M5 Max dies connected via UltraFusion) is expected in H1 2027. Memory bandwidth reaches 273 GB/s in M5 Max (up from 300 GB/s in M4 Max due to a new memory subsystem design that reduces latency at the cost of peak bandwidth). Maximum unified memory configuration is 192GB in M5 Max.",
+    ],
+    company: 'Apple',
+    readTime: 5,
+    tags: ['Apple', 'M5 chip', 'Apple Silicon', 'TSMC', 'MacBook Pro', 'NPU'],
+  },
 ];
 
 TC.timelineData = {
