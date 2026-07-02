@@ -2637,6 +2637,24 @@ undefined
     readTime: 5,
     tags: ['Kotlin', 'Kotlin Multiplatform', 'Mobile Development', 'Cross-Platform', 'JetBrains'],
   },
+
+  {
+    id: 146,
+    date: '2026-07-05',
+    category: 'Research',
+    title: 'NASA AI Telescope System Discovers 73 New Exoplanets in 30 Days, Including 4 in Habitable Zones',
+    excerpt: 'AI-powered analysis of James Webb Space Telescope data finds planets at a rate that would take human analysts decades to achieve manually.',
+    body: [
+      "NASA's Jet Propulsion Laboratory has announced the discovery of 73 new exoplanets confirmed by an AI system analyzing James Webb Space Telescope (JWST) photometric data — identified over a 30-day analysis run by the JWST Exoplanet AI Discovery Engine (JADE), a collaboration between NASA JPL, Google DeepMind, and the European Space Agency. Four of the 73 planets are in the habitable zones of their host stars and are rocky (under 1.5 Earth radii), making them candidates for atmospheric characterization.",
+      "JADE uses a transformer architecture trained on 40 years of transit photometry data from Kepler, K2, TESS, and now JWST — approximately 4 million light curves of known stars, 3,800 of which contain confirmed exoplanets. The model identifies transit signatures (periodic dimming of starlight as a planet passes in front of its star) with 99.1% recall at 0.8% false positive rate — significantly better than previous algorithmic approaches (94% recall, 8% false positive rate) and comparable to expert human analysts but 10,000x faster.",
+      "The four habitable-zone rocky planets orbit three different star systems: two orbit a K-dwarf star at 89 light years distance (making them candidates for next-decade spectroscopic study), one orbits an M-dwarf at 24 light years (close enough for JWST atmospheric observation in the 2027 observing cycle), and one orbits a solar-type G-dwarf at 134 light years. None have confirmed atmospheric detections yet; follow-up spectroscopy is planned for all four.",
+      "<blockquote>Humans found 4,000 exoplanets in 30 years of careful searching. JADE found 73 in 30 days, and it has only analyzed 12% of our JWST data archive. We are in the discovery phase of a new science: instead of asking 'are there planets out there,' we can now ask 'which of these planets is worth looking at more carefully?' — Sara Seager, Deputy Science Director, MIT Kavli Institute</blockquote>",
+      "The JADE system and its training data are being open-sourced by NASA JPL under the NASA Open Science Initiative, enabling research groups worldwide to apply the model to their own telescope data. The European Southern Observatory and the Vera Rubin Observatory have announced plans to adapt JADE for ground-based photometric surveys. NASA projects the model will identify 500–800 additional exoplanet candidates from the remaining JWST archive within 12 months.",
+    ],
+    company: 'NASA JPL / Google DeepMind',
+    readTime: 6,
+    tags: ['NASA', 'Exoplanets', 'James Webb Telescope', 'AI Discovery', 'Astronomy', 'DeepMind'],
+  },
 ];
 
 TC.timelineData = {
