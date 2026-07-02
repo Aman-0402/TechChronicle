@@ -2385,6 +2385,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'DevDay', 'AI Agents', 'Realtime API', 'Developer Platform'],
   },
+
+  {
+    id: 132,
+    date: '2026-07-04',
+    category: 'Cybersecurity',
+    title: 'Passkey Adoption Reaches 50% of Top 100 Websites: Apple, Google, Microsoft Report 8 Billion Passkeys Created',
+    excerpt: 'The three-year FIDO2 passkey push achieves critical mass as the majority of high-traffic websites abandon passwords for biometric authentication.',
+    body: [
+      "A joint report from the FIDO Alliance, Apple, Google, and Microsoft confirms that 50 of the top 100 most-trafficked websites now support passkey authentication, and that 8 billion passkeys have been created across all platforms — 3.2 billion on Apple devices (iCloud Keychain), 2.8 billion on Android (Google Password Manager), 1.4 billion on Windows (Windows Hello), and 600 million in third-party password managers (1Password, Bitwarden, Dashlane). The milestone marks the tipping point from early adopter to mainstream authentication technology.",
+      "Passkeys replace passwords with public-key cryptography: a private key is stored on the user's device (protected by biometrics or PIN), and a corresponding public key is registered with the website. Authentication involves signing a challenge with the private key — a process that cannot be phished, credential-stuffed, or replayed, since the private key never leaves the device and is biometrically protected. The user experience is a Face ID or fingerprint tap instead of a password.",
+      "Phishing attack rates have declined 34% across websites that have migrated fully to passkeys (removing password fallback), according to Google's Transparency Report. Account takeover rates have declined 91% for Google accounts using passkeys versus accounts using passwords with 2FA. The security gain is asymmetric: phishing, credential stuffing, and password spray attacks — which constitute 80%+ of account compromises — are rendered impossible by passkey architecture.",
+      "<blockquote>The password is the single biggest attack surface in enterprise security. Every breach we investigate starts with a compromised credential. Passkeys eliminate that attack surface entirely. Not reduce it — eliminate it. Eight billion passkeys is eight billion attack surfaces that no longer exist. — Andrew Shikiar, Executive Director, FIDO Alliance</blockquote>",
+      "The next challenge is the long tail: 50 of the top 100 sites support passkeys, but less than 8% of the top 10,000 sites do. The FIDO Alliance has released passkey implementation libraries for PHP, Django, Ruby on Rails, Laravel, and ASP.NET Core to lower the barrier for smaller websites. NIST Special Publication 800-63B revision is expected in Q3 2026 to formally recommend passkeys as the preferred authenticator type for all assurance levels.",
+    ],
+    company: 'FIDO Alliance',
+    readTime: 5,
+    tags: ['Passkeys', 'FIDO2', 'Authentication', 'Password Security', 'WebAuthn'],
+  },
 ];
 
 TC.timelineData = {
