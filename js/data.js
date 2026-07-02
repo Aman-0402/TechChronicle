@@ -1557,6 +1557,23 @@ undefined
     readTime: 5,
     tags: ['GitHub Copilot', 'Security', 'Vulnerability Detection', 'DevSecOps', 'AI Code Review'],
   },
+
+  {
+    id: 91,
+    category: 'AI',
+    title: 'Google DeepMind AlphaFold 4 Predicts Full Proteome of 1,000 Species in Single Compute Run',
+    excerpt: 'Fourth generation of Nobel Prize-winning protein structure predictor extends to full species proteomes, accelerating drug discovery by orders of magnitude.',
+    body: [
+      "Google DeepMind has released AlphaFold 4, predicting the complete protein structure proteomes of 1,000 species — every protein encoded in those species' genomes — in a single 72-hour compute run on a 10,000-chip TPU v6 cluster. The 1,000 proteomes span 200 million protein structures, including 47 million that had never been experimentally determined, and are released to the public in the AlphaFold Protein Structure Database.",
+      "AlphaFold 4 introduces three advances over AlphaFold 3: RNA-protein complex prediction (critical for understanding mRNA therapeutics and CRISPR mechanisms), post-translational modification modeling (predicting the effect of phosphorylation, glycosylation, and ubiquitination on structure and function), and intrinsically disordered region characterization (proteins that do not adopt a fixed structure, previously unpredictable).",
+      "The drug discovery implications are immediate. Novartis has announced three new drug targets identified using AlphaFold 4's intrinsically disordered region predictions, targeting Alzheimer's tau aggregation pathways. Genentech reports AlphaFold 4 reduced their initial target validation cycle from 6 months to 3 weeks for antibody drug discovery. AstraZeneca's AI drug discovery team credited AlphaFold 4 predictions for two clinical candidates advancing to Phase I trials.",
+      "<blockquote>When we released AlphaFold 2 in 2020, we said it solved the protein folding problem. What we didn't say — because we didn't fully know — was that solving the protein folding problem was just the beginning. AlphaFold 4 is where that beginning starts mattering at scale. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "All 200 million AlphaFold 4 structures are freely available via the European Bioinformatics Institute (EMBL-EBI) under a Creative Commons license, downloadable in bulk or queryable via API. The AlphaFold Protein Structure Database now contains 1.4 billion structure predictions across all kingdoms of life. DeepMind's original AlphaFold 2 paper has 22,000 citations, making it the most-cited AI paper in history.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 6,
+    tags: ['AlphaFold', 'Protein Structure', 'Drug Discovery', 'DeepMind', 'Biology', 'AI'],
+  },
 ];
 
 TC.timelineData = {
