@@ -1421,6 +1421,23 @@ undefined
     readTime: 5,
     tags: ['CrowdStrike', 'Zero-Day', 'AI Security', 'Endpoint Security', 'Autonomous Response'],
   },
+
+  {
+    id: 83,
+    category: 'Cloud',
+    title: 'Google Cloud Announces Hyperdisk Extreme X: 10 Million IOPS Per Volume for Database Workloads',
+    excerpt: 'New storage tier eliminates the last major performance gap between cloud and on-premises NVMe arrays for transactional databases.',
+    body: [
+      "Google Cloud has announced Hyperdisk Extreme X, a new storage tier delivering 10 million IOPS per volume with 800GB/s sequential throughput and sub-100 microsecond latency — performance figures that match or exceed the highest-end on-premises NVMe storage arrays from Pure Storage and NetApp. The launch eliminates the primary remaining performance argument for on-premises database infrastructure over cloud.",
+      "Hyperdisk Extreme X uses Google's custom Titanium storage controller chip, third generation, which handles NVMe-over-Fabrics routing entirely in hardware without CPU involvement. The architecture eliminates the software-defined storage overhead that has historically made cloud storage 3–5x slower than direct-attached NVMe drives for database IOPS workloads. Each Extreme X volume is backed by 96 NVMe SSDs striped across Google's Jupiter network fabric.",
+      "The new tier is optimized for Oracle Database, Microsoft SQL Server, SAP HANA, and Google AlloyDB workloads. Google reports an Oracle OLTP benchmark (TPC-C) improvement of 4.2x versus Hyperdisk Extreme (the prior top tier), with SQL Server TPC-E scores 3.8x higher. The pricing is $0.00038 per IOPS-month provisioned, with a minimum of 500,000 IOPS per volume.",
+      "<blockquote>For ten years the answer to 'what's the last reason to keep my Oracle database on-premises' was storage performance. With Hyperdisk Extreme X, there is no honest answer left. The cloud now wins on IOPS, latency, reliability, and total cost of ownership. — Thomas Kurian, CEO, Google Cloud</blockquote>",
+      "Hyperdisk Extreme X is available in us-central1 and us-east4 immediately, with Europe and Asia-Pacific availability in Q3 2026. The feature requires C4X instance types (Google's new database-optimized VM family) and is not compatible with shared-core instances. Google Cloud Storage Deadlines guarantee 99.9999% annual durability, backed by SLA credit of 100% monthly fee for any single volume data loss.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'Storage', 'NVMe', 'Database', 'Hyperdisk', 'Cloud Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
