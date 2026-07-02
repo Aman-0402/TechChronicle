@@ -1336,6 +1336,23 @@ undefined
     readTime: 4,
     tags: ['AWS Lambda', 'Serverless', 'Cold Start', 'SnapStart', 'Cloud Computing'],
   },
+
+  {
+    id: 78,
+    category: 'Hardware',
+    title: 'TSMC 1.4nm Process Node Named "A14" Confirmed for Apple and NVIDIA, Tape-Out Scheduled for 2027',
+    excerpt: 'TSMC confirms its most advanced process node to date for two flagship customers, extending its manufacturing lead over Samsung and Intel.',
+    body: [
+      "TSMC has officially confirmed the existence of its 1.4nm-class process node, internally designated A14, and revealed Apple and NVIDIA as the two founding customers with tape-out scheduled for Q2 2027 and production volume expected in H1 2028. The node follows the N2 (2nm) process now ramping for Apple A19 and the 1.6nm A16 node entering risk production.",
+      "A14 uses the second generation of TSMC's NanoFlex architecture, which replaces the conventional fin structure with gate-all-around nanosheet transistors in a stacked configuration. The node delivers 18% performance improvement and 32% power reduction versus A16 at equivalent frequency, according to TSMC's published specifications. Transistor density reaches 380 million transistors per square millimeter.",
+      "Apple's A19X — expected in the 2028 iPad Pro and MacBook — is confirmed as the first consumer product on A14. NVIDIA's next-next-generation GPU architecture (successor to the Rubin/Vera Rubin Ultra line) is the second anchor customer. TSMC is investing $42 billion in additional capacity at its Hsinchu Fab 20 complex to support A14 volume production.",
+      "<blockquote>Every generation of Moore's Law someone says we've reached the end. Every generation we find a way to keep going. A14 is not just a node — it is proof that physics still has room for us to work. — C.C. Wei, CEO, TSMC</blockquote>",
+      "Intel and Samsung both lack confirmed products on comparable nodes before 2029. Intel's 14A process (marketed in angstroms — equivalent to roughly 1.4nm class) is in early development but has no confirmed production customer with a 2028 tape-out date. Samsung's 1.4nm-class GAA node remains in research phase. TSMC's lead, which industry analysts estimate at 2–3 years over the nearest competitor, appears set to widen further.",
+    ],
+    company: 'TSMC',
+    readTime: 5,
+    tags: ['TSMC', 'Semiconductor', '1.4nm', 'Apple', 'NVIDIA', 'Chip Manufacturing'],
+  },
 ];
 
 TC.timelineData = {
