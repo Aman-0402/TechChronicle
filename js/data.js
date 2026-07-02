@@ -853,6 +853,23 @@ TC.articles = [
     readTime: 6,
     tags: ['AlphaFold', 'DeepMind', 'Drug Discovery', 'Protein Structure', 'Bioinformatics'],
   },
+
+  {
+    id: 50,
+    category: 'AI',
+    title: 'EU AI Act Enforcement Begins: First Fines Issued to OpenAI and Clearview AI',
+    excerpt: 'European regulators issue landmark penalties under the world's first comprehensive AI law, setting global precedent.',
+    body: [
+      "The EU AI Act's enforcement provisions came into force on July 1, 2026, and regulators moved swiftly: within the first 48 hours, the European AI Office issued preliminary penalty notices to OpenAI (for GPT-4o's emotion recognition features in EU markets, classified as a prohibited AI practice) and Clearview AI (for biometric mass surveillance, also prohibited under the Act's highest-risk category).",
+      "OpenAI faces a fine of up to 3% of global annual turnover — approximately $600M based on its most recently disclosed revenue — for deploying emotion recognition in contexts not exempted under the Act. The company has 90 days to respond and has indicated it will contest the characterization of the feature as 'emotion recognition' under the Act's technical definitions.",
+      "Clearview AI faces the maximum penalty of 6% of global turnover for its biometric database business model, which the EU AI Office has determined constitutes the 'real-time remote biometric identification' practice explicitly prohibited in public spaces. Clearview has 30 days to appeal before the fine is assessed.",
+      "<blockquote>The EU AI Act is not theoretical. It is law. Companies that built products on prohibited AI practices had 24 months to comply. The enforcement period has begun. — Brando Benifei, MEP and AI Act co-rapporteur</blockquote>",
+      "Legal experts predict the OpenAI case will set a precedent for how 'emotion recognition' is defined across the entire EU AI regulatory framework. A ruling against OpenAI would likely force changes to GPT-4o's multimodal features globally, as maintaining separate EU and non-EU model behaviors at scale is technically complex.",
+    ],
+    company: 'EU AI Office / OpenAI / Clearview AI',
+    readTime: 5,
+    tags: ['EU AI Act', 'Regulation', 'OpenAI', 'Clearview AI', 'Privacy'],
+  },
 ];
 
 TC.timelineData = {
