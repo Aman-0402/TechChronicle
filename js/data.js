@@ -1057,6 +1057,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Qualcomm', 'Snapdragon', 'Mobile Chip', 'ARM', 'Benchmark'],
   },
+
+  {
+    id: 62,
+    category: 'Cybersecurity',
+    title: 'Quantum Computing Threat: NIST Finalizes Post-Quantum Cryptography Standards',
+    excerpt: 'Three algorithms standardized after eight years of evaluation — now begins the decade-long migration from RSA and ECC.',
+    body: [
+      "NIST has officially published FIPS 203 (ML-KEM, based on CRYSTALS-Kyber), FIPS 204 (ML-DSA, based on CRYSTALS-Dilithium), and FIPS 205 (SLH-DSA, based on SPHINCS+) as the first post-quantum cryptographic standards — the culmination of an eight-year evaluation process that began in 2016.",
+      "The urgency is driven by the 'harvest now, decrypt later' threat: nation-state adversaries are known to be harvesting encrypted internet traffic today, storing it for decryption once sufficiently powerful quantum computers become available. Intelligence community assessments place the timeline for a 'cryptographically relevant quantum computer' at 8-12 years — within the expected lifetime of data classified today.",
+      "ML-KEM (key encapsulation) will replace RSA and ECDH for key exchange. ML-DSA will replace ECDSA for digital signatures. Both are based on the hardness of learning-with-errors (LWE) problems over module lattices. SLH-DSA provides a hash-based fallback that relies on no algebraic assumptions — offering protection even if lattice-based problems prove vulnerable.",
+      "<blockquote>The migration from RSA and ECC to post-quantum algorithms is the largest cryptographic migration in internet history. It will take a decade. It needs to start today. Every year of delay narrows the safety margin. — Dustin Moody, NIST Post-Quantum Cryptography Standardization</blockquote>",
+      "Google, Apple, Cloudflare, and AWS have already deployed ML-KEM in their TLS implementations. Signal adopted CRYSTALS-Kyber in 2023. The remaining challenge is enterprise and government migration — particularly legacy systems where cryptographic agility was not architected in.",
+    ],
+    company: 'NIST',
+    readTime: 6,
+    tags: ['Post-Quantum Cryptography', 'NIST', 'Quantum Computing', 'CRYSTALS-Kyber', 'Encryption'],
+  },
 ];
 
 TC.timelineData = {
