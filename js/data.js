@@ -836,6 +836,23 @@ TC.articles = [
     readTime: 4,
     tags: ['GitHub Copilot', 'Agentic AI', 'Developer Tools', 'Pull Request', 'Automation'],
   },
+
+  {
+    id: 49,
+    category: 'Research',
+    title: 'DeepMind AlphaFold 3 Predicts Full Cellular Protein Complexes, Accelerating Drug Discovery',
+    excerpt: 'Third iteration solves the multi-protein complex prediction problem, unlocking targets that were structurally intractable.',
+    body: [
+      "Google DeepMind has published AlphaFold 3 in Nature, extending protein structure prediction from single proteins to full multi-protein complexes, DNA-protein interactions, and small molecule binding — capabilities that directly address the most challenging problems in structure-based drug discovery.",
+      "AlphaFold 2 solved single-protein structure prediction with near-experimental accuracy. AlphaFold 3 extends this to complexes of up to 5,120 residues across multiple chains, predicting how proteins bind to each other, to DNA/RNA, and to drug-like small molecules simultaneously. On the PoseBusters benchmark for drug-protein binding, AF3 achieves 76% accuracy versus 52% for the previous best method.",
+      "The practical impact is already being felt: four pharmaceutical companies (AstraZeneca, Novartis, Roche, and BioNTech) participated in early access and report that AF3 enabled them to computationally validate drug targets that were previously structurally intractable, shortening their target validation pipeline by 6-12 months.",
+      "<blockquote>AlphaFold 2 showed us the shapes of proteins. AlphaFold 3 shows us the shapes of biology — how everything fits together. That is the level of understanding you need to design drugs rationally rather than through trial and error. — Sir Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "AlphaFold 3's weights are not open-sourced — a controversial decision given that AF2 was fully open. DeepMind offers API access through its Isomorphic Labs subsidiary at research pricing for academic users. Commercial drug discovery access is licensed separately on a partnership basis.",
+    ],
+    company: 'Google DeepMind / Isomorphic Labs',
+    readTime: 6,
+    tags: ['AlphaFold', 'DeepMind', 'Drug Discovery', 'Protein Structure', 'Bioinformatics'],
+  },
 ];
 
 TC.timelineData = {
