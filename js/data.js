@@ -1574,6 +1574,23 @@ undefined
     readTime: 6,
     tags: ['AlphaFold', 'Protein Structure', 'Drug Discovery', 'DeepMind', 'Biology', 'AI'],
   },
+
+  {
+    id: 92,
+    category: 'Open Source',
+    title: 'PostgreSQL 18 Releases: Native Column-Oriented Storage, Vectorized Execution Engine, 10x Analytics Speedup',
+    excerpt: 'PostgreSQL adds analytical database capabilities that historically required separate OLAP systems like Redshift or Snowflake.',
+    body: [
+      "The PostgreSQL Global Development Group has released PostgreSQL 18, featuring native column-oriented storage (columnar tables) and a new vectorized execution engine — capabilities that have historically required separate OLAP databases like Amazon Redshift, Snowflake, or ClickHouse for analytical workloads. The result is 10x speedup on analytical queries (full table scans, aggregations, GROUP BY) versus PostgreSQL 17, with no changes required to SQL syntax or client code.",
+      "Columnar tables in PostgreSQL 18 use a new access method, CREATE TABLE ... USING columnar, that stores data column-by-column rather than row-by-row. For analytical queries that access a subset of columns across millions of rows, this reduces I/O by 80–95% versus row storage. Columnar tables are transparent to all PostgreSQL features: indexes, transactions, foreign keys, and extensions all work identically.",
+      "The vectorized execution engine processes data in batches of 1,024 rows using SIMD instructions, rather than PostgreSQL's traditional row-at-a-time tuple processing model. For CPU-bound operations (string matching, arithmetic, JSON parsing), vectorization provides 3–8x speedup on modern CPUs with AVX-512 support. The engine activates automatically for queries operating on columnar tables, with no configuration required.",
+      "<blockquote>PostgreSQL has always been the database that does everything well. For years, the asterisk was 'except analytics.' PostgreSQL 18 removes the asterisk. You can now run your OLTP and OLAP workloads on the same cluster, with the same tools, and the same team. — Bruce Momjian, PostgreSQL Core Team</blockquote>",
+      "PostgreSQL 18 also introduces JSON Schema validation as a native constraint type, logical replication for sequences (enabling true active-active replication), OAuth 2.0 authentication support at the connection level, and automatic partition pruning for both RANGE and HASH partitioned tables. The release has contributions from 460 developers across 70 organizations. PostgreSQL is used by over 40% of professional developers according to the 2026 Stack Overflow survey.",
+    ],
+    company: 'PostgreSQL Global Development Group',
+    readTime: 6,
+    tags: ['PostgreSQL', 'Database', 'Open Source', 'Analytics', 'Columnar Storage'],
+  },
 ];
 
 TC.timelineData = {
