@@ -938,6 +938,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Go', 'Golang', 'Generics', 'Garbage Collector', 'Google'],
   },
+
+  {
+    id: 55,
+    category: 'Hardware',
+    title: 'TSMC Begins Risk Production on 1.4nm N14 Process, Sets 2028 HVM Target',
+    excerpt: 'Taiwan chipmaker confirms progress on sub-2nm scaling that will power next-generation AI and mobile chips.',
+    body: [
+      "TSMC has begun risk production — low-volume manufacturing to validate process parameters — on its N14 (1.4nm-class) process node at Fab 20 in Hsinchu, Taiwan. The company has set a high-volume manufacturing target of Q2 2028, which would maintain its roughly 18-month lead over Samsung's process roadmap.",
+      "N14 uses a nanosheet gate-all-around transistor architecture with TSMC's proprietary 'Super PowerRail' backside power delivery technology, first introduced at N2. Compared to N2, N14 delivers an estimated 15% performance improvement at the same power, or 20% power reduction at the same performance — per TSMC's internal projections shared with customers.",
+      "Apple and NVIDIA are the two confirmed anchor customers for N14, both critical to TSMC's ability to finance the estimated $40B capital expenditure required to build out N14 capacity. Apple's A20 chip (expected in iPhone 18) and NVIDIA's successor to Blackwell Ultra are both expected to tape out on N14 in 2027.",
+      "<blockquote>N14 represents the end of conventional scaling as we have known it. Beyond this node, we will be stacking dies, not shrinking them. The era of 2D scaling is ending; the era of 3D scaling is beginning. — CC Wei, CEO, TSMC</blockquote>",
+      "TSMC's N14 fabs in Arizona (Fab 21, Phase 3) will come online in 2028, marking the first time leading-edge semiconductor manufacturing at this scale has occurred on US soil. The Arizona expansion is partially funded by $6.6B in CHIPS Act grants awarded in 2024.",
+    ],
+    company: 'TSMC',
+    readTime: 5,
+    tags: ['TSMC', '1.4nm', 'Semiconductor', 'Chip Manufacturing', 'Moore's Law'],
+  },
 ];
 
 TC.timelineData = {
