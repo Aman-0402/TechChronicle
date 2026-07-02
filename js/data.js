@@ -2223,6 +2223,24 @@ undefined
     readTime: 6,
     tags: ['EU CRA', 'Cyber Resilience Act', 'Product Security', 'Regulation', 'IoT Security'],
   },
+
+  {
+    id: 123,
+    date: '2026-07-04',
+    category: 'Cloud',
+    title: 'Google Cloud AlloyDB Omni: Run Google's PostgreSQL-Compatible Database On-Premises or in Any Cloud',
+    excerpt: 'Google brings its managed cloud database engine to on-premises and competitor cloud deployments, reframing AlloyDB as a universal database platform.',
+    body: [
+      "Google Cloud has released AlloyDB Omni, a self-managed version of AlloyDB — Google's PostgreSQL-compatible database that adds columnar storage, a machine learning engine, and a 4x read performance advantage over standard PostgreSQL — that can be deployed on any infrastructure: on-premises bare metal, VMware, Kubernetes (any distribution), Amazon EC2, and Microsoft Azure VMs. The launch transforms AlloyDB from a Google Cloud service to a database platform.",
+      "AlloyDB Omni packages all of AlloyDB's core proprietary components as a container image: the Adaptive Query Optimizer (learns query patterns and caches optimal plans), the columnar engine (automatically migrates frequently-scanned columns to columnar storage), the ML inference engine (runs TensorFlow Lite and ONNX models directly in SQL via the ml_predict_row function), and AlloyDB AI (pgvector-compatible vector search with superior performance).",
+      "The performance characteristics of AlloyDB are preserved in the Omni deployment: 4x read throughput versus PostgreSQL, 2x write throughput versus PostgreSQL, and 100x faster analytical queries via the columnar engine versus row-only PostgreSQL. Google achieves this via a custom storage layer (the Intelligent Storage Service) that separates compute from storage — in Omni, this runs locally rather than on Google's distributed storage backbone, with some performance reduction on write-heavy workloads.",
+      "<blockquote>Our customers told us: we want AlloyDB, but our data cannot leave our data center. Our customers in financial services, healthcare, and government face data residency requirements that make cloud-only databases non-starters. AlloyDB Omni is our answer. — Andi Gutmans, VP of Databases, Google Cloud</blockquote>",
+      "AlloyDB Omni is priced at $0.48 per vCPU per hour in a subscription model, significantly lower than equivalent managed PostgreSQL offerings from competing cloud providers. Google offers a perpetual license option for on-premises deployments at a negotiated price. Enterprise support, including 24/7 response for critical issues, is available starting at $12,000 per year. AlloyDB Omni is FIPS 140-2 validated and SOC 2 Type II certified, meeting federal and enterprise compliance requirements.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'AlloyDB', 'PostgreSQL', 'Database', 'On-Premises', 'Hybrid Cloud'],
+  },
 ];
 
 TC.timelineData = {
