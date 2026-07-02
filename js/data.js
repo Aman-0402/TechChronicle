@@ -1244,6 +1244,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Hetzner', 'Cloud Pricing', 'AWS Alternative', 'Data Center', 'Cost Optimization'],
   },
+
+  {
+    id: 73,
+    category: 'AI',
+    title: 'Fact: The Attention Mechanism That Powers Every LLM Was Described in a 2017 Paper With 8 Authors',
+    excerpt: '"Attention Is All You Need" changed computing — and none of its eight authors expected it to.',
+    body: [
+      "The transformer architecture that underlies GPT-5, Claude, Gemini, Llama, and virtually every large language model in existence was introduced in a single 15-page paper published on June 12, 2017: 'Attention Is All You Need' by Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin — eight researchers, six of whom were at Google Brain at the time.",
+      "The paper's central insight was that the recurrent neural networks (RNNs) and LSTMs dominating sequence modeling at the time could be entirely replaced by a self-attention mechanism — a computation that allows every token in a sequence to directly attend to every other token simultaneously, without the sequential bottleneck of RNNs.",
+      "Self-attention has computational complexity O(n²) in sequence length — the reason why long-context models are expensive — but it parallelizes perfectly across GPUs, which was the key practical advantage in 2017 when GPU clusters were becoming widely available for research. RNNs could not be parallelized; transformers could.",
+      "<blockquote>We did not set out to change deep learning. We set out to make translation faster by removing recurrence. The fact that the same architecture works for images, audio, protein structures, and code was not something any of us predicted. — Jakob Uszkoreit, co-author, 'Attention Is All You Need'</blockquote>",
+      "The paper has been cited over 140,000 times as of 2026 — making it the most cited computer science paper of the decade. Six of the eight authors have since left Google to found or join AI startups. The transformer architecture has generated an estimated 00B+ in economic value across all companies building on it.",
+    ],
+    company: 'Google Brain / Various',
+    readTime: 5,
+    tags: ['Transformer', 'Attention Mechanism', 'AI History', 'Deep Learning', 'Research'],
+  },
 ];
 
 TC.timelineData = {
