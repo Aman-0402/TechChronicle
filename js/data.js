@@ -904,6 +904,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Salt Typhoon', 'China', 'Telecom Hack', 'Metadata', 'Nation-State'],
   },
+
+  {
+    id: 53,
+    category: 'Cloud',
+    title: 'Stripe Ships Stablecoin Payments API: Accept USDC in 150 Countries on Day One',
+    excerpt: 'Payment giant bets on stablecoin rails as the global settlement layer for cross-border commerce.',
+    body: [
+      "Stripe has launched a Stablecoin Payments API that allows businesses to accept USDC (USD Coin on Ethereum, Polygon, and Solana) as a native payment method, with automatic conversion to local fiat currency at point of settlement. The product is available in 150 countries on launch day — more than Stripe's traditional card processing footprint.",
+      "The economics are compelling for international merchants: Stripe's stablecoin rails charge 0.5% per transaction versus 1.5-3.5% for card payments, with settlement in minutes rather than days. For businesses in countries with volatile local currencies, Stripe also offers USDC-denominated accounts where merchants can hold balances in dollars without a US bank account.",
+      "The infrastructure is built on Stripe's acquisition of Bridge (a stablecoin infrastructure company) for $1.1B in 2025. Bridge's technology handles multi-chain USDC acceptance, on/off ramps across 80 banking partners, and AML/KYC compliance in all 150 markets — the compliance layer that previously made crypto payments impractical for mainstream businesses.",
+      "<blockquote>Stablecoins are not crypto speculation — they are a faster, cheaper wire transfer. We have been building toward this moment since the Bridge acquisition. Global commerce should not be held back by 1970s banking infrastructure. — Patrick Collison, CEO, Stripe</blockquote>",
+      "Shopify and WooCommerce have both integrated the API and will surface USDC payment as an option for their 4M+ merchants starting next month. The announcement has sent USDC market cap up 12% as businesses begin holding operational reserves in stablecoin form.",
+    ],
+    company: 'Stripe / Bridge',
+    readTime: 4,
+    tags: ['Stripe', 'Stablecoin', 'USDC', 'Payments', 'Crypto'],
+  },
 ];
 
 TC.timelineData = {
