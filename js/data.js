@@ -989,6 +989,23 @@ TC.articles = [
     readTime: 5,
     tags: ['AI Security', 'Developer Survey', 'Code Review', 'Automation Bias', 'Research'],
   },
+
+  {
+    id: 58,
+    category: 'Startups',
+    title: 'ElevenLabs Raises $250M Series C, Now the World's Most Valuable Audio AI Company at $3.3B',
+    excerpt: 'Voice cloning and synthesis startup hits profitability milestone as creator economy adoption explodes.',
+    body: [
+      "ElevenLabs has closed a $250M Series C led by Iconiq Growth with participation from Sequoia Capital, a16z, and Nat Friedman, valuing the company at $3.3B. The round comes as the company reports it has crossed the profitability threshold — a rare milestone for an AI startup at this stage.",
+      "The company's voice synthesis API is now used by over 1 million creators, 40,000 businesses, and is embedded in products from Spotify (audiobook narration), Salesforce (voice CRM), and CNN (automated news audio). Monthly API calls have grown from 2 billion in January 2026 to 8 billion in June 2026 — a 4x increase in six months.",
+      "ElevenLabs' latest model, Voice Design v3, can generate a unique, never-before-heard voice from a text description in under 2 seconds, with fine-grained control over accent, age, emotion, and prosody. Voice cloning from a 30-second audio sample now achieves 97.3% listener identification accuracy versus the original speaker.",
+      "<blockquote>Audio is the last unstructured media format to be transformed by AI. Text had GPT. Images had Midjourney. Video is having its moment now. Audio — realistic, controllable, scalable audio — is what we are building. — Mati Staniszewski, CEO, ElevenLabs</blockquote>",
+      "The funding will be used to expand into real-time voice translation (speaking one language, heard in another in your own voice) and to build out ElevenLabs Studio — a full audio production platform targeting podcasters, audiobook publishers, and game studios as primary customers.",
+    ],
+    company: 'ElevenLabs',
+    readTime: 4,
+    tags: ['ElevenLabs', 'Voice AI', 'Audio', 'Series C', 'Startup'],
+  },
 ];
 
 TC.timelineData = {
