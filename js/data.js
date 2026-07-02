@@ -1319,6 +1319,23 @@ undefined
     readTime: 5,
     tags: ['Autonomous Vehicles', 'Robotaxi', 'AI Safety', 'Waymo', 'Transportation'],
   },
+
+  {
+    id: 77,
+    category: 'Cloud',
+    title: 'AWS Lambda Now Supports 15-Minute Cold Start Elimination via SnapStart for All Runtimes',
+    excerpt: 'AWS extends SnapStart memory snapshotting to every Lambda runtime, eliminating cold starts across the entire serverless ecosystem.',
+    body: [
+      "Amazon Web Services has extended Lambda SnapStart — its memory snapshotting technology that eliminates cold starts — to all Lambda runtimes, including Node.js, Python, Ruby, Go, and .NET. Previously available only for Java (Corretto 11+) since 2022, the universal SnapStart extension means all serverless workloads can now achieve sub-100ms initialization regardless of runtime language.",
+      "Lambda SnapStart works by running the function's initialization code once, taking a memory and disk snapshot (encrypted with AES-256 at rest), and then restoring from that snapshot when a cold start would normally occur. Restoration from snapshot takes approximately 10–60ms versus 500ms–12,000ms for a true cold start with heavy runtimes like Java Spring or Python with NumPy/PyTorch.",
+      "AWS benchmarks show Node.js 22 functions with SnapStart initialize in 8ms versus 180ms cold start. Python 3.12 functions with large ML model imports (previously 8–12 seconds) now initialize in 45ms. The feature is available in all 33 AWS regions, with no changes required to existing function code — SnapStart is enabled at the function configuration level.",
+      "<blockquote>Cold starts have been the most-cited barrier to serverless adoption for latency-sensitive applications. Eliminating them universally changes the calculus for real-time APIs, streaming workloads, and financial transaction processing. — Peter DeSantis, SVP of AWS Utility Computing</blockquote>",
+      "The pricing model adds a small snapshot storage cost ($0.000004 per GB-second of snapshot stored) but eliminates the compute cost of repeated initialization code execution. AWS estimates most teams see 15–40% total Lambda cost reduction in addition to the latency improvement. The feature launches in GA immediately and requires no migration or code changes for existing functions.",
+    ],
+    company: 'AWS',
+    readTime: 4,
+    tags: ['AWS Lambda', 'Serverless', 'Cold Start', 'SnapStart', 'Cloud Computing'],
+  },
 ];
 
 TC.timelineData = {
