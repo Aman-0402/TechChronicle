@@ -972,6 +972,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Valkey', 'Redis', 'Open Source Fork', 'Linux Foundation', 'Database'],
   },
+
+  {
+    id: 57,
+    category: 'Research',
+    title: 'UC Berkeley Study: 73% of Developers Trust AI Code Suggestions Without Running Tests',
+    excerpt: 'Survey of 4,800 engineers reveals a dangerous trust gap between AI tool adoption and verification practices.',
+    body: [
+      "A UC Berkeley School of Information study of 4,800 professional software developers across 22 countries has found that 73% regularly accept AI-generated code suggestions without running unit tests or manual review — a finding that security experts describe as the largest emerging source of software vulnerability in enterprise systems.",
+      "The study found that acceptance behavior correlates with code length: developers are more likely to review AI suggestions for code blocks longer than 50 lines (62% review rate) but accept shorter suggestions — function stubs, utility methods, configuration snippets — with minimal scrutiny (11% review rate). Short snippets are statistically where the most consequential vulnerabilities appear.",
+      "Most concerning: 41% of respondents reported being unable to distinguish AI-generated code from human-written code in blind tests, and 28% said they trust AI-generated code more than code from junior team members — a calibration error that researchers describe as 'automation bias' in the security literature.",
+      "<blockquote>The adoption curve for AI coding tools is running 18 months ahead of the verification culture needed to use them safely. We are watching the creation of a technical debt and vulnerability backlog that will take years to unwind. — Prof. David Wagner, UC Berkeley</blockquote>",
+      "Recommendations from the study include mandatory AI code review checklists integrated into IDEs, automated test generation triggered by AI suggestions, and engineering culture changes that treat AI suggestions as 'untrusted external input' rather than 'helpful colleague output'.",
+    ],
+    company: 'UC Berkeley',
+    readTime: 5,
+    tags: ['AI Security', 'Developer Survey', 'Code Review', 'Automation Bias', 'Research'],
+  },
 ];
 
 TC.timelineData = {
