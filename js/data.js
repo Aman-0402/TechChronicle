@@ -785,6 +785,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Samsung', 'HBM4', 'Memory', 'AI Hardware', 'Bandwidth'],
   },
+
+  {
+    id: 46,
+    category: 'Open Source',
+    title: 'React 20 Ships with Native Concurrent Rendering and Zero-Bundle Server Components',
+    excerpt: 'Meta releases the most significant React update since hooks, removing the need for build tooling in most cases.',
+    body: [
+      "Meta has released React 20, a landmark version that ships two features long in development: fully stable native Concurrent Rendering without flags or wrappers, and Zero-Bundle Server Components (ZBSC) — a mode where server components ship zero JavaScript to the browser, relying entirely on streaming HTML.",
+      "Native Concurrent Rendering makes the scheduler part of the React core without requiring experimental flags. Every React 20 app gets automatic priority-based rendering: user interactions are prioritized over background updates, and long renders are automatically interrupted to keep the UI responsive. Applications upgrading from React 18 report 20-40% reductions in Total Blocking Time without code changes.",
+      "ZBSC extends React Server Components to their logical extreme: a server component that renders to HTML and ships nothing to the client. Combined with React's new selective hydration, complex server-rendered pages now ship 60-80% less JavaScript than equivalent React 18 apps with the same functionality.",
+      "<blockquote>React 20 is the framework we wanted to build in 2013 but didn't have the theory or the tooling to build. Concurrent rendering and zero-bundle components are the architectural ideas that make React's mental model fully coherent. — Dan Abramov, React Core Team</blockquote>",
+      "The React 20 upgrade path from React 18 is fully automated via a codemod that handles 97% of breaking changes. The remaining 3% primarily involve libraries that depend on internal React APIs that have been stabilized and documented in React 20.",
+    ],
+    company: 'Meta (React)',
+    readTime: 5,
+    tags: ['React', 'React 20', 'Server Components', 'Concurrent Rendering', 'Frontend'],
+  },
 ];
 
 TC.timelineData = {
