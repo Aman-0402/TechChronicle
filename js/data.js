@@ -2457,6 +2457,24 @@ undefined
     readTime: 5,
     tags: ['Gemma 3', 'Google', 'Open Source AI', 'Multimodal', 'Video AI', 'Open Weights'],
   },
+
+  {
+    id: 136,
+    date: '2026-07-04',
+    category: 'Research',
+    title: 'AlphaCode 3 Achieves Gold Medal Level on International Competitive Programming: Surpasses 99.9th Percentile',
+    excerpt: 'DeepMind's third-generation code model solves competitive programming problems at a level achieved by fewer than 1 in 1000 human contestants.',
+    body: [
+      "Google DeepMind has published results for AlphaCode 3, the third version of its competitive programming AI, achieving Gold Medal performance on the International Collegiate Programming Contest (ICPC) 2026 World Finals — solving 10 of 12 problems, placing in the top 0.1% of human contestants. The previous version, AlphaCode 2, achieved Silver Medal performance (top 15%). AlphaCode 3 is the first AI system to achieve Gold Medal performance on a major international programming competition.",
+      "AlphaCode 3 combines three components: a 500-billion-parameter coding model (fine-tuned from Gemini 2.0), a self-play reinforcement learning system that generates test cases to find its own bugs, and an iterative refinement loop that reruns failed test cases and modifies solutions. For problems in the training distribution (algorithmic categories seen during training), AlphaCode 3 solves 94% of problems. For novel problem categories, it solves 67% — significantly below human Gold Medalists on novel problems but dramatically higher than prior AI systems.",
+      "The competitive programming benchmark is valuable because it requires genuine algorithmic reasoning: problems cannot be solved by pattern matching to training data, require selecting the correct algorithm from dozens of alternatives, and must produce solutions efficient enough to run within strict time limits. These properties make competitive programming a reliable test of reasoning capability that is resistant to benchmark contamination.",
+      "<blockquote>AlphaCode 3 is not a coding autocomplete. It is a reasoning system that happens to output code. The skills it uses to solve ICPC Gold Medal problems — breaking down a novel problem, considering multiple approaches, testing hypotheses, iterating on failures — are general reasoning skills. Competitive programming is one domain where we can measure those skills objectively. — David Silver, Research Director, Google DeepMind</blockquote>",
+      "DeepMind has published AlphaCode 3's solutions to the 2026 ICPC World Finals problems, including the reasoning traces that led to each solution, as open research data. The company notes that AlphaCode 3 is not being released as a competitive programming tool (it would undermine the competitions) but as a research contribution demonstrating reasoning capability. The techniques (self-play test generation, iterative refinement with execution feedback) are being integrated into Gemini 2.0 Ultra's code capabilities.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 6,
+    tags: ['AlphaCode', 'Competitive Programming', 'AI Reasoning', 'DeepMind', 'Code AI'],
+  },
 ];
 
 TC.timelineData = {
