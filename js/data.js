@@ -1074,6 +1074,23 @@ TC.articles = [
     readTime: 6,
     tags: ['Post-Quantum Cryptography', 'NIST', 'Quantum Computing', 'CRYSTALS-Kyber', 'Encryption'],
   },
+
+  {
+    id: 63,
+    category: 'Cloud',
+    title: 'Kubernetes 2.0 Launches with Native AI Workload Scheduler and WebAssembly Runtime',
+    excerpt: 'CNCF ships the most significant Kubernetes release in a decade, co-designed with AI infrastructure teams.',
+    body: [
+      "The Cloud Native Computing Foundation has released Kubernetes 2.0, the first major version bump since 1.0 in 2015. The release is co-designed with AI infrastructure teams from Google, Meta, Microsoft, and NVIDIA to address the fundamental mismatch between Kubernetes' CPU-centric scheduling model and the demands of GPU-heavy AI workloads.",
+      "The new 'Topology-Aware AI Scheduler' (TAAS) understands GPU topology, NVLink connectivity, and InfiniBand network locality when placing AI workloads. In benchmark tests on NVIDIA DGX H100 clusters, TAAS improves GPU utilization by 34% compared to the standard kube-scheduler by co-locating tightly coupled training jobs on nodes with direct NVLink interconnects.",
+      "The native WebAssembly (WASM) runtime allows lightweight, sandboxed functions to run as Kubernetes pods without a full container startup overhead. WASM pod cold-start times average 8ms versus 800ms for container pods — enabling a new class of event-driven, serverless workloads that can share a cluster with long-running AI training jobs.",
+      "<blockquote>Kubernetes 1.x was designed for web applications. Kubernetes 2.0 is designed for the AI era — where the unit of work is a GPU cluster, not a web request, and where scheduling decisions made in milliseconds determine whether you waste millions of dollars of compute. — Tim Hockin, Kubernetes Founder, Google</blockquote>",
+      "Kubernetes 2.0 maintains full backward compatibility with 1.x workloads. The upgrade path is automated via kubeadm upgrade. All major managed Kubernetes providers (EKS, GKE, AKS) have committed to supporting 2.0 within 90 days of release.",
+    ],
+    company: 'CNCF / Kubernetes',
+    readTime: 5,
+    tags: ['Kubernetes', 'CNCF', 'Cloud Native', 'AI Infrastructure', 'WebAssembly'],
+  },
 ];
 
 TC.timelineData = {
