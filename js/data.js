@@ -1262,6 +1262,7 @@ TC.articles = [
     tags: ['Transformer', 'Attention Mechanism', 'AI History', 'Deep Learning', 'Research'],
   },
 undefined
+undefined
 ];
 
 TC.timelineData = {
