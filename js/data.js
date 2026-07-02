@@ -1608,6 +1608,23 @@ undefined
     readTime: 5,
     tags: ['Perplexity', 'AI Search', 'Startups', 'Knowledge Platform', 'Search'],
   },
+
+  {
+    id: 94,
+    category: 'Cloud',
+    title: 'Microsoft Azure Launches Orbital Edge: Satellite-Based Cloud Computing for Remote and Disconnected Environments',
+    excerpt: 'Azure extends its global cloud infrastructure to Earth orbit, enabling cloud compute for ships, mines, pipelines, and disaster response zones.',
+    body: [
+      "Microsoft Azure has launched Azure Orbital Edge, a new service category that deploys Azure compute, AI inference, and IoT connectivity infrastructure on commercial satellites. The initial deployment spans 24 LEO satellites in partnership with SpaceX Starlink and Telesat Lightspeed, providing cloud compute latency of under 20ms to any location on Earth's surface — including open ocean, polar regions, and landlocked areas with no terrestrial connectivity.",
+      "Azure Orbital Edge is not a satellite ground station service (which Azure Orbital already offers) but a full cloud computing environment in orbit. Each satellite carries an Azure Stack Edge module — Microsoft's ruggedized edge computing hardware — running Azure Kubernetes Service, Azure AI (inference only), and Azure IoT Hub. Applications deployed to Orbital Edge run identical code to applications deployed in terrestrial Azure regions, using the same SDK, APIs, and DevOps toolchain.",
+      "The target customers are industries that operate in connectivity-denied environments: offshore oil and gas platforms (real-time pipeline monitoring with no latency penalty for satellite round-trips), maritime shipping (cargo condition monitoring and navigation AI on open ocean), mining operations (autonomous vehicle coordination in underground mines), and defense (disconnected forward operating base compute).",
+      "<blockquote>Every cloud provider has 40 or 50 regions on Earth. We now have 24 regions above it. Azure Orbital Edge is not a novelty — it is an answer to the question every enterprise in extractive industries has been asking: how do we get cloud compute where our operations actually are? — Scott Guthrie, EVP, Microsoft Cloud and AI</blockquote>",
+      "Pricing is based on compute-hours plus data transfer, with a 4x premium versus equivalent terrestrial Azure compute due to satellite hardware and launch costs. Microsoft projects pricing parity by 2029 as satellite manufacturing costs decline. Three Fortune 500 energy companies — Shell, Equinor, and TotalEnergies — are announced launch customers. Azure Orbital Edge enters public preview for qualified customers in Q4 2026.",
+    ],
+    company: 'Microsoft Azure',
+    readTime: 5,
+    tags: ['Azure', 'Satellite Computing', 'Edge Computing', 'Cloud Infrastructure', 'Microsoft'],
+  },
 ];
 
 TC.timelineData = {
