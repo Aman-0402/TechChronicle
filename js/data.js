@@ -1935,6 +1935,24 @@ undefined
     readTime: 5,
     tags: ['Mistral', 'Open Source AI', 'LLM', 'Open Weights', 'Code Generation'],
   },
+
+  {
+    id: 107,
+    date: '2026-07-03',
+    category: 'Research',
+    title: 'DeepSeek R3 Open-Weights Reasoning Model: 671B MoE, Matches o3 at 1/40th the Inference Cost',
+    excerpt: 'Chinese AI lab releases largest open reasoning model in history, achieving frontier performance at a fraction of US competitor inference costs.',
+    body: [
+      "DeepSeek has released R3, a 671-billion-parameter Mixture-of-Experts reasoning model with full open weights under an MIT license, achieving scores of 87.4% on MATH, 85.1% on AIME 2025, and 76.3% on GPQA Diamond — within 3–5% of OpenAI's o3 on all three benchmarks, at an estimated inference cost of $0.55/million tokens versus o3's $20+/million tokens. The release has sent shockwaves through the AI industry for the second time in 18 months.",
+      "R3 uses DeepSeek's proprietary Multi-head Latent Attention (MLA) architecture, which compresses the KV cache 8–13x versus standard attention by projecting keys and values through learned low-rank matrices. Combined with auxiliary-loss-free load balancing for MoE routing (preventing the router collapse that afflicts most MoE models), R3 achieves 37 billion active parameters per forward pass despite 671 billion total parameters — making inference cost comparable to a 37B dense model.",
+      "The training methodology is notable: R3 was trained using pure reinforcement learning from verifiable outcomes (math, code, and logic puzzles with deterministic correct answers) without relying on RLHF from human feedback. DeepSeek reports this approach yields significantly better calibrated uncertainty — the model is less prone to confident wrong answers than RLHF-trained models, with a 22% lower hallucination rate on TruthfulQA.",
+      "<blockquote>The assumption that frontier AI requires billions of dollars in inference infrastructure was an artifact of suboptimal architectures, not a law of physics. We proved that with R1. R3 proves it again, at larger scale. — DeepSeek Research Team, Technical Report</blockquote>",
+      "The R3 release reignites the debate about US export controls on AI chips. DeepSeek achieved this capability using a cluster of approximately 2,048 NVIDIA H800 GPUs — the export-controlled version of the H100 that lacks the NVLink high-speed interconnect. The ability to match o3 performance using H800s rather than H100s suggests architectural innovation can partially compensate for hardware restrictions. NVIDIA's stock fell 6% on the announcement before recovering.",
+    ],
+    company: 'DeepSeek',
+    readTime: 6,
+    tags: ['DeepSeek', 'Open Source AI', 'Reasoning Models', 'MoE', 'China AI', 'R3'],
+  },
 ];
 
 TC.timelineData = {
