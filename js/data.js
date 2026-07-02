@@ -802,6 +802,23 @@ TC.articles = [
     readTime: 5,
     tags: ['React', 'React 20', 'Server Components', 'Concurrent Rendering', 'Frontend'],
   },
+
+  {
+    id: 47,
+    category: 'Startups',
+    title: 'Safe Superintelligence (SSI) Unveils First Model Preview After 18 Months of Silence',
+    excerpt: 'Ilya Sutskever's secretive company shows a model that refuses to answer unless it can verify safety properties.',
+    body: [
+      "Safe Superintelligence Inc. (SSI), the AI safety company founded by ex-OpenAI chief scientist Ilya Sutskever, has broken 18 months of public silence by releasing a limited preview of its first model to 200 selected researchers. The model, referred to only as 'SSI-1', takes a fundamentally different approach to AI safety than any commercially deployed model.",
+      "SSI-1 refuses to answer questions when it cannot verify that its answer is safe — not as a content policy, but as a core architectural property. The model has a built-in 'uncertainty quantifier' that estimates the probability that its response could cause harm through a formal verification process, and returns a structured refusal with an uncertainty estimate rather than a potentially harmful answer.",
+      "The early results are striking and controversial: SSI-1 refuses to answer approximately 12% of queries that GPT-5 Turbo and Claude 4 answer fluently. But on the queries it does answer, hallucination rates drop to near zero on factual questions — because the model simply refuses when it is uncertain rather than confabulating.",
+      "<blockquote>Every current AI system has been trained to be helpful first and safe second. We built SSI-1 to be safe first, even if that means being less useful. We believe this is the only architecture that scales safely to superintelligence. — Ilya Sutskever, CEO, SSI</blockquote>",
+      "SSI has not announced a public release date or pricing, stating only that SSI-1 will not be commercially deployed until its safety properties are formally verified by an independent third party. The company has raised $2B and maintains a team of 47 researchers working exclusively on safety-first AI architectures.",
+    ],
+    company: 'Safe Superintelligence (SSI)',
+    readTime: 5,
+    tags: ['SSI', 'Ilya Sutskever', 'AI Safety', 'Superintelligence', 'Startup'],
+  },
 ];
 
 TC.timelineData = {
