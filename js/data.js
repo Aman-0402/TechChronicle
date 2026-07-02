@@ -1989,6 +1989,24 @@ undefined
     readTime: 5,
     tags: ['Cursor', 'AI IDE', 'Developer Tools', 'Startups', 'Venture Capital', 'VS Code'],
   },
+
+  {
+    id: 110,
+    date: '2026-07-03',
+    category: 'AI',
+    title: 'NVIDIA Blackwell Ultra B300 Ships to Hyperscalers: 1.5 Petaflops FP8, 8TB/s HBM4 Memory Bandwidth',
+    excerpt: 'Next-generation AI accelerator doubles Blackwell B200 throughput and introduces first-ever HBM4 memory in production AI hardware.',
+    body: [
+      "NVIDIA has begun shipping the Blackwell Ultra B300 GPU to hyperscaler customers (Microsoft, Google, Amazon, Meta, and Oracle), with public specifications confirming 1.5 petaflops FP8 tensor core performance — double the B200's 750 teraflops — and 8TB/s aggregate HBM4 memory bandwidth across 8 stacks. The B300 introduces Samsung HBM4 as the memory technology, with 192GB total capacity per GPU.",
+      "The doubling of performance over the B200 (released just 12 months prior) reflects NVIDIA's new annual cadence for AI accelerator releases — a departure from the traditional two-year GPU generation cycle. The B300 uses the same Blackwell die as the B200 but with architectural changes: wider NVLink 5.0 inter-GPU interconnect (1.8TB/s versus 1.8TB/s — same bandwidth but lower latency via protocol improvements), and second-generation Transformer Engine with FP4 support.",
+      "FP4 (4-bit floating point) precision, new in the B300, reduces memory footprint and bandwidth requirements for inference by 2x versus FP8, enabling models twice as large to fit in the same GPU memory. NVIDIA reports that leading LLM inference frameworks (TensorRT-LLM, vLLM) already support FP4 for inference with less than 1% quality degradation on standard benchmarks versus FP16 baseline.",
+      "<blockquote>The pace of AI compute demand has been doubling every six months for three years. Annual GPU releases are not aggressive — they are the minimum required to keep pace with what our customers are building. The B300 is the chip the B200 was designed to evolve into. — Jensen Huang, CEO, NVIDIA</blockquote>",
+      "The DGX B300 system (8x B300 GPUs, NVLink 5.0 fabric) delivers 12 petaflops FP8 in a single rack unit. A full NVIDIA GB300 NVL72 rack (72 GPUs, NVLink 5.0 switching fabric) delivers 108 petaflops FP8 — enough to run inference on a 1-trillion-parameter model at 50 tokens per second per user for 10,000 simultaneous users. Pricing is not disclosed; hyperscalers pay under negotiated agreements. Consumer and partner pricing is expected at $50,000–$60,000 per GPU.",
+    ],
+    company: 'NVIDIA',
+    readTime: 5,
+    tags: ['NVIDIA', 'Blackwell', 'B300', 'AI Hardware', 'GPU', 'HBM4'],
+  },
 ];
 
 TC.timelineData = {
