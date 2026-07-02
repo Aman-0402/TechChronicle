@@ -1370,6 +1370,23 @@ undefined
     readTime: 6,
     tags: ['Linux', 'Rust', 'Open Source', 'Kernel', 'Operating Systems'],
   },
+
+  {
+    id: 80,
+    category: 'Research',
+    title: 'MIT CSAIL Demonstrates Photonic Processor Running LLM Inference at Speed of Light',
+    excerpt: 'Photonic matrix multiplication chip achieves 100x lower energy per token versus best GPU for transformer inference workloads.',
+    body: [
+      "MIT's Computer Science and Artificial Intelligence Laboratory has demonstrated a photonic processor capable of running large language model inference using light instead of electrons for matrix multiplication — the dominant computation in transformer architectures. The prototype chip, named LIGHTNING, performs the attention and feed-forward computations of a 7-billion-parameter model in the photonic domain with 100x lower energy per token versus an equivalent NVIDIA H100 GPU.",
+      "The photonic approach works by encoding matrix weights as optical interference patterns in a mesh of Mach-Zehnder interferometers — miniature beam-splitters carved into silicon photonics chips. Input vectors are encoded as light amplitudes, and matrix-vector multiplication happens at the speed of light through interference, requiring no analog-to-digital conversion overhead. The result is converted to digital only once per layer, dramatically reducing the energy dissipated in compute.",
+      "LIGHTNING achieves 10 pJ (picojoules) per floating-point operation at 8-bit precision versus 1,000 pJ per operation on the H100. The prototype operates at room temperature, requires no exotic cooling, and uses standard CMOS-compatible silicon photonics fabrication available at GlobalFoundries and Intel Foundry. The chip supports up to 1 trillion floating-point operations per second in a 4mm x 4mm die area.",
+      "<blockquote>Every token a large language model generates today costs roughly 10 milliwatt-hours. Scaled to 100 trillion tokens per day across all AI assistants globally, that's a medium-sized country's electricity consumption. Photonic inference at 100x efficiency isn't incremental improvement — it's the difference between sustainable AI and a planetary crisis. — Dirk Englund, MIT CSAIL</blockquote>",
+      "The research team notes significant challenges remain before commercialization: the prototype handles inference-only (not training), supports limited precision (8-bit FP), and requires integration work for full transformer architectures. The team has founded a startup, Photon Intelligence, with $18M in Series A funding from Andreessen Horowitz and Intel Capital. Commercial photonic inference accelerators are targeted for 2028.",
+    ],
+    company: 'MIT CSAIL',
+    readTime: 6,
+    tags: ['Photonic Computing', 'AI Hardware', 'LLM Inference', 'Research', 'Energy Efficiency'],
+  },
 ];
 
 TC.timelineData = {
