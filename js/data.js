@@ -717,6 +717,23 @@ TC.articles = [
     readTime: 5,
     tags: ['OpenAI', 'o3 Pro', 'Mathematics', 'Reasoning', 'FrontierMath'],
   },
+
+  {
+    id: 42,
+    category: 'Cybersecurity',
+    title: 'Ransomware Group BlackCat Resurfaces as "Phantom" After FBI Takedown, Targets Hospitals',
+    excerpt: 'Rebranded group deploys new encryptor that evades all major EDR solutions, attacks 14 healthcare systems.',
+    body: [
+      "Six months after the FBI's high-profile takedown of the BlackCat/ALPHV ransomware operation, a rebranded successor group calling itself 'Phantom' has emerged with a technically sophisticated new encryptor that security researchers at Mandiant are calling the most evasion-capable ransomware payload they have analyzed.",
+      "Phantom's encryptor, dubbed 'ShadowCrypt', uses a novel kernel-level driver that terminates EDR processes before encryption begins by exploiting a signed but vulnerable VirtualBox driver — a 'BYOVD' (Bring Your Own Vulnerable Driver) technique that bypasses Windows Defender, CrowdStrike Falcon, and SentinelOne in testing environments.",
+      "The group has attacked 14 hospital systems across the United States and Germany in the past 30 days, encrypting patient records and demanding ransoms between $3M and $12M. Three hospitals paid ransoms totaling $18M. At least two hospitals reverted to paper-based operations for more than a week, delaying surgeries and affecting patient care.",
+      "<blockquote>The healthcare sector is being systematically targeted because operators know that lives are at stake and payment is more likely. This is not opportunistic — it is calculated. — Charles Carmakal, CTO, Mandiant</blockquote>",
+      "CISA has issued Emergency Directive 26-03 requiring all federal agencies to inventory and patch or remove vulnerable kernel drivers within 72 hours. Healthcare organizations are urged to implement network segmentation that isolates clinical systems from administrative networks as an immediate risk mitigation.",
+    ],
+    company: 'Phantom / Mandiant / CISA',
+    readTime: 5,
+    tags: ['Ransomware', 'BlackCat', 'Healthcare', 'EDR Evasion', 'BYOVD'],
+  },
 ];
 
 TC.timelineData = {
