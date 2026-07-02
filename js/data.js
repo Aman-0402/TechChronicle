@@ -2367,6 +2367,24 @@ undefined
     readTime: 5,
     tags: ['Docker', 'Container', 'Dev Tools', 'LLM', 'GPU', 'AI Development'],
   },
+
+  {
+    id: 131,
+    date: '2026-07-04',
+    category: 'AI',
+    title: 'OpenAI DevDay 2026: Realtime API for Audio, Structured Outputs 2.0, and Agent Orchestration SDK',
+    excerpt: 'OpenAI's annual developer conference ships three platform updates that extend AI from chat to production-grade agent systems.',
+    body: [
+      "OpenAI held DevDay 2026, announcing three platform updates: the Realtime API for Audio (WebSocket-based, sub-200ms voice-to-voice latency for phone and embedded applications), Structured Outputs 2.0 (guaranteed JSON schema compliance with recursive structure support and streaming), and the Agents SDK (a TypeScript and Python library for building multi-step AI agents with tool calling, state management, and inter-agent communication).",
+      "The Realtime Audio API enables voice applications without assembling separate speech-to-text, LLM, and text-to-speech pipeline components. A single WebSocket connection handles microphone input, language understanding, function calling, and synthesized audio response — with 180ms median end-to-end latency from speech end to audio start. The API targets phone systems (replacing IVR trees), embedded voice assistants, and real-time translation applications.",
+      "Structured Outputs 2.0 adds three capabilities over the original Structured Outputs: recursive schema support (JSON schemas with $ref and $defs for nested types), streaming structured output (JSON tokens stream as they are generated, enabling progressive rendering), and schema inference (provide example outputs; the API infers the schema and guarantees future outputs match it). Developers report structured outputs eliminating JSON parsing failures in 99.8% of production use cases.",
+      "<blockquote>DevDay is where we ship the platform features that developers have been asking for. Every feature announced today came from developer feedback — the Agents SDK from teams trying to coordinate multiple AI steps without writing boilerplate, the Realtime API from teams tired of assembling STT+LLM+TTS pipelines, Structured Outputs 2.0 from teams dealing with JSON schema edge cases. We listen. — Greg Brockman, President, OpenAI</blockquote>",
+      "The Agents SDK is OpenAI's first opinionated framework for multi-agent systems: it defines Agents (LLM + tools + system prompt), Handoffs (transfer of control between agents with context), Guardrails (input/output validators that run on every message), and Orchestrators (agents that coordinate other agents). The SDK is open source (MIT license) and works with any OpenAI API-compatible model, not just OpenAI models. An integrated tracing tool visualizes agent execution graphs in real time for debugging.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'DevDay', 'AI Agents', 'Realtime API', 'Developer Platform'],
+  },
 ];
 
 TC.timelineData = {
