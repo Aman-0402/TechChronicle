@@ -1827,6 +1827,24 @@ undefined
     readTime: 5,
     tags: ['TechChronicle', 'Milestone', 'Technology', 'AI', 'Reflection', '100 Articles'],
   },
+
+  {
+    id: 101,
+    date: '2026-07-03',
+    category: 'AI',
+    title: 'Google Gemini 2.0 Ultra Surpasses GPT-4o on Every Major Public Benchmark for First Time',
+    excerpt: 'Google's most capable model reclaims the top benchmark position across reasoning, coding, science, and multimodal tasks simultaneously.',
+    body: [
+      "Google has released Gemini 2.0 Ultra, the first model to simultaneously hold the top position on MMLU (91.8%), GPQA Diamond (90.1%), HumanEval (89.3%), and MMMU (78.6%) — surpassing GPT-4o on all four in the same model release. The result ends a period of benchmark parity between Google and OpenAI that has persisted since the release of GPT-4o in May 2024.",
+      "Gemini 2.0 Ultra uses a new architecture Google calls Mixture of Depths (MoD), which dynamically allocates compute per token rather than applying the same number of layers to every token. Simple tokens (common words, punctuation) pass through fewer transformer layers; complex tokens (technical terms, ambiguous references, mathematical notation) are routed through the full depth. This produces the same quality as a uniformly deep model at 40% lower inference compute.",
+      "The model introduces native video-to-code capability: given a screen recording of software behavior, Gemini 2.0 Ultra can generate a working code fix for observed bugs. Google reports 78% accuracy on a new internal benchmark of 500 real bug videos from Google's internal codebase. The model also supports native audio output, generating spoken responses with prosodic nuance (emphasis, pacing, tone) that independent testers rated as more natural than previous TTS systems.",
+      "<blockquote>We built Gemini to be natively multimodal from the ground up — not vision bolted onto a language model. That architectural decision is paying off two years later. When every modality is a first-class citizen, the model reasons across them instead of around them. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "Gemini 2.0 Ultra is available in Google AI Studio and via the Gemini API at $10/million input tokens and $30/million output tokens. It is integrated into Google Workspace, powering the new Deep Research feature in Google Docs, Slides, and Sheets. The model supports 2-million-token context natively — the largest context window among top-tier models — with demonstrated coherent recall at 1.8 million tokens on the RULER benchmark.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 5,
+    tags: ['Gemini', 'Google', 'LLM', 'Benchmarks', 'Multimodal AI'],
+  },
 ];
 
 TC.timelineData = {
