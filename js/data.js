@@ -1659,6 +1659,23 @@ undefined
     readTime: 5,
     tags: ['Bun', 'JavaScript', 'Node.js', 'Runtime', 'Performance', 'Dev Tools'],
   },
+
+  {
+    id: 97,
+    category: 'Research',
+    title: 'Neuralink N2 Implant Enables Paralyzed Patient to Control Robot Arm with 98% Accuracy, Types 90 WPM',
+    excerpt: 'Second-generation brain-computer interface surpasses previous records, enabling the highest fidelity motor cortex decoding ever achieved in a human.',
+    body: [
+      "Neuralink has published peer-reviewed results for its N2 brain-computer interface implant in the New England Journal of Medicine, reporting that the first N2 participant — a 31-year-old with complete cervical spinal cord injury — achieved 98% accuracy controlling a robotic arm across 847 motor tasks and a sustained typing rate of 90 words per minute using imagined finger movements decoded by the implant.",
+      "The N2 implant represents a significant advance over the N1 (Neuralink's first clinical device): 4,096 electrode channels versus 1,024 in N1, a new ultra-thin polymer thread design that reduces micromotion and immune response, and an in-implant AI chip that performs neural signal preprocessing (spike sorting, dimensionality reduction) before transmitting decoded signals wirelessly. Battery life extends to 72 hours between wireless charging cycles.",
+      "The 90 WPM typing rate exceeds the 40 WPM record set by BrainGate researchers in 2021 and the 62 WPM achieved by Neuralink's N1 participant (Noland Arbaugh) in 2024. The robotic arm control accuracy of 98% across 847 tasks (including fine manipulation tasks like picking up a grape without crushing it) exceeds all published prior work in motor cortex BCI decoding.",
+      "<blockquote>When I lost the ability to move my hands, I didn't just lose the ability to type or pick things up. I lost independence. I lost privacy. I lost the ability to participate in the world the way I was used to. What Neuralink has given me back, in eight months, I cannot express adequately. — N2 Participant, NEJM case report</blockquote>",
+      "The NEJM publication includes 18 months of safety data: zero device-related serious adverse events, zero infections, and no statistically significant degradation in signal quality or channel yield over the observation period (a previous concern with silicon-electrode BCIs). FDA has granted Breakthrough Device Designation for N2 and approved enrollment of 25 additional participants in the N2 clinical trial. Neuralink targets commercial availability for a limited population (complete paralysis, ALS) in 2028.",
+    ],
+    company: 'Neuralink',
+    readTime: 6,
+    tags: ['Neuralink', 'Brain-Computer Interface', 'Paralysis', 'Medical Technology', 'BCI'],
+  },
 ];
 
 TC.timelineData = {
