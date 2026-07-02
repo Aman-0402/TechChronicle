@@ -1285,6 +1285,23 @@ undefined
     readTime: 5,
     tags: ['Rust', 'C++', 'Memory Safety', 'Systems Programming', 'Security'],
   },
+
+  {
+    id: 75,
+    category: 'Cybersecurity',
+    title: 'NSA Releases CNSA 2.0 Compliance Deadline: All Federal Systems Must Be Quantum-Safe by 2030',
+    excerpt: 'National Security Agency sets firm four-year window for full post-quantum cryptography migration across US government infrastructure.',
+    body: [
+      "The National Security Agency has issued binding CNSA 2.0 (Commercial National Security Algorithm Suite 2.0) compliance requirements, setting a firm 2030 deadline for all US federal agencies to complete their transition to post-quantum cryptographic algorithms. The mandate covers every classified and unclassified federal system that handles sensitive national security information.",
+      "CNSA 2.0 mandates four NIST-standardized algorithms: ML-KEM (Module-Lattice Key Encapsulation Mechanism, formerly CRYSTALS-Kyber), ML-DSA (Module-Lattice Digital Signature Algorithm, formerly CRYSTALS-Dilithium), SLH-DSA (Stateless Hash-Based Digital Signature Algorithm, formerly SPHINCS+), and LMS/XMSS for firmware and software signing.",
+      "The compliance window breaks into three phases: Phase 1 (2024–2026) requires complete algorithm inventory and hybrid deployment for all new systems. Phase 2 (2026–2028) requires all new software and hardware acquisitions to natively support CNSA 2.0. Phase 3 (2028–2030) requires full decommissioning of classical-only cryptographic systems.",
+      "<blockquote>The cryptographic threat from quantum computing is not hypothetical. Nation-state adversaries are harvesting encrypted data today, expecting to decrypt it once quantum computers mature. Every day we delay migration is a day of data we cannot protect retroactively. — Anne Neuberger, Deputy National Security Advisor for Cyber</blockquote>",
+      "The NSA estimates the federal migration will require 18,000+ system updates across 400 agencies and cost approximately $7.2 billion over the six-year window. CISA has published a migration playbook and will conduct mandatory compliance audits beginning in 2027. Commercial vendors supplying federal systems are required to provide CNSA 2.0 support by 2026 or face debarment.",
+    ],
+    company: 'NSA / CISA',
+    readTime: 5,
+    tags: ['Post-Quantum Cryptography', 'CNSA 2.0', 'NSA', 'Federal Security', 'Quantum Computing'],
+  },
 ];
 
 TC.timelineData = {
