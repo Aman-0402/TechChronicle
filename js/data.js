@@ -2583,6 +2583,24 @@ undefined
     readTime: 5,
     tags: ['CISA', 'MFA', 'FIDO2', 'Federal Security', 'Phishing Resistant', 'Passkeys'],
   },
+
+  {
+    id: 143,
+    date: '2026-07-05',
+    category: 'Cloud',
+    title: 'Oracle Cloud and NVIDIA Announce $10 Billion AI Supercomputing Partnership: 100,000 H200 GPUs',
+    excerpt: 'Strategic partnership makes Oracle Cloud the largest NVIDIA GPU cluster outside of hyperscaler infrastructure, attracting AI training workloads.',
+    body: [
+      "Oracle Cloud Infrastructure (OCI) and NVIDIA have announced a $10 billion strategic partnership establishing 100,000 NVIDIA H200 GPU cluster capacity on OCI — the largest NVIDIA GPU deployment ever announced by a cloud provider outside of the hyperscaler tier (Google, Microsoft, Amazon). The partnership includes a commitment for NVIDIA Blackwell B300 capacity beginning Q1 2027, and joint engineering work on optimized networking for large-scale distributed AI training.",
+      "The OCI AI Supercomputing cluster uses NVIDIA's InfiniBand HDR 200Gbps networking fabric to connect all 100,000 GPUs with bisection bandwidth sufficient for 2000-GPU distributed training jobs without network bottlenecks. Oracle's RDMA Cluster Network achieves 100Gbps RDMA throughput between every pair of nodes, matching the networking performance of dedicated on-premises AI training clusters. The cluster is certified for multi-tenant use, with cryptographic isolation between tenants' training jobs.",
+      "Oracle's positioning is deliberate: while AWS, Azure, and Google have ample GPU capacity but queues of 6–18 months, OCI is offering immediate availability for large GPU reservations. AI companies that cannot access hyperscaler GPU capacity (due to relationship, contract, or availability constraints) are Oracle's target market. Reported customers include Character.ai, Cohere, and several AI startups that publicly cited GPU availability as their primary constraint.",
+      "<blockquote>Every AI company needs two things: compute and time. The hyperscalers have infinite compute but infinite wait lists. We have built the world's largest immediately-available NVIDIA GPU cluster. If you are building AI and you need GPUs now, not in 18 months, Oracle is the answer. — Larry Ellison, Co-founder and CTO, Oracle</blockquote>",
+      "Oracle's AI infrastructure push is its most aggressive cloud initiative since OCI launched in 2016. The company reports OCI revenue grew 52% year-over-year in the most recent quarter, the fastest growth rate of any major cloud provider. The H200 cluster is available in three OCI regions: US East (Ashburn), US West (Phoenix), and UK South (London). Pricing is $32/hour for an 8-GPU H200 HBM3e 80GB instance — competitive with Azure and AWS for comparable GPU types.",
+    ],
+    company: 'Oracle / NVIDIA',
+    readTime: 5,
+    tags: ['Oracle Cloud', 'NVIDIA', 'AI Supercomputing', 'H200 GPU', 'Cloud Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
