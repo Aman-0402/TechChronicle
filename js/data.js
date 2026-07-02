@@ -2547,6 +2547,24 @@ undefined
     readTime: 5,
     tags: ['xAI', 'Grok 3', 'Code Generation', 'LLM', 'Real-Time AI', 'Benchmarks'],
   },
+
+  {
+    id: 141,
+    date: '2026-07-05',
+    category: 'AI',
+    title: 'Midjourney V7 Launches: Photorealistic 4K Images in 4 Seconds, Video Generation up to 30 Seconds',
+    excerpt: 'Sixth-generation Midjourney model closes the remaining gap between AI-generated and photographed imagery, adding short-form video capabilities.',
+    body: [
+      "Midjourney has released Version 7, generating photorealistic 4K images in 4 seconds and extending into video generation of up to 30 seconds from text prompts or existing V7 images. The image quality improvement over V6 (the previous release) is primarily in fine details: fabric texture, skin pores, reflections in eyes, background bokeh gradients, and architectural details all render with fidelity that professional photographers testing the model described as 'indistinguishable from camera output for non-professional subjects.'",
+      "V7 introduces Consistent Characters — the ability to specify a character's appearance once (via image reference or detailed description) and maintain identical facial features, body proportions, and distinctive features across any number of generated images in different settings, poses, and lighting conditions. This feature makes V7 viable for commercial illustration, book covers, and marketing campaigns where brand character consistency was previously impossible without manual retouching.",
+      "The 30-second video generation uses a temporal diffusion model (distinct from the image model) that maintains character and scene consistency across frames. Generated video is 24fps at 720p, with 4K upscaling available as a post-process. The video model excels at slow atmospheric sequences (a character walking in the rain, a landscape timelapse, a product showcase) and struggles with fast action or multiple moving objects — limitations Midjourney has acknowledged in the technical release notes.",
+      "<blockquote>V7 is not an incremental update. It is the version where professional creatives stopped using V7 as a reference tool and started using it as a production tool. When photographers tell us they cannot tell the difference, and when art directors tell us they are using V7 outputs directly in campaigns, that is the signal we set out to reach. — David Holz, founder, Midjourney</blockquote>",
+      "Midjourney V7 is available to all subscribers immediately via the Midjourney Discord bot and the new Midjourney web interface (midjourney.com). Pricing remains $10/month (Basic), $30/month (Standard), $60/month (Pro). V7 uses 4x the compute per image as V6, consuming fast GPU credits 4x faster; the Pro plan receives a 60% GPU hour increase to compensate. Midjourney reports 22 million registered users and $300M in annualized subscription revenue, making it profitable without external funding.",
+    ],
+    company: 'Midjourney',
+    readTime: 5,
+    tags: ['Midjourney', 'Image Generation', 'AI Art', 'Video Generation', 'Creative AI'],
+  },
 ];
 
 TC.timelineData = {
