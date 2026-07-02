@@ -2169,6 +2169,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'o3-mini', 'AI Adoption', 'Mobile AI', 'Free AI'],
   },
+
+  {
+    id: 120,
+    date: '2026-07-03',
+    category: 'Hardware',
+    title: 'AMD Instinct MI350X Outperforms NVIDIA H200 on LLM Inference: ROCm 7.0 Closes Software Gap',
+    excerpt: 'AMD's newest AI accelerator and matured ROCm stack together deliver the strongest competitive challenge to NVIDIA GPU dominance since 2017.',
+    body: [
+      "AMD has released the Instinct MI350X AI accelerator with published benchmark results showing 18% higher LLM inference throughput versus the NVIDIA H200 on Llama 3 70B inference using 8-bit precision, and 12% higher throughput on Mixtral 8x22B. The results, independently verified by MLCommons on the MLPerf Inference 4.1 benchmark, represent AMD's first verified outperformance of an equivalent NVIDIA accelerator on AI inference — a historically NVIDIA-dominant workload.",
+      "The MI350X specifications: 1.3 petaflops FP8 tensor core performance, 288GB HBM3E with 8.0TB/s bandwidth, 950W TDP, and PCIe Gen5 host interface. The performance advantage versus H200 comes from two sources: higher memory bandwidth (8.0TB/s versus H200's 4.8TB/s — critical for memory-bandwidth-bound inference) and a new Instruction Set Architecture optimized for 8-bit matrix multiply that processes GEMMs (General Matrix Multiplications) 15% more efficiently per watt.",
+      "ROCm 7.0 — AMD's GPU computing platform equivalent to NVIDIA CUDA — deserves as much credit as the hardware. ROCm 7.0 introduces a rewritten HIP compiler backend (HIPify), full support for flash attention 3, native triton kernel compilation, and compatibility with 94% of PyTorch 2.0 operators versus 72% in ROCm 6.0. The software maturation closes the ecosystem gap that prevented adoption of previous AMD AI accelerators despite competitive hardware.",
+      "<blockquote>The story of AMD versus NVIDIA in AI has always been: AMD has competitive hardware but not competitive software. ROCm 7.0 is the release where that changes. When the software stack is 94% compatible with CUDA's ecosystem, the hardware specifications do the talking — and the MI350X hardware says something very clear. — Lisa Su, CEO, AMD</blockquote>",
+      "Microsoft Azure and Oracle Cloud have announced MI350X availability for Q4 2026. Google Cloud and AWS have not yet announced timelines, reflecting their deeper integration with NVIDIA's infrastructure. AMD has partnered with Hugging Face to create the AMD AI Hub — a curated collection of 500 models pre-optimized for ROCm 7.0, downloadable and deployable on MI350X without manual optimization. The collection includes all major open-source models and the top 50 most-downloaded Hugging Face models.",
+    ],
+    company: 'AMD',
+    readTime: 5,
+    tags: ['AMD', 'MI350X', 'AI Hardware', 'ROCm', 'GPU', 'NVIDIA'],
+  },
 ];
 
 TC.timelineData = {
