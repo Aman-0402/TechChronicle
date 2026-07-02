@@ -1227,6 +1227,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Apple', 'AirDrop', 'Zero-Click', 'CVE-2026-23708', 'RCE'],
   },
+
+  {
+    id: 72,
+    category: 'Cloud',
+    title: 'Hetzner Launches US Data Centers: European Cloud Giant Targets AWS Customers with 80% Cheaper Compute',
+    excerpt: 'German cloud provider brings its radically cost-competitive pricing to Virginia and Dallas, disrupting enterprise cost assumptions.',
+    body: [
+      "Hetzner, the German cloud provider known for offering compute at 5-10x lower prices than AWS and GCP, has launched its first US data centers in Ashburn, Virginia and Dallas, Texas — bringing its disruptive pricing model directly into AWS's home market for the first time.",
+      "Hetzner's US pricing: a dedicated server with 32 cores, 256GB RAM, and 4TB NVMe storage starts at 29/month versus AWS's equivalent r6i.8xlarge at approximately ,150/month (on-demand) or 80/month (1-year reserved). Cloud VMs are similarly priced: 8 vCPU / 16GB RAM at .90/month versus AWS EC2 c5.2xlarge at 8/month.",
+      "The price difference stems from Hetzner's business model: the company owns its data centers (vs renting), runs on razor-thin margins, targets technical customers who do not need enterprise support contracts, and does not offer the breadth of managed services (no RDS, no Lambda, no SageMaker equivalents) that justify AWS's premium.",
+      "<blockquote>Many companies are paying 00,000 per month to AWS for workloads that cost 5,000 on Hetzner. We are not for everyone — we are for engineers who know what they need and do not want to pay for what they do not. — Martin Hetzner, CEO</blockquote>",
+      "The launch has immediately attracted significant migration interest from startups and mid-market companies. hnhiring thread analysis shows Hetzner appearing in 340% more job postings than 12 months ago. Critics note that Hetzner's limited US support hours and lack of enterprise SLAs make it unsuitable for regulated industries.",
+    ],
+    company: 'Hetzner',
+    readTime: 4,
+    tags: ['Hetzner', 'Cloud Pricing', 'AWS Alternative', 'Data Center', 'Cost Optimization'],
+  },
 ];
 
 TC.timelineData = {
