@@ -1176,6 +1176,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Firefox', 'Mozilla', 'Chrome', 'Manifest V3', 'Browser'],
   },
+
+  {
+    id: 69,
+    category: 'AI',
+    title: 'Fact: It Took 50 Years to Go from the First Neural Network to ChatGPT',
+    excerpt: 'The timeline of AI reveals decades of progress, two AI winters, and an exponential decade that changed everything.',
+    body: [
+      "The history of artificial neural networks spans almost exactly 80 years. Frank Rosenblatt demonstrated the Perceptron at Cornell in 1957 — a physical machine, not software, that could learn to classify patterns. It was hailed as the dawn of thinking machines. Minsky and Papert's 1969 book 'Perceptrons' demonstrated its limitations and triggered the first AI winter, cutting funding for nearly a decade.",
+      "The second wave came with backpropagation, popularized by Rumelhart, Hinton, and Williams in 1986. Neural networks returned, but hardware limitations meant the largest networks of the era had thousands of parameters. The second AI winter arrived in the mid-1990s when rule-based systems and SVMs outperformed neural networks on benchmarks and funding dried up again.",
+      "The third wave began with AlexNet in 2012 — a moment widely considered the birth of modern deep learning. AlexNet won the ImageNet competition by a 10-point margin using a convolutional neural network trained on two NVIDIA GTX 580 GPUs. The key insight was that GPUs, designed for gaming, were perfectly suited for the matrix operations that power neural networks.",
+      "<blockquote>We knew in 2006 that deep learning would work if we had enough data and enough compute. We just had to wait for the compute to catch up. — Geoffrey Hinton, 2024 Nobel Prize in Physics laureate for AI contributions</blockquote>",
+      "ChatGPT launched on November 30, 2022 and reached 100 million users in 2 months — the fastest product adoption in history. From Rosenblatt's Perceptron to GPT-4: 65 years. From GPT-4 to GPT-5: 2 years. The doubling time of AI capability is measured in months, not decades.",
+    ],
+    company: 'AI History / Various Institutions',
+    readTime: 5,
+    tags: ['AI History', 'Neural Networks', 'Deep Learning', 'ChatGPT', 'Tech Facts'],
+  },
 ];
 
 TC.timelineData = {
