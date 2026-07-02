@@ -2097,6 +2097,24 @@ undefined
     readTime: 6,
     tags: ['Solid-State Battery', 'Energy Storage', 'Samsung', 'MIT', 'EV', 'Research'],
   },
+
+  {
+    id: 116,
+    date: '2026-07-03',
+    category: 'Open Source',
+    title: 'Deno 2.0 Achieves Full npm Compatibility: 3 Million npm Packages Now Work Without Configuration',
+    excerpt: 'Ryan Dahl's JavaScript runtime ships backward compatibility with the npm ecosystem, removing the ecosystem fragmentation that limited adoption.',
+    body: [
+      "Deno 2.0 has shipped with full npm compatibility, allowing any npm package to be imported and used in Deno projects without configuration, package.json, or node_modules — via a simple import statement with an npm: specifier. The 3 million packages on the npm registry are now accessible in Deno, resolving the ecosystem fragmentation that was Deno's primary adoption barrier versus Node.js since its 2018 release.",
+      "Deno's npm compatibility works by downloading and caching npm packages in a global Deno cache directory (not project-level node_modules), resolving dependencies against the npm registry at import time, and shimming Node.js built-in modules (fs, http, path, crypto) via Deno's Node compatibility layer. The result: an Express app, a React SSR app, or a Prisma database client can be run with deno run without any configuration changes.",
+      "The Deno 2.0 release also introduces a built-in monorepo workspace feature (deno.json workspaces), TypeScript 5.5 support with incremental compilation, native JSX transform without configuration, and a new deno compile command that produces single-binary executables that include the Deno runtime, significantly improving deployment ergonomics for command-line tools.",
+      "<blockquote>When I released Deno 1.0, I made a bet that the npm ecosystem was a dead end. I was wrong about that — or at least wrong about the timeline. npm is here for the foreseeable future. Deno 2.0 is us acknowledging that pragmatically and building the best JavaScript runtime that works with reality, not against it. — Ryan Dahl, creator of Node.js and Deno</blockquote>",
+      "Deno 2.0 ships with Deno KV (a built-in key-value database using SQLite locally and FoundationDB in Deno Deploy), Deno Queues (a built-in job queue), and Deno Cron (built-in cron scheduling) — making Deno the first JavaScript runtime with built-in distributed primitives. Deno Deploy (the serverless hosting platform) now runs on 35 edge regions with the same V8-based runtime, enabling one-command deployment of any Deno or Node.js application.",
+    ],
+    company: 'Deno Land',
+    readTime: 5,
+    tags: ['Deno', 'JavaScript', 'npm', 'Open Source', 'Runtime', 'TypeScript'],
+  },
 ];
 
 TC.timelineData = {
