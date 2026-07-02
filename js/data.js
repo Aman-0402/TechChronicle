@@ -1261,6 +1261,7 @@ TC.articles = [
     readTime: 5,
     tags: ['Transformer', 'Attention Mechanism', 'AI History', 'Deep Learning', 'Research'],
   },
+undefined
 ];
 
 TC.timelineData = {
