@@ -887,6 +887,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Waymo', 'Autonomous Vehicles', 'Robotaxi', 'Self-Driving', 'Alphabet'],
   },
+
+  {
+    id: 52,
+    category: 'Cybersecurity',
+    title: 'Salt Typhoon Hackers Accessed US Telco Metadata for 18 Months Before Detection',
+    excerpt: 'Senate hearing reveals Chinese state hackers read call records and SMS metadata of senior US officials.',
+    body: [
+      "A Senate Intelligence Committee hearing has revealed the full scope of the Salt Typhoon intrusion into US telecommunications infrastructure: Chinese state-sponsored hackers had persistent access to metadata — call records, SMS logs, and geolocation data — for 18 months across AT&T, Verizon, and T-Mobile before being detected.",
+      "The targets included senior officials at the State Department, NSA, and DoD, as well as members of Congress from both parties and their staff. Metadata analysis alone — without content — allowed the attackers to map the social and professional networks of senior US officials with high precision.",
+      "The intrusion vector was a zero-day in Cisco's IOS XE network operating system, which the attackers used to install persistent backdoors on core routing infrastructure. Cisco's PSIRT team confirmed that patches were issued within 72 hours of discovery, but the backdoors had been installed before patching began.",
+      "<blockquote>Metadata is the map. You do not need to read the messages to understand who talks to whom, when, how often, and from where. Salt Typhoon read the map of American power for a year and a half. — Sen. Mark Warner, Chair, Senate Intelligence Committee</blockquote>",
+      "CISA has issued binding operational directive BOD 26-04 requiring all federal agencies to migrate telecommunications to end-to-end encrypted alternatives (Signal, iMessage) for sensitive communications and to implement quantum-resistant encryption on all backbone infrastructure by December 31, 2026.",
+    ],
+    company: 'Salt Typhoon / CISA / Senate Intelligence',
+    readTime: 5,
+    tags: ['Salt Typhoon', 'China', 'Telecom Hack', 'Metadata', 'Nation-State'],
+  },
 ];
 
 TC.timelineData = {
