@@ -2349,6 +2349,24 @@ undefined
     readTime: 5,
     tags: ['Runway ML', 'AI Video', 'Startups', 'Creative AI', 'Hollywood', 'Venture Capital'],
   },
+
+  {
+    id: 130,
+    date: '2026-07-04',
+    category: 'Dev Tools',
+    title: 'Docker Desktop 5.0: AI-Integrated Container Management, Model Runner, and GPU Workload Support',
+    excerpt: 'Docker evolves beyond containerization into an AI development platform, running LLMs locally alongside microservices in unified developer workflows.',
+    body: [
+      "Docker has released Desktop 5.0 with three major additions targeting AI workloads: Docker Model Runner (run any GGUF-format LLM locally as a Docker service), GPU Workload Support (native NVIDIA and AMD GPU passthrough to containers without manual driver configuration), and AI Ask (a natural language interface to Docker CLI that converts plain-English requests into Docker commands with explanation). The release repositions Docker from a containerization tool to an AI development platform.",
+      "Docker Model Runner is the headline feature: any LLM in GGUF format can be started as a Docker container with a single command and exposed as an OpenAI-compatible API endpoint. A developer running Llama 3 8B locally connects their application to docker.io/model-runner:llama3-8b and uses the standard OpenAI SDK with base_url='http://localhost:11434/v1' — identical code works against the local model or the OpenAI API. Model discovery, download, and lifecycle management use familiar Docker pull, run, and stop commands.",
+      "GPU passthrough in Docker Desktop 5.0 works without any user configuration: NVIDIA GPU access requires only adding device: requests: - driver: nvidia capabilities: [gpu] to a docker-compose.yml, and Docker Desktop handles the NVIDIA Container Toolkit installation, driver version negotiation, and CUDA library mounting automatically. AMD ROCm GPU support follows the same pattern. The feature reduces GPU-enabled container setup from a multi-hour process to minutes.",
+      "<blockquote>Every developer we talked to was running Ollama separately from their Docker Compose stack, with a manual port forwarding hack to connect them. That is the signal that says 'this belongs inside Docker.' Model Runner is Ollama for Docker-native workflows. — Justin Cormack, CTO, Docker</blockquote>",
+      "Docker AI Ask uses a fine-tuned version of Llama 3.1 8B running locally via Model Runner to interpret natural language and generate Docker commands. Asking 'show me all containers that are using more than 1GB of memory' generates docker stats --no-stream --format with the correct filter expression. Asking 'create a postgres database with my app connecting to it' generates a complete docker-compose.yml. The feature runs entirely locally — no telemetry, no cloud API call for the command generation itself.",
+    ],
+    company: 'Docker',
+    readTime: 5,
+    tags: ['Docker', 'Container', 'Dev Tools', 'LLM', 'GPU', 'AI Development'],
+  },
 ];
 
 TC.timelineData = {
