@@ -2565,6 +2565,24 @@ undefined
     readTime: 5,
     tags: ['Midjourney', 'Image Generation', 'AI Art', 'Video Generation', 'Creative AI'],
   },
+
+  {
+    id: 142,
+    date: '2026-07-05',
+    category: 'Cybersecurity',
+    title: 'CISA Mandates Phishing-Resistant MFA for All Federal Civilian Agency Logins by December 2026',
+    excerpt: 'Binding Operational Directive expands on existing CISA MFA guidance to require phishing-resistant methods, closing the SMS OTP vulnerability gap.',
+    body: [
+      "CISA has issued Binding Operational Directive 26-02 requiring all Federal Civilian Executive Branch (FCEB) agencies to implement phishing-resistant MFA — specifically FIDO2/WebAuthn (passkeys or hardware security keys) or PIV (Personal Identity Verification) smart cards — for all user-facing logins to federal IT systems by December 31, 2026. The directive supersedes previous MFA guidance that permitted SMS OTP and TOTP authenticator apps, both of which are vulnerable to real-time phishing attacks.",
+      "The urgency is driven by the proliferation of real-time phishing-as-a-service platforms (EvilProxy, Modlishka, and Evilginx variants) that proxy authentication sessions, capturing both the username/password and the SMS OTP or TOTP code in real time as the victim types them. These platforms have reduced the skill floor for MFA bypass attacks to zero: a non-technical attacker can rent the infrastructure and conduct phishing attacks that bypass standard MFA with no technical knowledge.",
+      "FIDO2/WebAuthn and PIV cards are immune to these proxy attacks because the authentication credential is cryptographically bound to the origin domain (the specific website URL). An EvilProxy attack that proxies users through a different domain receives a credential signed for the attacker's domain, not the federal agency's domain — making the credential useless for accessing the real system.",
+      "<blockquote>SMS OTP is better than no MFA. But 'better than nothing' is no longer an acceptable federal security posture. Real-time phishing platforms have made SMS OTP and TOTP meaningfully ineffective against determined attackers. FIDO2 and PIV are the only MFA methods we know of that cannot be bypassed in real time. Every federal system must use them. — Jen Easterly, Director, CISA</blockquote>",
+      "The directive applies to 99 FCEB agencies covering approximately 4.2 million federal civilian employees and contractors. CISA estimates 1.8 million are already using PIV cards for network access; the remaining 2.4 million require migration to FIDO2 or PIV. CISA will provide free YubiKey hardware security keys (funded by the Cybersecurity Enhancement Account) to agencies that cannot afford the migration cost independently. Non-compliance by the December 2026 deadline triggers mandatory CISA remediation support and reporting to OMB.",
+    ],
+    company: 'CISA',
+    readTime: 5,
+    tags: ['CISA', 'MFA', 'FIDO2', 'Federal Security', 'Phishing Resistant', 'Passkeys'],
+  },
 ];
 
 TC.timelineData = {
