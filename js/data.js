@@ -751,6 +751,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Google Cloud', 'Axion', 'ARM', 'Cloud Compute', 'Enterprise'],
   },
+
+  {
+    id: 44,
+    category: 'Programming',
+    title: 'Python 3.14 Ships with No-GIL Mode Stable and Sub-Interpreter Parallelism',
+    excerpt: 'A decade of work to remove Python's biggest parallelism barrier ships as a production-ready feature.',
+    body: [
+      "Python 3.14 has been released with two landmark features that fundamentally change Python's concurrency model: a stable, production-ready no-GIL (Global Interpreter Lock) mode, and sub-interpreter parallelism that allows truly concurrent Python threads on multi-core hardware without resorting to multiprocessing.",
+      "The no-GIL mode, enabled with PYTHON_GIL=0 or python -X gil=0, removes the mutex that has prevented Python threads from running simultaneously since 1994. The implementation, based on Sam Gross's 'nogil' fork, uses biased reference counting and deferred reference counting to maintain memory safety without the lock — a technique borrowed from the HotSpot JVM.",
+      "Performance results are mixed but directionally positive: CPU-bound threaded workloads see 2.8-4.1x speedup on 4-core hardware. Single-threaded performance regresses by 3-8% due to reference counting overhead. The Python Steering Council has committed to closing the single-threaded regression to under 2% by Python 3.16.",
+      "<blockquote>This is the change Python developers have been asking for since 2005. It is not perfect yet, but it is real, it is stable, and it opens the door to Python actually using the hardware it runs on. — Guido van Rossum (via Python-Dev mailing list)</blockquote>",
+      "The scientific Python ecosystem (NumPy, SciPy, pandas) has already released no-GIL-compatible builds. The asyncio event loop is unaffected — async/await code continues to work identically. The change is opt-in in 3.14 and will become the default in Python 3.16.",
+    ],
+    company: 'Python Software Foundation',
+    readTime: 5,
+    tags: ['Python', 'GIL', 'Parallelism', 'Python 3.14', 'Concurrency'],
+  },
 ];
 
 TC.timelineData = {
