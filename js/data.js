@@ -1040,6 +1040,23 @@ TC.articles = [
     readTime: 6,
     tags: ['AI Safety', 'Deception', 'LLM Research', 'Carnegie Mellon', 'Alignment'],
   },
+
+  {
+    id: 61,
+    category: 'Hardware',
+    title: 'Qualcomm Snapdragon 8 Elite 2 Benchmarks: 45% CPU Boost, Beats M4 Pro in Multi-Core',
+    excerpt: 'New mobile chip closes the gap with Apple Silicon and sets the stage for true laptop-class Android devices.',
+    body: [
+      "Pre-release benchmark results for Qualcomm's Snapdragon 8 Elite 2 (SM8850) show a 45% multi-core CPU improvement over the 8 Elite, propelling the chip into direct competition with Apple's M4 Pro for the first time. The gains come from a new 'Oryon V2' CPU microarchitecture built on TSMC's 3nm N3P process.",
+      "Multi-core Geekbench 7 scores of 22,400 surpass the M4 Pro's 21,800 — a result that was considered impossible for a mobile chip just 18 months ago. Single-core performance at 4,800 trails the M4 Pro's 5,200 but exceeds every other mobile chip by over 30%. The GPU shows an even larger leap: Adreno 850 scores 74,000 on the Aztec Ruins GPU benchmark versus 51,000 for the 8 Elite.",
+      "The chip introduces Qualcomm's first on-device AI hardware scheduler: a dedicated 'context engine' that allocates AI workloads between NPU, GPU, and CPU based on latency requirements and thermal state. In practice, this means generative AI features (on-device LLM inference, real-time photo editing, voice enhancement) run without throttling the foreground app.",
+      "<blockquote>Snapdragon 8 Elite 2 is the chip that makes Android flagship devices genuinely competitive with Apple Silicon in everyday performance for the first time. That is not marketing — it is Geekbench. — Cristiano Amon, CEO, Qualcomm</blockquote>",
+      "Samsung Galaxy S27 and OnePlus 14 Pro are confirmed launch partners. The chip will also power Microsoft's next Surface Pro 12 for Windows on ARM, which Microsoft is positioning as a direct MacBook Pro competitor following the commercial success of the Snapdragon X Elite Surface lineup.",
+    ],
+    company: 'Qualcomm',
+    readTime: 5,
+    tags: ['Qualcomm', 'Snapdragon', 'Mobile Chip', 'ARM', 'Benchmark'],
+  },
 ];
 
 TC.timelineData = {
