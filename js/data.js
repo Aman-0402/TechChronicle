@@ -1455,6 +1455,23 @@ undefined
     readTime: 5,
     tags: ['Anduril', 'Defense Tech', 'Autonomous Weapons', 'Startups', 'Venture Capital'],
   },
+
+  {
+    id: 85,
+    category: 'Programming',
+    title: 'TypeScript 6.0 Removes Runtime Overhead with Zero-Emission Transform, Targets ES2026 Natively',
+    excerpt: 'Major TypeScript release achieves what the community has wanted for years: identical performance to raw JavaScript with full type safety.',
+    body: [
+      "Microsoft has released TypeScript 6.0 with the headline feature being Zero-Emission Transform — a new compiler option that produces output byte-for-byte identical to modern JavaScript for code that uses only TypeScript type annotations (no enums, no namespace, no decorators). In Zero-Emission mode, TypeScript types are erased at compile time with zero transformation, producing output that is semantically equivalent to handwritten JavaScript with the same logic.",
+      "This addresses a long-standing performance concern: TypeScript's traditional emit rewrites JavaScript features (optional chaining, nullish coalescing, class fields) for older target environments, producing different output than native JS runtimes would execute. In Zero-Emission mode targeting ES2026, the TypeScript compiler emits nothing the runtime does not already handle natively, making tsc a pure type-checker rather than a transpiler.",
+      "TypeScript 6.0 also introduces Branded Primitive Types as a language primitive (previously achievable only via intersection type hacks), Template Literal Type Inference improvements that infer string patterns from runtime values, and a new Module Graph Compiler that understands package.json exports maps natively without configuration.",
+      "<blockquote>TypeScript's job is to find bugs before they reach production. It was never supposed to be a build system. Zero-Emission lets us go back to first principles: TypeScript as type-checker, the runtime as the executor. — Ryan Cavanaugh, TypeScript Lead, Microsoft</blockquote>",
+      "The release also deprecates TypeScript's legacy module resolution modes in favor of bundler and node16/nodenext, which correctly model modern ESM resolution. TypeScript 6.0 supports Go-based tsc (announced at Microsoft Build 2026) natively, enabling type-checking of million-line codebases in under 3 seconds. Strict mode defaults are tightened with exactOptionalPropertyTypes and noUncheckedIndexedAccess now enabled by default in new projects.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['TypeScript', 'JavaScript', 'Microsoft', 'Programming Languages', 'Developer Tools'],
+  },
 ];
 
 TC.timelineData = {
