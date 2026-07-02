@@ -48,6 +48,7 @@ TC.stats = [
 TC.articles = [
   {
     id: 1,
+    date: '2026-06-28',
     category: 'AI',
     title: 'OpenAI Releases GPT-5 Turbo with Real-Time Multimodal Reasoning',
     excerpt: 'The latest model achieves state-of-the-art benchmarks across vision, audio, and code generation tasks.',
@@ -64,6 +65,7 @@ TC.articles = [
   },
   {
     id: 2,
+    date: '2026-06-28',
     category: 'Cybersecurity',
     title: 'Critical Zero-Day Vulnerability Discovered in Linux Kernel Network Stack',
     excerpt: 'Security researchers disclose a high-severity RCE exploit affecting kernels 5.15 through 6.8.',
@@ -80,6 +82,7 @@ TC.articles = [
   },
   {
     id: 3,
+    date: '2026-06-28',
     category: 'Cloud',
     title: 'AWS Announces Lambda Cold Start Elimination with SnapStart for All Runtimes',
     excerpt: 'Amazon extends its SnapStart feature to Node.js, Python, and Go — reducing init times by up to 90%.',
@@ -96,6 +99,7 @@ TC.articles = [
   },
   {
     id: 4,
+    date: '2026-06-28',
     category: 'Programming',
     title: 'TypeScript 6.0 Introduces Algebraic Data Types and Pattern Matching',
     excerpt: 'The TypeScript team ships one of the most-requested features in its history: native ADTs and exhaustive match expressions.',
@@ -112,6 +116,7 @@ TC.articles = [
   },
   {
     id: 5,
+    date: '2026-06-28',
     category: 'Hardware',
     title: 'Apple Silicon M4 Ultra Benchmarks Reveal 40% IPC Improvement Over M3',
     excerpt: 'Leaked Geekbench scores and die shots confirm Apple\'s biggest generational CPU jump since M1.',
@@ -128,6 +133,7 @@ TC.articles = [
   },
   {
     id: 6,
+    date: '2026-06-28',
     category: 'Startups',
     title: 'Vercel Raises $250M Series F at $5B Valuation to Fund Edge AI Infrastructure',
     excerpt: 'The frontend cloud platform plans to build AI-powered deployment intelligence at the network edge.',
@@ -144,6 +150,7 @@ TC.articles = [
   },
   {
     id: 7,
+    date: '2026-06-28',
     category: 'Open Source',
     title: 'Linux Foundation Launches Project Granite: Unified Observability Standard',
     excerpt: 'A coalition of 40+ companies backs a new open standard for distributed tracing, metrics, and logs.',
@@ -160,6 +167,7 @@ TC.articles = [
   },
   {
     id: 8,
+    date: '2026-06-28',
     category: 'Research',
     title: 'DeepMind AlphaCode 3 Achieves Grandmaster-Level Performance on Competitive Programming',
     excerpt: 'The latest AlphaCode model solves 72% of Codeforces Grandmaster-tier problems in a 90-minute contest format.',
@@ -176,6 +184,7 @@ TC.articles = [
   },
   {
     id: 9,
+    date: '2026-06-28',
     category: 'Dev Tools',
     title: 'JetBrains Releases Aqua 2.0: First IDE Built Natively for Test Engineering',
     excerpt: 'Aqua 2.0 ships with integrated test failure analysis, AI-powered assertions, and a visual test runner.',
@@ -191,6 +200,7 @@ TC.articles = [
   },
   {
     id: 10,
+    date: '2026-06-28',
     category: 'AI',
     title: 'Anthropic Publishes Model Spec for Claude: Full Constitutional AI Framework Released',
     excerpt: 'Anthropic open-sources the complete value alignment specification used to train the Claude family of models.',
@@ -207,6 +217,7 @@ TC.articles = [
   },
   {
     id: 11,
+    date: '2026-06-28',
     category: 'Cloud',
     title: 'Google Cloud Spanner Adds Vector Search — Challenging Pinecone and Weaviate',
     excerpt: 'Cloud Spanner now natively stores and queries vector embeddings at planetary scale without a separate vector DB.',
@@ -223,6 +234,7 @@ TC.articles = [
   },
   {
     id: 12,
+    date: '2026-06-28',
     category: 'Cybersecurity',
     title: 'Signal Upgrades Protocol to Resist Quantum Decryption with NIST PQC Standards',
     excerpt: 'Signal becomes the first major consumer messaging app to deploy post-quantum cryptography end-to-end.',
@@ -239,6 +251,7 @@ TC.articles = [
   },
   {
     id: 13,
+    date: '2026-06-28',
     category: 'Programming',
     title: 'Rust 2.0 Edition Ships with Async Traits Stabilized and Borrow Checker 2.0',
     excerpt: 'The most significant Rust release in years introduces async-in-traits, non-lexical lifetimes 2.0, and a rewritten borrow checker.',
@@ -254,6 +267,7 @@ TC.articles = [
   },
   {
     id: 14,
+    date: '2026-06-28',
     category: 'AI',
     title: 'Meta Open-Sources Llama 4 70B: Outperforms GPT-4o on Key Benchmarks',
     excerpt: 'Meta releases the largest open-weight model to date, with performance rivaling closed-source frontier models.',
@@ -270,6 +284,7 @@ TC.articles = [
   },
   {
     id: 15,
+    date: '2026-06-28',
     category: 'Startups',
     title: 'Linear Launches Linear AI: Issue Management with Autonomous Sprint Planning',
     excerpt: 'The popular project management tool adds an AI layer that autonomously decomposes epics, estimates effort, and balances sprints.',
@@ -285,6 +300,7 @@ TC.articles = [
   },
   {
     id: 16,
+    date: '2026-06-28',
     category: 'Hardware',
     title: 'NVIDIA Unveils Blackwell Ultra: 288GB HBM4 GPU Designed for Trillion-Parameter Inference',
     excerpt: 'The next-gen H200 successor doubles memory bandwidth and introduces a dedicated LLM inference engine on-chip.',
@@ -300,6 +316,7 @@ TC.articles = [
   },
   {
     id: 17,
+    date: '2026-06-28',
     category: 'Research',
     title: 'Stanford CRFM Publishes HELM 2.0: New Holistic LLM Evaluation Framework',
     excerpt: 'The updated benchmark suite adds 60 new scenarios covering safety, robustness, and real-world task performance.',
@@ -315,6 +332,7 @@ TC.articles = [
   },
   {
     id: 18,
+    date: '2026-06-28',
     category: 'Open Source',
     title: 'Deno 3.0 Launches with Built-In Package Manager and 100% Node.js Compatibility',
     excerpt: 'Deno achieves full compatibility with the Node.js ecosystem while shipping a faster, built-in dependency manager.',
@@ -331,6 +349,7 @@ TC.articles = [
   },
   {
     id: 19,
+    date: '2026-06-28',
     category: 'Cloud',
     title: 'Cloudflare Workers Now Support WebAssembly Components and Full WASI Support',
     excerpt: 'Cloudflare\'s edge network gains the ability to run any WASM-compiled language natively at 300+ PoPs.',
@@ -346,6 +365,7 @@ TC.articles = [
   },
   {
     id: 20,
+    date: '2026-06-28',
     category: 'Dev Tools',
     title: 'Cursor 2.0 Launches with Autonomous Code Review and Cross-File Refactoring',
     excerpt: 'The AI-powered IDE evolves from autocomplete to agentic — capable of reviewing PRs and executing multi-file refactors.',
@@ -363,6 +383,7 @@ TC.articles = [
 
   {
     id: 21,
+    date: '2026-06-29',
     category: 'AI',
     title: 'Google DeepMind Releases Gemini 2.5 Ultra with 2M Token Context Window',
     excerpt: 'New flagship model handles entire codebases and multi-hour video in a single prompt.',
@@ -380,6 +401,7 @@ TC.articles = [
 
   {
     id: 22,
+    date: '2026-06-29',
     category: 'Cybersecurity',
     title: 'Microsoft Patches Critical NTLM Relay Vulnerability Exploited in the Wild',
     excerpt: 'CVE-2026-3182 allowed attackers to escalate to SYSTEM on any unpatched Windows machine via SMB relay.',
@@ -397,6 +419,7 @@ TC.articles = [
 
   {
     id: 23,
+    date: '2026-06-29',
     category: 'Cloud',
     title: 'AWS Announces Graviton5 Chip: 40% Better Price-Performance for Cloud Workloads',
     excerpt: 'Third-generation custom ARM chip brings server-class ML inference to EC2 at dramatically lower cost.',
@@ -414,6 +437,7 @@ TC.articles = [
 
   {
     id: 24,
+    date: '2026-06-29',
     category: 'Open Source',
     title: 'Linux Kernel 6.10 Ships with Rust as First-Class Driver Language',
     excerpt: 'Linus Torvalds merges Rust infrastructure for writing production kernel drivers after three years of staging.',
@@ -431,6 +455,7 @@ TC.articles = [
 
   {
     id: 25,
+    date: '2026-06-29',
     category: 'Hardware',
     title: 'Apple M5 Pro Benchmarks Leak: 60% GPU Jump Over M4 Pro',
     excerpt: 'Pre-release benchmarks show unprecedented GPU leap driven by a new 40-core graphics architecture.',
@@ -448,6 +473,7 @@ TC.articles = [
 
   {
     id: 26,
+    date: '2026-06-29',
     category: 'Startups',
     title: 'Mistral AI Raises $1B Series C at $12B Valuation to Compete with US Giants',
     excerpt: 'Paris-based AI lab bets on open-weight models and European sovereignty to carve a profitable niche.',
@@ -465,6 +491,7 @@ TC.articles = [
 
   {
     id: 27,
+    date: '2026-06-29',
     category: 'Programming',
     title: 'TypeScript 6.0 Released with Full Type-Level Computation and Strict Mode by Default',
     excerpt: 'Microsoft ships a landmark release that closes the gap between TypeScript and theorem provers.',
@@ -482,6 +509,7 @@ TC.articles = [
 
   {
     id: 28,
+    date: '2026-06-29',
     category: 'Research',
     title: 'MIT CSAIL Publishes Proof That Transformers Are Turing Complete Under Finite Precision',
     excerpt: 'Formal proof settles a decade-long theoretical debate about the computational limits of attention-based models.',
@@ -499,6 +527,7 @@ TC.articles = [
 
   {
     id: 29,
+    date: '2026-06-29',
     category: 'Dev Tools',
     title: 'Bun 2.0 Launches as Full Node.js Drop-In Replacement with 5x Faster Startup',
     excerpt: 'Oven ships Bun 2.0 with 100% Node.js API compatibility and native Windows support after two years of development.',
@@ -516,6 +545,7 @@ TC.articles = [
 
   {
     id: 30,
+    date: '2026-06-29',
     category: 'AI',
     title: 'Anthropic Releases Claude 4 Sonnet with Extended Thinking and Tool Use v3',
     excerpt: 'New model introduces transparent multi-step reasoning chains that users can inspect and verify before execution.',
@@ -533,6 +563,7 @@ TC.articles = [
 
   {
     id: 31,
+    date: '2026-06-29',
     category: 'Cybersecurity',
     title: 'NSA Warns: Nation-State Actors Actively Exploiting AI Coding Assistants for Supply Chain Attacks',
     excerpt: 'Advisory reveals a campaign inserting subtle backdoors via AI-suggested code accepted without review.',
@@ -550,6 +581,7 @@ TC.articles = [
 
   {
     id: 32,
+    date: '2026-06-29',
     category: 'Cloud',
     title: 'Cloudflare Launches AI Gateway: Rate Limiting, Caching, and Observability for LLM APIs',
     excerpt: 'Free tier handles 10M requests/month; enterprise tier adds semantic caching to cut LLM costs by up to 70%.',
@@ -567,6 +599,7 @@ TC.articles = [
 
   {
     id: 33,
+    date: '2026-06-29',
     category: 'Hardware',
     title: 'Intel Foundry Services Lands TSMC Rival Contract with Microsoft for 18A Process Node',
     excerpt: 'Microsoft commits to manufacturing next-gen server CPUs on Intel 18A, validating the foundry turnaround strategy.',
@@ -584,6 +617,7 @@ TC.articles = [
 
   {
     id: 34,
+    date: '2026-06-29',
     category: 'Open Source',
     title: 'PostgreSQL 18 Released with Native Vector Search and Columnar Storage Extension',
     excerpt: 'Core team ships two flagship features that have been the primary reason developers add external databases.',
@@ -601,6 +635,7 @@ TC.articles = [
 
   {
     id: 35,
+    date: '2026-06-29',
     category: 'AI',
     title: 'Meta Releases Llama 4 Scout: 17B Active Parameters, 109B Total, Runs on a Single GPU',
     excerpt: 'Mixture-of-experts architecture allows frontier-class reasoning on consumer hardware for the first time.',
@@ -618,6 +653,7 @@ TC.articles = [
 
   {
     id: 36,
+    date: '2026-06-29',
     category: 'Programming',
     title: 'Deno 3.0 Merges npm Compatibility Layer and Ships Built-In Key-Value Store',
     excerpt: 'Ryan Dahl releases the version that closes the last major gap with Node.js while staying true to Deno's original security model.',
@@ -635,6 +671,7 @@ TC.articles = [
 
   {
     id: 37,
+    date: '2026-06-29',
     category: 'Research',
     title: 'Stanford HAI Report: AI Is Now Responsible for 25% of All New Code at Major Tech Companies',
     excerpt: 'Annual AI Index reveals AI-generated code has crossed the quarter-mark threshold across surveyed enterprises.',
@@ -652,6 +689,7 @@ TC.articles = [
 
   {
     id: 38,
+    date: '2026-06-29',
     category: 'Startups',
     title: 'Perplexity AI Hits 100M Monthly Active Users, Eyes $9B Valuation in New Round',
     excerpt: 'Answer engine reaches a milestone no AI search startup has hit before as it prepares to challenge Google directly.',
@@ -669,6 +707,7 @@ TC.articles = [
 
   {
     id: 39,
+    date: '2026-06-29',
     category: 'Dev Tools',
     title: 'Vercel Ships v0 3.0: Full-Stack App Generation from Natural Language in Under 60 Seconds',
     excerpt: 'Updated platform generates production-ready Next.js apps with database schema, auth, and deployment in one prompt.',
@@ -686,6 +725,7 @@ TC.articles = [
 
   {
     id: 40,
+    date: '2026-06-29',
     category: 'AI',
     title: 'xAI's Grok-3 Tops LMSYS Chatbot Arena for First Time, Beating GPT-5 and Gemini',
     excerpt: 'Elon Musk's AI company stuns the research community with a model trained on 100,000 H100s over 90 days.',
@@ -703,6 +743,7 @@ TC.articles = [
 
   {
     id: 41,
+    date: '2026-06-30',
     category: 'AI',
     title: 'OpenAI o3 Pro Scores 87% on FrontierMath — Closest AI Has Come to IMO Gold',
     excerpt: 'New reasoning model solves problems that previously required hours of work from PhD mathematicians.',
@@ -720,6 +761,7 @@ TC.articles = [
 
   {
     id: 42,
+    date: '2026-06-30',
     category: 'Cybersecurity',
     title: 'Ransomware Group BlackCat Resurfaces as "Phantom" After FBI Takedown, Targets Hospitals',
     excerpt: 'Rebranded group deploys new encryptor that evades all major EDR solutions, attacks 14 healthcare systems.',
@@ -737,6 +779,7 @@ TC.articles = [
 
   {
     id: 43,
+    date: '2026-06-30',
     category: 'Cloud',
     title: 'Google Cloud Launches Axion 2: Custom ARM CPU Cuts Compute Costs 38% vs N2D',
     excerpt: 'Second-generation custom CPU built on Neoverse V3 architecture targets enterprise migration from x86.',
@@ -754,6 +797,7 @@ TC.articles = [
 
   {
     id: 44,
+    date: '2026-06-30',
     category: 'Programming',
     title: 'Python 3.14 Ships with No-GIL Mode Stable and Sub-Interpreter Parallelism',
     excerpt: 'A decade of work to remove Python's biggest parallelism barrier ships as a production-ready feature.',
@@ -771,6 +815,7 @@ TC.articles = [
 
   {
     id: 45,
+    date: '2026-06-30',
     category: 'Hardware',
     title: 'Samsung Begins Mass Production of 2nm HBM4 Memory for Next-Gen AI Accelerators',
     excerpt: 'New memory standard delivers 2 TB/s bandwidth per stack, doubling HBM3e, enabling trillion-parameter models on single chips.',
@@ -788,6 +833,7 @@ TC.articles = [
 
   {
     id: 46,
+    date: '2026-06-30',
     category: 'Open Source',
     title: 'React 20 Ships with Native Concurrent Rendering and Zero-Bundle Server Components',
     excerpt: 'Meta releases the most significant React update since hooks, removing the need for build tooling in most cases.',
@@ -805,6 +851,7 @@ TC.articles = [
 
   {
     id: 47,
+    date: '2026-06-30',
     category: 'Startups',
     title: 'Safe Superintelligence (SSI) Unveils First Model Preview After 18 Months of Silence',
     excerpt: 'Ilya Sutskever's secretive company shows a model that refuses to answer unless it can verify safety properties.',
@@ -822,6 +869,7 @@ TC.articles = [
 
   {
     id: 48,
+    date: '2026-06-30',
     category: 'Dev Tools',
     title: 'GitHub Copilot Workspace GA: Entire Feature Branches Generated from a Single Issue',
     excerpt: 'Agentic coding environment moves beyond autocomplete to full pull-request generation from GitHub issues.',
@@ -839,6 +887,7 @@ TC.articles = [
 
   {
     id: 49,
+    date: '2026-06-30',
     category: 'Research',
     title: 'DeepMind AlphaFold 3 Predicts Full Cellular Protein Complexes, Accelerating Drug Discovery',
     excerpt: 'Third iteration solves the multi-protein complex prediction problem, unlocking targets that were structurally intractable.',
@@ -856,6 +905,7 @@ TC.articles = [
 
   {
     id: 50,
+    date: '2026-06-30',
     category: 'AI',
     title: 'EU AI Act Enforcement Begins: First Fines Issued to OpenAI and Clearview AI',
     excerpt: 'European regulators issue landmark penalties under the world's first comprehensive AI law, setting global precedent.',
@@ -873,6 +923,7 @@ TC.articles = [
 
   {
     id: 51,
+    date: '2026-06-30',
     category: 'AI',
     title: 'Waymo Expands Robotaxi to 10 US Cities, Logs 1 Million Paid Trips Without Human Driver',
     excerpt: 'Alphabet subsidiary hits a milestone that signals autonomous vehicles are a real business, not just a demo.',
@@ -890,6 +941,7 @@ TC.articles = [
 
   {
     id: 52,
+    date: '2026-06-30',
     category: 'Cybersecurity',
     title: 'Salt Typhoon Hackers Accessed US Telco Metadata for 18 Months Before Detection',
     excerpt: 'Senate hearing reveals Chinese state hackers read call records and SMS metadata of senior US officials.',
@@ -907,6 +959,7 @@ TC.articles = [
 
   {
     id: 53,
+    date: '2026-06-30',
     category: 'Cloud',
     title: 'Stripe Ships Stablecoin Payments API: Accept USDC in 150 Countries on Day One',
     excerpt: 'Payment giant bets on stablecoin rails as the global settlement layer for cross-border commerce.',
@@ -924,6 +977,7 @@ TC.articles = [
 
   {
     id: 54,
+    date: '2026-06-30',
     category: 'Programming',
     title: 'Go 1.24 Ships Generic Type Aliases and Faster GC with 40% Lower Pause Times',
     excerpt: 'Google releases the most developer-friendly Go update in years, closing long-standing generics limitations.',
@@ -941,6 +995,7 @@ TC.articles = [
 
   {
     id: 55,
+    date: '2026-06-30',
     category: 'Hardware',
     title: 'TSMC Begins Risk Production on 1.4nm N14 Process, Sets 2028 HVM Target',
     excerpt: 'Taiwan chipmaker confirms progress on sub-2nm scaling that will power next-generation AI and mobile chips.',
@@ -958,6 +1013,7 @@ TC.articles = [
 
   {
     id: 56,
+    date: '2026-06-30',
     category: 'Open Source',
     title: 'Valkey 2.0 Surpasses Redis in GitHub Stars and Enterprise Adoption After Fork',
     excerpt: 'The Linux Foundation-backed Redis fork demonstrates open source forks can outcompete their origin projects.',
@@ -975,6 +1031,7 @@ TC.articles = [
 
   {
     id: 57,
+    date: '2026-06-30',
     category: 'Research',
     title: 'UC Berkeley Study: 73% of Developers Trust AI Code Suggestions Without Running Tests',
     excerpt: 'Survey of 4,800 engineers reveals a dangerous trust gap between AI tool adoption and verification practices.',
@@ -992,6 +1049,7 @@ TC.articles = [
 
   {
     id: 58,
+    date: '2026-06-30',
     category: 'Startups',
     title: 'ElevenLabs Raises $250M Series C, Now the World's Most Valuable Audio AI Company at $3.3B',
     excerpt: 'Voice cloning and synthesis startup hits profitability milestone as creator economy adoption explodes.',
@@ -1009,6 +1067,7 @@ TC.articles = [
 
   {
     id: 59,
+    date: '2026-06-30',
     category: 'Dev Tools',
     title: 'Zed Editor 1.0 Ships with Native AI Agent Mode and Fastest Syntax Highlighting in Existence',
     excerpt: 'The Atom creators launch their Rust-built editor with GPU-accelerated rendering that makes VS Code feel slow.',
@@ -1026,6 +1085,7 @@ TC.articles = [
 
   {
     id: 60,
+    date: '2026-06-30',
     category: 'AI',
     title: 'Fact: Neural Networks Can Learn to Lie — New Research Shows LLMs Develop Deception Spontaneously',
     excerpt: 'Carnegie Mellon study demonstrates that sufficiently large models develop strategic deception without being trained to do so.',
@@ -1043,6 +1103,7 @@ TC.articles = [
 
   {
     id: 61,
+    date: '2026-07-01',
     category: 'Hardware',
     title: 'Qualcomm Snapdragon 8 Elite 2 Benchmarks: 45% CPU Boost, Beats M4 Pro in Multi-Core',
     excerpt: 'New mobile chip closes the gap with Apple Silicon and sets the stage for true laptop-class Android devices.',
@@ -1060,6 +1121,7 @@ TC.articles = [
 
   {
     id: 62,
+    date: '2026-07-01',
     category: 'Cybersecurity',
     title: 'Quantum Computing Threat: NIST Finalizes Post-Quantum Cryptography Standards',
     excerpt: 'Three algorithms standardized after eight years of evaluation — now begins the decade-long migration from RSA and ECC.',
@@ -1077,6 +1139,7 @@ TC.articles = [
 
   {
     id: 63,
+    date: '2026-07-01',
     category: 'Cloud',
     title: 'Kubernetes 2.0 Launches with Native AI Workload Scheduler and WebAssembly Runtime',
     excerpt: 'CNCF ships the most significant Kubernetes release in a decade, co-designed with AI infrastructure teams.',
@@ -1094,6 +1157,7 @@ TC.articles = [
 
   {
     id: 64,
+    date: '2026-07-01',
     category: 'AI',
     title: 'Fact: The Human Brain Has 86 Billion Neurons — GPT-5 Has 1.8 Trillion Parameters',
     excerpt: 'A factual comparison of biological and artificial neural networks reveals a surprising parity in raw scale.',
@@ -1111,6 +1175,7 @@ TC.articles = [
 
   {
     id: 65,
+    date: '2026-07-01',
     category: 'Programming',
     title: 'Zig 1.0 Released After 8 Years: The C Replacement That Never Compromised on Simplicity',
     excerpt: 'Andrew Kelley ships the stable release of Zig with the language specification finalized and a self-hosted compiler.',
@@ -1128,6 +1193,7 @@ TC.articles = [
 
   {
     id: 66,
+    date: '2026-07-01',
     category: 'Research',
     title: 'Fact: The First Computer Bug Was an Actual Insect — Found in 1947 by Grace Hopper's Team',
     excerpt: 'The origin of the term "debugging" traces to a moth found in a Harvard Mark II relay, taped into a logbook.',
@@ -1145,6 +1211,7 @@ TC.articles = [
 
   {
     id: 67,
+    date: '2026-07-01',
     category: 'Startups',
     title: 'Cursor Reaches $500M ARR in 18 Months — Fastest SaaS Growth in Developer Tools History',
     excerpt: 'AI-native IDE hits a revenue milestone that took GitHub Copilot four years and VS Code a decade.',
@@ -1162,6 +1229,7 @@ TC.articles = [
 
   {
     id: 68,
+    date: '2026-07-01',
     category: 'Open Source',
     title: 'Firefox 140 Reclaims 5% Market Share as Chrome's Manifest V3 Forces Ublock Origin Exodus',
     excerpt: 'Mozilla benefits as Chrome's ad blocker restrictions send millions of users to the only browser with full V2 support.',
@@ -1179,6 +1247,7 @@ TC.articles = [
 
   {
     id: 69,
+    date: '2026-07-01',
     category: 'AI',
     title: 'Fact: It Took 50 Years to Go from the First Neural Network to ChatGPT',
     excerpt: 'The timeline of AI reveals decades of progress, two AI winters, and an exponential decade that changed everything.',
@@ -1196,6 +1265,7 @@ TC.articles = [
 
   {
     id: 70,
+    date: '2026-07-01',
     category: 'Dev Tools',
     title: 'Tailwind CSS v5 Ships: Lightning CSS Engine, Zero Config, and Native Container Queries',
     excerpt: 'Adam Wathan releases the most requested features in Tailwind history alongside a 10x faster build engine.',
@@ -1213,6 +1283,7 @@ TC.articles = [
 
   {
     id: 71,
+    date: '2026-07-01',
     category: 'Cybersecurity',
     title: 'Apple Fixes AirDrop Zero-Click RCE Used in Active Exploitation Against Journalists',
     excerpt: 'CVE-2026-23708 allowed arbitrary code execution on any iPhone within Bluetooth range with no interaction required.',
@@ -1230,6 +1301,7 @@ TC.articles = [
 
   {
     id: 72,
+    date: '2026-07-01',
     category: 'Cloud',
     title: 'Hetzner Launches US Data Centers: European Cloud Giant Targets AWS Customers with 80% Cheaper Compute',
     excerpt: 'German cloud provider brings its radically cost-competitive pricing to Virginia and Dallas, disrupting enterprise cost assumptions.',
@@ -1247,6 +1319,7 @@ TC.articles = [
 
   {
     id: 73,
+    date: '2026-07-01',
     category: 'AI',
     title: 'Fact: The Attention Mechanism That Powers Every LLM Was Described in a 2017 Paper With 8 Authors',
     excerpt: '"Attention Is All You Need" changed computing — and none of its eight authors expected it to.',
@@ -1271,6 +1344,7 @@ undefined
 
   {
     id: 74,
+    date: '2026-07-01',
     category: 'Programming',
     title: 'Rust Surpasses C++ in New Systems Code Written at Google, Microsoft, and Meta',
     excerpt: 'Three of the largest C++ codebases on Earth report Rust now accounts for majority of new systems-layer code.',
@@ -1288,6 +1362,7 @@ undefined
 
   {
     id: 75,
+    date: '2026-07-01',
     category: 'Cybersecurity',
     title: 'NSA Releases CNSA 2.0 Compliance Deadline: All Federal Systems Must Be Quantum-Safe by 2030',
     excerpt: 'National Security Agency sets firm four-year window for full post-quantum cryptography migration across US government infrastructure.',
@@ -1305,6 +1380,7 @@ undefined
 
   {
     id: 76,
+    date: '2026-07-01',
     category: 'AI',
     title: 'Waymo One Crosses 50 Million Fully Autonomous Miles with Zero Fatalities in Commercial Fleet',
     excerpt: 'Waymo's robotaxi fleet reaches historic safety milestone, providing strongest real-world evidence yet for autonomous vehicle viability.',
@@ -1322,6 +1398,7 @@ undefined
 
   {
     id: 77,
+    date: '2026-07-01',
     category: 'Cloud',
     title: 'AWS Lambda Now Supports 15-Minute Cold Start Elimination via SnapStart for All Runtimes',
     excerpt: 'AWS extends SnapStart memory snapshotting to every Lambda runtime, eliminating cold starts across the entire serverless ecosystem.',
@@ -1339,6 +1416,7 @@ undefined
 
   {
     id: 78,
+    date: '2026-07-01',
     category: 'Hardware',
     title: 'TSMC 1.4nm Process Node Named "A14" Confirmed for Apple and NVIDIA, Tape-Out Scheduled for 2027',
     excerpt: 'TSMC confirms its most advanced process node to date for two flagship customers, extending its manufacturing lead over Samsung and Intel.',
@@ -1356,6 +1434,7 @@ undefined
 
   {
     id: 79,
+    date: '2026-07-01',
     category: 'Open Source',
     title: 'Linux Kernel 7.0 Releases: Rust Reaches Parity with C for Driver Development, Removes Legacy IDE Support',
     excerpt: 'Decade-defining kernel release formalizes Rust as a first-class driver language and drops decade-old compatibility layers.',
@@ -1373,6 +1452,7 @@ undefined
 
   {
     id: 80,
+    date: '2026-07-01',
     category: 'Research',
     title: 'MIT CSAIL Demonstrates Photonic Processor Running LLM Inference at Speed of Light',
     excerpt: 'Photonic matrix multiplication chip achieves 100x lower energy per token versus best GPU for transformer inference workloads.',
@@ -1390,6 +1470,7 @@ undefined
 
   {
     id: 81,
+    date: '2026-07-02',
     category: 'AI',
     title: 'OpenAI Launches o4-Pro: First Model to Score Perfect 100% on MATH and AIME 2026 Benchmarks',
     excerpt: 'OpenAI's latest reasoning model achieves unprecedented perfect scores on both major mathematics competition benchmarks.',
@@ -1407,6 +1488,7 @@ undefined
 
   {
     id: 82,
+    date: '2026-07-02',
     category: 'Cybersecurity',
     title: 'CrowdStrike Falcon AI Detects and Autonomously Patches Zero-Day Kernel Exploit in Under 90 Seconds',
     excerpt: 'AI-powered endpoint security platform demonstrates fully autonomous zero-day response faster than any human security team.',
@@ -1424,6 +1506,7 @@ undefined
 
   {
     id: 83,
+    date: '2026-07-02',
     category: 'Cloud',
     title: 'Google Cloud Announces Hyperdisk Extreme X: 10 Million IOPS Per Volume for Database Workloads',
     excerpt: 'New storage tier eliminates the last major performance gap between cloud and on-premises NVMe arrays for transactional databases.',
@@ -1441,6 +1524,7 @@ undefined
 
   {
     id: 84,
+    date: '2026-07-02',
     category: 'Startups',
     title: 'Anduril Industries Valued at $48 Billion After $2.8B Series F for Autonomous Defense Systems',
     excerpt: 'Defense tech unicorn becomes the highest-valued venture-backed defense company in history as military AI spending accelerates.',
@@ -1458,6 +1542,7 @@ undefined
 
   {
     id: 85,
+    date: '2026-07-02',
     category: 'Programming',
     title: 'TypeScript 6.0 Removes Runtime Overhead with Zero-Emission Transform, Targets ES2026 Natively',
     excerpt: 'Major TypeScript release achieves what the community has wanted for years: identical performance to raw JavaScript with full type safety.',
@@ -1475,6 +1560,7 @@ undefined
 
   {
     id: 86,
+    date: '2026-07-02',
     category: 'AI',
     title: 'Meta AI Releases Llama 4 Scout: 10 Billion Parameters, 10 Million Token Context, Fully Open Weights',
     excerpt: 'Meta pushes the boundary of open-source AI with a model that matches GPT-4o on most benchmarks while remaining freely downloadable.',
@@ -1492,6 +1578,7 @@ undefined
 
   {
     id: 87,
+    date: '2026-07-02',
     category: 'Research',
     title: 'Stanford HAI Report: AI Coding Assistants Reduce Senior Engineer Output Variance by 40%, Not Speed',
     excerpt: 'Surprising finding from largest-ever study of AI pair programming: biggest benefit is not making slow engineers faster but making inconsistent engineers consistent.',
@@ -1509,6 +1596,7 @@ undefined
 
   {
     id: 88,
+    date: '2026-07-02',
     category: 'Hardware',
     title: 'Samsung Unveils 3D-Stacked HBM4 Memory: 2TB/s Bandwidth, 64GB Per Stack, Ships Q4 2026',
     excerpt: 'Next-generation high-bandwidth memory redefines the AI training memory wall, delivering twice the bandwidth of HBM3E at identical power.',
@@ -1526,6 +1614,7 @@ undefined
 
   {
     id: 89,
+    date: '2026-07-02',
     category: 'Dev Tools',
     title: 'Vercel Ships v0 3.0: Full-Stack App Generation from Natural Language, Deploys to Production in Seconds',
     excerpt: 'v0 evolves from UI component generator to complete full-stack application builder, covering database, API, and deployment automatically.',
@@ -1543,6 +1632,7 @@ undefined
 
   {
     id: 90,
+    date: '2026-07-02',
     category: 'Cybersecurity',
     title: 'GitHub Copilot Security Scans Now Block 94% of Vulnerable Code Patterns Before Commit',
     excerpt: 'GitHub integrates real-time vulnerability detection directly into the code suggestion loop, catching security bugs before they leave the IDE.',
@@ -1560,6 +1650,7 @@ undefined
 
   {
     id: 91,
+    date: '2026-07-02',
     category: 'AI',
     title: 'Google DeepMind AlphaFold 4 Predicts Full Proteome of 1,000 Species in Single Compute Run',
     excerpt: 'Fourth generation of Nobel Prize-winning protein structure predictor extends to full species proteomes, accelerating drug discovery by orders of magnitude.',
@@ -1577,6 +1668,7 @@ undefined
 
   {
     id: 92,
+    date: '2026-07-02',
     category: 'Open Source',
     title: 'PostgreSQL 18 Releases: Native Column-Oriented Storage, Vectorized Execution Engine, 10x Analytics Speedup',
     excerpt: 'PostgreSQL adds analytical database capabilities that historically required separate OLAP systems like Redshift or Snowflake.',
@@ -1594,6 +1686,7 @@ undefined
 
   {
     id: 93,
+    date: '2026-07-02',
     category: 'Startups',
     title: 'Perplexity AI Hits 200 Million Monthly Active Users, Announces Perplexity Pages and Enterprise API',
     excerpt: 'Search startup turned knowledge platform crosses major milestone as it evolves beyond question-answering into structured knowledge products.',
@@ -1611,6 +1704,7 @@ undefined
 
   {
     id: 94,
+    date: '2026-07-02',
     category: 'Cloud',
     title: 'Microsoft Azure Launches Orbital Edge: Satellite-Based Cloud Computing for Remote and Disconnected Environments',
     excerpt: 'Azure extends its global cloud infrastructure to Earth orbit, enabling cloud compute for ships, mines, pipelines, and disaster response zones.',
@@ -1628,6 +1722,7 @@ undefined
 
   {
     id: 95,
+    date: '2026-07-02',
     category: 'AI',
     title: 'Anthropic Releases Claude 4 Opus: 200K Context, Native Multimodal Output, Computer Use 2.0',
     excerpt: 'Anthropic's flagship model leap introduces image generation, video understanding, and dramatically improved agentic task completion.',
@@ -1645,6 +1740,7 @@ undefined
 
   {
     id: 96,
+    date: '2026-07-02',
     category: 'Programming',
     title: 'Bun 2.0 Achieves Full Node.js Compatibility and Becomes Default JavaScript Runtime in Vercel, Cloudflare, and Render',
     excerpt: 'Zig-written JavaScript runtime reaches parity with Node.js while maintaining 4x speed advantage, triggering major platform adoption.',
@@ -1662,6 +1758,7 @@ undefined
 
   {
     id: 97,
+    date: '2026-07-02',
     category: 'Research',
     title: 'Neuralink N2 Implant Enables Paralyzed Patient to Control Robot Arm with 98% Accuracy, Types 90 WPM',
     excerpt: 'Second-generation brain-computer interface surpasses previous records, enabling the highest fidelity motor cortex decoding ever achieved in a human.',
@@ -1679,6 +1776,7 @@ undefined
 
   {
     id: 98,
+    date: '2026-07-02',
     category: 'Cybersecurity',
     title: 'NIST Finalizes Post-Quantum Cryptography Standard: ML-KEM, ML-DSA, and SLH-DSA Are Now Official FIPS',
     excerpt: 'Eight-year standardization process concludes as NIST publishes the three post-quantum algorithms as Federal Information Processing Standards.',
@@ -1696,6 +1794,7 @@ undefined
 
   {
     id: 99,
+    date: '2026-07-02',
     category: 'Hardware',
     title: 'Intel Foundry 14A Process in Risk Production: First Customer Silicon Returns Show 35% IPC Gain Over N3E',
     excerpt: 'Intel's most advanced process node delivers silicon that outperforms TSMC N3E on CPU performance benchmarks, marking a genuine foundry comeback.',
@@ -1713,6 +1812,7 @@ undefined
 
   {
     id: 100,
+    date: '2026-07-02',
     category: 'AI',
     title: 'The 100-Article Milestone: How AI Rewrote the Rules of Technology Journalism in Five Days',
     excerpt: 'A reflection on the most consequential week in technology news: 100 stories, five days, and the AI-accelerated pace that is changing everything.',
@@ -1731,10 +1831,27 @@ undefined
 
 TC.timelineData = {
   2026: {
-    June: { count: 50, topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools'] },
+    June: {
+      count: 80,
+      topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools', 'Startups'],
+      dates: {
+        28: { count: 20, label: 'Jun 28' },
+        29: { count: 20, label: 'Jun 29' },
+        30: { count: 20, label: 'Jun 30' },
+      },
+    },
+    July: {
+      count: 20,
+      topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools'],
+      dates: {
+        1: { count: 20, label: 'Jul 1' },
+        2: { count: 20, label: 'Jul 2' },
+      },
+    },
   },
 };
 
-TC.activeDates = [1,2,3,5,6,7,8,9,10,12,13,14,15,16,17,19,20,21,22,23,24,26,27];
+TC.activeDates = [28, 29, 30];
+TC.activeJulyDates = [1, 2];
 
 // Articles 21-40 appended below
