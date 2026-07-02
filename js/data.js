@@ -1142,6 +1142,23 @@ TC.articles = [
     readTime: 4,
     tags: ['Computer History', 'Grace Hopper', 'Bug', 'Debugging', 'Tech Facts'],
   },
+
+  {
+    id: 67,
+    category: 'Startups',
+    title: 'Cursor Reaches $500M ARR in 18 Months — Fastest SaaS Growth in Developer Tools History',
+    excerpt: 'AI-native IDE hits a revenue milestone that took GitHub Copilot four years and VS Code a decade.',
+    body: [
+      "Cursor, the AI-first code editor built by Anysphere, has reached $500 million in annualized recurring revenue just 18 months after its public launch — making it the fastest-growing developer tools company in history and surpassing GitHub Copilot's first-year ARR by 4x despite launching two years later.",
+      "The growth is driven by a combination of individual subscriptions ($20/month Pro, $40/month Business) and enterprise deals. The company has signed agreements with 120 companies in the Fortune 500, including Goldman Sachs, JP Morgan, Salesforce, and Microsoft — the last of which is notable given Microsoft owns GitHub and GitHub Copilot.",
+      "Cursor's net revenue retention (NRR) of 165% is the highest reported in developer tools — meaning existing customers spend 65% more after 12 months than in their first month. The metric reflects teams expanding Cursor licenses as individual developers evangelize the product internally.",
+      "<blockquote>We had one goal: make the AI coding experience feel like pair programming with someone who has read every line of your codebase. Everything else — the revenue, the growth, the enterprise deals — is a consequence of getting that experience right. — Michael Truell, CEO, Cursor</blockquote>",
+      "Anysphere is reportedly in early discussions for a Series C round at a valuation between $4B and $6B. The company has been profitable since Q4 2025 and has stated it is not raising out of necessity but to accelerate international expansion and enterprise sales infrastructure.",
+    ],
+    company: 'Anysphere (Cursor)',
+    readTime: 4,
+    tags: ['Cursor', 'AI IDE', 'SaaS Growth', 'Developer Tools', 'ARR'],
+  },
 ];
 
 TC.timelineData = {
