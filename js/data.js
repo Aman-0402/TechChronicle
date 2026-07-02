@@ -870,6 +870,23 @@ TC.articles = [
     readTime: 5,
     tags: ['EU AI Act', 'Regulation', 'OpenAI', 'Clearview AI', 'Privacy'],
   },
+
+  {
+    id: 51,
+    category: 'AI',
+    title: 'Waymo Expands Robotaxi to 10 US Cities, Logs 1 Million Paid Trips Without Human Driver',
+    excerpt: 'Alphabet subsidiary hits a milestone that signals autonomous vehicles are a real business, not just a demo.',
+    body: [
+      "Waymo has announced it has completed 1 million paid robotaxi trips without a human safety driver present — a milestone that arrives alongside the company's expansion from San Francisco and Phoenix to 10 US cities including Los Angeles, Austin, Miami, Seattle, Denver, Chicago, Boston, Atlanta, and Washington D.C.",
+      "The commercial scaling is backed by a $5.6B funding round completed in May 2026, led by Andreessen Horowitz with participation from Alphabet, Tiger Global, and T. Rowe Price. The capital is being used to scale the Jaguar I-PACE fleet from 700 to 3,500 vehicles and to build a second operations center in Phoenix.",
+      "Safety data remains Waymo's strongest differentiator: the company reports 0.12 injury-causing crashes per million miles driven versus 0.8 for human drivers in comparable urban environments — a 6.7x improvement. Insurance premiums for Waymo's fleet have dropped 22% year-over-year as actuarial data accumulates.",
+      "<blockquote>One million trips is a number that matters to us not because it is round, but because it represents one million times a person trusted an AI to get them somewhere safely. That trust is the product. — Tekedra Mawakana, Co-CEO, Waymo</blockquote>",
+      "Uber has embedded Waymo rides in its app in all 10 markets, with Waymo vehicles appearing as a premium tier at a 15-25% price premium over UberX. Lyft has a competing agreement with Motional for the same markets, setting up the first true head-to-head robotaxi competition in US history.",
+    ],
+    company: 'Waymo (Alphabet)',
+    readTime: 5,
+    tags: ['Waymo', 'Autonomous Vehicles', 'Robotaxi', 'Self-Driving', 'Alphabet'],
+  },
 ];
 
 TC.timelineData = {
