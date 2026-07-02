@@ -2619,6 +2619,24 @@ undefined
     readTime: 5,
     tags: ['Qualcomm', 'Snapdragon X Elite 2', 'AI PC', 'ARM', 'NPU', 'Windows'],
   },
+
+  {
+    id: 145,
+    date: '2026-07-05',
+    category: 'Programming',
+    title: 'Kotlin Multiplatform Goes Stable: Write Business Logic Once, Deploy to iOS, Android, Web, and Desktop',
+    excerpt: 'JetBrains finalizes its cross-platform code sharing framework, enabling Kotlin to compete directly with Flutter and React Native for mobile development.',
+    body: [
+      "JetBrains has released Kotlin Multiplatform (KMP) as stable (1.0), enabling developers to write shared business logic, networking, and data layers in Kotlin that compiles to native targets: JVM for Android, LLVM bitcode for iOS/macOS, JavaScript/WebAssembly for web, and native binaries for Linux, Windows, and desktop macOS. The stable release includes stable APIs for the standard library, coroutines, serialization, and networking (Ktor client) on all targets.",
+      "The KMP approach differs from Flutter and React Native: it does not attempt to write UI in a shared layer. UI is written in the native framework for each platform (Jetpack Compose for Android, SwiftUI for iOS), with only the business logic shared. This produces UIs that feel completely native on each platform while sharing 70–80% of the code that contains the actual business logic, data models, and API clients.",
+      "The stable release resolves the primary historical concern with KMP: library ecosystem maturity. The KMP Libraries catalog now lists 2,400 stable libraries covering SQLite (SQLDelight), cryptography (Kotlinx-Crypto), image loading (Coil 3.0), HTTP (Ktor), and state management (Decompose, Molecule). JetBrains publishes a library compatibility matrix showing which libraries target which platforms, enabling developers to audit dependencies before committing to the platform.",
+      "<blockquote>Kotlin Multiplatform is not 'write once, run anywhere.' It is 'write business logic once, build UI for each platform.' That distinction is what makes it viable for production apps that must meet the quality bar of App Store and Google Play. Developers who tried KMP in beta are shipping KMP apps. That is the real signal. — Roman Elizarov, Kotlin Lead, JetBrains</blockquote>",
+      "KMP adoption is accelerating: Netflix, McDonald's, VMware, and Philips have published case studies of production KMP deployments. The KMP shared module in McDonald's Mobile Order app shares 73% of code between iOS and Android, with iOS and Android engineers on the same team contributing to the shared layer. JetBrains reports 480,000 active KMP projects in the Kotlin ecosystem (measured by projects with kotlin-multiplatform Gradle plugin applied). KMP is included as a first-class target in Android Studio Iguana and JetBrains Fleet.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['Kotlin', 'Kotlin Multiplatform', 'Mobile Development', 'Cross-Platform', 'JetBrains'],
+  },
 ];
 
 TC.timelineData = {
