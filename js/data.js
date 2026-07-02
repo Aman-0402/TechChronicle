@@ -2133,6 +2133,24 @@ undefined
     readTime: 5,
     tags: ['Scale AI', 'AI Data', 'Startups', 'Data Labeling', 'Venture Capital', 'RLHF'],
   },
+
+  {
+    id: 118,
+    date: '2026-07-03',
+    category: 'Dev Tools',
+    title: 'Tailwind CSS v4 Ships: 100x Faster Build Times, CSS-First Configuration, Native Cascade Layers',
+    excerpt: 'Major framework rewrite replaces JavaScript config files with pure CSS, achieving sub-millisecond rebuild times for large design systems.',
+    body: [
+      "Tailwind CSS v4 has reached stable release, delivering a ground-up rewrite of the framework with three architectural changes: a Rust-based build engine (replacing the Node.js/PostCSS engine) achieving 100x faster rebuild times (3.5ms for a full rebuild of a 50,000-class codebase versus 350ms in v3), CSS-first configuration (all theme values defined in CSS variables rather than a JavaScript tailwind.config.js file), and native CSS Cascade Layers for style isolation.",
+      "The CSS-first configuration model is a fundamental shift: in v4, you define your design system in a CSS file using @theme, @layer, and CSS custom properties. There is no tailwind.config.js required. The Tailwind compiler reads your CSS, extracts your custom values, generates only the utility classes you reference in your HTML/JSX/templates, and outputs a single CSS file. This eliminates the JavaScript build step entirely for projects that do not need JavaScript-based config.",
+      "CSS Cascade Layers (@layer) give Tailwind v4 precise control over specificity: Tailwind base styles, component styles, and utility styles each occupy a dedicated cascade layer, eliminating the specificity conflicts between Tailwind utilities and third-party CSS libraries that required workarounds in v3. The change also means Tailwind works correctly with CSS Modules, Shadow DOM, and web components for the first time.",
+      "<blockquote>Tailwind v3 was a great framework that happened to be limited by the CSS processing tools available in 2021. v4 is what Tailwind looks like when we can redesign for the ecosystem of 2026 — Oxide engine, native cascade layers, CSS custom properties everywhere. The developer experience is dramatically better and the output is dramatically smaller. — Adam Wathan, creator, Tailwind CSS</blockquote>",
+      "Migration from v3 to v4 is supported by an automated codebase conversion tool (npx @tailwindcss/upgrade) that converts tailwind.config.js to the new CSS-first format and updates class name syntax changes (several utility classes were renamed for consistency). The conversion tool handles 95% of migrations automatically, with a post-migration report identifying the 5% requiring manual review. Tailwind v4 ships with official integrations for Vite, Webpack, Parcel, and Next.js.",
+    ],
+    company: 'Tailwind Labs',
+    readTime: 5,
+    tags: ['Tailwind CSS', 'CSS', 'Dev Tools', 'Frontend', 'Build Tools'],
+  },
 ];
 
 TC.timelineData = {
