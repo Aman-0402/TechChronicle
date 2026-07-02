@@ -1091,6 +1091,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Kubernetes', 'CNCF', 'Cloud Native', 'AI Infrastructure', 'WebAssembly'],
   },
+
+  {
+    id: 64,
+    category: 'AI',
+    title: 'Fact: The Human Brain Has 86 Billion Neurons — GPT-5 Has 1.8 Trillion Parameters',
+    excerpt: 'A factual comparison of biological and artificial neural networks reveals a surprising parity in raw scale.',
+    body: [
+      "A frequently cited comparison: the human brain contains approximately 86 billion neurons with roughly 100 trillion synaptic connections. GPT-5, OpenAI's current flagship model, is estimated to have 1.8 trillion parameters — a number that exceeds the neuron count of the human brain by 21x but represents only 1.8% of the brain's synaptic connection count.",
+      "The comparison is imperfect but instructive. Artificial neural network parameters are not equivalent to neurons or synapses — they are scalar values that represent connection strengths in a much simpler mathematical structure than the biological neuron. A single biological neuron integrates thousands of inputs using complex electrochemical processes that a single artificial neuron cannot replicate.",
+      "What makes the comparison useful is scale context: we have already built artificial systems that exceed the brain's neuron count. The gap is now in the richness of connection, the energy efficiency (the brain runs on 20W; GPT-5 inference consumes 500W-1kW per query), and the learning efficiency (humans learn a concept from one example; LLMs need millions of examples).",
+      "<blockquote>Parameter count is a terrible metric for intelligence, but it is the metric we have. The brain does not count its parameters either. What matters is what the system can do — and on that metric, the comparison is still profoundly in the brain's favor. — Prof. Yoshua Bengio, Mila AI Institute</blockquote>",
+      "The energy efficiency gap is the most striking: the brain performs the equivalent of 10^15 floating-point operations per second on 20 watts. The world's most efficient AI chips achieve similar performance at roughly 300 watts — a 15x efficiency gap that researchers consider the key frontier in neuromorphic computing research.",
+    ],
+    company: 'Mila AI Institute / Neuroscience Research',
+    readTime: 5,
+    tags: ['AI Facts', 'Neural Networks', 'Human Brain', 'LLM Scale', 'Neuroscience'],
+  },
 ];
 
 TC.timelineData = {
