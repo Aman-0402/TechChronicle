@@ -1863,6 +1863,24 @@ undefined
     readTime: 6,
     tags: ['Salt Typhoon', 'Telecom Security', 'China', 'Espionage', 'CALEA', 'Cybersecurity'],
   },
+
+  {
+    id: 103,
+    date: '2026-07-03',
+    category: 'Cloud',
+    title: 'AWS Aurora PostgreSQL 4.0 Adds Native Vector Search, Eliminates pgvector Dependency for AI Applications',
+    excerpt: 'Amazon integrates vector database capabilities directly into Aurora's storage engine, achieving 10x faster similarity search than pgvector extension.',
+    body: [
+      "Amazon Web Services has released Aurora PostgreSQL 4.0 with native vector search built into the Aurora storage engine — not as an extension (like pgvector) but as a first-class storage primitive. Aurora Vector Search achieves approximate nearest-neighbor (ANN) search on 100-million-vector datasets in under 5ms at 99th percentile, 10x faster than equivalent pgvector queries on the same hardware.",
+      "The architectural difference explains the performance gap: pgvector stores vector indexes in PostgreSQL's heap and buffer pool, competing with row data for memory. Aurora Vector Search stores vector indexes in Aurora's distributed storage layer, which is purpose-built for parallel I/O across six-way replicated storage nodes. The indexes are always in memory (no eviction) and searched in parallel across all storage nodes simultaneously.",
+      "Aurora Vector Search supports four index types: HNSW (Hierarchical Navigable Small World, best for recall), IVFFlat (best for large datasets with limited memory), Flat (exact search, small datasets), and a new Hybrid index that automatically switches between HNSW and Flat based on query cardinality. All four support filtering by PostgreSQL WHERE clause predicates without post-filter recall degradation.",
+      "<blockquote>Every company building AI applications needs a vector database. We asked: why is that a separate system? The data is already in Aurora. The metadata is already in Aurora. The application already queries Aurora. Vector search belongs in the database, not beside it. — Swami Sivasubramanian, VP of Databases, AWS</blockquote>",
+      "Aurora Vector Search is available for all Aurora PostgreSQL 4.0 clusters at no additional charge — vector storage counts against the cluster's provisioned storage, and vector search queries count against I/O request units. Migration from pgvector is automated via a single SQL command that converts pgvector column types to native Aurora vector columns and rebuilds indexes. The launch makes Aurora a direct competitor to Pinecone, Weaviate, and Qdrant for AI application vector storage.",
+    ],
+    company: 'AWS',
+    readTime: 5,
+    tags: ['AWS Aurora', 'Vector Search', 'PostgreSQL', 'AI Infrastructure', 'Database'],
+  },
 ];
 
 TC.timelineData = {
