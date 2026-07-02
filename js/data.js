@@ -2007,6 +2007,24 @@ undefined
     readTime: 5,
     tags: ['NVIDIA', 'Blackwell', 'B300', 'AI Hardware', 'GPU', 'HBM4'],
   },
+
+  {
+    id: 111,
+    date: '2026-07-03',
+    category: 'Cybersecurity',
+    title: 'Volt Typhoon Backdoors Discovered in 500 US Water and Power Utilities, CISA Issues Emergency Directive',
+    excerpt: 'Chinese state hackers found pre-positioned in critical US infrastructure with persistent access designed to survive network segmentation.',
+    body: [
+      "CISA has issued Emergency Directive 26-03 after forensic investigation confirmed Volt Typhoon — a Chinese state-sponsored threat actor — has established persistent backdoors in the operational technology networks of more than 500 US water treatment plants, electricity generation facilities, and natural gas pipeline control systems. The backdoors, which exploit vulnerabilities in SCADA systems and industrial PLCs (programmable logic controllers), are assessed to be pre-positioned for potential kinetic disruption in the event of a military conflict.",
+      "The backdoors are distinct from typical espionage intrusions: they are designed not to exfiltrate data but to maintain persistent access that can survive network segmentation, firewall changes, and VPN rotations. CISA's analysis found the attackers used living-off-the-land techniques exclusively — leveraging legitimate administrative tools (PowerShell, WMIC, certutil) rather than custom malware, making detection extremely difficult without behavioral analytics.",
+      "Emergency Directive 26-03 requires all federal civilian agencies operating critical infrastructure to complete three actions within 30 days: full inventory of internet-exposed OT/SCADA devices, deployment of CISA's free Hunt and Incident Response Platform (HIRP) to all OT networks, and mandatory network segmentation audit conducted by a CISA-approved third party. State and local utilities are strongly encouraged to comply voluntarily.",
+      "<blockquote>This is pre-positioning. Volt Typhoon is not stealing your water treatment data. They do not want your water treatment data. They want the ability to turn off your water treatment system on a specific day at a specific hour if ordered to do so. This is preparation for a military contingency, not espionage. — Jen Easterly, Director, CISA</blockquote>",
+      "The disclosure comes three months after the CISA/NSA joint cybersecurity advisory on Volt Typhoon, which described the threat in general terms. This Emergency Directive is the first to provide specific numbers: 500+ compromised utilities, 18-month average dwell time, and access to valve controls and chemical dosing systems in 23 confirmed water treatment cases. Congress has called for emergency hearings, and the Biden-era industrial cybersecurity investments are being fast-tracked for implementation.",
+    ],
+    company: 'CISA',
+    readTime: 6,
+    tags: ['Volt Typhoon', 'Critical Infrastructure', 'ICS Security', 'China', 'CISA', 'Cybersecurity'],
+  },
 ];
 
 TC.timelineData = {
