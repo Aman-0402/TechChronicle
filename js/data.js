@@ -1917,6 +1917,24 @@ undefined
     readTime: 5,
     tags: ['Go', 'Golang', 'Programming Languages', 'Google', 'Generics'],
   },
+
+  {
+    id: 106,
+    date: '2026-07-03',
+    category: 'AI',
+    title: 'Mistral Releases Mistral Large 3 Open Weights: 72B Parameters, Beats GPT-4o on Code and Math',
+    excerpt: 'French AI lab releases its most capable open-weights model, pushing the boundary of what is freely available to researchers and developers.',
+    body: [
+      "Mistral AI has released Mistral Large 3, a 72-billion-parameter model available as open weights under the Mistral Research License (free for research and commercial use under $10M annual revenue). The model scores 88.4% on MMLU, 76.2% on HumanEval, and 74.8% on MATH — surpassing GPT-4o on coding and mathematics benchmarks while being freely downloadable and runnable on consumer hardware with sufficient VRAM.",
+      "Mistral Large 3 uses a grouped-query attention architecture with 8 key-value heads per 72 attention query heads, reducing KV cache memory requirements by 8x versus standard multi-head attention. This enables the model to run in 8-bit quantization on a single NVIDIA RTX 4090 (24GB VRAM) with 32K context, or at full 16-bit precision on a dual-4090 workstation. At 4-bit quantization, it runs on a consumer gaming PC with 24GB VRAM.",
+      "The training corpus includes 12 trillion tokens, with approximately 3 trillion tokens of code across 80 programming languages, 1.5 trillion tokens of mathematical text (proofs, papers, textbooks), and 500 billion tokens of multilingual content across 24 languages. Mistral reports the model follows system instructions more reliably than Large 2, with a 91% instruction-following rate on the IFEval benchmark.",
+      "<blockquote>Open weights is not charity. It is strategy. When we open our models, thousands of researchers find weaknesses, improvements, and applications we never imagined. The model we release next year benefits from everything the community discovered in the model we released this year. Closed weights companies cannot buy that feedback loop. — Arthur Mensch, CEO, Mistral AI</blockquote>",
+      "Mistral Large 3 is available on Hugging Face, via the Mistral API (la Plateforme) at $0.80/million tokens, on Amazon Bedrock, and via Ollama for local deployment. The model card includes detailed safety evaluations, bias assessments across 14 demographic categories, and a refusal rate analysis showing it refuses 99.4% of clearly harmful requests while refusing only 2.1% of ambiguous-but-benign requests — a better safety/utility tradeoff than comparable open models.",
+    ],
+    company: 'Mistral AI',
+    readTime: 5,
+    tags: ['Mistral', 'Open Source AI', 'LLM', 'Open Weights', 'Code Generation'],
+  },
 ];
 
 TC.timelineData = {
