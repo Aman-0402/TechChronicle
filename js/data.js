@@ -2673,6 +2673,24 @@ undefined
     readTime: 5,
     tags: ['Mistral AI', 'European AI', 'Startups', 'Open Source AI', 'Venture Capital', 'France'],
   },
+
+  {
+    id: 148,
+    date: '2026-07-05',
+    category: 'Open Source',
+    title: 'Homebrew 4.0 Launches Native Windows and Linux Support: One Package Manager for All Platforms',
+    excerpt: 'The macOS developer staple crosses to Windows and Linux with native support, becoming the first truly cross-platform open-source package manager with macOS lineage.',
+    body: [
+      "Homebrew 4.0 has been released with native Windows (Windows 11, x64 and ARM64) and full Linux support (Debian, Ubuntu, Fedora, Arch-based distributions on x64 and ARM64) — no WSL required on Windows, no compatibility layer on Linux. The release makes Homebrew the only package manager that works identically across macOS, Linux, and Windows with a shared formula repository, enabling cross-platform development teams to use identical package management commands regardless of operating system.",
+      "The Windows implementation uses a new Homebrew.NET runtime (a C# port of Homebrew's core Ruby management code), which avoids the dependency on Ruby being installed on Windows before Homebrew can be used. The Linux implementation extends the existing Homebrew on Linux project (which has existed since 2016 but was not officially supported) to full parity with the macOS implementation, including tapped formulae, cask support (GUI applications), and the services command for managing background processes.",
+      "Homebrew 4.0 introduces a new formula dependency graph resolver (Ruby implementation replaced with a Rust binary for 12x faster dependency resolution), a global cache deduplication system that shares downloaded bottles (precompiled binaries) across all users on a machine, and a new analytics opt-in system that asks developers to confirm data sharing rather than collecting anonymously.",
+      "<blockquote>Homebrew was born on macOS in 2009 because developers needed something better than MacPorts. For 15 years, every developer who switched between a Mac and a Linux machine had to learn a different tool. Homebrew 4.0 ends that context switching. One brew install command works everywhere. — Mike McQuaid, Homebrew Project Lead</blockquote>",
+      "The formula repository now contains 8,400 formulae and 6,200 casks, all tested on macOS (Intel and Apple Silicon), Linux (x64 and ARM64), and Windows (x64 and ARM64) in a unified CI pipeline. Homebrew 4.0 maintains backward compatibility: all existing Brewfiles and CI scripts using brew commands continue to work without modification. The project is supported by corporate sponsors including GitHub, HashiCorp, and Shopify, and receives 1.2 million unique weekly installations.",
+    ],
+    company: 'Homebrew Project',
+    readTime: 5,
+    tags: ['Homebrew', 'Package Manager', 'Open Source', 'macOS', 'Windows', 'Linux', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
