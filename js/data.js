@@ -768,6 +768,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Python', 'GIL', 'Parallelism', 'Python 3.14', 'Concurrency'],
   },
+
+  {
+    id: 45,
+    category: 'Hardware',
+    title: 'Samsung Begins Mass Production of 2nm HBM4 Memory for Next-Gen AI Accelerators',
+    excerpt: 'New memory standard delivers 2 TB/s bandwidth per stack, doubling HBM3e, enabling trillion-parameter models on single chips.',
+    body: [
+      "Samsung has announced the start of mass production for HBM4 (High Bandwidth Memory 4) on its 2nm process node, delivering a bandwidth of 2 terabytes per second per stack — more than double the 1 TB/s achievable with HBM3e used in current NVIDIA H200 and AMD MI300X accelerators.",
+      "HBM4 achieves the bandwidth increase through a wider interface (2048-bit vs 1024-bit in HBM3e), higher clock speeds (8 Gbps per pin vs 6.4 Gbps), and improved error correction that allows reliable operation at these speeds. A full HBM4 system with 12 stacks — as expected in next-generation AI accelerators — would deliver 24 TB/s of aggregate memory bandwidth.",
+      "The practical implication is significant: a next-generation GPU or TPU equipped with HBM4 could theoretically run a 1-trillion-parameter model at full precision in a configuration that would require 4-6 current-generation GPUs. This would collapse the cost of inference for the largest frontier models.",
+      "<blockquote>HBM4 is the most technically challenging memory product Samsung has ever manufactured. The yield improvements required to make 2nm HBM viable took three years longer than we originally projected. The wait was worth it. — Kyung-Hyun Choi, EVP Memory, Samsung</blockquote>",
+      "SK Hynix and Micron are expected to follow with their HBM4 products in Q4 2026 and Q1 2027 respectively. NVIDIA's next-generation Blackwell Ultra 2 accelerator, expected at GTC 2027, is designed around HBM4 and is expected to use 8 stacks per GPU.",
+    ],
+    company: 'Samsung Semiconductor',
+    readTime: 5,
+    tags: ['Samsung', 'HBM4', 'Memory', 'AI Hardware', 'Bandwidth'],
+  },
 ];
 
 TC.timelineData = {
