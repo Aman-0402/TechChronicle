@@ -1268,6 +1268,23 @@ undefined
 undefined
 undefined
 undefined
+
+  {
+    id: 74,
+    category: 'Programming',
+    title: 'Rust Surpasses C++ in New Systems Code Written at Google, Microsoft, and Meta',
+    excerpt: 'Three of the largest C++ codebases on Earth report Rust now accounts for majority of new systems-layer code.',
+    body: [
+      "In a coordinated disclosure at the 2026 Systems Programming Summit, Google, Microsoft, and Meta each reported that Rust now accounts for more than 50% of new systems-layer code written at their companies — a threshold that marks a genuine tipping point in the decades-long dominance of C++ for performance-critical software.",
+      "Google reports Rust is now used in Chrome's network stack, key Fuchsia OS components, and all new Android kernel drivers. Microsoft reports Rust is used in the Windows kernel (select subsystems), Azure hypervisor components, and the new Copilot+ AI inference runtime. Meta reports Rust powers the Hack type checker, Sapling version control system, and all new Messenger encryption infrastructure.",
+      "The driving force is not performance (Rust and C++ are equivalent in optimized benchmarks) but memory safety. A Microsoft security retrospective found that 70% of CVEs fixed in Windows over the past 12 years involved memory safety bugs that would have been compile-time errors in Rust. Google Android security reports a 68% reduction in memory safety CVEs in components that have been rewritten in Rust.",
+      "<blockquote>We rewrote the Android Bluetooth stack in Rust and had zero memory safety CVEs in the first 18 months of production. The C++ version had 36 in the prior 18 months. The data is not ambiguous. — Jeff Vander Stoep, Android Security, Google</blockquote>",
+      "The Rust Foundation now has 45 corporate members, a $12M annual budget, and a full-time team of 28 engineers maintaining the compiler and standard library. The language has been voted the 'most admired programming language' on Stack Overflow's annual survey for nine consecutive years.",
+    ],
+    company: 'Google / Microsoft / Meta',
+    readTime: 5,
+    tags: ['Rust', 'C++', 'Memory Safety', 'Systems Programming', 'Security'],
+  },
 ];
 
 TC.timelineData = {
