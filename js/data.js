@@ -1006,6 +1006,23 @@ TC.articles = [
     readTime: 4,
     tags: ['ElevenLabs', 'Voice AI', 'Audio', 'Series C', 'Startup'],
   },
+
+  {
+    id: 59,
+    category: 'Dev Tools',
+    title: 'Zed Editor 1.0 Ships with Native AI Agent Mode and Fastest Syntax Highlighting in Existence',
+    excerpt: 'The Atom creators launch their Rust-built editor with GPU-accelerated rendering that makes VS Code feel slow.',
+    body: [
+      "Zed, the code editor built in Rust by the creators of Atom and Tree-sitter, has shipped version 1.0 with two flagship capabilities: a native AI Agent Mode that can browse your codebase autonomously, and a GPU-accelerated rendering pipeline that achieves 120fps syntax highlighting even on files exceeding 100,000 lines.",
+      "The rendering performance difference is measurable and immediate: Zed opens a 50,000-line TypeScript file in 180ms versus VS Code's 2,400ms. Scrolling through large files renders at a consistent 120fps on Apple M-series hardware versus VS Code's 30-60fps with frequent frame drops. The improvement comes from Zed's GPUI framework, which renders all UI elements directly to the GPU using Metal/Vulkan rather than through a DOM/WebView layer.",
+      "Agent Mode uses Claude 4 Sonnet by default (configurable to any OpenAI-compatible API) and can execute multi-step tasks: 'add authentication to this Express app', 'write tests for all functions in src/utils/', 'refactor this class to use dependency injection'. Unlike Copilot Workspace, Agent Mode runs entirely in your local environment with no cloud execution of your code.",
+      "<blockquote>VS Code is a web browser pretending to be an editor. Zed is an editor. The GPU rendering is not a feature — it is the consequence of building an editor correctly from first principles. — Nathan Sobo, CEO, Zed Industries</blockquote>",
+      "Zed 1.0 is free for individual developers. Team plans start at $12/user/month and include shared AI context, team channel integration, and usage analytics. The editor is open source (AGPL) and supports all LSP-compatible language servers, meaning existing VS Code language extension configurations transfer with minimal changes.",
+    ],
+    company: 'Zed Industries',
+    readTime: 5,
+    tags: ['Zed', 'Code Editor', 'AI Agent', 'GPU Rendering', 'Rust'],
+  },
 ];
 
 TC.timelineData = {
