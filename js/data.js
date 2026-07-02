@@ -2079,6 +2079,24 @@ undefined
     readTime: 5,
     tags: ['NotebookLM', 'Google', 'Long Context', 'Research AI', 'AI Tools'],
   },
+
+  {
+    id: 115,
+    date: '2026-07-03',
+    category: 'Research',
+    title: 'MIT and Samsung Achieve Solid-State Battery Breakthrough: 10x Energy Density, 3000 Charge Cycles at 90% Capacity',
+    excerpt: 'Long-promised solid-state battery technology reaches production-readiness threshold with energy density figures that could transform EVs and mobile devices.',
+    body: [
+      "A joint research team from MIT's Research Laboratory of Electronics and Samsung's Advanced Institute of Technology has published results in Nature Energy demonstrating a solid-state lithium battery achieving 1,200 Wh/kg energy density — 10x the 120 Wh/kg of conventional lithium-ion batteries — with 3,000 charge-discharge cycles while retaining 90% of original capacity. Both figures exceed the thresholds required for commercial viability in electric vehicles and consumer electronics.",
+      "The breakthrough uses a sulfide-based solid electrolyte (Li6PS5Cl, argyrodite) with a novel lithium-indium alloy anode, replacing the graphite anode of conventional lithium-ion batteries. The solid electrolyte eliminates the liquid electrolyte that creates fire risk in conventional batteries, enabling a lithium metal anode with 10x higher theoretical capacity than graphite. Previous solid-state prototypes suffered from dendrite growth (lithium metal crystalline structures that short-circuit the cell); the lithium-indium alloy anode suppresses dendrite formation at room temperature.",
+      "The 3,000-cycle lifetime at room temperature (25°C) addresses the durability concern that has historically prevented solid-state battery commercialization. Previous solid-state prototypes achieved high energy density but degraded within 100–500 cycles. The Samsung/MIT team attributes the cycle life improvement to a new cell assembly process that applies 50 MPa isostatic pressure during formation, creating intimate contact between the solid electrolyte and electrodes that is maintained throughout cycling.",
+      "<blockquote>We have been saying solid-state batteries are 'five years away' for twenty years. This result is different because it is not a performance record achieved at the cost of lifetime, or a lifetime record achieved at the cost of performance. It is both, simultaneously, at room temperature. The remaining challenge is manufacturing, not chemistry. — Yet-Ming Chiang, MIT, corresponding author</blockquote>",
+      "Samsung has announced it will begin pilot production of solid-state cells at its SDI battery manufacturing facility in Cheonan, South Korea in Q2 2027, targeting the premium EV segment first (vehicles where the cost premium for higher energy density is most justifiable). A solid-state battery with 1,200 Wh/kg energy density would allow an EV with a 500-mile range using a battery pack half the weight of current packs, or a smartphone with a week of battery life at current form factors.",
+    ],
+    company: 'MIT / Samsung',
+    readTime: 6,
+    tags: ['Solid-State Battery', 'Energy Storage', 'Samsung', 'MIT', 'EV', 'Research'],
+  },
 ];
 
 TC.timelineData = {
