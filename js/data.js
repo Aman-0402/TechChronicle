@@ -2061,6 +2061,24 @@ undefined
     readTime: 6,
     tags: ['Python', 'Free-Threading', 'No-GIL', 'Concurrency', 'Performance', 'Open Source'],
   },
+
+  {
+    id: 114,
+    date: '2026-07-03',
+    category: 'AI',
+    title: 'Google NotebookLM Pro Adds 50-Million-Token Context: Analyze Entire Patent Portfolios and Research Libraries',
+    excerpt: 'Research AI tool extends to corpus-scale analysis, enabling professionals to query entire bodies of work that previously required teams of analysts.',
+    body: [
+      "Google has released NotebookLM Pro with a 50-million-token context window — equivalent to approximately 37,500 pages of text — enabling users to upload and query entire research libraries, patent portfolios, legal case databases, and codebases in a single session. The context extension builds on Gemini 2.0 Ultra's 2-million-token baseline using a new sparse attention mechanism that processes long documents 8x more efficiently than standard attention.",
+      "The practical implications are significant: a pharmaceutical company can upload 20 years of clinical trial data and ask 'what are all adverse cardiac events in trials for this drug class?'; a law firm can upload all case precedents for a jurisdiction and ask 'how have courts historically ruled on contributory infringement in software patents?'; a software team can upload an entire monorepo and ask 'what are all the places where this authentication logic is inconsistently applied?'",
+      "NotebookLM Pro introduces Notebook Agents — AI agents that proactively synthesize new insights from uploaded materials without a user prompt. A user who uploads a set of research papers receives a daily digest of emerging connections, contradictions between sources, and questions the sources collectively do not answer. The feature uses a background inference process that runs on uploaded materials continuously, surfacing structured findings via email or in-app notification.",
+      "<blockquote>The bottleneck in research is not access to information. It is the ratio of human reading time to the amount of information that exists. NotebookLM with 50 million tokens means a single researcher can work with a corpus that would take a team of ten humans a year to read. That is not an incremental improvement in productivity. It is a category change. — Steven Johnson, NotebookLM Product Lead, Google Labs</blockquote>",
+      "NotebookLM Pro is priced at $30/month (individual) and $50/user/month (team plan with shared notebooks and audit logging). The standard NotebookLM remains free with a 2-million-token limit per session. The Pro tier is integrated with Google Drive (upload any Drive file directly), Google Scholar (import research papers by DOI), and the US Patent and Trademark Office database (search and import patents directly by number or keyword).",
+    ],
+    company: 'Google',
+    readTime: 5,
+    tags: ['NotebookLM', 'Google', 'Long Context', 'Research AI', 'AI Tools'],
+  },
 ];
 
 TC.timelineData = {
