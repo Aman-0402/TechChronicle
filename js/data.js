@@ -2691,6 +2691,24 @@ undefined
     readTime: 5,
     tags: ['Homebrew', 'Package Manager', 'Open Source', 'macOS', 'Windows', 'Linux', 'Dev Tools'],
   },
+
+  {
+    id: 149,
+    date: '2026-07-05',
+    category: 'Cybersecurity',
+    title: 'OpenSSF Scorecard Becomes Mandatory for All US Federal Open Source Procurement: 280,000 Projects Audited',
+    excerpt: 'The White House Office of Management and Budget requires security scorecards for all open source software used in federal systems, transforming supply chain security.',
+    body: [
+      "The White House Office of Management and Budget has issued a memorandum requiring all US federal agencies to verify Open Source Security Foundation (OpenSSF) Scorecard ratings for any open source software included in federal systems, effective January 1, 2027. Projects must achieve a minimum score of 7.0 out of 10.0 to be approved for federal use without a waiver. The memorandum applies to all FCEB agencies and to commercial vendors supplying software to the federal government under FAR contract clauses.",
+      "The OpenSSF Scorecard automatically evaluates open source projects on 20 security metrics: branch protection, code review required, maintained (recent commits), signed releases, dependency version pinning, token permissions (least privilege), vulnerabilities (known CVEs in dependencies), dangerous workflows (CI/CD patterns enabling code injection), binary artifacts (unsigned binaries in repository), fuzzing (continuous fuzz testing), and 10 others. Scores are calculated automatically via GitHub Actions integration and publicly visible.",
+      "The OMB memorandum has triggered a wave of scorecard improvement activity: GitHub reports that 280,000 open source projects have added OpenSSF Scorecard checks to their CI pipelines in the 30 days since the memorandum was announced. The CISA Open Source Security team is providing free remediation support to projects with scores below 5.0 that are widely used in federal systems — approximately 3,400 projects identified via SBOM analysis of federal software inventories.",
+      "<blockquote>The federal government uses open source software in virtually every system it operates. We have never required that open source software meet any security standard. The Scorecard requirement is us saying: if you want to sell software to the US government that uses open source, that open source must meet a measurable security bar. — Anne Neuberger, Deputy National Security Advisor for Cyber</blockquote>",
+      "The biggest compliance challenge is the long tail: while large, well-maintained projects (React, PostgreSQL, OpenSSL, Kubernetes) already score above 7.0, the average npm package used in enterprise software scores 4.2 out of 10. CISA's SBOM analysis found that federal systems depend on 120,000 unique open source packages, of which only 38% currently meet the 7.0 threshold. The 18-month compliance window (to January 2027) gives vendors time to either improve their dependencies' scores or remove non-compliant packages.",
+    ],
+    company: 'OpenSSF / OMB',
+    readTime: 5,
+    tags: ['OpenSSF', 'Open Source Security', 'Supply Chain Security', 'Federal Policy', 'SBOM'],
+  },
 ];
 
 TC.timelineData = {
