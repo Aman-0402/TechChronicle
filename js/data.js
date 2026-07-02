@@ -700,6 +700,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Grok-3', 'xAI', 'LLM Benchmark', 'Chatbot Arena', 'Elon Musk'],
   },
+
+  {
+    id: 41,
+    category: 'AI',
+    title: 'OpenAI o3 Pro Scores 87% on FrontierMath — Closest AI Has Come to IMO Gold',
+    excerpt: 'New reasoning model solves problems that previously required hours of work from PhD mathematicians.',
+    body: [
+      "OpenAI has released o3 Pro, a specialized reasoning model that achieves 87% on FrontierMath — a benchmark of research-level mathematics problems curated by Fields Medalists and IMO gold medalists. When the benchmark was released in 2024, leading models scored under 2%. o3 Pro's result represents the steepest benchmark improvement in AI history.",
+      "The model uses a new 'extended thinking budget' system where users can allocate compute time from 30 seconds to 4 hours per problem. On the hardest FrontierMath problems (Tier 3 — equivalent to original research contributions), o3 Pro with maximum thinking budget achieves 41% — compared to 0% for all previous models including o1 Pro.",
+      "Practically, o3 Pro can now solve graduate-level differential equations, generate novel proofs in algebraic topology, and correctly answer competition problems from the 2025 IMO that no previous AI system could touch. Several mathematics professors who reviewed the model's proof traces described them as 'creative' rather than 'lookup-like'.",
+      "<blockquote>o3 Pro is not doing arithmetic faster. It is doing mathematics — generating ideas, testing hypotheses, backtracking when stuck. This is qualitatively different from anything we have shipped before. — Ilya Sutskever (via X, now at Safe Superintelligence)</blockquote>",
+      "o3 Pro is available at $60 per million input tokens and $240 per million output tokens — the most expensive model OpenAI has released. OpenAI is targeting research institutions, pharmaceutical companies, and quantitative finance firms as primary customers.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'o3 Pro', 'Mathematics', 'Reasoning', 'FrontierMath'],
+  },
 ];
 
 TC.timelineData = {
