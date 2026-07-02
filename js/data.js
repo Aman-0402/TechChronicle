@@ -1472,6 +1472,23 @@ undefined
     readTime: 5,
     tags: ['TypeScript', 'JavaScript', 'Microsoft', 'Programming Languages', 'Developer Tools'],
   },
+
+  {
+    id: 86,
+    category: 'AI',
+    title: 'Meta AI Releases Llama 4 Scout: 10 Billion Parameters, 10 Million Token Context, Fully Open Weights',
+    excerpt: 'Meta pushes the boundary of open-source AI with a model that matches GPT-4o on most benchmarks while remaining freely downloadable.',
+    body: [
+      "Meta AI has released Llama 4 Scout, a 10-billion-parameter model with a 10-million-token context window — the longest context window of any freely downloadable model. Released under Meta's custom open-weights license permitting commercial use for companies under 700 million monthly active users, Scout achieves 94.2% of GPT-4o's performance on MMLU while requiring only 24GB of VRAM to run at full precision.",
+      "The 10-million-token context window is enabled by Meta's Infinity Attention architecture, which uses a hierarchical attention mechanism that processes long documents in overlapping chunks and maintains a compressed global context state. The system can reason coherently across an entire software repository, a full medical journal archive, or a year of email correspondence in a single context. Effective recall at 9.5 million tokens scores 94.7% on the RULER benchmark.",
+      "Scout introduces a new instruction format optimized for tool use and multi-step reasoning, with native support for structured output (JSON, XML) without prompting tricks. The model is fine-tuned specifically for code generation, achieving 78.4% on HumanEval and 71.2% on SWE-bench — both above GPT-4o and within 4% of Claude 3.7 Sonnet.",
+      "<blockquote>We believe that powerful AI must be open. Closed models create power asymmetries that are bad for society, bad for competition, and ultimately bad for the technology itself. Llama 4 Scout is our most capable open model, and we're releasing it unconditionally. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "Llama 4 Scout is available immediately on Hugging Face, Meta AI's own inference endpoints, AWS Bedrock, Google Vertex AI, and Azure AI Foundry. A companion model, Llama 4 Maverick (400 billion parameters, MoE architecture), is available via API only at $0.40/million tokens. Meta reports the open-source Llama family has been downloaded 2.4 billion times since the original Llama release in 2023.",
+    ],
+    company: 'Meta AI',
+    readTime: 5,
+    tags: ['Meta', 'Llama 4', 'Open Source AI', 'LLM', 'Long Context', 'Open Weights'],
+  },
 ];
 
 TC.timelineData = {
