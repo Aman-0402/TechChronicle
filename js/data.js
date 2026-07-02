@@ -1125,6 +1125,23 @@ TC.articles = [
     readTime: 5,
     tags: ['Zig', 'Systems Programming', 'C Alternative', 'Compiler', 'Open Source'],
   },
+
+  {
+    id: 66,
+    category: 'Research',
+    title: 'Fact: The First Computer Bug Was an Actual Insect — Found in 1947 by Grace Hopper's Team',
+    excerpt: 'The origin of the term "debugging" traces to a moth found in a Harvard Mark II relay, taped into a logbook.',
+    body: [
+      "On September 9, 1947, engineers working on the Harvard Mark II electromechanical computer at the Naval Weapons Center in Dahlgren, Virginia found a moth trapped in relay #70 of Panel F. The insect was causing the relay to malfunction. The engineers taped it into the logbook with the notation: 'First actual case of bug being found.' The logbook is preserved at the Smithsonian National Museum of American History.",
+      "Grace Hopper, a pioneering computer scientist who would later develop COBOL and receive the Presidential Medal of Freedom, was the officer in charge of the team. While she popularized the term 'debugging' and the logbook story, historical research confirms she was not personally present when the moth was found — but she promoted the story enthusiastically because it was genuinely a good metaphor for the work.",
+      "The word 'bug' to mean an engineering defect predates the 1947 incident significantly. Thomas Edison used the term in an 1878 letter: 'It has been just so in all of my inventions. The first step is an intuition, and it comes with a burst, then difficulties arise — this thing gives out and [bugs] — as such little faults and difficulties are called — show themselves.'",
+      "<blockquote>From then on, when anything went wrong with a computer, we said it had bugs in it. — Grace Hopper, reflecting on the 1947 incident</blockquote>",
+      "The moth is still visible, preserved under clear tape on the original logbook page. Modern 'bugs' in software are metaphorically traceable to this physical insect, making software debugging one of the few engineering disciplines where its central metaphor has a precise, documented, physical origin — and it is in the Smithsonian.",
+    ],
+    company: 'Naval Weapons Center / Harvard / Smithsonian',
+    readTime: 4,
+    tags: ['Computer History', 'Grace Hopper', 'Bug', 'Debugging', 'Tech Facts'],
+  },
 ];
 
 TC.timelineData = {
