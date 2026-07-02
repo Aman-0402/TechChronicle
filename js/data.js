@@ -2187,6 +2187,24 @@ undefined
     readTime: 5,
     tags: ['AMD', 'MI350X', 'AI Hardware', 'ROCm', 'GPU', 'NVIDIA'],
   },
+
+  {
+    id: 121,
+    date: '2026-07-04',
+    category: 'AI',
+    title: 'Sora 2.0 Generates 60-Minute Cinematic Videos from Text, Debuts Real-Time Collaboration',
+    excerpt: 'OpenAI's video generation model takes a generational leap from 60-second clips to feature-length content with multi-user editing.',
+    body: [
+      "OpenAI has released Sora 2.0, generating videos up to 60 minutes long at 4K resolution from text prompts — a 60x increase in duration from Sora 1.0's 60-second maximum. The model maintains temporal consistency across the full hour, correctly propagating lighting, character appearance, object placement, and narrative continuity in ways that Sora 1.0 could not sustain beyond 20 seconds. An independent test generating a 30-minute short film from a screenplay prompt produced commercially usable footage that required only 40% reshoots versus 100% for Sora 1.0.",
+      "Sora 2.0 introduces real-time collaborative editing: multiple users can simultaneously prompt different elements of a video (one user controls camera movement, another controls character action, a third adds ambient elements) in a shared editing session, with changes rendered and incorporated within 3 seconds. This makes Sora 2.0 a tool for teams, not just individuals — enabling production workflows that parallelize video generation across a creative team.",
+      "The model's understanding of cinematography has advanced substantially: Sora 2.0 respects shot types (close-up, medium, wide, establishing), camera movements (dolly, pan, tilt, track), lens characteristics (shallow depth of field, lens flares, bokeh), and editing conventions (match cuts, jump cuts, dissolves) when prompted in cinematographic language. Directors can describe shots using professional terminology and receive technically correct footage.",
+      "<blockquote>We showed Sora 1.0 to filmmakers and they said 'impressive demo.' We are showing Sora 2.0 to filmmakers and they are asking us about production licensing terms. That is the difference. — Mira Murati, CTO, OpenAI</blockquote>",
+      "Sora 2.0 is available on ChatGPT Plus ($20/month, 5 videos/month up to 5 minutes) and ChatGPT Pro ($200/month, unlimited videos up to 60 minutes). Professional licenses for commercial use start at $500/month. The model declines to generate videos depicting real people without consent, simulated real-world violence, or sexual content, enforced via a classifier layer that scans both the prompt and each generated frame. OpenAI has partnered with the Motion Picture Association to develop industry standards for AI-generated content disclosure.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['Sora', 'OpenAI', 'Video Generation', 'AI Creativity', 'Film'],
+  },
 ];
 
 TC.timelineData = {
