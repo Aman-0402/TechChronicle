@@ -955,6 +955,23 @@ TC.articles = [
     readTime: 5,
     tags: ['TSMC', '1.4nm', 'Semiconductor', 'Chip Manufacturing', 'Moore's Law'],
   },
+
+  {
+    id: 56,
+    category: 'Open Source',
+    title: 'Valkey 2.0 Surpasses Redis in GitHub Stars and Enterprise Adoption After Fork',
+    excerpt: 'The Linux Foundation-backed Redis fork demonstrates open source forks can outcompete their origin projects.',
+    body: [
+      "Valkey 2.0, the open-source Redis fork maintained under the Linux Foundation after Redis Ltd. changed its license to non-open-source in March 2024, has surpassed the original Redis repository in GitHub stars (47K vs 45K) and is now the default in-memory data store in Amazon ElastiCache, Google Memorystore, and Akamai Connected Cloud.",
+      "Valkey 2.0 ships two features that Redis has not yet delivered: multi-threaded I/O (allowing Valkey to saturate multiple CPU cores for network-bound workloads) and native vector similarity search (competing with Redis Stack's VSS module but without a separate binary). Both were contributed by Google and AWS engineers who have committed dedicated engineering resources.",
+      "The multi-threaded I/O change alone delivers 2.8x throughput improvement on 8-core hardware for network-intensive workloads — the single most requested Redis feature for nearly a decade. Valkey remains fully Redis Serialization Protocol (RESP3) compatible, allowing zero-code migration from Redis using existing client libraries.",
+      "<blockquote>Valkey proves what happens when a company tries to extract rent from a community it did not create. The community takes the code and builds something better. This is open source working exactly as intended. — Jim Zemlin, Executive Director, Linux Foundation</blockquote>",
+      "Redis Ltd. has responded by announcing Redis 8.0 with a partial re-opening of the license for some modules, but analysts suggest the enterprise momentum behind Valkey is now difficult to reverse given that the three largest cloud providers have standardized on it.",
+    ],
+    company: 'Linux Foundation (Valkey)',
+    readTime: 5,
+    tags: ['Valkey', 'Redis', 'Open Source Fork', 'Linux Foundation', 'Database'],
+  },
 ];
 
 TC.timelineData = {
