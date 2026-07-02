@@ -2295,6 +2295,24 @@ undefined
     readTime: 5,
     tags: ['Apple', 'Apple Intelligence', 'On-Device AI', 'Privacy', 'A19', 'M5'],
   },
+
+  {
+    id: 127,
+    date: '2026-07-04',
+    category: 'Research',
+    title: 'Google Quantum AI Crosses Fault-Tolerance Threshold: Logical Qubit Error Rate Falls Below Physical Qubit Error Rate',
+    excerpt: 'Landmark result proves that quantum error correction can actually improve qubit performance, making scalable quantum computing theoretically achievable.',
+    body: [
+      "Google Quantum AI has published results in Nature demonstrating a logical qubit (a qubit protected by quantum error correction across 49 physical qubits) with an error rate of 0.14% — lower than the 0.3% error rate of the best individual physical qubit in the same device. This is the first time a logical qubit has outperformed the physical qubits it is built from, crossing the fault-tolerance threshold that has been the central goal of quantum error correction research for 30 years.",
+      "The significance of the threshold crossing: quantum error correction theory (founded by Peter Shor and Andrew Steane in 1995) predicts that if physical qubit error rates fall below a threshold (approximately 1%), logical qubits made from many physical qubits will have exponentially lower error rates. Below threshold, adding more physical qubits reduces logical error rates. Above threshold, adding more physical qubits makes things worse. Google's result confirms the theory works in hardware.",
+      "The logical qubit uses the Surface Code, a 2D lattice of physical qubits where errors are detected by measuring correlations between neighboring qubits (syndrome measurements) without disturbing the logical qubit state. Google's Willow processor achieves this with 105 superconducting transmon qubits, with a gate fidelity of 99.97% for two-qubit gates — the highest fidelity ever measured in a quantum processor with more than 100 qubits.",
+      "<blockquote>The fault-tolerance threshold is not a goal post. It is a phase transition. Below it, quantum error correction works — every additional physical qubit makes your logical qubit better. We have now crossed that transition for the first time. The path to fault-tolerant quantum computing is no longer theoretical. It is engineering. — Hartmut Neven, VP, Google Quantum AI</blockquote>",
+      "The practical timeline to fault-tolerant quantum computers capable of breaking RSA-2048 is still estimated at 10–15 years: current systems have 105 physical qubits, while breaking RSA-2048 requires approximately 4,000 logical qubits, each protected by ~1,000 physical qubits — totaling 4 million physical qubits. However, the threshold crossing means that scaling path is now theoretically validated. The result has accelerated post-quantum cryptography migration timelines at organizations tracking quantum computing progress.",
+    ],
+    company: 'Google Quantum AI',
+    readTime: 6,
+    tags: ['Quantum Computing', 'Google', 'Error Correction', 'Quantum Research', 'Qubits'],
+  },
 ];
 
 TC.timelineData = {
