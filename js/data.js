@@ -1642,6 +1642,23 @@ undefined
     readTime: 5,
     tags: ['Anthropic', 'Claude 4', 'LLM', 'Multimodal AI', 'Computer Use', 'AI Agents'],
   },
+
+  {
+    id: 96,
+    category: 'Programming',
+    title: 'Bun 2.0 Achieves Full Node.js Compatibility and Becomes Default JavaScript Runtime in Vercel, Cloudflare, and Render',
+    excerpt: 'Zig-written JavaScript runtime reaches parity with Node.js while maintaining 4x speed advantage, triggering major platform adoption.',
+    body: [
+      "Bun 2.0 has been released with full Node.js API compatibility — the project's long-stated goal since its initial 2022 release. Every Node.js built-in module (fs, http, crypto, tls, net, cluster, worker_threads, and 47 others) is now fully implemented, passing 100% of Node.js's own test suite. The milestone has triggered immediate adoption: Vercel, Cloudflare Workers, and Render have announced Bun as their default JavaScript runtime, replacing Node.js for new projects.",
+      "Full compatibility does not mean identical performance: Bun 2.0's HTTP server is 4.1x faster than Node.js 22, file I/O is 3.8x faster, and startup time is 12x faster (crucial for serverless cold starts). The Bun test runner is 38x faster than Jest for equivalent test suites. The package manager remains 30x faster than npm for install from cache.",
+      "Bun 2.0 adds native support for SQL databases (built-in SQLite, libmysql, and libpq bindings — no npm package required), a built-in S3 client (Bun.S3), and a built-in WebSocket server that supports 100,000 concurrent connections without additional packages. The goal is a JavaScript runtime that handles the full stack of server-side development without a single npm install.",
+      "<blockquote>Node.js is 15 years old. It was designed for a world before TypeScript, before modern JavaScript, before the M1 chip. We are not trying to replace Node.js — we are trying to build what Node.js would be if it were designed today, with everything we've learned. — Jarred Sumner, CEO, Oven (makers of Bun)</blockquote>",
+      "The adoption announcement covers specific scenarios: Cloudflare Workers will use Bun for its V8 isolate startup (where Bun's 12x faster startup reduces cold start latency), Vercel will use Bun for all new Next.js serverless functions, and Render will offer Bun as the default runtime for Node.js web services. Deno, the other major Node.js alternative, has lost market share to Bun consistently since 2023 and has not announced comparable partnership agreements.",
+    ],
+    company: 'Oven (Bun)',
+    readTime: 5,
+    tags: ['Bun', 'JavaScript', 'Node.js', 'Runtime', 'Performance', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
