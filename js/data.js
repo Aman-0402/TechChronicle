@@ -1899,6 +1899,24 @@ undefined
     readTime: 5,
     tags: ['Apple', 'M5 chip', 'Apple Silicon', 'TSMC', 'MacBook Pro', 'NPU'],
   },
+
+  {
+    id: 105,
+    date: '2026-07-03',
+    category: 'Programming',
+    title: 'Go 1.24 Ships Range-Over-Functions and Finalized Generics Improvements, Cuts Build Times 25%',
+    excerpt: 'Go's most feature-rich release in three years brings iterator patterns, improved type inference, and a rewritten build pipeline.',
+    body: [
+      "The Go team at Google has released Go 1.24, the most feature-rich release since Go 1.18 introduced generics. The headline addition is range-over-functions (rangefunc): the range keyword now works over user-defined iterator functions, not just slices, maps, and channels. A function matching func(yield func(K, V) bool) can be used directly in a for range loop, enabling lazy sequence generation, database cursor iteration, and custom collection types without reflection or channel overhead.",
+      "Generics in 1.24 receive three improvements from the type inference engine: type parameters can now be inferred from struct literal expressions, type aliases with type parameters are fully supported (not just defined in the same package), and the type unifier now correctly handles cyclic type constraints that previously caused compiler errors. These fixes resolve the top three generics-related issues on the Go issue tracker.",
+      "Build time improvements come from a rewritten package dependency graph analysis engine (codename: Blade) that parallelizes compilation unit detection 8x more aggressively. For large monorepos (1M+ lines of Go), incremental builds that previously took 45 seconds now take 33 seconds. Full builds show a 15–25% improvement depending on CPU core count, with larger gains on machines with 16+ cores.",
+      "<blockquote>Range-over-functions is the feature that completes the language for idiomatic Go. For five years, every library that wanted to expose a collection had to choose between a channel (correct but slow), a slice (fast but eager), or a callback (correct and fast but ugly). Rangefunc is correct, fast, and beautiful. — Russ Cox, Go Tech Lead, Google</blockquote>",
+      "Go 1.24 also finalizes the toolchain directive in go.mod, allowing projects to pin the exact Go toolchain version used for builds — eliminating 'works on my machine' issues caused by different Go versions. The log/slog structured logging package gets performance improvements (50% faster for hot-path logging), and the net/http package adds native HTTP/3 (QUIC) support as an opt-in flag, completing a three-release rollout that began in Go 1.22.",
+    ],
+    company: 'Google',
+    readTime: 5,
+    tags: ['Go', 'Golang', 'Programming Languages', 'Google', 'Generics'],
+  },
 ];
 
 TC.timelineData = {
