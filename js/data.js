@@ -1693,6 +1693,23 @@ undefined
     readTime: 6,
     tags: ['Post-Quantum Cryptography', 'NIST', 'FIPS', 'ML-KEM', 'Cryptography', 'Security Standards'],
   },
+
+  {
+    id: 99,
+    category: 'Hardware',
+    title: 'Intel Foundry 14A Process in Risk Production: First Customer Silicon Returns Show 35% IPC Gain Over N3E',
+    excerpt: 'Intel's most advanced process node delivers silicon that outperforms TSMC N3E on CPU performance benchmarks, marking a genuine foundry comeback.',
+    body: [
+      "Intel Foundry has announced that first customer silicon on its 14A process node (equivalent to approximately 1.4nm class, measured in angstroms) has returned from fabrication with IPC (instructions per clock) results 35% above TSMC N3E on equivalent CPU workloads. The result, achieved using Intel's RibbonFET gate-all-around transistor architecture and PowerVia backside power delivery, represents Intel's strongest competitive position against TSMC in the sub-3nm era.",
+      "14A uses RibbonFET 2.0 — the second generation of Intel's gate-all-around transistor design, with horizontal nanosheet channels — combined with PowerVia, Intel's backside power delivery network that routes power connections below the silicon rather than through the front-side metal stack. PowerVia eliminates the routing congestion from power rails, freeing the front-side metal layers entirely for signal routing and enabling 20% higher transistor density.",
+      "The 35% IPC improvement versus TSMC N3E is measured specifically on CPU workloads (integer compute, branch prediction, cache hierarchy access patterns). For GPU and AI accelerator workloads, Intel's internal benchmarks show a smaller but still significant 22% improvement. The first confirmed customer is Intel's own Panther Lake PC processor family (14A for the CPU die), with external customer tape-outs from a disclosed 'hyperscaler customer' for AI accelerator silicon.",
+      "<blockquote>Two years ago, pundits were writing Intel's obituary as a manufacturer. Today, we have the most advanced transistor architecture in production, a backside power delivery first-to-market, and customer silicon that outperforms the best our competitors offer. The obituary was premature. — Pat Gelsinger, CEO, Intel</blockquote>",
+      "Intel's 14A risk production status means only a small quantity of wafers are being produced for characterization. Volume production is targeted for H2 2027. Wall Street has responded positively: Intel stock rose 18% on the risk production announcement. The market's reaction reflects the high stakes — if Intel 14A achieves volume production yield on schedule, it would be Intel's first meaningful foundry competitive win since the 10nm era failure in 2018.",
+    ],
+    company: 'Intel',
+    readTime: 6,
+    tags: ['Intel', 'Semiconductor', '14A', 'RibbonFET', 'Foundry', 'CPU', 'Chip Manufacturing'],
+  },
 ];
 
 TC.timelineData = {
