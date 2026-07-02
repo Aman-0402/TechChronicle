@@ -1489,6 +1489,23 @@ undefined
     readTime: 5,
     tags: ['Meta', 'Llama 4', 'Open Source AI', 'LLM', 'Long Context', 'Open Weights'],
   },
+
+  {
+    id: 87,
+    category: 'Research',
+    title: 'Stanford HAI Report: AI Coding Assistants Reduce Senior Engineer Output Variance by 40%, Not Speed',
+    excerpt: 'Surprising finding from largest-ever study of AI pair programming: biggest benefit is not making slow engineers faster but making inconsistent engineers consistent.',
+    body: [
+      "Stanford's Human-Centered AI Institute has published the largest-ever empirical study of AI coding assistant impact on professional software engineers, with 2,847 engineers across 34 companies tracked over 18 months. The headline finding challenges the prevailing narrative: the primary benefit of AI coding assistants is not productivity speed improvement but reduction in output quality variance — making inconsistent engineers more consistent.",
+      "The study measured five metrics: lines of code per hour, bug introduction rate, code review rework rate, time-to-merge for PRs, and test coverage on new code. The largest effect was on rework rate: engineers using AI assistants required 40% less code review rework on average. The second largest effect was bug rate reduction: AI-assisted code had 28% fewer bugs post-merge. Speed (lines of code per hour) showed only a 12% improvement, with high variance.",
+      "The most striking finding: for senior engineers in the top performance quartile, AI assistants produced no statistically significant speed improvement. For engineers in the bottom performance quartile, speed improved 34% but quality metrics diverged — faster code with similar or higher bug rates. For mid-level engineers, both speed (+18%) and quality (+31% fewer bugs) improved simultaneously.",
+      "<blockquote>We expected to find that AI assistants made everyone faster. What we found is more interesting: they make engineers more like their best selves. Your worst days with an AI assistant look like your average days without one. — Percy Liang, Director, Stanford Center for Research on Foundation Models</blockquote>",
+      "The study also found that AI assistant usage correlates with a 22% reduction in context-switching overhead (engineers interrupt themselves less frequently to search documentation), and that code written with AI assistance has 19% higher test coverage — not because engineers wrote more tests but because AI suggestions included test stubs. The full report is available on the Stanford HAI website and has been submitted to Nature for peer review.",
+    ],
+    company: 'Stanford HAI',
+    readTime: 6,
+    tags: ['AI Coding', 'Software Engineering', 'Research', 'Productivity', 'Stanford', 'Developer Tools'],
+  },
 ];
 
 TC.timelineData = {
