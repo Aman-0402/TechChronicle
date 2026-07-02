@@ -2313,6 +2313,24 @@ undefined
     readTime: 6,
     tags: ['Quantum Computing', 'Google', 'Error Correction', 'Quantum Research', 'Qubits'],
   },
+
+  {
+    id: 128,
+    date: '2026-07-04',
+    category: 'Open Source',
+    title: 'Firefox 130 Ships Built-In AI Translation for 100 Languages: No Extension, No Account, No Cloud',
+    excerpt: 'Mozilla integrates offline neural translation directly into the browser, challenging Google Translate's dominance with a privacy-preserving alternative.',
+    body: [
+      "Mozilla has released Firefox 130 with Firefox Translations built in as a native browser feature — no extension required, no Mozilla account, no network request. The feature uses on-device neural machine translation models (OPUS-MT, optimized by Mozilla for WebAssembly execution) downloaded on demand per language pair and stored locally. Translation happens in the browser process with no data transmitted to any server.",
+      "Firefox 130 supports translation between any of 100 languages, including low-resource languages (Swahili, Bengali, Tagalog, and 37 others) that are not supported by Chrome's built-in translation or Google Translate's browser integration. The language models range from 15MB (common language pairs like English-Spanish) to 45MB (rare language pairs with less training data) and are cached after first download.",
+      "The privacy architecture makes Firefox Translations categorically different from Chrome's Google Translate integration: Chrome sends page content to Google's servers for translation, where it may be logged, associated with your Google account, and used to improve translation models. Firefox Translations runs entirely on-device; Mozilla has no technical ability to observe what pages users translate or what languages they use.",
+      "<blockquote>Translation is not a search query. It is often something private — a medical document, a legal notice, a personal message from a family member in another language. Sending that content to a third-party server for translation is a privacy issue that most users do not know is happening. Firefox Translations makes that issue obsolete. — Mozilla Engineering Team, Firefox 130 release notes</blockquote>",
+      "Performance is competitive: Firefox Translations translates a 1,000-word page in approximately 1.2 seconds on a modern laptop, versus 0.4 seconds for Google Translate's server-side translation. The offline capability is the killer feature: travelers, users in restricted network environments, and users on metered connections can translate pages without any network access after the initial model download. Firefox 130 also ships WebXR improvements, CSS Anchor Positioning (stable), and the Temporal API for date/time handling.",
+    ],
+    company: 'Mozilla',
+    readTime: 5,
+    tags: ['Firefox', 'Mozilla', 'Translation', 'On-Device AI', 'Privacy', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
