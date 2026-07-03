@@ -2979,6 +2979,24 @@ undefined
     readTime: 5,
     tags: ['Google Veo 3', 'Video Generation', 'Audio Synthesis', 'AI Video', 'Multimodal AI'],
   },
+
+  {
+    id: 165,
+    date: '2026-07-06',
+    category: 'Research',
+    title: 'Commonwealth Fusion Systems Achieves Net Fusion Energy Gain for Second Time: 2.3x Input Energy Returned',
+    excerpt: 'Second net-energy-gain result using high-temperature superconducting magnets validates the fusion energy path that could reach commercial scale by 2035.',
+    body: [
+      "Commonwealth Fusion Systems (CFS) has achieved net fusion energy gain for the second time in its SPARC demonstration reactor, producing 2.3 megajoules of fusion energy from 1.0 megajoule of input energy — a gain factor (Q) of 2.3. The result follows CFS's historic Q=1.2 demonstration in December 2025 and validates that the gain is reproducible and improvable. NIF (National Ignition Facility) achieved Q=1.5 in laser fusion in 2022, but magnetic confinement fusion (SPARC's approach) achieving Q>1 is a separate and arguably more commercially relevant milestone.",
+      "SPARC uses Commonwealth Fusion's signature technology: REBCO (Rare Earth Barium Copper Oxide) high-temperature superconducting magnets that achieve 20 Tesla magnetic field strength — twice the field of previous tokamak designs — in a compact device. The higher field enables a much smaller reactor to achieve the plasma conditions required for fusion: SPARC is 8 meters tall versus ITER's 23 meters, with 1/65th of ITER's volume. Smaller size means dramatically lower construction cost.",
+      "The Q=2.3 result uses deuterium-tritium fuel at 150 million degrees Celsius (10x the Sun's core temperature), confined by the 20 Tesla magnetic field for 1.2 seconds. The plasma achieved a record fusion triple product (the key figure of merit combining density, temperature, and confinement time) of 2.1x10^21 keV·s/m^3 — 30% higher than the previous world record set by the Joint European Torus (JET) in 2022.",
+      "<blockquote>Net gain twice is not luck. It is a result. Q of 2.3 means for every joule we put in, we get 2.3 joules of fusion energy back. Our next milestone is Q of 10, which is what you need for a commercially viable power plant. SPARC is a demonstration reactor, not a power plant. ARC — our commercial reactor — is what we build next. — Bob Mumgaard, CEO, Commonwealth Fusion Systems</blockquote>",
+      "CFS has raised $2.4 billion in total funding, with investors including Google, Eni, Equinor, and the government of Singapore. The company plans to break ground on ARC (the commercial-scale reactor, targeting Q=10 and 200 MW net electrical output) in 2028, with first power generation targeted for 2035. ARC would be 20x smaller than ITER and cost approximately $2 billion to build — within the financing range of conventional power plant projects. The DOE has provided $50 million in research grants to support the transition from SPARC to ARC.",
+    ],
+    company: 'Commonwealth Fusion Systems',
+    readTime: 6,
+    tags: ['Fusion Energy', 'Commonwealth Fusion', 'SPARC', 'Clean Energy', 'Research', 'Superconductors'],
+  },
 ];
 
 TC.timelineData = {
