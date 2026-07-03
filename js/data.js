@@ -3303,6 +3303,24 @@ undefined
     readTime: 6,
     tags: ['TSMC', 'N2P', 'Semiconductor', '2nm', 'Apple', 'NVIDIA', 'Manufacturing'],
   },
+
+  {
+    id: 183,
+    date: '2026-07-07',
+    category: 'Open Source',
+    title: 'Apache Kafka 4.0 Removes ZooKeeper Dependency Entirely, Achieves 10x Throughput Gains with KRaft Mode',
+    excerpt: 'The distributed streaming platform completes its multi-year architectural transition to self-managed metadata consensus, eliminating the operational complexity of a separate ZooKeeper cluster.',
+    body: [
+      "Apache Kafka 4.0 has been released, completing the KRaft (Kafka Raft Metadata) architectural transition that the project began in 2021. Kafka 4.0 removes all ZooKeeper code from the codebase — users upgrading from Kafka 3.x must migrate to KRaft before upgrading, and the migration tooling has been substantially improved to make this a one-command operation for most deployments. The removal eliminates the operational burden that has historically been Kafka's most significant complaint: managing two separate distributed systems (Kafka brokers + ZooKeeper ensemble) with different failure modes, monitoring needs, and capacity planning requirements.",
+      "The performance improvements from KRaft are more significant than anticipated during the original design: Kafka 4.0 achieves 10x faster metadata operations than ZooKeeper-based Kafka, enabling partition counts per cluster to scale from a practical ceiling of 200,000 partitions (with ZooKeeper) to 2 million partitions. Larger partition counts allow finer-grained topic partitioning, which is the primary mechanism for distributing load across Kafka consumers. Major users at high-scale deployments — LinkedIn (which originated Kafka), Confluent's managed service, and Uber — have reported 3-5x throughput gains in early production testing of the 4.0 release candidates.",
+      "Additional 4.0 changes: the tiered storage feature (which allows Kafka to offload older log segments to object storage like S3 while keeping recent data on local disks) graduates from technical preview to GA, dramatically reducing storage costs for long-retention topics. The new consumer group protocol (NCGP) replaces the original rebalancing protocol with a more efficient cooperative approach that eliminates the 'stop the world' consumer group rebalances that caused processing pauses during scaling events. The Kafka Streams API gains stateful processing improvements and a new interactive queries V3 API.",
+      "<blockquote>ZooKeeper served Kafka well for 14 years, but it was always an architectural mismatch — we were running a consensus system to manage a consensus system. KRaft gives Kafka first-class ownership of its own metadata, and the performance results validate the years of engineering investment. Kafka 4.0 is the platform we wanted to build in 2011 but did not have the engineering resources to build then. — Jun Rao, Apache Kafka PMC Chair</blockquote>",
+      "The Kafka ecosystem is adapting rapidly: Confluent Cloud (the managed Kafka service) will migrate all existing clusters to 4.0 KRaft over the next 12 months with no customer downtime required, using a rolling in-place upgrade process. Red Hat's AMQ Streams (OpenShift's Kafka distribution) and AWS MSK (Managed Streaming for Apache Kafka) have committed to 4.0 support within 60 days of the release. Competing streaming platforms — Redpanda, Pulsar, and WarpStream — have each responded with performance comparison benchmarks attempting to show their architecture's advantages, reflecting Kafka's continued dominance as the industry standard for event streaming.",
+    ],
+    company: 'Apache Foundation',
+    readTime: 5,
+    tags: ['Apache Kafka', 'KRaft', 'ZooKeeper', 'Distributed Systems', 'Event Streaming', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
