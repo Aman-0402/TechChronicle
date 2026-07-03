@@ -3375,6 +3375,24 @@ undefined
     readTime: 7,
     tags: ['AI Index', 'Stanford', 'AI Progress', 'AI Energy', 'AI Safety', 'Research'],
   },
+
+  {
+    id: 187,
+    date: '2026-07-07',
+    category: 'Dev Tools',
+    title: 'ESLint 10 Rewrites Core in Rust: 20x Faster Linting, Maintains Full JavaScript Plugin Compatibility via Wasm Bridge',
+    excerpt: 'The most widely used JavaScript linter completes a ground-up Rust rewrite of its core analysis engine while preserving the existing plugin ecosystem through a WebAssembly compatibility layer.',
+    body: [
+      "ESLint 10 has been released with a complete rewrite of the linting engine in Rust, delivering a 20x performance improvement over ESLint 9 on large codebases while maintaining compatibility with all existing ESLint plugins through a WebAssembly bridge. The rewrite follows a trend established by tools like Biome (ESLint's Rust-based successor candidate), Oxc (an emerging Rust-based JS toolchain), and Ruff (Python's Rust linter). What differentiates ESLint 10 from these alternatives is the explicit goal of backward compatibility: the 680+ existing ESLint plugins and 2,400+ rules available in the npm ecosystem continue to work without modification.",
+      "The compatibility mechanism: ESLint 10's Rust core parses JavaScript using a new Rust implementation of the ECMAScript specification (co-developed with the TC39 tooling group), performs the fast structural analysis in Rust, and then passes the AST (Abstract Syntax Tree) to JavaScript plugins via a WebAssembly boundary. Plugins receive the same AST shape they have always received, making the Wasm bridge transparent. The performance penalty for the Wasm bridge is approximately 15% per plugin invocation — meaning repositories using many plugins see smaller speedups than repositories using few plugins, but all repositories see at least 10x improvement.",
+      "Performance benchmarks: ESLint 10 lints the TypeScript compiler source (1.2 million lines, 4,300 files) in 0.8 seconds, compared to 17 seconds for ESLint 9 and 2.1 seconds for Biome. For Next.js applications with the standard next/eslint config, ESLint 10 processes 50,000 LOC in 0.3 seconds — fast enough that it can run on every file save without perceptible delay. The benchmark that most impressed the JavaScript community: ESLint 10 lints the entire React repository in less time than ESLint 9 takes to lint a single large file.",
+      "<blockquote>ESLint has been the reliability layer for JavaScript development for 12 years. We chose Rust for the performance, and we chose backward compatibility for the ecosystem. Asking 3 million developers to migrate to a new plugin format was not an option. The Wasm bridge is not a compromise — it is an engineering achievement that lets us have both. — Nicholas Zakas, ESLint Creator</blockquote>",
+      "The ESLint 10 release also ships a new flat config format (introduced in preview in ESLint 8, now the only supported format) that replaces the legacy cascading config system with a single eslint.config.js file that has explicit, predictable resolution semantics. The flat config migration is the only breaking change for users: the team has published an automated migration tool and estimates 95% of projects can migrate in under 30 minutes. ESLint 10 integrations for VS Code, JetBrains IDEs, and Neovim are available simultaneously with the release.",
+    ],
+    company: 'ESLint',
+    readTime: 5,
+    tags: ['ESLint', 'Rust', 'JavaScript', 'Linting', 'Dev Tools', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
