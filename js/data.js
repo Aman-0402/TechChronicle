@@ -2781,6 +2781,24 @@ undefined
     readTime: 5,
     tags: ['Supabase', 'PostgreSQL', 'Backend-as-a-Service', 'Open Source', 'Firebase', 'Startups'],
   },
+
+  {
+    id: 154,
+    date: '2026-07-06',
+    category: 'Hardware',
+    title: 'Raspberry Pi 6 Announced: Quad-Core ARM Cortex-A78, 16GB RAM, PCIe 3.0, Targets Industrial IoT',
+    excerpt: 'Sixth generation of the world's most popular single-board computer takes a decisive step toward industrial deployment with enterprise-grade connectivity.',
+    body: [
+      "The Raspberry Pi Foundation has announced the Raspberry Pi 6, featuring a quad-core ARM Cortex-A78 processor at 2.6GHz (manufactured by TSMC on 6nm process), up to 16GB LPDDR5 RAM, PCIe 3.0 x1 interface (for NVMe SSDs and accelerators), USB 3.2 Gen 2 (10Gbps), and dual 4K HDMI output — the most significant performance generational leap in Raspberry Pi's 14-year history. The board retails at $80 for the 8GB model and $110 for the 16GB model.",
+      "The PCIe 3.0 interface is the most consequential new feature for industrial users: it enables direct attachment of M.2 NVMe SSDs at 3.5 GB/s read speeds (versus microSD's 100 MB/s), NVIDIA Jetson-compatible AI accelerators via PCIe, and gigabit network cards with hardware offload. The Raspberry Pi Foundation has certified six M.2 HAT+ boards from official partners, providing a standardized expansion pathway.",
+      "The Cortex-A78 provides 2.5x CPU performance versus the Raspberry Pi 5's Cortex-A76 cores on integer workloads and 3.1x on floating-point — the largest CPU generational improvement since the Raspberry Pi 4. The on-chip GPU (Mali-G68) supports Vulkan 1.3 natively, enabling GPU-accelerated AI inference via ONNX Runtime with the OpenCL and Vulkan backends. The 16GB RAM configuration runs 7B parameter LLMs at 4-bit quantization via llama.cpp.",
+      "<blockquote>Raspberry Pi started as an educational device. It became a hobbyist device. It became a maker device. The Pi 6 is where it becomes an industrial device — not because we changed our mission but because industrial customers have been using Pi 5s in production for two years and keep asking for more RAM, faster storage, and enterprise connectivity. — Eben Upton, CEO, Raspberry Pi Ltd.</blockquote>",
+      "Raspberry Pi 6 introduces a 5-year supply guarantee program for commercial and industrial buyers, addressing the shortage concerns that plagued Pi 4 during the 2020–2022 chip crisis. The board is manufactured in Sony's Pencoed, Wales factory (the same facility used for Pi 4 and 5), with committed production capacity of 2 million units per quarter. Industrial customers can place blanket orders up to 24 months forward. The Pi 6 ships July 28, 2026.",
+    ],
+    company: 'Raspberry Pi Foundation',
+    readTime: 5,
+    tags: ['Raspberry Pi', 'Single Board Computer', 'IoT', 'ARM', 'Hardware', 'Embedded'],
+  },
 ];
 
 TC.timelineData = {
