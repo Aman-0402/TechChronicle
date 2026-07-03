@@ -3429,6 +3429,24 @@ undefined
     readTime: 5,
     tags: ['Go', 'Golang', 'Programming Languages', 'Generics', 'Open Source', 'Google'],
   },
+
+  {
+    id: 190,
+    date: '2026-07-07',
+    category: 'AI',
+    title: 'Waymo Reaches 10 Million Paid Robotaxi Rides: No At-Fault Accidents in 2 Million Miles of Commercial Operation',
+    excerpt: 'Alphabet's autonomous vehicle subsidiary passes a commercial scale milestone and releases comprehensive safety data showing its safety record compared to human drivers across comparable urban environments.',
+    body: [
+      "Waymo has announced its robotaxi service has completed 10 million paid rides across San Francisco, Phoenix, and Los Angeles — the first autonomous vehicle company to reach that commercial milestone. Simultaneously, Waymo released its most comprehensive safety report to date: across 2 million miles of commercial operation (rides where a passenger was present and fare was collected), Waymo vehicles were not at fault in any accident that caused injury to a passenger, pedestrian, or occupant of another vehicle. There were 14 minor incidents total, all involving other vehicles driving into the Waymo vehicle from behind or at intersections.",
+      "The safety comparison to human drivers: in comparable urban environments (dense city driving, mix of daytime and nighttime, comparable traffic conditions), the NTSB estimates human drivers cause approximately 2.4 injury accidents per million miles. Waymo's 0 at-fault injury accidents per 2 million commercial miles is a statistically significant improvement, though safety statisticians note that Waymo's vehicle fleet avoids some high-risk scenarios that human drivers encounter (e.g., Waymo does not currently operate in heavy rain or snow conditions, and geofences around road construction zones). Waymo published the full statistical methodology for peer review.",
+      "The commercial scale has enabled Waymo to make significant operational improvements: the Waymo Driver's machine learning models now train on real-world commercial ride data at a scale unavailable to any competitor, and the fleet has accumulated experience with edge cases (unusual pedestrian behavior, emergency vehicle interactions, complex merging scenarios) that simulation cannot fully replicate. Waymo's internal data shows the fleet's handling of novel scenarios improving 23% year-over-year as commercial scale compounds the training advantage.",
+      "<blockquote>10 million rides means 10 million times a person chose to sit in our vehicle, trust our technology, and arrive safely at their destination. That trust is not given — it is earned, and it is earned through every mile driven safely, every difficult situation navigated correctly, and every safety report published transparently for the world to evaluate. Autonomous vehicles are not going to be perfect. They are going to be better. — Tekedra Mawakana, Co-CEO, Waymo</blockquote>",
+      "Waymo's competitive position is strengthening: Tesla's Cybercab robotaxi service, which Tesla has been previewing since 2023, launched in limited beta in Austin in Q1 2026 but has not disclosed commercial ride counts or safety data. Cruise (GM's AV subsidiary) suspended operations following a 2023 incident and has not resumed commercial service. Zoox (Amazon's robotaxi unit) remains pre-commercial. Internationally, Baidu's Apollo Go service in China has reached 7 million rides in its domestic market. The autonomous vehicle commercialization race has effectively narrowed to Waymo and Baidu as the only companies with meaningful commercial scale.",
+    ],
+    company: 'Waymo',
+    readTime: 6,
+    tags: ['Waymo', 'Autonomous Vehicles', 'Robotaxi', 'AI', 'Safety', 'Alphabet'],
+  },
 ];
 
 TC.timelineData = {
