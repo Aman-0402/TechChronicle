@@ -2889,6 +2889,24 @@ undefined
     readTime: 5,
     tags: ['Harvey AI', 'Legal AI', 'Startups', 'LLM', 'Enterprise AI', 'Law'],
   },
+
+  {
+    id: 160,
+    date: '2026-07-06',
+    category: 'Dev Tools',
+    title: 'Warp Terminal 2.0: AI Command Orchestration, Shared Sessions, and Native Windows Support',
+    excerpt: 'The AI-native terminal hits version 2.0 with features that make it the first developer terminal designed around team collaboration rather than individual productivity.',
+    body: [
+      "Warp has released Terminal 2.0, adding three headline features: AI Command Orchestration (multi-step terminal workflows described in natural language and executed as auditable command sequences), Shared Sessions (real-time collaborative terminal sessions where multiple developers can view and type simultaneously), and native Windows support (first release outside macOS and Linux, using the new Windows Terminal backend). Warp 2.0 crosses 1 million monthly active users.",
+      "AI Command Orchestration is Warp's most ambitious feature: instead of suggesting individual commands, it accepts goals ('deploy the staging environment with the latest main branch, run smoke tests, and send a Slack notification if they pass') and generates a multi-command workflow with dependency ordering, error handling, and rollback steps. Each generated command is shown with explanation before execution and can be edited inline. An audit log records every command executed, by whom, and what output was produced.",
+      "Shared Sessions enable multiple developers to join a single terminal session — think Google Docs for the terminal. One developer drives (has keyboard focus) while others observe in real time, can request keyboard focus, or can annotate commands with inline comments. The feature targets the pair programming, incident response, and remote onboarding use cases where screen sharing a terminal is insufficient for collaboration. Sessions are end-to-end encrypted and stored for 30 days for compliance audit purposes.",
+      "<blockquote>The terminal has not changed meaningfully in 50 years. Same green text, same escape codes, same single-user mental model. Developers spend 40% of their working day in the terminal. We think 40% of developer time deserves better tools than 1974 technology offers. Warp 2.0 is our fullest statement yet of what the terminal should be in 2026. — Zach Lloyd, CEO, Warp</blockquote>",
+      "Windows support uses the Windows Pseudo Console (ConPTY) API and integrates with Windows Terminal's rendering engine, producing identical UI fidelity to the macOS version without using an Electron browser wrapper. Warp 2.0 on Windows supports WSL 2 natively, PowerShell 7, and Git Bash, automatically detecting and switching between shells. The Windows release has been 18 months in development and enters public beta July 6, with GA planned for September 2026.",
+    ],
+    company: 'Warp',
+    readTime: 5,
+    tags: ['Warp Terminal', 'Dev Tools', 'AI Terminal', 'Collaboration', 'Windows', 'CLI'],
+  },
 ];
 
 TC.timelineData = {
