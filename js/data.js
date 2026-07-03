@@ -2763,6 +2763,24 @@ undefined
     readTime: 6,
     tags: ['LockBit', 'Ransomware', 'FBI', 'Europol', 'Cybercrime', 'Law Enforcement'],
   },
+
+  {
+    id: 153,
+    date: '2026-07-06',
+    category: 'Cloud',
+    title: 'Supabase Reaches $1 Billion ARR, Becomes the Open-Source Firebase That Firebase Could Not Be',
+    excerpt: 'The PostgreSQL-powered backend platform hits the ARR milestone that validates open-source developer infrastructure as a durable business model.',
+    body: [
+      "Supabase has announced $1 billion in annualized recurring revenue — the first open-source backend-as-a-service platform to reach the milestone. Founded in 2020 as an open-source alternative to Google Firebase, Supabase has grown to 1.2 million registered projects, 200,000 active organizations, and 2,000 enterprise customers, powered by its promise: everything Firebase offers (real-time database, authentication, storage, edge functions), built on PostgreSQL and deployable anywhere.",
+      "The Supabase platform consists of six integrated services: PostgreSQL database (with pgvector, pg_cron, and 50 preinstalled extensions), Auth (JWT-based authentication with 30 social providers), Realtime (WebSocket subscriptions to any Postgres table change), Storage (S3-compatible object storage), Edge Functions (Deno-based serverless functions), and AI (vector embeddings, pgvector queries, and Supabase AI assistant). All six run locally via the Supabase CLI (supabase start) and in the managed cloud — identical architecture.",
+      "Enterprise adoption has been the revenue driver: while Supabase has 1.2 million registered projects, the majority of revenue comes from 2,000 enterprise customers paying $500–$50,000/month for dedicated infrastructure, SLAs, HIPAA BAAs, SOC 2 Type II compliance, and private networking. Enterprise customers include Mozilla, 1Password, Mozilla, PwC, and 400 YC companies. The average enterprise contract value is $45,000/year.",
+      "<blockquote>Firebase is a great product with a fundamental problem: it locks you in. Vendor lock-in is not a bug in Firebase's design — it is a feature of Google's business model. Supabase is open source, self-hostable, and built on PostgreSQL, which has 35 years of community and zero risk of being deprecated. Developers understand that difference. — Paul Copplestone, CEO, Supabase</blockquote>",
+      "Supabase raised a $200 million Series D at a $2 billion valuation in March 2026, with $1 billion ARR achieved four months later — an unusually fast revenue acceleration post-raise. The company is profitable on operating cash flow and has not announced IPO plans, though its ARR milestone puts it well above the threshold where public markets typically become viable. The Supabase CLI has been downloaded 15 million times, and the GitHub repository has 85,000 stars.",
+    ],
+    company: 'Supabase',
+    readTime: 5,
+    tags: ['Supabase', 'PostgreSQL', 'Backend-as-a-Service', 'Open Source', 'Firebase', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
