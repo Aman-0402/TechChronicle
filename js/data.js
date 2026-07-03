@@ -3015,6 +3015,24 @@ undefined
     readTime: 5,
     tags: ['Figma', 'IPO', 'Design Tools', 'Startups', 'Dev Tools', 'SaaS'],
   },
+
+  {
+    id: 167,
+    date: '2026-07-06',
+    category: 'Hardware',
+    title: 'SiFive Launches First RISC-V Server CPU: P870-A Matches Arm Neoverse N2 on SPECrate int2017',
+    excerpt: 'Open instruction set architecture reaches server-class performance, challenging ARM's data center dominance for the first time.',
+    body: [
+      "SiFive has launched the P870-A, the first RISC-V processor to achieve server-class performance: SPECrate2017_int_base of 480 (per chip, 64 cores at 3.2GHz), within 4% of the ARM Neoverse N2's 500 SPECrate score at equivalent core counts. The result marks RISC-V's transition from embedded and microcontroller applications to general-purpose server workloads, a milestone the RISC-V community has pursued for five years.",
+      "The P870-A is manufactured on TSMC N3E (3nm) and achieves the ARM parity through three architectural advances: a new out-of-order execution engine with a 6-wide issue window (versus 4-wide in previous SiFive designs), a 2MB L2 cache per core cluster, and a fully custom memory subsystem with 8-channel DDR5 support delivering 460 GB/s bandwidth. The chip is designed for cloud computing, AI inference (supporting a custom RISC-V vector extension with INT8 and FP8 support), and edge server workloads.",
+      "The market opportunity is geopolitical as much as technical: China's semiconductor companies, restricted from purchasing ARM architecture licenses under US export controls, are aggressively investing in RISC-V alternatives. Alibaba's T-Head division, Huawei HiSilicon, and CXMT are all shipping or developing RISC-V-based server chips. SiFive's P870-A is aimed at the global market — particularly European and Asian cloud providers seeking an alternative to ARM architecture that carries no export control risk.",
+      "<blockquote>RISC-V is not competing with x86 or ARM. RISC-V is an open standard that anyone can implement without paying licensing fees or accepting vendor lock-in. Every RISC-V chip that matches ARM performance is proof that openness and performance are not in conflict. The P870-A is that proof. — Patrick Little, CEO, SiFive</blockquote>",
+      "Amazon Web Services has announced an early access program for EC2 instances using the P870-A, targeting RISC-V native workloads (software compiled specifically for RISC-V) and containerized Linux applications. The RISC-V Linux kernel has achieved feature parity with ARM and x86 for server workloads since kernel 6.8. Docker, containerd, and Kubernetes all support RISC-V. The software ecosystem gap is now primarily in proprietary software (Oracle Database, Microsoft SQL Server) rather than open-source infrastructure.",
+    ],
+    company: 'SiFive',
+    readTime: 5,
+    tags: ['RISC-V', 'SiFive', 'Server CPU', 'Open ISA', 'Data Center', 'Hardware'],
+  },
 ];
 
 TC.timelineData = {
