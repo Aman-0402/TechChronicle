@@ -2727,6 +2727,24 @@ undefined
     readTime: 5,
     tags: ['TechChronicle', 'Milestone', 'AI', 'Technology', '150 Articles', 'Analysis'],
   },
+
+  {
+    id: 151,
+    date: '2026-07-06',
+    category: 'AI',
+    title: 'Hugging Face Surpasses 1 Million Public AI Models, Valued at $10 Billion After Strategic Investment',
+    excerpt: 'The GitHub of AI reaches a milestone that reflects the explosion of open-source model development worldwide.',
+    body: [
+      "Hugging Face has announced that its model hub has surpassed 1 million publicly available AI models — a milestone that took GitHub 14 years to reach for code repositories and Hugging Face just 7 years since launching its model hub in 2019. The announcement coincides with a $500 million strategic investment from Salesforce, ServiceNow, and Google at a $10 billion post-money valuation, making Hugging Face the most valuable open-source AI platform company.",
+      "The 1 million models span every modality and task: 380,000 text generation models (LLMs and fine-tunes), 210,000 image generation models (diffusion model variants and LoRAs), 140,000 text classification and embedding models, 95,000 audio models (speech recognition, text-to-speech, music generation), and 175,000 multimodal and specialized models. The majority — 780,000 — are community fine-tunes of base models like Llama, Mistral, Stable Diffusion, and Whisper.",
+      "Hugging Face's business model has evolved significantly: beyond the free model hub, the company earns revenue from Inference Endpoints (managed model deployment, $140M ARR), the Enterprise Hub (private model hosting with SSO and audit logs, $80M ARR), and AutoTrain (no-code fine-tuning, $30M ARR). Total ARR has crossed $250 million, with the company projecting profitability in 2027.",
+      "<blockquote>One million models is not a storage metric. It is a measure of how many researchers, companies, and individuals believe that sharing AI capabilities openly is better than hoarding them. We built Hugging Face to be the place where open AI lives. The community built the million models. — Clement Delangue, CEO, Hugging Face</blockquote>",
+      "Hugging Face has launched three new infrastructure features alongside the valuation announcement: Hugging Face Spaces GPU Upgrade (A100 80GB instances available in Spaces for $4/hour, enabling hosting of 70B parameter models), Inference Endpoints v2 (auto-scaling from 0 to 100 replicas with cold start under 30 seconds), and the Model Safety Scanner (automatic scanning of every uploaded model for backdoors, trojans, and malicious pickle payloads). The safety scanner has already flagged 2,400 models containing malicious payloads since soft launch.",
+    ],
+    company: 'Hugging Face',
+    readTime: 5,
+    tags: ['Hugging Face', 'Open Source AI', 'Model Hub', 'AI Platform', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
