@@ -3213,6 +3213,24 @@ undefined
     readTime: 5,
     tags: ['Neovim', 'Dev Tools', 'AI Completion', 'Plugin System', 'Terminal', 'Open Source'],
   },
+
+  {
+    id: 178,
+    date: '2026-07-07',
+    category: 'Startups',
+    title: 'Perplexity AI Crosses 100 Million Monthly Active Users, Now Generates More Daily Searches Than Bing',
+    excerpt: 'The AI search startup reaches a milestone that underscores the structural shift happening in how people find information online, challenging Google and Microsoft simultaneously.',
+    body: [
+      "Perplexity AI has announced 100 million monthly active users, a milestone reached 22 months after its public launch — faster than TikTok's growth to the same milestone. The company simultaneously disclosed that it now processes more daily search queries than Microsoft Bing, the world's second-largest search engine. Perplexity CEO Aravind Srinivas announced the figures at a press event in San Francisco, stating that the company's annual recurring revenue has crossed $800 million, up from $73 million in early 2025. The company's valuation in its most recent funding round was $12 billion.",
+      "The growth has come primarily from three user segments: knowledge workers who use Perplexity for research-intensive tasks (citing its source attribution and multi-step reasoning capabilities), students who value the academic citation integration (Perplexity automatically formats citations in APA, MLA, and Chicago style), and developers who use the API to power research features in their own products. The Pro subscription tier at $20/month has achieved what Srinivas called 'unprecedented conversion' — 12% of registered users pay for Pro, compared to sub-2% conversion rates for typical SaaS freemium products.",
+      "Perplexity's architecture differs fundamentally from Google and Bing: instead of returning a list of links for users to visit, it synthesizes information from multiple sources into a direct answer with inline citations. The company maintains its own web crawler (PerplexityBot) indexing 5 billion pages, supplemented by partnerships with Bloomberg, Reuters, and The Wall Street Journal for real-time news content. Its underlying AI models are a mixture of its own fine-tuned research-focused models and access to frontier models from Anthropic and Mistral via API.",
+      "<blockquote>Search has been link lists for 28 years. The reason Google never changed it is not that link lists are the best way to find information — it is that Google built trillion-dollar businesses on the advertising model that depends on users clicking through to pages. We are not constrained by that legacy. We can build search that actually answers questions. — Aravind Srinivas, CEO, Perplexity AI</blockquote>",
+      "Google has responded with AI Overviews (formerly SGE), which now appears on over 40% of Google search queries. But user satisfaction data from Qualtrics shows Perplexity users rate answer quality 23% higher than Google AI Overviews users for complex research queries. The advertising implications are significant: Perplexity has introduced 'Sponsored Answers' — clearly labeled AI-generated answers that incorporate advertiser-provided information — as its primary monetization strategy alongside subscriptions, sidestepping the click-based CPM model entirely.",
+    ],
+    company: 'Perplexity AI',
+    readTime: 5,
+    tags: ['Perplexity AI', 'Search', 'AI', 'Growth', 'Startups', 'Google Competition'],
+  },
 ];
 
 TC.timelineData = {
