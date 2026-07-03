@@ -2997,6 +2997,24 @@ undefined
     readTime: 6,
     tags: ['Fusion Energy', 'Commonwealth Fusion', 'SPARC', 'Clean Energy', 'Research', 'Superconductors'],
   },
+
+  {
+    id: 166,
+    date: '2026-07-06',
+    category: 'Open Source',
+    title: 'Figma IPO Files S-1: $2.4 Billion Revenue, 9 Million Users, $12 Billion Valuation at Offering Price',
+    excerpt: 'The design platform that survived Adobe's blocked acquisition attempt files for the most anticipated designer-tool IPO in history.',
+    body: [
+      "Figma has filed its S-1 registration statement with the SEC, seeking a $12 billion valuation at IPO price — significantly below its 2022 peak private valuation of $20 billion (Adobe's blocked acquisition price) but reflecting realistic public market multiples of 5x revenue. The S-1 reveals $2.4 billion in annualized revenue, 9 million registered users, 850,000 paying organizations, and 78% gross margins — financial metrics that position Figma as one of the strongest software IPO candidates of the 2020s decade.",
+      "Figma's financial trajectory post-Adobe-acquisition-block: revenue grew 38% in 2025 and is on track for 42% growth in 2026, accelerating from the 28% growth rate at the time of Adobe's 2022 acquisition announcement. CEO Dylan Field attributes the acceleration to three factors: Figma AI (AI-powered design generation and code-to-design conversion, launched 2025), Figma Sites (website builder launched 2026, now $180M ARR), and Dev Mode expansion (developer handoff tools with interactive component documentation, now Figma's second-fastest-growing product at $240M ARR).",
+      "The S-1 reveals Figma's competition landscape: its primary competitors are listed as Adobe XD (declining), Sketch (declining), Canva (growing but targeting non-designers), and Microsoft (PowerPoint-adjacent). The company notes that Cursor, GitHub Copilot, and AI-native development tools represent an emerging competitive threat to Dev Mode, as AI increasingly generates UI code directly — potentially reducing the need for design handoff tooling.",
+      "<blockquote>Adobe tried to buy us for $20 billion. The FTC blocked it. We spent two years proving that blocking was the right call — not just for competition, but for Figma. We built Figma Sites. We built Figma AI. We expanded Dev Mode. The company that files today is better than the company that would have been absorbed in 2023. The FTC did us a favor. — Dylan Field, CEO, Figma</blockquote>",
+      "Figma plans to trade on the NYSE under the ticker FIG. The offering is being managed by Goldman Sachs, Morgan Stanley, and Allen and Company. The IPO is expected in September 2026, pending SEC review. The company plans to use proceeds to fund AI model training (building proprietary design-specific AI rather than relying on third-party models), international expansion in Japan and South Korea (two of its fastest-growing markets), and enterprise sales team expansion.",
+    ],
+    company: 'Figma',
+    readTime: 5,
+    tags: ['Figma', 'IPO', 'Design Tools', 'Startups', 'Dev Tools', 'SaaS'],
+  },
 ];
 
 TC.timelineData = {
