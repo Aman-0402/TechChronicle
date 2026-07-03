@@ -2817,6 +2817,24 @@ undefined
     readTime: 5,
     tags: ['C++26', 'C++', 'Programming Languages', 'Contracts', 'Pattern Matching', 'Reflection'],
   },
+
+  {
+    id: 156,
+    date: '2026-07-06',
+    category: 'AI',
+    title: 'Adobe Firefly 4 Video: Generate Commercial-Ready Clips with Brand-Safe Content Guarantees',
+    excerpt: 'Adobe embeds legal indemnification into AI video generation, solving the IP liability problem that has blocked enterprise adoption of AI creative tools.',
+    body: [
+      "Adobe has released Firefly 4 Video, a commercial-grade AI video generation model trained exclusively on licensed content (Adobe Stock, public domain, and opt-in creator content) with a legal indemnification guarantee: if any Firefly-generated content results in copyright infringement claims, Adobe will defend and indemnify customers at no cost. The indemnification guarantee — matching what Adobe introduced for Firefly Image in 2023 — is the feature that differentiates Firefly from Sora, Runway, and Kling for enterprise customers with legal risk exposure.",
+      "Firefly 4 Video generates clips up to 2 minutes at 1080p from text prompts, reference images, or storyboard sequences. The quality gap versus Sora 2.0 is acknowledged by Adobe: Firefly 4 Video is rated by creative professionals as 'production-adjacent' (requiring post-production work) versus Sora 2.0 which is rated 'near-production-ready' for certain shot types. Adobe's pitch is not maximum quality — it is maximum legal safety combined with deep Creative Cloud integration.",
+      "The Creative Cloud integration is genuinely differentiated: Firefly 4 Video clips import directly into Premiere Pro with full metadata (prompt used, generation timestamp, Firefly model version) preserved as clip attributes for audit purposes. The After Effects integration enables frame-accurate replacement of Firefly-generated clips with live action footage using the Roto Brush 3.0 tool, which recognizes the semantic structure of Firefly outputs.",
+      "<blockquote>Every general counsel we spoke to had the same question: if our marketing team uses this AI video tool and we get sued for copyright infringement, who is liable? The honest answer for most AI tools is 'you are.' With Firefly, the answer is 'Adobe is.' That single sentence has unlocked AI creative adoption across our Fortune 500 customer base. — Shantanu Narayen, CEO, Adobe</blockquote>",
+      "Firefly 4 Video is available to Creative Cloud All Apps subscribers ($60/month) with 100 generation credits per month. Adobe Stock Enterprise subscribers receive unlimited generations for internal use. The generation credits system applies to both image and video generations, with video consuming 10x more credits than image generation due to compute cost. Adobe reports 18 million active Firefly users across image, vector, and now video generation.",
+    ],
+    company: 'Adobe',
+    readTime: 5,
+    tags: ['Adobe', 'Firefly', 'AI Video', 'Creative AI', 'Copyright', 'Enterprise AI'],
+  },
 ];
 
 TC.timelineData = {
