@@ -3141,6 +3141,24 @@ undefined
     readTime: 5,
     tags: ['Intel', 'Panther Lake', 'CPU', 'Benchmarks', 'AMD', 'Intel 18A'],
   },
+
+  {
+    id: 174,
+    date: '2026-07-07',
+    category: 'Open Source',
+    title: 'Python 4.0 Release Candidate Drops Legacy Compatibility, Adopts Free-Threaded Execution and JIT Compilation by Default',
+    excerpt: 'After three years of development, Python's next major version makes free-threaded execution and just-in-time compilation opt-out rather than opt-in, representing the largest performance shift in the language's history.',
+    body: [
+      "Python 4.0 Release Candidate 1 is available, marking the first major version release since Python 3.0 in 2008. The headline change: free-threaded execution (removal of the Global Interpreter Lock) and the Faster CPython JIT compiler are both enabled by default. Users who need single-threaded semantics for compatibility with legacy C extensions can still enable the GIL via a command-line flag or environment variable, but the default Python experience is now multi-threaded and JIT-accelerated. Benchmarks on the reference CPython 4.0 implementation show 2.5x-4x speedups on CPU-bound workloads versus Python 3.12.",
+      "The compatibility breaks that prompted the major version bump: Python 4.0 removes all deprecated APIs accumulated since Python 3.0 (over 200 removals), drops support for Python 2-style string handling that was kept alive via compatibility shims, removes the distutils module entirely, and changes dictionary ordering guarantees in ways that break code relying on specific hash randomization behavior. The Python Steering Council estimates 15-20% of existing PyPI packages will require updates, but automated migration tooling (py4to4, the successor to 2to3) handles roughly 80% of cases automatically.",
+      "The JIT compiler, contributed by a team led by Brandt Bucher at Microsoft and Mark Shannon at the Python Steering Council, uses a copy-and-patch compilation strategy that specializes bytecode sequences at runtime based on observed types. Unlike PyPy's tracing JIT which requires long warm-up, CPython 4.0's JIT delivers meaningful speedups within the first few thousand iterations of a function — making it practical for short-lived scripts, not just long-running server processes. The free-threading implementation builds on the work-stealing thread scheduler contributed by teams at Meta and Google over the past two years.",
+      "<blockquote>Python 4.0 is not Python 3.0's difficult second album. We learned from that transition. This time the migration tooling exists before the release, the ecosystem has had years to prepare, and the performance gains are so substantial that the Python community is overwhelmingly enthusiastic rather than resistant. This is Python growing up without losing what makes it Python. — Guido van Rossum, Python Creator</blockquote>",
+      "The scientific Python ecosystem — NumPy, SciPy, Pandas, PyTorch — has coordinated a simultaneous release of Python 4.0-compatible versions, meaning the migration path for data science users is relatively smooth. Web frameworks took longer: Django 6.0, Flask 4.0, and FastAPI 0.120 all added Python 4.0 support in their most recent releases. The biggest outstanding issue is C extension compatibility: packages using the C-API thread-unsafe APIs (roughly 40% of C-extension packages) will silently break with free-threading enabled unless recompiled against the 4.0 headers.",
+    ],
+    company: 'Python Software Foundation',
+    readTime: 6,
+    tags: ['Python 4.0', 'JIT', 'Free Threading', 'Open Source', 'CPython', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
