@@ -3285,6 +3285,24 @@ undefined
     readTime: 5,
     tags: ['Cloudflare', 'AI Scraping', 'Web Security', 'Publishers', 'Training Data'],
   },
+
+  {
+    id: 182,
+    date: '2026-07-07',
+    category: 'Hardware',
+    title: 'TSMC N2P Yields Reach 68%: First Sub-2nm Process in Volume Production Ships to Apple and NVIDIA Ahead of Schedule',
+    excerpt: 'Taiwan Semiconductor Manufacturing Company's most advanced production process achieves commercial viability six months ahead of its original 2027 target, reshaping chip supply chain planning.',
+    body: [
+      "TSMC has confirmed that its N2P (2nm Enhanced) process node has achieved 68% die yield in volume production — the threshold at which high-volume production is economically viable — and has begun shipping N2P wafers to Apple for the A20 chip and to NVIDIA for the Blackwell Ultra architecture. The yield milestone was reached approximately six months ahead of TSMC's original timeline, which had projected N2P readiness for early 2027. The acceleration is attributed to process learnings from N2 (which launched on schedule in 2025) transferring to N2P more efficiently than projected.",
+      "N2P offers approximately 12% performance improvement over N2 at the same power level, or 30% power reduction at the same performance level, compared to N2. The improvements come from an enhanced nanosheet transistor design (3 nanosheets instead of 2 in N2) and improved metal layer routing that reduces resistance. For AI accelerator chips, which are primarily power-constrained (limited by cooling capacity in data centers), the power reduction is the more commercially valuable improvement. NVIDIA's Blackwell Ultra on N2P is projected to offer 30-35% more FLOPS-per-watt than Blackwell B200 on N3E.",
+      "The yield acceleration has significant geopolitical implications. TSMC's advanced node capacity is heavily concentrated in Taiwan, and the US, EU, and Japanese governments have each invested billions in TSMC overseas fabs (Arizona, Dresden, and Kumamoto respectively). However, those fabs are targeting N3 and N2 at best by 2027-2028. N2P production will remain Taiwan-exclusive through at least 2029, meaning the most advanced AI chip manufacturing continues to depend on Taiwanese fabs despite supply chain diversification efforts. Intel's competing 18A process — targeting similar density — has achieved 70% yield in Intel's own reporting, setting up a genuine 2027 competition between TSMC and Intel for the most advanced semiconductor production.",
+      "<blockquote>N2P on schedule and ahead of yield targets is a demonstration that TSMC's process leadership is not a lucky streak — it is systematic execution. We have delivered a leading-edge process node on or ahead of schedule for 15 consecutive years. This consistency is why the world's most demanding chip designers trust TSMC. — C.C. Wei, CEO, TSMC</blockquote>",
+      "The wafer price for N2P is approximately $25,000 per 300mm wafer, compared to $18,000 for N3E and $12,000 for N5. Despite the higher cost, demand exceeds TSMC's projected N2P capacity through 2027: Apple's A20 and M5 chips, NVIDIA's Blackwell Ultra, Qualcomm's Snapdragon 9 Gen 5 Elite, and AMD's next-generation EPYC Genoa 3 server processors are all competing for N2P allocation. TSMC is accelerating Fab 25 expansion in Hsinchu to add capacity, targeting a 20% N2P capacity increase by Q3 2027.",
+    ],
+    company: 'TSMC',
+    readTime: 6,
+    tags: ['TSMC', 'N2P', 'Semiconductor', '2nm', 'Apple', 'NVIDIA', 'Manufacturing'],
+  },
 ];
 
 TC.timelineData = {
