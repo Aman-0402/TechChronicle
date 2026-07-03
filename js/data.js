@@ -2871,6 +2871,24 @@ undefined
     readTime: 5,
     tags: ['React', 'React 20', 'JavaScript', 'Frontend', 'Meta', 'React Compiler'],
   },
+
+  {
+    id: 159,
+    date: '2026-07-06',
+    category: 'Startups',
+    title: 'Harvey AI Raises $300M Series C at $3 Billion Valuation: AI Legal Assistant Now Used by 100 of 200 Top Law Firms',
+    excerpt: 'Legal AI platform achieves dominant market position in BigLaw as AI-assisted legal work shifts from experiment to standard practice.',
+    body: [
+      "Harvey AI has closed a $300 million Series C at a $3 billion post-money valuation, with the round led by GV (Google Ventures) and co-led by OpenAI. The company reports $150 million in annualized revenue, with 100 of the 200 largest US law firms as paying customers — a market penetration rate that took Salesforce a decade to achieve in enterprise software. Harvey's platform is deployed at Latham and Watkins, Allen and Overy, PricewaterhouseCoopers Legal, and the legal departments of three Fortune 50 companies.",
+      "Harvey's product is a Claude-4-Opus-powered legal AI (built on a fine-tuned version of Anthropic's model trained on legal corpora) that drafts contracts, reviews due diligence documents, researches case law, and summarizes regulatory filings. The platform integrates with Clio (legal practice management), iManage (document management), and the major legal research platforms (Westlaw, LexisNexis, Fastcase) to provide in-context AI assistance within existing workflows.",
+      "The accuracy metrics that drove BigLaw adoption: Harvey achieves 94.2% accuracy on US case law citation verification (finding the correct case and pinpoint citation from a description), 91.8% accuracy on contract clause classification across 47 standard contract types, and 88.4% accuracy on regulatory cross-reference identification. All three exceed the accuracy of first-year associate performance on the same tasks in controlled studies.",
+      "<blockquote>Law firms have been telling their clients for 30 years that they charge $800 an hour for associate work because associates provide judgment, not labor. AI has now made that distinction visible. Harvey handles the labor. The $800-an-hour question is what judgment the lawyer adds on top. The firms that answer that question well will thrive. The ones that do not will not. — Winston Weinberg, CEO, Harvey AI</blockquote>",
+      "The $300 million Series C includes a strategic commitment from OpenAI to provide Harvey with priority API access, early model access, and joint marketing. The partnership formalization follows OpenAI's equity stake in Harvey from the Seed round. Harvey is developing Harvey 2.0, which adds autonomous document review capability — the ability to review 500-page due diligence packages, flag issues, draft summaries, and prepare question lists for client review, without attorney involvement at each step.",
+    ],
+    company: 'Harvey AI',
+    readTime: 5,
+    tags: ['Harvey AI', 'Legal AI', 'Startups', 'LLM', 'Enterprise AI', 'Law'],
+  },
 ];
 
 TC.timelineData = {
