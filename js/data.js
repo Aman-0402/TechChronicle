@@ -2745,6 +2745,24 @@ undefined
     readTime: 5,
     tags: ['Hugging Face', 'Open Source AI', 'Model Hub', 'AI Platform', 'Startups'],
   },
+
+  {
+    id: 152,
+    date: '2026-07-06',
+    category: 'Cybersecurity',
+    title: 'LockBit 4.0 Ransomware Gang Dismantled: FBI and Europol Arrest 16 Core Members in 12 Countries',
+    excerpt: 'The most prolific ransomware operation in history is disrupted for the second time, with arrests finally reaching core infrastructure operators.',
+    body: [
+      "The FBI, Europol, the UK National Crime Agency, and law enforcement agencies from 10 additional countries have arrested 16 core members of the LockBit 4.0 ransomware operation in simultaneous raids across 12 countries. The operation, codenamed Cronos II, seized 34 servers hosting LockBit's dark web infrastructure, decryption keys for 1,400 active victims, and approximately $180 million in cryptocurrency. The action follows Operation Cronos in February 2024, which dismantled LockBit's infrastructure but failed to arrest its senior operators.",
+      "This time, the arrests reach the group's technical leadership: two individuals arrested in Russia (via an unusual law enforcement cooperation agreement related to a separate diplomatic matter), three in Ukraine, four in the UK, three in the US (two arrested, one surrendered), and one each in Germany, France, Australia, Canada, and the Netherlands. The FBI has identified the alleged leader as Dmitry Khoroshev (LockBitSupp) and has charged him with 40 counts including extortion, computer fraud, and money laundering.",
+      "LockBit has been responsible for attacks on over 2,000 organizations since 2020, extracting more than $500 million in ransom payments. Victims include the UK's Royal Mail, the Industrial and Commercial Bank of China, Boeing, and dozens of hospitals and critical infrastructure operators. The 4.0 variant, launched in early 2025 after the original infrastructure seizure, introduced AI-assisted victim profiling to customize ransom demands based on estimated victim revenue.",
+      "<blockquote>LockBit was not just a ransomware group. It was a ransomware franchise — a criminal business model that sold access to infrastructure and split revenue with affiliates. Dismantling the franchise model required arresting the franchisor. Today, we have done that. — Bryan Vorndran, FBI Cyber Division Assistant Director</blockquote>",
+      "The decryption keys seized are being made available through the No More Ransom portal and directly to identified victims through their national CERT. CISA has published a LockBit 4.0 indicators of compromise (IoC) advisory with 847 IP addresses, 23 file hashes, and 14 domain names for detection and blocking. Cybersecurity industry analysts note that LockBit affiliates will likely migrate to competing ransomware-as-a-service platforms within weeks.",
+    ],
+    company: 'FBI / Europol',
+    readTime: 6,
+    tags: ['LockBit', 'Ransomware', 'FBI', 'Europol', 'Cybercrime', 'Law Enforcement'],
+  },
 ];
 
 TC.timelineData = {
