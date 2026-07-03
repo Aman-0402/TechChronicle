@@ -3339,6 +3339,24 @@ undefined
     readTime: 6,
     tags: ['Llama 4', 'Meta', 'Open Source AI', 'LLM', 'Multimodal', 'GPT-4o'],
   },
+
+  {
+    id: 185,
+    date: '2026-07-07',
+    category: 'Cloud',
+    title: 'Vercel Edge Runtime Reaches 1ms Cold Starts Globally, Deploys to 120 Cities Using New Lightweight V8 Isolates',
+    excerpt: 'The frontend deployment platform achieves sub-millisecond initialization times through a new execution model that abandons Node.js containers in favor of ultra-lightweight V8 isolates with 256KB memory ceilings.',
+    body: [
+      "Vercel has announced its Edge Runtime has achieved a median cold start time of 1ms globally — down from 40ms with the previous Node.js container-based model — by deploying a new execution environment based on ultra-lightweight V8 JavaScript isolates rather than full Node.js containers. The isolates, similar to Cloudflare Workers' architecture but extended to support more of the Web Platform APIs, run in Vercel's edge network across 120 cities worldwide. The 1ms cold start is measured from first byte of the HTTP request to first byte of the response from a previously-unloaded function.",
+      "The technical constraints of the new runtime: each Edge Function instance has a 256KB memory limit (compared to 512MB for Vercel's serverless functions), a 1MB code size limit after compression, a 10ms CPU time budget per request, and no access to the Node.js built-in modules (fs, crypto, buffer) or npm packages that depend on Node.js internals. The runtime supports the WinterCG subset of Web Platform APIs: fetch, URL, URLSearchParams, Request, Response, Headers, ReadableStream, TextEncoder/TextDecoder, Web Crypto API, and setTimeout. Most Vercel Edge Middleware and Next.js middleware runs within these constraints.",
+      "Vercel has simultaneously announced Edge Functions 2.0 with relaxed constraints: 1MB memory, 5MB code size, 50ms CPU time, and access to a Node.js compatibility layer that shims commonly used Node.js APIs. Edge Functions 2.0 runs on a slightly slower path (5ms median cold start vs 1ms for the ultra-lightweight tier) but is compatible with the vast majority of npm packages that work in Cloudflare Workers. The two-tier system lets developers choose between maximum performance and maximum compatibility.",
+      "<blockquote>The future of web application deployment is not servers in data centers — it is code that runs everywhere, instantly, as close to users as the laws of physics allow. Every millisecond of latency is a worse user experience, and every container you have to manage is operational overhead that distracts from building your product. Edge Runtime 1ms is what zero-configuration web infrastructure should look like. — Guillermo Rauch, CEO, Vercel</blockquote>",
+      "The 120-city network expansion represents a 3x increase from Vercel's previous 40-city edge network and puts Vercel's coverage competitive with Cloudflare Workers' 300-city network. Vercel has partnered with regional ISPs in Southeast Asia, Africa, and South America to reach cities where neither AWS nor Cloudflare have existing points of presence, targeting the next billion internet users for whom network latency from distant data centers is a significant UX barrier. The Edge Runtime improvements are available to all Vercel plans immediately, with the 1ms ultra-lightweight tier available in public beta.",
+    ],
+    company: 'Vercel',
+    readTime: 5,
+    tags: ['Vercel', 'Edge Computing', 'Cold Starts', 'V8 Isolates', 'Web Performance', 'CDN'],
+  },
 ];
 
 TC.timelineData = {
