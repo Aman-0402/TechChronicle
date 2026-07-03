@@ -3033,6 +3033,24 @@ undefined
     readTime: 5,
     tags: ['RISC-V', 'SiFive', 'Server CPU', 'Open ISA', 'Data Center', 'Hardware'],
   },
+
+  {
+    id: 168,
+    date: '2026-07-06',
+    category: 'Programming',
+    title: 'Elixir 2.0 Ships Set-Based Type System: Compile-Time Type Errors Without Annotations, No Breaking Changes',
+    excerpt: 'Erlang-based language achieves the holy grail of gradual typing: meaningful compile-time errors inferred entirely from existing code, no type annotations required.',
+    body: [
+      "The Elixir team led by Jose Valim has released Elixir 2.0, introducing a set-based type system that performs type inference on existing Elixir code without requiring any type annotations. The type system uses set-theoretic types (unions, intersections, and negations of types) rather than the Hindley-Milner system used by Haskell and Elm, enabling it to express the dynamic union types that Elixir's pattern matching and protocol dispatch naturally produce. Crucially, the release is 100% backward compatible: all existing Elixir code compiles without modification.",
+      "The type system infers types by analyzing pattern match exhaustiveness, guard clause constraints, and function call chains. A function that pattern matches on a list and a tuple automatically receives a type of list | tuple in the inferred type environment. Type errors are reported at compile time when the inferred type of an expression contradicts the expected type at its use site — without any developer-written type signatures. Developers who do write type signatures (using the new @spec 2.0 syntax) get more precise checking.",
+      "The practical impact: Elixir 2.0's type system catches three categories of bugs at compile time that were previously only catchable at runtime: incorrect argument types in function calls (passing a string where an integer is expected), non-exhaustive pattern matches (a case statement that does not handle all possible values), and nil access errors (calling a function on a value that may be nil). The Phoenix web framework team reports that running Elixir 2.0 type checking on Phoenix 1.8 caught 42 latent type bugs in previously-tested production code.",
+      "<blockquote>We did not want to add types to Elixir. We wanted to add the benefits of types to Elixir — earlier bug detection, better tooling, clearer documentation — without the annotation burden or the breaking changes. Set-based type inference gives us those benefits. The type system works for you; you do not work for it. — Jose Valim, creator, Elixir</blockquote>",
+      "Elixir 2.0 also ships with a rewritten mix compiler (40% faster incremental compilation), improved ExUnit test isolation (processes are now truly independent with no shared global state), and native support for Gleam interoperability (Elixir and Gleam code can call each other directly via a shared BEAM bytecode format). The type system integrates with ElixirLS (the VS Code language server) to provide inline type hints, type mismatch warnings, and refactoring suggestions in editors.",
+    ],
+    company: 'Elixir Team',
+    readTime: 5,
+    tags: ['Elixir', 'Type System', 'Programming Languages', 'BEAM', 'Functional Programming'],
+  },
 ];
 
 TC.timelineData = {
