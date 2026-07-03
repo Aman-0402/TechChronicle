@@ -2907,6 +2907,24 @@ undefined
     readTime: 5,
     tags: ['Warp Terminal', 'Dev Tools', 'AI Terminal', 'Collaboration', 'Windows', 'CLI'],
   },
+
+  {
+    id: 161,
+    date: '2026-07-06',
+    category: 'AI',
+    title: 'Google TPU v7 Enters Public Preview on Cloud: 4x Faster Training Than TPU v5e, 60% Lower Cost Per FLOP',
+    excerpt: 'Google opens its seventh-generation tensor processing unit to external customers, providing the highest training throughput per dollar of any publicly available AI accelerator.',
+    body: [
+      "Google Cloud has announced public preview availability of Cloud TPU v7 — Google's seventh-generation custom AI training chip — making it available to external customers for the first time. TPU v7 delivers 1.1 exaflops FP8 training performance per pod (256 chips), 4x the throughput of TPU v5e and 1.6x the throughput of TPU v6e per chip, at an infrastructure cost that Google prices 60% lower per petaflop-hour than equivalent NVIDIA H100 cluster capacity on Google Cloud.",
+      "The performance advantage of TPU v7 over GPU clusters comes from its architecture: TPU v7 uses a 3D torus interconnect (versus GPU clusters' InfiniBand or NVLink) that eliminates the network fabric bottleneck for large-scale distributed training. A 1,024-chip TPU v7 pod achieves 92% hardware utilization on transformer pre-training workloads versus 78% typical for equivalent GPU clusters, because the torus interconnect's all-to-all bandwidth scales with pod size rather than being a fixed cluster-level constraint.",
+      "TPU v7 enters preview with support for JAX, PyTorch/XLA, and TensorFlow. The JAX support is most mature: Google's own Gemini 2.0 was trained on TPU v7 using JAX, and the configuration files and training recipes are published in the MaxText repository for customers to use as starting points. PyTorch/XLA support is production-ready for transformer architectures; convolutional networks require additional tuning.",
+      "<blockquote>We have trained every version of Gemini on TPUs. TPU v7 is the chip we trained Gemini 2.0 Ultra on. We are making it available externally because we believe the AI ecosystem benefits when the best infrastructure is accessible, and because we believe Google Cloud should win customers on merit, not lock-in. — Amin Vahdat, VP of ML Systems and Cloud AI, Google</blockquote>",
+      "TPU v7 pricing in public preview: $3.20 per chip-hour for on-demand, $1.60 per chip-hour for 1-year committed use, and $0.95 per chip-hour for 3-year committed use. A 256-chip pod on 1-year commitment is $9,830/day — approximately 40% less than an equivalent H100 cluster on 1-year commitment. Public preview is available in us-central1 and europe-west4; GA and additional regions are expected in Q4 2026.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google TPU', 'AI Training', 'Cloud Computing', 'Google Cloud', 'AI Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
