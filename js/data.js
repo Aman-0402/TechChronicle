@@ -3321,6 +3321,24 @@ undefined
     readTime: 5,
     tags: ['Apache Kafka', 'KRaft', 'ZooKeeper', 'Distributed Systems', 'Event Streaming', 'Open Source'],
   },
+
+  {
+    id: 184,
+    date: '2026-07-07',
+    category: 'AI',
+    title: 'Meta Releases Llama 4 405B: Open-Weight Model Outperforms GPT-4o on 7 of 10 Standard Benchmarks',
+    excerpt: 'Meta's latest open-weight model release closes the gap with closed proprietary systems and includes a new multimodal architecture that processes image, audio, and text natively.',
+    body: [
+      "Meta has released Llama 4, a family of open-weight models ranging from Llama 4 8B to Llama 4 405B, with the 405B flagship model outperforming OpenAI's GPT-4o on 7 of 10 standard evaluation benchmarks including MMLU, HumanEval, GSM8K, MATH, and GPQA. The models are released under the Llama 4 Community License, which permits commercial use for companies with under 700 million monthly active users (a threshold that excludes only a handful of companies globally). All weights are downloadable from Meta AI's website and available on Hugging Face.",
+      "The architectural innovation in Llama 4 is the native multimodal design: unlike Llama 3, which required separate vision adapters bolted onto a language-only base, Llama 4 was trained from scratch on interleaved text, images, and audio using a unified token space. Images are encoded using a new CLIP variant (CLIP-4) co-developed with Meta FAIR that tokenizes images into 1024 semantic tokens. Audio is encoded using a Whisper-derived encoder that produces 256 tokens per second of audio. This unified architecture allows Llama 4 to reason across modalities in a single forward pass rather than requiring sequential processing through separate models.",
+      "Meta's training compute for Llama 4 405B was approximately 10x the compute used for Llama 3 70B, trained on 15 trillion tokens using 16,384 H100 GPUs over 9 months. The training data pipeline incorporated Meta's proprietary social media data (with privacy-preserving techniques to remove PII), Common Crawl, GitHub, Wikipedia, and licensed content from 40+ publishing partners. The training methodology uses a new variant of constitutional AI-style feedback — Meta calls it 'Responsible Scaling Training' — that applies safety constraints directly in the RLHF reward model.",
+      "<blockquote>The premise that AI safety and open source are incompatible is false. Llama 4 is safer than GPT-4o on harmful content benchmarks while being more capable and completely open. Putting powerful AI in the hands of researchers, developers, and companies around the world is not a risk — it is the fastest path to AI that is beneficial for everyone, not just the companies who can afford closed-model API costs. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "The release is already reshaping the AI ecosystem: within 12 hours of release, Llama 4 405B was available on Groq's LPU inference hardware (achieving 780 tokens/second), Replicate's cloud inference, and as a quantized GGUF version for local inference via llama.cpp. The smaller Llama 4 8B model, which runs on consumer hardware with 16GB VRAM, is showing competitive performance with GPT-3.5-class models on most benchmarks — making state-of-the-art AI accessible on gaming laptops. Hugging Face reports the Llama 4 model files received 2.3 million downloads in the first 24 hours after release.",
+    ],
+    company: 'Meta AI',
+    readTime: 6,
+    tags: ['Llama 4', 'Meta', 'Open Source AI', 'LLM', 'Multimodal', 'GPT-4o'],
+  },
 ];
 
 TC.timelineData = {
