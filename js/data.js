@@ -3267,6 +3267,24 @@ undefined
     readTime: 6,
     tags: ['AlphaFold', 'DeepMind', 'Protein Structure', 'Drug Discovery', 'AI', 'Biology'],
   },
+
+  {
+    id: 181,
+    date: '2026-07-07',
+    category: 'Cybersecurity',
+    title: 'Cloudflare One Blocks 4.7 Million AI Scraper Bots in Single Day, Offers Free Anti-Scraping Tier to All Sites',
+    excerpt: 'The network infrastructure company launches a free service that lets any website block AI training data scrapers, adding to the intensifying conflict between publishers and AI companies.',
+    body: [
+      "Cloudflare has launched AI Scraper Block as a free tier available to all Cloudflare-protected websites, and simultaneously announced it blocked a record 4.7 million AI scraping requests in a single 24-hour period during the feature's beta test. The service identifies and blocks HTTP requests from known AI training data scrapers — bots operated by companies scraping web content for AI model training — based on a continuously updated signature database that Cloudflare maintains using data from across its network of 200+ million websites.",
+      "The signature database covers scrapers operated by major AI companies: CommonCrawl (used by many open-source model trainers), DataComp (Meta's training data pipeline), and numerous smaller scraping operations. Cloudflare's network position gives it unique visibility: when a scraper hits one Cloudflare-protected site and is identified, all other Cloudflare-protected sites automatically benefit from the updated signature within minutes. The free tier blocks scrapers; a paid tier ($5/month) adds analytics showing which scrapers targeted your site, estimated training data volume they attempted to collect, and whether your site appears in known AI training datasets.",
+      "The feature arrives amid escalating publisher-AI conflict: The New York Times, AP, and AFP have active litigation against OpenAI and Meta over training data use, while dozens of publishers have implemented robots.txt blocks that AI companies may or may not be respecting. Cloudflare's approach is more technically robust than robots.txt — which is an honor system that unethical scrapers simply ignore — because it operates at the network layer, dropping scraper connections before they reach the origin server.",
+      "<blockquote>The internet was built on a social contract: if you make content accessible, people can read it. It was never a contract that said automated systems could copy every word you have ever written and use it to build products that compete with you. We built AI Scraper Block because protecting our customers' content from unwanted extraction is a fundamental part of what a network infrastructure company should do. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "The feature has already generated controversy. Open-source AI advocates argue that blocking CommonCrawl — which has historically provided the training data for open-source models like Llama and Mistral — will advantage closed proprietary models (which have licensing deals with publishers) over open-source alternatives. Cloudflare has responded by allowing site owners to explicitly whitelist specific crawlers including CommonCrawl, giving publishers fine-grained control rather than an all-or-nothing block. The company reports 48,000 sites enabled the feature within 12 hours of announcement.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'AI Scraping', 'Web Security', 'Publishers', 'Training Data'],
+  },
 ];
 
 TC.timelineData = {
