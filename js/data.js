@@ -2835,6 +2835,24 @@ undefined
     readTime: 5,
     tags: ['Adobe', 'Firefly', 'AI Video', 'Creative AI', 'Copyright', 'Enterprise AI'],
   },
+
+  {
+    id: 157,
+    date: '2026-07-06',
+    category: 'Research',
+    title: 'ElevenLabs Voice AI Reaches Human Parity on Naturalness Scores, Raises $250M at $3.5 Billion Valuation',
+    excerpt: 'Text-to-speech startup achieves the quality threshold that makes synthetic voice indistinguishable from human speech in blind listening tests.',
+    body: [
+      "ElevenLabs has published research demonstrating that its v3 Turbo model achieves human parity on the naturalness dimension of the ITU-T P.808 subjective speech quality evaluation standard — blind listening tests in which evaluators rated the naturalness of speech samples on a 5-point scale gave ElevenLabs v3 Turbo an average score of 4.71, indistinguishable (p=0.43, not significant) from the 4.74 scored by reference recordings of human speakers. The result represents the first text-to-speech system to achieve statistical parity with human speakers on a standardized evaluation.",
+      "The research announcement coincides with a $250 million Series C at a $3.5 billion post-money valuation, led by a16z with participation from Sequoia Capital and Salesforce Ventures. ElevenLabs reports $120 million in annualized recurring revenue from 2.4 million registered users, with a 320% year-over-year growth rate driven by adoption in audiobook production, video game voice acting, dubbing, and enterprise voice assistant development.",
+      "ElevenLabs v3 Turbo achieves naturalness parity while generating speech 40x faster than real time on a single A10G GPU — meaning a 1-hour audiobook can be synthesized in 90 seconds. The model supports 32 languages at full quality, voice cloning from a 30-second sample, fine-grained prosody control (emphasis, pacing, tone), and emotional expression targeting (calm, excited, authoritative, empathetic). Voice cloning accuracy rates 94.2% speaker similarity versus the original recording.",
+      "<blockquote>Human parity in naturalness is a threshold we have been working toward for five years. Crossing it does not mean we are done — naturalness is one dimension, and speech conveys far more than naturalness. Emotion, context, and intention are the next frontier. But naturalness parity means the fundamental impediment to synthetic voice being trusted is resolved. — Mati Staniszewski, CEO, ElevenLabs</blockquote>",
+      "ElevenLabs has also launched a Safety Initiative in response to concerns about voice cloning misuse: a detection model that identifies ElevenLabs-generated audio with 97.3% accuracy, a voice consent verification system requiring human voice owners to actively opt their voice into cloning (not just opt out), and a Content Credentials system that embeds a cryptographic C2PA manifest in every generated audio file identifying it as AI-generated. The FBI Cyber Division has cited ElevenLabs' safety measures as a model for the AI audio industry.",
+    ],
+    company: 'ElevenLabs',
+    readTime: 5,
+    tags: ['ElevenLabs', 'Text-to-Speech', 'Voice AI', 'Startups', 'Audio AI', 'Human Parity'],
+  },
 ];
 
 TC.timelineData = {
