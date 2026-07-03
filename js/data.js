@@ -3069,6 +3069,24 @@ undefined
     readTime: 5,
     tags: ['Linear', 'Project Management', 'Dev Tools', 'Startups', 'JIRA Alternative', 'Venture Capital'],
   },
+
+  {
+    id: 170,
+    date: '2026-07-06',
+    category: 'Dev Tools',
+    title: 'Playwright 2.0 Adds AI-Powered Test Generation and Self-Healing Locators, Eliminates Brittle Test Suites',
+    excerpt: 'Microsoft's browser testing framework reinvents test maintenance by using AI to auto-repair broken selectors and generate tests from user session recordings.',
+    body: [
+      "Microsoft has released Playwright 2.0 with two headline AI features: AI Test Generation (generate a complete Playwright test suite from a browser session recording, understanding intent rather than replaying exact actions) and Self-Healing Locators (when a DOM selector breaks due to UI changes, Playwright automatically finds the correct new selector using semantic understanding and repairs the test without developer intervention). Both features run locally using a bundled ONNX model, requiring no cloud API calls.",
+      "Self-Healing Locators address the most painful aspect of end-to-end testing: CSS selectors and XPath expressions break whenever the UI changes. A button that was button.submit-btn becomes button.btn-primary, and 50 tests fail. In Playwright 2.0, when a locator fails, the runtime uses a semantic locator recovery algorithm that considers the element's visible text, ARIA role, position relative to other stable elements, and data-testid attributes to find the new correct selector. 94% of locator breaks in a test cohort of 10,000 tests were automatically healed in benchmark testing.",
+      "AI Test Generation analyzes a Playwright session trace (a recording of a human using the application) and generates tests that capture intent rather than exact actions. A developer recording themselves completing a checkout flow produces a test that checks the cart total, confirms the payment succeeded, and verifies the order confirmation — not a brittle recording of every mouse click and keyboard press. Generated tests pass 88% of the time on first run without modification.",
+      "<blockquote>The biggest problem with end-to-end testing is not writing the tests. It is maintaining them. Every deploy breaks 10% of your test suite, and half the team's time goes to test maintenance instead of feature development. Self-healing locators and AI generation target that 10%. We think they can get maintenance burden to near zero for most test suites. — Arjun Attam, Playwright Product Lead, Microsoft</blockquote>",
+      "Playwright 2.0 also ships a new UI mode (previously experimental, now default), a component testing mode for React, Vue, and Svelte components in isolation (using Vite as the dev server), and native support for WebAssembly testing. The Playwright VS Code extension has been rewritten in Playwright 2.0's new plugin API, enabling third-party extensions to add custom reporters, matchers, and locator strategies. Playwright 2.0 has 2.4 million weekly npm downloads, making it the second most popular browser testing framework after Cypress.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['Playwright', 'Testing', 'Browser Testing', 'AI Testing', 'Dev Tools', 'Microsoft'],
+  },
 ];
 
 TC.timelineData = {
