@@ -3249,6 +3249,24 @@ undefined
     readTime: 5,
     tags: ['Zig', 'Systems Programming', 'Programming Languages', 'Memory Safety', 'Open Source'],
   },
+
+  {
+    id: 180,
+    date: '2026-07-07',
+    category: 'AI',
+    title: 'Google DeepMind AlphaFold 4 Predicts Full Cellular Proteome Dynamics: 200,000 Protein Structures with Conformational States',
+    excerpt: 'The latest AlphaFold release extends from static protein structure prediction to dynamic conformational ensemble modeling, revealing how proteins change shape to perform their functions.',
+    body: [
+      "Google DeepMind has released AlphaFold 4, updating its transformational protein structure prediction system with the ability to model protein conformational dynamics — how proteins flex, open, close, and change shape as they perform their biological functions. Previous AlphaFold versions predicted a single 'ground state' structure for each protein. AlphaFold 4 predicts ensembles of conformational states with energy-weighted probabilities, effectively modeling the thermodynamic landscape a protein navigates during function. The system was trained on 450,000 experimentally determined protein structures from the Protein Data Bank and 1.2 million molecular dynamics simulation trajectories.",
+      "The scientific implications are substantial: many drug targets are proteins that exist in functionally distinct conformational states (the 'open' and 'closed' states of enzyme active sites, for instance), and drugs often work by binding to one state and locking the protein in a non-functional configuration. Previous structure-based drug design was limited by the availability of experimental structures for every conformational state. AlphaFold 4's ensemble predictions give medicinal chemists computational access to all relevant states of a target protein without expensive experimental work for each conformation.",
+      "DeepMind simultaneously released the AlphaFold 4 Database, containing predicted conformational ensembles for the complete proteomes of 200,000 species — every protein in every known organism. The database is freely accessible through the European Bioinformatics Institute. For human proteins, AlphaFold 4 provides 3-15 predicted conformational states for each of the 20,296 human protein-coding genes, along with predicted allosteric sites (binding pockets that regulate protein activity via conformational change) and disorder-to-order transition regions implicated in protein aggregation diseases like Alzheimer's and Parkinson's.",
+      "<blockquote>AlphaFold 3 showed us proteins at rest. AlphaFold 4 shows us proteins in motion. Biology is not static — the machinery of life is in constant conformational flux, and understanding that motion is prerequisite to understanding how life works and how to intervene when it fails. We believe this release will have even greater impact on drug discovery than AlphaFold 2 did on structural biology. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "Early access users from pharmaceutical companies report that AlphaFold 4 conformational ensembles agree with experimentally determined ensembles in 87% of cases where NMR or cryo-ET data is available for comparison. Discrepancies are concentrated in intrinsically disordered regions — proteins or protein segments with no stable structure — where prediction remains fundamentally limited by the lack of experimental training data. DeepMind has launched a collaboration with 15 academic NMR spectroscopy labs to generate training data specifically for disordered proteins, targeting AlphaFold 5 improvements.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 6,
+    tags: ['AlphaFold', 'DeepMind', 'Protein Structure', 'Drug Discovery', 'AI', 'Biology'],
+  },
 ];
 
 TC.timelineData = {
