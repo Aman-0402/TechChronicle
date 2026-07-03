@@ -3051,6 +3051,24 @@ undefined
     readTime: 5,
     tags: ['Elixir', 'Type System', 'Programming Languages', 'BEAM', 'Functional Programming'],
   },
+
+  {
+    id: 169,
+    date: '2026-07-06',
+    category: 'Startups',
+    title: 'Linear Raises $100M Series C at $1 Billion Valuation: The Project Management Tool That Developers Actually Use',
+    excerpt: 'The startup that replaced JIRA for 40,000 software teams achieves unicorn status by building for developer workflows rather than executive dashboards.',
+    body: [
+      "Linear has closed a $100 million Series C at a $1 billion post-money valuation, becoming the first project management tool to achieve unicorn valuation while explicitly positioning itself as a developer-first product. The round was led by Sequoia Capital with participation from Craft Ventures, Accel, and a collection of individual investors including Patrick Collison (Stripe) and Tobi Lutke (Shopify). Annual recurring revenue has crossed $60 million, growing 180% year-over-year.",
+      "Linear's design philosophy is deliberate contrarianism versus JIRA: no sub-tasks of sub-tasks, no custom field proliferation, no workflow configuration requiring a certified JIRA administrator. Linear enforces simplicity through architecture: issues have one parent (a cycle), cycles have one project, projects have one team. The constraint is the product. Teams that adopt Linear report a 70% reduction in time spent on issue management and a 40% increase in cycle predictability.",
+      "The Linear AI feature, launched in beta across the $100 million raise, uses Claude 4 Opus to automatically generate cycle plans from a project description, triage incoming bug reports to the correct team and priority, and write detailed acceptance criteria for vague issue descriptions. In early access testing across 500 teams, Linear AI reduced issue creation time by 62% and improved first-cycle estimate accuracy by 28%.",
+      "<blockquote>JIRA was designed to be infinitely configurable. That is its fatal flaw. Infinite configurability means infinite complexity, and infinite complexity means the tool becomes the problem instead of the solution. Linear is opinionated. We decided what a good software development workflow looks like and we built that. The opinion is the product. — Karri Saarinen, CEO, Linear</blockquote>",
+      "Linear's customer base includes Vercel, Ramp, Raycast, Loom, and 40,000 engineering teams globally. The company has a notably low churn rate for SaaS: 2.8% annual churn, compared to the industry average of 5–8% for project management tools. The Series C will fund Linear's enterprise push (SSO, SCIM, audit logs, custom data retention — launching Q4 2026) and international expansion in Europe, where GDPR compliance and EU data residency have been the primary barriers to adoption.",
+    ],
+    company: 'Linear',
+    readTime: 5,
+    tags: ['Linear', 'Project Management', 'Dev Tools', 'Startups', 'JIRA Alternative', 'Venture Capital'],
+  },
 ];
 
 TC.timelineData = {
