@@ -3897,6 +3897,24 @@ undefined
     readTime: 6,
     tags: ['PostgreSQL', 'Database', 'Replication', 'Multi-Region', 'Open Source', 'Distributed'],
   },
+
+  {
+    id: 216,
+    date: '2026-07-09',
+    category: 'Research',
+    title: 'Harvard Wyss Institute Bioprints Functional Pancreatic Tissue: Type 1 Diabetes Treatment Enters Clinical Trials',
+    excerpt: 'Bioengineers produce the first vascularized pancreatic islet tissue using 3D bioprinting, with early animal trials showing complete insulin independence — advancing toward a potential cure for Type 1 diabetes.',
+    body: [
+      "Researchers at Harvard's Wyss Institute for Biologically Inspired Engineering have announced successful bioprinting of functional vascularized pancreatic islet tissue, with animal trials in diabetic mice showing complete restoration of insulin production and normal blood glucose regulation for 18 months without immunosuppression. The achievement addresses the two critical barriers that have prevented bioprinted organ tissue from achieving clinical relevance: vascularization (the tissue has blood vessels to sustain the cells) and immune compatibility (the tissue is not rejected without lifelong immunosuppression).",
+      "The technical approach: the Wyss team developed a new bioink combining human islet cells (derived from pluripotent stem cells rather than donor pancreases) with a scaffold protein matrix engineered to attract the patient's own vascular system to grow into the implanted tissue. The immune compatibility breakthrough came from a surface coating technique that hides the donor cell antigens from the recipient's immune system without suppressing the immune system globally. The printed constructs are 2cm discs implanted into the omentum (a fatty tissue layer in the abdomen), where they become vascularized within 2 weeks of implantation.",
+      "The stem cell-derived islets are the critical enabling technology: previous attempts at islet transplantation required harvesting from cadaver donors (severely limited supply), but iPSC-derived islets can be produced from the patient's own cells or from universal donor cell lines. The Wyss team uses a universal donor cell line engineered to eliminate MHC class I antigens, making immune rejection unlikely without the surface coating alone. The combination of cell engineering and surface coating has achieved what the team describes as 'functional immune stealth.'",
+      "<blockquote>Type 1 diabetes is an autoimmune disease where the immune system destroys the insulin-producing cells. Every treatment since insulin's discovery in 1921 has been management of the disease, not correction of it. Bioprinted islet tissue is the first approach that can restore normal insulin production without a lifetime of immunosuppression. If the clinical trials confirm what we see in animal models, this is a cure — not a treatment. — Jennifer Lewis, Professor, Harvard Wyss Institute</blockquote>",
+      "The FDA has granted Breakthrough Therapy designation to the Wyss team's lead construct, enabling an accelerated clinical trial pathway. Phase I trials will begin in Q3 2026 with 24 adult patients with Type 1 diabetes who have had poor glycemic control despite optimal insulin therapy. The primary endpoint is safety; secondary endpoints include insulin independence at 6 and 12 months. The Wyss Institute has licensed the technology to Evotec (European biopharmaceutical company) for manufacturing scale-up and clinical development, with an estimated path to market of 5-7 years if trials are successful.",
+    ],
+    company: 'Harvard Wyss Institute',
+    readTime: 6,
+    tags: ['Bioprinting', 'Diabetes', 'Stem Cells', 'Clinical Trials', 'Research', 'Medicine'],
+  },
 ];
 
 TC.timelineData = {
