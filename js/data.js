@@ -5049,6 +5049,24 @@ undefined
     readTime: 5,
     tags: ['Samsung', 'HBM4E', 'Memory', 'Hardware', 'AI Accelerators', 'DRAM'],
   },
+
+  {
+    id: 280,
+    date: '2026-07-12',
+    category: 'Cybersecurity',
+    title: 'CISA Issues Emergency Directive on AI-Generated Spear Phishing: Federal Agencies Report 800% Increase in Hyper-Personalized Email Attacks',
+    excerpt: 'Cybersecurity and Infrastructure Security Agency issues emergency directive after federal agencies report unprecedented surge in AI-crafted spear phishing attacks that bypass traditional detection methods using personalized context from social media.',
+    body: [
+      "The Cybersecurity and Infrastructure Security Agency has issued Emergency Directive 26-03, requiring all federal civilian agencies to deploy AI-aware email security controls within 30 days after a classified threat assessment revealed an 800% year-over-year increase in AI-generated spear phishing attacks targeting federal employees. The attacks use large language models to craft hyper-personalized emails that reference the recipient's recent public activities, professional relationships, and organizational context — defeating traditional signature-based detection systems that look for generic phishing patterns.",
+      "The attack methodology documented in the directive is sophisticated: threat actors use OSINT (Open Source Intelligence) harvesting tools to compile detailed profiles of targets from LinkedIn, Twitter/X, GitHub, and professional conference proceedings. These profiles are fed to locally-deployed LLMs that generate personalized email content mimicking the writing style of known colleagues or supervisors, referencing specific shared experiences or projects. Emails often include accurate organizational context that would only be known to internal employees, making them appear credible to recipients and to automated filtering systems trained on historical phishing patterns.",
+      "Traditional email security controls — SPF, DKIM, DMARC authentication, and ML classifiers trained on prior phishing corpora — are largely ineffective against this attack class. The emails pass authentication checks (they originate from compromised legitimate accounts or plausible spoofed domains), and their personalized, contextually accurate content scores low on phishing probability models trained to detect generic templates. CISA's directive requires agencies to implement behavioral analysis systems that evaluate email communication patterns over time rather than evaluating individual messages in isolation.",
+      "<blockquote>The threat actors deploying AI-generated spear phishing have industrialized what used to require hours of manual research per target. They can now generate 10,000 highly personalized phishing emails per hour targeting specific individuals at specific agencies for specific objectives. This is not a vulnerability in any software — it is a fundamental change in the threat environment that requires new defensive paradigms. — Jen Easterly, Director, CISA</blockquote>",
+      "CISA is providing federal agencies with access to new behavioral email analysis tools through its Protective DNS and Email Security programs, including an AI Phishing Detection Service that evaluates email context against real-time threat intelligence about active AI-assisted campaigns. Non-federal organizations — state and local governments, critical infrastructure operators, and large enterprises — are encouraged to apply the directive's guidance, which includes technical controls, user education requirements, and incident reporting protocols.",
+    ],
+    company: 'CISA',
+    readTime: 5,
+    tags: ['CISA', 'Cybersecurity', 'Phishing', 'AI Security', 'Federal Government', 'Email Security'],
+  },
 ];
 
 TC.timelineData = {
