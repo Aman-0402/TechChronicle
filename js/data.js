@@ -3627,6 +3627,24 @@ undefined
     readTime: 6,
     tags: ['Anthropic', 'Claude 4', 'AI', 'Computer Use', 'LLM', 'Context Window'],
   },
+
+  {
+    id: 201,
+    date: '2026-07-08',
+    category: 'Cybersecurity',
+    title: 'SolarWinds Hackers Return: SVR Unit 29155 Deploys New Supply Chain Attack Against CI/CD Infrastructure',
+    excerpt: 'The Russian intelligence unit responsible for the 2020 SolarWinds breach has been attributed to a new campaign targeting software build pipelines, compromising open-source package registries and developer tooling.',
+    body: [
+      "The US Cybersecurity and Infrastructure Security Agency, FBI, and intelligence partners have issued a joint advisory attributing a new supply chain attack campaign to SVR Unit 29155, the Russian Foreign Intelligence Service unit responsible for the 2020 SolarWinds SUNBURST breach. The new campaign, codenamed MOONLARK by the joint advisory, targets CI/CD infrastructure directly — specifically GitHub Actions runners, GitLab CI pipelines, and Jenkins instances — rather than vendor software distribution systems as SolarWinds was. MOONLARK has been active since January 2026 and has compromised build systems at 24 organizations across the US, UK, and Germany.",
+      "The attack methodology: MOONLARK uses a staged approach. Initial access is gained via spearphishing developers with highly targeted emails containing links to malicious VS Code extensions or Cursor plugins that appear legitimate. Once a developer installs the extension, it silently exfiltrates repository credentials and CI/CD service tokens. The SVR operators then use these tokens to inject malicious steps into build pipelines — steps that add a backdoor to compiled software artifacts while leaving source code unchanged. Organizations auditing their source code would find nothing; only examining build artifacts reveals the modifications.",
+      "Indicators of compromise include unusual calls to external IPs during build processes, modified artifact checksums that differ from developer-generated builds, and CI/CD tokens used from geolocations inconsistent with development team locations. The advisory recommends: rotating all CI/CD service tokens immediately, enabling OIDC-based ephemeral tokens for cloud deployments (replacing long-lived tokens), auditing all installed VS Code and Cursor extensions for all developers with repository access, and implementing build reproducibility verification.",
+      "<blockquote>The SolarWinds attack exploited the trust that organizations place in their software vendors. MOONLARK exploits the trust that organizations place in their own build systems. If you cannot verify that the binary your CI/CD system built matches what your developers wrote, you cannot trust the software you are deploying. Build pipeline security is the new perimeter. — Jen Easterly, Director, CISA</blockquote>",
+      "The affected organizations include two Fortune 500 financial services firms, a major US defense contractor, several European government agencies, and a critical infrastructure operator. None of the compromised software artifacts have been deployed to end users — the compromise was detected during routine security audits at two organizations, leading to the broader investigation. GitHub has responded by adding mandatory build artifact signing to GitHub Actions for enterprise customers and is working with affected organizations to notify any downstream consumers of compromised artifacts.",
+    ],
+    company: 'CISA',
+    readTime: 6,
+    tags: ['Supply Chain', 'SVR', 'Russia', 'CI/CD', 'Cybersecurity', 'SolarWinds'],
+  },
 ];
 
 TC.timelineData = {
