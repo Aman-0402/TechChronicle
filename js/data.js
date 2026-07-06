@@ -3483,6 +3483,24 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'Sovereign Cloud', 'EU', 'GDPR', 'Deutsche Telekom', 'Data Residency'],
   },
+
+  {
+    id: 193,
+    date: '2026-07-08',
+    category: 'Programming',
+    title: 'TypeScript 6.0 Adds Native Decorators, Const Type Parameters, and Import Attributes — Closes Gap with JavaScript Stage 3 Proposals',
+    excerpt: 'Microsoft's typed JavaScript superset releases a major version that brings its decorator implementation in line with the TC39 standard and adds two features that unlock significant ergonomic improvements.',
+    body: [
+      "TypeScript 6.0 has been released, the first major version update since TypeScript 5.0 in 2023. The headline changes: native TC39-standard decorators replace the legacy experimental decorator implementation (which has existed since TypeScript 1.5 in a non-standard form), const type parameters allow generic functions to infer literal types without explicit type annotations, and import attributes (the TC39 Stage 3 proposal) are now fully supported for attaching metadata to import statements. The team also eliminated 15 long-deprecated compiler flags that accumulated since TypeScript's 2012 origin.",
+      "The decorator change is the most impactful for existing codebases: TypeScript's legacy decorators (enabled via the experimentalDecorators compiler flag) were incompatible with the TC39 standard that all major frameworks have now converged on. Libraries like Angular, NestJS, and MobX had to choose between TypeScript compatibility and TC39 compliance. TypeScript 6.0's native decorator implementation matches the TC39 specification exactly, enabling framework authors to ship a single decorator implementation that works on both TypeScript and plain JavaScript. The migration path from legacy decorators is documented with an automated codemod.",
+      "Const type parameters solve a common TypeScript pattern where developers want a function to infer the literal type of its argument: 'function identity(x: T): T' infers string when called with 'identity("hello")' in TypeScript 6.0 when annotated 'function identity(x: const T): T', without requiring the caller to add 'as const'. This eliminates a verbose pattern that appeared in virtually every TypeScript utility library. The import attributes feature allows 'import data from "./config.json" with { type: "json" }' — enabling type-safe JSON imports and laying the groundwork for future import metadata features.",
+      "<blockquote>TypeScript 6.0 is about reducing the gap between TypeScript's type system and the JavaScript platform it runs on. Decorators are in TC39. Import attributes are in TC39. Const inference is how developers already think about their code. Our job is to make TypeScript feel like a natural extension of JavaScript, not a competing dialect. — Anders Hejlsberg, TypeScript Lead</blockquote>",
+      "TypeScript 6.0 also introduces a new 'isolated declarations' mode for projects using bundlers that process TypeScript files independently — enabling faster incremental builds by allowing type-checking to happen in parallel per-file rather than sequentially across the whole program. This feature was co-designed with the Vite and esbuild teams and is expected to significantly reduce TypeScript build times in monorepo setups. The TypeScript npm package sees 50+ million weekly downloads, making 6.0 one of the most widely deployed language version updates in JavaScript history.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['TypeScript', 'JavaScript', 'Decorators', 'Programming', 'Microsoft', 'TC39'],
+  },
 ];
 
 TC.timelineData = {
