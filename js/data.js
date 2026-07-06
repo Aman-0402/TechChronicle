@@ -4041,6 +4041,24 @@ undefined
     readTime: 5,
     tags: ['Gradle', 'Android', 'Build Tools', 'Kotlin', 'CI/CD', 'Dev Tools'],
   },
+
+  {
+    id: 224,
+    date: '2026-07-09',
+    category: 'AI',
+    title: 'World Labs Releases Spatial Intelligence API: AI That Understands 3D Space From Single Images Ships to Developers',
+    excerpt: 'The startup co-founded by Fei-Fei Li opens its spatial intelligence technology to third-party developers, enabling applications that understand the physical geometry of scenes from ordinary photographs.',
+    body: [
+      "World Labs, the AI startup co-founded by Fei-Fei Li (Stanford AI Lab founding director), Justin Johnson (DALL-E co-inventor), and Christoph Lassner (Meta 3D AI), has publicly released its Spatial Intelligence API for developers. The API takes a single 2D image as input and produces: a dense depth map, a semantic 3D reconstruction of the scene, object detection with 3D bounding boxes, surface normal estimation, and a navigable 3D point cloud. Developers can use the API to build applications that understand the physical geometry of photographed environments without requiring specialized depth sensors or structured light hardware.",
+      "The technical capability: World Labs's model was trained on a proprietary dataset of 5 billion image-depth pairs, including depth sensor data from autonomous vehicles (LiDAR), indoor robot navigation (structured light), and synthetic training data rendered from 3D meshes. The model learns to infer depth and 3D structure from monocular (single-camera) cues — shadows, perspective, relative size, texture gradient, and learned priors about object sizes. The result generalizes to outdoor, indoor, and abstract scenes far beyond its training distribution.",
+      "The application use cases: real estate virtual tours that generate walkable 3D reconstructions from standard listing photos, furniture placement AR applications that understand room geometry from a single photo, autonomous drone navigation using phone camera input instead of dedicated sensors, manufacturing quality control where AI identifies out-of-spec parts from their geometric properties, and architectural visualization where clients can explore a building's 3D structure from site photos taken during construction.",
+      "<blockquote>Vision is the primary way humans understand space. We can look at a photograph and immediately understand where objects are in 3D space, how large they are, and how we would navigate through that environment. Building AI that shares this intuitive spatial understanding is the prerequisite for AI that can robustly interact with the physical world. The Spatial Intelligence API is the beginning of that — it lets developers build applications that see space the way humans do. — Fei-Fei Li, Co-Founder, World Labs</blockquote>",
+      "World Labs has raised $500 million and is valued at $2.5 billion. The API pricing is $0.02 per image for standard resolution and $0.08 per image for high-resolution 3D reconstruction, with volume discounts for enterprise customers. Early adopters include Zillow (real estate), IKEA (furniture placement), and several autonomous systems companies. The startup competes with Depth Anything V3 (Meta) and ZoeDepth (Microsoft) in the depth estimation space, but differentiates on the full 3D reconstruction and semantic understanding rather than pure depth maps.",
+    ],
+    company: 'World Labs',
+    readTime: 5,
+    tags: ['World Labs', 'Spatial AI', 'Computer Vision', '3D', 'Fei-Fei Li', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
