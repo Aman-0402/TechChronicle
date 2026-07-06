@@ -3681,6 +3681,24 @@ undefined
     readTime: 5,
     tags: ['Deno', 'Node.js', 'JavaScript', 'Runtime', 'Open Source', 'Dev Tools'],
   },
+
+  {
+    id: 204,
+    date: '2026-07-08',
+    category: 'Research',
+    title: 'UC Berkeley RISC-V AI Processor Achieves 10 TOPS/W Efficiency: Open-Source Chip Outperforms Commercial AI Accelerators on Edge Inference',
+    excerpt: 'Researchers publish design files for an open-source AI processor that delivers state-of-the-art energy efficiency for edge inference, enabling deployment in battery-powered devices.',
+    body: [
+      "Researchers at UC Berkeley EECS have published the complete design files, RTL code, and manufacturing instructions for Vela-1, an open-source AI inference processor based on the RISC-V instruction set architecture that achieves 10 TOPS per watt of energy efficiency on 8-bit integer neural network inference — outperforming commercial edge AI chips from Qualcomm, MediaTek, and Apple on this metric. The chip is designed for on-device AI inference in battery-powered applications: wearables, IoT sensors, medical monitoring devices, and edge computing nodes.",
+      "Vela-1's architecture innovations: a 256-element systolic array with reconfigurable precision (8-bit, 4-bit, and 2-bit integer supported natively), a scratchpad memory hierarchy with hardware-managed tiling to maximize on-chip data reuse and minimize off-chip memory bandwidth, and a RISC-V extension called RVIA (RISC-V Inference Accelerator) that adds 40 custom instructions for common neural network operations including depthwise convolution, matrix-vector multiplication, and SoftMax. The chip was manufactured through TSMC's Open Innovation Platform on the N5 process node via a Multi-Project Wafer run.",
+      "The open-source release includes everything needed to reproduce Vela-1: the complete RTL design in SystemVerilog, synthesis scripts, physical design files, characterization data, software toolchain (compiler, profiler, simulator), and manufacturing test procedures. The Berkeley team has also published a paper characterizing Vela-1's performance on 24 standard edge AI benchmarks including MLPerf Tiny, showing performance-per-watt advantages over closed-source commercial chips in 19 of 24 benchmarks. The one area where commercial chips maintain advantages is larger models that exceed Vela-1's 4MB on-chip SRAM.",
+      "<blockquote>The AI chip market has the same problem the server market had before Linux: proprietary silicon, closed toolchains, and vendor lock-in that makes it impossible to study, modify, or adapt the underlying technology. Vela-1 is the beginning of an open-source AI chip ecosystem. The performance is competitive today. In five years, with community contributions, it will be dominant. — Krste Asanovic, Professor, UC Berkeley</blockquote>",
+      "The practical deployment path: several companies have already announced products based on Vela-1 or derived designs. Syntiant (edge AI chip company) has licensed the design for a commercial derivative product. Arduino has announced a Vela-1-based microcontroller board targeting hobbyist and educational AI projects. A consortium of European research institutes is using Vela-1 as the basis for a medical-grade AI inference chip for implantable devices — an application requiring certified open designs. The RISC-V International Foundation has incorporated RVIA into its official extension specification process.",
+    ],
+    company: 'UC Berkeley',
+    readTime: 6,
+    tags: ['RISC-V', 'AI Chip', 'Open Source', 'Edge AI', 'Research', 'Efficiency'],
+  },
 ];
 
 TC.timelineData = {
