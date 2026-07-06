@@ -3843,6 +3843,24 @@ undefined
     readTime: 5,
     tags: ['NVIDIA', 'NIM', 'Inference', 'Enterprise AI', 'GPU', 'MLOps'],
   },
+
+  {
+    id: 213,
+    date: '2026-07-09',
+    category: 'Cybersecurity',
+    title: 'Passkeys Cross 1 Billion Accounts: Apple, Google, and Microsoft Report Near-Zero Phishing Rate for Passkey-Protected Accounts',
+    excerpt: 'The FIDO2-based passwordless authentication standard reaches mainstream scale with adoption data showing it effectively eliminates credential phishing — the most common attack vector in enterprise breaches.',
+    body: [
+      "Apple, Google, and Microsoft have jointly published an industry report showing that passkeys — the FIDO2-based passwordless authentication standard — have been enabled on over 1 billion accounts across their platforms, with a measured phishing success rate of 0.001% for passkey-protected accounts versus 2.3% for password-protected accounts with email-based MFA. The 2,300x reduction in phishing success rate is the largest security improvement from a single technology adoption in the history of the consumer internet.",
+      "The mechanism behind the improvement: passkeys are cryptographic key pairs where the private key never leaves the user's device and the credential is bound to the exact origin (website domain) during registration. A phishing site cannot receive a passkey authentication because the credential is cryptographically tied to the legitimate domain — the user's device simply refuses to authenticate against a different domain. Password-based phishing, by contrast, relies on tricking the user into typing their credentials on a fake site that looks legitimate. Passkeys make visual deception irrelevant.",
+      "Enterprise adoption is accelerating: 68% of Fortune 500 companies have deployed passkeys for at least one internal application, up from 12% in 2024. The enterprise adoption drivers are primarily compliance: CISA's Zero Trust directive, the EU's NIS2 directive, and the SEC's cybersecurity disclosure rules all effectively require phishing-resistant MFA, and passkeys are the most widely available phishing-resistant option. The major identity providers — Okta, Ping Identity, Microsoft Entra, and Google Workspace — all support passkeys in their enterprise SSO platforms.",
+      "<blockquote>We set a goal in 2022 to eliminate passwords within a decade. Three years later, we are at 1 billion passkey accounts. The trajectory suggests we will achieve functional elimination of password-based phishing within 5 years. The technology works. The user experience works — users love not having to remember passwords. The remaining barrier is organizational change management, not technology. — Andrew Shikiar, Executive Director, FIDO Alliance</blockquote>",
+      "The holdout cases: passkeys have not yet replaced passwords for low-security consumer apps (where the friction of new enrollment outweighs the security benefit for casual users), legacy enterprise applications requiring browser plugin support that passkeys do not yet provide, and recovery scenarios for users who lose all their devices. The FIDO Alliance has published updated recovery guidance recommending that organizations use a hardware security key backup rather than email or SMS recovery — maintaining the phishing-resistant guarantee even in the recovery flow.",
+    ],
+    company: 'FIDO Alliance',
+    readTime: 5,
+    tags: ['Passkeys', 'FIDO2', 'Authentication', 'Phishing', 'Cybersecurity', 'Passwordless'],
+  },
 ];
 
 TC.timelineData = {
