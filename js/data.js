@@ -4617,6 +4617,24 @@ undefined
     readTime: 5,
     tags: ['JetBrains', 'Fleet', 'IDE', 'Collaboration', 'Dev Tools', 'Remote Development'],
   },
+
+  {
+    id: 256,
+    date: '2026-07-11',
+    category: 'Cloud',
+    title: 'Databricks Acquires Tabular for $1.9 Billion to Unify Apache Iceberg and Delta Lake Into Single Open Table Format',
+    excerpt: 'The data platform company ends the table format war by acquiring the company co-founded by the creators of Apache Iceberg, signaling convergence on a single open standard for lakehouse data.',
+    body: [
+      "Databricks has acquired Tabular, the company co-founded by Ryan Blue (Apache Iceberg creator) and the core Iceberg development team, for $1.9 billion. The acquisition ends the most significant technical fragmentation in the data lakehouse ecosystem: Delta Lake (Databricks's own table format) and Apache Iceberg (the main competitor, backed by Netflix, Apple, and dozens of other companies) had been competing for enterprise adoption, forcing data teams to choose sides in a format war that added unnecessary complexity. Databricks has announced that future versions of Delta Lake will be built on Apache Iceberg's open specification.",
+      "The technical unification: Apache Iceberg and Delta Lake solve the same problem — making large-scale data files behave like a database table with ACID transactions, schema evolution, time travel, and efficient pruning. They have different internal formats but provide equivalent capabilities. By adopting Iceberg's specification as Delta Lake's foundation, Databricks creates a single table format that interoperates natively with all tools in the ecosystem — Spark, Trino, Flink, DuckDB, Snowflake, BigQuery, and Redshift all support Iceberg natively.",
+      "The business rationale: Databricks's strategic threat was Snowflake and AWS Glue/Athena gaining ground by supporting Iceberg natively while Delta Lake remained Databricks-specific. By owning Iceberg through Tabular, Databricks gains control of the open standard while making its platform the most complete implementation. Tabular's cloud-managed Iceberg catalog service becomes part of Unity Catalog, Databricks's enterprise data governance platform, extending its metadata management capabilities.",
+      "<blockquote>The table format war was bad for the entire data ecosystem. Every company had to evaluate both formats, choose one, and then manage the consequences of that choice as tools evolved. Iceberg and Delta Lake are more similar than different — the right outcome was always convergence, not competition. This acquisition gives us the ability to drive that convergence in a way that benefits the entire open data community. — Ali Ghodsi, CEO, Databricks</blockquote>",
+      "The Databricks valuation context: the company raised $1 billion at a $62 billion valuation in 2024 and is reportedly on a path to IPO in 2026 or 2027. The Tabular acquisition at $1.9 billion is its largest to date, following MosaicML ($1.3 billion, for generative AI training infrastructure) and Okera ($0.2 billion, for data governance). Snowflake, Databricks's primary competitor, has responded by accelerating its Iceberg support and forming a new 'Open Data Alliance' with AWS and Google to promote interoperability — signaling nervousness about Databricks's control of the Iceberg roadmap.",
+    ],
+    company: 'Databricks',
+    readTime: 5,
+    tags: ['Databricks', 'Apache Iceberg', 'Delta Lake', 'Data Platform', 'Acquisition', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
