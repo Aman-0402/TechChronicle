@@ -5679,6 +5679,24 @@ undefined
     readTime: 5,
     tags: ['Replit', 'AI Development', 'Startups', 'Ghostwriter', 'No-Code', 'App Generation'],
   },
+
+  {
+    id: 315,
+    date: '2026-07-14',
+    category: 'Hardware',
+    title: 'RISC-V International Publishes V3.0 ISA Specification: Open Instruction Set Achieves Hypervisor and Security Extensions Parity with ARM',
+    excerpt: 'RISC-V International releases the finalized V3.0 instruction set architecture specification adding hypervisor support, hardware security extensions, and vector processing improvements that close the remaining capability gaps with proprietary ARM architectures.',
+    body: [
+      "RISC-V International has published the finalized V3.0 specification for the RISC-V Instruction Set Architecture, completing the addition of capabilities that have historically prevented RISC-V from competing with ARM in server and cloud computing markets. V3.0 finalizes the H extension (Hypervisor support), enabling RISC-V processors to run virtual machines with hardware-assisted isolation equivalent to ARM's EL2 virtualization mode. The Smstateen and Smcsrind security extensions provide RISC-V with hardware-enforced privilege isolation capabilities that meet the requirements of cloud computing security models.",
+      "The hypervisor extension is commercially critical: cloud computing infrastructure requires hardware virtualization to run customer workloads in isolated virtual machines. ARM-based cloud servers (AWS Graviton, Ampere Altra) implement ARM's mandatory virtualization extensions; x86 servers implement VT-x and AMD-V. Without a finalized hypervisor specification, RISC-V processors could not host general-purpose virtual machines, limiting deployment to embedded and edge applications. V3.0's finalized H extension enables RISC-V servers to run Linux KVM, Xen, and other hypervisors with full performance isolation.",
+      "The Vector extension (RVV 2.0) improvements in V3.0 address SIMD performance gaps that prevented RISC-V from competing with ARM Neon and x86 AVX in media processing, cryptography, and AI inference workloads. RVV 2.0 adds variable-length vector registers (up to 512 bits) and new cryptographic acceleration instructions (AES, SHA, GCM) that enable competitive performance with ARM's dedicated cryptographic extensions without requiring separate hardware accelerator blocks.",
+      "<blockquote>RISC-V V1.0 proved an open ISA could work. V2.0 proved it could be commercially viable. V3.0 proves it can compete at every level, from microcontrollers to hyperscale servers. We have eliminated every architectural reason to choose a proprietary ISA. The remaining competition is ecosystem, tools, and software — and those are winning by being open, not by being closed. — Calista Redmond, CEO, RISC-V International</blockquote>",
+      "The V3.0 specification release is accompanied by verification suite updates and QEMU emulation support enabling software developers to begin V3.0 compatibility work before V3.0 silicon ships. Multiple semiconductor companies — SiFive, Alibaba T-Head, StarFive, and Espressif — have announced V3.0-compliant processor development programs targeting server, automotive, and wireless infrastructure markets. Linux kernel support for V3.0 extensions is included in the 7.2 development cycle.",
+    ],
+    company: 'RISC-V International',
+    readTime: 5,
+    tags: ['RISC-V', 'Open Source', 'Hardware', 'CPU Architecture', 'Hypervisor', 'ISA'],
+  },
 ];
 
 TC.timelineData = {
