@@ -5103,6 +5103,24 @@ undefined
     readTime: 5,
     tags: ['AWS', 'Graviton', 'ARM', 'Cloud', 'EC2', 'Performance'],
   },
+
+  {
+    id: 283,
+    date: '2026-07-12',
+    category: 'Programming',
+    title: 'Bun 2.0 JavaScript Runtime Reaches Production Stability with Full Node.js Compatibility: 3x Faster Package Install and Native TypeScript Execution',
+    excerpt: 'Bun 2.0 releases as production-stable JavaScript runtime and toolkit with complete Node.js API compatibility, eliminating the ecosystem fragmentation that limited Bun adoption in enterprise production environments.',
+    body: [
+      "Bun 2.0 has released as a production-stable JavaScript runtime with complete Node.js API compatibility — the missing piece that was preventing enterprise adoption of what had already become the fastest JavaScript runtime available. Bun 2.0 passes 99.7% of the Node.js compatibility test suite, covering all major APIs including fs, http, net, crypto, child_process, worker_threads, and the full CommonJS and ESM module systems. Applications that run on Node.js can migrate to Bun without code changes in the vast majority of cases.",
+      "Performance improvements over Node.js LTS in production benchmarks are substantial: npm install equivalent operations run 3x faster, test suite execution with Bun's native test runner is 2.4x faster than Jest on equivalent test suites, and HTTP server throughput is 2.1x higher on equivalent express.js compatible applications. These improvements stem from Bun's foundation on JavaScriptCore (the engine in Apple's Safari) rather than V8, combined with a highly optimized standard library written in Zig that avoids many of the abstraction layers present in Node.js's libuv-based I/O system.",
+      "Native TypeScript execution without a compilation step is a developer experience improvement with significant implications for production workflows. TypeScript files execute directly without tsc, ts-node, or similar tooling, with Bun handling type stripping at parse time using its own high-performance TypeScript parser. Startup time for TypeScript applications drops from 200-500ms (including compilation) to 10-30ms, making Bun practical for CLI tools, scripts, and lambda functions where cold start latency matters.",
+      "<blockquote>Developers voted with their downloads — Bun reached 50 million weekly downloads despite being marked as experimental. They wanted what Bun offered: speed, simplicity, TypeScript first-class. Now we have added what enterprises required: Node.js compatibility. There is no longer a reason to use Node.js for new projects. — Jarred Sumner, Creator of Bun</blockquote>",
+      "Bun 2.0 includes a migration CLI tool that audits Node.js projects for compatibility issues and generates fixes for the small percentage of code that requires changes. Enterprise features added in 2.0 include native Docker image publishing to all major container registries, Bun.lock format compatibility with npm and yarn lockfile auditing tools, and a built-in process manager for production service supervision. The Bun team is also announcing the Bun Enterprise tier with commercial support, SLA guarantees, and security patch backporting for organizations requiring vendor support.",
+    ],
+    company: 'Bun',
+    readTime: 5,
+    tags: ['Bun', 'JavaScript', 'Node.js', 'Runtime', 'TypeScript', 'Programming'],
+  },
 ];
 
 TC.timelineData = {
