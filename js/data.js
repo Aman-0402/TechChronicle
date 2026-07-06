@@ -3717,6 +3717,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft', 'Copilot', 'AI Agents', 'Enterprise AI', 'Autonomous', 'Azure'],
   },
+
+  {
+    id: 206,
+    date: '2026-07-08',
+    category: 'Open Source',
+    title: 'Redis Returns to Open Source: New SSPL-Free License Under Linux Foundation Stewardship After Community Pressure',
+    excerpt: 'Redis relicenses back to a permissive open-source license after a year of community backlash against its Server Side Public License, with the Linux Foundation taking over governance.',
+    body: [
+      "Redis Ltd. has announced that Redis 8.0 will be released under the BSD 3-Clause license — fully open source — under the stewardship of the Linux Foundation, reversing the controversial March 2024 relicensing that replaced the BSD license with the Server Side Public License (SSPL). The reversal comes after a year of community fragmentation: Redis forks Valkey (backed by AWS, Google, and Oracle) and Garnet (Microsoft) had gained significant adoption, with Valkey achieving 10 billion monthly Docker pulls and threatening to permanently replace Redis as the de facto in-memory data store standard.",
+      "The business context for the reversal: Redis Ltd. reported a 35% decline in new enterprise deals in the year following the SSPL relicensing, as enterprise procurement teams flagged SSPL compliance uncertainty. Cloud providers who had been forced to fork the project (rather than ship the SSPL-licensed version) had no incentive to contribute their improvements back, fragmenting the ecosystem. The Linux Foundation approach — which Redis Ltd. agreed to after negotiations mediated by a neutral technical advisory board — establishes a neutral governance structure where no single company can unilaterally relicense the project.",
+      "The Linux Foundation's Redis Foundation will be governed by a Technical Steering Committee with seats allocated to cloud providers, enterprise users, independent contributors, and Redis Ltd. Redis Ltd. retains commercial rights to Redis Enterprise (its managed cloud offering) and Redis Cloud products, which add proprietary modules on top of the open-source core. The open-source core — including the in-memory data structures, replication, persistence, and clustering — is fully BSD-licensed with no SSPL carve-outs.",
+      "<blockquote>Open source is not a marketing strategy you adopt when convenient and abandon when profitable. It is a social contract that creates trust over decades. Redis breaking that contract in 2024 was a mistake — I understand the business pressures, but the community had built Redis into what it was and deserved better. This reversal is the right decision, and the Linux Foundation governance model is the right structure to make it permanent. — Salvatore Sanfilippo, Redis Original Creator</blockquote>",
+      "The Valkey project has announced it will continue as an independent project under the Linux Foundation regardless of Redis's relicensing, citing its own momentum and the broader community that has formed around it. AWS, Google, and Oracle will maintain their Valkey-based managed services while adding support for the new BSD-licensed Redis 8.0 — an unusual situation of two compatible but competing projects under the same foundation umbrella. The Redis Foundation has proposed a technical roadmap unification process to minimize divergence between the projects.",
+    ],
+    company: 'Redis',
+    readTime: 5,
+    tags: ['Redis', 'Open Source', 'Linux Foundation', 'SSPL', 'Valkey', 'License'],
+  },
 ];
 
 TC.timelineData = {
