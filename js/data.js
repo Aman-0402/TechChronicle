@@ -5463,6 +5463,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft', 'Azure', 'Confidential Computing', 'Cloud', 'Privacy', 'AI Security'],
   },
+
+  {
+    id: 303,
+    date: '2026-07-13',
+    category: 'Open Source',
+    title: 'Redis 9.0 Adds Native JSON Vector Store and AI Context Management: In-Memory Database Becomes Primary Data Layer for AI Agent Applications',
+    excerpt: 'Redis releases version 9.0 with built-in vector similarity search, JSON document storage optimized for AI context, and a new Agent Memory API designed specifically for AI agent state management and conversation history.',
+    body: [
+      "Redis 9.0 has been released with a comprehensive set of AI-native features that position the popular in-memory data store as the primary data layer for AI agent applications. The release adds native vector similarity search (consolidating the previously separate RediSearch and RedisAI extensions into the core), JSON document storage with AI-optimized indexing, and a new Agent Memory API providing structured storage for AI conversation history, agent state, and inter-agent communication — capabilities that AI application developers have historically implemented through complex combinations of Redis data structures.",
+      "The vector similarity search implementation in Redis 9.0 uses HNSW (Hierarchical Navigable Small World) indexing with configurable precision-speed tradeoffs, storing embedding vectors alongside the original documents in the same data structure. Queries combining vector similarity search with Redis filtering (find documents semantically similar to this query, from the last 24 hours, with status 'published') execute in a single Redis command, achieving sub-millisecond latency for filtered vector search on datasets up to 100 million embeddings on adequate hardware.",
+      "The Agent Memory API introduces a new conceptual abstraction in Redis: agent sessions that persist conversational context, tool call history, and intermediate reasoning state between LLM API calls. The API provides structured storage that maps directly to how AI agent frameworks (LangChain, LlamaIndex, AutoGPT) manage state, reducing the custom Redis integration code that AI developers currently write. Session management includes automatic expiration policies, context window summarization hooks, and distributed locking for multi-agent coordination scenarios where multiple agents access shared state.",
+      "<blockquote>Redis was built for the speed that web applications needed in 2009. Redis 9.0 is built for the speed that AI applications need in 2026. AI agents make hundreds of memory reads and writes per second — reading conversation history, updating state, coordinating with other agents. No database technology is better positioned for this workload than Redis. We built the AI memory layer. — Rowan Trollope, CEO, Redis</blockquote>",
+      "Redis 9.0 is released under the Redis Source Available License 2 (RSAL 2) with a new AI Startup Exception providing free commercial use for companies with less than 5 million dollars in annual revenue and fewer than 10 million monthly active users. The exception specifically targets AI startups building applications on Redis, acknowledging that early-stage companies should have access to production-quality AI infrastructure without licensing barriers. Managed Redis 9.0 service is available immediately on AWS ElastiCache for Redis, Google Memorystore, and Azure Cache for Redis.",
+    ],
+    company: 'Redis',
+    readTime: 5,
+    tags: ['Redis', 'Vector Database', 'Open Source', 'AI Agents', 'Memory', 'In-Memory'],
+  },
 ];
 
 TC.timelineData = {
