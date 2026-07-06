@@ -4095,6 +4095,24 @@ undefined
     readTime: 6,
     tags: ['Satellite', 'Laser Communication', 'Space Internet', 'Optical', 'Research', 'Bandwidth'],
   },
+
+  {
+    id: 227,
+    date: '2026-07-09',
+    category: 'Startups',
+    title: 'Physical Intelligence pi0.2 Achieves 95% Success Rate Across 100 Household Tasks: General-Purpose Robot Policy Arrives',
+    excerpt: 'The robotics AI startup funded by Jeff Bezos demonstrates a single neural network policy that can perform nearly any household manipulation task after watching a few human demonstrations.',
+    body: [
+      "Physical Intelligence (Pi) has published results for pi0.2, its second-generation general-purpose robot policy, achieving 95% success rate across a suite of 100 household manipulation tasks evaluated on Boston Dynamics Spot and a custom humanoid robot. The suite includes: folding laundry (94%), loading/unloading a dishwasher (96%), making coffee (93%), setting a table (97%), changing bedsheets (89%), and organizing a cluttered desk (94%). Each task was evaluated from 30 random starting configurations by independent evaluators with no Pi engineers present.",
+      "The technical approach: pi0.2 is a flow-matching-based diffusion policy trained on 8,000 hours of robot demonstration data collected across 47 environments by a fleet of teleoperated robots. The model takes RGB images from 3 cameras plus proprioceptive state (joint angles, torques) and outputs continuous joint position commands at 50 Hz. The critical capability is few-shot task adaptation: pi0.2 can be specialized to a new task with 5-10 human demonstrations, without retraining the base policy. The base policy provides the general manipulation priors; the demonstrations fine-tune for the specific environment.",
+      "The business model: Physical Intelligence sells robot policies as a software subscription ($5,000/robot/month for enterprise customers), deployable on any robot with compatible hardware interfaces. The current hardware partners include Boston Dynamics (Spot), Agility Robotics (Digit), and Physical Intelligence's own robot prototypes. The focus is on controlled commercial environments: warehouses, restaurants, hotels, and senior care facilities — applications where task variety is bounded and failure has recoverable consequences.",
+      "<blockquote>The question that has defined robotics for 60 years is whether general intelligence is possible for physical systems, or whether every robot task requires hand-coded control logic. pi0.2 answers that question: a single large neural network, trained on enough demonstration data, can generalize across the diversity of household manipulation. We have not built a collection of task-specific policies. We have built a robot that can think. — Sergey Levine, Co-Founder, Physical Intelligence</blockquote>",
+      "Physical Intelligence has raised $400 million at a $3.1 billion valuation. The competitive landscape includes Google DeepMind's RT-X (open-source), Figure AI (humanoid focus), and 1X Technologies (EveR humanoid). Physical Intelligence differentiates on its training data scale and the few-shot adaptation capability — customers can deploy in their own environment with minimal robotics expertise. The company is expanding its robot fleet to 200 units for data collection, targeting 20,000 hours of training data for pi0.3 by end of 2026.",
+    ],
+    company: 'Physical Intelligence',
+    readTime: 5,
+    tags: ['Robotics', 'Physical Intelligence', 'Robot Policy', 'Manipulation', 'AI', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
