@@ -4365,6 +4365,24 @@ undefined
     readTime: 5,
     tags: ['Character.AI', 'Replika', 'Social AI', 'AI Companions', 'Acquisition', 'Startups'],
   },
+
+  {
+    id: 242,
+    date: '2026-07-10',
+    category: 'Cybersecurity',
+    title: 'GitHub Copilot Autofix Automatically Patches 80% of SAST Security Findings Before Code Review',
+    excerpt: 'GitHub's security platform applies AI-generated patches to security vulnerabilities at the point of code writing, fundamentally changing how developers interact with security tooling.',
+    body: [
+      "GitHub has announced that Copilot Autofix, its AI-powered automatic security remediation feature, now patches 80% of CodeQL static analysis security findings automatically — without requiring developer intervention beyond reviewing and accepting the suggested fix. The feature has been deployed across 1.2 million repositories on GitHub Advanced Security, generating 4.7 million automatic security patches in the 6 months since launch. The most common categories patched automatically: SQL injection (injecting parameterized queries), XSS (adding output encoding), path traversal (adding path sanitization), and hardcoded credentials (replacing with environment variable references).",
+      "The patching methodology: when CodeQL identifies a security finding, Copilot Autofix receives the finding metadata (vulnerability type, vulnerable code location, data flow path from source to sink), retrieves the surrounding code context, and generates a targeted fix using a code-specialized AI model fine-tuned on security remediation patterns. The fix is presented as a pull request comment with an 'Accept Fix' button — one click integrates the security patch. The patches pass 87% of existing tests in the repositories where they are applied, indicating they are functionally correct rather than just syntactically valid.",
+      "The developer experience transformation: traditional security tooling creates a 'vulnerability debt backlog' — security findings that developers are supposed to address but do not because each fix requires understanding the vulnerability, designing a fix, and implementing it. With Autofix, the fix is presented alongside the finding, reducing the cognitive cost from hours to seconds. GitHub's data shows that when Autofix provides a suggested fix, developers accept it 65% of the time — a dramatic improvement over the 12% remediation rate for findings presented without fixes.",
+      "<blockquote>Security has always been a tension between safety and velocity — developers want to ship fast, security wants code to be safe, and the compromise was usually accepting risk. Autofix changes the equation: the security fix is available before the developer finishes writing the vulnerable code. There is no longer a velocity penalty for security compliance. The finding and the fix arrive together. — Thomas Dohmke, CEO, GitHub</blockquote>",
+      "The remaining 20% of findings that Autofix cannot automatically patch require human judgment: complex business logic vulnerabilities (authentication and authorization flaws that depend on the application's specific security model), race conditions (requiring architectural changes rather than local fixes), and cryptographic weaknesses (where the correct fix depends on the broader system design). For these, Autofix provides an explanation and a suggested remediation approach rather than an automatic patch, reducing the developer's time-to-fix from hours to 20-30 minutes.",
+    ],
+    company: 'GitHub',
+    readTime: 5,
+    tags: ['GitHub', 'Security', 'Copilot', 'SAST', 'Autofix', 'Vulnerability Remediation'],
+  },
 ];
 
 TC.timelineData = {
