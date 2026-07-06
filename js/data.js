@@ -3591,6 +3591,24 @@ undefined
     readTime: 6,
     tags: ['DeepSeek', 'AI Research', 'LLM', 'Scaling', 'Training Cost', 'China AI'],
   },
+
+  {
+    id: 199,
+    date: '2026-07-08',
+    category: 'Dev Tools',
+    title: 'Cursor AI Editor Reaches 5 Million Developers, Raises $500M Series C at $9 Billion Valuation',
+    excerpt: 'The AI-native code editor has become the fastest-growing developer tool in history, and its latest funding round validates a new category distinct from IDE plugins and traditional editors.',
+    body: [
+      "Cursor, the AI-native code editor built on VS Code's foundation, has announced 5 million monthly active developers and a $500 million Series C round at a $9 billion valuation led by Andreessen Horowitz, with participation from Sequoia Capital, Thrive Capital, and OpenAI. The milestone makes Cursor the fastest developer tool to reach 5 million active users in history, achieving the milestone in 26 months from public launch. The company's annual recurring revenue has crossed $400 million, driven by its $20/month Pro subscription.",
+      "Cursor's core differentiator: it was built from the ground up for AI-assisted coding, rather than adding AI as a plugin to an existing editor. The AI is deeply integrated into the editing model — it understands the full codebase semantically, can edit multiple files in a single operation, predicts what the developer will type next based on their current editing context, and provides inline explanations that are aware of the specific code on screen. The 'Composer' feature allows developers to describe what they want to build in natural language and have the AI plan and execute multi-file edits with the developer reviewing diffs.",
+      "The developer adoption data: a survey of Cursor users shows 68% report writing 30%+ more code per day, 45% report catching more bugs before submission, and 78% say they would not return to their previous editor. Enterprise adoption is accelerating fastest: Cursor for Business (which adds admin controls, SSO, audit logs, and on-premises deployment) grew 400% year-over-year, with notable adopters including Stripe, Figma, DoorDash, and Notion. The enterprise tier, priced at $40/user/month, represents 35% of revenue despite being 15% of users.",
+      "<blockquote>Every generation of developer tools changes what is possible to build. The command line made programming accessible to non-ENIAC operators. IDEs made large codebases navigable. Cursor is the first tool that makes AI a genuine collaborator rather than an autocomplete engine. The developers using Cursor are not just writing code faster — they are building things they would not have attempted before. — Michael Truell, CEO, Cursor (Anysphere)</blockquote>",
+      "The competitive landscape is intensifying: GitHub Copilot has 2 million enterprise users and has added Copilot Workspace (a multi-file editing feature directly competing with Cursor Composer), JetBrains has integrated AI into all its IDE products, and Windsurf (formerly Codeium) has launched a competing AI-native editor. Cursor's moat is its lead in AI quality — its code understanding engine outperforms competitors on the SWE-Bench coding benchmark by 12 percentage points — and its developer community, which has built an ecosystem of custom AI rules and context configurations that users share publicly.",
+    ],
+    company: 'Cursor',
+    readTime: 5,
+    tags: ['Cursor', 'AI Editor', 'Dev Tools', 'Funding', 'Startups', 'Coding AI'],
+  },
 ];
 
 TC.timelineData = {
