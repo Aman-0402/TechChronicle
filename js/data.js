@@ -3771,6 +3771,24 @@ undefined
     readTime: 5,
     tags: ['Cloudflare', 'Workers', 'Serverless', 'Shopify', 'Zendesk', 'Cloud'],
   },
+
+  {
+    id: 209,
+    date: '2026-07-08',
+    category: 'Dev Tools',
+    title: 'GitHub Actions Self-Hosted Runner 3.0 Adds Ephemeral Containers, 10x Faster Startup, and Native Kubernetes Integration',
+    excerpt: 'GitHub's CI/CD execution platform overhauls its self-hosted runner architecture to eliminate the security risks and performance limitations that drove many enterprises to competing CI systems.',
+    body: [
+      "GitHub has released Actions Runner 3.0 with a complete redesign of the self-hosted runner architecture. The key changes: ephemeral containers by default (each job runs in a fresh container that is destroyed afterward, eliminating state contamination between jobs), 10x faster job startup using pre-warmed container pools, and a new Kubernetes operator that allows GitHub Actions to schedule jobs directly on existing Kubernetes clusters without a separate runner fleet. The redesign addresses the two most common reasons enterprises chose Jenkins or CircleCI over GitHub Actions: security concerns about persistent runner state and slow job startup times.",
+      "The ephemeral container model works by pre-initializing a pool of containers before jobs arrive. When a job is queued, a container from the pool is assigned — the container has the runner software and common tools pre-installed but no sensitive state. The job runs, the container is destroyed, and a new container replaces it in the pool. Startup time from queue to first step is reduced from 45 seconds (for full container startup) to 3 seconds (from the pre-warmed pool). GitHub manages the pool size automatically, scaling up during peak hours based on historical job patterns and scaling down during off-hours to reduce cloud costs.",
+      "The Kubernetes operator enables 'actions-runner-controller 2.0' — a major revision of the popular open-source controller that previously required complex manual configuration. The new version auto-discovers runners from GitHub's API, handles scaling via Kubernetes HPA (Horizontal Pod Autoscaler), supports multiple runner groups with different resource configurations, and integrates with Kubernetes secrets for injecting credentials without exposing them in workflow files. Organizations already running Kubernetes for production workloads can now use the same cluster for CI/CD, consolidating infrastructure.",
+      "<blockquote>The self-hosted runner existed for compliance and cost reasons — organizations needed to keep sensitive data off GitHub's hosted infrastructure, or they needed custom hardware. But the operational burden of managing persistent runners made it painful. Runner 3.0 gives you the control of self-hosted with the operations of hosted. You bring the infrastructure; we bring the complexity management. — Thomas Dohmke, CEO, GitHub</blockquote>",
+      "GitHub is simultaneously retiring the legacy persistent runner in GitHub Actions Runner 3.0 — existing persistent runners continue working but are marked as deprecated with a 12-month migration window. The migration tooling automatically converts persistent runner configurations to ephemeral equivalent configurations, handling the common patterns (pre-installed tools, cached dependencies, shared secrets). GitHub reports that persistent runners account for 65% of enterprise self-hosted runner usage, representing a large migration effort. Early adopters report 40% reduction in CI costs due to better resource utilization in the ephemeral model.",
+    ],
+    company: 'GitHub',
+    readTime: 5,
+    tags: ['GitHub Actions', 'CI/CD', 'Kubernetes', 'DevOps', 'Dev Tools', 'GitHub'],
+  },
 ];
 
 TC.timelineData = {
