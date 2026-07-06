@@ -4815,6 +4815,24 @@ undefined
     readTime: 5,
     tags: ['DuckDB', 'Database', 'OLAP', 'OLTP', 'Analytics', 'Open Source'],
   },
+
+  {
+    id: 267,
+    date: '2026-07-11',
+    category: 'Cloud',
+    title: 'Oracle Cloud Achieves $25 Billion ARR: AI Training Demand Drives Largest Annual Revenue Growth in Company History',
+    excerpt: 'Larry Ellison's cloud platform posts extraordinary growth driven by AI training workloads, as hyperscalers struggle to supply GPU capacity and Oracle's dedicated AI infrastructure fills the gap.',
+    body: [
+      "Oracle Corporation has reported that Oracle Cloud Infrastructure (OCI) has reached $25 billion in annual recurring revenue — a 68% year-over-year growth rate that represents the fastest growth in Oracle's 46-year history. The growth driver is almost entirely AI: OCI's AI/GPU cluster capacity is sold out through late 2026, and a waiting list of over 200 enterprise customers is seeking more GPU hours than Oracle can currently supply. Larry Ellison, Oracle's founder and CTO, attributed the growth to a strategic bet he made in 2021 to build AI-optimized data center infrastructure while AWS, Azure, and GCP were focused on general-purpose cloud.",
+      "OCI's AI infrastructure differentiator: Oracle built its AI clusters using NVIDIA H100 and B100 GPUs with RDMA-over-converged-Ethernet (RoCE) networking at 3.2 Tbps intra-cluster bandwidth — as fast as NVIDIA's proprietary NVLink interconnect but using standard networking hardware. This high-bandwidth flat network architecture allows AI training workloads to distribute across Oracle's cluster without hitting the interconnect bottlenecks common on AWS or Azure. Customers including xAI (Elon Musk's AI company) and Apple have publicly referenced Oracle's networking architecture as a reason for choosing OCI for specific training runs.",
+      "The xAI relationship is Oracle's highest-profile AI partnership: xAI's Colossus cluster (the largest single AI training cluster in the world by GPU count) runs on OCI infrastructure in Memphis, Tennessee, and the $50 billion xAI fundraise partially funds expanding Oracle's Memphis data center to accommodate 500,000 additional B300 GPUs. The cluster size and infrastructure relationship represent Oracle's transition from database company to critical AI infrastructure provider.",
+      "<blockquote>Ten years ago, Oracle was a legacy database company that everyone said was losing the cloud war. Today we are selling out our AI infrastructure months in advance at premium prices while our hyperscaler competitors struggle to keep up with demand. We built the right infrastructure at the right time. The AI era is Oracle's era. — Larry Ellison, Co-Founder and CTO, Oracle</blockquote>",
+      "The financial transformation is striking: Oracle's cloud revenue surpassed its legacy database license revenue for the first time in Q4 FY2026, marking a fundamental business model shift. The company's market capitalization has grown from $230 billion in 2022 to $840 billion in mid-2026, driven by AI infrastructure demand. Oracle is now building 6 new hyperscale AI data centers simultaneously, with $30 billion in committed infrastructure spending for the next 18 months — investments that will double OCI's AI capacity.",
+    ],
+    company: 'Oracle',
+    readTime: 5,
+    tags: ['Oracle', 'OCI', 'Cloud', 'AI Infrastructure', 'GPU', 'Data Centers'],
+  },
 ];
 
 TC.timelineData = {
