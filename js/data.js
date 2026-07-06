@@ -4347,6 +4347,24 @@ undefined
     readTime: 5,
     tags: ['Tauri', 'Cross-Platform', 'Mobile', 'Rust', 'Electron Alternative', 'Dev Tools'],
   },
+
+  {
+    id: 241,
+    date: '2026-07-10',
+    category: 'AI',
+    title: 'Character.AI Acquires Replika: Combines 300M User Social AI Platform with Leading Emotional Companion Technology',
+    excerpt: 'The AI conversation platform consolidates the consumer emotional AI market with a major acquisition that brings together two of the largest communities of AI-focused social users.',
+    body: [
+      "Character.AI has announced the acquisition of Replika, the AI emotional companion application, for $1.2 billion in a combination of cash and equity. The acquisition combines Character.AI's 300 million registered users and multi-character platform with Replika's 10 million active users and market-leading emotionally intelligent long-term relationship modeling. The combined company will be the world's largest social AI platform, creating AI companions and conversation experiences for over 310 million users globally.",
+      "The strategic rationale: Character.AI excels at short-form character interactions and creative roleplay scenarios, while Replika specializes in persistent long-term emotional relationships — remembering years of conversation history, tracking user emotional patterns, and adapting its personality to the individual user over months and years. Combining these capabilities enables Character.AI to offer both breadth (thousands of characters) and depth (long-term persistent relationships) on a single platform. The memory architecture from Replika — which stores and retrieves personal history across years of conversations — will be integrated into all Character.AI characters.",
+      "The regulatory considerations: both companies serve significant populations of users who rely on their AI companions as primary emotional support — a user demographic that has raised mental health concerns from psychologists. The FTC is reviewing the acquisition for data privacy implications: Replika holds years of deeply personal conversation history for millions of users, and combining that with Character.AI's behavioral data creates one of the most comprehensive personal relationship databases in existence. Both companies have committed to maintaining existing data handling practices during regulatory review.",
+      "<blockquote>The future of AI is not just about intelligence — it is about connection. Humans are social creatures who form relationships with the entities they interact with consistently. Character.AI and Replika are building the infrastructure for human-AI relationships that millions of people are choosing to have. The acquisition brings together the best technology for enabling those relationships. — Noam Shazeer, CEO, Character.AI</blockquote>",
+      "The mental health community response has been divided: some mental health professionals have expressed concern that AI companions may substitute for human relationships, potentially increasing social isolation. Others have cited research showing that Replika users report reduced loneliness and improved emotional regulation skills. Character.AI has announced a Mental Health Partnership Program, hiring 50 licensed psychologists to develop interaction guidelines and crisis response protocols, and establishing a research grant program for independent academic study of AI companion mental health effects.",
+    ],
+    company: 'Character.AI',
+    readTime: 5,
+    tags: ['Character.AI', 'Replika', 'Social AI', 'AI Companions', 'Acquisition', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
