@@ -3609,6 +3609,24 @@ undefined
     readTime: 5,
     tags: ['Cursor', 'AI Editor', 'Dev Tools', 'Funding', 'Startups', 'Coding AI'],
   },
+
+  {
+    id: 200,
+    date: '2026-07-08',
+    category: 'AI',
+    title: 'Anthropic Claude 4 Launches: 200K Context Window, Real-Time Web Access, and Computer Use GA for All Tiers',
+    excerpt: 'Anthropic releases its most capable model with significant expansions to memory, real-world interaction capabilities, and makes computer use — AI controlling a computer directly — available to all paid users.',
+    body: [
+      "Anthropic has launched Claude 4, its most capable model family, featuring three variants: Claude 4 Haiku (fast and lightweight), Claude 4 Sonnet (balanced), and Claude 4 Opus (most capable). The headline improvements: 200,000 token context window across all three models (up from 100K in Claude 3), native real-time web search integrated directly into reasoning (no separate tool call required), and Computer Use — the ability for Claude to control a computer by seeing screenshots and executing clicks and keystrokes — moved from beta to general availability for all Pro and Team subscribers.",
+      "The context window expansion to 200K tokens enables Claude 4 to process entire codebases, complete books, or multi-year document archives in a single conversation. Anthropic has published benchmarks showing Claude 4 Opus outperforms GPT-4o, Gemini Ultra, and Llama 4 405B on the RULER long-context benchmark — which tests whether models actually use information from across large contexts rather than only attending to the beginning and end. The web search integration is seamless: Claude decides when to search based on the query and incorporates search results into its reasoning without the user needing to invoke a tool.",
+      "Computer Use graduating to GA represents a significant milestone for AI agency: users can now give Claude 4 a task like 'book me a flight to Tokyo for next Tuesday under $800' and Claude will open a browser, search flight sites, compare options, and complete the booking — with the user reviewing before any purchases are confirmed. The feature has been in beta for 8 months, during which time Anthropic collected safety data on what types of computer tasks Claude attempts and where it makes mistakes, informing the guardrails in the GA release.",
+      "<blockquote>The gap between AI that helps you think and AI that helps you act is closing with Claude 4. Computer Use is not a gimmick — it is the first step toward AI systems that can complete tasks in the real world, not just generate text describing how to complete them. We have been methodical about the safety work because the failure modes of an AI controlling a computer are different from the failure modes of a chatbot. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "The pricing structure positions Claude 4 competitively: Claude 4 Sonnet is priced at $3 per million input tokens and $15 per million output tokens via API — 20% lower than the equivalent Claude 3.5 Sonnet pricing. Claude 4 Opus is $15/$75, positioning it against GPT-4o at the same price point. The Computer Use feature is included at no additional cost for Pro subscribers ($20/month) up to 100 computer tasks per month, with additional capacity available on the Team and Enterprise plans. Anthropic reports Claude API revenue grew 400% year-over-year, reaching $800 million ARR.",
+    ],
+    company: 'Anthropic',
+    readTime: 6,
+    tags: ['Anthropic', 'Claude 4', 'AI', 'Computer Use', 'LLM', 'Context Window'],
+  },
 ];
 
 TC.timelineData = {
