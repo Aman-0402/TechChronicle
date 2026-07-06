@@ -5031,6 +5031,24 @@ undefined
     readTime: 5,
     tags: ['Cohere', 'Command R3', 'Enterprise AI', 'RAG', 'Context Window', 'Privacy'],
   },
+
+  {
+    id: 279,
+    date: '2026-07-12',
+    category: 'Hardware',
+    title: 'Samsung Mass Produces 3D HBM4E Memory at 2 TB/s Bandwidth: Next-Generation AI Accelerator Memory Doubles Training Speed for 100B Parameter Models',
+    excerpt: 'Samsung Electronics announces mass production of HBM4E stacked memory delivering 2 terabytes per second bandwidth, providing AI accelerator chips with the memory throughput necessary for next-generation 100B+ parameter model training.',
+    body: [
+      "Samsung Electronics has announced mass production of HBM4E (High Bandwidth Memory 4 Enhanced), the latest generation of stacked memory technology delivering 2 terabytes per second of memory bandwidth per package — double the bandwidth of HBM3E used in current NVIDIA H100 and H200 GPUs. HBM4E achieves this bandwidth through 16-high stacking of DRAM dies (versus 12-high in HBM3E) using TSMC's CoWoS-L advanced packaging, with 4,096-bit wide memory interfaces per package operating at 3.9 GHz effective clock speed.",
+      "The significance for AI training is immediate and quantifiable: memory bandwidth is the primary bottleneck for transformer model training, as the billions of parameters in large language models must be continuously read and written during each training step. An H100 GPU equipped with HBM4E instead of HBM3E would theoretically complete 100 billion parameter model training runs 45% faster, translating to proportional reductions in compute cost for frontier AI labs that spend hundreds of millions of dollars per training run. NVIDIA has confirmed that its next-generation Blackwell Ultra GPU (B300) will use HBM4E as standard.",
+      "Manufacturing HBM4E at scale required Samsung to develop several enabling technologies. Through-Silicon Vias (TSVs) connecting the die stack needed to be reduced from 55 micrometers to 45 micrometers pitch while maintaining yield above 99.3% — a process engineering achievement requiring two years of development. The CoWoS-L packaging process co-locates DRAM and compute dies on the same interposer with 2-micrometer bump pitch, versus 10-micrometer pitch in earlier generations, enabling the wider memory interface that provides 4,096-bit bandwidth.",
+      "<blockquote>Every two years, AI models double in parameter count. Every two years, they require more memory bandwidth. HBM4E is our answer to the frontier AI labs' memory challenge for the next generation of models. We are not just shipping a memory chip — we are enabling the next generation of AI capabilities that would be computationally impossible with existing memory technology. — Jong-Hoon Han, Executive VP, Samsung Memory Division</blockquote>",
+      "SK Hynix, which currently holds the majority of NVIDIA's HBM supply relationship, is in production of its own HBM4E variant targeting similar bandwidth with slightly different thermal characteristics. The competitive dynamic between Samsung and SK Hynix benefits AI hardware customers by ensuring supply availability and competitive pricing, though analysts note that HBM manufacturing capacity remains the binding constraint on AI accelerator production regardless of which supplier wins orders.",
+    ],
+    company: 'Samsung',
+    readTime: 5,
+    tags: ['Samsung', 'HBM4E', 'Memory', 'Hardware', 'AI Accelerators', 'DRAM'],
+  },
 ];
 
 TC.timelineData = {
