@@ -5355,6 +5355,24 @@ undefined
     readTime: 5,
     tags: ['UC Berkeley', 'RISC-V', 'Chip Design', 'Research', 'AI', 'Hardware Automation'],
   },
+
+  {
+    id: 297,
+    date: '2026-07-13',
+    category: 'AI',
+    title: 'Anthropic Claude 4 Achieves 200K Sustained Context with Perfect Recall: Constitutional AI Reaches New Capability Frontier with Enhanced Safety Guarantees',
+    excerpt: 'Anthropic releases Claude 4, demonstrating near-perfect information retrieval across 200,000 tokens of context and introducing new Constitutional AI 2.0 techniques that improve harmlessness without reducing helpfulness on difficult tasks.',
+    body: [
+      "Anthropic has released Claude 4, its fourth-generation large language model, demonstrating near-perfect information retrieval and reasoning across a 200,000-token context window — sufficient to process a full software engineering project, legal case file, or multi-volume scientific study in a single interaction. On the Needle in a Haystack benchmark (retrieving specific information from a large context), Claude 4 scores 99.2% across all context lengths from 1,000 to 200,000 tokens, compared to 94% for GPT-4o at 128K context. The performance improvement reflects architectural advances in Anthropic's attention mechanism and context encoding that reduce the quality degradation that all previous models show on information at the middle of long contexts.",
+      "Constitutional AI 2.0, Anthropic's updated alignment technique, addresses a long-standing tension in AI safety: making models more resistant to harmful requests often reduces their helpfulness on legitimate difficult tasks (medical information, security research, legal analysis). Constitutional AI 2.0 uses a more nuanced harm taxonomy that distinguishes between context-dependent harm (information that is harmful in some contexts but beneficial in others) and inherent harm (content that is harmful in all contexts). The result is a model that maintains safety properties for genuinely harmful requests while being substantially more helpful for the difficult-but-legitimate tasks that previous safety training incorrectly restricted.",
+      "Benchmark performance across reasoning, coding, and analysis tasks puts Claude 4 at the top of most published rankings. SWE-bench software engineering: 72% (versus 54% for GPT-4o). MMLU: 92.3% (versus 88.7% for GPT-4o). GPQA (graduate-level scientific questions): 74% (versus 68% for GPT-4o). Legal analysis benchmarks: 91% on bar exam simulation. Medical diagnosis: 94% on US Medical Licensing Exam questions. The performance advantages are most pronounced on complex multi-step reasoning tasks where the full 200K context enables maintaining consistency across lengthy analysis chains.",
+      "<blockquote>We founded Anthropic on a specific thesis: that the most capable AI and the safest AI do not have to be different systems. Constitutional AI 2.0 advances that thesis. Claude 4 is our most capable model and our safest model simultaneously. The path to AGI runs through both capability and safety — you cannot get to beneficial AI by building powerful but unsafe systems. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "Claude 4 is available through Anthropic's API and Claude.ai subscription service. API pricing: 3 USD per million input tokens, 15 USD per million output tokens — a 50% reduction from Claude 3.5 pricing that reflects improved inference efficiency. Anthropic is simultaneously announcing Claude 4 Haiku, a smaller model targeting cost-sensitive applications at 0.25 USD per million input tokens that achieves Claude 3.5 Sonnet performance at 4x lower cost.",
+    ],
+    company: 'Anthropic',
+    readTime: 5,
+    tags: ['Anthropic', 'Claude', 'AI', 'Constitutional AI', 'Context Window', 'Safety'],
+  },
 ];
 
 TC.timelineData = {
