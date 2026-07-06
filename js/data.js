@@ -4203,6 +4203,24 @@ undefined
     readTime: 6,
     tags: ['Zero-Day', 'Ivanti', 'VPN', 'Nation-State', 'CISA', 'Emergency Directive'],
   },
+
+  {
+    id: 233,
+    date: '2026-07-10',
+    category: 'Hardware',
+    title: 'Qualcomm Snapdragon X2 Elite Arrives: 50% Graphics Uplift and Dedicated NPU Doubles AI Performance Over X Elite',
+    excerpt: 'Qualcomm's second-generation Windows on Arm platform chip delivers on the promise of the original X Elite by adding a substantially more powerful graphics architecture and enhanced AI acceleration.',
+    body: [
+      "Qualcomm has announced the Snapdragon X2 Elite, the successor to its successful Snapdragon X Elite chip that powered the first wave of Windows on Arm laptops to achieve genuine Intel and AMD parity. X2 Elite delivers: 50% graphics performance improvement via a new Adreno 840 GPU with hardware mesh shading and ray tracing support, a new Hexagon X NPU providing 80 TOPS of AI performance (up from 45 TOPS in X Elite), 12 Oryon 2 CPU cores with 20% IPC improvement, and up to 64GB LPDDR6 memory — doubling the RAM ceiling of the previous generation.",
+      "The graphics architecture is the most significant improvement for most users: the Adreno 840 now supports DirectX 12 Ultimate feature set including mesh shaders and DirectX Raytracing, enabling X2 Elite-powered laptops to run modern games and 3D creative applications that previously required Intel Iris Xe or AMD Radeon graphics. The GPU also gains direct support for Microsoft's DLSS competitor (DirectSR), allowing supported games to render at lower resolution and upscale to higher quality — a significant benefit for the integrated graphics context.",
+      "The NPU doubling is commercially significant for the Windows AI ecosystem: Microsoft's Copilot+ PC requirement is 40 TOPS — X Elite met this threshold, and X2 Elite's 80 TOPS headroom allows future Copilot+ features with more demanding AI workloads. The improved NPU enables real-time AI super-resolution for the desktop (Windows HDR Boost), faster Windows Hello facial recognition, and improved local LLM performance for applications like Microsoft Copilot running locally.",
+      "<blockquote>Snapdragon X Elite proved that Windows on Arm had arrived. X2 Elite proves that Windows on Arm is better than x86 for the future of computing: better battery life, better AI performance, better connectivity, and now genuine gaming capability. We built X2 Elite for the person who wants one laptop that does everything — work, AI, gaming, creative — without plugging it in for 16 hours. — Cristiano Amon, CEO, Qualcomm</blockquote>",
+      "OEM commitment is strong: Dell, HP, Samsung, Asus, Lenovo, and Microsoft Surface have all announced X2 Elite-based laptops for Q4 2026, with several models targeting the $999-$1,299 consumer price range that previously dominated by Intel Core Ultra competition. The software compatibility story continues to improve: Prism (Qualcomm's x86 emulation layer) gains 15% performance improvement in X2 Elite, and the ARM64EC developer program has brought 85% of the top-100 professional applications to native Arm compilation.",
+    ],
+    company: 'Qualcomm',
+    readTime: 5,
+    tags: ['Qualcomm', 'Snapdragon X2 Elite', 'Windows on Arm', 'Laptop', 'NPU', 'AI PC'],
+  },
 ];
 
 TC.timelineData = {
