@@ -5409,6 +5409,24 @@ undefined
     readTime: 5,
     tags: ['TSMC', 'Semiconductor', '1.4nm', 'Hardware', 'Moore's Law', 'Manufacturing'],
   },
+
+  {
+    id: 300,
+    date: '2026-07-13',
+    category: 'Cybersecurity',
+    title: 'Crowdstrike Falcon AI Introduces Autonomous Threat Hunting: Real-Time AI Agent Hunts Advanced Persistent Threats Without Human Analyst Intervention',
+    excerpt: 'CrowdStrike upgrades its Falcon cybersecurity platform with an autonomous AI threat hunting agent that continuously searches for advanced persistent threat indicators across enterprise environments without waiting for human analyst review.',
+    body: [
+      "CrowdStrike has launched Falcon AI Hunt, an autonomous threat hunting agent within its Falcon cybersecurity platform that continuously searches for Advanced Persistent Threat (APT) indicators across enterprise environments without requiring human analyst initiation or review of each investigation. The system runs independently of CrowdStrike's existing detection rules, proactively investigating behavioral anomalies that individually appear benign but collectively indicate sophisticated adversary presence — the technique characteristic of nation-state APT groups that carefully operate below detection thresholds.",
+      "Falcon AI Hunt's core capability is hypothesis-driven threat hunting: the AI agent generates hypotheses about potential adversary activity based on the MITRE ATT&CK framework, searches the endpoint telemetry for evidence supporting or refuting each hypothesis, and escalates findings that meet confidence thresholds to human analysts. A typical automated hunting cycle evaluates 2,000 behavioral hypotheses per enterprise environment per day, completing in 4 minutes — the equivalent of a team of 10 human threat hunters working continuously for 8 hours on a single day's worth of hypothesis evaluation.",
+      "Early APT detection is the key benefit: human threat hunters typically identify APT presence 18-35 days after initial compromise, during which time adversaries conduct reconnaissance, establish persistence mechanisms, and identify high-value data. Falcon AI Hunt's continuous hypothesis evaluation reduces dwell time to an average of 3.2 days in beta deployments — catching adversaries during the reconnaissance phase before they have identified or accessed the specific data they are seeking.",
+      "<blockquote>Every security team wants to proactively hunt for threats. Almost none do, because they don't have the analysts, and threat hunting is skilled labor that takes years to develop. Falcon AI Hunt gives every enterprise the continuous threat hunting capability of a tier-1 security operations center, running 24 hours a day, 7 days a week, without the staff. Autonomous hunting is not a feature. It is a new category. — George Kurtz, CEO, CrowdStrike</blockquote>",
+      "Falcon AI Hunt is included in CrowdStrike's Falcon Complete managed security service and available as an add-on module for Falcon Enterprise customers at 5 USD per endpoint per month. Deployment requires no additional hardware or agent updates — the system analyzes existing Falcon endpoint agent telemetry through CrowdStrike's cloud platform. Enterprise customers in financial services, healthcare, and critical infrastructure — the highest-value APT targets — are receiving priority access.",
+    ],
+    company: 'CrowdStrike',
+    readTime: 5,
+    tags: ['CrowdStrike', 'Cybersecurity', 'APT', 'Threat Hunting', 'AI Security', 'SOC'],
+  },
 ];
 
 TC.timelineData = {
