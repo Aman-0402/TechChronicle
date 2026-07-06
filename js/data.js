@@ -4743,6 +4743,24 @@ undefined
     readTime: 6,
     tags: ['Okta', 'Decentralized Identity', 'DID', 'Verifiable Credentials', 'Privacy', 'Identity'],
   },
+
+  {
+    id: 263,
+    date: '2026-07-11',
+    category: 'Programming',
+    title: 'Kotlin Multiplatform Hits 1.0 Stable: Single Codebase Targets iOS, Android, Web, and Server Without Compromise',
+    excerpt: 'JetBrains's cross-platform Kotlin framework graduates from beta, delivering on its promise of genuine code sharing across all major platforms without the performance or UX compromises of previous multi-platform approaches.',
+    body: [
+      "Kotlin Multiplatform (KMP) has reached its 1.0 stable release after 4 years of development, stabilizing APIs and providing an official migration path from previous experimental versions. KMP enables sharing Kotlin business logic, data models, networking code, and state management across iOS, Android, web (via Kotlin/JS or Kotlin/Wasm), server (via JVM or native), and desktop targets — while using each platform's native UI framework (SwiftUI on iOS, Jetpack Compose on Android, React or custom on web) for the presentation layer. The 1.0 release guarantees API stability and backward compatibility for shared module code.",
+      "The differentiation from previous cross-platform approaches (React Native, Flutter, Xamarin): KMP does not replace native UI frameworks with a cross-platform UI abstraction. Instead, it shares only the non-UI layers — networking, business logic, data persistence, validation — where sharing provides value without sacrificing platform feel. The iOS app uses SwiftUI and looks and performs like a native iOS app; the Android app uses Compose and feels native; the server uses Ktor and performs like a JVM server. KMP sits in between, sharing the 40-60% of application code that is platform-independent.",
+      "The production adoption at 1.0: Netflix uses KMP for shared business logic between its iOS and Android apps, TouchLab and Touchlab (the primary KMP consulting firm) reports 200+ enterprise clients using KMP in production, and JetBrains's own suite of tools uses KMP for shared synchronization and model logic. The Compose Multiplatform UI framework (which extends Android's Compose UI to other KMP targets) is gaining traction for cases where UI sharing is acceptable — primarily internal enterprise apps where native feel is less critical.",
+      "<blockquote>Kotlin Multiplatform 1.0 represents the maturity of a fundamental insight: sharing business logic across platforms is valuable; sharing UI across platforms is a trade-off. KMP makes the right trade-off. Your iOS team uses SwiftUI, your Android team uses Compose, and your shared team maintains the business logic once. Mobile development organizations report 30-40% reduction in duplicated code with KMP — that is real productivity, not marketing claims. — Andrey Breslav, Kotlin Lead Designer</blockquote>",
+      "The tooling at 1.0: Xcode integration for KMP iOS debugging has been substantially improved (breakpoints in Kotlin code now work from within Xcode), the Kotlin Multiplatform plugin for Android Studio provides a unified project view, and the expect/actual mechanism for platform-specific implementations has been simplified with a new @OptionalExpectation annotation for APIs that only make sense on some platforms. The migration guide from pre-1.0 experimental versions is documented with automated tooling handling 85% of required changes.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['Kotlin', 'KMP', 'Cross-Platform', 'iOS', 'Android', 'JetBrains'],
+  },
 ];
 
 TC.timelineData = {
