@@ -4419,6 +4419,24 @@ undefined
     readTime: 5,
     tags: ['Hugging Face', 'Open Source AI', 'Model Hub', 'Machine Learning', 'Community', 'AI Models'],
   },
+
+  {
+    id: 245,
+    date: '2026-07-10',
+    category: 'Programming',
+    title: 'Bun 2.0 Eliminates Node.js as a Dependency for 95% of Projects: Becomes Drop-In Runtime with Built-In Bundler and Test Runner',
+    excerpt: 'Oven's JavaScript runtime completes its compatibility work and ships production-ready features that make it a complete Node.js replacement for the vast majority of server-side JavaScript applications.',
+    body: [
+      "Bun 2.0 has been released, completing its stated goal of being a drop-in Node.js replacement by passing 99.7% of Node.js compatibility tests and adding production-grade features for the remaining gaps. The core improvements: Node.js worker_threads compatibility (multi-threaded workloads now work identically to Node.js), full Windows support (previous versions had significant Windows compatibility gaps), a stable production-ready HTTP/2 server implementation, and a new Bun.serve() API that handles 1.2 million requests/second on a single core — 4x more than Node.js with native HTTP.",
+      "Bun's all-in-one approach eliminates several dependencies from the JavaScript toolchain. Bun natively replaces: Node.js (runtime), npm/yarn/pnpm (package manager, with 100-300x faster installs via binary linkage), webpack/rollup (bundler, with Bun.build() API), Jest/Vitest (test runner, with 'bun test' command), ts-node/tsx (TypeScript compilation, natively supported without compilation step). A project that previously needed 8 different tools now needs one. The binary size is 30MB; the Node.js ecosystem equivalent is 300-500MB of node_modules just for tooling.",
+      "The performance characteristics: Bun's HTTP server benchmarks at 1.2 million req/s versus Node.js's 310,000 req/s for a minimal hello-world benchmark. For real-world application workloads with database queries and JSON serialization, the gap narrows to 2-3x but remains consistent. Bun's package install speed is consistently 20-30x faster than npm for cold installs (no cache) and 50-100x faster for warm installs (with cache), because Bun copies files via hardlinks from a content-addressed cache rather than extracting tarballs.",
+      "<blockquote>JavaScript developers are accustomed to a tooling tax: before you write a line of application code, you spend hours configuring webpack, jest, typescript, eslint, babel, and a dozen other tools. Bun's philosophy is that your runtime should handle these concerns — not because we want to own everything, but because integration is the source of correctness and performance. When the bundler knows the runtime's module system exactly, you get better tree-shaking. When the test runner knows the module loader, you get better mocking. — Jarred Sumner, CEO, Oven</blockquote>",
+      "The Bun ecosystem is maturing: Express, Fastify, Hono, and ElysiaJS all run on Bun with full compatibility. The Bun Registry (a package registry separate from npm) has 800,000 packages that are Bun-native optimized, though npm compatibility means the entire npm ecosystem also works. Major deployment platforms have added Bun support: Railway, Render, Fly.io, and Netlify all support Bun as a first-class runtime. The remaining holdouts are enterprise Node.js deployments on managed platforms (AWS Lambda, Google Cloud Run) where Bun runtime support is pending cloud provider updates.",
+    ],
+    company: 'Oven',
+    readTime: 5,
+    tags: ['Bun', 'JavaScript', 'Node.js', 'Runtime', 'Performance', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
