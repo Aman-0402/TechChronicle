@@ -5193,6 +5193,24 @@ undefined
     readTime: 5,
     tags: ['Scale AI', 'AI Evaluation', 'RLHF', 'Startups', 'Data Labeling', 'AI Safety'],
   },
+
+  {
+    id: 288,
+    date: '2026-07-12',
+    category: 'Dev Tools',
+    title: 'Vercel v0 4.0 Launches Full-Stack App Generation: AI Tool Generates Deployable Next.js Applications with Database Schema and API Routes from Natural Language',
+    excerpt: 'Vercel expands its AI UI generation tool v0 to full-stack application generation, enabling developers to describe an application concept and receive deployable Next.js code with database schema, API routes, authentication, and Vercel deployment configuration.',
+    body: [
+      "Vercel has launched v0 4.0, a major expansion of its AI-powered development tool from UI component generation to full-stack application generation. The updated tool accepts a natural language description of an application concept and generates a complete, deployable Next.js application including: Tailwind CSS and shadcn/ui component library front-end, Drizzle ORM database schema with PostgreSQL, API routes for all CRUD operations, NextAuth authentication integration, and Vercel deployment configuration ready for one-click deployment. The generated application includes seeded test data, environment variable templates, and a README with setup instructions.",
+      "The full-stack generation capability is built on a multi-stage AI pipeline: a planning model breaks down the application description into components (data models, UI pages, API endpoints, authentication requirements), a code generation model produces each component, and a synthesis model assembles the components into a coherent codebase with consistent naming, shared types, and properly wired dependencies. Vercel's internal testing shows 78% of generated applications run successfully on first deployment without any manual code modifications — a substantial improvement over previous versions where generated code frequently required debugging.",
+      "v0 4.0 introduces an iterative refinement workflow: after initial generation, developers can describe changes in natural language ('add a search bar to the product listing page', 'add email verification to the signup flow') and v0 applies targeted changes to the generated codebase without regenerating the entire application. Version history tracking allows developers to compare generated versions and selectively apply changes, providing the control developers need to guide AI-assisted development without losing all manually-applied refinements.",
+      "<blockquote>v0 started as a UI prototyping tool. Three years later, it is a full-stack application development tool that generates production-ready code. The gap between idea and deployed application used to be measured in weeks. Now it is measured in minutes. We are changing what it means to be a developer — from writing every line of code to directing AI-generated code toward your vision. — Guillermo Rauch, CEO, Vercel</blockquote>",
+      "v0 4.0 is available on all Vercel plans with usage-based pricing for AI generations: 10 USD per month includes 100 full-stack application generations, with overage at 0.10 USD per generation. Enterprise plans include unlimited generations with priority compute access and private generation history. The tool is seeing particular traction in rapid prototyping contexts — startup founders building MVPs, hackathon participants, and enterprise developers validating internal tools before committing engineering resources to custom development.",
+    ],
+    company: 'Vercel',
+    readTime: 5,
+    tags: ['Vercel', 'v0', 'Dev Tools', 'AI', 'Next.js', 'Full-Stack'],
+  },
 ];
 
 TC.timelineData = {
