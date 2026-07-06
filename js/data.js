@@ -4707,6 +4707,24 @@ undefined
     readTime: 5,
     tags: ['Glean', 'Enterprise Search', 'AI', 'Knowledge Management', 'Startups', 'Enterprise'],
   },
+
+  {
+    id: 261,
+    date: '2026-07-11',
+    category: 'AI',
+    title: 'Runway Gen-5 Video Model Creates 60-Second Cinematic Videos from Text: Hollywood Studios Sign Production Deals',
+    excerpt: 'The AI video generation company releases its most advanced model to date, capable of producing minute-long narrative video with consistent characters and cinematographic techniques that rival professional production.',
+    body: [
+      "Runway has released Gen-5, its fifth-generation video generation model, capable of producing 60-second videos from text prompts with consistent character identity throughout (characters look the same at second 60 as at second 1), coherent narrative structure (scenes connect with causal continuity rather than random transitions), and cinematographic technique (the system has learned composition, lighting, camera movement, and editing patterns from professional film). Three major Hollywood studios — A24, Universal Pictures, and Blumhouse Productions — have announced production partnerships to use Gen-5 for pre-visualization, concept development, and select scenes in productions.",
+      "The technical advances: Gen-5 uses a new temporal consistency architecture that maintains a persistent visual identity model for each character and environment throughout a generation, preventing the identity drift that made previous models unsuitable for narrative use. The architecture tracks 'character tokens' — compact representations of character appearance — and conditions each generated frame on these tokens to ensure visual continuity. This is combined with a semantic scene graph that tracks object positions and relationships across frames to ensure physical consistency.",
+      "The Hollywood adoption signals a shift from AI-as-threat to AI-as-tool in the film industry: after years of concerns about AI replacing creative workers, studios are finding AI most useful for the expensive and time-consuming pre-production work that never made it to screen due to budget constraints. Pre-visualization (rough animation showing how a scene will be shot) typically costs $5,000-$15,000 per minute of screen time using traditional methods; Gen-5 produces pre-vis at $50-$200 per minute, enabling directors to visualize more of a film before shooting and iterate faster on creative decisions.",
+      "<blockquote>Gen-5 is the first AI video model that directors can use as a creative collaborator rather than a curiosity. The consistency is what matters — I can establish a character, a world, a lighting language, and Gen-5 will maintain it across 60 seconds. Pre-visualization used to require giving up on ideas because you could not afford to see them before committing to a shoot. Gen-5 removes that constraint entirely. — Christopher Storer, Director</blockquote>",
+      "Runway is priced at $76/month for the Gen-5 tier (limited renders) and $144/month for the Pro tier (unlimited Gen-5 access), targeting professional creative users. The company processes over 10 million video generations per month at current scale and has raised $308 million total at a $4 billion valuation. SAG-AFTRA and WGA have both published updated contract guidance on AI video generation, requiring studios to disclose AI-generated content and maintain minimum human creative oversight percentages in productions that use generative AI.",
+    ],
+    company: 'Runway',
+    readTime: 5,
+    tags: ['Runway', 'Video Generation', 'AI Film', 'Hollywood', 'Generative AI', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
