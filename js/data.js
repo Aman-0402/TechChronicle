@@ -4473,6 +4473,24 @@ undefined
     readTime: 5,
     tags: ['Cohere', 'Command R3', 'RAG', 'Enterprise AI', 'Oracle', 'Salesforce', 'Funding'],
   },
+
+  {
+    id: 248,
+    date: '2026-07-10',
+    category: 'Cloud',
+    title: 'Supabase Passes 1 Million Databases, Launches Vector Store for AI Apps and Built-In Edge Functions Runtime',
+    excerpt: 'The open-source Firebase alternative reaches a scale milestone and adds AI-native features that position it as the backend platform of choice for the new generation of AI-powered applications.',
+    body: [
+      "Supabase has announced 1 million active databases on its platform and a major feature release adding native vector storage (pgvector with Supabase-managed HNSW indexing), a built-in edge functions runtime powered by Deno, and AI assistant integration that generates SQL queries, RLS policies, and database schemas from natural language. The 1 million database milestone, reached in 4 years from launch, reflects both Supabase's success in developer mindshare and the broad appetite for a Postgres-native backend platform.",
+      "The vector storage addition is strategically significant: AI applications increasingly require vector search for semantic retrieval, RAG (retrieval-augmented generation) implementations, and recommendation systems. Supabase's pgvector integration provides managed vector indexes — automatically tuning HNSW parameters based on dataset size and query patterns — without requiring a separate vector database service. This completes the 'AI backend stack' that Supabase targets: authentication, relational database, vector search, object storage, and real-time subscriptions all in one platform.",
+      "The Edge Functions runtime, previously using a custom sandboxed environment, now runs on Deno 3.0 with full Node.js compatibility. This means the 2.5 million+ npm packages that run in Deno now work in Supabase Edge Functions without modification. The runtime deploys globally across Supabase's 16-region network with sub-5ms cold starts, making it competitive with Cloudflare Workers and Vercel Edge Functions for latency-sensitive workloads. Edge Functions can directly query the Supabase Postgres database via local network connection within the same region, avoiding the network round-trip that plagues global edge-to-database architectures.",
+      "<blockquote>Supabase exists to give every developer the backend infrastructure that was previously only available to companies with 10+ person platform teams. 1 million databases means 1 million products, businesses, and experiments that might not have been possible without Supabase. The AI features are the next layer: AI applications need vector search, they need generated SQL, they need intelligent RLS policies. We are building the backend for the AI era, not retrofitting the backend from the web era. — Paul Copplestone, CEO, Supabase</blockquote>",
+      "The competitive landscape: Firebase (Google) is Supabase's primary competitor by mindshare, with significantly larger total users but declining developer sentiment as its NoSQL-only approach becomes a liability in the relational-data world. PlanetScale (MySQL-based), Neon (Postgres serverless), and Render (managed Postgres) compete for the Postgres market segment. Supabase's open-source core (the entire platform can be self-hosted for free) and real-time features are its primary differentiators. The company has raised $200 million total and is profitable on an operating basis.",
+    ],
+    company: 'Supabase',
+    readTime: 5,
+    tags: ['Supabase', 'Database', 'Vector Search', 'AI Backend', 'Open Source', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
