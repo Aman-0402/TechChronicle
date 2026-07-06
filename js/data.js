@@ -5571,6 +5571,24 @@ undefined
     readTime: 5,
     tags: ['GitHub', 'Security', 'GHAS', 'Cybersecurity', 'DevSecOps', 'Vulnerability Scanning'],
   },
+
+  {
+    id: 309,
+    date: '2026-07-13',
+    category: 'Hardware',
+    title: 'Intel Arc B980 GPU Launches at $399 with DirectX 13 Support: Discrete Graphics Comeback Offers Competitive Performance at Mid-Range Price Point',
+    excerpt: 'Intel's latest Arc GPU delivers mainstream gaming and AI inference performance at 399 dollars, leveraging the company's new Battlemage architecture and XeSS 3.0 upscaling to challenge AMD RX 7900 GRE in the critical price-performance segment.',
+    body: [
+      "Intel has launched the Arc B980 GPU at 399 dollars, the flagship card of the Battlemage generation that represents Intel's most competitive discrete graphics offering since re-entering the GPU market in 2021. The B980 uses Intel's second-generation Xe HPG microarchitecture with 40 Xe2 cores, 24GB GDDR7 memory on a 192-bit bus, and hardware support for the upcoming DirectX 13 API that introduces mesh shaders, ray tracing improvements, and new AI upscaling hooks. Performance in rasterization benchmarks places the B980 within 8% of AMD's RX 7900 GRE — a card priced 100 dollars higher — delivering the competitive efficiency Intel needed to establish Arc as a credible NVIDIA and AMD alternative.",
+      "The Battlemage architecture improvements over the first-generation Alchemist are substantial: 48% more shader throughput per compute unit, a redesigned ray tracing unit achieving 2.4x the ray throughput of Alchemist, and improved L2 cache hierarchy that reduces memory bandwidth pressure. The 24GB GDDR7 memory allocation is deliberately generous for the price point — Intel is betting that memory capacity will become increasingly important for AI workloads running on consumer hardware, where large language models and image generation models require 16-20GB minimum for acceptable inference quality.",
+      "XeSS (Xe Super Sampling) 3.0, Intel's AI-powered upscaling technology, introduces frame generation capabilities using a transformer-based temporal model that generates intermediate frames from successive rendered frames and optical flow data. In testing, XeSS 3.0 frame generation achieves near-double frame rates at High and Ultra quality settings with visual quality that user testing rates as equal to or better than AMD FSR 3.1 and competitive with NVIDIA DLSS 3.7. The feature runs on the B980's dedicated XMX (Xe Matrix Extension) matrix math hardware without reducing 3D render throughput.",
+      "<blockquote>Discrete GPUs have been a duopoly for two decades. NVIDIA and AMD set prices knowing buyers have nowhere else to go. Arc changes that. At $399, the B980 gives PC gamers a real choice — not a consolation prize for people who cannot afford NVIDIA, but a genuinely competitive option with advantages that matter. The GPU market is better with competition, and competition is here. — Roger Chandler, VP Graphics, Intel</blockquote>",
+      "Driver quality — Arc's persistent weakness since launch — shows meaningful improvement with Battlemage: the B980 achieves stable performance in 94% of tested game titles on day-one drivers, versus 71% for Arc A770 at its 2022 launch. Intel has invested heavily in driver engineering and community feedback programs, and the Battlemage driver team is twice the size of the Alchemist team. Resizable BAR is required for optimal B980 performance, a requirement met by all Intel and AMD platform motherboards from 2021 onward and virtually all current systems.",
+    ],
+    company: 'Intel',
+    readTime: 5,
+    tags: ['Intel', 'Arc GPU', 'Graphics', 'Hardware', 'Gaming', 'DirectX 13'],
+  },
 ];
 
 TC.timelineData = {
