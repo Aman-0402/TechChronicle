@@ -5697,6 +5697,24 @@ undefined
     readTime: 5,
     tags: ['RISC-V', 'Open Source', 'Hardware', 'CPU Architecture', 'Hypervisor', 'ISA'],
   },
+
+  {
+    id: 316,
+    date: '2026-07-14',
+    category: 'Cybersecurity',
+    title: 'Semgrep Pro AI Upgrade Detects Business Logic Vulnerabilities: Static Analysis Tool Crosses Semantic Understanding Barrier for Complex Security Flaws',
+    excerpt: 'Semgrep releases a major AI upgrade to its code security scanning platform that can identify complex business logic vulnerabilities requiring understanding of application semantics, not just syntactic patterns.',
+    body: [
+      "Semgrep has released a major AI upgrade to its code security scanning platform that crosses a significant technical barrier in static analysis: detecting business logic vulnerabilities that require understanding application semantics and developer intent, not just syntactic patterns. Traditional static analysis tools excel at finding well-defined vulnerability patterns (SQL injection sinks, XSS reflection points, insecure cryptographic algorithm usage) but cannot identify logic flaws where correct-looking code performs an incorrect security operation — authorization checks that always pass, rate limiting that applies to the wrong scope, or data validation that can be bypassed by API parameter ordering.",
+      "Semgrep AI's approach to semantic vulnerability detection: it first builds an Application Intent Model by analyzing the codebase holistically — reading documentation, understanding data flow patterns, identifying authorization gates, and modeling the intended security boundaries between user roles and data. It then evaluates each code path against the intent model, flagging code that produces outcomes inconsistent with the documented security intent. A payment processing API that allows a user to query another user's transaction history is flagged not because it matches a vulnerability pattern but because it violates the application's data isolation intent.",
+      "The business logic vulnerability detection capability is validated on a curated dataset of 2,000 CVEs representing real-world business logic flaws that no existing static analysis tool detected before exploitation. Semgrep AI detects 78% of these historical vulnerabilities in modern applications using the same logic patterns, compared to 12% for the best competing tool (CodeQL) on the same dataset. The gap reflects the fundamental difference between pattern-based and semantic analysis: most business logic vulnerabilities have no syntactic pattern to match.",
+      "<blockquote>Static analysis has been stuck detecting the same vulnerability classes for twenty years. SQL injection, XSS, buffer overflow — important, but the tip of the iceberg. Business logic vulnerabilities represent 60% of high-severity security incidents, and no tool could find them before Semgrep AI. We have moved static analysis from syntax to semantics. The iceberg is visible now. — Isaac Evans, CEO, Semgrep</blockquote>",
+      "Semgrep AI is available as an add-on to Semgrep Pro at 8 USD per developer per month. Integration with existing CI/CD pipelines requires no configuration changes — Semgrep AI runs alongside existing Semgrep rules using the same agent installation and produces findings in the same format. The AI engine runs in Semgrep's cloud, analyzing code repositories through the same API access that existing Semgrep Pro uses, with findings available in the Semgrep dashboard and exportable to Jira, GitHub Issues, and security ticketing systems.",
+    ],
+    company: 'Semgrep',
+    readTime: 5,
+    tags: ['Semgrep', 'Cybersecurity', 'Static Analysis', 'Business Logic', 'DevSecOps', 'Code Security'],
+  },
 ];
 
 TC.timelineData = {
