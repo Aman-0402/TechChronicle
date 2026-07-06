@@ -5625,6 +5625,24 @@ undefined
     readTime: 5,
     tags: ['xAI', 'Grok', 'AI', 'Financial AI', 'Real-Time Data', 'Prediction'],
   },
+
+  {
+    id: 312,
+    date: '2026-07-14',
+    category: 'Cloud',
+    title: 'Datadog Launches AI Observability Platform: Monitors LLM Application Performance, Hallucination Rate, and Prompt Injection Attacks in Production',
+    excerpt: 'Datadog introduces a dedicated observability platform for AI applications, providing production monitoring for LLM latency, cost per query, response quality metrics, and security threats specific to AI-powered applications.',
+    body: [
+      "Datadog has launched AI Observability, a dedicated monitoring and observability platform for AI-powered applications that addresses the unique operational challenges of running LLM applications in production. Traditional APM (Application Performance Monitoring) tools track latency, error rates, and resource utilization — metrics that are necessary but insufficient for AI application operations. AI Observability adds AI-specific metrics: tokens per second, cost per query (mapped to OpenAI, Anthropic, and other provider pricing), semantic similarity between queries (for cache efficiency analysis), response quality scores, and hallucination detection using a secondary evaluation model.",
+      "Hallucination detection in production is a technically challenging problem that Datadog has addressed through a dual-model evaluation approach: a primary evaluation model (a fine-tuned version of Mistral) checks production LLM responses against source documents retrieved during RAG, flagging responses that make factual claims not supported by the retrieved context. The secondary model runs asynchronously after the production request completes, adding negligible latency to the user-facing request while providing quality monitoring data. Datadog reports customers using hallucination detection identify on average 4.2% of production LLM responses as potentially hallucinated, with severity scores indicating which should trigger human review.",
+      "Prompt injection monitoring addresses the growing threat of adversarial inputs designed to override LLM system instructions. Datadog's Prompt Shield analyzes incoming user inputs against a database of 12,000 documented prompt injection patterns, flagging requests that contain potential injection attempts for investigation and optional blocking. The system learns from customer feedback — when security teams confirm or reject Prompt Shield findings, the model updates its detection rules — improving over time for each customer's specific attack patterns.",
+      "<blockquote>Every AI team we talk to has the same problem: they deployed an LLM application and they have no idea what is happening in production. Is it slow? Is it expensive? Is it hallucinating? Is someone trying to inject malicious prompts? Traditional observability tools do not answer these questions. AI Observability was built to answer them. — Olivier Pomel, CEO, Datadog</blockquote>",
+      "AI Observability is priced based on monitored events (LLM API calls) at 0.02 USD per event with volume discounts, integrated into Datadog's existing platform pricing. Existing Datadog customers can enable AI Observability through the platform configuration without deploying new agents. The product supports all major LLM providers (OpenAI, Anthropic, Google, Cohere, Mistral) and open-source models deployed on inference infrastructure, with automatic provider detection through HTTP traffic analysis.",
+    ],
+    company: 'Datadog',
+    readTime: 5,
+    tags: ['Datadog', 'AI Observability', 'Cloud', 'LLM', 'Monitoring', 'Production AI'],
+  },
 ];
 
 TC.timelineData = {
