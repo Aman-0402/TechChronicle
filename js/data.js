@@ -5661,6 +5661,24 @@ undefined
     readTime: 5,
     tags: ['Apache Arrow', 'Open Source', 'Data Engineering', 'ML Pipeline', 'Columnar Data', 'PyTorch'],
   },
+
+  {
+    id: 314,
+    date: '2026-07-14',
+    category: 'Startups',
+    title: 'Replit Ghostwriter AI Autonomously Deploys 50 Million Applications: Browser-Based AI Development Platform Reaches $800M ARR',
+    excerpt: 'Replit reports Ghostwriter AI has autonomously generated and deployed 50 million applications, as the browser-based development platform reaches 800 million dollars in annual recurring revenue driven by AI-first development adoption.',
+    body: [
+      "Replit has announced that its Ghostwriter AI system has autonomously generated and deployed 50 million applications on the Replit platform, with 80% requiring no human code modifications between initial generation and first deployment. The milestone highlights the growing role of AI in software creation: where traditional development requires months of engineering work, Replit's AI-first approach enables non-programmers to create and deploy functional web applications through natural language instructions. Annual recurring revenue has reached 800 million dollars, up from 180 million dollars in 2024, as businesses adopt Replit as an internal application development platform for tools that previously required dedicated engineering resources.",
+      "Ghostwriter's evolution from code completion to autonomous application generation represents a fundamental product shift: rather than assisting developers write code faster, Ghostwriter replaces the development process entirely for common application patterns. Users describe what they want ('a web app that tracks employee time off requests and sends Slack notifications when approved'), and Ghostwriter generates a complete working application — frontend, backend API, database schema, authentication, and deployment configuration — deployed and accessible at a Replit URL within 5 minutes.",
+      "The enterprise adoption driver is internal tooling: every company has dozens of internal operational tools (approval workflows, data dashboards, lightweight CRMs, inventory trackers) that are too specific to buy off-the-shelf and too low-priority to commission custom engineering. Replit Ghostwriter generates these tools from natural language specifications in minutes rather than the weeks of engineering time they would traditionally require. Enterprise customers report building 15-40 internal tools per month that would previously have consumed 3-6 months of engineering time.",
+      "<blockquote>Ten years ago, building software required learning to code. Five years ago, building software required hiring developers. Today, building software requires describing what you want. Fifty million deployed applications is not a vanity metric — each one is something that previously required engineering expertise to create. We have democratized software creation. — Amjad Masad, CEO, Replit</blockquote>",
+      "Replit is raising a new funding round at a 5 billion dollar valuation to fund enterprise sales expansion, data center infrastructure for hosting deployed applications, and continued Ghostwriter development. The company's business model has shifted from developer subscription revenue to infrastructure revenue from hosting the millions of applications Ghostwriter deploys — a recurring compute fee that scales proportionally with the platform's growth.",
+    ],
+    company: 'Replit',
+    readTime: 5,
+    tags: ['Replit', 'AI Development', 'Startups', 'Ghostwriter', 'No-Code', 'App Generation'],
+  },
 ];
 
 TC.timelineData = {
