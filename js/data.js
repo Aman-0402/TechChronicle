@@ -3789,6 +3789,24 @@ undefined
     readTime: 5,
     tags: ['GitHub Actions', 'CI/CD', 'Kubernetes', 'DevOps', 'Dev Tools', 'GitHub'],
   },
+
+  {
+    id: 210,
+    date: '2026-07-08',
+    category: 'AI',
+    title: 'Sakana AI Evolutionary Model Merge Creates Specialist Models Better Than Human-Designed Architectures',
+    excerpt: 'The Japanese AI lab uses evolutionary algorithms to automatically merge and mutate existing open-source models, producing specialist models that outperform models designed by human researchers.',
+    body: [
+      "Sakana AI, the Tokyo-based lab founded by former Google Brain researchers, has published research demonstrating that evolutionary model merging — using genetic algorithms to find optimal ways of combining weights from multiple existing open-source models — produces specialist models that outperform models designed by human ML engineers on several narrow tasks. The key result: Sakana's evolutionary merging algorithm, starting from a population of 20 open-source base models, produced a Japanese-language mathematics reasoning model that outperforms all existing Japanese-language models on the JMath benchmark by 8 percentage points, without any additional training.",
+      "The evolutionary algorithm operates in weight space: it treats model parameters as a 'genome' that can be crossed over, mutated, and selected based on performance on a target evaluation. Each 'generation' of the algorithm evaluates hundreds of model combinations on the target task, keeping the highest-performing combinations and using them as parents for the next generation. After 50 generations (each taking approximately 30 minutes on an A100 cluster), the algorithm converges on a model that performs substantially better than any of the starting models or naive combinations.",
+      "The technical insight: different models learn different capabilities from different training data. A model trained heavily on Japanese text and a model trained heavily on mathematical reasoning have learned complementary skills. Human model merging (techniques like SLERP, TIES-merging, and Model Soup) combines models at the whole-parameter level. Sakana's evolutionary approach discovers which specific weight regions to blend from which source models — finding the combination that preserves the best mathematical reasoning from one model and the best Japanese language understanding from another.",
+      "<blockquote>Training large models from scratch requires hundreds of millions of dollars. But the knowledge humanity needs from AI may already exist distributed across the thousands of open-source models available today. Evolutionary merging is a way to find and recombine that distributed knowledge without paying the training cost again. We believe this will be one of the key techniques for producing specialized AI capabilities economically. — David Ha, CEO, Sakana AI</blockquote>",
+      "Sakana has open-sourced the evolutionary merging framework and published the weights of 12 specialist models it produced in the initial research, covering Japanese mathematics, scientific literature summarization in multiple languages, code generation in domain-specific languages, and medical diagnosis reasoning. The framework has been adopted by 800+ researchers on Hugging Face who are applying it to new target domains. The approach is particularly appealing for resource-constrained research groups and organizations in non-English speaking countries who lack the compute budget to train from scratch.",
+    ],
+    company: 'Sakana AI',
+    readTime: 5,
+    tags: ['Sakana AI', 'Model Merging', 'Evolutionary AI', 'Open Source AI', 'Japan', 'Research'],
+  },
 ];
 
 TC.timelineData = {
