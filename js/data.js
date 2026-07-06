@@ -4959,6 +4959,24 @@ undefined
     readTime: 5,
     tags: ['Python', 'GIL', 'Programming', 'CPython', 'Multi-core', 'Concurrency'],
   },
+
+  {
+    id: 275,
+    date: '2026-07-12',
+    category: 'Cloud',
+    title: 'Cloudflare Launches AI Gateway with Built-In Rate Limiting, Caching, and Model Fallback: Universal AI API Proxy Reaches General Availability',
+    excerpt: 'Cloudflare announces general availability of AI Gateway, providing enterprise-grade infrastructure for AI API calls including semantic caching, automatic fallback between providers, cost tracking, and privacy-preserving request routing.',
+    body: [
+      "Cloudflare has launched AI Gateway into general availability, a managed infrastructure layer for AI API calls that sits between applications and AI providers (OpenAI, Anthropic, Google AI, Cohere, HuggingFace, and others). AI Gateway provides production features that application developers would otherwise build custom: semantic caching (storing and reusing responses to semantically similar queries rather than exact-match strings), rate limiting per user or API key, automatic model fallback when primary providers are unavailable, cost tracking across providers, and prompt/response logging with configurable PII redaction.",
+      "Semantic caching is the headline technical feature: rather than caching only exact request matches, AI Gateway uses vector similarity to serve cached responses when a new request is semantically equivalent to a previous query. In testing with customer workloads, Cloudflare reports 35-45% of API calls being served from cache, reducing both latency and cost proportionally. Cache similarity thresholds are configurable per gateway, allowing developers to tune the tradeoff between cache hit rate and response freshness for different use cases.",
+      "The model fallback capability addresses a critical production reliability concern: AI providers experience outages, rate limits, and capacity constraints that can silently degrade or break AI-powered applications. AI Gateway allows developers to define ordered fallback chains — 'try GPT-4o, fall back to Claude 3.5 Sonnet, fall back to GPT-4o-mini' — with automatic failover when upstream providers return errors or exceed latency thresholds. Response normalization ensures that applications receive consistent response formats regardless of which provider serviced the request.",
+      "<blockquote>Every serious AI application we talk to has built some version of this infrastructure themselves — caching, fallback, logging, cost tracking. They've all built it differently, they've all built it incompletely, and they're all maintaining it forever. AI Gateway takes that problem away. You get enterprise AI infrastructure in five minutes instead of six months. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "Pricing is usage-based: 0.10 USD per 100,000 requests through the gateway, with semantic cache storage priced at 0.50 USD per GB per month. The free tier includes 100,000 requests per month, making AI Gateway accessible for development and small production workloads. Cloudflare is positioning the product as complementary to its existing Workers AI offering, enabling seamless routing between externally-hosted AI providers and Cloudflare's own GPU inference infrastructure based on cost and latency optimization.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'AI Gateway', 'Cloud', 'API', 'Caching', 'Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
