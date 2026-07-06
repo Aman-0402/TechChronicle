@@ -3645,6 +3645,24 @@ undefined
     readTime: 6,
     tags: ['Supply Chain', 'SVR', 'Russia', 'CI/CD', 'Cybersecurity', 'SolarWinds'],
   },
+
+  {
+    id: 202,
+    date: '2026-07-08',
+    category: 'Hardware',
+    title: 'Apple M5 Ultra Delivers 312 TOPS AI Performance: Powers First Mac Pro with On-Device LLM Running Llama 4 70B at 60 tok/s',
+    excerpt: 'Apple's most powerful chip to date enables professional Macs to run large language models locally at speeds that rival cloud inference, marking a inflection point for on-device AI.',
+    body: [
+      "Apple has announced the M5 Ultra, its most powerful chip to date, delivering 312 TOPS (tera operations per second) of AI performance from the Neural Engine — a 3x improvement over M4 Ultra's 108 TOPS. The M5 Ultra, built on TSMC N2P, features 32 CPU cores, 80 GPU cores, and 192GB of unified memory bandwidth at 800 GB/s. Most significantly, it is the first Apple chip that can run Llama 4 70B (70 billion parameter language model) at 60 tokens per second locally — fast enough for real-time conversational AI without any network round-trip.",
+      "The on-device AI performance is architecturally enabled by three co-designed improvements: the Neural Engine gains a new matrix multiplication unit that handles 4-bit quantized weights natively without dequantization overhead, the unified memory architecture now spans the CPU, GPU, and Neural Engine on the same 800 GB/s bus, and the new AMX5 coprocessor handles the attention mechanism computations that dominate LLM inference. Apple has published a white paper showing that M5 Ultra running Llama 4 70B achieves 60 tok/s versus 15 tok/s for M4 Ultra and 8 tok/s for M3 Ultra on the same model.",
+      "The new Mac Pro shipping with M5 Ultra starts at $7,499 and positions Apple as the vendor of choice for professional workflows requiring local AI: video production (on-device scene analysis and intelligent editing), scientific computing (protein structure visualization with real-time AI annotation), software development (running a full local LLM as a coding assistant with no API costs), and any enterprise use case where data cannot leave the device. The Mac Pro's 192GB memory configuration can hold both Llama 4 70B and a full professional workload simultaneously.",
+      "<blockquote>Every Mac we sell is a privacy-preserving AI computer. When you run a model on M5 Ultra, your data never leaves your desk. No cloud, no API costs, no latency from network round-trips, no privacy concerns. For a growing number of professional users and enterprises, that is not just a nice-to-have — it is a requirement. M5 Ultra makes local AI performance that was previously only available in server rooms available on your desk. — John Ternus, SVP Hardware Engineering, Apple</blockquote>",
+      "The developer ecosystem is responding: Ollama, the most popular local LLM runner for macOS, has already optimized for M5 Ultra's AMX5 coprocessor, achieving the 60 tok/s benchmark. LM Studio, another popular local AI tool, ships M5 Ultra-optimized metal shaders. Apple's own AI framework Core ML can serve Llama 4 70B with hardware acceleration as of MLX 0.18. The privacy-first positioning is expected to drive enterprise adoption: several large financial institutions and law firms have expressed interest in Mac Pro deployments specifically for local AI workloads that cannot touch external APIs.",
+    ],
+    company: 'Apple',
+    readTime: 6,
+    tags: ['Apple', 'M5 Ultra', 'Mac Pro', 'On-Device AI', 'LLM', 'Neural Engine'],
+  },
 ];
 
 TC.timelineData = {
