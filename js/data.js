@@ -4509,6 +4509,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft Azure', 'AI Foundry', 'Enterprise AI', 'Cloud', 'OpenAI', 'Azure'],
   },
+
+  {
+    id: 250,
+    date: '2026-07-10',
+    category: 'Dev Tools',
+    title: 'Linear Raises $200M, Launches Linear AI That Writes Issues, Assigns Work, and Predicts Sprint Completion Automatically',
+    excerpt: 'The modern project management tool built for software teams closes a major round and ships AI features that automate the administrative overhead of engineering project management.',
+    body: [
+      "Linear, the project management tool that has become the default for software engineering teams at fast-growing startups, has raised $200 million at a $2.5 billion valuation and launched Linear AI — a set of AI-powered features that automate the repetitive administrative work of engineering project management. Linear AI includes: automatic issue creation from Slack threads and GitHub discussions, intelligent issue assignment based on team member expertise and current workload, sprint capacity prediction that forecasts completion probability based on historical velocity, and automated status updates that push project state to stakeholders without manual updates.",
+      "The issue creation automation addresses one of the most common developer complaints: tickets should be written when problems are discovered, but in practice, important issues go untracked because creating a well-formed issue requires context that is difficult to capture in the moment. Linear AI monitors connected Slack channels, GitHub issues, and customer support tickets, identifies potential engineering tasks, and drafts Linear issues with appropriate title, description, labels, and suggested priority — presenting them for one-click acceptance rather than creation from scratch.",
+      "The sprint prediction model was trained on anonymized velocity data from Linear's customer base (with opt-in consent), building a model that accounts for issue complexity, historical team velocity, team member availability (based on calendar integration), and dependency chains between issues. Early users report that the prediction model's accuracy (within 15% of actual sprint completion) significantly reduces the stress of sprint planning — teams spend less time arguing about capacity estimates when a data-driven model provides baseline projections.",
+      "<blockquote>Linear was built on the belief that software teams deserve tools that respect their intelligence and time. Issue tracking is necessary but the overhead of maintaining it is unnecessary. Linear AI automates the overhead — creating issues, assigning them, predicting outcomes — while leaving the actual engineering decisions to engineers. We are not replacing project management judgment. We are eliminating project management paperwork. — Karri Saarinen, CEO, Linear</blockquote>",
+      "Linear has 30,000 paying companies including prominent engineering teams at companies like Vercel, Retool, Supabase, and Raycast. Its pricing at $8/user/month (Starter), $14/user/month (Business), and custom Enterprise is significantly below Jira ($8.15-$16/user/month) while offering a substantially better user experience — Linear's single-threaded design and keyboard-first navigation have earned a reputation for being the first project management tool that developers actually enjoy using. The $200 million funding will expand the AI features, add enterprise compliance capabilities, and grow the go-to-market team.",
+    ],
+    company: 'Linear',
+    readTime: 5,
+    tags: ['Linear', 'Project Management', 'AI', 'Dev Tools', 'Startups', 'Engineering Teams'],
+  },
 ];
 
 TC.timelineData = {
