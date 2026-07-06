@@ -5337,6 +5337,24 @@ undefined
     readTime: 5,
     tags: ['TypeScript', 'Microsoft', 'Programming', 'JavaScript', 'Type System', 'Dev Tools'],
   },
+
+  {
+    id: 296,
+    date: '2026-07-13',
+    category: 'Research',
+    title: 'UC Berkeley RISC-V Lab Demonstrates Custom AI Chip Designed Entirely by AI in 48 Hours: Chip Design Automation Reaches End-to-End Autonomy',
+    excerpt: 'UC Berkeley researchers demonstrate an AI system that autonomously designed a complete RISC-V processor variant optimized for on-device inference in 48 hours, achieving better performance per watt than human-designed alternatives.',
+    body: [
+      "Researchers at UC Berkeley's RISC-V Architecture Lab have demonstrated an AI system that autonomously designed a complete RISC-V processor variant from high-level architectural specification to verified RTL (Register Transfer Level) implementation in 48 hours — a process that typically takes a team of experienced hardware engineers 6-12 months. The AI-designed chip, optimized for on-device neural network inference, achieved 23% better performance per watt than human-designed RISC-V inference chips in silicon simulation, suggesting that AI chip design is not merely faster than human design but can find optimization approaches that human engineers miss.",
+      "The AI design system, named ArchGen, operates in three stages: architectural exploration, microarchitectural refinement, and RTL generation. The exploration phase evaluates thousands of potential architectural configurations against the target specification (RISC-V ISA, target workload profile, power envelope) using hardware performance models, identifying Pareto-optimal designs that balance throughput, latency, and power. The microarchitecture refinement phase uses reinforcement learning to optimize pipeline stages, cache hierarchies, and memory subsystem configuration for the specific inference workloads in the target specification.",
+      "RTL generation — converting the architectural specification into the synthesizable hardware description language code used for chip fabrication — was the most technically challenging phase. ArchGen uses a specialized code generation model trained on 4 million lines of curated Verilog and VHDL code, with formal verification integration that proves functional correctness properties of each generated module before assembly. The resulting RTL passes industry-standard lint checks and formal verification suites without any human modifications.",
+      "<blockquote>We have had AI-assisted chip design for years. What ArchGen demonstrates is fully autonomous chip design — from specification to verified RTL without any human in the loop. The chip it designed performs better than what our best engineers produced for the same specification. Hardware engineering is the last major engineering domain to be transformed by AI. This research shows that transformation has begun. — Krste Asanovic, Professor of EECS, UC Berkeley</blockquote>",
+      "The Berkeley team is open-sourcing ArchGen as a research tool, with a paper submitted to ISCA 2026 providing full architectural details and benchmark comparisons. Industrial chip design companies including Cadence and Synopsys have expressed interest in commercializing the approach, building on their existing EDA (Electronic Design Automation) tools. The most immediate application is custom accelerator design for edge AI devices — the market segment where human chip design resources are most constrained relative to demand.",
+    ],
+    company: 'UC Berkeley',
+    readTime: 5,
+    tags: ['UC Berkeley', 'RISC-V', 'Chip Design', 'Research', 'AI', 'Hardware Automation'],
+  },
 ];
 
 TC.timelineData = {
