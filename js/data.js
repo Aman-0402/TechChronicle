@@ -4275,6 +4275,24 @@ undefined
     readTime: 6,
     tags: ['DNA Computing', 'Molecular Computer', 'Research', 'Biology', 'Computation', 'Caltech'],
   },
+
+  {
+    id: 237,
+    date: '2026-07-10',
+    category: 'Startups',
+    title: 'Together AI Raises $300M to Build Inference-Optimized Open-Source AI Cloud: Achieves Lowest Cost per Token in Market',
+    excerpt: 'The AI cloud infrastructure startup focused exclusively on open-weight model inference closes a major funding round and reports achieving lower per-token costs than any competitor for the most popular open-source models.',
+    body: [
+      "Together AI has closed a $300 million Series C funding round led by General Catalyst, with participation from Salesforce Ventures, Nvidia, and individual investors including Patrick Collison and Sam Altman. Together's core product: a cloud inference API optimized exclusively for open-weight models (Llama, Mistral, Qwen, DeepSeek, and others), with pricing that undercuts both proprietary model APIs and other open-source inference services. Together reports achieving $0.08 per million tokens for Llama 4 70B — 5x cheaper than equivalent Anthropic or OpenAI pricing for similar quality.",
+      "Together's infrastructure differentiation: the company builds custom inference kernels for each model it hosts, going significantly deeper than serving pre-built containers. Their FlashAttention implementation specifically for Llama-family attention patterns reduces VRAM by 40% versus standard inference, allowing more batching and lower per-token cost. Their speculative decoding system uses model-specific draft models (small models that generate token candidates verified by the main model) calibrated per-model to maximize the speculative decoding accept rate, achieving 3-4x throughput improvement versus standard autoregressive generation.",
+      "The business model: Together serves AI startups, enterprises building on open-source models, and researchers who need cost-effective inference at scale. Its 20,000 API customers include fast-growing AI startups that chose open-source models specifically to avoid vendor lock-in and control costs. The company processes 500 billion tokens per month — a scale that generates significant inference optimization data and creates a virtuous cycle where higher volume enables further kernel optimization.",
+      "<blockquote>Open-source models are winning on capability — DeepSeek, Llama 4, Mistral are competitive with closed models on most tasks. The barrier to adoption is operational: most companies do not want to manage GPU clusters, but they do not want to pay OpenAI prices either. Together is the missing middle — professional-grade open-source inference, without the infrastructure complexity. We are the hyperscaler for open-source AI. — Vipul Ved Prakash, CEO, Together AI</blockquote>",
+      "Together AI is entering an increasingly competitive market: Fireworks AI, Groq, Replicate, and Deepinfra all offer open-source model inference with different speed/cost/model-selection trade-offs. Together differentiates on breadth (hosting 100+ open-weight models), customization (fine-tuned model serving at the same price as base model inference), and enterprise features (private model deployment, audit logging, SLAs). The funding will primarily expand GPU cluster capacity — Together is purchasing 8,000 additional H100 GPUs to support projected 10x volume growth over the next 18 months.",
+    ],
+    company: 'Together AI',
+    readTime: 5,
+    tags: ['Together AI', 'Inference', 'Open Source AI', 'Cloud AI', 'LLM', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
