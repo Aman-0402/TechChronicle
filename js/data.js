@@ -5535,6 +5535,24 @@ undefined
     readTime: 5,
     tags: ['Swift', 'Apple', 'Programming', 'Concurrency', 'Server-Side', 'Linux'],
   },
+
+  {
+    id: 307,
+    date: '2026-07-13',
+    category: 'Research',
+    title: 'Carnegie Mellon LTI Builds AI System That Discovers New Mathematical Theorems: Automated Formal Reasoning Proves 47 Novel Results in Number Theory',
+    excerpt: 'Carnegie Mellon Language Technologies Institute demonstrates an AI system capable of autonomously discovering and formally proving new mathematical theorems, proving 47 novel results in number theory that were verified by human mathematicians.',
+    body: [
+      "Carnegie Mellon University's Language Technologies Institute has demonstrated an AI system that autonomously discovered and formally proved 47 novel mathematical theorems in number theory that had not appeared in any prior literature — results verified as genuinely new by a panel of expert mathematicians from Princeton, Cambridge, and the Clay Mathematics Institute. The system, named Euler (after the prolific Swiss mathematician), combines a hypothesis generation model, a symbolic reasoning engine, and a formal proof verifier to identify interesting mathematical statements and construct rigorous proofs that meet the standards of peer-reviewed mathematical journals.",
+      "Euler's three-stage architecture mirrors how human mathematicians work. The Hypothesis Generator uses a transformer model trained on 10 million mathematical papers, theorems, and proofs to generate candidate statements — mathematical claims that seem likely to be true and interesting based on patterns in existing mathematics. The Symbolic Reasoner then attempts to prove or disprove each candidate using a combination of known theorems, algebraic manipulation rules, and search over proof strategies. Successfully proven statements are then verified by the Lean 4 interactive theorem prover, which checks every logical step at the axiom level, providing mathematical certainty rather than probabilistic confidence.",
+      "The 47 novel theorems cover results in additive number theory, prime distribution patterns, and properties of modular arithmetic. None are Fields Medal-worthy breakthroughs — they are the type of results that might appear in second-tier mathematical journals, interesting and publishable but not paradigm-shifting. However, the demonstration that an AI system can produce verifiably correct, genuinely novel mathematical results — not just solve known problems — represents a qualitative shift in mathematical AI capability.",
+      "<blockquote>For decades, AI in mathematics meant solving problems with known answers. What Euler demonstrates is conjecture and proof — the actual creative work of mathematics. It found 47 things that are true about numbers that nobody had ever written down before. The proofs are correct. The theorems are new. We checked. Mathematics done by AI is no longer science fiction — it is research reality. — Tom Mitchell, Professor of Machine Learning, Carnegie Mellon</blockquote>",
+      "The CMU team is open-sourcing Euler's architecture and the 47 verified theorems as a research contribution, while pursuing a Nature Mathematics submission for the full results. The project is funded by the National Science Foundation's AI in Scientific Discovery program and has attracted interest from DARPA for potential application to automated formal verification of safety-critical software systems, where the same theorem-proving capabilities could verify correctness properties of aerospace, medical device, and nuclear control software.",
+    ],
+    company: 'Carnegie Mellon',
+    readTime: 5,
+    tags: ['Carnegie Mellon', 'Research', 'AI Mathematics', 'Formal Proof', 'Number Theory', 'Automated Reasoning'],
+  },
 ];
 
 TC.timelineData = {
