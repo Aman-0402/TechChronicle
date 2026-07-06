@@ -4563,6 +4563,24 @@ undefined
     readTime: 5,
     tags: ['Wiz', 'Lacework', 'Cloud Security', 'CSPM', 'Acquisition', 'Cybersecurity'],
   },
+
+  {
+    id: 253,
+    date: '2026-07-11',
+    category: 'Hardware',
+    title: 'AMD RDNA 5 Architecture Ships: Radeon RX 9900 XTX Matches RTX 5090 Performance at 30% Lower Price',
+    excerpt: 'AMD's next-generation GPU architecture delivers on its performance promises and finally closes the ray tracing and AI acceleration gaps that have kept the company in second place against NVIDIA.',
+    body: [
+      "AMD has launched the Radeon RX 9900 XTX, the flagship GPU based on its RDNA 5 architecture, posting benchmark results that match or exceed the NVIDIA RTX 5090 in traditional rasterization workloads and within 10% in ray tracing — while pricing 30% below the 5090's $2,499 MSRP. The RX 9900 XTX is priced at $1,099, a positioning that AMD has successfully used before to take market share from NVIDIA in the performance-per-dollar conscious gaming segment. RDNA 5 includes 80 Compute Units (up from 60 in RDNA 4), 32GB of GDDR7 memory, and a new AI Accelerator block achieving 800 TOPS.",
+      "The architectural improvements addressing AMD's historical weaknesses: the new Ray Intersection Engine (RIE) handles ray-scene intersection in dedicated hardware rather than compute shaders, bringing AMD's ray tracing performance from 70% to 95% of NVIDIA's equivalent architecture. The AI Accelerator block (AMD's answer to NVIDIA Tensor Cores) enables FidelityFX Super Resolution 4 (FSR4), AMD's machine learning-based upscaling that reaches quality parity with DLSS 4 on most game content according to independent Digital Foundry analysis.",
+      "The gaming benchmark results: at 4K native rendering, the RX 9900 XTX matches or beats the RTX 5090 in 14 of 20 tested games, with the RTX 5090 winning in 6 titles that are heavily NVIDIA GameWorks optimized. With upscaling enabled (FSR4 vs. DLSS 4), the performance gap shrinks further — both GPUs target 120+ fps at 4K with upscaling on current AAA titles. The memory bandwidth differential favors AMD: 800 GB/s on the RX 9900 XTX versus 576 GB/s on the RTX 5090, making the AMD card more performant in memory-bandwidth-limited scenarios at higher resolutions.",
+      "<blockquote>RDNA 5 is the result of 3 years of focused architecture work on the areas where we trailed NVIDIA. Ray tracing, AI upscaling, driver optimization — we are not behind anymore. The RX 9900 XTX is the best gaming GPU we have ever built, and it costs $1,400 less than the competition at the same performance level. Gamers who have been waiting to see if AMD would close the gap: the wait is over. — Dr. Lisa Su, CEO, AMD</blockquote>",
+      "The competitive implications extend to the professional GPU market: AMD's MI350X AI accelerator (using RDNA 5 architecture) is sampling to hyperscalers simultaneously with the consumer launch. If the performance characteristics of RDNA 5 transfer to AI workloads, AMD could make meaningful inroads into NVIDIA's dominant AI training market. NVIDIA has responded by accelerating its RTX 5090 supply allocation to gaming-focused retailers and announcing a $200 price reduction on RTX 5080 to counter AMD's value positioning.",
+    ],
+    company: 'AMD',
+    readTime: 5,
+    tags: ['AMD', 'RDNA 5', 'GPU', 'Radeon', 'Gaming', 'Ray Tracing'],
+  },
 ];
 
 TC.timelineData = {
