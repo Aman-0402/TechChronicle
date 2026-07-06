@@ -5769,6 +5769,24 @@ undefined
     readTime: 5,
     tags: ['Elixir', 'Phoenix', 'Programming', 'Concurrency', 'AI Backend', 'LiveView'],
   },
+
+  {
+    id: 320,
+    date: '2026-07-14',
+    category: 'AI',
+    title: 'OpenAI Launches Operator 2.0 with Web Browsing and Desktop Automation: AI Agent Executes Complex Multi-Step Tasks Across Any Application',
+    excerpt: 'OpenAI releases Operator 2.0, an upgraded autonomous AI agent that combines web browsing, computer vision, and desktop automation to execute complex multi-step tasks across websites, desktop applications, and web services without API access.',
+    body: [
+      "OpenAI has released Operator 2.0, a major upgrade to its autonomous AI agent that combines web browsing, computer vision, and desktop automation to execute complex multi-step tasks across any application a human could use. Unlike API-based AI integrations that require explicit tool definitions, Operator 2.0 uses computer vision to understand any user interface — navigating websites by identifying buttons, forms, and navigation elements visually rather than through DOM manipulation. The system can execute tasks that cross application boundaries: researching products on multiple websites, comparing options, and completing a purchase, all in a single continuous task.",
+      "Operator 2.0's computer vision controller uses a fine-tuned vision model that achieves 94% accuracy on UI element identification across major web applications and 87% on desktop applications — up from 78% and 61% in Operator 1.0. The improvement comes from a training dataset of 50 million labeled UI interactions across 10,000 distinct applications, providing the visual vocabulary necessary to navigate novel interfaces not seen during training. The controller can handle dynamic web applications, modal dialogs, multi-step forms, CAPTCHA challenges (through human handoff for challenges that require human verification), and desktop application workflows.",
+      "Task planning capabilities extend to hour-long workflows: Operator 2.0 can execute tasks like 'Research our 10 top competitors, find their pricing pages, extract their pricing tiers, and create a comparison spreadsheet in Google Sheets' without requiring step-by-step instructions. The system decomposes the goal, executes research across multiple websites, handles authentication when required, and produces the specified output. Operator 2.0's success rate on the WebArena benchmark (200 complex web navigation tasks) is 62%, up from 38% for Operator 1.0.",
+      "<blockquote>The promise of AI agents is automation of knowledge work — the repetitive research, data gathering, and form completion that consumes hours of every knowledge worker's week. Operator 2.0 delivers that automation for any application, not just applications that have built API integrations. If you can see it on a screen, Operator can do it. — Sam Altman, CEO, OpenAI</blockquote>",
+      "Operator 2.0 is available to ChatGPT Pro subscribers and through the OpenAI API for developers building automated workflow applications. Privacy controls allow users to define which websites and applications Operator is permitted to access, with audit logs of all actions taken available for review. OpenAI has introduced Operator Verify, an optional human oversight mode that pauses before consequential actions (purchases, form submissions, data deletions) for human confirmation.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'Operator', 'AI Agents', 'Automation', 'Web Browsing', 'Desktop AI'],
+  },
 ];
 
 TC.timelineData = {
