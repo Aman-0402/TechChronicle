@@ -5445,6 +5445,24 @@ undefined
     readTime: 5,
     tags: ['Meta', 'LLAMA 4', 'Open Source', 'Multimodal AI', 'Video Understanding', 'LLM'],
   },
+
+  {
+    id: 302,
+    date: '2026-07-13',
+    category: 'Cloud',
+    title: 'Microsoft Azure Launches Confidential AI Computing: Encrypted AI Inference Where Even Microsoft Cannot See Your Data or Prompts',
+    excerpt: 'Microsoft Azure introduces Confidential AI, using hardware-based trusted execution environments to process AI inference workloads where input data and prompts are encrypted end-to-end, unreadable even by Microsoft's own infrastructure.',
+    body: [
+      "Microsoft Azure has launched Confidential AI, a new compute category that runs AI inference workloads inside hardware-based Trusted Execution Environments (TEEs) — isolated memory regions where data is encrypted in hardware and inaccessible to the host operating system, hypervisor, or cloud provider. Organizations processing sensitive data — healthcare providers with patient records, financial services firms with client portfolios, legal firms with privileged communications — can use Azure's AI models to analyze their data while maintaining a mathematical guarantee that Microsoft cannot access either the input data or the model outputs.",
+      "The technical foundation is AMD SEV-SNP (Secure Encrypted Virtualization — Secure Nested Paging) and Intel TDX (Trust Domain Extensions), hardware features in modern server CPUs that encrypt virtual machine memory with keys managed inside the CPU itself. Azure's Confidential AI service provisions AI inference instances inside attestable TEEs — virtual machines whose memory encryption key is controlled by a hardware security module that allows external auditors to verify the TEE configuration before trusting it with sensitive data. A healthcare organization can verify cryptographically that their patient data is being processed inside an attested, unmodified Azure AI environment before sending a single query.",
+      "Performance overhead from TEE encryption is modest: 12-18% inference latency increase versus standard Azure AI inference on the same hardware, driven by memory encryption/decryption operations on every cache miss. Microsoft has optimized inference frameworks for TEE operation, and the overhead is expected to decrease as AMD and Intel improve SEV-SNP and TDX performance in future CPU generations. For organizations where regulatory compliance or data sensitivity mandates this level of protection, the performance overhead is acceptable.",
+      "<blockquote>Cloud AI has a trust problem: enterprises want to use AI, but they cannot verify that their sensitive data is private. Encryption in transit and at rest are necessary but insufficient — the data must be decrypted to process it, and at that moment it is visible to the cloud provider. Confidential AI closes that gap. For the first time, you can use Azure AI and prove to regulators that not even Microsoft can see your data. — Scott Guthrie, EVP, Microsoft Cloud + AI</blockquote>",
+      "Confidential AI launches with support for Azure OpenAI Service (GPT-4o in TEE mode), Azure AI Language services, and Azure Machine Learning inference clusters. Pricing carries a 20-25% premium over standard Azure AI pricing, reflecting the more expensive TEE-capable hardware. Microsoft is initially targeting heavily regulated industries — HIPAA healthcare, GDPR-protected EU data, and US government classified environments where FedRAMP authorization requires demonstrable separation between government data and cloud provider access.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['Microsoft', 'Azure', 'Confidential Computing', 'Cloud', 'Privacy', 'AI Security'],
+  },
 ];
 
 TC.timelineData = {
