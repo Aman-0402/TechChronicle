@@ -4779,6 +4779,24 @@ undefined
     readTime: 5,
     tags: ['Micron', 'HBM4', 'Memory', 'AI Hardware', 'Semiconductor', 'Competition'],
   },
+
+  {
+    id: 265,
+    date: '2026-07-11',
+    category: 'AI',
+    title: 'Meta FAIR Releases Movie Gen: Minute-Long Audio-Visual Generation from Text Challenges Professional Production',
+    excerpt: 'Meta's fundamental AI research lab releases its most comprehensive generative media model, capable of simultaneously generating synchronized video and audio from text descriptions.',
+    body: [
+      "Meta's Fundamental AI Research (FAIR) lab has released Movie Gen, an open-weights audio-visual generation system capable of generating synchronized video and audio up to 60 seconds from text prompts. Movie Gen comprises three jointly-trained models: a video backbone (30B parameters), an audio backbone (13B parameters), and a synchronization model that aligns audio events (footsteps, voices, ambient sound) to the corresponding visual events in the generated video. The combined system generates narrative video with appropriate background music, sound effects, and ambient audio that changes as the scene changes.",
+      "The audio-visual alignment is the key technical achievement: previous video generation models produced video and audio independently, creating jarring mismatches (rain sounds playing in desert scenes, footsteps out of sync with walking). Movie Gen's synchronization model was trained on 2 million paired video-audio examples with manually annotated audio event annotations, learning the mapping between visual events and their corresponding audio signatures. The result is video where the audio matches the visual narrative at the level of individual events.",
+      "The open-weights release strategy: Meta has released Movie Gen's model weights under a research license permitting non-commercial use, with a separate commercial license available for qualifying use cases. The FAIR team notes that the release is intended to enable academic research into audio-visual generation, personalization techniques (enabling individuals to appear in generated videos using a few reference photos), and video editing applications. The commercial restrictions are designed to prevent use for political deepfakes and non-consensual intimate imagery.",
+      "<blockquote>Movie Gen represents FAIR's contribution to the science of audio-visual generation. We could have kept this behind an API and charged for access. Instead we are releasing the weights because we believe open science advances the field faster, and because the safety research required to deploy this responsibly at scale requires the entire research community to be able to study the model's capabilities and failure modes. — Yann LeCun, Chief AI Scientist, Meta FAIR</blockquote>",
+      "The implications for content creation are substantial: movie pre-visualization (rough cuts showing camera angles and scene composition) can be produced entirely from screenplay text, reducing pre-production time for a feature film from months to weeks. Music video production for independent artists now requires no filming equipment — only a concept and generated video. Educational content creators can produce illustrated video explanations without cameras or voiceover recording. The WGA (Writers Guild of America) has issued guidance that Movie Gen-assisted scripts are acceptable under the current AI rider in writer contracts, provided the writer maintains creative control.",
+    ],
+    company: 'Meta FAIR',
+    readTime: 5,
+    tags: ['Meta', 'FAIR', 'Movie Gen', 'Video Generation', 'Audio AI', 'Generative AI'],
+  },
 ];
 
 TC.timelineData = {
