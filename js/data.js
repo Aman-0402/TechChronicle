@@ -5013,6 +5013,24 @@ undefined
     readTime: 5,
     tags: ['Cursor', 'AI Coding', 'Dev Tools', 'IDE', 'Enterprise', 'Developer Tools'],
   },
+
+  {
+    id: 278,
+    date: '2026-07-12',
+    category: 'AI',
+    title: 'Cohere Releases Command R3 with 1M Token Context and Grounded RAG: Enterprise AI Platform Posts 400% Revenue Growth on Private Deployment Demand',
+    excerpt: 'Cohere announces Command R3 with 1 million token context window and built-in retrieval augmented generation, targeting enterprise customers who require on-premises AI deployment with no data leaving their infrastructure.',
+    body: [
+      "Cohere has released Command R3, its third-generation enterprise language model featuring a 1 million token context window and built-in Retrieval Augmented Generation (RAG) capabilities that eliminate the need for separate vector database infrastructure. The model is designed specifically for enterprise deployment scenarios where data governance requirements prevent use of cloud-based AI services — Cohere's entire product line runs on customer-controlled infrastructure, a differentiation that has driven 400% year-over-year revenue growth as enterprises face increasing regulatory scrutiny of AI data handling.",
+      "The 1 million token context window allows Command R3 to process entire enterprise knowledge bases — technical documentation, policy manuals, contract libraries, code repositories — in a single context without chunking or retrieval. Built-in RAG integrates retrieval directly into the model's attention mechanism rather than treating it as a pre-processing step, resulting in better coherence between retrieved context and generated responses. Cohere's benchmarks show grounded answer accuracy 23% higher than comparable RAG implementations using external vector databases, with lower latency due to eliminated round trips.",
+      "Command R3 ships with dedicated enterprise support features absent from consumer AI products. Source attribution provides document-level and passage-level citations for every factual claim, enabling compliance review of AI-generated content. Hallucination confidence scores flag responses where the model is uncertain, allowing human review routing for high-stakes applications. Domain adaptation fine-tunes the base model on proprietary organizational data using federated learning — the training process occurs on customer infrastructure with no data transferred to Cohere's systems.",
+      "<blockquote>The AI industry built models for consumers and tried to sell them to enterprises. Those enterprises have compliance officers, data governance requirements, and regulatory obligations that consumer AI never considered. We built Command R3 from day one for enterprise deployment, enterprise security, and enterprise accountability. That is why regulated industries choose Cohere. — Aidan Gomez, CEO, Cohere</blockquote>",
+      "Cohere is growing in regulated verticals that larger AI providers cannot serve due to data residency requirements: European financial services (which must comply with EU AI Act and GDPR data localization), US healthcare (HIPAA), and government agencies (FedRAMP authorization). The company has signed enterprise contracts with Goldman Sachs, Siemens, Oracle Health, and the Canadian federal government, with combined contract value exceeding 800 million dollars over three-year terms.",
+    ],
+    company: 'Cohere',
+    readTime: 5,
+    tags: ['Cohere', 'Command R3', 'Enterprise AI', 'RAG', 'Context Window', 'Privacy'],
+  },
 ];
 
 TC.timelineData = {
