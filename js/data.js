@@ -5391,6 +5391,24 @@ undefined
     readTime: 5,
     tags: ['Warp', 'Terminal', 'Dev Tools', 'AI', 'Automation', 'CLI'],
   },
+
+  {
+    id: 299,
+    date: '2026-07-13',
+    category: 'Hardware',
+    title: 'TSMC Announces 1.4nm Process Technology Development: Angstrom-Scale Manufacturing to Enter Risk Production in 2028 with Novel Gate Nanosheet Architecture',
+    excerpt: 'Taiwan Semiconductor Manufacturing Company reveals details of its A14 1.4nm process node, the first sub-2nm chip manufacturing process, using CFET nanosheet transistors and next-generation EUV lithography to extend Moore's Law beyond apparent physical limits.',
+    body: [
+      "Taiwan Semiconductor Manufacturing Company has revealed the technical details of A14, its 1.4nm process technology node, representing the first sub-2nm chip manufacturing process in history. A14 uses Complementary FET (CFET) nanosheet transistors — a novel transistor architecture that stacks n-type and p-type devices vertically rather than placing them side by side, enabling 45% area reduction versus the 2nm N2 node while maintaining equivalent or better drive current. TSMC expects A14 risk production to begin in 2028, with volume production for initial Apple and NVIDIA customers in 2029.",
+      "The transistor architecture breakthrough is the key enabler: CFET stacking allows TSMC to increase transistor density without further reducing feature sizes that are approaching atomic-scale physical limits. The smallest feature in A14 — the gate length controlling electron flow through each transistor — is 5 nanometers, the same as in the N2 node. The density improvement comes entirely from 3D stacking rather than lateral scaling, fundamentally changing the manufacturing paradigm from 2D lithographic patterning toward 3D chip architecture.",
+      "Lithography advances support A14: TSMC is deploying High-NA EUV (Extreme Ultraviolet) lithography equipment from ASML, the new-generation machines that provide 0.55 NA aperture versus 0.33 NA in current EUV systems. High-NA EUV allows single-pass patterning of features that currently require double or quadruple patterning with multiple exposures — reducing manufacturing steps, improving yield, and enabling the precise feature alignment required for CFET fabrication. Each High-NA EUV machine costs approximately 380 million dollars, and TSMC has committed to deploying over 50 machines for A14 production.",
+      "<blockquote>Moore's Law has been declared dead many times. Every time, TSMC has found a way to continue scaling through architectural innovation rather than just lithographic shrinking. CFET nanosheet is the most significant transistor architecture change since FinFET in 2011. A14 will give Apple and NVIDIA chips that are faster, more efficient, and denser than anything that has come before. — C.C. Wei, CEO, TSMC</blockquote>",
+      "The A14 announcement arrives as AI chip demand makes TSMC's most advanced nodes commercially urgent. Apple's M-series chips are the largest volume customer for TSMC's leading-edge processes, with NVIDIA and AMD increasingly consuming advanced node capacity for AI accelerators that previously targeted older process nodes. TSMC is investing 165 billion dollars in capital expenditure over 2026-2030 to expand capacity at every node from mature 28nm to leading-edge A14, ensuring supply availability for the AI accelerator market's insatiable demand for advanced silicon.",
+    ],
+    company: 'TSMC',
+    readTime: 5,
+    tags: ['TSMC', 'Semiconductor', '1.4nm', 'Hardware', 'Moore's Law', 'Manufacturing'],
+  },
 ];
 
 TC.timelineData = {
