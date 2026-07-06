@@ -5373,6 +5373,24 @@ undefined
     readTime: 5,
     tags: ['Anthropic', 'Claude', 'AI', 'Constitutional AI', 'Context Window', 'Safety'],
   },
+
+  {
+    id: 298,
+    date: '2026-07-13',
+    category: 'Dev Tools',
+    title: 'Warp Terminal 3.0 Adds AI-Powered Workflow Automation: Smart Terminal Learns Developer Command Patterns and Automates Repetitive CLI Workflows',
+    excerpt: 'Warp, the AI-enhanced terminal application, releases version 3.0 with workflow learning and automation that observes developer command patterns and generates reusable automation scripts for repetitive multi-step CLI operations.',
+    body: [
+      "Warp, the AI-first terminal application, has released version 3.0 featuring Workflow Intelligence — a system that learns individual developer command patterns from observed terminal sessions and automatically generates reusable workflow scripts for repetitive multi-step operations. After observing a developer performing the same deploy sequence (git pull, docker build, docker push, kubectl apply, kubectl rollout status) five times, Warp 3.0 automatically generates a documented shell script for the workflow, suggests keyboard shortcuts for one-command execution, and learns variations based on which environment (staging versus production) is targeted.",
+      "The Workflow Intelligence system uses a local model that processes command history without sending data to external servers — a privacy-preserving approach that allows Warp to learn from sensitive development workflows (production deployments, database operations, security tooling) that cannot be analyzed by cloud-based AI systems. The local model identifies patterns across commands, arguments, and timing, distinguishing deliberate multi-step workflows from exploratory command sequences and generating workflow templates only for consistently repeated patterns.",
+      "Warp 3.0 also enhances its existing natural language terminal feature: developers can type commands in natural language ('find all Python files modified in the last 3 days containing TODO comments') and receive correct shell commands with inline explanations. Version 3.0 improves accuracy from 78% to 91% on complex multi-tool pipeline commands (commands combining find, grep, xargs, awk, sed) and adds interactive refinement — if the generated command is almost but not exactly what the developer wanted, they can describe the difference in natural language to generate a corrected version.",
+      "<blockquote>The terminal is the last major developer tool that requires memorizing hundreds of cryptic commands. Warp's vision has always been a terminal that understands what you are trying to accomplish, not just what you typed. Version 3.0 makes that vision real for the 80% of developer work that is repeated workflows — deploy this service, backup that database, rotate these credentials. — Zach Lloyd, CEO, Warp</blockquote>",
+      "Warp 3.0 is available for macOS and Linux with Windows support expected in Q4 2026. The free tier includes unlimited command history, AI command generation (limited to 50 queries per day), and basic workflow detection. Warp Pro at 16 USD per month removes limits and adds team workflow sharing — the ability to share discovered workflows with teammates through Warp's cloud sync, building an organizational library of documented CLI operations that onboards new team members to operational procedures.",
+    ],
+    company: 'Warp',
+    readTime: 5,
+    tags: ['Warp', 'Terminal', 'Dev Tools', 'AI', 'Automation', 'CLI'],
+  },
 ];
 
 TC.timelineData = {
