@@ -5787,6 +5787,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'Operator', 'AI Agents', 'Automation', 'Web Browsing', 'Desktop AI'],
   },
+
+  {
+    id: 321,
+    date: '2026-07-14',
+    category: 'Dev Tools',
+    title: 'JetBrains AI Assistant 3.0 Adds Cross-Language Refactoring and Architecture Analysis: IDE Intelligence Spans Entire Multi-Service Codebases',
+    excerpt: 'JetBrains releases AI Assistant 3.0 with cross-language refactoring capabilities that understand polyglot service architectures, enabling intelligent code changes that span TypeScript frontends, Python backends, and Go microservices in a single operation.',
+    body: [
+      "JetBrains has released AI Assistant 3.0, a major upgrade to its AI-powered IDE integration available across all JetBrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, GoLand, Rider, and others). The flagship new capability is cross-language refactoring: AI Assistant 3.0 understands polyglot service architectures and can execute refactoring operations that span multiple services written in different languages — renaming an API endpoint in a Python FastAPI backend while simultaneously updating all TypeScript frontend clients, Go service consumers, and OpenAPI specification files that reference the changed endpoint.",
+      "Architecture Analysis is the second major new feature: AI Assistant 3.0 can analyze an entire multi-service codebase and produce architectural diagrams, dependency graphs, and narrative descriptions of how services interact. The analysis identifies architectural concerns like circular dependencies between services, services that share database tables (a common coupling anti-pattern), and API contracts that have diverged from their consumers' expectations. Architecture Analysis produces a structured report with actionable recommendations and links to the specific code locations requiring attention.",
+      "The AI engine underlying AI Assistant 3.0 runs locally for most operations using a quantized version of a 7B code model that runs efficiently on MacBook Pro M4 and Windows ARM hardware. Cloud processing is used only for the most computationally intensive operations (full codebase architecture analysis, cross-service refactoring planning) with explicit user consent. Local inference provides privacy guarantees for sensitive codebases while achieving acceptable latency for interactive operations: inline code completion in 80ms, function refactoring suggestions in 400ms.",
+      "<blockquote>The best IDE is one that understands your codebase as well as you do — and then helps you improve it. With AI Assistant 3.0, JetBrains IDEs understand polyglot architectures, spot architectural problems, and execute complex refactors that span languages and services. The editor that knows your code inside out is not a vision anymore. It is what you are using today. — Kirill Skrygan, VP R&D, JetBrains</blockquote>",
+      "AI Assistant 3.0 is included in all JetBrains IDE subscriptions at existing pricing, with unlimited usage for local model operations and a monthly cloud credit allocation for intensive operations. JetBrains is simultaneously launching JetBrains AI for Teams, an organizational tier that adds shared project context, team coding convention enforcement, and audit logs for compliance-sensitive organizations. The local-first approach differentiates JetBrains AI from GitHub Copilot and Amazon Q Developer, which process code in the cloud for all operations.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['JetBrains', 'AI Assistant', 'Dev Tools', 'IDE', 'Refactoring', 'Architecture Analysis'],
+  },
 ];
 
 TC.timelineData = {
