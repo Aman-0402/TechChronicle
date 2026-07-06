@@ -4113,6 +4113,24 @@ undefined
     readTime: 5,
     tags: ['Robotics', 'Physical Intelligence', 'Robot Policy', 'Manipulation', 'AI', 'Startups'],
   },
+
+  {
+    id: 228,
+    date: '2026-07-09',
+    category: 'Cloud',
+    title: 'Terraform 2.0 Rewritten in Rust: 8x Faster State Operations, OpenTofu Fork Merges Back Into Upstream',
+    excerpt: 'HashiCorp's infrastructure-as-code tool completes a ground-up rewrite that delivers dramatic performance improvements and ends the community split caused by the 2023 license change.',
+    body: [
+      "HashiCorp has released Terraform 2.0, a complete rewrite of the infrastructure-as-code tool in Rust, delivering 8x faster state refresh operations, 5x faster plan generation for large state files, and a new streaming state backend that eliminates the state file lock contention issues that have plagued large teams using shared remote state. Simultaneously, IBM (which acquired HashiCorp in 2024) has announced that Terraform 2.0 returns to the Mozilla Public License 2.0 — reversing the controversial BSL 1.1 relicensing that triggered the OpenTofu fork in 2023.",
+      "The Rust rewrite delivers performance improvements that matter at enterprise scale: a 50,000-resource state file that took 45 seconds to refresh in Terraform 1.x now refreshes in 5.6 seconds. Plan generation for the same state dropped from 120 seconds to 24 seconds. The streaming state backend eliminates the serialized state read-modify-write pattern that required locking the entire state file for each operation, replacing it with a log-structured state that multiple Terraform processes can write concurrently without conflicts. Teams with 20+ concurrent Terraform runs — common in large organizations with many microservices — will no longer encounter state lock timeouts.",
+      "The OpenTofu reconciliation: OpenTofu (the CNCF-hosted Terraform fork created after the BSL relicensing) has agreed to merge its improvements back into the Terraform 2.0 upstream under a joint technical steering committee model. OpenTofu had approximately 40,000 users and had introduced several features not present in Terraform 1.x, including encrypted state files, provider iteration, and improved testing framework. These features are all included in Terraform 2.0. The CNCF will continue hosting OpenTofu as a separate project for organizations that prefer the fork's governance structure.",
+      "<blockquote>The Terraform ecosystem split was an own goal. We created a community schism by changing the license of a foundational tool, and the community's response — OpenTofu — was entirely justified. Terraform 2.0 is the reconciliation: we return to open source, we incorporate the best ideas from OpenTofu, and we deliver the performance improvements that neither project could achieve alone. Infrastructure as code is too important to fragment. — Armon Dadgar, HashiCorp Co-Founder</blockquote>",
+      "The provider ecosystem impact: all Terraform providers (AWS, Azure, Google Cloud, Kubernetes, and 3,000+ community providers) require updates for Terraform 2.0's new plugin protocol. HashiCorp has coordinated simultaneous 2.0-compatible releases with the major cloud providers, covering AWS, Azure, and GCP providers day-one. The HashiCorp Registry shows 80% of the top-100 providers have 2.0-compatible versions available, with the remaining 20% expected to publish updates within 30 days. The migration from 1.x is handled by a new 'terraform 1to2' migration command.",
+    ],
+    company: 'HashiCorp',
+    readTime: 5,
+    tags: ['Terraform', 'Infrastructure as Code', 'Rust', 'OpenTofu', 'DevOps', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
