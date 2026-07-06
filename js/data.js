@@ -3537,6 +3537,24 @@ undefined
     readTime: 6,
     tags: ['Samsung', 'HBM4E', 'DRAM', 'Memory', 'AI Hardware', 'GPU'],
   },
+
+  {
+    id: 196,
+    date: '2026-07-08',
+    category: 'Open Source',
+    title: 'Linux 7.0 Kernel Releases with Rust as First-Class Language: 40% of New Driver Code Written in Rust',
+    excerpt: 'Linus Torvalds accepts the first major Linux release where Rust-written components outnumber new C code in several subsystems, marking a generational shift in kernel development.',
+    body: [
+      "Linux kernel 7.0 has been released, and for the first time in the kernel's 35-year history, a major subsystem — the GPU driver stack — has been substantially rewritten in Rust. Approximately 40% of new code merged in the 7.0 development cycle was written in Rust, with the remainder in C. The Rust GPU driver work, led by teams at Apple (for their M-series GPU support on Linux), Collabora, and Lina (the independent developer who pioneered Rust GPU drivers in the Apple Silicon Linux project), represents the largest Rust contribution to any system software project in history.",
+      "The practical impact: the Rust GPU drivers exhibit zero memory-safety CVEs in their first year of upstreaming, compared to a historical rate of 1.2 memory-safety bugs per 10,000 lines for equivalent C GPU drivers. Linus Torvalds, who was initially skeptical of Rust in the kernel, noted in the 7.0 announcement that the absence of UAF (use-after-free) and null-pointer dereference bugs in the Rust drivers vindicates the experiment. The Rust-in-Linux bindings infrastructure — the API layer that allows Rust code to safely call kernel C APIs — has matured to cover 80% of commonly used kernel subsystems.",
+      "Beyond GPU drivers, Linux 7.0 includes Rust rewrites of the NVMe storage driver (contributing a 15% throughput improvement due to better memory access patterns), early work on a Rust network packet filter replacing parts of netfilter, and the first Rust-written filesystem driver (a read-only ext4 implementation for embedded use cases). The kernel's build system now supports incremental Rust compilation, addressing the long-standing complaint that Rust's compilation time slowed kernel builds — compilation time for the full kernel with Rust is now within 8% of C-only builds.",
+      "<blockquote>I was wrong to be dismissive about Rust. The GPU driver results are the proof: the Rust code is not just safer — it is better-structured, easier to review, and when bugs do appear, they are logic errors rather than the catastrophic memory corruption bugs that require emergency patches. The experiment succeeded. Rust in the kernel is no longer an experiment. It is just how we write new drivers. — Linus Torvalds, Linux Kernel Creator</blockquote>",
+      "The Linux Foundation has updated its kernel contributor guidelines to officially support Rust as an equally acceptable language to C for new kernel subsystems, with the recommendation that safety-critical or complex-state drivers prefer Rust. The infrastructure team is investing in Rust kernel documentation, with a new Kernel Rust Developer Guide shipping alongside 7.0 that covers the binding abstractions, memory model, and patterns for common kernel programming tasks. The Android kernel team at Google has announced it will adopt Linux 7.0 as the base for Android 17, accelerating Rust's deployment on billions of devices.",
+    ],
+    company: 'Linux Foundation',
+    readTime: 6,
+    tags: ['Linux', 'Rust', 'Kernel', 'Open Source', 'GPU Drivers', 'Systems Programming'],
+  },
 ];
 
 TC.timelineData = {
