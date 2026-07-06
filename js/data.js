@@ -5553,6 +5553,24 @@ undefined
     readTime: 5,
     tags: ['Carnegie Mellon', 'Research', 'AI Mathematics', 'Formal Proof', 'Number Theory', 'Automated Reasoning'],
   },
+
+  {
+    id: 308,
+    date: '2026-07-13',
+    category: 'Cybersecurity',
+    title: 'GitHub Advanced Security AI Achieves 98% Precision on Vulnerability Detection: Automated Remediation Fixes 70% of Found Issues Without Developer Review',
+    excerpt: 'GitHub announces major improvements to Advanced Security's AI-powered vulnerability scanning, achieving near-zero false positives and automatically fixing the majority of detected security issues through AI-generated code patches.',
+    body: [
+      "GitHub has announced major capability improvements to GitHub Advanced Security (GHAS), its AI-powered security scanning platform, achieving 98% precision on vulnerability detection in a 6-month evaluation across 50,000 enterprise repositories. Precision — the percentage of flagged issues that represent genuine vulnerabilities rather than false positives — is the critical usability metric for security scanning: high false positive rates cause developer alert fatigue that leads to ignoring security warnings entirely. GHAS's 98% precision means developers can trust that flagged issues are real, making security review efficient rather than burdensome.",
+      "The precision improvement comes from a vulnerability classification model trained specifically for each programming language and framework combination. Rather than using a single model that understands all code, GHAS uses a model ensemble where a JavaScript React expert model evaluates React code, a Python Django expert model evaluates Django code, and so on. Each specialized model has learned the security patterns specific to its framework — understanding that Django's ORM parameterizes queries by default and only flagging the specific patterns that bypass parameterization, rather than flagging all database queries.",
+      "Automated Remediation is the headline new feature: when GHAS detects a vulnerability, it simultaneously generates an AI-proposed code fix as a pull request that the developer can review and merge. In the evaluation study, 70% of automatically generated fixes were accepted by developers without modification, and an additional 18% were accepted with minor adjustments — meaning only 12% of vulnerabilities required developers to write the fix from scratch. The productivity implication is significant: traditional security scanning workflows require developers to understand the vulnerability, design a fix, implement it, and test it. Automated remediation reduces most vulnerability fixes to a code review task.",
+      "<blockquote>Security scanning has had a perception problem: developers think it generates noise they have to sort through to find real issues. With 98% precision and automatic fixes for 70% of findings, that perception is no longer accurate for GHAS. We have made security scanning a feature that developers want to have, not a compliance checkbox they have to tolerate. — Mike Hanley, Chief Security Officer, GitHub</blockquote>",
+      "GHAS is available on GitHub Enterprise Cloud and GitHub Enterprise Server at 49 USD per developer per month for organizations requiring the full vulnerability and secrets scanning capability. GitHub is also expanding GHAS availability to GitHub Free and Teams users for public repositories, reasoning that the open-source security ecosystem benefits from broad adoption of vulnerability scanning even for projects that cannot pay enterprise pricing.",
+    ],
+    company: 'GitHub',
+    readTime: 5,
+    tags: ['GitHub', 'Security', 'GHAS', 'Cybersecurity', 'DevSecOps', 'Vulnerability Scanning'],
+  },
 ];
 
 TC.timelineData = {
