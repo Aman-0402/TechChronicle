@@ -4437,6 +4437,24 @@ undefined
     readTime: 5,
     tags: ['Bun', 'JavaScript', 'Node.js', 'Runtime', 'Performance', 'Dev Tools'],
   },
+
+  {
+    id: 246,
+    date: '2026-07-10',
+    category: 'Research',
+    title: 'CERN LHC Run 4 Data Analysis AI Discovers Three New Exotic Hadron States Using Unsupervised Machine Learning',
+    excerpt: 'Particle physicists use neural networks to analyze collision data at a scale and granularity impossible with human-directed analysis, making the first new discoveries attributed primarily to AI-driven data exploration.',
+    body: [
+      "CERN has announced the discovery of three new exotic hadron states — composite particles made of quarks in unusual configurations not predicted by the Standard Model — from Run 4 Large Hadron Collider data analyzed using an unsupervised machine learning pipeline. The three states, provisionally named X(7430), Y(7820), and Z(8100) based on their invariant masses in MeV, were identified by a variational autoencoder trained on 400 petabytes of particle collision data from the LHCb detector. The AI identified anomalous clustering patterns in the data that human physicists had not targeted for analysis.",
+      "The methodology represents a shift from hypothesis-driven to exploration-driven particle physics: traditional analysis starts with a theoretical prediction for a new particle (its expected mass, decay modes, and production cross-section), then searches for evidence in the data matching that prediction. The AI approach makes no prior assumptions about what to find — the variational autoencoder learns the normal distribution of collision events and flags statistically significant deviations as potential discoveries. The three new states were in mass ranges not predicted by any current theoretical models.",
+      "The statistical significance: X(7430) is confirmed at 6.8 sigma (the particle physics threshold for discovery is 5 sigma), Y(7820) at 5.9 sigma, and Z(8100) at 5.4 sigma. The three states appear to be exotic hadrons containing four quarks (tetraquarks) or five quarks (pentaquarks) in unusual flavor combinations. Theoretical physicists are already publishing proposed explanations within the framework of Quantum Chromodynamics, but none of the current proposals fully account for all three states simultaneously.",
+      "<blockquote>We have reached the point where the data our detectors generate exceeds human capacity to explore. Run 4 produces 25 petabytes per year — more data than all previous LHC runs combined. We had a choice: analyze a pre-selected fraction guided by theory, or use AI to explore the full dataset without theoretical bias. These three discoveries vindicate the exploration-driven approach. There may be dozens more waiting in the data. — Guido Tonelli, CERN Spokesperson</blockquote>",
+      "The discovery pipeline is being shared with the broader physics community: CERN has open-sourced the variational autoencoder architecture, training code, and pre-trained model weights, along with a subset of the LHCb data used for training. The HEP (High Energy Physics) community is applying the same approach to other detector datasets — ATLAS and CMS collaboration members have announced parallel analysis projects using the CERN open-source pipeline. The methodology may also transfer to other large dataset scientific domains: astrophysics, climate science, and genomics all face similar challenges of finding anomalies in data too large for human inspection.",
+    ],
+    company: 'CERN',
+    readTime: 6,
+    tags: ['CERN', 'LHC', 'Particle Physics', 'Machine Learning', 'Discovery', 'Research'],
+  },
 ];
 
 TC.timelineData = {
