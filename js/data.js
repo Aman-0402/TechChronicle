@@ -3465,6 +3465,24 @@ undefined
     readTime: 6,
     tags: ['OpenAI', 'o4', 'Mathematics', 'IMO', 'Reasoning', 'AI Benchmarks'],
   },
+
+  {
+    id: 192,
+    date: '2026-07-08',
+    category: 'Cloud',
+    title: 'Google Cloud Announces Sovereign Cloud for EU: Data Never Leaves European Soil, Operated by Deutsche Telekom',
+    excerpt: 'Alphabet's cloud division partners with Europe's largest telecom to offer a fully sovereign cloud solution that addresses European data residency laws and AI Act compliance requirements.',
+    body: [
+      "Google Cloud has announced Google Cloud Sovereign EU, a partnership with Deutsche Telekom T-Systems that creates a fully independent cloud stack operated entirely by European personnel, stored on European infrastructure, and governed under German law with no US legal access provisions. The offering is designed to comply with GDPR, the EU AI Act, and the upcoming EU Data Act — three regulatory frameworks that create significant compliance complexity for European enterprises and public sector organizations using US-headquartered cloud providers.",
+      "The technical architecture of sovereign cloud: Google provides the underlying software (Kubernetes, BigQuery, Vertex AI, Cloud Storage) but T-Systems operates all physical infrastructure, controls all encryption keys, employs all personnel with data access, and serves as the legal data controller under GDPR. Google engineers have no access to customer data or operational telemetry without explicit German regulatory approval. The offering covers core IaaS, managed Kubernetes, serverless compute, data warehousing, and — critically — Vertex AI, making Google's AI capabilities available in a sovereignty-compliant wrapper.",
+      "The EU sovereign cloud market is projected to reach $45 billion by 2029 as European enterprises scramble to comply with the AI Act (which imposes strict data governance requirements for AI systems processing EU citizen data) and GDPR enforcement intensifies. AWS, Microsoft, and Oracle have all launched competing sovereign cloud offerings, but Google's T-Systems partnership is the first to offer Vertex AI (including Gemini models) in a fully sovereign configuration — a competitive differentiator as European enterprises adopt AI workloads.",
+      "<blockquote>Sovereignty is not just about where data sits. It is about who can see it, who controls the keys, and whose law governs access. Google Cloud Sovereign EU answers all three questions with one answer: Germany. European organizations should not have to choose between world-class cloud infrastructure and compliance with European law. — Thomas Kurian, CEO, Google Cloud</blockquote>",
+      "The commercial launch is planned for Q1 2027, with a public beta available to selected enterprise customers in Q3 2026. Pricing is approximately 25% higher than equivalent standard Google Cloud services, reflecting the operational overhead of the sovereignty model. The German federal government has already committed to migrating 40% of its workloads to sovereign cloud infrastructure by 2028 — a contract that Google/T-Systems, AWS Sovereign EU, and Microsoft Azure Government EU are all competing to capture.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'Sovereign Cloud', 'EU', 'GDPR', 'Deutsche Telekom', 'Data Residency'],
+  },
 ];
 
 TC.timelineData = {
