@@ -4995,6 +4995,24 @@ undefined
     readTime: 5,
     tags: ['MIT', 'Research', 'Machine Translation', 'Edge AI', 'Neural Networks', 'Microcontrollers'],
   },
+
+  {
+    id: 277,
+    date: '2026-07-12',
+    category: 'Dev Tools',
+    title: 'Cursor AI IDE Reaches 2 Million Active Developers and Launches Cursor Teams: Enterprise AI Coding Platform Adds Shared Context and Codebase Intelligence',
+    excerpt: 'AI-first code editor Cursor reports explosive growth to 2 million monthly active developers and announces Cursor Teams, adding organizational features for shared codebase context, team conventions, and enterprise security controls.',
+    body: [
+      "Cursor, the AI-first code editor built on VS Code, has reported reaching 2 million monthly active developers — a 10x increase in 18 months since its 1.0 release — driven by strong word-of-mouth among developers who report 30-50% productivity improvements for common programming tasks. The company, Anysphere, is simultaneously launching Cursor Teams, an organizational product that extends the AI coding experience with shared codebase context, team-defined coding conventions, and enterprise security controls required for deployment in financial services, healthcare, and government environments.",
+      "Cursor Teams introduces several capabilities absent from individual developer tools. Shared Codebase Context allows organizations to index their entire monorepo (including proprietary internal libraries, historical PR discussions, and architecture documentation) and make that context available to all developers' AI queries. A developer asking 'How do we typically handle database transactions in this codebase?' receives an answer informed by the organization's actual patterns rather than general programming conventions. Context is refreshed continuously as code evolves, avoiding the stale context problem of one-time documentation ingestion.",
+      "Team Conventions enables engineering leads to define organization-specific coding standards that Cursor enforces during AI-assisted code generation — preferred testing patterns, naming conventions, API design patterns, and security requirements. Generated code automatically follows organizational conventions, reducing code review cycles spent on style and pattern compliance. Privacy and security features include on-premises deployment options, audit logs for all AI interactions, SOC 2 Type II certification, and data isolation ensuring no organizational code is used to train shared Cursor models.",
+      "<blockquote>We built Cursor for individual developers, and they loved it so much they told their teams. Now those teams want organizational features — shared context, team conventions, enterprise security. Cursor Teams is the product engineers asked us to build. AI coding is no longer a solo activity. It is a team sport. — Michael Truell, CEO, Anysphere (Cursor)</blockquote>",
+      "Cursor Teams pricing is 40 USD per developer per month, targeting a market willing to pay for measurable productivity gains. Anysphere's data shows enterprise customers averaging 4.2 hours saved per developer per week, translating to roughly 30,000 USD annualized productivity value per developer at median software engineering salaries — making the 480 USD annual subscription economically straightforward to justify. The company raised 900 million at a 9 billion dollar valuation to fund enterprise sales expansion and continued model development.",
+    ],
+    company: 'Cursor',
+    readTime: 5,
+    tags: ['Cursor', 'AI Coding', 'Dev Tools', 'IDE', 'Enterprise', 'Developer Tools'],
+  },
 ];
 
 TC.timelineData = {
