@@ -4599,6 +4599,24 @@ undefined
     readTime: 5,
     tags: ['NixOS', 'Nix', 'Reproducibility', 'Linux', 'Package Manager', 'Open Source'],
   },
+
+  {
+    id: 255,
+    date: '2026-07-11',
+    category: 'Programming',
+    title: 'JetBrains Fleet 2.0 Becomes Production-Ready: Distributed IDE Architecture Enables True Multi-Developer Real-Time Collaboration',
+    excerpt: 'JetBrains' next-generation IDE graduates from beta with a backend-flexible architecture that enables Google Docs-style simultaneous multi-developer editing across its full range of language support.',
+    body: [
+      "JetBrains Fleet 2.0 has been released as production-ready, graduating from the extended beta that began in 2022. Fleet's core architectural innovation — separating the frontend (editing UI) from the backend (language analysis and code intelligence) via a network protocol — reaches its full potential in 2.0 with true real-time collaborative editing supporting up to 20 simultaneous developers in a single file, a local-first mode where the backend runs on the developer's machine, a remote development mode where the backend runs on a powerful server, and a 'smart mode toggle' that activates heavy language analysis only when requested.",
+      "The collaboration feature works via operational transformation (similar to Google Docs) rather than file locking — multiple developers can edit the same code simultaneously with cursor positions, selections, and changes visible in real time. Conflict resolution uses AST-aware merging (it understands code structure rather than just text lines), reducing merge conflicts when multiple developers edit the same function. The feature has immediate applications for pair programming, code review sessions where reviewers annotate code while the author watches, and onboarding where a senior developer can guide a junior developer through a codebase in real time.",
+      "The performance improvements in 2.0: Fleet's startup time drops to 1.2 seconds from 8 seconds in early beta (by aggressively deferring language server initialization until the first relevant operation), memory usage is reduced 40% through a new object pooling system for the AST cache, and the Kotlin language backend (used for Kotlin, Java, and Android development) gains IntelliJ-equivalent code intelligence — Fleet's most significant historical gap compared to IntelliJ IDEA.",
+      "<blockquote>Fleet represents JetBrains's answer to the fundamental question: what would an IDE look like if we designed it for the next 20 years, not built on the architecture of 2000? Remote development, real-time collaboration, adaptive intelligence — these were not retrofits for Fleet, they were the design requirements. 2.0 is where Fleet delivers on that vision with the reliability that our customers expect. — Kirill Skrygan, Fleet Engineering Lead</blockquote>",
+      "The ecosystem integration in Fleet 2.0: all JetBrains plugins written for IntelliJ-based IDEs work in Fleet via a compatibility layer, providing immediate access to the 8,000+ plugin ecosystem. Fleet supports 40+ programming languages natively and an additional 60+ via LSP (Language Server Protocol) integration. The JetBrains Toolbox app manages Fleet installations and projects, providing a unified launcher for developers who work across multiple JetBrains products. The pricing is included in the JetBrains All Products Pack subscription.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['JetBrains', 'Fleet', 'IDE', 'Collaboration', 'Dev Tools', 'Remote Development'],
+  },
 ];
 
 TC.timelineData = {
