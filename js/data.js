@@ -4851,6 +4851,24 @@ undefined
     readTime: 5,
     tags: ['DeepMind', 'AlphaFold', 'Protein Structure', 'Drug Discovery', 'AI', 'Biology'],
   },
+
+  {
+    id: 269,
+    date: '2026-07-11',
+    category: 'Cybersecurity',
+    title: 'NSA Releases Post-Quantum Cryptography Migration Toolkit: Federal Agencies Given 18-Month Deadline to Upgrade All Systems',
+    excerpt: 'National Security Agency publishes comprehensive tooling and guidance for transitioning government systems from RSA and ECC to NIST-approved post-quantum algorithms, with binding compliance deadlines for all federal agencies.',
+    body: [
+      "The National Security Agency has released the Post-Quantum Cryptography Migration Toolkit (PQCMT), a comprehensive open-source suite of tools, libraries, and migration guides enabling federal agencies and critical infrastructure operators to transition from classical encryption algorithms to NIST-standardized post-quantum cryptographic algorithms. The release accompanies a binding directive from the Office of Management and Budget requiring all federal agencies to complete migration of internet-facing systems by December 2027 and all classified systems by mid-2028.",
+      "The PQCMT includes automated discovery tools that scan network infrastructure to identify systems using RSA, ECDH, ECDSA, and other classical algorithms that quantum computers could break. The scanner integrates with common enterprise asset management platforms including ServiceNow, Splunk, and Tenable, producing prioritized migration roadmaps ranked by exposure risk. NSA estimates over 4.2 million federal government endpoints currently use quantum-vulnerable cryptography, with a significant portion in legacy systems that cannot be updated to newer TLS versions without custom cryptographic library replacements.",
+      "The primary migration targets are CRYSTALS-Kyber for key encapsulation (replacing RSA and ECDH in TLS, email, and VPN), CRYSTALS-Dilithium for digital signatures (replacing ECDSA in code signing and certificate authorities), and SPHINCS+ as a signature backup with different security assumptions. NSA has published hybrid migration profiles that combine classical and post-quantum algorithms simultaneously, ensuring that systems broken by classical adversaries or quantum adversaries remain protected — without requiring organizations to trust the new algorithms exclusively before they have extensive real-world cryptanalysis.",
+      "<blockquote>Harvest now, decrypt later attacks are already happening. Nation-state adversaries are collecting encrypted government communications today, knowing they will be decryptable when sufficiently powerful quantum computers exist. The question is not whether to migrate — it is whether you migrate before or after your secrets expire. Every day of delay is a day of data collection against future quantum decryption. — Rob Joyce, Former NSA Director of Cybersecurity</blockquote>",
+      "The migration challenge is substantial: TLS 1.3 post-quantum extensions add approximately 1.2 KB to handshake messages, impacting bandwidth-sensitive applications. NSA's toolkit includes performance testing suites and network bandwidth calculators to help agencies quantify migration costs. Critical infrastructure operators — power grids, water systems, financial networks — receive separate guidance acknowledging that operational technology environments often cannot follow the same migration timeline as IT systems and require custom cryptographic gateway appliances rather than software updates.",
+    ],
+    company: 'NSA',
+    readTime: 5,
+    tags: ['NSA', 'Post-Quantum Cryptography', 'Cybersecurity', 'NIST', 'Federal Government', 'Encryption'],
+  },
 ];
 
 TC.timelineData = {
