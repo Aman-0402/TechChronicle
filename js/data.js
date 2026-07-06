@@ -4329,6 +4329,24 @@ undefined
     readTime: 5,
     tags: ['Scale AI', 'RLHF', 'Fine-Tuning', 'Enterprise AI', 'Training Data', 'Startups'],
   },
+
+  {
+    id: 240,
+    date: '2026-07-10',
+    category: 'Dev Tools',
+    title: 'Tauri 3.0 Ships Full Mobile Support: Rust-Powered Cross-Platform Framework Targets Electron Replacement for Desktop and iOS/Android',
+    excerpt: 'The lightweight Electron alternative extends to mobile platforms, offering a single codebase approach for desktop and mobile applications with dramatically smaller binaries than comparable frameworks.',
+    body: [
+      "Tauri 3.0 has been released with complete iOS and Android support, making it the first framework to offer cross-platform development for Windows, macOS, Linux, iOS, and Android in a single Rust-based framework. Tauri's core advantage over Electron — its primary competitor — is binary size: a minimal Tauri application is 3-8MB, versus 100-200MB for equivalent Electron apps. Memory usage is similarly reduced: Tauri applications use the system's native WebView (WKWebView on macOS/iOS, WebView2 on Windows, WebKitGTK on Linux) rather than bundling a full Chromium instance.",
+      "The mobile support uses Capacitor-style native bridge patterns on iOS (WKWebView + Swift plugins) and Android (WebView + Kotlin plugins), but with Tauri's Rust core handling the communication bridge rather than JavaScript. This means native plugins can be written in Rust with type-safe bindings generated automatically for the web frontend — a significant developer experience improvement over Capacitor's JavaScript-heavy plugin model. Native platform capabilities (camera, file system, push notifications, biometrics) are accessed through Tauri's platform-native plugin API.",
+      "The performance characteristics for mobile: a Tauri 3.0 Android application ships an APK that is 8MB with no split APKs required (versus 60-150MB for comparable React Native or Flutter apps). The startup time advantage is substantial — Tauri leverages the pre-installed system WebView, which the OS has already loaded in memory, rather than initializing a bundled rendering engine from scratch. This results in 0.3-0.8 second cold launch times versus 1.5-3 seconds for React Native on comparable hardware.",
+      "<blockquote>Tauri exists because Electron's approach — ship a whole browser with every app — is wasteful of user disk space, memory, and battery. The web is the right foundation for cross-platform UI. But the right way to run web technology is not to ship Chromium with every application. Tauri 3.0 extends that philosophy to mobile: the user's device already has a WebView. We do not need to ship one. — Daniel Thompson-Yvetot, Tauri Founder</blockquote>",
+      "The ecosystem adoption: major Tauri 2.x applications include 1Password (partial rewrite of desktop client), Bitwarden, and dozens of developer tools. The 3.0 mobile support has generated immediate interest from companies wanting to consolidate their web, desktop, and mobile codebases. The constraint: applications with complex native UI requirements (games, camera-heavy apps, applications with platform-specific UI patterns) are better served by Flutter or React Native. Tauri's sweet spot is productivity applications — document editors, developer tools, communication apps — where web-based UI is idiomatic.",
+    ],
+    company: 'Tauri',
+    readTime: 5,
+    tags: ['Tauri', 'Cross-Platform', 'Mobile', 'Rust', 'Electron Alternative', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
