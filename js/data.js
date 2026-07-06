@@ -5733,6 +5733,24 @@ undefined
     readTime: 5,
     tags: ['Adobe', 'Firefly', 'Generative AI', 'Creative Tools', 'AI', 'Design'],
   },
+
+  {
+    id: 318,
+    date: '2026-07-14',
+    category: 'Research',
+    title: 'MIT Media Lab Creates Brain-Computer Interface That Decodes Imagined Speech at 95% Accuracy: First Non-Invasive System Suitable for Everyday Communication',
+    excerpt: 'MIT researchers demonstrate the first non-invasive brain-computer interface that decodes imagined speech with 95% word accuracy using a consumer-grade EEG headset, opening the path to practical thought-to-text communication for paralyzed patients.',
+    body: [
+      "MIT Media Lab has demonstrated the first non-invasive brain-computer interface achieving 95% accuracy at decoding imagined speech — internal verbalization without physical vocalization — using a consumer-grade 64-electrode EEG headset rather than surgically implanted electrodes. The system, trained on 40 hours of calibration data per user, decodes a 1,000-word vocabulary at 30 words per minute with word error rates comparable to voice recognition in quiet environments. For ALS patients, spinal cord injury patients, and people with locked-in syndrome, this bandwidth (30 WPM) enables real conversational communication rather than the character-by-character spelling typical of existing assistive communication technologies.",
+      "The technical breakthrough enabling non-invasive accuracy: a transformer model architecture specifically designed for EEG temporal-spatial patterns, combined with a personalization training approach that learns each user's unique neural signature for imagined speech. Previous attempts at non-invasive imagined speech decoding achieved 60-70% accuracy due to the signal-to-noise challenges of skull-attenuated EEG — the skull reduces neural signal amplitude by 20-40dB. The MIT system addresses this through extended calibration that learns per-user neural noise patterns and adaptive filtering that improves throughout each session as the model updates on confirmed predictions.",
+      "The system's architecture separates decoding into two stages: phoneme classification (identifying the sound units being imagined) and language model completion (using context to resolve ambiguous phoneme sequences into words). The phoneme classifier achieves 84% accuracy on phoneme-level recognition; the language model layer improves final word accuracy to 95% by using conversational context to disambiguate phonemically similar words. Users can confirm predicted words with small eye movements or micro-gestures, providing correction signals that further improve personalization.",
+      "<blockquote>Locked-in syndrome is one of the cruelest neurological conditions — a fully aware mind trapped in an unresponsive body. Our system does not require surgery. It does not require implanted electrodes. It uses a headset someone can put on and take off. For the first time, we can offer paralyzed patients conversational communication without a neurosurgery requirement. This is the BCI I have been trying to build for twenty years. — Pattie Maes, Director, Fluid Interfaces Group, MIT Media Lab</blockquote>",
+      "MIT is partnering with assistive technology company Tobii Dynavox to commercialize the system as a medical device for ALS and locked-in syndrome patients, targeting FDA clearance by 2028. The system's consumer EEG hardware requirement — compatible with existing research-grade and semi-consumer headsets — means the decoding software can be updated over time as the AI improves without hardware replacement, an important consideration for patients who may wear the system daily for decades.",
+    ],
+    company: 'MIT Media Lab',
+    readTime: 5,
+    tags: ['MIT', 'Brain-Computer Interface', 'Research', 'BCI', 'Accessibility', 'Neuroscience'],
+  },
 ];
 
 TC.timelineData = {
