@@ -4689,6 +4689,24 @@ undefined
     readTime: 5,
     tags: ['Prettier', 'Code Formatting', 'TypeScript', 'JSX', 'Dev Tools', 'Open Source'],
   },
+
+  {
+    id: 260,
+    date: '2026-07-11',
+    category: 'Startups',
+    title: 'Glean Enterprise Search Hits $500M ARR: AI-Powered Work Search Becomes Standard Tool for 800 Large Enterprises',
+    excerpt: 'The enterprise search startup built on AI reaches a revenue milestone that reflects how AI has finally solved the decades-old problem of finding information across fragmented enterprise software.',
+    body: [
+      "Glean, the AI-powered enterprise search and knowledge management platform, has reached $500 million in annual recurring revenue — a milestone achieved in 5 years from founding that places it among the fastest-growing enterprise software companies in history. The company now serves 800 large enterprises including 25% of the Fortune 100, with an average contract value of $625,000 per year. Glean's core product: a unified search and AI assistant that indexes content across every enterprise application (Slack, Google Workspace, Salesforce, Jira, Confluence, GitHub, Box, Dropbox, and 100+ others) and provides intelligent answers with source citations.",
+      "The technical differentiation: Glean uses a combination of semantic vector search and graph-based knowledge retrieval that understands the relationships between people, documents, and organizational concepts — not just keyword matching. When a developer asks 'what is our customer authentication flow,' Glean retrieves relevant code from GitHub, design docs from Confluence, architecture decisions from Jira, and Slack conversations where the design was discussed — synthesizing across sources. Traditional enterprise search returned document lists; Glean returns answers.",
+      "The adoption driver in large enterprises: knowledge accessibility is the second most-cited productivity concern for enterprise employees (after too many meetings), and traditional solutions (SharePoint, Confluence, Google Drive search) fail because they only search within their own data silos. Glean's cross-silo search is uniquely valuable in large organizations where information is distributed across 20-50 different SaaS tools. Customers report that Glean reduces time spent searching for information by 3-4 hours per employee per week.",
+      "<blockquote>Every enterprise has the same problem: your people spend 20% of their time looking for information that already exists somewhere in your systems. That information is in Salesforce, Slack, Confluence, GitHub, email, and dozens of other tools — and it is all invisible to any single search box. Glean makes your entire organizational knowledge searchable and conversational. At $500M ARR, we have proven that enterprises will pay for the solution. — Arvind Jain, CEO, Glean</blockquote>",
+      "The competitive landscape has intensified: Microsoft's Microsoft 365 Copilot includes enterprise search across M365 applications, Google's Workspace AI offers cross-Workspace search, and Salesforce Einstein Search covers the Salesforce ecosystem. Glean's response: its cross-vendor connectors cover tools that Microsoft and Google cannot reach (competing products, legacy systems, open-source tools), and its independence from any single vendor is a selling point for enterprises that do not want a Microsoft or Google monoculture in their software stack.",
+    ],
+    company: 'Glean',
+    readTime: 5,
+    tags: ['Glean', 'Enterprise Search', 'AI', 'Knowledge Management', 'Startups', 'Enterprise'],
+  },
 ];
 
 TC.timelineData = {
