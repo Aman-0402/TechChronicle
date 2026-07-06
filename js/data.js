@@ -5427,6 +5427,24 @@ undefined
     readTime: 5,
     tags: ['CrowdStrike', 'Cybersecurity', 'APT', 'Threat Hunting', 'AI Security', 'SOC'],
   },
+
+  {
+    id: 301,
+    date: '2026-07-13',
+    category: 'AI',
+    title: 'Meta AI Releases LLAMA 4 Multimodal with Video Understanding: Open-Source Frontier Model Processes Text, Images, Audio, and Video in Unified Architecture',
+    excerpt: 'Meta releases LLAMA 4, its fourth-generation open-source AI model with native multimodal capabilities including video understanding, setting a new benchmark for open-source AI performance while advancing the open AI ecosystem.',
+    body: [
+      "Meta AI has released LLAMA 4, the fourth generation of its open-source large language model, featuring native multimodal capabilities that process text, images, audio, and video within a unified architecture. LLAMA 4 represents the first truly multimodal open-source frontier model — previous LLAMA variants supported images via vision encoders, but LLAMA 4's unified architecture treats all modalities as first-class inputs with cross-modal attention allowing the model to reason across modality boundaries. A query combining a video clip, associated transcript, and follow-up question accesses all three modalities simultaneously rather than processing them in a pipeline.",
+      "Video understanding is the headline new capability: LLAMA 4 can process videos up to 10 minutes in length, tracking objects, events, and conversations across temporal context. Benchmark performance on video question answering (EgoSchema, Video-MME) exceeds GPT-4o Vision by 8-12%, though remains behind specialized video models for complex temporal reasoning. The practical capability unlocked is significant: customer service teams can feed video call recordings to LLAMA 4 for automated summarization, compliance review, and sentiment analysis; security teams can analyze surveillance footage for anomaly detection; and media companies can use it for automated content cataloging and accessibility captioning.",
+      "The model architecture introduces Mixture of Experts at scale: LLAMA 4 Scout (17B active parameters, 109B total parameters) and LLAMA 4 Maverick (17B active, 400B total) are the two production variants, with active parameter count kept constant regardless of total parameters to maintain inference efficiency. A third variant, LLAMA 4 Behemoth (288B active parameters, 2 trillion total parameters), will be released as a research model only, as inference costs are prohibitive for most production deployments.",
+      "<blockquote>Open source has won in every technology domain it has entered: operating systems, web servers, databases, frameworks. AI is not different. LLAMA 4 is competitive with GPT-4o and Claude 3.5 Sonnet. It is open source, commercially usable, and free to run. The AI ecosystem of the future will be built on open foundation models, and that future is LLAMA. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "LLAMA 4 model weights are available on Meta's Llama website and Hugging Face under Meta's updated commercial license allowing use in products with up to 700 million monthly active users without licensing fees. The research community and AI companies below that usage threshold can deploy LLAMA 4 freely. Meta is simultaneously releasing LLAMA Guard 4, an updated content safety classifier designed specifically for LLAMA 4's multimodal outputs, addressing the safety challenge of open-source multimodal models that can be prompted to generate harmful cross-modal content.",
+    ],
+    company: 'Meta',
+    readTime: 5,
+    tags: ['Meta', 'LLAMA 4', 'Open Source', 'Multimodal AI', 'Video Understanding', 'LLM'],
+  },
 ];
 
 TC.timelineData = {
