@@ -5805,6 +5805,24 @@ undefined
     readTime: 5,
     tags: ['JetBrains', 'AI Assistant', 'Dev Tools', 'IDE', 'Refactoring', 'Architecture Analysis'],
   },
+
+  {
+    id: 322,
+    date: '2026-07-14',
+    category: 'Cloud',
+    title: 'Cloudflare Workers AI Expands to 300 Inference Endpoints Globally: Sub-20ms AI Inference Available from Every Cloudflare PoP Without Cold Start',
+    excerpt: 'Cloudflare expands its serverless AI inference platform to over 300 points of presence worldwide, enabling developers to run AI models with under 20ms latency globally without cold start delays by pre-loading models at every edge location.',
+    body: [
+      "Cloudflare has announced a major expansion of Workers AI, its serverless AI inference platform, to over 300 points of presence (PoPs) worldwide — covering every major metropolitan area across 100 countries. The expansion allows developers to run AI inference within 20ms of virtually any end user globally, achieving latency that is impossible with centralized data center AI inference for users outside North America and Europe. Cloudflare achieves this by maintaining warm model instances at every PoP, eliminating the cold start latency that plagues serverless AI deployments where model loading can add seconds to first-response time.",
+      "The model catalog at Workers AI now includes 45 inference-optimized models across categories: 8 text generation models (including Llama 4 Scout, Mistral 7B, Qwen 2.5-7B), 6 embedding models, 4 image generation models (Stable Diffusion 3.5, FLUX.1), 3 speech recognition models (Whisper), 2 translation models, and specialized models for code generation, content classification, and object detection. All models run in INT8 quantized form on Cloudflare's custom AI inference hardware, providing 70-80% accuracy parity with full precision models at 3-4x lower compute cost.",
+      "Workers AI's architecture innovation for low-latency global inference: Cloudflare maintains model shards on NVMe SSDs at each PoP, loading models into GPU memory when the first inference request arrives. Subsequent requests to the same model serve from the warm GPU instance without model loading overhead. Cloudflare's global load balancing system routes requests to the geographically nearest PoP with a warm instance for the requested model, achieving the sub-20ms target for 95% of global requests. P99 latency is 45ms globally, compared to 300-500ms for centralized AI inference APIs serving users in Asia or Africa.",
+      "<blockquote>AI inference at the edge is not a luxury for globally distributed applications — it is a requirement. A 300ms round trip to a US data center for an AI inference call is terrible UX for users in Tokyo, Mumbai, or Sao Paulo. Workers AI brings that inference to within 5 miles of every user. Edge AI is the only AI that works globally. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "Workers AI pricing remains 0.011 USD per 1,000 neurons (Cloudflare's inference compute unit, roughly equivalent to one LLM token generation on a 7B parameter model), with a generous free tier of 10,000 neurons per day. The free tier covers approximately 1,000 AI-assisted interactions per day for personal projects and prototypes. Cloudflare is partnering with AI application frameworks (Vercel, Netlify, Astro) to provide Workers AI as the default inference backend when AI features are enabled in deployed applications.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'Edge AI', 'Cloud', 'Inference', 'Workers AI', 'Serverless'],
+  },
 ];
 
 TC.timelineData = {
