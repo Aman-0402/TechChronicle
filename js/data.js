@@ -4725,6 +4725,24 @@ undefined
     readTime: 5,
     tags: ['Runway', 'Video Generation', 'AI Film', 'Hollywood', 'Generative AI', 'Startups'],
   },
+
+  {
+    id: 262,
+    date: '2026-07-11',
+    category: 'Cybersecurity',
+    title: 'Okta Launches Decentralized Identity Platform: Users Control Their Own Credentials Without Central Authority',
+    excerpt: 'The identity management leader builds on W3C Decentralized Identifiers and Verifiable Credentials standards to enable identity verification that does not require trusting any single company.',
+    body: [
+      "Okta has launched Okta Decentralized Identity, a platform built on the W3C Decentralized Identifiers (DID) and Verifiable Credentials (VC) standards that allows users to hold their own cryptographically-verified identity credentials without relying on Okta or any central authority to verify them. The system enables scenarios like: a user proves they are over 18 to a website using a credential issued by their government, without the website learning their actual birthdate; a developer proves they passed a certification exam without the employer needing to contact the certification authority; or a patient shares their vaccination status with a doctor without a central health authority intermediary.",
+      "The technical architecture: each user has a DID (a globally unique identifier stored on a distributed ledger or other verifiable data registry) and a DID document specifying their public keys. Organizations issue Verifiable Credentials (signed JSON-LD documents) to users, who store them in their Okta Wallet (a mobile app functioning as a credential wallet). When a user needs to prove something, they present a Verifiable Presentation — a selective disclosure of relevant credentials, signed with their private key — to the verifier. The verifier checks the credential's signature against the issuer's public key in the issuer's DID document, cryptographically verifying authenticity without contacting the issuer.",
+      "The privacy-preserving selective disclosure feature is the key differentiator: traditional identity verification requires sharing all attributes of a document (a driver's license shows name, address, and date of birth when proving age). Verifiable Credentials with zero-knowledge proofs enable proving only the relevant attribute — proving 'I am over 21' without revealing the exact birthdate, or proving 'I am a licensed doctor' without revealing the license number. The cryptographic proof is as binding as sharing the full credential but reveals only the minimum necessary information.",
+      "<blockquote>The identity infrastructure we have built for the internet centralizes trust in a small number of companies — including Okta. That centralization creates single points of failure, privacy concentration, and dependence on private companies for a fundamental human capability: proving who you are. Decentralized identity moves control back to individuals. Okta's role in a decentralized world is to issue and verify credentials, not to hold and intermediate them. — Todd McKinnon, CEO, Okta</blockquote>",
+      "The ecosystem partnerships required for decentralized identity to succeed are already forming: the EU has mandated EUDI (European Union Digital Identity) wallet adoption, and Okta is an approved technology provider. Apple and Google have committed to supporting W3C Verifiable Credentials in their native wallet apps (Apple Wallet and Google Wallet). The US state of California has piloted a mobile driver's license using the same standard, with 8 other states planning similar deployments. Okta's enterprise customers gain the ability to issue portable verifiable credentials to employees, customers, and partners.",
+    ],
+    company: 'Okta',
+    readTime: 6,
+    tags: ['Okta', 'Decentralized Identity', 'DID', 'Verifiable Credentials', 'Privacy', 'Identity'],
+  },
 ];
 
 TC.timelineData = {
