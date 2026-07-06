@@ -3519,6 +3519,24 @@ undefined
     readTime: 6,
     tags: ['Post-Quantum', 'Cryptography', 'NSA', 'Cybersecurity', 'Quantum Computing', 'NIST'],
   },
+
+  {
+    id: 195,
+    date: '2026-07-08',
+    category: 'Hardware',
+    title: 'Samsung Begins Mass Production of 3D-Stacked DRAM: HBM4E Ships with 1.2 TB/s Bandwidth, Targets AI Accelerator Bottleneck',
+    excerpt: 'The world's largest memory manufacturer starts volume shipments of its most advanced high-bandwidth memory, directly addressing the memory bandwidth constraint that limits AI training and inference performance.',
+    body: [
+      "Samsung has begun volume production of HBM4E (High Bandwidth Memory 4 Enhanced), its most advanced DRAM product, achieving 1.2 terabytes-per-second of memory bandwidth per stack — a 60% improvement over HBM3E's 0.74 TB/s. HBM4E uses a new 3D stacking architecture with 16 DRAM layers per stack (up from 12 in HBM3E), connected via through-silicon vias (TSVs) with 64,000 connections per stack. The memory is designed primarily for AI accelerators where memory bandwidth — not compute — is the binding constraint for large language model inference.",
+      "The memory bandwidth bottleneck in AI: a 70-billion parameter LLM like Llama 3 70B requires loading approximately 140GB of weights from memory for every inference pass (in fp16 precision). With HBM3E's bandwidth, a single GPU can load model weights at 0.74 TB/s — meaning the full model loads in approximately 189 milliseconds per inference. With HBM4E at 1.2 TB/s, the same load takes 117 milliseconds — a 38% reduction in memory-bound inference latency. For 8-GPU configurations, peak theoretical throughput improves proportionally. NVIDIA has confirmed HBM4E will be used in its Blackwell Ultra B400 accelerators.",
+      "Samsung's production ramp represents a significant manufacturing achievement: HBM4E requires 16-layer die stacking with sub-1-micron TSV alignment tolerances, demanding yield rates that Samsung has spent three years improving. The initial production yield is 62%, with a ramp target of 75% by end of 2026. Initial monthly production volume is 50,000 stacks — sufficient to supply approximately 12,000 B400 GPUs per month — ramping to 150,000 stacks/month by Q2 2027. SK Hynix, Samsung's primary HBM competitor, has announced HBM4 (not Enhanced) production, while Micron is targeting HBM4 availability in late 2026.",
+      "<blockquote>Every generation of AI accelerators has been memory-bandwidth-limited. Our customers tell us that bandwidth, not compute, is what limits how many tokens per second their inference clusters can generate. HBM4E is our answer: more bandwidth than the industry has ever seen, at a density and power efficiency that fits the thermal envelopes of next-generation AI systems. — Dr. Young-Hyun Jun, President, Samsung Memory</blockquote>",
+      "The price premium for HBM4E is approximately 45% over HBM3E per GB, but the total system cost per token generated decreases by 30% due to fewer accelerators required for the same throughput. AI cloud providers have run detailed TCO analyses and concluded that the premium is justified: at data center scale, the accelerator cost is dominated by the HBM cost anyway, and getting 60% more bandwidth from the same number of physical stacks reduces the number of expensive accelerators needed in a cluster. AWS, Microsoft Azure, and Google Cloud have all pre-committed to HBM4E allocation for 2027 infrastructure buildouts.",
+    ],
+    company: 'Samsung',
+    readTime: 6,
+    tags: ['Samsung', 'HBM4E', 'DRAM', 'Memory', 'AI Hardware', 'GPU'],
+  },
 ];
 
 TC.timelineData = {
