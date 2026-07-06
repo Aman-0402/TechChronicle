@@ -5283,6 +5283,24 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'Spanner', 'Vector Database', 'Cloud', 'AI', 'Distributed Systems'],
   },
+
+  {
+    id: 293,
+    date: '2026-07-13',
+    category: 'Open Source',
+    title: 'Homebrew 5.0 Rewrites Package Manager in Rust: macOS and Linux Package Manager Achieves 4x Install Speed and Improved Dependency Solver',
+    excerpt: 'Homebrew, the most popular package manager for macOS and Linux, releases version 5.0 with a complete Rust rewrite delivering dramatically faster package installation, improved dependency resolution, and better error messages.',
+    body: [
+      "Homebrew, the open-source package manager used by over 14 million macOS and Linux developers, has released version 5.0 — the first complete rewrite of the package manager's core in its 16-year history. The new version replaces the Ruby-based implementation with a Rust binary that delivers 4x faster package installation through parallel dependency resolution and concurrent download/installation pipelines. The rewrite also introduces a new SAT-solver-based dependency resolver that eliminates the dependency conflicts that previously required manual intervention in complex environments.",
+      "The original Ruby implementation's performance limitations became increasingly painful as Homebrew grew: the largest Homebrew environments have thousands of installed packages, and operations like 'brew upgrade' that check all packages for updates required seconds to minutes of Ruby interpreter startup and sequential processing. The Rust binary starts in under 10 milliseconds and resolves a 500-package dependency graph in 180 milliseconds — a 95% reduction in operation time for common use cases. For new machine setup scripts (common in developer onboarding workflows), installation of a typical 50-package development environment drops from 12 minutes to 3 minutes.",
+      "The new SAT-solver dependency resolver addresses Homebrew's historically notorious dependency conflict problem. Previous Homebrew used a greedy dependency resolution algorithm that would sometimes produce conflicts requiring users to manually identify and resolve version incompatibilities. The new resolver uses a complete constraint satisfaction approach — it either finds a valid package version assignment satisfying all constraints or reports a precise explanation of why no valid assignment exists, telling users exactly which conflicting version requirements make the requested installation impossible.",
+      "<blockquote>Homebrew has been beloved and frustrating in equal measure since 2009. Beloved for its package coverage, frustrating for its speed and dependency conflicts. Version 5.0 keeps everything developers love and eliminates what they hate. The Rust rewrite was not about Rust — it was about giving our users a package manager that respects their time. — Mike McQuaid, Homebrew Lead Maintainer</blockquote>",
+      "Homebrew 5.0 maintains complete backward compatibility with existing Taps (third-party package repositories) and Formulae (package definitions written in Ruby). The Rust binary is a drop-in replacement for the Ruby implementation — existing Homebrew users see only the speed improvements without any workflow changes. The project also introduces a new API for Tap development that provides type-checked formula definitions, catching formula errors at development time rather than at install time.",
+    ],
+    company: 'Homebrew',
+    readTime: 5,
+    tags: ['Homebrew', 'Package Manager', 'Rust', 'Open Source', 'macOS', 'Developer Tools'],
+  },
 ];
 
 TC.timelineData = {
