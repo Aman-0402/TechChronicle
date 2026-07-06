@@ -3933,6 +3933,24 @@ undefined
     readTime: 5,
     tags: ['Poolside AI', 'Code Generation', 'AI Coding', 'Funding', 'Startups', 'Developer Tools'],
   },
+
+  {
+    id: 218,
+    date: '2026-07-09',
+    category: 'Cloud',
+    title: 'AWS Graviton5 Delivers 50% Better Price-Performance Than x86: Half of AWS Compute Now Running on Arm',
+    excerpt: 'Amazon's custom Arm-based processor reaches a major milestone as its fifth generation delivers performance that makes x86 economically uncompetitive for the majority of cloud workloads.',
+    body: [
+      "AWS has announced that Graviton5-based instances deliver 50% better price-performance than comparable Intel Xeon and AMD EPYC x86 instances for the 80% of workloads that are memory-bandwidth-limited or moderately compute-intensive. Simultaneously, AWS disclosed that more than half of its total compute capacity now runs on Arm-based Graviton processors — a majority milestone in AWS's 7-year journey from custom silicon experiment to its primary compute platform. The combination of these announcements signals that x86's 40-year dominance in cloud computing is functionally over for commodity workloads.",
+      "Graviton5's technical improvements: manufactured on TSMC N2 (first Graviton chip on a sub-3nm process), 128 custom Arm Neoverse V3 cores per socket, 1TB/s memory bandwidth (using HBM4 for compute-optimized instances and DDR6 for memory-optimized instances), and new AI acceleration units providing 2.4x inference throughput for quantized models versus Graviton4. The per-core performance improvement is approximately 30% over Graviton4, but the total price-performance improvement is amplified by more cores per socket and lower power consumption enabling more dense rack configurations.",
+      "The workload migration economics: a company running a typical three-tier web application (load balancer, application servers, database) on x86 instances can migrate to equivalent Graviton5 instances and reduce their AWS bill by 35-40% with no application code changes (for applications written in Java, Python, Node.js, Go, and modern compiled languages — all supported natively on Arm). The one migration hurdle is x86-specific binaries: applications shipping pre-compiled x86 binaries need recompilation for Arm, a task the AWS Porting Advisor tool automates for 85% of cases.",
+      "<blockquote>Graviton is not about being different — it is about being better. Five generations of custom silicon, guided by the specific needs of cloud workloads, have produced a processor that x86 chips simply cannot match on price-performance for the workloads that matter most in the cloud. The milestone of more than half our compute on Arm is not a strategy achievement. It is a customer preference statement: customers move to Graviton because it saves them money. — Peter DeSantis, SVP Utility Computing, AWS</blockquote>",
+      "The competitive implications for Intel and AMD are serious: Intel's data center CPU revenue was already under pressure from AMD, and both companies now face an AWS customer base that has been systematically guided toward Graviton. Google Cloud, Microsoft Azure, and Oracle Cloud have all launched Arm-based instances (Axion, Cobalt, and Ampere respectively) following AWS's lead, and all report similar customer satisfaction and cost improvement data. The server CPU market is undergoing the same Arm transition that happened in mobile a decade earlier.",
+    ],
+    company: 'Amazon Web Services',
+    readTime: 5,
+    tags: ['AWS', 'Graviton5', 'Arm', 'Cloud Computing', 'Server CPU', 'Price-Performance'],
+  },
 ];
 
 TC.timelineData = {
