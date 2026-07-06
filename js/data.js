@@ -4761,6 +4761,24 @@ undefined
     readTime: 5,
     tags: ['Kotlin', 'KMP', 'Cross-Platform', 'iOS', 'Android', 'JetBrains'],
   },
+
+  {
+    id: 264,
+    date: '2026-07-11',
+    category: 'Hardware',
+    title: 'Micron HBM4 Ultra Achieves 1.6 TB/s Bandwidth: AI Memory War Intensifies as Samsung and SK Hynix Respond',
+    excerpt: 'The American memory manufacturer enters the HBM4 race with a specification that challenges Korea's dominance in high-bandwidth memory, bringing genuine three-way competition to the critical AI chip component market.',
+    body: [
+      "Micron Technology has announced HBM4 Ultra, its entry into the fourth-generation high-bandwidth memory market, claiming 1.6 TB/s bandwidth per stack — exceeding Samsung's HBM4E (1.2 TB/s) and SK Hynix's HBM4 (1.0 TB/s). The higher bandwidth is achieved through a new 12-high die stacking configuration with wider through-silicon via (TSV) pitch, a custom base die with a new crossbar interconnect, and a 3D integration approach that reduces the vertical routing distance. Micron has confirmed sampling to NVIDIA for potential inclusion in the next Blackwell Ultra successor.",
+      "The competitive context: HBM memory is the critical component determining AI accelerator performance, and until HBM4 Ultra, Micron had been in third place behind Samsung and SK Hynix in HBM technology. The US government's chip export controls on advanced AI hardware to China have paradoxically created an opening for Micron: China's domestic chipmakers are building AI accelerators that require HBM, and Micron has been less aggressive about restricting sales to Chinese customers than SK Hynix or Samsung (both of which face geopolitical pressure from their own governments and supply chain considerations).",
+      "The manufacturing technology: HBM4 Ultra uses Micron's new CXL (Compute Express Link) 3.0-based interconnect for the base die-to-host connection, enabling the HBM stack to be addressed as memory coherent with the host processor — a capability that enables more flexible memory pooling than HBM3E's fixed allocation. The 12-high stack requires Micron's advanced wafer bonding technology, where each die is bonded face-down onto the die below at sub-micron alignment tolerances using thermo-compression bonding.",
+      "<blockquote>HBM is the most strategically important product in the semiconductor industry right now. Every AI accelerator's performance ceiling is set by its HBM bandwidth. Micron entering the HBM4 race with a specification that leads on bandwidth is the moment we go from being a secondary HBM player to a genuine competitor for the most demanding AI applications. We intend to capture 30% of the HBM market within 24 months. — Sanjay Mehrotra, CEO, Micron Technology</blockquote>",
+      "The geopolitical implications are significant: until HBM4 Ultra, the US had no domestic HBM production (Micron manufactures overseas but has domestic design). The CHIPS Act includes provisions for domestic HBM production, and Micron has applied for grants to build HBM production capacity in its Boise, Idaho facilities. If awarded, this would create the first US-based HBM production, reducing dependence on Korean manufacturers for a component that is essential to AI infrastructure and increasingly viewed as strategically critical.",
+    ],
+    company: 'Micron',
+    readTime: 5,
+    tags: ['Micron', 'HBM4', 'Memory', 'AI Hardware', 'Semiconductor', 'Competition'],
+  },
 ];
 
 TC.timelineData = {
