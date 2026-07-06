@@ -4635,6 +4635,24 @@ undefined
     readTime: 5,
     tags: ['Databricks', 'Apache Iceberg', 'Delta Lake', 'Data Platform', 'Acquisition', 'Cloud'],
   },
+
+  {
+    id: 257,
+    date: '2026-07-11',
+    category: 'Research',
+    title: 'ETH Zurich Trains Soft Robot That Learns to Walk in 20 Minutes Using Evolutionary Embodied Intelligence',
+    excerpt: 'Swiss researchers develop a physical robot with a soft silicone body that autonomously discovers how to locomote through its environment using on-board evolutionary computation without any pre-programmed gait.',
+    body: [
+      "Researchers at ETH Zurich's Soft Robotics Lab have developed a soft robotic system that learns to walk without any pre-programmed gait controllers, discovering locomotion behaviors in approximately 20 minutes of physical interaction with its environment using an evolutionary algorithm running on embedded processors. The robot — named Morph — consists of a silicone body with six pneumatic actuators, 24 pressure sensors, and an NVIDIA Jetson processor. Starting from random actuator signals, the evolutionary algorithm generates populations of gaits, physically tests each one, measures displacement, and evolves toward faster locomotion over generations.",
+      "The scientific significance: most legged robots use carefully hand-designed gait controllers or simulated-to-real transfer learning (designing controllers in simulation then testing in the physical world, accepting the sim-to-real gap). Morph's approach — learning entirely through physical interaction — avoids the sim-to-real transfer problem because it never leaves the physical domain. The learning happens in 20 minutes rather than hours because the algorithm is specifically designed for soft bodies: it exploits the body's compliance (soft silicone deforms in ways that naturally smooth out actuator noise, making the physical performance function more predictable than rigid robot equivalents).",
+      "The application potential: soft robots can safely operate in environments where rigid robots cannot — medical procedures, handling fragile objects, human interaction. But programming soft robots is especially difficult because their behavior is dominated by complex material physics that is hard to model. Learning locomotion from scratch in the physical environment sidesteps the modeling problem entirely. The ETH team has applied the same approach to manipulation tasks — a soft robotic hand that learned to grasp novel objects in 35 minutes without any demonstration data.",
+      "<blockquote>Biological creatures do not come with pre-programmed walking gaits. They develop motor skills through physical interaction with their environment, guided by evolutionary and developmental processes. Morph implements a simplified version of that process in silicon and rubber. The surprising result is that 20 minutes of physical evolution produces smoother, more robust gaits than months of simulation-based controller design. Bodies are programmers. — Robert Katzschmann, Professor, ETH Zurich Soft Robotics</blockquote>",
+      "The broader implications for AI: Morph demonstrates that computation does not need to be separated from physical substrate. Intelligence emerges from the interaction of body, computation, and environment — not just from the computation alone. This 'embodied intelligence' paradigm is gaining traction in robotics research and has theoretical connections to work on physical neural networks (where the physical properties of materials perform computation) and reservoir computing (where physical systems are harnessed as computational substrates).",
+    ],
+    company: 'ETH Zurich',
+    readTime: 6,
+    tags: ['Soft Robotics', 'Evolutionary AI', 'Embodied Intelligence', 'ETH Zurich', 'Research', 'Robotics'],
+  },
 ];
 
 TC.timelineData = {
