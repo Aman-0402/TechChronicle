@@ -3501,6 +3501,24 @@ undefined
     readTime: 5,
     tags: ['TypeScript', 'JavaScript', 'Decorators', 'Programming', 'Microsoft', 'TC39'],
   },
+
+  {
+    id: 194,
+    date: '2026-07-08',
+    category: 'Cybersecurity',
+    title: 'NSA Releases Post-Quantum Cryptography Migration Toolkit: 18-Month Window Before Harvest Now Decrypt Attacks Become Viable',
+    excerpt: 'The National Security Agency issues urgent guidance and open-source migration tools as its analysis indicates state-sponsored actors have already harvested encrypted data that quantum computers will soon be able to decrypt.',
+    body: [
+      "The NSA has published its Post-Quantum Cryptography Migration Toolkit alongside a classified-to-public threat assessment stating that state-sponsored adversaries — primarily China and Russia — have been conducting 'harvest now, decrypt later' operations since at least 2018, collecting encrypted communications and data with the intent to decrypt them once sufficiently powerful quantum computers become available. The NSA's assessment estimates a 70% probability that a cryptographically relevant quantum computer will exist within 18-24 months, based on publicly available research progress at IBM, Google, and classified intelligence sources.",
+      "The migration toolkit includes: automated scanning tools that identify all RSA and elliptic-curve cryptography usage across a network (the two families most vulnerable to quantum attacks via Shor's algorithm), migration libraries for Go, Python, Java, and C/C++ that implement NIST-standardized post-quantum algorithms (ML-KEM for key encapsulation, ML-DSA for digital signatures, SLH-DSA for hash-based signatures), and a priority framework for sequencing migrations based on data sensitivity and expected data lifetime. Highest priority: any data with a 10+ year sensitivity requirement that is currently protected by RSA or EC cryptography.",
+      "The urgency is not about present-day quantum computers — none currently existing can break RSA-2048. The urgency is about data that adversaries have already collected and stored encrypted. Long-lived data (health records, financial data, classified communications, industrial secrets) encrypted today with RSA or ECDH will remain sensitive in 2027 or 2028 when a cryptographically relevant quantum computer might exist. Data encrypted with post-quantum algorithms is immune to this threat even if a quantum computer arrives tomorrow.",
+      "<blockquote>The clock started in 2018. Every day that passes with RSA-protected sensitive data being transmitted is another day of harvest. We are not warning organizations to start thinking about post-quantum migration. We are telling them the window is closing and the toolkit is ready. The organizations that migrate in the next 18 months will have protected their data. The ones that wait may not get another chance. — Anne Neuberger, Deputy National Security Advisor for Cyber</blockquote>",
+      "CISA has issued a companion directive requiring federal agencies to inventory all cryptographic assets by December 2026 and begin migration of highest-priority systems by March 2027. The private sector guidance is voluntary but backed by SEC disclosure requirements: public companies that fail to disclose material cybersecurity risks — including quantum migration status for sensitive data — may face securities liability. Cloud providers have already begun adding post-quantum options: AWS, Azure, and GCP all offer ML-KEM in TLS 1.3 connections as an opt-in today.",
+    ],
+    company: 'NSA',
+    readTime: 6,
+    tags: ['Post-Quantum', 'Cryptography', 'NSA', 'Cybersecurity', 'Quantum Computing', 'NIST'],
+  },
 ];
 
 TC.timelineData = {
