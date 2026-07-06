@@ -4239,6 +4239,24 @@ undefined
     readTime: 5,
     tags: ['OpenTelemetry', 'Observability', 'Tracing', 'Metrics', 'Logs', 'CNCF'],
   },
+
+  {
+    id: 235,
+    date: '2026-07-10',
+    category: 'Programming',
+    title: 'Elixir 2.0 Brings Static Types via Set-Theoretic Type System Without Breaking Dynamic Code',
+    excerpt: 'The functional programming language adds optional static type checking using a type system that works alongside rather than against its dynamic heritage, enabling safety without sacrificing the language's flexibility.',
+    body: [
+      "Elixir 2.0 has been released with a complete optional type system based on set-theoretic types — an approach that represents a mathematical model of types as sets of values, enabling precise typing of Elixir's dynamic patterns including union types, intersection types, and refinement types that narrow type information based on pattern match branches. The type system is additive: no existing Elixir code requires changes, and type annotations are opt-in per function. When annotations are provided, the compiler performs full static type checking and surfaces type errors at compile time.",
+      "The set-theoretic type system is particularly well-suited to Elixir: Elixir code uses pattern matching extensively, and set-theoretic types can precisely represent the type of each match arm. When you write a function that matches on '{:ok, value}' or '{:error, reason}', the type system infers that the first arm handles tuples tagged with ':ok' and the second handles tuples tagged with ':error', narrowing the type of 'value' and 'reason' accordingly. This is more expressive than nominal type systems like TypeScript or Java generics for this common Elixir pattern.",
+      "The Dialyzer replacement: Dialyzer (Elixir's existing type inference tool, inherited from Erlang) performs post-hoc type inference without annotations and catches certain classes of errors, but is slow (taking minutes to run on large codebases) and produces confusing error messages. Elixir 2.0's built-in type system is faster (integrated into the incremental compiler), produces clearer error messages, and enables IDE integration for inline type display and completion. Dialyzer remains available but is expected to be gradually superseded.",
+      "<blockquote>Elixir has always been a pragmatic language: we chose dynamic typing because it enabled the expressive metaprogramming and pattern matching that makes Elixir productive. We chose to add types in 2.0 because the ecosystem matured to the point where teams want safety guarantees for their most critical code paths. The set-theoretic approach is the only type theory expressive enough to type Elixir's dynamic patterns precisely, without requiring developers to fight the type checker. — Jose Valim, Creator, Elixir</blockquote>",
+      "The Phoenix web framework (Elixir's primary web framework, used by Discord, Bleacher Report, and numerous other high-traffic applications) has been co-designed with Elixir 2.0 types: Phoenix 2.0 (releasing simultaneously) provides typed context functions, typed LiveView callbacks, and typed Ecto changesets. The LiveView real-time UI framework gains particularly useful type checking: the types of assigns (the data passed to HTML templates) are now statically verified, catching a large class of runtime errors that previously only surfaced in production.",
+    ],
+    company: 'Elixir Team',
+    readTime: 5,
+    tags: ['Elixir', 'Type System', 'Phoenix', 'Programming Languages', 'Functional', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
