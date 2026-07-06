@@ -5715,6 +5715,24 @@ undefined
     readTime: 5,
     tags: ['Semgrep', 'Cybersecurity', 'Static Analysis', 'Business Logic', 'DevSecOps', 'Code Security'],
   },
+
+  {
+    id: 317,
+    date: '2026-07-14',
+    category: 'AI',
+    title: 'Adobe Firefly 4.0 Generates Commercially Safe AI Creative Assets at 10x the Speed of Competitors: Enterprise Creative Suite Integrates Generative AI Throughout',
+    excerpt: 'Adobe launches Firefly 4.0 with breakthrough generation speed, expanded content types including 3D and motion graphics, and enterprise-grade IP indemnification covering all Firefly-generated assets in commercial creative work.',
+    body: [
+      "Adobe has launched Firefly 4.0, its fourth-generation generative AI creative system, delivering a 10x speed improvement over Firefly 3.0 and expanding coverage to include 3D assets, motion graphics, and audio synthesis alongside the existing image, vector, and video generation capabilities. Firefly 4.0 integrates throughout Adobe's Creative Cloud suite — Photoshop, Illustrator, After Effects, Premiere Pro, InDesign, and Substance 3D — with native generative tools in each application context rather than requiring users to switch between a separate generative interface and their primary creative tools.",
+      "Commercial IP safety is Adobe's primary enterprise differentiator: Firefly is trained exclusively on Adobe Stock imagery, openly licensed content, and public domain material — no scraped internet content, no copyrighted works without license. Adobe provides IP indemnification for all Firefly-generated content used in commercial contexts, meaning enterprise customers using Firefly outputs in advertising, product design, and marketing are protected from copyright infringement claims without requiring individual content review. In a market where competing AI image generators face ongoing copyright litigation, this legal certainty is worth significant premium to risk-averse enterprise customers.",
+      "The 3D generation capability is new and commercially significant: product designers can describe a 3D object or furniture item and receive a textured 3D mesh exportable to standard formats (OBJ, FBX, USD) for use in Substance Painter, Blender, or game engines. Photorealistic product visualization — rendering a new product concept in multiple environments and lighting conditions for marketing review before physical prototype production — is now a Firefly task rather than a 3D artist project.",
+      "<blockquote>Generative AI changes what is possible in creative work. Every creative professional I talk to is using it. The question is not whether to use generative AI — it is which tool you trust for commercial creative work. Firefly is the only generative AI trained on licensed content with enterprise IP indemnification. For enterprise creative teams, that is not a nice-to-have. It is a requirement. — David Wadhwani, President, Adobe Digital Media</blockquote>",
+      "Firefly 4.0 is available to all Creative Cloud subscribers with usage limits based on subscription tier, and to enterprise customers through Adobe Express Enterprise and custom Creative Cloud Enterprise agreements. Adobe is also launching Firefly Services API for enterprises who want to integrate Firefly generation capabilities into custom creative workflows, content management systems, and e-commerce product visualization pipelines without requiring Creative Cloud subscriptions for every API-consuming application.",
+    ],
+    company: 'Adobe',
+    readTime: 5,
+    tags: ['Adobe', 'Firefly', 'Generative AI', 'Creative Tools', 'AI', 'Design'],
+  },
 ];
 
 TC.timelineData = {
