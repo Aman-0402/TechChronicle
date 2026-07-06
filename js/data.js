@@ -5229,6 +5229,24 @@ undefined
     readTime: 5,
     tags: ['Cerebras', 'AI Chips', 'Hardware', 'Wafer Scale', 'AI Training', 'Accelerators'],
   },
+
+  {
+    id: 290,
+    date: '2026-07-12',
+    category: 'Cybersecurity',
+    title: 'Palo Alto Networks Acquires Startup Dig Security for $1.2 Billion: Cloud Data Security Posture Management Becomes Core Zero Trust Platform Capability',
+    excerpt: 'Palo Alto Networks acquires cloud data security company Dig Security, integrating data-centric security posture management into its Prisma Cloud platform to address growing enterprise concern about AI systems accessing sensitive cloud data.',
+    body: [
+      "Palo Alto Networks has acquired Dig Security, a cloud data security posture management (DSPM) startup founded in 2021, for 1.2 billion dollars in cash. The acquisition integrates Dig's data discovery and classification technology into Palo Alto's Prisma Cloud platform, addressing the growing enterprise security concern about AI systems — both first-party applications and third-party AI APIs — accessing sensitive data stored in cloud environments without adequate visibility or access controls. Palo Alto CEO Nikesh Arora cited AI data access as the primary driver for the acquisition, noting that AI systems are now the most common source of unexpected sensitive data access patterns in enterprise cloud environments.",
+      "Dig Security's core capability is continuous discovery of data stores across cloud environments (AWS S3, Azure Blob, Google Cloud Storage, RDS databases, data warehouses) and automated classification of data by sensitivity level. The system detects data security risks in real time: an S3 bucket made public by misconfiguration, a database accessible to more IAM roles than intended, or an AI application accessing customer PII data that should be restricted to analytics pipelines. Integration with Prisma Cloud connects data access events to identities, network flows, and application behavior for comprehensive data access governance.",
+      "The AI data access concern is specific and growing: organizations deploying LLM-based applications frequently discover post-deployment that the application accessed data it was not intended to see — a customer service AI reading internal employee records, a code generation tool with access to production database credentials, or an analytics AI querying GDPR-protected personal data. Dig's data access timeline and anomaly detection features identify these unexpected access patterns and alert security teams before sensitive data exposure becomes a compliance violation.",
+      "<blockquote>Every enterprise deploying AI is experiencing the same surprise: AI systems access data far more broadly than intended because enterprise data permissions were designed for humans navigating applications, not AI systems programmatically querying APIs. Dig Security's technology tells you what your AI is actually touching. That visibility is the foundation of AI security governance. — Nikesh Arora, CEO, Palo Alto Networks</blockquote>",
+      "Dig Security's technology joins Palo Alto's existing Prisma Cloud CNAPP (Cloud Native Application Protection Platform) capabilities: cloud security posture management, workload protection, and network security monitoring. The combined platform provides end-to-end cloud security coverage from infrastructure configuration through application runtime behavior to data access governance. Palo Alto expects the Dig acquisition to contribute 150 million dollars in annual recurring revenue within 18 months as existing Prisma Cloud customers adopt the new data security capabilities.",
+    ],
+    company: 'Palo Alto Networks',
+    readTime: 5,
+    tags: ['Palo Alto Networks', 'Cybersecurity', 'Cloud Security', 'DSPM', 'Zero Trust', 'Acquisition'],
+  },
 ];
 
 TC.timelineData = {
