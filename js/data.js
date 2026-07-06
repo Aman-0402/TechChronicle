@@ -5247,6 +5247,24 @@ undefined
     readTime: 5,
     tags: ['Palo Alto Networks', 'Cybersecurity', 'Cloud Security', 'DSPM', 'Zero Trust', 'Acquisition'],
   },
+
+  {
+    id: 291,
+    date: '2026-07-13',
+    category: 'AI',
+    title: 'OpenAI o4 Reasoning Model Solves Olympiad-Level Mathematics with 94% Accuracy: New Benchmark Establishes AI Surpassing Human Expert Performance in Formal Mathematics',
+    excerpt: 'OpenAI releases o4, its fourth-generation reasoning model, demonstrating 94% accuracy on International Mathematical Olympiad problems — performance that surpasses IMO gold medalist level and represents a qualitative advance in AI formal reasoning capability.',
+    body: [
+      "OpenAI has released o4, the fourth generation of its dedicated reasoning model line, achieving 94% accuracy on International Mathematical Olympiad (IMO) problems — a level that surpasses the 88% average accuracy of IMO gold medalists tested on the same problem set. The result represents a significant milestone: IMO problems require multi-step mathematical reasoning, creative problem-solving approaches, and formal proof construction that previous AI systems could not reliably perform. The achievement follows o3's 72% accuracy and demonstrates a continued steep improvement trajectory in formal mathematical reasoning.",
+      "O4's architectural innovations build on the chain-of-thought reasoning approach of previous o-series models with several key advances. Extended Thinking Budgets allow the model to allocate up to 32,000 thinking tokens for complex problems — reasoning steps that are generated and evaluated internally before producing a final answer. A new Verification Loop mechanism has the model check its own reasoning chains for logical errors and reformulate arguments when internal contradictions are detected. Formal Proof Integration connects o4's natural language reasoning to a symbolic mathematics engine (Lean 4) that verifies individual proof steps, catching errors that informal reasoning might miss.",
+      "The practical implications extend beyond mathematics competitions. Science and engineering applications require the same formal reasoning capabilities: verifying that software specifications are logically consistent, checking that engineering designs satisfy physical constraints, or confirming that legal arguments are logically valid given the cited statutes and precedents. Organizations in each of these domains are already in early access testing with o4 for formal verification applications that were previously intractable for AI systems.",
+      "<blockquote>Mathematical reasoning has been the gold standard test of AI reasoning capability for decades, because mathematics is unforgiving — either the proof is correct or it is not. O4 scoring at gold medalist level on IMO problems tells us that the reasoning capabilities we built for mathematical problem-solving generalize to other formal domains. This is not just a math achievement. It is a reasoning achievement. — Greg Brockman, President, OpenAI</blockquote>",
+      "O4 is available through OpenAI's API at pricing that reflects its significantly higher compute requirements: 15 USD per million input tokens and 60 USD per million output tokens, approximately 5x the cost of GPT-4o. Thinking tokens (internal reasoning steps) are priced separately at 3 USD per million, allowing cost-conscious applications to calibrate how much reasoning budget to allocate per query. OpenAI is also releasing o4-mini, a smaller version targeting 80% of o4's mathematical accuracy at 4x lower cost for high-volume mathematical applications.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'o4', 'Reasoning', 'Mathematics', 'AI', 'Formal Proof'],
+  },
 ];
 
 TC.timelineData = {
