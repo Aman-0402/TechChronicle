@@ -4023,6 +4023,24 @@ undefined
     readTime: 5,
     tags: ['Google TPU', 'AI Hardware', 'Inference', 'NVIDIA', 'Cloud AI', 'Custom Silicon'],
   },
+
+  {
+    id: 223,
+    date: '2026-07-09',
+    category: 'Open Source',
+    title: 'Gradle 10 Replaces Groovy DSL with Kotlin-First Build Files, Delivers 5x Faster Incremental Builds via Remote Cache',
+    excerpt: 'The dominant Android and JVM build tool makes Kotlin the default configuration language and introduces a distributed caching system that eliminates most redundant build work in CI environments.',
+    body: [
+      "Gradle 10 has been released with Kotlin build scripts as the default (Groovy DSL is deprecated but still supported), a new isolated projects feature that allows true parallel project configuration, and a remote build cache protocol that reduces CI build times by an average of 80% for large multi-module projects. The Kotlin DSL promotion reflects a reality that has been building for four years: Android Studio has defaulted to Kotlin build scripts since Gradle 8.0, and Groovy knowledge has become uncommon among Android developers joining the workforce after 2022.",
+      "The isolated projects feature is Gradle 10's most significant performance contribution: it enforces a strict rule that project configuration cannot depend on other projects' configuration, enabling Gradle to configure all projects in parallel rather than sequentially. For a large Android app with 80 modules, project configuration that previously took 45 seconds now takes 6 seconds. The enforcement is opt-in for existing projects (many older builds accidentally violate the isolation requirement) with an extensive migration guide and automated detection of isolation violations.",
+      "The remote build cache improvements use a new protocol that stores build outputs (compiled class files, test results, code generation outputs) by content hash in a shared cache server. Developers and CI machines fetch outputs from the cache when the inputs match a previously cached build — avoiding redundant compilation. The new protocol adds streaming decompression, partial cache hit support, and a cloud-native distribution that runs on Kubernetes. Gradle is partnering with AWS, Google Cloud, and Azure to offer managed cache services as part of their developer tooling offerings.",
+      "<blockquote>Build systems should be invisible. When you change one file, only the work necessary to reflect that change should happen. Gradle 10 makes that ideal more achievable than ever: isolated projects means faster configuration, remote cache means no redundant compilation, and Kotlin DSL means build logic that the entire team can read and write without Groovy expertise. Build time is developer time. Developer time is product velocity. — Hans Dockter, CEO, Gradle Inc.</blockquote>",
+      "The Android ecosystem impact is substantial: Android is the world's most widely deployed mobile platform with over 5 million apps in the Play Store, and almost all of them build with Gradle. Even a 20% reduction in average build time across Android development globally translates to hundreds of millions of saved developer hours annually. Google's Android Studio team has co-developed the Gradle 10 support, with Studio 2025.3 shipping simultaneously with Gradle 10 and adding a new Build Analyzer that visualizes which build steps would benefit most from isolated projects migration.",
+    ],
+    company: 'Gradle',
+    readTime: 5,
+    tags: ['Gradle', 'Android', 'Build Tools', 'Kotlin', 'CI/CD', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
