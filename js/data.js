@@ -4185,6 +4185,24 @@ undefined
     readTime: 6,
     tags: ['Stable Diffusion', 'Video Generation', 'AI Art', 'Open Source AI', 'Generative AI'],
   },
+
+  {
+    id: 232,
+    date: '2026-07-10',
+    category: 'Cybersecurity',
+    title: 'Ivanti VPN Zero-Days Exploited by 12 Nation-State Groups: CISA Orders Federal Agencies to Disconnect Within 48 Hours',
+    excerpt: 'A pair of critical vulnerabilities in widely-deployed enterprise VPN hardware have become the most actively exploited zero-days of 2026, triggering emergency government directives and mass remediation.',
+    body: [
+      "CISA has issued Emergency Directive 26-04 requiring all federal civilian executive branch agencies to disconnect Ivanti Connect Secure VPN appliances within 48 hours after Mandiant, CrowdStrike, and CISA jointly confirmed that two zero-day vulnerabilities (CVE-2026-3847 and CVE-2026-3848) have been actively exploited by at least 12 distinct nation-state threat actors since the vulnerabilities were first weaponized in April 2026. The vulnerability chain allows unauthenticated remote code execution and persistent access that survives VPN firmware updates — an unprecedented level of persistence for network appliance compromises.",
+      "The exploit chain: CVE-2026-3847 is a pre-authentication XML parser overflow in Ivanti's SAML endpoint that allows attackers to execute arbitrary code on the VPN appliance. CVE-2026-3848 is a privilege escalation vulnerability in the appliance's update mechanism that allows code running as a low-privilege web service to gain root access. Together, they create a two-step compromise that takes under 60 seconds to execute against unpatched appliances. Exploitation requires only network access to the HTTPS management interface — no credentials needed.",
+      "The persistence mechanism is particularly concerning: the exploit chain allows attackers to modify the VPN appliance's update verification mechanism, making subsequent firmware updates load attacker-controlled modules alongside legitimate firmware. This means organizations that applied Ivanti's emergency patch without following the factory-reset procedure (which clears the persistence) remain compromised. CISA's directive specifically requires factory reset followed by fresh firmware installation, not merely patching.",
+      "<blockquote>Ivanti Connect Secure is deployed in 40,000 organizations worldwide. When zero-days of this severity hit infrastructure this widely deployed, every sophisticated threat actor on the planet has motive to exploit before the window closes. We are not seeing one campaign — we are seeing 12 different nation-state groups running parallel exploitation campaigns against the same vulnerability. This is what a critical infrastructure supply chain attack looks like in practice. — Charles Carmakal, CTO, Mandiant</blockquote>",
+      "Ivanti has released an emergency patch and published a detection tool that helps organizations determine if their appliance has been compromised using the persistent rootkit technique. The company has also announced a complete security architecture review of its VPN product line, bringing in Bishop Fox for an independent penetration test of the entire codebase. The incident has accelerated enterprise evaluation of alternatives: Zscaler, Palo Alto Networks, and Netskope all report a significant increase in enterprise inquiries in the 48 hours since the CISA directive.",
+    ],
+    company: 'CISA',
+    readTime: 6,
+    tags: ['Zero-Day', 'Ivanti', 'VPN', 'Nation-State', 'CISA', 'Emergency Directive'],
+  },
 ];
 
 TC.timelineData = {
