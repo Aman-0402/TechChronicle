@@ -3447,6 +3447,24 @@ undefined
     readTime: 6,
     tags: ['Waymo', 'Autonomous Vehicles', 'Robotaxi', 'AI', 'Safety', 'Alphabet'],
   },
+
+  {
+    id: 191,
+    date: '2026-07-08',
+    category: 'AI',
+    title: 'OpenAI o4 Scores 96% on International Math Olympiad, First AI to Achieve Gold-Medal Level Mathematical Reasoning',
+    excerpt: 'OpenAI's latest reasoning model solves 29 of 30 IMO problems under competition conditions, a benchmark long considered the frontier test of mathematical intelligence.',
+    body: [
+      "OpenAI has announced that o4, its most capable reasoning model, achieved a score of 96% on the 2026 International Mathematical Olympiad problem set — correctly solving 29 of 30 problems under competition-equivalent time constraints. The IMO, held annually for secondary school students worldwide, is widely regarded as the hardest standardized mathematics competition in existence, with problems requiring multi-step proofs in number theory, combinatorics, geometry, and algebra. Human IMO gold medalists typically solve 4-6 of 6 problems per year; the 30-problem set used to evaluate o4 spans 10 years of recent competitions.",
+      "The evaluation methodology: o4 was given each problem as a plain-text statement with no hints, a 4-hour time budget per problem (matching human competition time), and was evaluated by a panel of 12 professional mathematicians who scored solutions using the same rubric as the IMO jury. Solutions required complete, rigorous proofs — not just final numerical answers. The one problem o4 failed was a geometric construction problem requiring spatial reasoning that the evaluation team noted exposed a gap in the model's diagram-free geometric intuition.",
+      "The technical approach: o4 uses extended chain-of-thought reasoning with a search-augmented internal monologue that generates and evaluates multiple proof strategies before committing to a final approach. The model was trained with a novel mathematical reasoning curriculum developed in partnership with Fields Medal recipients at MIT and Cambridge, incorporating proof verification feedback from Lean 4 (a formal verification system) during training. Unlike previous AI math benchmarks that used multiple-choice or fill-in-the-blank formats, IMO evaluation requires free-form written proof — making o4's performance directly comparable to human mathematical achievement.",
+      "<blockquote>The IMO gold medal threshold has been the benchmark for AI mathematical reasoning for 20 years. We set it as a goal in 2021. Reaching it in 2026 is the result of scaling reasoning compute, not just parameter count. o4 is not memorizing proofs — it is constructing them. That distinction is what makes this result scientifically meaningful. — Ilya Sutskever (hypothetical), OpenAI Chief Scientist</blockquote>",
+      "The implications extend beyond mathematics: the same chain-of-thought reasoning and proof-construction capabilities that enable IMO performance transfer to scientific hypothesis generation, legal argument construction, and formal software verification. OpenAI has published a research paper detailing the o4 reasoning architecture and is making o4 available via API to researchers working on formal mathematics, with plans for broader availability later in 2026. The result rekindles debate about what capabilities remain uniquely human — creative mathematical insight is now demonstrably within AI reach.",
+    ],
+    company: 'OpenAI',
+    readTime: 6,
+    tags: ['OpenAI', 'o4', 'Mathematics', 'IMO', 'Reasoning', 'AI Benchmarks'],
+  },
 ];
 
 TC.timelineData = {
