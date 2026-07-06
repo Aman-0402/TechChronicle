@@ -3663,6 +3663,24 @@ undefined
     readTime: 6,
     tags: ['Apple', 'M5 Ultra', 'Mac Pro', 'On-Device AI', 'LLM', 'Neural Engine'],
   },
+
+  {
+    id: 203,
+    date: '2026-07-08',
+    category: 'Programming',
+    title: 'Deno 3.0 Unifies Node.js Compatibility: Runs Unmodified Express, Fastify, and Next.js Without Configuration',
+    excerpt: 'Ryan Dahl's JavaScript runtime completes its Node.js compatibility layer and introduces a new built-in package manager that obsoletes both npm and yarn for Deno projects.',
+    body: [
+      "Deno 3.0 has been released with complete Node.js compatibility — Express, Fastify, Next.js, NestJS, and the overwhelming majority of npm packages now run unmodified under Deno without configuration changes or compatibility shims. Ryan Dahl, Deno's creator and the original creator of Node.js, announced the release at Deno's annual conference, calling it 'the moment Deno becomes the runtime for all JavaScript, not just new JavaScript.' Deno 3.0 passes 99.3% of Node.js compatibility tests in the official Node.js test suite.",
+      "The compatibility achievement required implementing large portions of Node.js's built-in module system (fs, path, crypto, http, https, net, buffer, process, events, stream) as native Deno APIs with identical semantics. Critically, Deno 3.0 implements the CommonJS module system alongside ES modules, allowing CJS packages from npm to work alongside native Deno ES modules in the same project without the friction that plagued earlier Deno versions. The package resolution algorithm now supports both Deno's native import map system and Node.js's node_modules-based resolution simultaneously.",
+      "The new built-in package manager, deno pkg, uses a lockfile-first model similar to Cargo (Rust's package manager) that generates a deno.lock file specifying exact versions and content hashes for all dependencies — providing reproducible installs without a node_modules directory. Packages are stored in a global content-addressable cache keyed by content hash, meaning the same package version is stored once on a machine regardless of how many projects use it. The installation speed benchmarks at 3x faster than npm and 2x faster than pnpm for cold installs.",
+      "<blockquote>I created Node.js in 2009 and I made some design decisions I regret — the package.json, node_modules, the callback-first API. Node.js has done incredible things and will continue to. But Deno was always the chance to do it right. With 3.0, Deno is not an alternative to Node.js for new projects — it is the successor runtime for the entire JavaScript ecosystem. The compatibility work is done. Now developers get the choice. — Ryan Dahl, Creator, Deno</blockquote>",
+      "Deno Deploy, the cloud execution platform for Deno, is simultaneously updated to support Deno 3.0's Node.js compatibility, making it possible to deploy Express applications to Deno's global edge network without changes. The Deploy pricing update brings it below Cloudflare Workers pricing for compute-intensive workloads, creating a meaningful alternative to the existing edge runtime options. Deno has partnered with several major hosting platforms including Render, Railway, and Fly.io to offer Deno 3.0 as a first-class runtime option alongside Node.js.",
+    ],
+    company: 'Deno',
+    readTime: 5,
+    tags: ['Deno', 'Node.js', 'JavaScript', 'Runtime', 'Open Source', 'Dev Tools'],
+  },
 ];
 
 TC.timelineData = {
