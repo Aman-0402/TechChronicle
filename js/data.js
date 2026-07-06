@@ -5067,6 +5067,24 @@ undefined
     readTime: 5,
     tags: ['CISA', 'Cybersecurity', 'Phishing', 'AI Security', 'Federal Government', 'Email Security'],
   },
+
+  {
+    id: 281,
+    date: '2026-07-12',
+    category: 'AI',
+    title: 'Stability AI Open-Sources Stable Video 3D: Any Image to Photorealistic 3D Scene in 90 Seconds on Consumer Hardware',
+    excerpt: 'Stability AI releases open-source Stable Video 3D model that generates photorealistic 3D scenes from single 2D images in under 90 seconds on an RTX 4080, enabling 3D content creation without professional 3D modeling expertise.',
+    body: [
+      "Stability AI has released Stable Video 3D (SV3D), an open-source model that generates photorealistic 3D scenes from single 2D input images in under 90 seconds on consumer RTX 4080-class GPUs. The model produces NeRF (Neural Radiance Field) and Gaussian Splatting representations that can be exported to standard 3D formats (GLB, OBJ, USD) compatible with Unity, Unreal Engine, Blender, and game development pipelines. Unlike previous 3D generation models that required multi-image inputs or professional prompting skills, SV3D accepts any photograph, illustration, or AI-generated image as input.",
+      "SV3D's architecture extends the video diffusion approach: rather than generating a 3D scene directly, the model generates a multi-view video orbiting the subject from 24 different camera angles, then uses a differentiable neural renderer to fit a consistent 3D representation to the generated views. The video diffusion approach leverages the model's prior knowledge of how objects look from different angles, producing geometrically consistent 3D objects even for input images where the back, bottom, or sides of objects are not visible. Output quality for common objects (furniture, vehicles, consumer products) is indistinguishable from professional 3D artist work in blind evaluation studies.",
+      "Commercial applications span multiple industries. E-commerce platforms can generate 3D product models from single catalog photographs, enabling interactive 360-degree product viewing without professional 3D photography setups. Game studios can accelerate asset production by generating base 3D meshes from concept art for artist refinement, reducing the time from concept to in-engine asset by an estimated 60-80%. Architectural visualization firms can convert 2D floor plan renderings to 3D walkthroughs for client presentations.",
+      "<blockquote>3D content creation has been gated by expensive software, years of training, and professional expertise that most creators do not have. Stable Video 3D removes that gate. Any creator with a photograph and a consumer GPU can produce professional-quality 3D assets. We are democratizing 3D content creation the same way Stable Diffusion democratized image creation. — Prem Akkaraju, CEO, Stability AI</blockquote>",
+      "SV3D is released under a permissive research license allowing commercial use for applications generating less than 1 million dollars in revenue, with a commercial license for larger deployments. Model weights are available on Hugging Face and GitHub. Stability AI is simultaneously releasing SV3D-Enterprise, a hosted API with additional quality settings and batch processing, targeting production e-commerce and game development workflows that require higher throughput than local GPU deployment provides.",
+    ],
+    company: 'Stability AI',
+    readTime: 5,
+    tags: ['Stability AI', '3D Generation', 'AI', 'Open Source', 'NeRF', 'Computer Vision'],
+  },
 ];
 
 TC.timelineData = {
