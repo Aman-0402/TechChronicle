@@ -4545,6 +4545,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'Operator', 'AI Agents', 'Computer Use', 'Automation', 'Enterprise AI'],
   },
+
+  {
+    id: 252,
+    date: '2026-07-11',
+    category: 'Cybersecurity',
+    title: 'Wiz Acquires Lacework for $1.3 Billion: Cloud Security Consolidation Accelerates as Compliance Complexity Grows',
+    excerpt: 'The leading cloud security posture management company absorbs its major competitor, creating a dominant cloud security platform serving 45% of Fortune 500 companies.',
+    body: [
+      "Wiz has announced the acquisition of Lacework, a cloud security and threat detection company, for $1.3 billion — a significant markdown from Lacework's $8.3 billion peak valuation in 2021, reflecting the difficult funding environment for cybersecurity SaaS between 2022-2025. The deal creates a combined company with 3,500 employees, 4,500 customers including 45% of the Fortune 500, and an estimated $600 million in combined ARR. Wiz CEO Assaf Rappaport cited the regulatory environment — specifically the SEC's cybersecurity disclosure rules and the EU AI Act's security requirements — as driving enterprise demand for comprehensive cloud security.",
+      "The strategic rationale: Wiz's strength is cloud security posture management (CSPM) — continuously scanning cloud infrastructure for misconfigurations, excess permissions, and compliance violations. Lacework's strength is behavioral anomaly detection for cloud workloads — identifying unusual runtime behavior that indicates active compromise. The two capabilities are complementary: CSPM catches vulnerabilities before they are exploited, while behavioral detection catches active attacks in progress. Combining them creates a unified platform covering the full cloud security lifecycle.",
+      "The combined platform will integrate Wiz's graph-based vulnerability prioritization (which identifies the combination of vulnerabilities most likely to enable a complete cloud environment compromise) with Lacework's ML-based behavioral baselines for each cloud workload. The integration roadmap targets a single unified dashboard showing risk posture, active threats, compliance status, and remediation guidance — eliminating the context-switching between separate security tools that currently frustrates enterprise security teams.",
+      "<blockquote>Cloud security is at an inflection point. Three years ago, enterprises were asking whether they needed cloud security tooling. Today they are asking how many tools they are running and why they are not sharing data with each other. Wiz plus Lacework is the answer to that question: one platform, full lifecycle cloud security, with the graph intelligence to prioritize what actually matters. — Assaf Rappaport, CEO, Wiz</blockquote>",
+      "Wiz itself has had an eventful year: the company rejected a $23 billion acquisition offer from Google Cloud in 2025, chose to remain independent, and subsequently raised $1 billion at a $32 billion valuation to fund its expansion. The Lacework acquisition is Wiz's third in 12 months (following smaller acquisitions of Raftt and Gem Security) and signals that Wiz intends to build a comprehensive cloud security suite via acquisition rather than waiting for organic development of adjacent capabilities.",
+    ],
+    company: 'Wiz',
+    readTime: 5,
+    tags: ['Wiz', 'Lacework', 'Cloud Security', 'CSPM', 'Acquisition', 'Cybersecurity'],
+  },
 ];
 
 TC.timelineData = {
