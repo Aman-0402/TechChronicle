@@ -5859,6 +5859,24 @@ undefined
     readTime: 5,
     tags: ['Grafana', 'Observability', 'Open Source', 'Monitoring', 'AI', 'Alerting'],
   },
+
+  {
+    id: 325,
+    date: '2026-07-14',
+    category: 'AI',
+    title: 'NVIDIA NIM Microservices Platform Reaches 500 Enterprise Customers: Containerized AI Inference Standard Simplifies Deployment of Any Model Anywhere',
+    excerpt: 'NVIDIA announces that its NIM (NVIDIA Inference Microservices) containerized AI deployment platform has reached 500 enterprise customers, establishing a new standard for packaging and deploying AI models across cloud, on-premises, and edge environments.',
+    body: [
+      "NVIDIA has announced that its NIM (NVIDIA Inference Microservices) platform has reached 500 enterprise customers since its launch 18 months ago, establishing the containerized AI deployment format as an emerging standard for enterprise AI model deployment. NIM packages AI models as standard container images that include the model weights, optimized inference engine, hardware detection and configuration, and REST API serving layer — enabling deployment of any NIM-packaged model on any NVIDIA-powered infrastructure (cloud, data center, workstation, edge) with a single docker pull command.",
+      "The container standardization solves a significant enterprise pain point: deploying AI models in production requires matching the model to the inference framework, optimizing for the specific GPU hardware, configuring API serving, and managing model versioning across environments. Organizations deploying the same model on AWS A100 instances, on-premises H100 servers, and NVIDIA IGX edge appliances previously needed separate deployment configurations for each environment. NIM containers detect available hardware at startup and automatically select the optimal inference engine configuration (TensorRT for NVIDIA GPUs, with appropriate quantization and batch size settings for the detected GPU model).",
+      "The NIM catalog has grown to 400 models across categories: 150 LLMs (including all major open-source models plus NVIDIA's own Nemotron family), 60 vision models, 35 speech models, 80 domain-specific models for healthcare, finance, and manufacturing, and 75 scientific models for drug discovery, weather prediction, and materials science. NVIDIA curates the catalog to include only models that have been optimized for NIM deployment, with guaranteed performance benchmarks and security scanning for each model in the catalog.",
+      "<blockquote>Enterprise AI deployment has been a custom engineering project for every organization. NIM changes that: you choose a model from the catalog, you run one command, you have a production-ready AI API. The same command works on your laptop, your data center, and your cloud. We are building the container registry for AI, and it is working. — Jensen Huang, CEO, NVIDIA</blockquote>",
+      "NIM is freely available as part of NVIDIA AI Enterprise software subscription (4,500 USD per GPU per year for enterprise support) and can be used by NGC (NVIDIA GPU Cloud) registered developers for development and testing without subscription. NVIDIA is announcing NIM Agent Blueprints — pre-built, customizable multi-model AI agent architectures that combine multiple NIM services into production-ready agent pipelines for common enterprise applications (customer service, code generation, document processing) — reducing the time to deploy a production AI agent from months to days.",
+    ],
+    company: 'NVIDIA',
+    readTime: 5,
+    tags: ['NVIDIA', 'NIM', 'AI Infrastructure', 'Cloud', 'Containers', 'AI Deployment'],
+  },
 ];
 
 TC.timelineData = {
