@@ -4671,6 +4671,24 @@ undefined
     readTime: 5,
     tags: ['NVIDIA', 'AI Enterprise', 'Inference', 'MLOps', 'GPU Software', 'Enterprise AI'],
   },
+
+  {
+    id: 259,
+    date: '2026-07-11',
+    category: 'Dev Tools',
+    title: 'Prettier 4.0 Adds Semantic Formatting for TypeScript and JSX, Reduces Unnecessary Diffs by 60%',
+    excerpt: 'The widely-used code formatter improves its TypeScript and React understanding to produce formatting that respects code intent, significantly reducing the noise in code reviews from formatter-induced changes.',
+    body: [
+      "Prettier 4.0 has been released with a semantically-aware formatting mode for TypeScript and JSX that reduces unnecessary whitespace and line-break changes in code reviews by 60% compared to Prettier 3.x. The improvement comes from a new 'semantic formatting' system that understands TypeScript's type annotation structure and JSX's component hierarchy, making formatting decisions that respect developer intent rather than applying purely mechanical line-length rules that split expressions at semantically inappropriate boundaries.",
+      "The most impactful change: Prettier 3.x would split function calls across multiple lines whenever the total line length exceeded 80 characters, regardless of whether the function call was a single logical unit. Prettier 4.0 uses type information from the TypeScript Language Server to identify when a multi-argument function call represents a single logical operation (like a database query with related parameters) versus unrelated arguments that benefit from visual separation. The result is that 40% fewer function calls are unnecessarily split, producing code that reads more naturally.",
+      "The JSX formatting improvements: Prettier 4.0 understands component hierarchy — it keeps related prop groups together, maintains component boundaries in multi-component JSX trees, and applies indentation that reflects the logical nesting of the component tree rather than pure text depth. The change is particularly significant for React developers who found that Prettier 3.x's JSX formatting often diverged from the formatting they would write manually, requiring constant post-formatter cleanup.",
+      "<blockquote>Prettier's goal is to end formatting debates by making formatting automatic. But if the automatic formatting produces code that is harder to read than what developers would write manually, we are creating a new debate about whether Prettier is worth using. Prettier 4.0 is our effort to make the automatic formatting match what good developers would produce manually — not by being flexible, but by being smarter. — Sosuke Suzuki, Prettier Maintainer</blockquote>",
+      "Prettier 4.0 also improves performance: parsing speed is 3x faster due to a new incremental parser that reuses syntax trees from previous runs. For large files, the time to format-on-save drops from 300ms to under 100ms — below the threshold of perceptible delay. The new parser also reduces the memory footprint of Prettier in CI environments where multiple files are formatted in parallel. The migration from 3.x is managed by a configuration flag: the new semantic formatting can be enabled per-language in the Prettier config file, allowing incremental adoption.",
+    ],
+    company: 'Prettier',
+    readTime: 5,
+    tags: ['Prettier', 'Code Formatting', 'TypeScript', 'JSX', 'Dev Tools', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
