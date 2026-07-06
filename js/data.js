@@ -5085,6 +5085,24 @@ undefined
     readTime: 5,
     tags: ['Stability AI', '3D Generation', 'AI', 'Open Source', 'NeRF', 'Computer Vision'],
   },
+
+  {
+    id: 282,
+    date: '2026-07-12',
+    category: 'Cloud',
+    title: 'AWS Announces Graviton 5 ARM Chips with 40% Better Performance Per Watt: EC2 Instances Cut Cloud Compute Costs by 35% for CPU-Bound Workloads',
+    excerpt: 'Amazon Web Services unveils its fifth-generation custom Graviton ARM processor for cloud compute, delivering dramatic performance and efficiency improvements that make ARM-based cloud instances the default choice for most workloads.',
+    body: [
+      "Amazon Web Services has unveiled Graviton 5, its fifth-generation custom ARM processor designed for EC2 cloud instances, delivering 40% better performance per watt versus Graviton 4 and enabling new EC2 instance types that offer 35% better price-performance than x86 instances for CPU-bound workloads. The chip is manufactured on TSMC N2 (2nm) process technology and features 96 ARM Neoverse V3 cores per chip, with hardware acceleration for common cloud workload patterns including JSON parsing, compression, and cryptographic operations.",
+      "Graviton 5's architectural improvements center on memory subsystem redesign: an 80MB last-level cache shared across all 96 cores (versus 64MB in Graviton 4) dramatically reduces cache miss penalties for large working set workloads like database caching and in-memory analytics. The memory interface supports LPDDR5X at 6,400 MT/s, providing 38% higher memory bandwidth versus Graviton 4, with error-correcting code (ECC) memory support extended to all Graviton 5 instance sizes including small instances where ECC was previously unavailable.",
+      "The breadth of AWS services being updated to Graviton 5 is extensive: new EC2 m8g, c8g, and r8g instance families; Amazon RDS for PostgreSQL and MySQL on Graviton 5; Amazon ElastiCache for Redis and Memcached; AWS Lambda with Graviton 5 as the new default execution environment. AWS estimates that customers running existing workloads on Graviton 4 will see 15-25% performance improvements by migrating to Graviton 5 without code changes, and that migrating from x86 to Graviton 5 will reduce compute costs by an average of 30-40% depending on workload characteristics.",
+      "<blockquote>When we launched Graviton 1 in 2018, ARM in the cloud was experimental. Today, more than 50% of new EC2 instance launches use Graviton. Graviton 5 will accelerate that trend because the economics are now so compelling that the burden of proof is on x86, not ARM. If you are running x86 in the cloud and you have not evaluated Graviton, you are paying too much. — Peter DeSantis, SVP of Global Infrastructure, AWS</blockquote>",
+      "Graviton 5 availability begins in us-east-1 and us-west-2 with global rollout over 12 months. AWS is offering a Graviton Migration Credit program providing 15,000 USD in free EC2 credits to customers who migrate qualifying workloads from x86 to Graviton 5 instances, reducing the evaluation risk for organizations considering ARM adoption. The company projects Graviton will represent 65% of new EC2 compute capacity by end of 2027.",
+    ],
+    company: 'AWS',
+    readTime: 5,
+    tags: ['AWS', 'Graviton', 'ARM', 'Cloud', 'EC2', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
