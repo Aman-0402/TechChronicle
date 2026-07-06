@@ -5175,6 +5175,24 @@ undefined
     readTime: 5,
     tags: ['Stanford', 'AI Research', 'AI Index', 'Research', 'Benchmarks', 'AI Policy'],
   },
+
+  {
+    id: 287,
+    date: '2026-07-12',
+    category: 'AI',
+    title: 'Scale AI Raises $2 Billion at $40 Billion Valuation: Data Labeling Company Pivots to AI Evaluation and RLHF Infrastructure for Frontier Models',
+    excerpt: 'Scale AI closes its largest funding round yet as the data annotation company transforms into an AI model evaluation and alignment infrastructure provider serving all major frontier AI labs with evaluation benchmarks and RLHF training pipelines.',
+    body: [
+      "Scale AI has raised 2 billion dollars in a Series F round at a 40 billion dollar valuation, a 5x increase from its 2021 valuation, driven by transformation of the company's business model from data annotation services to AI model evaluation and alignment infrastructure. While Scale AI's original business — providing human data labeling for training AI systems — remains significant, the company's fastest-growing revenue comes from evaluation infrastructure: custom benchmark construction, model red-teaming, and Reinforcement Learning from Human Feedback (RLHF) training pipelines used by frontier AI labs including OpenAI, Anthropic, Google DeepMind, and Meta AI.",
+      "The evaluation business addresses a critical need as AI capabilities advance: standard benchmarks become saturated quickly, and labs need continuously refreshed evaluation suites that test capabilities not represented in training data. Scale AI's Evaluation team works with each client to design proprietary benchmark tasks in their specific domains — Scale's medical AI evaluation team works with hospitals to design physician-quality medical reasoning tests; its legal evaluation team works with law firms to design tests for legal analysis capabilities. These custom evaluations provide capability measurements that public benchmarks cannot.",
+      "Scale AI's RLHF infrastructure handles the human feedback collection and model training pipeline that aligns AI systems with human preferences. The company maintains a global workforce of over 240,000 data annotation workers and specialized domain experts — doctors, lawyers, software engineers — who provide expert feedback used in RLHF training. This human expert network represents Scale's deepest competitive moat: recruiting, quality-testing, and retaining domain experts for AI training is operationally complex, and Scale's established infrastructure and contractor relationships took years to build.",
+      "<blockquote>Everyone is focused on model capability — how smart is the model? The equally important question is model alignment — how reliably does the model do what we want and avoid what we do not want? Scale's infrastructure answers that question for every frontier lab. We are the evaluation layer of the AI stack, and evaluation is as important as training. — Alexandr Wang, CEO, Scale AI</blockquote>",
+      "The funding will expand Scale AI's evaluation research team, which is publishing an increasing number of foundational papers on AI evaluation methodology that have been cited by all major AI labs. Scale is also launching Scale Evals as a self-service evaluation platform for enterprises building internal AI applications — bringing the same evaluation rigor used by frontier AI labs to enterprise AI deployment, where models often fail in domain-specific ways that generic benchmarks do not capture.",
+    ],
+    company: 'Scale AI',
+    readTime: 5,
+    tags: ['Scale AI', 'AI Evaluation', 'RLHF', 'Startups', 'Data Labeling', 'AI Safety'],
+  },
 ];
 
 TC.timelineData = {
