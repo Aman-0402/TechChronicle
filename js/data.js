@@ -3753,6 +3753,24 @@ undefined
     readTime: 5,
     tags: ['Devin', 'AI Coding', 'Software Engineering', 'Autonomous', 'Startups', 'AI Agents'],
   },
+
+  {
+    id: 208,
+    date: '2026-07-08',
+    category: 'Cloud',
+    title: 'Cloudflare Workers for Platforms Hits 1 Billion Requests/Day: Becomes Default Runtime for Shopify, Zendesk App Ecosystems',
+    excerpt: 'Cloudflare's platform-as-a-service product for embedding serverless compute into SaaS applications reaches a scale milestone and announces major platform partnerships.',
+    body: [
+      "Cloudflare Workers for Platforms has crossed 1 billion requests per day, a milestone that cements its position as the leading platform for SaaS companies that need to let their customers run custom code. Workers for Platforms allows SaaS vendors to give their customers a sandboxed JavaScript execution environment — each customer's code runs in an isolated V8 isolate with memory limits, CPU time budgets, and no ability to access other customers' data. Shopify and Zendesk have both announced they are adopting Workers for Platforms as the default runtime for their app extension ecosystems.",
+      "Shopify's deployment context: Shopify's current app extensions run on Ruby on Rails workers that require minutes to deploy and seconds to execute. Migrating to Workers for Platforms will reduce extension deployment times from minutes to seconds (no container startup) and execution latency from 200-500ms to under 10ms (V8 isolates vs. full containers). Shopify processes over 100 million checkout events per day, and custom checkout extensions are the most latency-sensitive use case — even 50ms of additional checkout latency is estimated to cost $10+ million in annual GMV from abandoned carts.",
+      "The Workers for Platforms isolation model is what makes the product commercially viable for multi-tenant SaaS: each customer's code runs in a fresh V8 isolate with 128MB memory and 50ms CPU time, cannot import NPM packages that access the file system or network beyond the allowed APIs, and is billed on a per-request basis with the SaaS vendor managing the billing layer. Cloudflare's model has been validated by multiple security audits: no cross-tenant data access incidents have been reported across 5 billion monthly executions.",
+      "<blockquote>Every SaaS platform eventually needs to let customers extend it with code. Building a secure, scalable custom code execution environment is one of the hardest infrastructure problems in software. Workers for Platforms solves it so that Shopify can focus on commerce and Zendesk can focus on customer service, rather than both companies separately solving the same hard isolation and scaling problem. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "The 1 billion requests/day milestone translates to approximately 11,500 requests per second at average load — making Workers for Platforms one of the largest serverless execution environments in the world by request volume. Cloudflare has responded to the scale by investing in a new Workers for Platforms observability suite that gives SaaS vendors per-customer execution metrics, error tracking, and performance percentile analysis without needing to instrument the customer code. The platform is priced at $0.30 per million requests with volume discounts for commitments above 100 billion requests/month.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'Workers', 'Serverless', 'Shopify', 'Zendesk', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
