@@ -3879,6 +3879,24 @@ undefined
     readTime: 5,
     tags: ['Arm', 'Cortex-X9', 'Mobile CPU', 'Snapdragon', 'Smartphone', 'Performance'],
   },
+
+  {
+    id: 215,
+    date: '2026-07-09',
+    category: 'Open Source',
+    title: 'PostgreSQL 18 Ships Logical Replication Slots Globally: Multi-Region Active-Active Finally Practical Without Third-Party Extensions',
+    excerpt: 'The world's most advanced open-source database releases a feature that has been requested for a decade, enabling truly distributed multi-region deployments without commercial add-ons.',
+    body: [
+      "PostgreSQL 18 has been released with global logical replication slots — a feature that enables bidirectional replication between PostgreSQL instances in different regions with automatic conflict detection and resolution. Combined with the new 'active-active' configuration mode (in preview since PostgreSQL 17), this makes multi-region read-write PostgreSQL deployments practical without the commercial extensions (Citus, Patroni with BDR, or cloud-managed Aurora Global) that have previously been required. The feature is the culmination of 4 years of work by the pglogical and logical replication working groups.",
+      "The technical mechanism: global logical replication slots use a new lamport clock-based ordering system that tracks the causality of write operations across nodes, enabling the replication engine to detect true write conflicts (two nodes modified the same row without seeing each other's write) versus non-conflicting concurrent writes (two nodes modified different rows). Conflict resolution is configurable per-table: last-write-wins, first-write-wins, or custom conflict resolution functions written in PL/pgSQL or PL/Python. The new wal_compression_level setting reduces replication stream bandwidth by 40-70% for typical workloads.",
+      "Additional PostgreSQL 18 improvements: the query planner gains an ML-based cost model (trained on 50,000 real-world query execution plans from the pg_stat_statements community dataset) that significantly improves plan selection for complex joins, JSON processing gets native SIMD acceleration delivering 3x faster JSON parsing, and the new MERGE RETURNING syntax allows atomic upsert-and-return operations that previously required complex CTEs. The pg_upgrade tool is enhanced to support upgrading from PostgreSQL 12+ to 18 with zero-downtime using logical replication.",
+      "<blockquote>PostgreSQL has been called 'the most advanced open source database in the world' for two decades, but multi-region active-active was always the asterisk. Commercial databases had it; Postgres users had workarounds. Version 18 removes the asterisk. You can now run PostgreSQL globally, across regions, with bidirectional writes, without paying for commercial extensions. That is what 'most advanced' means. — Bruce Momjian, PostgreSQL Core Team</blockquote>",
+      "Cloud providers have already committed to supporting PostgreSQL 18's active-active mode in their managed services: AWS RDS for PostgreSQL 18 will support global active-active as a GA feature at launch, Google Cloud SQL will add it within 90 days, and Supabase (the popular open-source Firebase alternative) has announced it is building its new 'Supabase Global' product on top of PostgreSQL 18's native replication. The database tooling ecosystem — Prisma, Drizzle ORM, Sequelize — is adding PostgreSQL 18 support simultaneously with the release.",
+    ],
+    company: 'PostgreSQL',
+    readTime: 6,
+    tags: ['PostgreSQL', 'Database', 'Replication', 'Multi-Region', 'Open Source', 'Distributed'],
+  },
 ];
 
 TC.timelineData = {
