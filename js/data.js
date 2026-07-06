@@ -4383,6 +4383,24 @@ undefined
     readTime: 5,
     tags: ['GitHub', 'Security', 'Copilot', 'SAST', 'Autofix', 'Vulnerability Remediation'],
   },
+
+  {
+    id: 243,
+    date: '2026-07-10',
+    category: 'Hardware',
+    title: 'Western Digital Ships First 120 TB HDD Using HAMR: Magnetic Storage Density Doubles, Cloud Storage Costs Drop 40%',
+    excerpt: 'The storage manufacturer commercializes heat-assisted magnetic recording technology after a decade of development, delivering a storage density leap that will substantially reduce the cost of petabyte-scale cloud storage.',
+    body: [
+      "Western Digital has announced commercial availability of its 120 TB hard disk drive using HAMR (Heat-Assisted Magnetic Recording) technology — a long-promised advancement that uses a tiny laser to heat the recording medium immediately before writing, enabling magnetic bits to be written more densely than traditional perpendicular magnetic recording allows. The 120 TB drive, shipping in a standard 3.5-inch form factor at 7200 RPM, doubles the capacity of the highest-capacity conventional HDDs (64 TB) while maintaining compatible sequential throughput of 350 MB/s.",
+      "The HAMR technology development story: Western Digital and Seagate have been promising HAMR for a decade, with delays caused by the challenge of creating a laser small enough to heat a few nanometers of recording medium without heating adjacent tracks, and durable enough to survive billions of write operations over the drive's 5-year warranty life. The breakthrough came from advances in nearfield transducer (NFT) materials — the nanoscale optical antenna that focuses the laser energy — using a new alloy that maintains optical properties under the high thermal cycling stress of the HAMR write process.",
+      "The economics for cloud storage: large-scale object storage deployments (AWS S3, Azure Blob Storage, Google Cloud Storage) are the primary buyers of high-capacity HDDs. At 120 TB per drive, fewer drives are needed per petabyte stored, reducing infrastructure costs (rack space, power, cooling, cabling). Western Digital estimates cloud providers can reduce their cost per petabyte stored by 40% by deploying HAMR drives versus the current 64 TB drives. This cost reduction will likely flow through to pricing: S3 storage pricing has already declined 30% in the past 3 years and HAMR will accelerate that trend.",
+      "<blockquote>HAMR is the most significant advancement in hard drive technology since perpendicular magnetic recording in 2005. We have spent 15 years developing the nearfield transducer, the media, and the laser integration to make HAMR commercially viable. The result is a drive that stores as much data as 10 enterprise SSDs at one-quarter the price per gigabyte. For cold storage and bulk object storage, hard drives are not going away — they are getting dramatically denser. — David Hall, EVP, Western Digital</blockquote>",
+      "The competition: Seagate has announced its own HAMR drives at 112 TB are 3 months behind Western Digital in production ramp. Toshiba is still on MAS-MAMR (microwave-assisted) technology at 80 TB maximum. The SSD market has responded: Samsung and Micron are both shipping QLC NAND-based enterprise SSDs at 128 TB, but at prices 4x higher per TB than HAMR HDDs. The consensus view is that HAMR extends hard drive relevance for cold and warm storage for at least another decade, while SSDs dominate hot storage and workloads requiring random access performance.",
+    ],
+    company: 'Western Digital',
+    readTime: 5,
+    tags: ['HAMR', 'Hard Drive', 'Storage', 'Western Digital', 'Cloud Storage', 'Data Center'],
+  },
 ];
 
 TC.timelineData = {
