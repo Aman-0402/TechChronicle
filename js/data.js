@@ -4455,6 +4455,24 @@ undefined
     readTime: 6,
     tags: ['CERN', 'LHC', 'Particle Physics', 'Machine Learning', 'Discovery', 'Research'],
   },
+
+  {
+    id: 247,
+    date: '2026-07-10',
+    category: 'Startups',
+    title: 'Cohere Command R3 Beats GPT-4o on Enterprise RAG Benchmarks, Secures $500M from Oracle and Salesforce',
+    excerpt: 'The enterprise-focused AI company releases a model specifically optimized for retrieval-augmented generation workflows and closes a strategic funding round with two of its largest enterprise customers.',
+    body: [
+      "Cohere has released Command R3, its most capable language model, reporting that it outperforms GPT-4o and Claude 3.5 Sonnet on RAGAS (Retrieval Augmented Generation Assessment Suite) — the benchmark specifically designed to evaluate AI performance on enterprise RAG workflows. Command R3 achieves 89% faithfulness (generating answers that accurately reflect retrieved content without hallucination) and 91% answer relevance (providing complete answers for the user's question), compared to GPT-4o's 84% and 82% respectively on the same benchmark. Simultaneously, Cohere announced a $500 million funding round led by Oracle and Salesforce.",
+      "The technical optimizations for RAG: Command R3 was trained with a specialized curriculum emphasizing long-context retrieval (reading 128K token contexts and identifying relevant passages), citation generation (precisely quoting source documents rather than paraphrasing), and conflict resolution (identifying when retrieved documents contradict each other and appropriately expressing uncertainty). The model also includes a new 'grounding mode' that constrains generation to only include information present in the provided context — a feature that enterprises require for regulated industries where hallucination carries legal risk.",
+      "The Oracle and Salesforce strategic alignment is significant: Oracle Database 23ai (Oracle's AI-enhanced database) integrates Cohere's embedding models for vector search, and the partnership expands to include Command R3 as Oracle's preferred generative AI option. Salesforce Einstein AI Platform will offer Command R3 as an option alongside OpenAI and Anthropic models, particularly for customers with strict data residency requirements (Cohere operates dedicated instances in AWS, Azure, GCP, and on-premises Oracle Cloud Infrastructure).",
+      "<blockquote>The AI model race is not just about benchmark scores — it is about what the model can reliably do in production. Enterprise AI deployments fail when models hallucinate, when they do not follow instructions precisely, or when they cannot be trusted to stay grounded in source documents. Command R3 was designed for the enterprise requirements that matter: reliability, grounding, and compliance with instruction. — Aidan Gomez, CEO, Cohere</blockquote>",
+      "Cohere's positioning as the enterprise-first AI company differentiates it from both the consumer AI giants (OpenAI, Anthropic) and the open-source ecosystem. The company's 'bring your own cloud' deployment model — where models run in the customer's existing cloud tenant rather than Cohere's — addresses enterprise data governance requirements that prevent sending proprietary data to third-party AI APIs. The 800 enterprise customers using Cohere include over 50 Fortune 500 companies, with concentrations in financial services, healthcare, and enterprise software.",
+    ],
+    company: 'Cohere',
+    readTime: 5,
+    tags: ['Cohere', 'Command R3', 'RAG', 'Enterprise AI', 'Oracle', 'Salesforce', 'Funding'],
+  },
 ];
 
 TC.timelineData = {
