@@ -3735,6 +3735,24 @@ undefined
     readTime: 5,
     tags: ['Redis', 'Open Source', 'Linux Foundation', 'SSPL', 'Valkey', 'License'],
   },
+
+  {
+    id: 207,
+    date: '2026-07-08',
+    category: 'Startups',
+    title: 'Cognition AI Devin 2.0 Completes 73% of Real GitHub Issues Autonomously, Deployed at 200 Enterprise Customers',
+    excerpt: 'The AI software engineering agent dramatically improves its autonomous task completion rate and transitions from research demonstration to production deployment across Fortune 500 engineering teams.',
+    body: [
+      "Cognition AI has released Devin 2.0, the second major version of its autonomous software engineering agent, reporting a 73% end-to-end completion rate on real GitHub issues sampled from production codebases at participating companies — up from the 14% rate demonstrated by Devin 1.0 in its 2024 debut on the SWE-Bench benchmark. The improvement comes from a redesigned planning system that breaks issues into verifiable subtasks, a new code understanding module that builds a semantic model of the full codebase before attempting changes, and a test-driven verification loop that confirms changes work before marking tasks complete.",
+      "The 73% figure deserves careful interpretation: it measures issues fully resolved without human intervention, verified by automated test suites and accepted by human code reviewers who were unaware whether a human or Devin had authored the fix. The remaining 27% required human collaboration — either Devin correctly identified the problem and proposed a solution that a human refined, or Devin reached an impasse and flagged the issue for human escalation. The task distribution in the evaluation: 45% were bug fixes, 30% were feature additions, and 25% were refactors or documentation improvements.",
+      "The enterprise deployment data: 200 companies are using Devin 2.0 in production, with engineering teams reporting that Devin handles the 'long tail' of their backlog — the 300-400 issues that have sat unassigned for 3+ months because they are not urgent enough to prioritize but too time-consuming to do quickly. Cognition reports that enterprises are not using Devin to replace engineers but to address the backlog maintenance work that otherwise accumulates: dependency updates, test coverage improvements, minor bug fixes, and documentation updates.",
+      "<blockquote>The question we get asked most often is whether Devin will replace software engineers. The answer from our customers is clear: no. What it replaces is the maintenance backlog that keeps engineers from doing the work they find interesting and impactful. Every engineering team has hundreds of issues that no one wants to do but everyone knows should be done. Devin does those issues. Engineers do the work that requires creativity and judgment. — Scott Wu, CEO, Cognition AI</blockquote>",
+      "Cognition has priced Devin 2.0 at $500/month per 'Devin instance' — each instance is a parallel worker that can handle one issue at a time. Enterprises deploy multiple instances: a typical 50-engineer team runs 5-10 Devin instances in parallel, handling the equivalent of 3-6 additional engineers' worth of backlog clearance. At $500 versus a fully-loaded engineer cost of $200,000/year, the ROI case is compelling even at the 73% success rate. The company has raised $200 million in additional funding at a $4 billion valuation.",
+    ],
+    company: 'Cognition AI',
+    readTime: 5,
+    tags: ['Devin', 'AI Coding', 'Software Engineering', 'Autonomous', 'Startups', 'AI Agents'],
+  },
 ];
 
 TC.timelineData = {
