@@ -4131,6 +4131,24 @@ undefined
     readTime: 5,
     tags: ['Terraform', 'Infrastructure as Code', 'Rust', 'OpenTofu', 'DevOps', 'Cloud'],
   },
+
+  {
+    id: 229,
+    date: '2026-07-09',
+    category: 'AI',
+    title: 'Google Gemini 2.5 Ultra Achieves 95% Score on MMLU Pro: Closes All Remaining Gaps with Human Expert Performance',
+    excerpt: 'Google's flagship AI model achieves near-human expert performance across the most comprehensive academic benchmark, accelerating the timeline for AI deployment in knowledge-intensive professional roles.',
+    body: [
+      "Google has released Gemini 2.5 Ultra, reporting a 95% score on MMLU Pro (Massive Multitask Language Understanding Professional) — the benchmark that tests expert-level knowledge across 57 academic subjects including medicine, law, mathematics, history, and engineering. The MMLU Pro average human expert score is 97%, making Gemini 2.5 Ultra within 2 percentage points of expert human performance on the benchmark. On a subset of MMLU Pro questions rated as 'PhD-level difficulty,' Gemini 2.5 Ultra scores 91% versus a 94% human expert average.",
+      "The capability improvements in 2.5 Ultra relative to 2.0: a new long-reasoning mode that extends chain-of-thought processing for complex multi-step problems (analogous to OpenAI's o-series models), improved code execution capabilities (the model writes and runs code to solve mathematical problems rather than relying on direct calculation), and a substantially improved factual knowledge base through training data refresh including content through June 2026. The model's handling of multi-step scientific reasoning problems — where it must apply knowledge from multiple domains in sequence — improved 18 percentage points.",
+      "Gemini 2.5 Ultra is available via Google AI Studio and Google Cloud Vertex AI, priced at $10 per million input tokens and $30 per million output tokens — premium pricing that positions it as Google's flagship for the most demanding knowledge-intensive applications. Google's enterprise customers are deploying it primarily for three use cases: legal document analysis and contract review, medical literature synthesis for clinical decision support, and financial modeling where natural language queries are translated to quantitative analysis.",
+      "<blockquote>MMLU Pro was designed to be the test that AI systems would struggle with — the test that captured the breadth and depth of human expert knowledge. Reaching 95% does not mean AI knows everything an expert knows. It means AI can correctly answer expert-level questions across 57 disciplines with near-expert reliability. That capability has enormous implications for how AI can be used in professional contexts. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "The MMLU Pro score adds to a picture of AI rapidly approaching human expert performance across narrow academic benchmarks while still falling short on tasks requiring physical reasoning, novel creativity, and extended autonomous action. AI researchers are increasingly focused on the next generation of benchmarks: GPQA Diamond (graduate-level scientific reasoning), ARC-AGI (abstract pattern generalization), and agentic benchmarks measuring long-horizon autonomous task completion — all areas where current models still fall well below human performance.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 5,
+    tags: ['Gemini', 'Google', 'AI Benchmarks', 'MMLU', 'LLM', 'Expert AI'],
+  },
 ];
 
 TC.timelineData = {
