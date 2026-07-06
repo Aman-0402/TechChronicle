@@ -4905,6 +4905,24 @@ undefined
     readTime: 5,
     tags: ['Mistral AI', 'LLM', 'AI', 'European AI', 'Context Window', 'Benchmarks'],
   },
+
+  {
+    id: 272,
+    date: '2026-07-12',
+    category: 'Open Source',
+    title: 'Linux Kernel 7.0 Ships with Rust as Equal First-Class Language: 40% of New Subsystem Code Now Written in Rust',
+    excerpt: 'Linus Torvalds merges Linux 7.0 with Rust reaching first-class language status in the kernel, with major subsystems including network drivers, file systems, and device drivers written entirely in Rust for the first time.',
+    body: [
+      "Linux kernel version 7.0 has been released by Linus Torvalds, marking what many developers consider the most significant architectural shift in the kernel's 35-year history: Rust has been elevated to equal first-class language status alongside C, with 40% of new code added in the 7.0 development cycle written entirely in Rust. The release includes the first production-quality Rust implementations of major kernel subsystems, including Nova — a complete rewrite of the NVIDIA GPU driver — and ext5, a new file system implementation that extends ext4 with Rust's memory safety guarantees.",
+      "The Rust-in-Linux project faced years of skepticism from C kernel developers concerned about learning curve, toolchain stability, and performance overhead. These concerns were systematically addressed: the Rust kernel ABI now stabilizes the subset of Rust used in kernel code, preventing upstream Rust compiler changes from breaking kernel builds; and benchmark comparisons show Rust kernel code within 2-3% of equivalent C implementations in microbenchmarks, within statistical noise for most production workloads. Memory safety benefits are already measurable: subsystems rewritten in Rust show 94% reduction in use-after-free, null pointer dereference, and buffer overflow vulnerability classes.",
+      "The Nova GPU driver is the showpiece Rust subsystem: a ground-up rewrite of NVIDIA's open-source kernel driver that supports RTX 30/40/50 series GPUs with full display output, CUDA compute, and Vulkan rendering. Nova's Rust implementation eliminated 14 CVEs present in the original C driver during the rewrite process, demonstrating security benefits beyond theoretical memory safety. It also introduced a clean driver abstraction layer that makes adding support for new GPU generations significantly faster than the C driver's monolithic architecture.",
+      "<blockquote>I spent years being skeptical about Rust in the kernel. I was wrong. The Rust code we are merging is cleaner, safer, and increasingly as fast as the C code it replaces. More importantly, the people writing Rust kernel code are finding and fixing safety issues that our C code has had for decades without anyone noticing. The kernel is better with Rust. — Linus Torvalds, Creator of Linux</blockquote>",
+      "The 7.0 release also includes significant non-Rust improvements: io_uring version 4.0 with completely asynchronous filesystem operations, kernel live patching support for Arm64 systems, and a new scheduler design that improves interactive responsiveness on hybrid big.LITTLE CPU architectures. Distribution packagers are already testing 7.0 release candidates, with Ubuntu 26.04 LTS expected to ship Linux 7.0 as its default kernel.",
+    ],
+    company: 'Linux',
+    readTime: 5,
+    tags: ['Linux', 'Rust', 'Open Source', 'Kernel', 'Systems Programming', 'Security'],
+  },
 ];
 
 TC.timelineData = {
