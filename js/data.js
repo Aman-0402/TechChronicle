@@ -4311,6 +4311,24 @@ undefined
     readTime: 5,
     tags: ['Kubernetes', 'eBPF', 'Container Orchestration', 'CNCF', 'Cloud Native', 'Hybrid Cloud'],
   },
+
+  {
+    id: 239,
+    date: '2026-07-10',
+    category: 'AI',
+    title: 'Scale AI Becomes AI Data Infrastructure Unicorn: 8,000 Enterprise Customers Use Its RLHF Platform to Fine-Tune Models',
+    excerpt: 'The AI training data company evolves from a human labeling service into the dominant platform for enterprise model fine-tuning and alignment, with a valuation that reflects the central role of data in AI development.',
+    body: [
+      "Scale AI has announced its Enterprise AI Platform has reached 8,000 enterprise customers and a secondary market valuation of $22 billion, cementing its position as the critical infrastructure layer between raw AI models and enterprise-ready AI products. Scale's business has evolved significantly from its origins as a human labeling service: the majority of its revenue now comes from its RLHF (Reinforcement Learning from Human Feedback) platform, which allows enterprises to fine-tune and align AI models on their proprietary data and preferences without building internal ML teams.",
+      "The RLHF platform workflow: enterprises upload examples of desired and undesired model behavior, Scale's annotator network (100,000 trained annotators globally) generates preference labels, and Scale's fine-tuning infrastructure creates a customized model version that has been aligned to the enterprise's specific values, tone, and domain knowledge. The resulting model can be deployed on the customer's own infrastructure or hosted by Scale. The platform handles the entire pipeline — data curation, annotator quality control, fine-tuning, evaluation, and deployment — as a managed service.",
+      "The demand is driven by the gap between frontier AI models and enterprise requirements: GPT-4o or Claude 4 answer questions accurately but in a generic voice, with no knowledge of the customer's products, policies, or brand guidelines. A custom-tuned model answers in the brand voice, with proprietary knowledge, and refuses to engage with topics outside the business context. Enterprises across legal, healthcare, financial services, and customer service are building custom models tuned on their specific policies and communication standards.",
+      "<blockquote>The AI race has been about who can build the smartest general model. The enterprise AI race is about who can most efficiently take a smart general model and make it the best possible version for a specific domain. Scale is the infrastructure that makes that possible at scale. We are not the AI — we are what makes AI enterprise-ready. — Alexandr Wang, CEO, Scale AI</blockquote>",
+      "Scale's government business has also grown substantially: the company is the primary AI training data provider for the US Department of Defense's AI systems and has contracts with 14 allied governments for defense AI development. This government exposure has made Scale politically prominent — it is frequently cited in congressional hearings about AI and national security. The company recently appointed a former NSA director to its board, signaling its strategic importance to the national security establishment.",
+    ],
+    company: 'Scale AI',
+    readTime: 5,
+    tags: ['Scale AI', 'RLHF', 'Fine-Tuning', 'Enterprise AI', 'Training Data', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
