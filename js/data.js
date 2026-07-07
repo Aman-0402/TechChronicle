@@ -6075,6 +6075,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft', 'Azure Arc', 'Hybrid Cloud', 'GPU Clusters', 'On-Premises AI', 'Edge Computing'],
   },
+
+  {
+    id: 337,
+    date: '2026-07-15',
+    category: 'Cybersecurity',
+    title: 'Wiz Cloud Security Platform Reaches $1 Billion ARR with 45% of Fortune 500 as Customers: Agentless Cloud Security Becomes Enterprise Standard',
+    excerpt: 'Wiz reports crossing 1 billion dollars in annual recurring revenue after five years of operation, with adoption across 45% of Fortune 500 companies driven by its agentless cloud security approach that requires no software installation on monitored systems.',
+    body: [
+      "Wiz has announced crossing 1 billion dollars in annual recurring revenue — becoming the fastest security company in history to reach that milestone, doing so in just 5 years from founding. The company's 45% Fortune 500 penetration reflects the rapid enterprise adoption of its core innovation: agentless cloud security that analyzes cloud environments through API access to cloud provider APIs rather than installing software agents on each monitored resource. The agentless approach eliminates the deployment friction that limited adoption of previous cloud security tools and reduces the security team overhead of managing and updating thousands of security agents.",
+      "Wiz's Cloud Native Application Protection Platform (CNAPP) combines Cloud Security Posture Management (misconfiguration detection), Cloud Workload Protection (runtime threat detection), Container Security (Kubernetes and container image scanning), Data Security (sensitive data discovery and access monitoring), and AI Security (LLM application risk assessment) in a single platform with unified risk visualization. The integration allows security teams to see compound risks — a misconfigured storage account containing sensitive data that an internet-facing application can access — that siloed tools miss.",
+      "The AI Security capability, added in 2025, addresses the new attack surface created by enterprise AI adoption. Wiz AI Security discovers all AI-related cloud resources (LLM API endpoints, vector databases, training data stores, model artifacts), maps data flows into and out of AI systems, and identifies risks like AI applications with access to sensitive data beyond their intended scope, training datasets with insecure access controls, and prompt injection attack surfaces in publicly accessible LLM endpoints.",
+      "<blockquote>Cloud security has historically been a product category where adoption was measured in years because deploying agents at scale was an 18-month project. Wiz changed that. Agentless means you see your entire cloud security posture in 15 minutes, not 15 months. One billion in ARR in five years is the market's validation that agentless is not a feature — it is the right architecture for cloud security. — Assaf Rappaport, CEO, Wiz</blockquote>",
+      "Wiz rejected a reported 23 billion dollar acquisition offer from Google in 2024, choosing instead to pursue an IPO that analysts expect to value the company at 30-40 billion dollars based on current ARR and growth rate. The company has raised 1.9 billion dollars in total funding and continues expanding its platform into OT security (operational technology for manufacturing and critical infrastructure) and sovereign cloud environments requiring air-gapped deployments.",
+    ],
+    company: 'Wiz',
+    readTime: 5,
+    tags: ['Wiz', 'Cloud Security', 'Cybersecurity', 'CNAPP', 'Agentless Security', 'Fortune 500'],
+  },
 ];
 
 TC.timelineData = {
