@@ -5931,6 +5931,24 @@ undefined
     readTime: 5,
     tags: ['Zero Trust', 'ZTNA', 'VPN', 'Cybersecurity', 'Enterprise Security', 'Remote Access'],
   },
+
+  {
+    id: 329,
+    date: '2026-07-15',
+    category: 'Hardware',
+    title: 'Apple M5 Pro and M5 Max Debut in New MacBook Pro: 3nm Neural Engine Delivers 5x AI Performance Improvement Over M4 Generation',
+    excerpt: 'Apple announces MacBook Pro with M5 Pro and M5 Max chips built on TSMC 3nm N3E process, delivering landmark neural engine performance that enables on-device AI models previously requiring cloud infrastructure.',
+    body: [
+      "Apple has announced new MacBook Pro models featuring the M5 Pro and M5 Max chips, manufactured on TSMC's N3E (Enhanced 3nm) process with a redesigned Neural Engine delivering 5x AI performance improvement over the M4 generation. The M5 Pro includes a 16-core Neural Engine capable of 38 TOPS (tera operations per second), while the M5 Max reaches 76 TOPS with its doubled Neural Engine configuration — performance that enables real-time execution of 13B parameter language models locally without internet connectivity, bringing models previously requiring cloud infrastructure to local deployment for the first time.",
+      "The CPU architecture in M5 uses Arm's latest Cortex-X4 cores (licensed and customized by Apple) with per-core performance improvements of 25% over M4 at the same power envelope. The GPU scales to 40 cores in M5 Max with hardware ray tracing improvements that deliver 60% better performance on ProRes video transcoding with AI-enhanced upscaling — a key workflow for the professional video production market that MacBook Pro targets. Memory bandwidth on M5 Max reaches 400 GB/s via an expanded memory bus, accommodating the simultaneous CPU, GPU, and Neural Engine memory access patterns of AI workloads.",
+      "On-device AI capabilities enabled by M5's Neural Engine performance: real-time transcription of meetings without internet access, AI-powered image enhancement in Final Cut Pro that previously required Apple Intelligence servers, and local execution of Llama 3.1-8B at 28 tokens per second for privacy-sensitive AI assistant use cases. Apple is positioning the on-device AI capability as a privacy advantage over cloud-based AI services — all model execution occurring locally means no conversation data leaves the device.",
+      "<blockquote>M5 is not an incremental chip update. The Neural Engine performance we have achieved enables a qualitatively different on-device AI experience. When you can run a 13 billion parameter AI model locally on a laptop that lasts 22 hours on battery, you have crossed a threshold. Cloud AI for personal computing becomes optional, not required. That is what M5 represents. — Johny Srouji, SVP Hardware Technologies, Apple</blockquote>",
+      "MacBook Pro with M5 Pro starts at 1,999 USD (14-inch) and 2,499 USD (16-inch), with M5 Max configurations reaching 3,999 USD for the 16-inch model with maximum memory and storage. The Neural Engine performance improvement makes new MacBook Pro models the most capable on-device AI hardware available in a consumer laptop, positioning Apple's Mac lineup competitively against NVIDIA's AI laptop efforts and Qualcomm's Snapdragon X Elite.",
+    ],
+    company: 'Apple',
+    readTime: 5,
+    tags: ['Apple', 'M5', 'MacBook Pro', 'Hardware', 'Neural Engine', 'On-Device AI'],
+  },
 ];
 
 TC.timelineData = {
