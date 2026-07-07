@@ -6885,6 +6885,24 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'Carbon-Aware Compute', 'Sustainability', 'Green Cloud', 'Renewable Energy', 'Cloud'],
   },
+
+  {
+    id: 382,
+    date: '2026-07-18',
+    category: 'Cybersecurity',
+    title: 'Cloudflare One Integrates AI Threat Detection Across 40 Million Domains: Real-Time Zero-Day Blocking Based on Behavioral Pattern Matching Across Global Network',
+    excerpt: 'Cloudflare extends its global network threat intelligence to Cloudflare One customers, using behavioral AI trained on traffic patterns across 40 million domains to block zero-day attacks within 90 seconds of initial detection anywhere on the network.',
+    body: [
+      "Cloudflare has announced AI threat detection integration across Cloudflare One, its SASE (Secure Access Service Edge) platform, enabling enterprise customers to benefit from behavioral threat intelligence derived from traffic patterns across Cloudflare's 40 million customer domains. The system identifies zero-day attack patterns — novel techniques not in any signature database — within 90 seconds of first detection anywhere on Cloudflare's global network, automatically propagating blocks to all customers before the attack can spread beyond its initial target.",
+      "The behavioral AI analyzes request patterns, header anomalies, timing signatures, and payload characteristics across Cloudflare's entire traffic graph, identifying attack campaigns that span multiple targets and evolve over time. Unlike signature-based detection that requires known attack indicators, the behavioral model detects statistical anomalies — request patterns inconsistent with normal user behavior — that indicate attacks before specific indicators of compromise are published. The model updates continuously from live traffic, with a 47ms median inference latency that enables blocking within individual HTTP request handling.",
+      "The collective defense model is Cloudflare's key differentiator: a novel attack technique discovered targeting Cloudflare customer A is automatically blocked for customers B through Z before the attackers can adapt their technique for different targets. This collective intelligence compounds with network scale — each new customer that joins Cloudflare strengthens threat detection for all existing customers by contributing traffic diversity to the behavioral training corpus. Cloudflare's published data shows a 3x improvement in zero-day blocking rates versus 2024 baselines as the network has scaled.",
+      "<blockquote>The attacker discovers a zero-day, launches it against one target, and has minutes before defenders share indicators and block it everywhere. Our model eliminates those minutes. We see the attack pattern the moment it touches our network and block it everywhere in 90 seconds. The attacker's window of opportunity closes before it opens. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "Cloudflare One AI threat detection is available at no additional cost to all Cloudflare One Enterprise customers, with a self-service threat intelligence dashboard providing visibility into blocked attacks, attack campaign attribution, and comparative threat exposure data across similar-sized organizations in the same industry vertical. The dashboard includes audit logs suitable for compliance reporting, with attack telemetry exported to SIEM platforms via pre-built connectors for Splunk, Sentinel, and Elastic.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'Cybersecurity', 'SASE', 'Zero-Day', 'AI Threat Detection', 'Network Security'],
+  },
 ];
 
 TC.timelineData = {
