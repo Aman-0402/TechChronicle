@@ -6453,6 +6453,24 @@ undefined
     readTime: 5,
     tags: ['NIST', 'Post-Quantum Cryptography', 'Cybersecurity', 'Standards', 'FIPS', 'Encryption'],
   },
+
+  {
+    id: 358,
+    date: '2026-07-16',
+    category: 'Hardware',
+    title: 'Nvidia Blackwell Ultra B300 GPU Architecture Deep Dive: 288GB HBM4E Memory Enables Single-GPU 70B Parameter Model Inference at 1,200 Tokens Per Second',
+    excerpt: 'NVIDIA reveals full technical details of the Blackwell Ultra B300 GPU, highlighting how 288GB of HBM4E memory and 20 petaFLOPS of AI performance enable single-GPU inference of 70B parameter models at unprecedented speed.',
+    body: [
+      "NVIDIA has published the complete technical architecture details of the Blackwell Ultra B300 GPU, revealing how the combination of 288GB HBM4E memory (sufficient to hold a complete 70B parameter model in FP16 precision with memory to spare), 14.4 TB/s memory bandwidth, and 20 petaFLOPS of FP8 AI performance enables single-GPU inference of 70B parameter large language models at 1,200 tokens per second — more than 4x the throughput of the previous-generation H100 on the same model. The architecture paper details four major innovations that drive this performance.",
+      "Memory capacity innovation: the B300 achieves 288GB by stacking 8 HBM4E packages on a single CoWoS-S interposer, with each 36GB HBM4E package using 16-high die stacking and 4,096-bit interfaces. The 288GB capacity is the critical enabler for single-GPU 70B model inference — previous GPUs required at least 2 H100s in NVLink configuration (totaling 160GB) for 70B FP16 inference, requiring inter-GPU communication overhead. B300 fits the model on a single GPU, eliminating that overhead entirely.",
+      "Compute architecture innovation: B300's Tensor Cores support FP4 precision natively — half the bit width of FP8, doubling the number of operations per clock cycle. NVIDIA's research demonstrates that 70B models can be quantized to FP4 with less than 1.5% perplexity degradation, enabling the full 40 petaFLOPS of FP4 performance for models where this quantization level is acceptable. For models requiring higher precision, FP8 delivers 20 petaFLOPS — still 2x the H100's FP8 performance.",
+      "<blockquote>The B300 is the first GPU where a single chip is sufficient for any model that exists today. 288GB covers every deployed production model. 1,200 tokens per second covers any real-time application. We have eliminated the multi-GPU inference requirement for the current generation of large models. The next generation of 200B parameter models will require multi-GPU again, and we will be ready for that too. — Bill Dally, Chief Scientist, NVIDIA</blockquote>",
+      "B300 systems are available through NVIDIA's HGX B300 server platform (8 GPUs per server, 2.3 petabytes total memory) and as discrete B300 PCIe cards for inference-optimized deployments. Cloud availability: AWS p6 instances (B300-based) are in preview, with Google Cloud TPU v6 competition from Google's Trillium chip being the primary alternative for hyperscale AI inference. B300 pricing is not publicly disclosed for direct purchases but cloud instance pricing suggests approximately 6x cost premium over H100 with 4x performance — improving cost-performance by 50%.",
+    ],
+    company: 'NVIDIA',
+    readTime: 5,
+    tags: ['NVIDIA', 'Blackwell Ultra', 'B300', 'GPU', 'AI Inference', 'HBM4E'],
+  },
 ];
 
 TC.timelineData = {
