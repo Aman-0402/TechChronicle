@@ -6363,6 +6363,24 @@ undefined
     readTime: 5,
     tags: ['AI Ethics', 'AI Governance', 'Oxford', 'Research', 'Policy', 'International AI'],
   },
+
+  {
+    id: 353,
+    date: '2026-07-16',
+    category: 'Dev Tools',
+    title: 'Nx Monorepo Tool Adds AI-Powered Dependency Analysis and Build Optimization: Large-Scale JavaScript Projects Achieve 90% CI Build Time Reduction',
+    excerpt: 'Nx releases major AI features for its monorepo build system that automatically analyze code dependencies, optimize build ordering, and distribute CI workloads to achieve 90% faster builds for large JavaScript and TypeScript enterprise codebases.',
+    body: [
+      "Nx, the extensible build system and development tool for JavaScript monorepos, has released major AI-powered features that reduce CI build times by up to 90% for large enterprise codebases through intelligent dependency analysis, build optimization, and distributed execution. The AI capabilities analyze code dependencies at the function level (not just the package level), identifying exactly which downstream packages need rebuilding when a specific function changes — enabling significantly more precise incremental builds than the package-level cache invalidation that most monorepo tools use.",
+      "Function-level dependency analysis is the technical breakthrough: traditional monorepo tools invalidate entire packages when any file changes. Nx AI analyzes import graphs and call chains to determine which downstream packages actually consume changed functionality. A utility function used by 20 packages that is not imported by 15 of those packages due to tree-shaking only invalidates the 5 packages that actually call it — reducing rebuild scope by 75% on common utility changes. The analysis runs as a pre-build step in under 30 seconds for monorepos with thousands of packages.",
+      "Distributed build execution uses AI scheduling to allocate build tasks across cloud runners based on task duration predictions — predicting each task's execution time from historical data and assigning tasks to maximize parallelism while minimizing critical path length. Compared to naive parallel distribution (all tasks start simultaneously), AI scheduling reduces total build time by 35% by ensuring that the longest-running tasks start first and that runner capacity is not wasted waiting for sequential dependencies.",
+      "<blockquote>CI build times are a productivity tax that large organizations pay every day. A 45-minute CI pipeline means engineers wait 45 minutes to see whether their code passes. We have reduced that to 4 minutes for codebases that used to take 45 minutes. Not through engineering heroics — through intelligence: knowing which code actually depends on which other code, knowing how to schedule work optimally, and caching aggressively at the right granularity. — Victor Savkin, CEO, Nx</blockquote>",
+      "Nx AI features are included in Nx Cloud Business and Enterprise tiers at 15 USD per developer per month for Nx Cloud access. Local builds using Nx without cloud connectivity receive the function-level dependency analysis improvements in the open-source Nx core, while AI-powered distributed execution and historical performance optimization require Nx Cloud. The company reports average customer CI cost reduction of 60% after full Nx Cloud adoption, driven by reduced compute time and cached result reuse.",
+    ],
+    company: 'Nx',
+    readTime: 5,
+    tags: ['Nx', 'Monorepo', 'Dev Tools', 'Build Optimization', 'CI/CD', 'JavaScript'],
+  },
 ];
 
 TC.timelineData = {
