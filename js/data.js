@@ -6057,6 +6057,24 @@ undefined
     readTime: 5,
     tags: ['Salesforce', 'Einstein AI', 'CRM', 'Enterprise AI', 'Sales Automation', 'AI Agents'],
   },
+
+  {
+    id: 336,
+    date: '2026-07-15',
+    category: 'Cloud',
+    title: 'Azure Arc Expands to Edge AI Clusters: Microsoft Brings Cloud Management to On-Premises GPU Infrastructure for Hybrid AI Deployments',
+    excerpt: 'Microsoft extends Azure Arc hybrid cloud management to include GPU cluster management, enabling enterprises to manage on-premises AI training and inference infrastructure through the same Azure portal and policies as cloud resources.',
+    body: [
+      "Microsoft has expanded Azure Arc, its hybrid cloud management platform, to support GPU cluster management for on-premises AI infrastructure — enabling enterprises to manage their private AI hardware through the same Azure portal, policies, and automation as their public cloud resources. Azure Arc GPU Clusters brings cloud-like operational experience to the on-premises H100, A100, and Gaudi GPU clusters that many large enterprises maintain for data sovereignty, latency, or cost reasons: unified monitoring dashboards, centralized policy enforcement, automated software updates, and cost attribution across mixed cloud/on-premises AI infrastructure.",
+      "The management plane unification addresses a real operational pain point: enterprises running hybrid AI infrastructure maintain two separate operational stacks — Azure management for cloud resources and custom tooling (often Kubernetes + Prometheus + Grafana) for on-premises clusters — with different monitoring, alerting, security policies, and billing visibility. Azure Arc GPU Clusters brings on-premises clusters into Azure Monitor (unified metrics and alerts), Azure Policy (consistent security baselines), Microsoft Defender for Cloud (security posture management), and Azure Cost Management (unified cost visibility across cloud and on-premises).",
+      "AI workload mobility between on-premises and cloud is enabled through Azure Arc's unified Kubernetes layer: AI training jobs defined as Kubernetes workloads can be scheduled on-premises when cluster capacity is available and automatically moved to Azure compute when on-premises clusters are saturated. Job portability requires containerized workloads with no on-premises-specific dependencies, a model that enterprise AI teams are increasingly adopting as they recognize the operational flexibility it provides.",
+      "<blockquote>Enterprises do not choose between cloud and on-premises. They choose both, for different workloads, at different times. Azure Arc is our answer to that reality: one management plane, one policy framework, one cost view, across every GPU cluster you operate — whether it lives in Azure data centers or yours. Hybrid AI is not a transition phase. It is the permanent enterprise architecture. — Scott Guthrie, EVP Cloud + AI, Microsoft</blockquote>",
+      "Azure Arc GPU Clusters is available as part of the Azure Arc Standard pricing tier at 10 USD per physical GPU core per month, with volume discounts for large clusters. The service supports NVIDIA H100, H200, A100, and A800 GPUs, Intel Gaudi 2 and 3 accelerators, and AMD Instinct MI300X — covering the GPU hardware portfolio used in enterprise AI infrastructure. Initial setup requires deploying an Arc-enabled Kubernetes cluster, with Microsoft providing automated setup scripts for common hypervisor environments (VMware, Hyper-V) and bare-metal deployments.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['Microsoft', 'Azure Arc', 'Hybrid Cloud', 'GPU Clusters', 'On-Premises AI', 'Edge Computing'],
+  },
 ];
 
 TC.timelineData = {
