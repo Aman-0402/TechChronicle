@@ -6633,6 +6633,24 @@ undefined
     readTime: 5,
     tags: ['Palantir', 'AIP Security', 'Cybersecurity', 'Supply Chain Attack', 'Nation-State', 'Threat Intelligence'],
   },
+
+  {
+    id: 368,
+    date: '2026-07-17',
+    category: 'Hardware',
+    title: 'AMD Instinct MI400 AI Accelerator Achieves 800 TFLOPS FP8: AMD Closes Performance Gap with NVIDIA B300 at 40% Lower Price Point',
+    excerpt: 'AMD unveils the Instinct MI400 AI accelerator delivering 800 teraflops of FP8 performance, closing the gap with NVIDIA's Blackwell Ultra to within 20% while pricing 40% lower, giving hyperscalers a credible AMD alternative for AI infrastructure.',
+    body: [
+      "AMD has unveiled the Instinct MI400, its next-generation data center AI accelerator, delivering 800 teraflops of FP8 compute performance — within 20% of NVIDIA's Blackwell Ultra B300 (which achieves 1,000 TFLOPS FP8) while priced 40% lower, giving hyperscale customers meaningful optionality in their AI infrastructure procurement. The MI400 uses AMD's CDNA 4 architecture manufactured on TSMC N3P process, with 288GB HBM4 memory (matching B300's capacity), 14.4 TB/s memory bandwidth, and ROCm 7 software stack with dramatically improved NVIDIA CUDA compatibility.",
+      "ROCm 7's CUDA compatibility layer is the critical enabler for AMD's commercial adoption: the majority of production AI training code is written against NVIDIA's CUDA programming model, and AMD's historical weakness was requiring code rewrites to run on MI-series GPUs. ROCm 7 achieves 97% CUDA kernel compatibility without source code modifications — developers point existing PyTorch, TensorFlow, and JAX code at MI400 hardware and the code runs without modification in the vast majority of cases, with automatic transpilation for the 3% of kernels using CUDA-specific features not in the compatibility layer.",
+      "Meta and Microsoft have publicly committed to deploying MI400 clusters as part of their AI infrastructure diversification strategies, driven by supply constraints on NVIDIA B300 hardware and AMD's competitive pricing. The two commitments total 12,000 MI400 accelerators for initial deployments, with options for significant expansion contingent on validation performance meeting benchmarked targets. The endorsements provide the production validation that enterprise customers require before committing to non-NVIDIA AI infrastructure.",
+      "<blockquote>NVIDIA has dominated AI compute for six years because they were first, they had the best software, and no one could get close on performance. B300 is still the best AI chip. MI400 is not trying to be the best AI chip. It is trying to be the best value AI chip — 800 TFLOPS at 40% lower cost is an extraordinary value proposition that hyperscalers with billions in AI infrastructure spend cannot ignore. — Lisa Su, CEO, AMD</blockquote>",
+      "MI400 systems are available through AMD's OEM partners (Dell, HPE, Lenovo, Supermicro) in 8-GPU and 16-GPU server configurations, with first customer shipments in Q4 2026. AMD is simultaneously announcing the MI400 Instinct Platform — a turnkey AI cluster solution including interconnects, management software, and 3-year support — targeting enterprises that want a complete AI infrastructure solution rather than component procurement.",
+    ],
+    company: 'AMD',
+    readTime: 5,
+    tags: ['AMD', 'Instinct MI400', 'AI Accelerator', 'Hardware', 'NVIDIA Alternative', 'ROCm'],
+  },
 ];
 
 TC.timelineData = {
