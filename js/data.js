@@ -6867,6 +6867,24 @@ undefined
     readTime: 5,
     tags: ['Meta', 'Llama 4', 'Open Source AI', 'Multimodal', 'Vision Language Model', 'Open Weight'],
   },
+
+  {
+    id: 381,
+    date: '2026-07-18',
+    category: 'Cloud',
+    title: 'Google Cloud Introduces Carbon-Aware Compute: Workloads Automatically Shift to Low-Carbon Regions, Reducing Customer Emissions 45% With No Performance Impact',
+    excerpt: 'Google Cloud launches Carbon-Aware Compute, automatically routing flexible workloads to data center regions with surplus renewable energy, delivering verified 45% carbon emission reductions for batch and asynchronous workloads without cost increases or performance tradeoffs.',
+    body: [
+      "Google Cloud has launched Carbon-Aware Compute, a scheduling system that automatically routes flexible workloads — batch jobs, model training, data processing pipelines, asynchronous tasks — to data center regions currently powered by surplus renewable energy, reducing verified customer carbon emissions 45% on eligible workloads without cost increases or performance degradation. The system integrates real-time carbon intensity data from 34 grid operators globally, routing workloads based on instantaneous renewable availability rather than static regional carbon averages.",
+      "The technical architecture uses Google's existing global network to route workload execution across regions with sub-millisecond steering decisions, making carbon optimization transparent to applications. Workloads submitted with a 'carbon-aware' flag and a time flexibility window (e.g., 'must complete within 6 hours') are scheduled when their target region's grid carbon intensity is below a configurable threshold — defaulting to 100g CO2e/kWh — with automatic fallback to standard scheduling if the flexibility window is exhausted. The system tracks and reports verified carbon reductions per workload, generating auditable emissions data for customer sustainability reporting.",
+      "Carbon-Aware Compute addresses the gap between Google's corporate sustainability claims and customer scope 3 emissions: while Google has operated on 100% renewable energy since 2017, customers' workloads run on shared infrastructure whose carbon intensity varies by hour and region. The new system provides customers with the mechanism to take credit for the renewable energy timing that their workloads consume, rather than relying solely on renewable energy certificate averaging that regulatory frameworks increasingly consider insufficient for science-based targets.",
+      "<blockquote>Renewable energy is not a constant. The grid is carbon-intensive at 7pm and carbon-neutral at 2pm in the same region. If your batch job can run at 2pm instead of 7pm, it is genuinely zero-carbon compute, not just offset-balanced compute. Carbon-Aware Compute makes that choice automatic, verifiable, and free. — Urs Holzle, SVP Infrastructure, Google Cloud</blockquote>",
+      "Google Cloud is offering Carbon-Aware Compute at no additional charge on the 15 compute services that support flexible scheduling, including Cloud Batch, BigQuery scheduled queries, Dataflow, and Cloud Run Jobs. The service generates detailed emissions reports compatible with CDP, GHG Protocol, and TCFD reporting frameworks, reducing the compliance overhead for customers with mandatory emissions disclosure requirements.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'Carbon-Aware Compute', 'Sustainability', 'Green Cloud', 'Renewable Energy', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
