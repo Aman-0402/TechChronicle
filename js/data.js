@@ -6111,6 +6111,24 @@ undefined
     readTime: 5,
     tags: ['Micron', 'NAND Flash', 'Storage', 'Hardware', 'SSD', 'Data Centers'],
   },
+
+  {
+    id: 339,
+    date: '2026-07-15',
+    category: 'Open Source',
+    title: 'Apache Kafka 4.0 Removes ZooKeeper Dependency and Introduces KRaft Mode as Default: Distributed Streaming Platform Simplifies Deployment and Doubles Throughput',
+    excerpt: 'Apache Kafka 4.0 ships with KRaft consensus mode as the default configuration, permanently removing the ZooKeeper dependency that added operational complexity, while simultaneously doubling partition throughput through architectural improvements.',
+    body: [
+      "Apache Kafka 4.0 has been released with KRaft (Kafka Raft) consensus mode as the only supported configuration, permanently removing the ZooKeeper dependency that added significant operational complexity to Kafka deployments for the past 15 years. ZooKeeper was Kafka's original distributed coordination service — managing cluster membership, topic configuration, and leader election — but its separate deployment, distinct operational tooling, and complex failure modes made Kafka production operations significantly more demanding than the streaming platform itself required. KRaft moves all coordination into Kafka itself, reducing the number of distinct systems operators must understand and manage.",
+      "The architectural simplification has measurable performance benefits: eliminating the ZooKeeper coordination round trips reduces leader election time from 15-30 seconds to under 2 seconds during broker failures. Cluster scaling operations (adding brokers, rebalancing partitions) complete 4x faster with KRaft versus ZooKeeper coordination. And the Kafka 4.0 storage engine rewrite, independent of the KRaft change, doubles partition write throughput through improved batching, reduced copying, and better use of modern NVMe SSD I/O characteristics.",
+      "Operational simplifications beyond ZooKeeper removal include a redesigned cluster management API that enables rolling restarts without manual intervention, improved metrics exposition with OpenTelemetry-compatible format that works with modern observability stacks without custom translation plugins, and a new managed rebalancing algorithm that minimizes traffic disruption during partition rebalancing operations that previously caused latency spikes.",
+      "<blockquote>We have wanted to remove ZooKeeper since 2019. KRaft was in development for five years because replacing the coordination layer of a system that half the internet depends on requires extraordinary care. Kafka 4.0 is the culmination of that work. No more ZooKeeper. No more dual operational complexity. Just Kafka, faster and simpler than it has ever been. — Jun Rao, Co-creator of Apache Kafka</blockquote>",
+      "Kafka 4.0 provides migration tooling for existing ZooKeeper-based clusters: a migration coordinator that copies metadata from ZooKeeper to KRaft format, validates consistency, and performs the cutover with rolling restarts and no message loss. The migration process is designed for zero-downtime execution on clusters in production use. Kafka 4.0 is already deployed in Confluent Cloud and will be the default version in Amazon MSK, Google Cloud Pub/Sub Kafka compatibility, and Azure HDInsight Kafka within 90 days.",
+    ],
+    company: 'Apache Kafka',
+    readTime: 5,
+    tags: ['Apache Kafka', 'Kafka', 'Streaming', 'Open Source', 'Distributed Systems', 'KRaft'],
+  },
 ];
 
 TC.timelineData = {
