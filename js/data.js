@@ -7191,6 +7191,24 @@ undefined
     readTime: 5,
     tags: ['Cursor', 'AI Coding', 'Dev Tools', 'Autonomous Agent', 'Code Generation', 'Developer Productivity'],
   },
+
+  {
+    id: 399,
+    date: '2026-07-19',
+    category: 'Startups',
+    title: 'Glean Reaches $3.8B Valuation as Enterprise AI Search Processes 500M Queries Monthly: Knowledge Worker AI Assistant Becomes Critical Business Infrastructure',
+    excerpt: 'Glean closes $300M Series F at a $3.8B valuation after crossing 500 million monthly queries, establishing its AI-powered enterprise search and knowledge assistant as mission-critical infrastructure at over 2,000 enterprise customers replacing legacy intranet search.',
+    body: [
+      "Glean has closed a $300 million Series F funding round at a $3.8 billion valuation, following the company crossing 500 million monthly query milestones across its 2,000+ enterprise customer base. The growth trajectory — from 100 million monthly queries 18 months ago to 500 million today — reflects a behavioral shift in knowledge worker workflows: Glean has become the first destination for employees seeking information from internal systems, replacing the combination of Confluence search, SharePoint navigation, Slack message search, and Salesforce queries that previously fragmented enterprise knowledge access.",
+      "Glean's AI assistant capability has evolved from search to reasoning: employees ask questions ('What is our current policy on customer data retention?', 'Who owns the EMEA sales process for enterprise accounts?', 'What were the main concerns from last quarter's customer advisory board?') and Glean synthesizes answers from across connected systems — Slack messages, Confluence pages, Google Drive documents, GitHub issues, Salesforce records — with citations to source documents. The transition from keyword search to conversational knowledge retrieval is the product transformation that drove the current growth curve.",
+      "Enterprise AI adoption has created a specific procurement category that Glean occupies: the AI knowledge layer that sits above existing business applications, connecting their content into a unified reasoning surface. Companies replacing their enterprise search infrastructure with Glean are discovering that the AI assistant capability reduces employee time spent searching for information 45% (measured across Glean's enterprise customer base), translating to approximately 3 hours per knowledge worker per week — the ROI metric that drives $100K+ annual contract renewals.",
+      "<blockquote>We did not set out to build an enterprise search company. We set out to solve the knowledge problem — why do smart people at big companies still spend hours per week not finding things they need? The answer is that search is the wrong mental model. You don't search for knowledge. You ask questions. Glean is the enterprise AI that answers questions, not the one that returns links. — Arvind Jain, CEO, Glean</blockquote>",
+      "Glean's Series F will fund expansion into agentic capabilities — AI that takes action in business systems based on knowledge context, not just answers questions — with early access announced for workflows including automated contract review routing, sales intelligence synthesis before customer meetings, and engineering knowledge triage for support escalations. The agentic expansion targets the next growth curve beyond search: enterprise AI that saves employee time by acting, not just informing.",
+    ],
+    company: 'Glean',
+    readTime: 5,
+    tags: ['Glean', 'Enterprise AI', 'Knowledge Management', 'Startups', 'AI Search', 'Series F'],
+  },
 ];
 
 TC.timelineData = {
