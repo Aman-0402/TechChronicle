@@ -6183,6 +6183,24 @@ undefined
     readTime: 5,
     tags: ['Postman', 'API Testing', 'Dev Tools', 'QA Automation', 'OpenAPI', 'Security Testing'],
   },
+
+  {
+    id: 343,
+    date: '2026-07-15',
+    category: 'Startups',
+    title: 'Cohere for AI Research Lab Publishes Aya Expanse Model Covering 101 Languages: Multilingual AI Frontier Pushed by Open Research Initiative',
+    excerpt: 'Cohere for AI releases Aya Expanse, a multilingual language model trained on 101 languages with emphasis on low-resource languages, advancing equitable AI access and demonstrating multilingual AI performance that rivals single-language specialized models.',
+    body: [
+      "Cohere for AI, Cohere's non-profit research lab, has released Aya Expanse, a multilingual large language model trained on 101 languages with particular emphasis on low-resource languages underrepresented in existing AI training data. The model achieves performance on par with language-specific fine-tuned models for 67 of its 101 supported languages on standard language understanding benchmarks — demonstrating that a single multilingual model can match specialized models that have access to far more language-specific training data through improved training methodology and data curation.",
+      "The multilingual AI equity problem Aya Expanse addresses is substantial: most frontier AI models perform dramatically worse on non-English languages because 80-90% of their training data is English-language content despite English representing only 17% of the world's population. Low-resource languages — those with small digital text corpora — receive even less representation. Swahili (130 million speakers), Yoruba (40 million speakers), Tamil (80 million speakers), and dozens of other significant languages achieve only 40-60% of English performance on comparable AI systems.",
+      "Aya Expanse's training methodology innovations: multilingual data augmentation generates training examples in low-resource languages by back-translating high-quality content from well-resourced languages, preserving semantic content while producing linguistically authentic training data. Cross-lingual transfer learning is improved through language-agnostic representation learning that encourages the model to represent the same concept similarly regardless of the language it is expressed in. A curated multilingual evaluation framework covering 101 languages enables continuous quality monitoring during training.",
+      "<blockquote>AI is being deployed globally, but AI capabilities are unequal globally. A French businessperson gets a dramatically better AI experience than a Swahili-speaking businessperson, despite both using modern smartphones and AI applications. Aya Expanse is our contribution to closing that gap. AI equity is not just a values statement — it is a research problem we are solving. — Sara Hooker, Research Director, Cohere for AI</blockquote>",
+      "Aya Expanse is released under Apache 2.0 license, making it freely usable for commercial applications in any of the 101 supported languages. The model weights, training data curation methodology, and evaluation framework are all publicly released to enable the research community to build on the work. Cohere for AI is calling for contributions to the Aya dataset — a multilingual instruction-following dataset that underpins the model — from speakers of underrepresented languages globally.",
+    ],
+    company: 'Cohere',
+    readTime: 5,
+    tags: ['Cohere', 'Multilingual AI', 'Open Source', 'Research', 'AI Equity', 'Low-Resource Languages'],
+  },
 ];
 
 TC.timelineData = {
