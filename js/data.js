@@ -6417,6 +6417,24 @@ undefined
     readTime: 5,
     tags: ['Inflection AI', 'Pi', 'Emotional Intelligence', 'AI', 'Personal AI', 'Mental Health'],
   },
+
+  {
+    id: 356,
+    date: '2026-07-16',
+    category: 'Cloud',
+    title: 'GCP Introduces Carbon-Aware Cloud Scheduling: Google Routes AI Training Jobs to Data Centers Powered by Surplus Renewable Energy in Real Time',
+    excerpt: 'Google Cloud Platform launches carbon-aware workload scheduling that automatically routes AI training and batch processing jobs to data center regions with surplus renewable energy at a given time, reducing carbon intensity by up to 85% at no performance cost.',
+    body: [
+      "Google Cloud Platform has launched Carbon-Aware Workload Scheduler, a service that automatically routes time-flexible AI training jobs, batch processing workloads, and data pipeline executions to GCP regions with surplus renewable energy available at the time of scheduling. Rather than requiring customers to manually select the lowest-carbon region (which changes hour by hour as solar and wind generation fluctuate), the service dynamically matches workload execution time and location to renewable energy availability across Google's global data center fleet, reducing carbon intensity by up to 85% for workloads with temporal flexibility.",
+      "The carbon optimization algorithm balances two variables: grid carbon intensity (grams of CO2 per kilowatt-hour for the electricity supply at a given data center at a given time) and workload urgency (how much delay the customer tolerates for completion). Workloads marked as 'flexible' (acceptable within a 24-hour window) can shift to regions and times with near-zero carbon intensity — Google's Iowa and Oklahoma data centers achieve near-zero carbon intensity for 6-8 hour windows daily when wind generation peaks. Workloads with tight deadlines run on the lowest-carbon available option without delay.",
+      "AI training workloads are the highest-carbon use case in most cloud environments — a single large model training run consumes as much electricity as several hundred household months, making carbon optimization economically and reputationally significant. Google reports that 40% of GCP AI training compute (measured in GPU-hours) is already time-flexible from the customer's perspective, meaning customers would accept 4-24 hour delays in exchange for lower carbon footprint, lower cost (carbon-aware scheduling also reduces electricity costs in markets with time-of-use pricing), or both.",
+      "<blockquote>The cloud industry emits more carbon than the aviation industry. AI has increased data center power demand 40% in two years and shows no signs of slowing. Carbon-aware scheduling does not require renewable energy to be available everywhere — it requires renewable energy to be matched to workloads intelligently. Forty percent of AI training is flexible. Routing that 40% to renewable-powered time windows eliminates a third of AI's carbon impact. — Urs Holzle, SVP Technical Infrastructure, Google</blockquote>",
+      "Carbon-Aware Workload Scheduler is available on all GCP Compute, AI Platform, and Cloud Run services through a scheduling API parameter. Carbon emissions reporting is integrated into GCP's existing Cloud Carbon Footprint dashboard, allowing sustainability teams to verify and document emissions reductions. The service is priced at a 5% premium on scheduled workloads (for the scheduling infrastructure and Renewable Energy Certificates that back carbon-reduced compute), with net cost savings in most cases due to time-of-use electricity pricing benefits.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'Carbon-Aware', 'Sustainability', 'AI Training', 'Renewable Energy', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
