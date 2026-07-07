@@ -6219,6 +6219,24 @@ undefined
     readTime: 5,
     tags: ['AWS', 'Amazon Bedrock', 'AI Agents', 'Multi-Agent', 'Cloud', 'Enterprise AI'],
   },
+
+  {
+    id: 345,
+    date: '2026-07-15',
+    category: 'Hardware',
+    title: 'SiFive P870 RISC-V Server CPU Achieves ARM Neoverse N2 Performance Parity: Commercial RISC-V Server Processor Enters Hyperscale Data Centers',
+    excerpt: 'SiFive announces the P870, a RISC-V server processor that achieves performance parity with ARM Neoverse N2 in server workload benchmarks, marking the first commercial RISC-V processor viable for hyperscale data center deployment.',
+    body: [
+      "SiFive has announced the P870, a server-class RISC-V processor that achieves performance parity with ARM Neoverse N2 in standard server workload benchmarks — marking the first commercial RISC-V processor that hyperscale data centers can consider as a genuine alternative to ARM. The P870 uses a custom 64-core RISC-V V3.0-compatible microarchitecture manufactured on TSMC N3P (3nm+) process, with 128MB shared L3 cache, LPDDR5X memory controller supporting up to 384GB per socket, and PCIe 6.0 for AI accelerator connectivity.",
+      "SPECcpu2017int score of 68.4 per core matches ARM Neoverse N2's 69.1, while SPECcpu2017fp (floating-point benchmark important for scientific computing) shows P870 at 71.2 versus N2's 74.8. The benchmark performance is sufficient for hyperscalers to consider P870 for workloads that don't require peak floating-point performance — web services, data analytics, ML inference, and distributed computing. SiFive has signed letters of intent with two unnamed hyperscale customers and one major cloud provider for P870 evaluation programs.",
+      "Software ecosystem readiness is the critical challenge for RISC-V server deployment, and the P870 launch is accompanied by a Software Compatibility Matrix listing 8,400 production server software packages (databases, web servers, ML frameworks, observability tools) verified to compile and run correctly on RISC-V V3.0 Linux. The Linux kernel 7.0 RISC-V support, combined with LLVM 19 and GCC 14 compiler optimizations for the P870 microarchitecture, provides the software foundation needed for production deployment.",
+      "<blockquote>RISC-V server processors have been 'almost production ready' for three years. The P870 is past that threshold. We have the benchmark performance to justify evaluation in any data center running ARM Neoverse. We have the software support for production workloads. We have customers willing to deploy. RISC-V is in the data center now — not in the roadmap. — Patrick Little, CEO, SiFive</blockquote>",
+      "P870 system on modules are sampling to qualified customers now, with first silicon available for board integration in Q1 2027. SiFive is simultaneously releasing the P870 evaluation board (a full server-format reference platform) and P870 cloud instances through a partnership with a major cloud provider for software developers who want to test RISC-V compatibility before committing to hardware purchases. The evaluation ecosystem approach mirrors how ARM expanded from mobile to server markets by ensuring software readiness before hardware availability.",
+    ],
+    company: 'SiFive',
+    readTime: 5,
+    tags: ['SiFive', 'RISC-V', 'Server CPU', 'Hardware', 'Data Centers', 'ARM Alternative'],
+  },
 ];
 
 TC.timelineData = {
