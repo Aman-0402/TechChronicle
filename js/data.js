@@ -6255,6 +6255,24 @@ undefined
     readTime: 5,
     tags: ['Anthropic', 'AI Safety', 'Constitutional AI', 'Alignment', 'AI Research', 'Claude'],
   },
+
+  {
+    id: 347,
+    date: '2026-07-16',
+    category: 'Cloud',
+    title: 'Snowflake Cortex AI Platform Reaches $2 Billion ARR: Data Cloud Becomes Primary AI Development Platform for Data-Rich Enterprises',
+    excerpt: 'Snowflake reports Cortex AI, its in-database AI platform, has crossed 2 billion dollars in annual recurring revenue as enterprises increasingly run AI model inference and training directly within their data warehouses without data movement.',
+    body: [
+      "Snowflake has reported that Cortex AI, its AI development platform integrated into the Snowflake Data Cloud, has crossed 2 billion dollars in annual recurring revenue — a milestone that validates the company's strategic bet that enterprises want AI capabilities that work directly on their data warehouse data without the data movement, pipeline complexity, and security risks of extracting data to external AI systems. Cortex AI provides LLM inference, embedding generation, fine-tuning, and AI agent development through SQL-compatible APIs that data teams can use without separate AI infrastructure or engineering expertise.",
+      "The in-database AI approach provides advantages that external AI APIs cannot match: Cortex AI processes data at rest within the Snowflake security boundary, eliminating the data governance complications of sending sensitive enterprise data to external LLM APIs. Data access controls, audit logging, and compliance policies that govern Snowflake data access automatically extend to AI operations on that data. A compliance officer can verify that Cortex AI operations on HIPAA-regulated healthcare data comply with PHI access controls using the same audit infrastructure that governs SQL query access.",
+      "Cortex AI's function catalog has grown to 45 AI functions accessible through standard SQL: COMPLETE for LLM text generation, EMBED_TEXT_768 for embedding generation, CLASSIFY_TEXT for classification, EXTRACT_ANSWER for extractive question answering, TRANSLATE for multilingual content, SENTIMENT for sentiment analysis, and SUMMARIZE for document summarization — each callable from any Snowflake SQL query. The integration enables analytics engineers to build AI-powered data products using familiar SQL patterns without learning new APIs or frameworks.",
+      "<blockquote>Enterprises have spent 20 years building the best data infrastructure in history. Their data is in Snowflake — clean, governed, secure. The question was never whether to use AI. The question was whether AI should come to the data or the data should go to AI. Cortex AI is the answer: AI comes to the data. Your data never leaves. Your governance never breaks. Two billion in ARR is the market's answer. — Sridhar Ramaswamy, CEO, Snowflake</blockquote>",
+      "Snowflake is expanding Cortex AI with Cortex Analyst, a natural language query interface that allows business users to query Snowflake data in plain English — 'What were our top 10 customers by revenue last quarter and how does that compare to the year before?' — receiving SQL-generated answers without SQL knowledge. Cortex Analyst is currently in beta with 500 enterprise customers and is expected to drive the next phase of Cortex growth by expanding AI data access beyond data engineers to the broader business intelligence user base.",
+    ],
+    company: 'Snowflake',
+    readTime: 5,
+    tags: ['Snowflake', 'Cortex AI', 'Data Cloud', 'Cloud', 'Enterprise AI', 'In-Database AI'],
+  },
 ];
 
 TC.timelineData = {
