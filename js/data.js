@@ -7101,6 +7101,24 @@ undefined
     readTime: 5,
     tags: ['Samsung', 'Galaxy S26', 'On-Device AI', 'Smartphone AI', 'Privacy', 'NPU'],
   },
+
+  {
+    id: 394,
+    date: '2026-07-19',
+    category: 'Open Source',
+    title: 'Hugging Face Launches SmolLM 3: 1.7B Parameter Model Surpasses GPT-3.5 on Most Benchmarks and Runs on Raspberry Pi 5 at 15 Tokens Per Second',
+    excerpt: 'Hugging Face releases SmolLM 3, a 1.7-billion parameter model that surpasses GPT-3.5 on coding, instruction following, and commonsense reasoning benchmarks while running on Raspberry Pi 5 at 15 tokens per second, establishing a new efficiency frontier for open-weight language models.',
+    body: [
+      "Hugging Face has released SmolLM 3, a 1.7-billion parameter language model that achieves higher scores than GPT-3.5 on HumanEval coding (74% versus GPT-3.5's 48%), MMLU knowledge (67% versus 70%), and IFEval instruction following (81% versus 66%) while running on a Raspberry Pi 5 at 15 tokens per second in 4-bit quantization — establishing the most efficient publicly released language model at its capability tier. The result demonstrates that 18 months of algorithmic progress has compressed the compute required for GPT-3.5 class capability by approximately 100x.",
+      "SmolLM 3's efficiency comes from three architectural innovations published in the accompanying technical report: a new attention mechanism called Grouped Query Attention with Dynamic Allocation (GQA-DA) that reduces memory bandwidth requirements 40% versus standard multi-head attention, a curriculum training strategy that emphasizes high-quality synthetic data over web crawl diversity, and knowledge distillation from Llama 4 Scout that transfers reasoning patterns from a 109B parameter teacher to SmolLM 3's 1.7B architecture.",
+      "The Raspberry Pi 5 deployment unlocks genuinely new use cases: private AI assistants in offline environments (fieldwork, air-gapped facilities, developing regions), embedded AI in industrial IoT devices where cloud connectivity is unreliable, and educational AI in resource-constrained settings where cloud API costs are prohibitive. Hugging Face has published deployment guides for 12 edge platforms including Raspberry Pi, NVIDIA Jetson Orin, and mobile phones via llama.cpp and ONNX Runtime.",
+      "<blockquote>Two years ago, GPT-3.5 required massive cloud infrastructure. Today, GPT-3.5 capability runs on a $80 single-board computer. This is not a corner case — it is the curve. Every 18 months, the same capability gets 10x cheaper. By 2028, GPT-4 class AI runs on a watch. The implications for where AI can be deployed — and who controls the infrastructure it runs on — are enormous. — Clement Delangue, CEO, Hugging Face</blockquote>",
+      "SmolLM 3 is released under Apache 2.0 on Hugging Face Hub with pre-quantized versions for GGUF, ONNX, and ExecuTorch formats, covering the major edge inference frameworks. Hugging Face is simultaneously releasing the SmolLM 3 training recipe, dataset curation methodology, and evaluation harness to enable the community to build on the efficiency techniques that produced GPT-3.5 class performance at 1.7B scale.",
+    ],
+    company: 'Hugging Face',
+    readTime: 5,
+    tags: ['Hugging Face', 'SmolLM', 'Open Source', 'Edge AI', 'Efficient AI', 'Raspberry Pi'],
+  },
 ];
 
 TC.timelineData = {
