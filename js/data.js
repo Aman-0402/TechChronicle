@@ -7029,6 +7029,24 @@ undefined
     readTime: 5,
     tags: ['Mistral AI', 'European AI', 'Open Source', 'Frontier Model', 'Apache 2.0', 'AI Sovereignty'],
   },
+
+  {
+    id: 390,
+    date: '2026-07-18',
+    category: 'Cloud',
+    title: 'Microsoft Azure Quantum Achieves 1,000 Logical Qubits on Topological Hardware: Error Rate 100x Below Threshold for Practical Quantum Advantage',
+    excerpt: 'Microsoft demonstrates 1,000 error-corrected logical qubits on its topological qubit hardware, achieving error rates 100x below the threshold required for practical quantum advantage in cryptography and pharmaceutical simulation workloads.',
+    body: [
+      "Microsoft has demonstrated 1,000 logical qubits on its topological qubit hardware platform in Azure Quantum, achieving error rates of 0.001% per logical gate operation — 100x below the 0.1% threshold that quantum computing researchers define as necessary for practical quantum advantage on problems of industrial relevance. The milestone, announced alongside a peer-reviewed paper in Physical Review X, represents the most significant advance in quantum computing error correction since Google's 2023 surface code demonstration, and positions Microsoft as the first company to achieve logical qubit counts in the thousands with hardware-based error correction.",
+      "Microsoft's approach uses Majorana fermions — quasi-particles that emerge at the endpoints of topological superconducting nanowires — rather than superconducting transmon qubits (Google, IBM) or trapped ion qubits (IonQ, Quantinuum). Topological qubits are inherently less prone to decoherence because quantum information is stored non-locally across the wire rather than in a single point-like particle, making environmental noise less likely to corrupt the stored state. This hardware-level error protection means Microsoft requires fewer physical qubits per logical qubit — approximately 15:1 versus 1,000:1 for superconducting architectures — dramatically reducing the system scale needed to reach error-corrected logical qubit counts.",
+      "The 1,000 logical qubit demonstration enables practical quantum computing on two problem classes that the industry has identified as first targets for quantum advantage: pharmaceutical molecular simulation (modeling drug-protein interactions for 50-atom molecules that classical computers cannot simulate exactly) and post-quantum cryptography research (exploring the security margins of lattice-based cryptographic schemes). Microsoft is opening Azure Quantum access to pharmaceutical partners and cryptography research organizations as the first production users.",
+      "<blockquote>A logical qubit is a qubit that works. Everything before this was physical qubits — fragile, noisy, unreliable. Logical qubits are error-corrected: they behave the way quantum computers need to behave to do useful work. One thousand logical qubits at 0.001% error rate is the moment quantum computing stopped being a future technology and became a present capability. — Satya Nadella, CEO, Microsoft</blockquote>",
+      "Microsoft is publishing the complete fabrication process for its topological qubit hardware as an open specification, inviting semiconductor manufacturers to develop the nanowire fabrication capabilities needed for large-scale topological qubit production. The open specification strategy mirrors Microsoft's approach to the RISC-V ISA — building an ecosystem of hardware manufacturers rather than vertically integrating manufacturing, enabling the supply chain scaling that quantum computing will require to achieve commercially viable qubit counts beyond 10,000.",
+    ],
+    company: 'Microsoft',
+    readTime: 5,
+    tags: ['Microsoft', 'Azure Quantum', 'Quantum Computing', 'Topological Qubits', 'Error Correction', 'Cloud'],
+  },
 ];
 
 TC.timelineData = {
