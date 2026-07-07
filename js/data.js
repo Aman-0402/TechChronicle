@@ -6507,6 +6507,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft', 'Azure', 'AI SRE', 'Cloud Operations', 'Incident Resolution', 'Automation'],
   },
+
+  {
+    id: 361,
+    date: '2026-07-16',
+    category: 'Research',
+    title: 'ETH Zurich Develops AI That Designs Clinical Trials 40% More Efficiently: Machine Learning Optimizes Patient Enrollment, Dosing, and Endpoint Selection',
+    excerpt: 'ETH Zurich researchers demonstrate an AI system that designs clinical trials with 40% fewer patients needed for statistical significance by optimizing enrollment criteria, adaptive dosing protocols, and primary endpoint selection.',
+    body: [
+      "Researchers at ETH Zurich have demonstrated an AI system that designs clinical trials with 40% fewer patients needed to achieve statistical significance, through simultaneous optimization of three interdependent trial design variables: patient enrollment criteria (which patients to include to maximize signal strength), adaptive dosing protocols (adjusting doses based on interim results rather than fixed schedules), and primary endpoint selection (choosing outcome measures with the highest sensitivity to the drug's mechanism of action). The system was validated on 120 historical Phase 2 and Phase 3 trials, where AI-designed trial parameters would have achieved the same statistical power with 38% fewer enrolled patients on average.",
+      "Patient enrollment criteria optimization is the highest-impact lever: clinical trials typically use broad enrollment criteria to maximize patient availability, but broad enrollment reduces statistical signal by including patients unlikely to respond to the drug. The AI system analyzes biomarker data from preclinical studies and Phase 1 results to identify the patient subpopulations where the drug's mechanism of action is most likely to produce measurable effects, tightening enrollment criteria to increase signal-to-noise ratio. The approach requires smaller trials while improving the probability of detecting true drug effects.",
+      "Adaptive dosing protocols replace fixed dose schedules with Bayesian optimization that updates dosing recommendations after each patient cohort's results, identifying the optimal dose faster than traditional dose escalation protocols and with fewer patients exposed to subtherapeutic or toxic doses. The AI continuously updates a pharmacokinetic/pharmacodynamic model from interim patient data, predicting the dose-response relationship and recommending the next cohort's dose to maximize information about the optimal therapeutic window.",
+      "<blockquote>Clinical trials are the bottleneck in medicine. A single Phase 3 trial takes 5-7 years and costs 300-700 million dollars. Anything that reduces trial size by 40% without reducing statistical power accelerates medicine by years and saves hundreds of millions per drug. This is not a research exercise — it is the most important application of AI to human health. Every year of drug development delay is measured in preventable patient deaths. — Karsten Borgwardt, Professor of Data Mining, ETH Zurich</blockquote>",
+      "The ETH Zurich system is being commercialized through a spin-out company, TrialAI, which is seeking FDA and EMA guidance on incorporating AI-designed trial parameters into regulatory submissions. Initial pharmaceutical partnerships with Roche, Novartis, and AstraZeneca are testing the system on current drug development programs, with results expected to demonstrate real-world validity of the retrospective analysis. If validated prospectively, the system could compress drug development timelines and reduce the cost of bringing new medicines to market.",
+    ],
+    company: 'ETH Zurich',
+    readTime: 5,
+    tags: ['ETH Zurich', 'Clinical Trials', 'AI Research', 'Healthcare', 'Drug Development', 'Research'],
+  },
 ];
 
 TC.timelineData = {
