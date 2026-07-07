@@ -6687,6 +6687,24 @@ undefined
     readTime: 5,
     tags: ['Cognition AI', 'Devin', 'AI Agent', 'Autonomous Coding', 'Startups', 'Software Engineering'],
   },
+
+  {
+    id: 371,
+    date: '2026-07-18',
+    category: 'AI',
+    title: 'Google DeepMind AlphaFold 4 Predicts RNA and Protein-RNA Complex Structures With 94% Accuracy: Unlocking Drug Targets for 3,000 Previously Undruggable Diseases',
+    excerpt: 'Google DeepMind releases AlphaFold 4, extending its structure prediction breakthrough from proteins to RNA molecules and protein-RNA complexes, achieving 94% accuracy and unlocking structural data for drug targets previously inaccessible to pharmaceutical researchers.',
+    body: [
+      "Google DeepMind has released AlphaFold 4, extending its landmark protein structure prediction capability to RNA molecules and protein-RNA complexes — the structural classes responsible for gene regulation, splicing, and viral replication that have remained largely inaccessible to drug discovery despite representing thousands of validated disease targets. AlphaFold 4 achieves 94% accuracy on RNA structure prediction benchmarks, compared to previous state-of-the-art methods that topped out at 71%, delivering a generational leap in structural biology's ability to characterize the non-protein components of cellular machinery.",
+      "RNA drug targets represent one of pharmaceutical research's most significant untapped opportunities. An estimated 3,000 disease-relevant RNA structures — including the regulatory elements of oncogenes, viral polymerases, and ribosomal frameshifting sequences — have been validated as drug targets but lacked structural data needed for rational drug design. AlphaFold 4 provides predicted structures for all 3,000 in a single database release, immediately giving medicinal chemists the 3D coordinates needed to design small molecule and RNA-targeting drugs against previously undruggable disease mechanisms.",
+      "Roche and AstraZeneca have announced research programs specifically targeting AlphaFold 4 RNA structures, with Roche focusing on oncogenic non-coding RNAs in triple-negative breast cancer and AstraZeneca targeting viral RNA polymerase structures for next-generation antiviral development. Both programs credit AlphaFold 4 with compressing the target identification phase from 3-5 years of experimental structural biology to weeks of computational prediction, fundamentally changing the economics of RNA-targeted drug discovery.",
+      "<blockquote>AlphaFold 3 solved proteins. AlphaFold 4 completes the picture. The cell is not just proteins — it is proteins talking to RNA, RNA folding into machines, RNA carrying instructions. We can now see all of that. The structural dark matter of biology is becoming visible. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "All AlphaFold 4 predictions are freely available via the European Bioinformatics Institute database — consistent with DeepMind's policy of releasing AlphaFold outputs as a public scientific resource. The database currently covers 98% of known human RNA families, all known viral RNA structures relevant to infectious disease, and predicted structures for every protein-RNA complex with published interaction data, representing the most comprehensive structural resource ever assembled for RNA biology.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 5,
+    tags: ['Google DeepMind', 'AlphaFold', 'AI', 'RNA Structure', 'Drug Discovery', 'Structural Biology'],
+  },
 ];
 
 TC.timelineData = {
