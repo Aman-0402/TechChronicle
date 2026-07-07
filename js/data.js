@@ -7209,6 +7209,24 @@ undefined
     readTime: 5,
     tags: ['Glean', 'Enterprise AI', 'Knowledge Management', 'Startups', 'AI Search', 'Series F'],
   },
+
+  {
+    id: 400,
+    date: '2026-07-19',
+    category: 'AI',
+    title: 'OpenAI GPT-5 Turbo Achieves 90% on ARC-AGI-2 Benchmark: Closest Any AI Has Come to Human-Level General Reasoning on the Hardest AGI Evaluation',
+    excerpt: 'OpenAI releases GPT-5 Turbo, achieving 90% on ARC-AGI-2 — the hardest general reasoning benchmark designed to resist AI overfitting — compared to human average of 94%, the narrowest gap ever recorded between AI and human performance on a task designed to measure general intelligence.',
+    body: [
+      "OpenAI has released GPT-5 Turbo, achieving 90% accuracy on ARC-AGI-2 — the second generation of Francois Chollet's Abstraction and Reasoning Corpus, specifically redesigned to prevent AI systems from gaming the benchmark through pattern memorization. Human participants score an average of 94% on ARC-AGI-2, making GPT-5 Turbo's 90% the closest any AI system has come to human-level performance on a task specifically designed to measure general fluid reasoning rather than narrow task-specific capability. The previous frontier on ARC-AGI-2 was 72%, achieved by OpenAI's o4-max in March 2026.",
+      "ARC-AGI-2 tests reasoning that cannot be learned from training data: novel visual pattern recognition requiring inference of abstract rules from examples, multi-step logical deduction from new premises, and spatial reasoning on configurations not present in any training corpus. The benchmark was designed on the principle that human cognitive flexibility — the ability to generalize from a few examples to new situations — is the core capability that distinguishes human intelligence from narrow AI pattern matching. GPT-5 Turbo's 90% result challenges the assumption that this flexibility is uniquely human.",
+      "GPT-5 Turbo achieves the result through a combination of architectural innovations described in OpenAI's technical report: a new reasoning architecture called Extended Chain-of-Thought with Backtracking (ECoT-BT) that allows the model to revise intermediate reasoning steps when it detects internal contradictions, a synthetic data generation pipeline that creates novel reasoning challenges for training rather than relying on human-generated examples, and a larger context window (500K tokens) that enables holding complex multi-step reasoning chains in working memory.",
+      "<blockquote>90% on ARC-AGI-2 is not AGI. 94% would not be AGI. AGI is not a benchmark score — it is a capability profile across all the things humans do, not one cleverly designed test. What 90% on ARC-AGI-2 means is that the reasoning flexibility gap between AI and humans is closing faster than anyone predicted two years ago. What comes next, we genuinely do not know. — Sam Altman, CEO, OpenAI</blockquote>",
+      "GPT-5 Turbo is available via OpenAI API at $5 per million input tokens and $20 per million output tokens, positioned between GPT-4o and the full GPT-5 reasoning model in the cost-performance tradeoff space. OpenAI is simultaneously releasing a comprehensive safety evaluation of GPT-5 Turbo covering capability elicitation for harmful applications, jailbreak resistance, and autonomous action potential — establishing the most thorough pre-deployment safety documentation published for any frontier model to date.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'GPT-5 Turbo', 'AI', 'ARC-AGI', 'General Reasoning', 'AGI Benchmark'],
+  },
 ];
 
 TC.timelineData = {
