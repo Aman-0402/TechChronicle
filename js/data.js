@@ -6921,6 +6921,24 @@ undefined
     readTime: 5,
     tags: ['Zig', 'Programming', 'Systems Language', 'C Interop', 'Comptime', 'Stable Release'],
   },
+
+  {
+    id: 384,
+    date: '2026-07-18',
+    category: 'Hardware',
+    title: 'Qualcomm Snapdragon X Elite 2 Overtakes Apple M4 on Cinebench: ARM Windows Performance Parity Achieved as PC Market Shifts to RISC Architecture',
+    excerpt: 'Qualcomm releases Snapdragon X Elite 2, achieving higher Cinebench R25 multi-core scores than Apple M4 in benchmarks, marking the first time a Windows ARM processor outperforms Apple Silicon on compute-intensive tasks and signaling a fundamental shift in PC architecture.',
+    body: [
+      "Qualcomm has released Snapdragon X Elite 2, its next-generation ARM processor for Windows PCs, achieving 32,400 points on the Cinebench R25 multi-core benchmark — 8% higher than Apple M4's 29,950 — marking the first time a Windows processor has outperformed Apple Silicon on the benchmark that best measures sustained compute performance. The result, verified by independent reviewers at AnandTech, The Verge, and Notebookcheck, signals that ARM architecture parity with Apple Silicon is no longer an aspirational target for Windows OEMs but an achieved fact.",
+      "Snapdragon X Elite 2 achieves the performance milestone through a combination of architectural improvements: Oryon 3 CPU cores running at up to 4.2 GHz with improved branch prediction and expanded L3 cache (32MB versus 16MB in X Elite 1), an Adreno 870 GPU with 50% more shader units, and a 4nm TSMC N4P process providing 18% better performance-per-watt than the previous generation. Battery life benchmarks show 20 hours on the 60Wh reference battery that Qualcomm's OEM partners use for reference design validation.",
+      "The practical consequence for the PC market is that enterprise and consumer buyers evaluating ARM Windows devices no longer need to accept performance tradeoffs relative to Apple alternatives. Lenovo, Dell, and Samsung are launching X Elite 2 devices simultaneously with premium positioning — targeting the MacBook Pro buyer who prefers Windows or requires Windows-specific enterprise software — and initial sales data from early adopters shows the fastest ARM Windows adoption since Microsoft's initial ARM push in 2020.",
+      "<blockquote>We made a bet five years ago that ARM would win Windows, and Windows OEMs doubted us. They don't doubt anymore. X Elite 2 beats M4. The next generation of X Elite will beat M5. We are not catching up. We are competing at the frontier, and the frontier is ARM. — Cristiano Amon, CEO, Qualcomm</blockquote>",
+      "Snapdragon X Elite 2 ships in Lenovo ThinkPad X1 Carbon ARM, Dell XPS 14 ARM, and Samsung Galaxy Book5 Pro ARM starting at $1,299, $1,199, and $1,099 respectively. Qualcomm is simultaneously publishing X86 emulation benchmark improvements — X Elite 2 runs emulated x86 code 35% faster than X Elite 1, reducing the performance penalty for applications not yet recompiled for ARM to negligible levels for most productivity software.",
+    ],
+    company: 'Qualcomm',
+    readTime: 5,
+    tags: ['Qualcomm', 'Snapdragon', 'ARM', 'Windows', 'Hardware', 'Apple Silicon Alternative'],
+  },
 ];
 
 TC.timelineData = {
