@@ -6579,6 +6579,24 @@ undefined
     readTime: 5,
     tags: ['Runway', 'Video Generation', 'AI', 'Gen-6', 'Video AI', 'Photorealistic'],
   },
+
+  {
+    id: 365,
+    date: '2026-07-16',
+    category: 'Cloud',
+    title: 'Databricks Data Intelligence Platform Processes 1 Exabyte Daily: Unified Analytics and AI Platform Becomes Standard for Fortune 500 Data Architecture',
+    excerpt: 'Databricks reports the Data Intelligence Platform now processes over 1 exabyte of data daily across its global customer base, cementing its position as the unified analytics and AI infrastructure standard for large enterprise data operations.',
+    body: [
+      "Databricks has announced that the Data Intelligence Platform now processes over 1 exabyte (1 billion gigabytes) of data daily across its global customer base — a volume milestone that underscores the platform's role as the unified analytics and AI infrastructure for data-intensive enterprises. The figure encompasses Databricks' core capabilities: Apache Spark-based batch and streaming analytics, Delta Lake ACID-compliant data lake storage, MLflow machine learning lifecycle management, and Unity Catalog unified data and AI governance. Across 10,000+ enterprise customers, these capabilities have consolidated what previously required separate data warehouse, data lake, and ML platforms.",
+      "The platform's commercial trajectory validates the lakehouse architecture that Databricks pioneered: combining the reliability, governance, and performance of data warehouses with the flexibility and cost efficiency of data lakes. Competitors including Snowflake, Google BigQuery, and Amazon Redshift have all introduced lakehouse-compatible capabilities since Databricks popularized the concept, validating the architectural direction while intensifying competition for enterprise data platform spending.",
+      "AI integration is the growth driver for the current expansion: Databricks AI Functions allow SQL users to invoke LLMs on data within SQL queries, similar to Snowflake Cortex but with broader model support and better performance for batch AI processing (processing millions of records through LLMs is a common enterprise use case for content classification, entity extraction, and data enrichment). The Mosaic AI platform provides managed training, fine-tuning, and inference for custom models, using the same unified governance as the data platform.",
+      "<blockquote>Data and AI are not separate problems. The AI that is most valuable to enterprises is the AI that understands their specific data — their customers, their products, their operations. That AI lives where the data lives. One exabyte per day on the Data Intelligence Platform means enterprise AI is learning from enterprise data at scale. The separation between data platforms and AI platforms is ending. — Ali Ghodsi, CEO, Databricks</blockquote>",
+      "Databricks reached 3 billion dollars in annual recurring revenue in FY2026 and is preparing for an IPO expected to be one of the largest software company listings since Snowflake's 2020 IPO. The company's strategic differentiation from Snowflake centers on open source (Delta Lake, MLflow, and Spark are all Apache open source projects) versus Snowflake's proprietary architecture, giving Databricks customers the ability to migrate data without vendor lock-in.",
+    ],
+    company: 'Databricks',
+    readTime: 5,
+    tags: ['Databricks', 'Data Platform', 'Cloud', 'Analytics', 'AI', 'Lakehouse'],
+  },
 ];
 
 TC.timelineData = {
