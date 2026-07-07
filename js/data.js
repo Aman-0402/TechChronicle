@@ -6003,6 +6003,24 @@ undefined
     readTime: 5,
     tags: ['Harvard', 'Medical AI', 'Research', 'Rare Disease', 'Diagnostics', 'Healthcare AI'],
   },
+
+  {
+    id: 333,
+    date: '2026-07-15',
+    category: 'Dev Tools',
+    title: 'Linear Adds AI Project Manager: Issue Tracker Automatically Creates Milestones, Estimates Work, and Detects Engineering Bottlenecks',
+    excerpt: 'Linear releases AI-powered project management features that automatically break down feature requests into engineering tasks, estimate completion dates based on team velocity, and surface blockers before they delay project milestones.',
+    body: [
+      "Linear has released AI Project Manager, a major new capability for the developer-focused issue tracking platform that automates the project management overhead that engineering teams currently perform manually. The system automatically breaks down feature requests (written in natural language) into granular engineering tasks with suggested labels, assignees based on team ownership patterns, and effort estimates derived from historical similar-complexity work. A product requirement like 'Add OAuth login with Google and GitHub' is automatically converted into 12-15 engineering subtasks with appropriate technical breakdown, assigned to the engineers who own the relevant systems.",
+      "Velocity-based completion date estimation addresses one of engineering management's most persistent challenges: project timeline prediction. Linear's AI analyzes team completion rates across different task types and complexity levels, accounting for planning horizon bias (teams consistently underestimate distant work), technical debt overhead, and individual engineer velocity variation. Completion date estimates include confidence intervals that widen appropriately for longer-horizon predictions, giving stakeholders accurate uncertainty information rather than false precision.",
+      "Bottleneck detection analyzes the dependency graph of in-progress work and identifies blockers before they appear in delayed completion dates. A task blocked on another team's API delivery, a design review waiting on stakeholder availability, or a testing phase held up by environment access — the system surfaces these blockers when they appear, not when they have already delayed the milestone. Weekly AI summaries sent to engineering leads identify the three most at-risk projects and the specific actions required to keep them on track.",
+      "<blockquote>Engineering teams are drowning in project management overhead that adds no value to the software they are building. Every hour an engineer spends creating subtasks, estimating effort, updating status, and writing status reports is an hour not writing code. Linear's AI Project Manager eliminates that overhead. Engineering teams should focus on engineering. AI should handle the project management. — Karri Saarinen, CEO, Linear</blockquote>",
+      "Linear AI Project Manager is available to all Linear plans with a 10 USD per user per month premium for AI features. The system learns organizational patterns within each Linear workspace — understanding team structures, typical task granularity, naming conventions, and estimation accuracy for each team — improving continuously as more projects complete. API access allows organizations to integrate Linear AI Project Manager into existing PM workflows and tools.",
+    ],
+    company: 'Linear',
+    readTime: 5,
+    tags: ['Linear', 'Project Management', 'Dev Tools', 'AI', 'Engineering Productivity', 'Issue Tracking'],
+  },
 ];
 
 TC.timelineData = {
