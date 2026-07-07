@@ -6813,6 +6813,24 @@ undefined
     readTime: 5,
     tags: ['Neuromorphic', 'MIT', 'Intel Loihi', 'Edge AI', 'Research', 'Energy Efficiency'],
   },
+
+  {
+    id: 378,
+    date: '2026-07-18',
+    category: 'Dev Tools',
+    title: 'JetBrains Fleet 2.0 Launches With Distributed Pair Programming and AI Code Review: Shared Editing Sessions Scale to 50 Developers Simultaneously',
+    excerpt: 'JetBrains releases Fleet 2.0, its next-generation multi-language IDE, with distributed pair programming supporting 50 concurrent developers in shared editing sessions, integrated AI code review that runs on commit, and a plugin-free extensibility model using WebAssembly.',
+    body: [
+      "JetBrains has released Fleet 2.0, a major update to its next-generation multi-language IDE that ships three features setting it apart from VS Code and the original IntelliJ family: distributed pair programming supporting 50 concurrent developers in a single shared editing session with conflict-free collaborative editing (based on CRDTs rather than operational transforms), integrated AI code review that analyzes every commit against repository-specific code standards before push, and a plugin architecture based on WebAssembly modules that eliminates JVM cold start overhead and enables plugins to run sandboxed with memory safety guarantees.",
+      "The 50-developer shared editing session is Fleet 2.0's headline capability, enabling use cases from mob programming sessions to live coding interviews to educational environments where instructors and multiple students edit the same codebase simultaneously. Fleet's CRDT-based conflict resolution handles simultaneous edits to the same line correctly — merging character-level changes without edit conflicts that require manual resolution — while the presence awareness system shows each participant's cursor, selection, and recent edit history in a sidebar that doesn't obstruct the editing surface.",
+      "AI code review runs as a commit hook, analyzing changed code against patterns extracted from the repository's existing codebase and the project's documented coding standards. The system flags deviations from established patterns (naming conventions, error handling approaches, architectural boundaries between modules), suggests improvements based on similar code in the repository, and identifies potential bugs in changed logic before the commit reaches CI. Unlike external code review tools, Fleet's AI reviewer has full IDE context — it understands the call hierarchy, type information, and cross-file dependencies of changed code.",
+      "<blockquote>VS Code won the IDE war with simplicity and extensions. Fleet 2.0 wins the next IDE war with collaboration and intelligence. Every team writes code together now — remote-first, async-first, AI-assisted. Fleet is built for that world. Not the world of 2015 where one developer edited one file alone. — Kirill Skrygan, CTO, JetBrains</blockquote>",
+      "Fleet 2.0 is available for macOS, Windows, and Linux with JetBrains AI Pro subscription (included in All Products Pack) or standalone at $15/month per developer. The distributed editing backend is cloud-hosted but code never leaves the developer's machine in plaintext — all editing operations are encrypted end-to-end, with JetBrains' infrastructure routing only encrypted CRDT operations between participants without access to source code content.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['JetBrains', 'Fleet', 'Dev Tools', 'IDE', 'Pair Programming', 'AI Code Review'],
+  },
 ];
 
 TC.timelineData = {
