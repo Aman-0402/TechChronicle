@@ -6669,6 +6669,24 @@ undefined
     readTime: 5,
     tags: ['Linux', 'Open Source', 'Kernel', 'ML Scheduler', 'Rust', 'SCHED_AI'],
   },
+
+  {
+    id: 370,
+    date: '2026-07-17',
+    category: 'Startups',
+    title: 'Cognition AI Devin 2.0 Autonomous Software Engineer Completes 72% of Real GitHub Issues Without Human Intervention: Series C at $4B Valuation',
+    excerpt: 'Cognition AI releases Devin 2.0, its autonomous software engineering agent, achieving 72% success rate on real-world GitHub issues end-to-end — writing code, running tests, fixing failures, and opening PRs — closing $200M Series C at a $4B valuation.',
+    body: [
+      "Cognition AI has released Devin 2.0, its autonomous software engineering agent, achieving a 72% success rate on real-world GitHub issues — writing code, running tests, iterating on failures, and opening pull requests without human intervention. The result represents a 3x improvement over Devin 1.0's 24% success rate on the SWE-bench benchmark and marks the first time an AI agent has crossed the threshold where autonomous software engineering becomes economically viable for a broad class of maintenance and feature work.",
+      "Devin 2.0 introduces long-horizon planning with explicit task decomposition: the agent breaks GitHub issues into subtasks, executes each in a sandboxed environment with full access to the repository's test suite, debugs failures by reading error output and revising code, and validates changes against the original issue requirements before opening a PR. The system handles multi-file changes, dependency updates, and test writing — not just single-function patches — giving it genuine utility on real-world software projects rather than simplified benchmark environments.",
+      "Enterprise customers including Stripe, Shopify, and Atlassian have deployed Devin 2.0 in production for backlog reduction, reporting that the agent successfully closes 60-70% of low-priority GitHub issues that would otherwise wait weeks or months for developer attention. The economic model is per-issue pricing ($25 per resolved issue) with no charge for failed attempts — aligning Cognition's incentives with customer outcomes and making ROI calculation straightforward against developer hourly rates.",
+      "<blockquote>Devin 2.0 doesn't replace software engineers. It eliminates the backlog. Every engineering team has hundreds of issues they know how to fix but never have time for — security dependency updates, API deprecation warnings, test coverage gaps. Devin handles those. Engineers focus on the problems that require human judgment. That's not displacement; that's leverage. — Scott Wu, CEO, Cognition AI</blockquote>",
+      "The $200M Series C at a $4B valuation, led by Benchmark with participation from Index Ventures and existing investors, follows Cognition's rapid customer adoption since Devin 1.0's launch 18 months ago. The funding will expand Devin's language and framework support (currently strong in Python, TypeScript, Go; expanding to Java, Rust, and C++) and invest in the multi-agent coordination layer that allows multiple Devin instances to work on related issues in parallel without conflicting changes.",
+    ],
+    company: 'Cognition AI',
+    readTime: 5,
+    tags: ['Cognition AI', 'Devin', 'AI Agent', 'Autonomous Coding', 'Startups', 'Software Engineering'],
+  },
 ];
 
 TC.timelineData = {
