@@ -7011,6 +7011,24 @@ undefined
     readTime: 5,
     tags: ['Cohere', 'Command A', 'Enterprise AI', 'RAG', 'Startups', 'Document Understanding'],
   },
+
+  {
+    id: 389,
+    date: '2026-07-18',
+    category: 'AI',
+    title: 'Mistral AI Releases Mistral Large 3: European Frontier Model Matches GPT-4o on Coding and Math, Runs Fully On-Premise With Apache 2.0 License',
+    excerpt: 'Paris-based Mistral AI releases Mistral Large 3, matching GPT-4o performance on coding and mathematical reasoning benchmarks while offering Apache 2.0 licensing that permits unlimited commercial deployment on-premise without API fees or data sharing requirements.',
+    body: [
+      "Mistral AI has released Mistral Large 3, its latest frontier model, achieving performance matching GPT-4o on HumanEval coding benchmarks (91.2% pass@1 versus GPT-4o's 90.2%) and MATH competition mathematics (68.4% versus GPT-4o's 67.9%) while releasing the model weights under Apache 2.0 — the most permissive license available for a frontier-class model, allowing unlimited commercial deployment, fine-tuning, and distribution without royalties, API fees, or usage reporting requirements. Large 3 can run on a single server with 4 H100 GPUs in INT4 quantized format.",
+      "The Apache 2.0 licensing decision is strategically targeted at European enterprises subject to GDPR and sector-specific data sovereignty regulations that prohibit sending sensitive data to U.S. cloud API providers. Mistral Large 3 enables these organizations to deploy frontier-class AI entirely within their own infrastructure — running in their private cloud, on-premise data center, or air-gapped environment — with no data leaving their control. The model is pre-certified for GDPR compliance documentation, providing the legal basis for data processing that European DPOs require before approving AI deployments.",
+      "Mistral AI's latest funding round ($1.2B at a $9B valuation, led by General Catalyst with participation from Andreessen Horowitz and NVIDIA) has enabled the compute investment to train Large 3 at frontier scale while maintaining the open-weight release model that differentiates Mistral from U.S. competitors. The company argues that open-weight models are necessary for European AI sovereignty — Europe cannot depend on U.S. AI infrastructure for critical applications, and open weights are the mechanism for building European AI capability that is not contingent on U.S. corporate access decisions.",
+      "<blockquote>We are building AI that Europe can trust — not because Americans cannot be trusted, but because trust should not depend on who controls the infrastructure. Mistral Large 3, deployed on European infrastructure, under European data governance, is European AI. That is why the license is Apache 2.0. Control means nothing if you need permission to use it. — Arthur Mensch, CEO, Mistral AI</blockquote>",
+      "Mistral AI is simultaneously launching Le Chat Enterprise — a managed deployment of Large 3 on French and German Azure regions with EU data residency guarantees and a compliance documentation package targeting regulated industries. Le Chat Enterprise is positioned as the turnkey option for enterprises that want the sovereignty benefits of open-weight AI without the operational burden of self-hosting, with Mistral managing infrastructure while the customer retains data sovereignty through contractual commitments.",
+    ],
+    company: 'Mistral AI',
+    readTime: 5,
+    tags: ['Mistral AI', 'European AI', 'Open Source', 'Frontier Model', 'Apache 2.0', 'AI Sovereignty'],
+  },
 ];
 
 TC.timelineData = {
