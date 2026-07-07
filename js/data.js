@@ -7173,6 +7173,24 @@ undefined
     readTime: 5,
     tags: ['Oracle', 'Sovereign AI', 'Cloud', 'Data Sovereignty', 'Government Cloud', 'Compliance'],
   },
+
+  {
+    id: 398,
+    date: '2026-07-19',
+    category: 'Dev Tools',
+    title: 'Cursor 2.0 Launches Autonomous Agent Mode: AI Writes, Tests, and Deploys Complete Features Across Multi-File Codebases Without Developer Oversight',
+    excerpt: 'Cursor releases version 2.0 with Autonomous Agent mode, enabling AI to plan and implement complete features spanning multiple files, run tests, fix failures, and open pull requests, with developers reviewing finished PRs rather than supervising individual code changes.',
+    body: [
+      "Cursor has released version 2.0, introducing Autonomous Agent mode — a shift from AI-assisted coding (where developers prompt AI for individual completions and edits) to AI-autonomous coding (where developers describe a feature, and Cursor's agent plans the implementation, writes code across multiple files, runs the test suite, fixes failures, and opens a pull request for developer review). Developers interact with finished PRs rather than supervising individual code changes, fundamentally changing the developer workflow from code author to code reviewer.",
+      "Autonomous Agent mode uses a multi-step planning system: the agent first generates a structured implementation plan (files to modify, interfaces to define, tests to write), presents it for developer approval before writing any code, then executes the plan in a sandboxed environment where file changes and test results are tracked. The agent iterates on test failures automatically — reading error messages, diagnosing root causes, and writing fixes — with a configurable maximum iteration count that prevents runaway loops on intractable problems.",
+      "The practical impact on development velocity is significant: Cursor's benchmark data shows 68% of medium-complexity feature requests (adding a new API endpoint, implementing a new UI component, adding authentication to an existing flow) complete successfully without developer intervention beyond initial description and final PR approval. The 32% failure rate is concentrated in cross-cutting concerns (schema migrations, security-sensitive code, performance optimization) where the agent stops and escalates to the developer with a diagnosis rather than attempting an uncertain fix.",
+      "<blockquote>Copilot autocompleted lines. Cursor 1.0 completed functions. Cursor 2.0 completes features. The progression is not incremental — it is a change in what the developer does. You are no longer writing code. You are reviewing code. That is a 10x leverage point: reviewing is 10x faster than writing, if the code written is good enough to review. Ours is. — Michael Truell, CEO, Cursor</blockquote>",
+      "Cursor 2.0 Autonomous Agent is available on Cursor Pro ($20/month) and Business ($40/user/month) plans, with Autonomous Agent mode included at 50 agent sessions per month. The agent integrates with GitHub, GitLab, and Bitbucket for PR creation, and supports any language and framework that can be run in a local terminal environment — making it compatible with the full range of codebases Cursor users work on rather than requiring specific technology stack support.",
+    ],
+    company: 'Cursor',
+    readTime: 5,
+    tags: ['Cursor', 'AI Coding', 'Dev Tools', 'Autonomous Agent', 'Code Generation', 'Developer Productivity'],
+  },
 ];
 
 TC.timelineData = {
