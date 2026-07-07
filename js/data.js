@@ -6651,6 +6651,24 @@ undefined
     readTime: 5,
     tags: ['AMD', 'Instinct MI400', 'AI Accelerator', 'Hardware', 'NVIDIA Alternative', 'ROCm'],
   },
+
+  {
+    id: 369,
+    date: '2026-07-17',
+    category: 'Open Source',
+    title: 'Linux Kernel 7.0 Ships With AI-Accelerated Scheduler: New ML-Based Process Scheduler Reduces Latency 35% on Heterogeneous Workloads Across Arm and x86',
+    excerpt: 'Linux kernel 7.0 debuts with an ML-based process scheduler trained on 50 billion scheduling events, reducing tail latency 35% on mixed CPU-GPU workloads and establishing machine learning as a core kernel subsystem for the first time in Linux history.',
+    body: [
+      "Linux kernel 7.0 ships with the SCHED_AI scheduler — the first machine learning-based process scheduler merged into the mainline kernel — trained on 50 billion scheduling decisions collected from production workloads at Google, Meta, and Amazon. The new scheduler reduces p99 tail latency 35% on heterogeneous workloads mixing CPU-bound and GPU-bound processes on both x86 and Arm architectures, with the largest gains observed on multi-socket NUMA systems running mixed AI inference and web serving workloads.",
+      "SCHED_AI uses a lightweight neural network (12KB inference binary, sub-microsecond inference time) that runs directly in kernel space, predicting optimal CPU core placement and time-slice length for each process based on historical execution patterns. The model is updated offline from production telemetry and baked into kernel releases — it does not train online during runtime, eliminating the stability risks associated with in-kernel ML adaptation. The scheduler falls back to CFS (Completely Fair Scheduler) for processes with insufficient history, ensuring no regression for cold-start workloads.",
+      "Linux creator Linus Torvalds merged SCHED_AI after a three-year review process that addressed concerns about kernel complexity, model interpretability, and security (poisoned training data could theoretically degrade scheduling quality). The final implementation includes telemetry opt-out via kernel command line, formal verification of the inference path for memory safety, and complete fallback to CFS via a single sysctl flag — addressing the community's governance concerns while delivering real-world performance improvements.",
+      "<blockquote>I've been skeptical of AI in the kernel for a long time. My concern was always: what happens when the model is wrong? The answer they gave me was CFS. If SCHED_AI makes a bad prediction, CFS catches it. That's the right engineering answer — AI as enhancement, not replacement. I can live with that. — Linus Torvalds, Linux Kernel Creator</blockquote>",
+      "Linux 7.0 also includes the long-awaited Rust-in-kernel stabilization — Rust is now a fully supported language for kernel module development alongside C, with Rust drivers for NVMe and USB HID merged in this release. The combination of ML scheduling and Rust memory safety represents the most significant architectural evolution of the Linux kernel in over a decade, establishing Linux 7.0 as a landmark release for the open source operating system.",
+    ],
+    company: 'Linux Foundation',
+    readTime: 5,
+    tags: ['Linux', 'Open Source', 'Kernel', 'ML Scheduler', 'Rust', 'SCHED_AI'],
+  },
 ];
 
 TC.timelineData = {
