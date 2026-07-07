@@ -6777,6 +6777,24 @@ undefined
     readTime: 5,
     tags: ['Intel', 'Lunar Lake 2', 'AI PC', 'NPU', 'Hardware', 'Mobile Processor'],
   },
+
+  {
+    id: 376,
+    date: '2026-07-18',
+    category: 'Open Source',
+    title: 'PostgreSQL 18 Ships Native Column-Store and Automatic Partitioning: OLAP Queries 40x Faster Without External Data Warehouse Migration',
+    excerpt: 'PostgreSQL 18 introduces a native columnar storage engine and automatic table partitioning, accelerating analytical queries 40x on large datasets and positioning Postgres as a credible alternative to dedicated OLAP warehouses for mixed transactional-analytical workloads.',
+    body: [
+      "PostgreSQL 18 ships with two features that transform the world's most popular open source relational database into a credible OLAP platform: a native columnar storage engine that stores wide-table data in compressed column format for analytical queries, and automatic table partitioning that uses ML-trained access pattern analysis to partition large tables by the columns most frequently used in range scans without manual partition key selection. Together, the features accelerate analytical queries on large datasets 40x in benchmarks while maintaining full ACID transactional compatibility for concurrent OLTP workloads.",
+      "The columnar storage engine, called pg_columnar, is implemented as a storage access method — PostgreSQL's pluggable storage interface — allowing tables to be designated as columnar at creation time or migrated from heap storage with a single ALTER TABLE command and no application code changes. Columnar tables use ZSTD compression achieving 5-8x compression ratios on typical analytical workloads, dramatically reducing storage costs for historical data that is written once and queried frequently. The engine supports all PostgreSQL data types, functions, and indexes, maintaining the database's full feature compatibility while adding columnar acceleration.",
+      "Automatic partitioning solves one of PostgreSQL's longest-standing operational pain points: the requirement to manually design partition schemes before data grows to a size where partitioning becomes necessary, and the inability to retroactively partition without application downtime. PostgreSQL 18's auto-partitioning daemon monitors query patterns, identifies tables where partition pruning would reduce query scan cost by more than a configurable threshold, and transparently partitions them in the background — routing queries to the appropriate partition without application awareness.",
+      "<blockquote>PostgreSQL has always been the database that does everything well. With columnar storage and auto-partitioning, it now does analytical workloads excellently. The goal was never to replace data warehouses — it was to remove the reason to introduce a second database into an architecture that Postgres can handle alone. — Bruce Momjian, PostgreSQL Core Team</blockquote>",
+      "The combination of transactional correctness and analytical performance in a single open source database has significant architectural implications: organizations running Postgres for OLTP that currently ETL data to Snowflake, Redshift, or BigQuery for analysis can evaluate whether their analytical workloads fit within PostgreSQL 18's new capabilities, potentially eliminating warehouse infrastructure costs and ETL pipeline complexity for workloads under 10TB of analytical data.",
+    ],
+    company: 'PostgreSQL',
+    readTime: 5,
+    tags: ['PostgreSQL', 'Open Source', 'Database', 'Columnar Storage', 'OLAP', 'Data Warehouse'],
+  },
 ];
 
 TC.timelineData = {
