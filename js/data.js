@@ -6525,6 +6525,24 @@ undefined
     readTime: 5,
     tags: ['ETH Zurich', 'Clinical Trials', 'AI Research', 'Healthcare', 'Drug Development', 'Research'],
   },
+
+  {
+    id: 362,
+    date: '2026-07-16',
+    category: 'Dev Tools',
+    title: 'Docker 30.0 Debuts with AI-Generated Dockerfile Optimization and Container Security Scanning: Container Platform Adds Intelligence Layer After 12 Years',
+    excerpt: 'Docker releases version 30.0 with AI-powered Dockerfile analysis that automatically optimizes image builds for size, security, and caching, along with integrated security scanning that identifies vulnerabilities before deployment.',
+    body: [
+      "Docker has released version 30.0, a major milestone update marking 12 years since Docker's launch, introducing AI-powered Dockerfile optimization and integrated container security scanning as core platform features. The AI Dockerfile optimizer analyzes submitted Dockerfiles and generates optimized versions that reduce image size (average 40% reduction), improve build cache efficiency (average 55% faster rebuilds after code changes), and eliminate common security anti-patterns (running as root, including build-time secrets in layers, using unnecessarily broad base images) — automatically, without requiring the engineer to know the optimization techniques.",
+      "Dockerfile optimization happens in the Docker build pipeline: when 'docker build' is invoked, the optimizer analyzes the Dockerfile before execution and presents a diff showing proposed improvements with explanations. Layer ordering is reorganized to maximize cache reuse (frequently-changing application code placed in later layers; stable dependencies in earlier layers). Multi-stage builds are suggested when single-stage builds include build tools that don't need to be in the final image. Base image recommendations identify smaller, purpose-specific base images that provide equivalent functionality with less attack surface.",
+      "Container security scanning is integrated into the Docker pull and push workflow: scanning happens automatically when images are pulled from registries, with vulnerability findings surfaced in the terminal before container creation. The scanner checks all installed packages against CVE databases, identifies configuration vulnerabilities (writable directories that should be read-only, excessive capabilities granted to containers), and detects secrets accidentally baked into images. Critical vulnerabilities block container creation by default (configurable), preventing deployment of images with known critical CVEs.",
+      "<blockquote>Docker made containers accessible to every developer. Docker 30.0 makes secure, optimized containers accessible to every developer — not just the experts who know every Dockerfile best practice. AI optimization and security scanning should be defaults, not features that teams implement after a security incident. Twelve years in, we are still focused on the same mission: making software development better for everyone. — Scott Johnston, CEO, Docker</blockquote>",
+      "Docker 30.0 is available for Docker Desktop, Docker Engine, and Docker Hub. The AI optimization and security scanning features require Docker Personal (free) or higher plans, with the full security scanning database (including emerging CVEs) available on Docker Business plans. Enterprise customers receive additional features including policy-based blocking of non-compliant images, audit logs for all image operations, and custom security policy definitions.",
+    ],
+    company: 'Docker',
+    readTime: 5,
+    tags: ['Docker', 'Containers', 'Dev Tools', 'Security Scanning', 'Dockerfile', 'DevOps'],
+  },
 ];
 
 TC.timelineData = {
