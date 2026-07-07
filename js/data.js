@@ -6939,6 +6939,24 @@ undefined
     readTime: 5,
     tags: ['Qualcomm', 'Snapdragon', 'ARM', 'Windows', 'Hardware', 'Apple Silicon Alternative'],
   },
+
+  {
+    id: 385,
+    date: '2026-07-18',
+    category: 'Open Source',
+    title: 'Deno 3.0 Unifies JavaScript Runtime With Native npm Compatibility, Built-In SQLite, and WebAssembly Compilation Target: Challenges Node.js for Enterprise Workloads',
+    excerpt: 'Deno 3.0 ships with complete npm package compatibility, native SQLite integration, a WebAssembly compilation target for portable server-side code, and a new permissions model that defaults to sandboxed execution for all installed packages.',
+    body: [
+      "Deno 3.0 ships with five major features that collectively address the friction points that kept enterprises on Node.js despite Deno's security and developer experience advantages: complete npm compatibility with package-lock.json support (eliminating the need to port package.json dependencies to Deno's module format), native SQLite integration in the standard library (removing the most common reason to reach for a Node.js dependency), a WebAssembly compilation target for distributing Deno applications as portable single-file executables, and a revised permissions model that sandboxes installed npm packages by default.",
+      "The npm compatibility story is Deno 3.0's headline feature for migration feasibility: developers can point an existing Node.js project's package.json at Deno 3.0 and run it without package conversion, with Deno resolving npm packages from the npm registry using its own package cache rather than a node_modules directory. Compatibility testing on the 5,000 most-downloaded npm packages shows 94% compatibility, with the 6% failures concentrated in packages using Node.js internal APIs (child_process, cluster) that have no browser or server-agnostic equivalent.",
+      "Built-in SQLite — available as 'import { DB } from jsr:@std/sqlite' — eliminates the dependency on better-sqlite3 or other native module compilations that complicated Deno adoption for applications requiring local or embedded database storage. The implementation uses SQLite 3.47 compiled to WebAssembly, running in Deno's secure sandbox without native module compilation overhead, and supports all SQLite features including full-text search, JSON functions, and WAL mode.",
+      "<blockquote>Node.js was the right answer for 2009. Deno is the right answer for 2026. Security by default, TypeScript by default, built-in tooling, Web APIs everywhere. We made Deno 3.0 compatible with npm because we respect that the ecosystem exists — but we are not trying to be Node.js. We are trying to be better than Node.js. — Ryan Dahl, Creator, Deno</blockquote>",
+      "Deno 3.0 also ships significant performance improvements: a new V8 turboshaft JIT pipeline improves long-running server-side JavaScript throughput 25%, and the HTTP server achieves 180,000 requests per second on the TechEmpower plaintext benchmark — 40% higher than Node.js 22 on the same hardware. The Deno Deploy platform has updated to Deno 3.0, providing immediate access to all features in Deno's serverless edge runtime.",
+    ],
+    company: 'Deno',
+    readTime: 5,
+    tags: ['Deno', 'JavaScript', 'Open Source', 'Runtime', 'npm Compatibility', 'SQLite'],
+  },
 ];
 
 TC.timelineData = {
