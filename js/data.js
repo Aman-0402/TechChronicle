@@ -6093,6 +6093,24 @@ undefined
     readTime: 5,
     tags: ['Wiz', 'Cloud Security', 'Cybersecurity', 'CNAPP', 'Agentless Security', 'Fortune 500'],
   },
+
+  {
+    id: 338,
+    date: '2026-07-15',
+    category: 'Hardware',
+    title: 'Micron 3D NAND 300-Layer Production Achieves 1TB Per Chip: Storage Density Milestone Enables 32TB NVMe SSDs in 2.5-inch Form Factor',
+    excerpt: 'Micron announces mass production of 300-layer 3D NAND flash memory, achieving 1 terabyte of storage per chip and enabling 32TB consumer NVMe SSDs that fit in the same form factor as current 4TB drives.',
+    body: [
+      "Micron Technology has announced mass production of its 300-layer 3D NAND flash memory — the highest layer count in commercial production — achieving 1 terabyte of usable storage capacity per chip. The 300-layer stacking, manufactured on Micron's Boise, Idaho fabrication facility using proprietary CBA (CMOS Bonded Array) architecture, places the peripheral circuitry under the storage cell array rather than beside it, enabling taller cell stacks without increasing die footprint. The 1TB per chip density enables NVMe SSD designs with 32TB capacity in a standard M.2 2280 form factor (the same 2280mm card size used in 4TB consumer SSDs today).",
+      "The storage density implications are substantial across data center, AI, and consumer applications. Data center NVMe SSDs can now provide 100TB+ per storage node in standard 2U server chassis, reducing the physical infrastructure required for AI training dataset storage by a factor of 3-4x versus 2024-era drives. For AI applications specifically, the ability to store entire 70B parameter model weights (requiring approximately 140GB for FP16 precision) on a single small NVMe drive changes the architecture of AI inference servers — models can be loaded from local NVMe at 14 GB/s versus 3 GB/s for SATA SSDs or 1.2 GB/s for HDD, reducing inference cold-start latency.",
+      "Performance characteristics of 300-layer NAND maintain competitive with leading 200-layer products: sequential read at 7.4 GB/s and sequential write at 6.8 GB/s — standard for high-performance NVMe SSDs. Random read IOPS at 1.6 million and write IOPS at 1.5 million are the higher-significance metrics for database and AI inference workloads where random access patterns dominate. Endurance ratings of 3,000 TBW (terabytes written) per drive at 32TB capacity support enterprise write-intensive workloads without degradation concerns.",
+      "<blockquote>Memory and storage density is the silent enabler of AI capabilities. You cannot train on a dataset you cannot store, and you cannot serve a model you cannot load. 300-layer NAND puts 32TB in a device the size of a stick of gum. That density enables AI infrastructure architectures that were impossible 18 months ago. Storage is not a commodity — it is a capability differentiator. — Sanjay Mehrotra, CEO, Micron Technology</blockquote>",
+      "Micron is prioritizing initial 300-layer NAND allocation to data center customers (hyperscalers and AI compute providers) before consumer NVMe SSDs reach retail. Consumer 32TB NVMe SSDs are expected in early 2027 at initial pricing above 2,000 USD, with price reduction to mainstream enterprise pricing within 18 months as production scales. SK Hynix and Samsung are both in development of competitive 280-310 layer NAND products, with production ramp expected in late 2026.",
+    ],
+    company: 'Micron',
+    readTime: 5,
+    tags: ['Micron', 'NAND Flash', 'Storage', 'Hardware', 'SSD', 'Data Centers'],
+  },
 ];
 
 TC.timelineData = {
