@@ -6147,6 +6147,24 @@ undefined
     readTime: 5,
     tags: ['Go', 'Golang', 'Programming', 'Google', 'Error Handling', 'Language Features'],
   },
+
+  {
+    id: 341,
+    date: '2026-07-15',
+    category: 'Research',
+    title: 'Caltech AI System Predicts Materials Properties Before Synthesis with 97% Accuracy: Accelerating Discovery of Room-Temperature Superconductors',
+    excerpt: 'Caltech researchers demonstrate an AI system that predicts the physical properties of novel material compositions before laboratory synthesis, achieving 97% accuracy and dramatically accelerating the search for high-temperature superconductors.',
+    body: [
+      "Caltech researchers have demonstrated an AI system that predicts the physical properties of novel material compositions — electrical conductivity, magnetic properties, thermal characteristics, and mechanical strength — before laboratory synthesis, achieving 97% accuracy compared to subsequently synthesized samples. The system, built on a graph neural network architecture trained on 12 million material-property pairs from the Materials Project database, represents a fundamental acceleration of materials discovery: rather than synthesizing and characterizing thousands of candidate materials experimentally (a process taking months to years), researchers can screen millions of computational candidates in hours and synthesize only the most promising.",
+      "The superconductor search application demonstrates the system's impact concretely: identifying room-temperature superconductors — materials that conduct electricity without resistance at ambient conditions — has been one of physics' most pursued goals for decades, with enormous energy efficiency implications. The Caltech system screened 4.7 million novel composition candidates against the known physics of superconductivity, identifying 312 compositions with predicted critical temperatures above 0 Celsius. 28 of these have been synthesized and characterized, with 21 (75%) confirmed as superconducting at temperatures above predictions, and 3 achieving the highest confirmed critical temperatures ever measured in material classes not previously known to superconduct.",
+      "The graph neural network architecture represents materials as graphs where atoms are nodes and chemical bonds are edges, with node features encoding atomic properties (electron configuration, atomic radius, electronegativity) and edge features encoding bond characteristics. The network learns the relationship between graph structure and macroscopic material properties across millions of training examples, generalizing to novel compositions outside the training distribution with accuracy that correlates inversely with the 'novelty distance' from known materials.",
+      "<blockquote>Materials discovery has been a needle-in-a-haystack problem for 150 years. Chemistry gives us infinite possible material compositions; synthesis and characterization gives us maybe 1,000 new materials per year. AI inverts that ratio. We can now predict the properties of 10 million materials in the time it takes to synthesize one. The era of AI-guided materials discovery has begun, and room-temperature superconductors are within reach. — Julia Greer, Professor of Materials Science, Caltech</blockquote>",
+      "The Caltech team is open-sourcing the trained model and prediction pipeline through the Materials Project, enabling the global materials science community to screen their own candidate compositions. A web interface at materialsproject.org allows researchers without machine learning expertise to submit composition queries and receive property predictions with uncertainty estimates. The NSF has committed 35 million dollars in follow-on funding to extend the system to functional material properties beyond structural characteristics.",
+    ],
+    company: 'Caltech',
+    readTime: 5,
+    tags: ['Caltech', 'Materials Science', 'AI Research', 'Superconductors', 'Graph Neural Networks', 'Research'],
+  },
 ];
 
 TC.timelineData = {
