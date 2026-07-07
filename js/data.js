@@ -5985,6 +5985,24 @@ undefined
     readTime: 5,
     tags: ['Zig', 'Systems Programming', 'Programming Languages', 'C Interop', 'Embedded', 'Open Source'],
   },
+
+  {
+    id: 332,
+    date: '2026-07-15',
+    category: 'Research',
+    title: 'Harvard Medical School AI Diagnoses Rare Diseases from Patient Records with 94% Accuracy: 300 Conditions Previously Requiring Specialist Evaluation Now Automated',
+    excerpt: 'Harvard Medical School researchers demonstrate an AI system that diagnoses 300 rare diseases from electronic health records with 94% accuracy, reducing the average rare disease diagnosis time from 4.8 years to 3.2 weeks.',
+    body: [
+      "Harvard Medical School researchers have demonstrated an AI system that diagnoses 300 rare diseases from electronic health records with 94% accuracy — dramatically compressing the average rare disease diagnosis time from 4.8 years (the current US average, driven by rarity-caused physician unfamiliarity) to 3.2 weeks. The system, developed in collaboration with Mass General Brigham and trained on 2.8 million anonymized patient records including 45,000 confirmed rare disease diagnoses, identifies disease candidates from symptom patterns, laboratory values, genetic test results, and imaging findings that individually appear non-specific but collectively match rare disease signatures.",
+      "Rare disease diagnosis is a critical unmet need: 30 million Americans have rare diseases, and the majority experience multiple years and numerous physician visits before receiving a correct diagnosis. Many rare diseases have effective treatments once diagnosed but cause irreversible damage if untreated during the diagnostic delay. The economic and human cost of diagnostic odysseys — the series of failed diagnoses rare disease patients endure before the correct one — is estimated at 100 billion dollars annually in the US healthcare system.",
+      "The system's architecture is designed for clinical integration rather than research demonstration: it runs as a background service on electronic health record systems (tested on Epic and Cerner/Oracle Health), continuously re-evaluating patient records as new data arrives and surfacing rare disease candidates to ordering physicians when pattern confidence exceeds a configurable threshold. Physicians receive a ranked list of candidate diagnoses with supporting evidence citations from the patient's record and links to confirmatory testing recommendations, rather than a standalone diagnostic opinion that requires physicians to evaluate without context.",
+      "<blockquote>Rare disease patients are failed by a healthcare system designed for common diseases. Their symptoms individually explain other diagnoses; the rare disease pattern only becomes visible when you see the complete picture across years of care. AI sees that complete picture instantly and remembers every rare disease pattern ever documented. We are giving rare disease patients the specialist who has seen every rare disease — instantly available at every primary care visit. — Isaac Kohane, Chair of Biomedical Informatics, Harvard Medical School</blockquote>",
+      "The system received Breakthrough Device Designation from the FDA in March 2026, accelerating regulatory review for clinical deployment. Three major hospital systems (Mass General Brigham, Mayo Clinic, and Johns Hopkins Medicine) are deploying the system in pilot programs covering 850,000 active patients, with expansion to 30 health systems expected in 2027. The researchers are open-sourcing the model architecture and training methodology while licensing the trained model commercially to fund continued development and clinical validation.",
+    ],
+    company: 'Harvard Medical School',
+    readTime: 5,
+    tags: ['Harvard', 'Medical AI', 'Research', 'Rare Disease', 'Diagnostics', 'Healthcare AI'],
+  },
 ];
 
 TC.timelineData = {
