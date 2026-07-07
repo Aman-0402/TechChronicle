@@ -6849,6 +6849,24 @@ undefined
     readTime: 5,
     tags: ['Wayve', 'Autonomous Driving', 'Startups', 'Foundation Model', 'Robotaxi', 'SoftBank'],
   },
+
+  {
+    id: 380,
+    date: '2026-07-18',
+    category: 'AI',
+    title: 'Meta AI Releases Llama 4 Scout 109B: Open-Weight Multimodal Model Surpasses GPT-4o on Vision Benchmarks, Runs on Single 8xH100 Node',
+    excerpt: 'Meta AI releases Llama 4 Scout, a 109-billion parameter open-weight multimodal model achieving state-of-the-art scores on vision-language benchmarks, deployable on a single 8xH100 server, challenging the closed-source model assumption that frontier multimodal AI requires proprietary infrastructure.',
+    body: [
+      "Meta AI has released Llama 4 Scout, a 109-billion parameter open-weight multimodal model that accepts text and image inputs natively, achieves state-of-the-art scores on the MMMU, ChartQA, and MathVista vision-language benchmarks, and runs on a single server with 8 H100 GPUs — making frontier multimodal capability accessible to organizations that can afford standard cloud GPU instances without custom inference infrastructure. Scout is the largest open-weight multimodal model released to date, surpassing GPT-4o on five of seven major vision benchmarks in Meta's published evaluation.",
+      "The architecture uses a novel cross-attention mechanism called Adaptive Vision-Language Fusion (AVLF) that dynamically weights visual and textual context based on query requirements — allocating more attention to image regions semantically relevant to the user's question rather than uniformly encoding the entire image. The approach improves visual reasoning accuracy on document understanding, chart interpretation, and spatial reasoning tasks compared to the patch-based encoding used in most vision-language models, while reducing inference cost by processing only semantically relevant image regions at full resolution.",
+      "Meta's decision to release Scout under its Llama Community License — allowing commercial use for organizations under 700 million monthly active users — follows the competitive logic that established the open-weight AI ecosystem: lowering the cost of frontier capability for the industry generates more goodwill, research acceleration, and platform ecosystem than the marginal revenue from closed-source licensing. Scout's release immediately makes multimodal capability available to thousands of organizations that were cost-prohibitively blocked from frontier vision-language models.",
+      "<blockquote>We believe open foundation models are good for the world and good for Meta. Every researcher who builds on Llama 4 Scout, every company that deploys it, every application that runs on it — they all make the AI ecosystem richer and generate demand for the infrastructure and services Meta offers. Open source is not charity. It is the right strategy. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "Llama 4 Scout is available for download on Hugging Face, with quantized versions (4-bit, 8-bit) enabling deployment on 2-GPU configurations for reduced-capability inference. Meta is simultaneously releasing Scout's fine-tuning recipe, training data documentation, and evaluation harness — providing the full technical stack needed for organizations to fine-tune Scout on proprietary data and evaluate domain-specific performance rather than relying solely on general benchmark scores.",
+    ],
+    company: 'Meta',
+    readTime: 5,
+    tags: ['Meta', 'Llama 4', 'Open Source AI', 'Multimodal', 'Vision Language Model', 'Open Weight'],
+  },
 ];
 
 TC.timelineData = {
