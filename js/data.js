@@ -5895,6 +5895,24 @@ undefined
     readTime: 5,
     tags: ['DeepMind', 'AlphaCode', 'AI', 'Competitive Programming', 'ICPC', 'Code Generation'],
   },
+
+  {
+    id: 327,
+    date: '2026-07-15',
+    category: 'Cloud',
+    title: 'Terraform 2.0 Launches with AI-Assisted Infrastructure Generation and Drift Detection: HashiCorp IaC Tool Gets Intelligent Automation Layer',
+    excerpt: 'HashiCorp releases Terraform 2.0 with an AI assistant that generates infrastructure configurations from natural language descriptions, detects configuration drift automatically, and suggests security improvements across cloud environments.',
+    body: [
+      "HashiCorp has released Terraform 2.0, the first major version update to the Infrastructure as Code tool in five years, featuring an AI assistant that fundamentally changes how teams write and maintain cloud infrastructure configurations. The AI assistant accepts natural language descriptions ('Create a highly available PostgreSQL cluster on AWS in two availability zones with automated backups and read replicas') and generates complete, production-ready Terraform configurations using provider best practices — including security group rules, VPC configuration, parameter groups, and backup retention policies that teams would previously research and configure manually.",
+      "Drift Detection is the second major new capability: Terraform 2.0 continuously monitors deployed infrastructure against the declared configuration and alerts when resources have been modified outside Terraform — manual console changes, emergency fixes applied directly to production, or configuration changes made by other automation tools. The system categorizes drift by severity (security-relevant changes like open inbound ports flagged as critical, tag changes flagged as informational) and generates remediation plans that can either update the Terraform configuration to match reality or apply Terraform state to revert the manual change.",
+      "The AI assistant also performs security analysis on existing configurations: scanning Terraform plans for common misconfigurations (publicly accessible S3 buckets, overly permissive IAM policies, unencrypted storage volumes) and generating inline fixes. Integration with HashiCorp Sentinel policy-as-code allows organizations to define custom security policies that Terraform checks before applying — preventing security misconfigurations from reaching production rather than detecting them afterward.",
+      "<blockquote>Terraform was built to codify infrastructure. Terraform 2.0 is built to understand infrastructure. The AI assistant does not just generate code — it understands what you are trying to build, what best practices apply, and what security risks exist in your configuration. Infrastructure as Code becomes Infrastructure as Intent. — Armon Dadgar, Co-founder and CTO, HashiCorp</blockquote>",
+      "Terraform 2.0 maintains full backward compatibility with existing Terraform 1.x configurations and providers. The AI features require HCP (HashiCorp Cloud Platform) subscription at 25 USD per active workspace per month, while core Terraform 2.0 functionality including drift detection (without AI remediation) is available in the open-source CLI. The release comes as HashiCorp, now part of IBM following the 6.4 billion dollar acquisition in 2024, is repositioning Terraform as the enterprise multi-cloud infrastructure standard.",
+    ],
+    company: 'HashiCorp',
+    readTime: 5,
+    tags: ['HashiCorp', 'Terraform', 'IaC', 'Cloud', 'AI', 'Infrastructure Automation'],
+  },
 ];
 
 TC.timelineData = {
