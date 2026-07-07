@@ -6291,6 +6291,24 @@ undefined
     readTime: 5,
     tags: ['Fortinet', 'FortiAI', 'Cybersecurity', 'Zero-Day', 'SOC', 'Threat Detection'],
   },
+
+  {
+    id: 349,
+    date: '2026-07-16',
+    category: 'Hardware',
+    title: 'ARM Cortex-X925 CPU Core Achieves 5GHz Sustained Clock Frequency in Flagship Mobile SoC: Single-Core Performance Reaches Desktop-Class Levels',
+    excerpt: 'ARM announces the Cortex-X925 CPU core with 5GHz sustained clock frequency for flagship Android smartphones, achieving single-core performance that matches Intel's desktop Core Ultra processors in CPU-bound benchmarks.',
+    body: [
+      "ARM has announced the Cortex-X925 CPU core, the latest generation of its highest-performance mobile processor design, achieving sustained 5GHz operation in flagship Android smartphone SoCs manufactured on TSMC N3E process — a frequency milestone that pushes mobile single-core performance into territory previously occupied exclusively by desktop processors. The X925 is the primary performance core in MediaTek's Dimensity 9500 and Qualcomm's Snapdragon 8 Elite 2 chipsets, delivering SPECcpu2017int performance of 14.8 per core — matching Intel's Core Ultra 9 desktop processor performance in a mobile thermal envelope.",
+      "The 5GHz sustained operation requires significant thermal management improvements: both MediaTek and Qualcomm have developed advanced 3D vapor chamber cooling systems that maintain the X925's thermal limits during extended sustained load. The 3D vapor chamber spreads heat across the smartphone chassis rather than concentrating it behind the CPU cluster, maintaining 5GHz operation for up to 8 minutes of continuous peak load before thermal throttling reduces frequency to 4.6GHz — adequate for typical mobile workloads that burst rather than sustain peak compute.",
+      "Mobile on-device AI applications drive the demand for desktop-class single-core performance: local execution of 7B and 13B parameter language models requires both high memory bandwidth (provided by LPDDR5X) and fast single-threaded execution for attention computation's sequential token generation. At 5GHz, the X925 generates tokens 40% faster than the previous Cortex-X4 generation for 7B models, improving the latency of on-device AI assistants from 45ms per token to 28ms — fast enough for natural conversational pace without perceptible delay.",
+      "<blockquote>Mobile computing performance has followed an exponential curve for 15 years, but each generation's improvement was felt primarily in multi-threaded workloads. The Cortex-X925 at 5GHz changes that: single-core performance is now desktop-class on a mobile device. Every single-threaded application — browser JavaScript execution, on-device AI inference, game physics — will benefit. The performance gap between mobile and desktop has effectively closed. — Chris Bergey, SVP Client Line of Business, ARM</blockquote>",
+      "Cortex-X925-based smartphones from Samsung (Galaxy S27 Ultra), OnePlus, Xiaomi, and OPPO are expected to launch in Q1 2027. Apple's A20 chip, announced for iPhone 18, is expected to raise the competitive ceiling further — though Apple's chip architecture remains proprietary, benchmark leaks suggest A20 performance 15-20% above X925 in the single-core metrics that matter for the on-device AI applications both ARM and Apple are prioritizing.",
+    ],
+    company: 'ARM',
+    readTime: 5,
+    tags: ['ARM', 'Cortex-X925', 'Mobile CPU', 'Hardware', '5GHz', 'Mobile AI'],
+  },
 ];
 
 TC.timelineData = {
