@@ -7155,6 +7155,24 @@ undefined
     readTime: 5,
     tags: ['xAI', 'Grok 3', 'AI', 'LLM', 'LMSYS Leaderboard', 'Frontier Model'],
   },
+
+  {
+    id: 397,
+    date: '2026-07-19',
+    category: 'Cloud',
+    title: 'Oracle Cloud Infrastructure Announces Sovereign AI Regions: Dedicated Cloud Infrastructure in 40 Countries With Data Never Leaving National Borders',
+    excerpt: 'Oracle Cloud Infrastructure launches Sovereign AI Regions in 40 countries, providing dedicated GPU clusters, AI platform services, and data sovereignty guarantees that prevent customer data from crossing national borders, targeting government and regulated enterprise workloads.',
+    body: [
+      "Oracle Cloud Infrastructure has announced Sovereign AI Regions — dedicated cloud infrastructure deployments in 40 countries where all compute, storage, and AI services operate exclusively within the national territory, with contractual guarantees that customer data never crosses national borders and government access requests are subject only to local jurisdiction. The announcement targets government AI workloads, regulated financial services, and healthcare organizations that face legal requirements prohibiting cloud infrastructure outside their country's borders.",
+      "Each Sovereign AI Region includes the full Oracle Cloud AI platform stack: GPU clusters for model training and inference (H200 and MI400 accelerators), Oracle Database with AI extensions, Oracle Analytics Cloud with generative AI, and the Oracle AI Platform for model deployment — giving sovereign customers the same AI capability available in Oracle's standard commercial regions without the data sovereignty tradeoffs of shared multi-tenant infrastructure. Countries with OCI Sovereign AI Region commitments include Germany, France, Japan, South Korea, Australia, Canada, Brazil, Saudi Arabia, UAE, and India.",
+      "The sovereign infrastructure market is distinct from standard enterprise cloud: government agencies, defense contractors, and heavily regulated financial institutions cannot use standard public cloud due to legal restrictions on foreign government access to customer data (triggered by laws like the U.S. CLOUD Act) and requirements that sensitive workloads run on infrastructure physically located within national jurisdiction. Oracle's Sovereign AI Regions address these requirements while enabling governments to adopt AI capabilities at the pace of the commercial cloud sector.",
+      "<blockquote>AI sovereignty is not about nationalism. It is about rule of law. A European hospital cannot send patient data to infrastructure subject to U.S. government jurisdiction — not because they distrust Americans, but because their patients' legal rights are defined by European law. Sovereign AI Regions make cloud AI compatible with legal reality in 40 countries. — Safra Catz, CEO, Oracle</blockquote>",
+      "Oracle is offering a 5-year pricing lock for Sovereign AI Region commitments, addressing the budget predictability requirements of government procurement processes that cannot accommodate the annual price changes typical of commercial cloud services. The 40 sovereign regions will be operational by end of 2027, with 15 announced countries going live in 2026, and Oracle has published the legal framework — reviewed by data protection authorities in EU member states — that governs the sovereignty guarantees.",
+    ],
+    company: 'Oracle',
+    readTime: 5,
+    tags: ['Oracle', 'Sovereign AI', 'Cloud', 'Data Sovereignty', 'Government Cloud', 'Compliance'],
+  },
 ];
 
 TC.timelineData = {
