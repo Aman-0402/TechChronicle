@@ -6201,6 +6201,24 @@ undefined
     readTime: 5,
     tags: ['Cohere', 'Multilingual AI', 'Open Source', 'Research', 'AI Equity', 'Low-Resource Languages'],
   },
+
+  {
+    id: 344,
+    date: '2026-07-15',
+    category: 'AI',
+    title: 'Amazon Bedrock Adds Multi-Agent Orchestration with Cross-Model Communication: AWS Enables Enterprise AI Agent Networks Without Custom Infrastructure',
+    excerpt: 'Amazon Web Services announces multi-agent orchestration capabilities in Amazon Bedrock, allowing enterprises to deploy networks of specialized AI agents that communicate and collaborate across different foundation models without building custom agent infrastructure.',
+    body: [
+      "Amazon Web Services has announced multi-agent orchestration in Amazon Bedrock, enabling enterprises to deploy networks of specialized AI agents — each powered by different foundation models optimized for their specific tasks — that communicate and collaborate through a managed orchestration layer without requiring custom infrastructure. The capability allows organizations to implement complex AI workflows like autonomous customer service (a routing agent directing queries to specialized agents for billing, technical support, or account management), research pipelines (a planning agent coordinating specialized research agents across domains), and software development automation (a planning agent directing coding, testing, and documentation agents).",
+      "The orchestration architecture introduces three new primitives: Agent Supervisors that plan multi-step workflows and delegate sub-tasks to specialized agents, Agent Workers that execute specific task types and report results back to supervisors, and Shared Memory Stores that maintain context across agent conversations and allow agents to access shared knowledge without re-processing common information. The managed nature of Bedrock's orchestration means all agent communication, context management, and error handling infrastructure is provided — organizations implement agent capabilities (what each agent does) rather than agent infrastructure (how agents communicate).",
+      "Foundation model flexibility within agent networks is a key design principle: a supervisor agent might use Claude 4 for complex reasoning and planning while worker agents use Llama 4 for cost-effective execution of well-defined tasks, Amazon Titan for embedding-intensive operations, and specialized fine-tuned models for domain-specific tasks. The orchestration layer normalizes communication across model types, allowing organizations to optimize cost and capability for each specific agent role rather than using a single model throughout.",
+      "<blockquote>Enterprises do not want to build AI agent infrastructure. They want to build AI agent capabilities — the domain logic, the specialized behaviors, the workflows that are specific to their business. Bedrock multi-agent orchestration is the managed infrastructure that makes building agent capabilities straightforward without months of custom infrastructure development. The agent era requires agent infrastructure, and AWS is providing it. — Swami Sivasubramanian, VP AI and Data, AWS</blockquote>",
+      "Bedrock multi-agent orchestration is available in all AWS regions supporting Bedrock, with pricing based on orchestration invocations (0.05 USD per 1,000 orchestration steps) plus the underlying model inference costs for each agent. AWS is simultaneously releasing pre-built agent blueprints for common enterprise patterns: customer service orchestration, software development automation, and document processing pipelines — reducing implementation time from weeks to days for organizations starting with common use cases.",
+    ],
+    company: 'AWS',
+    readTime: 5,
+    tags: ['AWS', 'Amazon Bedrock', 'AI Agents', 'Multi-Agent', 'Cloud', 'Enterprise AI'],
+  },
 ];
 
 TC.timelineData = {
