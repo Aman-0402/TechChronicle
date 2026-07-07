@@ -6435,6 +6435,24 @@ undefined
     readTime: 5,
     tags: ['Google Cloud', 'Carbon-Aware', 'Sustainability', 'AI Training', 'Renewable Energy', 'Cloud'],
   },
+
+  {
+    id: 357,
+    date: '2026-07-16',
+    category: 'Cybersecurity',
+    title: 'NIST Releases Post-Quantum Cryptography Standards Final Publication: 3 Algorithms Now Officially Federal Standards for Quantum-Resistant Encryption',
+    excerpt: 'NIST publishes the final Federal Information Processing Standards for post-quantum cryptography, officially standardizing CRYSTALS-Kyber, CRYSTALS-Dilithium, and SPHINCS+ as US government encryption standards for the quantum computing era.',
+    body: [
+      "The National Institute of Standards and Technology has published the final Federal Information Processing Standards (FIPS) publications for post-quantum cryptography, officially standardizing three algorithms as US government cryptographic standards: FIPS 203 (ML-KEM, based on CRYSTALS-Kyber) for key encapsulation and key establishment, FIPS 204 (ML-DSA, based on CRYSTALS-Dilithium) for digital signatures, and FIPS 205 (SLH-DSA, based on SPHINCS+) as an alternative signature algorithm with different security foundations. The final publication triggers mandatory adoption timelines for all federal systems.",
+      "The standardization process began in 2016 when NIST launched a public competition for post-quantum cryptographic algorithms, receiving 82 initial submissions from cryptographers worldwide. After four rounds of public evaluation, cryptanalysis, and security proofing, three algorithms survived to standardization — each selected for different reasons. ML-KEM provides the most efficient key establishment for TLS and similar protocols. ML-DSA provides efficient digital signatures suitable for code signing and certificate authorities. SLH-DSA provides signatures based on hash function security rather than lattice mathematics, providing insurance against potential future lattice cryptanalysis.",
+      "Mandatory adoption timelines vary by system criticality: internet-facing federal systems must support ML-KEM and ML-DSA in hybrid mode (alongside classical algorithms) within 12 months, federal certificate authorities must issue ML-DSA certificates within 18 months, and classified systems must complete full post-quantum migration within 36 months. Non-federal organizations are encouraged to follow the federal timeline, particularly for systems that communicate with federal agencies or handle sensitive data that could be retroactively decrypted by future quantum computers.",
+      "<blockquote>Cryptographic standards take years to deploy across global infrastructure. FIPS 203, 204, and 205 are ready now so that deployment can begin now. Quantum computers capable of breaking RSA are not here today — but infrastructure deployed today will still be in service when they arrive. The time to begin post-quantum migration is before the threat materializes, not after. These standards exist. The reason to delay does not. — Dustin Moody, NIST Post-Quantum Cryptography Project Leader</blockquote>",
+      "Implementation libraries in major programming languages are ready for deployment: OpenSSL 4.0, BoringSSL, libsodium, and Java's JCA security provider all support the final standardized algorithms (some had supported draft versions during the standardization process). Browser support for post-quantum TLS is already deployed: Chrome 128+ and Firefox 125+ support ML-KEM in hybrid mode for TLS 1.3 key exchange, and major CDN providers including Cloudflare and Fastly have enabled post-quantum TLS on their infrastructure.",
+    ],
+    company: 'NIST',
+    readTime: 5,
+    tags: ['NIST', 'Post-Quantum Cryptography', 'Cybersecurity', 'Standards', 'FIPS', 'Encryption'],
+  },
 ];
 
 TC.timelineData = {
