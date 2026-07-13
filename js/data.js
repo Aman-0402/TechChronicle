@@ -8235,6 +8235,24 @@ undefined
     readTime: 5,
     tags: ['Drug Discovery', 'AI Research', 'MIT', 'Harvard', 'Pharmaceutical', 'Clinical Trials'],
   },
+
+  {
+    id: 457,
+    date: '2026-07-25',
+    category: 'Dev Tools',
+    title: 'Linear Launches AI Project Manager: Automatic Sprint Planning, Dependency Detection, and Velocity Prediction Reduce Project Management Overhead by 70%',
+    excerpt: 'Linear releases an AI project management layer that automatically generates sprint plans from backlog priorities, detects hidden task dependencies before they block progress, and predicts delivery dates with 85% accuracy, reducing the time engineers spend on project management by 70%.',
+    body: [
+      "Linear has released an AI project management layer that automatically generates sprint plans from backlog priorities and team velocity data, detects hidden task dependencies before they cause blocking situations, and predicts delivery dates with 85% accuracy — reducing the time that engineers, tech leads, and product managers spend on project management activities by 70% in Linear's beta measurement across 200 teams. The AI layer transforms Linear from an issue tracker that requires manual organization into a project intelligence system that provides planning recommendations and delivery predictions with minimal configuration.",
+      "Automatic sprint planning analyzes the priority-ranked backlog, team member availability, historical velocity per engineer and task type, and task complexity estimates to generate sprint assignments that optimize for priority delivery while balancing workload across team members. The generated sprint plan is presented for human review and adjustment rather than applied automatically, with the AI explaining the trade-offs in each assignment (why a lower-priority task is included to utilize available capacity, or why a high-priority task is deferred due to dependency on in-progress work).",
+      "Dependency detection is the feature with the highest impact on project predictability: hidden dependencies — where task B implicitly requires task A to be complete but the dependency is not formally recorded — are the most common cause of sprint plan failures. Linear's AI analyzes issue descriptions, code references, and comment history to identify implicit dependencies and surfaces them as suggested dependency links before planning commits them to the sprint. Engineering teams in beta report 60% reduction in mid-sprint dependency surprises that previously required sprint replanning.",
+      "<blockquote>Project management overhead is engineering time that does not produce software. Sprint planning, dependency tracking, status updates, delivery estimation — all necessary, all painful, none of it code. Linear AI handles the tracking and prediction work so engineers spend their project management time reviewing AI recommendations rather than gathering data to make those recommendations. 70% overhead reduction means 70% more engineering time on engineering. — Karri Saarinen, CEO, Linear</blockquote>",
+      "Linear AI project management is available on Linear Teams and Enterprise plans at no additional charge, with the AI features integrated into the existing Linear interface rather than as a separate product. Velocity prediction and dependency detection are available immediately for all workspaces with 3+ months of historical data; automatic sprint planning requires 6+ months of history for sufficient velocity baseline accuracy.",
+    ],
+    company: 'Linear',
+    readTime: 5,
+    tags: ['Linear', 'Dev Tools', 'AI Project Management', 'Sprint Planning', 'Velocity Prediction', 'Engineering Productivity'],
+  },
 ];
 
 TC.timelineData = {
