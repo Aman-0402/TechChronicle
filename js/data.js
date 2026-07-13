@@ -8163,6 +8163,24 @@ undefined
     readTime: 5,
     tags: ['Recorded Future', 'Threat Intelligence', 'Cybersecurity', 'Ransomware', 'Predictive Security', 'AI Security'],
   },
+
+  {
+    id: 453,
+    date: '2026-07-24',
+    category: 'Programming',
+    title: 'Kotlin 2.2 Releases K2 Compiler as Default: 2x Faster Build Times and Native Multiplatform for iOS, Android, Web, and Desktop From Single Codebase',
+    excerpt: 'JetBrains releases Kotlin 2.2 making the K2 compiler the default, delivering 2x faster build times, improved type inference across multiplatform targets, and stable Kotlin Multiplatform support for sharing business logic across iOS, Android, web, and desktop from a single Kotlin codebase.',
+    body: [
+      "JetBrains has released Kotlin 2.2, making the K2 compiler — rewritten from scratch for performance and correctness — the default compiler for all Kotlin projects, delivering 2x faster incremental build times, improved type inference that eliminates 60% of explicit type annotations in multiplatform code, and stable (no longer experimental) Kotlin Multiplatform support for sharing business logic across iOS, Android, web (via Kotlin/JS and Kotlin/Wasm), and desktop (via Kotlin/JVM and Compose Multiplatform) from a single Kotlin codebase.",
+      "The K2 compiler's 2x build time improvement has the largest practical impact for large Kotlin codebases: Android applications with 500,000+ lines of Kotlin code saw incremental builds drop from 45-90 seconds to 20-40 seconds in JetBrains' testing across 100 benchmark projects. The improvement is architecturally significant — K2's new frontend processes files in parallel and shares parsed ASTs across compilation units, reducing redundant work that the previous frontend performed per compilation unit. Server-side Kotlin projects show 1.5-1.8x improvement (slightly less than Android projects due to different dependency graph characteristics).",
+      "Kotlin Multiplatform stable status removes the 'experimental' caveat that has slowed enterprise adoption of shared code across iOS and Android: legal and compliance teams at large companies have used 'experimental' status as justification to prohibit KMP adoption in production codebases. Stable KMP, combined with Compose Multiplatform 1.0 (also stable in 2.2) for shared UI, gives Kotlin a credible cross-platform story for mobile development that competes with React Native and Flutter without requiring developers to write in a non-native language.",
+      "<blockquote>K2 is the compiler Kotlin always deserved. The original frontend was a masterpiece of pragmatic engineering under constraints — it got us here. K2 is what happens when you rebuild with the benefit of knowing where you are going. Twice as fast, more correct, better IDE integration. Every Kotlin developer benefits from K2 immediately. That is the right kind of investment. — Andrey Breslav, Kotlin Creator, JetBrains</blockquote>",
+      "Kotlin 2.2 also stabilizes the direct interoperability between Kotlin/Wasm and JavaScript, enabling Kotlin code compiled to WebAssembly to call JavaScript APIs without manual binding definitions — using the same @JsExport and @JsImport annotations that Kotlin/JS uses but with native Wasm execution performance. The interoperability brings Kotlin's type safety and expressiveness to web development with performance competitive with Rust/Wasm for compute-intensive web applications.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['Kotlin', 'JetBrains', 'Programming', 'K2 Compiler', 'Multiplatform', 'Build Performance'],
+  },
 ];
 
 TC.timelineData = {
