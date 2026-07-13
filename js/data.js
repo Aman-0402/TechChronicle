@@ -8181,6 +8181,24 @@ undefined
     readTime: 5,
     tags: ['Kotlin', 'JetBrains', 'Programming', 'K2 Compiler', 'Multiplatform', 'Build Performance'],
   },
+
+  {
+    id: 454,
+    date: '2026-07-24',
+    category: 'Hardware',
+    title: 'Micron HBM4E Memory Achieves 8 TB/s Per Stack at 450-Ball Package: Highest Bandwidth Memory in History Targets 2028 AI Accelerator Generation',
+    excerpt: 'Micron announces HBM4E development achieving 8 terabytes per second bandwidth per stack in engineering samples, targeting mass production in 2028 to supply the next generation of AI accelerators that will require doubled memory bandwidth for trillion-parameter model inference at production speeds.',
+    body: [
+      "Micron Technology has announced HBM4E engineering samples achieving 8 terabytes per second bandwidth per stack — a 25% improvement over SK Hynix HBM4's 6.4 TB/s — through an expanded 1,024-ball package interface and new SerDes signaling at 12 Gbps per ball, targeting mass production in 2028 to supply the AI accelerator generation that will follow NVIDIA's current Blackwell architecture. The 8 TB/s specification is designed for trillion-parameter dense model inference, where memory bandwidth is the primary performance constraint at every scale of deployment.",
+      "HBM4E extends HBM4's 16-Hi stack architecture with a new bottom die design that integrates signal conditioning and error correction directly in the base die, reducing the signal integrity challenges that previously required significant off-chip buffering at high bandwidth. The integration allows the 1,024-ball package to operate at 12 Gbps per signal without the bit error rate degradation that limited previous HBM generations at comparable signaling speeds, achieving the 8 TB/s aggregate bandwidth while maintaining memory reliability specifications required for production AI datacenter deployments.",
+      "Micron's competitive positioning against SK Hynix's HBM4 (currently the primary HBM supplier for NVIDIA H200 and AMD MI300X) is deliberate: NVIDIA's dependence on a single primary HBM supplier creates supply chain risk that NVIDIA has been actively working to mitigate by qualifying multiple suppliers. HBM4E qualification at Micron provides NVIDIA and AMD with a second source for next-generation AI accelerator memory, reducing the supply concentration risk that has constrained GPU production during AI infrastructure buildouts.",
+      "<blockquote>Memory bandwidth is the bottleneck for AI inference at every scale. More GPU compute does not help if memory bandwidth cannot keep up with feeding the compute units. HBM4E at 8 TB/s gives the 2028 accelerator generation the memory bandwidth they need for models twice as large as today's frontier. Micron is building the memory that makes next-generation AI possible. — Sanjay Mehrotra, CEO, Micron Technology</blockquote>",
+      "Micron is simultaneously expanding HBM manufacturing capacity with a new fab in Hiroshima, Japan — the first Micron HBM production facility outside the United States — with full production capacity of 2 million HBM4E stacks per month targeting the second half of 2027, ahead of the 2028 mass production ramp for HBM4E products. The Japan facility also qualifies Micron for Japanese government AI infrastructure incentives targeting domestic high-bandwidth memory production.",
+    ],
+    company: 'Micron',
+    readTime: 5,
+    tags: ['Micron', 'HBM4E', 'Memory', 'Hardware', 'AI Infrastructure', 'Bandwidth'],
+  },
 ];
 
 TC.timelineData = {
