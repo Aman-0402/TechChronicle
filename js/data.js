@@ -7839,6 +7839,24 @@ undefined
     readTime: 5,
     tags: ['Cerebras', 'WSE-3', 'AI Chip', 'Hardware', 'Inference', 'Wafer-Scale'],
   },
+
+  {
+    id: 435,
+    date: '2026-07-22',
+    category: 'Open Source',
+    title: 'Grafana 11 Launches Incident Intelligence: Open Observability Platform Gains AI Root Cause Analysis and Automatic Runbook Generation From Alert Patterns',
+    excerpt: 'Grafana Foundation releases Grafana 11 with AI-powered incident intelligence that automatically correlates alerts across metrics, logs, and traces, identifies root causes, and generates runbooks from historical incident resolutions, bringing AI ops capabilities to the open-source observability stack.',
+    body: [
+      "Grafana Foundation has released Grafana 11, introducing Incident Intelligence — an AI layer that automatically correlates alerts across the metrics, logs, and traces in a Grafana stack to identify the root cause of incidents, estimate blast radius, and generate draft runbooks from historical incident resolution patterns. The feature brings AI ops capabilities previously available only in commercial observability platforms (Datadog AI Investigations, Dynatrace Davis) to the open-source Grafana stack that runs in over 80% of enterprise infrastructure teams' monitoring environments.",
+      "Grafana's correlation engine connects disparate alert signals that human on-call engineers would manually correlate during incident triage: a spike in database query latency (from Prometheus metrics) correlated with a deployment event (from GitHub webhook data) correlated with error rate increases (from Loki log data) correlated with trace spans showing slow database calls (from Tempo traces) is presented as a unified incident timeline rather than four separate alert notifications requiring manual synthesis. The AI identifies the deployment as the likely root cause based on timing correlation and historical patterns where similar deployment events preceded similar performance degradation.",
+      "Automatic runbook generation is Incident Intelligence's highest-value feature for on-call engineers: the system analyzes past incident resolutions in the organization's Grafana incident history, extracts the sequence of diagnostic commands and remediation steps that resolved each incident type, and generates a draft runbook for the current incident based on similarity to past incidents. The generated runbook is presented as a starting point for the on-call engineer — they execute, verify, and modify it — rather than a fully automated remediation, maintaining human judgment in the resolution loop.",
+      "<blockquote>Grafana sees everything in your infrastructure. Every metric, every log, every trace — all in one platform. Incident Intelligence makes Grafana think about what it sees: correlate the signals, find the root cause, suggest the fix. We are not selling you a new observability tool. We are making the observability tool you already have dramatically smarter at the moment you need it most — when everything is on fire. — Raj Dutt, CEO, Grafana Labs</blockquote>",
+      "Incident Intelligence is available in Grafana Cloud (Grafana Labs' managed service) and as a plugin for self-hosted Grafana installations, requiring Grafana OnCall for alert management integration. The AI model powering correlation analysis runs within the Grafana infrastructure rather than sending telemetry to external AI APIs, maintaining data sovereignty for organizations with strict observability data governance requirements.",
+    ],
+    company: 'Grafana',
+    readTime: 5,
+    tags: ['Grafana', 'Open Source', 'Observability', 'Incident Intelligence', 'AIOps', 'Root Cause Analysis'],
+  },
 ];
 
 TC.timelineData = {
