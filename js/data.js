@@ -7227,6 +7227,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'GPT-5 Turbo', 'AI', 'ARC-AGI', 'General Reasoning', 'AGI Benchmark'],
   },
+
+  {
+    id: 401,
+    date: '2026-07-20',
+    category: 'AI',
+    title: 'Anthropic Claude 4 Opus Achieves Human Expert Level on Medical Licensing Exams: 92% on USMLE Step 3, Outperforming Average Physician Score of 87%',
+    excerpt: 'Anthropic releases Claude 4 Opus, scoring 92% on USMLE Step 3 medical licensing examinations — surpassing the average practicing physician score of 87% — while demonstrating calibrated uncertainty that makes it safer for clinical decision support than previous AI systems.',
+    body: [
+      "Anthropic has released Claude 4 Opus, achieving 92% accuracy on the USMLE Step 3 medical licensing examination — the final step in U.S. physician licensure that tests clinical decision-making — compared to the average practicing physician score of 87% and the passing threshold of 60%. The result surpasses all previous AI performance on medical examinations and establishes Claude 4 Opus as the first AI system to demonstrably exceed average physician performance on the standardized test that measures clinical competence across all medical specialties.",
+      "Calibrated uncertainty is Claude 4 Opus's key differentiator for clinical safety: when the model is uncertain about a diagnosis or treatment recommendation, it expresses that uncertainty explicitly rather than generating confident-sounding incorrect answers. Evaluation on the MedCalib benchmark — which measures whether AI systems know what they do not know — shows Claude 4 Opus achieving 91% calibration accuracy, meaning its stated confidence levels match its actual accuracy across medical domains. This contrasts with previous medical AI systems that showed overconfidence in low-accuracy domains, a failure mode that is particularly dangerous in clinical settings.",
+      "Mass General Brigham and Stanford Health Care have announced Claude 4 Opus pilot deployments in clinical decision support — presenting differential diagnoses to emergency physicians for complex cases, suggesting diagnostic workup sequences for ambiguous presentations, and flagging potential drug interactions in medication orders. Both institutions are deploying in an advisory capacity (physician makes final decision with AI recommendation as one input) under institutional review board protocols, with outcomes tracked to measure whether AI-assisted care improves diagnostic accuracy and time to diagnosis.",
+      "<blockquote>92% on USMLE is a number. What matters is 91% calibration — the model knows when it is uncertain. The most dangerous AI in medicine is the one that confidently says the wrong thing. Claude 4 Opus says 'I am not certain' when it is not certain. That is the safety property that makes clinical deployment possible. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "Claude 4 Opus is available via Anthropic API at $15 per million input tokens and $75 per million output tokens, with an extended context window of 1 million tokens that enables analysis of complete patient medical records within a single context. Anthropic is simultaneously releasing Constitutional AI 2.0 documentation describing the training methodology behind Claude 4 Opus's improved calibration and its approach to refusing requests that could cause harm while remaining helpful for legitimate clinical research applications.",
+    ],
+    company: 'Anthropic',
+    readTime: 5,
+    tags: ['Anthropic', 'Claude 4', 'Medical AI', 'USMLE', 'Clinical AI', 'AI Safety'],
+  },
 ];
 
 TC.timelineData = {
