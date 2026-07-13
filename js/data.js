@@ -7947,6 +7947,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft', 'Azure OpenAI', 'Cloud', 'AI Revenue', 'Enterprise AI', 'AI Platform'],
   },
+
+  {
+    id: 441,
+    date: '2026-07-24',
+    category: 'AI',
+    title: 'Google Gemini 2.5 Ultra Tops Every Major Benchmark: Multimodal Reasoning Model Claims Number One Position Across Code, Math, Science, and Vision',
+    excerpt: 'Google releases Gemini 2.5 Ultra, reclaiming the top position on MMLU, HumanEval, MATH, GPQA, and MMMU benchmarks simultaneously — the first model to hold top position across all five major capability categories at once — with a 2 million token context window.',
+    body: [
+      "Google has released Gemini 2.5 Ultra, the latest flagship model in the Gemini family, achieving top position on MMLU (96.1%), HumanEval (96.8%), MATH (94.2%), GPQA graduate-level science (87.3%), and MMMU multimodal understanding (91.4%) — the first model in AI benchmark history to simultaneously hold the top position across all five major capability evaluation categories. The achievement is enabled by a new architecture combining a sparse mixture-of-experts backbone with a dense reasoning module that activates for complex multi-step problems, providing cost-efficient inference for simple queries and full reasoning capability for complex ones.",
+      "The 2 million token context window — double the previous Gemini 1.5 Pro maximum — enables Gemini 2.5 Ultra to process entire software repositories, comprehensive legal document portfolios, multi-year financial report histories, or feature-length film scripts in a single context window. Google's internal benchmarks show the model maintains near-peak performance throughout the 2 million token context (no significant accuracy degradation at 1.5 million tokens), addressing the 'lost in the middle' problem that caused performance drops at long contexts in earlier models.",
+      "Google's benchmark dominance follows a six-month period where Grok 3 and GPT-5 Turbo held top positions on various leaderboards. The competitive dynamic between frontier AI labs is accelerating capability improvements: each lab's release triggers rapid response from competitors, compressing the time between capability advances from quarters to weeks. Google's simultaneous leadership across all five categories with Gemini 2.5 Ultra is particularly significant because it eliminates the 'best for X use case' differentiation that allowed competitors to maintain market position despite aggregate benchmark gaps.",
+      "<blockquote>Gemini 2.5 Ultra is the most capable model we have ever built. Five number-one benchmark positions simultaneously is not something we achieved before. What I am most proud of is the 2 million token context — that is not a benchmark number, that is a practical capability that changes what AI can analyze in a single session. Entire codebases. Complete clinical histories. Whole libraries of documents. That is transformative. — Sundar Pichai, CEO, Google</blockquote>",
+      "Gemini 2.5 Ultra is available via Google AI Studio and the Gemini API at $3.50 per million input tokens and $10.50 per million output tokens, with 2 million token context pricing available at a 50% discount for tokens beyond 200K. Google Workspace Premium users get access through Gemini in Docs, Sheets, and Gmail, with the full 2 million token window available for document analysis tasks.",
+    ],
+    company: 'Google',
+    readTime: 5,
+    tags: ['Google', 'Gemini 2.5 Ultra', 'AI', 'Multimodal', 'Benchmark Leader', '2M Context'],
+  },
 ];
 
 TC.timelineData = {
