@@ -7623,6 +7623,24 @@ undefined
     readTime: 5,
     tags: ['Stripe', 'Fraud Detection', 'LLM', 'Payments', 'Cloud', 'AI Finance'],
   },
+
+  {
+    id: 423,
+    date: '2026-07-22',
+    category: 'Programming',
+    title: 'Rust Achieves 15% of New Linux Kernel Code: Systems Language Dominates New Driver and Subsystem Development as C Codebase Ages',
+    excerpt: 'Linux kernel statistics show Rust now accounts for 15% of all new code merged in the 6.12 and 6.13 releases, with all new USB, network, and GPU driver development defaulting to Rust as the memory-safety benefits outweigh the learning curve for new kernel contributors.',
+    body: [
+      "Linux kernel merge statistics for the 6.12 and 6.13 releases show Rust accounting for 15% of all new code merged — up from 3% in 6.10 — with the growth concentrated in new driver development across USB, network interface, and GPU subsystems where new contributors are defaulting to Rust rather than C for all new work. The shift is driven by both safety considerations (Rust eliminates the class of memory safety bugs responsible for 70% of Linux kernel CVEs) and developer preference (surveys of kernel contributors under age 35 show 60% prefer Rust to C for new development).",
+      "The most significant Rust adoption is in the GPU driver subsystem: the Nova GPU driver for NVIDIA hardware (the open-source alternative to NVIDIA's proprietary driver) is written entirely in Rust and merged in 6.12, representing the first major GPU driver in the mainline Linux kernel written in a memory-safe language. The Nova driver is smaller (40,000 lines versus 300,000 lines for the equivalent C driver) and has passed security audit with zero memory safety findings — a contrast with the historical audit results for C GPU drivers that consistently identify use-after-free and buffer overflow issues.",
+      "Rust's kernel adoption creates a skills pipeline challenge: Rust kernel programming requires both Rust expertise and kernel development knowledge, a combination that is rarer than either alone. The kernel community has responded with the 'Rust for Linux' mentorship program, which has graduated 200 Rust kernel contributors since 2024, and the Rust Foundation has allocated $2 million to fund kernel Rust development and mentorship through 2027 — recognizing that Linux kernel Rust adoption is the highest-leverage use case for Rust's safety properties in the entire software ecosystem.",
+      "<blockquote>Fifteen percent of new Linux kernel code in Rust is not a curiosity anymore. It is a trajectory. At the current rate, Rust will be the primary language for new Linux kernel development within 3-4 years. The C codebase is maintained; the new subsystems are Rust. That is how language transitions happen in existing large projects — not by rewriting the old code, but by writing all the new code in the new language. — Greg Kroah-Hartman, Linux Kernel Maintainer</blockquote>",
+      "The Rust-in-Linux trend is influencing other OS projects: FreeBSD has accepted its first Rust kernel modules, Google's Fuchsia OS uses Rust for its kernel components, and Microsoft is rewriting components of the Windows kernel in Rust for security-critical paths. Linux's 15% adoption milestone validates Rust as a practical kernel language, reducing the adoption risk argument that has slowed other OS projects from committing to Rust for systems-level code.",
+    ],
+    company: 'Linux Foundation',
+    readTime: 5,
+    tags: ['Rust', 'Linux Kernel', 'Programming', 'Systems Programming', 'Memory Safety', 'Driver Development'],
+  },
 ];
 
 TC.timelineData = {
