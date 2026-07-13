@@ -7965,6 +7965,24 @@ undefined
     readTime: 5,
     tags: ['Google', 'Gemini 2.5 Ultra', 'AI', 'Multimodal', 'Benchmark Leader', '2M Context'],
   },
+
+  {
+    id: 442,
+    date: '2026-07-24',
+    category: 'Cloud',
+    title: 'Fastly Edge Cloud Launches AI Inference at the Edge With Sub-5ms Global Latency: CDN Giant Deploys GPU Clusters in 100 Points of Presence',
+    excerpt: 'Fastly deploys AI inference GPU clusters across 100 points of presence globally, achieving sub-5ms end-to-end latency for text generation models up to 7B parameters, enabling a new category of latency-sensitive AI applications from real-time voice to live content moderation.',
+    body: [
+      "Fastly has launched AI inference capabilities across 100 of its global points of presence, deploying NVIDIA L40S GPU clusters at edge locations that serve 90% of internet users within 10 milliseconds of network round-trip time. The deployment achieves sub-5ms end-to-end latency for text generation models up to 7 billion parameters — including quantized versions of Llama 4 Scout, Mistral 7B, and Gemma 7B — enabling a new category of latency-sensitive AI applications that cannot tolerate the 50-200ms response times of centralized cloud AI inference.",
+      "The use cases enabled by sub-5ms AI inference are qualitatively different from cloud AI applications: real-time voice AI assistants where latency above 10ms degrades conversational naturalness, live content moderation where 50ms delay allows harmful content to appear before being blocked, in-game AI NPCs that must respond within a single animation frame at 60fps (16ms budget), and real-time translation during live video calls where latency compounds with encoding and decoding delays. Each requires inference latency budgets that centralized GPU compute cannot meet regardless of model efficiency.",
+      "Fastly's edge AI pricing reflects the infrastructure cost of distributed GPU deployment: $0.15 per million tokens for 7B models, versus $0.30 for equivalent centralized inference — a 50% premium that reflects the higher infrastructure cost of distributed GPU capacity but is justified for latency-sensitive applications where centralized inference is not a viable alternative. Fastly offers a hybrid routing option that falls back to centralized inference for non-latency-sensitive requests, optimizing cost across mixed workloads.",
+      "<blockquote>CDN solved the latency problem for static content by putting content close to users. Edge AI solves the latency problem for AI inference by putting compute close to users. The physics are the same: speed of light wins over server speed every time. Fastly built the global network for content delivery. We are now the global network for AI inference at the edge. — Todd Nightingale, CEO, Fastly</blockquote>",
+      "Fastly is announcing partnerships with Fly.io, Railway, and Render to provide edge AI inference as a managed service within those platforms' deployment environments, enabling developers to deploy AI applications with edge inference without directly managing Fastly's infrastructure. The partnerships target the application developer market that wants sub-5ms AI latency without the operational complexity of building global CDN-class deployment infrastructure.",
+    ],
+    company: 'Fastly',
+    readTime: 5,
+    tags: ['Fastly', 'Edge AI', 'Cloud', 'CDN', 'Low Latency', 'Inference'],
+  },
 ];
 
 TC.timelineData = {
