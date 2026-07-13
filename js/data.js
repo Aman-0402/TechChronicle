@@ -8091,6 +8091,24 @@ undefined
     readTime: 5,
     tags: ['Datadog', 'APM', 'Dev Tools', 'Performance Monitoring', 'AI Insights', 'Observability'],
   },
+
+  {
+    id: 449,
+    date: '2026-07-24',
+    category: 'Startups',
+    title: 'Physical Intelligence PI-2 Robot Foundation Model Enables Any Robot to Learn New Tasks in 10 Minutes: General-Purpose Robot Intelligence Ships to Manufacturing',
+    excerpt: 'Physical Intelligence releases PI-2, a robot foundation model that enables any robot arm with standard force-torque sensors to learn new manipulation tasks from 10 minutes of human demonstration, with manufacturing deployments at BMW and Foxconn shipping this quarter.',
+    body: [
+      "Physical Intelligence has released PI-2, a robot foundation model trained on 10,000 hours of diverse robot manipulation demonstrations that enables any robot arm equipped with standard force-torque sensors to learn new tasks from 10 minutes of human demonstration — compared to the days or weeks of demonstration data required by previous task-specific robot learning systems. The model generalizes from its broad training distribution to novel tasks that share underlying manipulation primitives: grasping, insertion, wiping, assembly, and inspection patterns that appear across thousands of different specific tasks in manufacturing, logistics, and laboratory environments.",
+      "PI-2's architecture uses a diffusion-based action generation model that takes visual observations from wrist-mounted cameras and force-torque sensor readings as input, producing robot arm trajectories that complete the demonstrated task. The diffusion approach handles the multimodality of robotic manipulation — many different motion sequences can complete the same task successfully — by generating trajectories from a distribution rather than deterministically predicting a single trajectory. This flexibility is critical for real-world manipulation where surface variations, object placement uncertainty, and external disturbances require adaptive rather than replay-based control.",
+      "BMW and Foxconn are shipping PI-2 deployments this quarter for specific high-value manufacturing tasks: BMW is using PI-2 for seat assembly subtasks where the manipulation complexity has resisted previous automation (inserting cable connectors in variable-position harnesses), and Foxconn is deploying PI-2 for precision component placement in consumer electronics assembly where tolerance requirements are tighter than conventional industrial robots can achieve without custom end-effectors. Both deployments trained on fewer than 20 minutes of human demonstrations.",
+      "<blockquote>The robot intelligence problem was always the same: too much manual programming for each new task. PI-2 is the GPT moment for robotics — a foundation model that makes robots general-purpose learners instead of single-task automatons. Ten minutes of demonstration, a new capability. That is the economic model that makes robotic automation practical at scale. — Karol Hausman, CTO, Physical Intelligence</blockquote>",
+      "Physical Intelligence is offering PI-2 through a Robot Intelligence Platform that provides cloud-hosted foundation model access, on-premise deployment options for manufacturing environments with network restrictions, and a demonstration collection tool (a handheld device that records robot-compatible demonstrations from human manipulations without requiring robot hardware during data collection). Platform pricing is $5,000 per robot per year for cloud access, with volume discounts for fleet deployments.",
+    ],
+    company: 'Physical Intelligence',
+    readTime: 5,
+    tags: ['Physical Intelligence', 'Robotics', 'PI-2', 'Startups', 'Robot Learning', 'Manufacturing AI'],
+  },
 ];
 
 TC.timelineData = {
