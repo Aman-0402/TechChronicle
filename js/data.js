@@ -7371,6 +7371,24 @@ undefined
     readTime: 5,
     tags: ['Warp', 'Terminal', 'Dev Tools', 'AI Command', 'Natural Language', 'Shell'],
   },
+
+  {
+    id: 409,
+    date: '2026-07-20',
+    category: 'Startups',
+    title: 'Scale AI Reaches $45B Valuation After $1.4B Round: Data Labeling Leader Pivots to AI Evaluation and Red-Teaming as Foundation Model Training Data Demand Plateaus',
+    excerpt: 'Scale AI closes a $1.4B funding round at a $45B valuation, announcing a strategic pivot from data labeling for model training to AI evaluation, red-teaming, and safety testing services as frontier AI labs shift focus from training data quantity to model quality assessment.',
+    body: [
+      "Scale AI has closed a $1.4 billion funding round at a $45 billion valuation, led by Accel with participation from Amazon, Nvidia, and Y Combinator, and simultaneously announced a strategic evolution from its founding data labeling business toward AI evaluation and red-teaming services. The strategic shift reflects a structural change in the frontier AI market: as foundation model training runs approach the limits of high-quality training data available on the internet, the bottleneck is shifting from training data quantity to model evaluation quality — understanding precisely where models fail, how they can be manipulated, and whether safety mitigations work as intended.",
+      "Scale's new AI Safety division, launching with $500 million of the raised capital, assembles teams of domain experts (lawyers, doctors, chemists, security researchers, ethicists) who conduct adversarial evaluation of frontier models against harmful use cases, test alignment properties under diverse prompting strategies, and generate benchmark datasets for capability measurement that resist gaming by models trained on evaluation data. The division already has contracts with OpenAI, Anthropic, Google DeepMind, and the U.S. Department of Defense for model evaluation services.",
+      "Red-teaming as a service is Scale's highest-margin new business: organizations that cannot afford to maintain in-house teams of adversarial AI experts contract Scale to systematically probe their deployed AI systems for failure modes, jailbreak vulnerabilities, and harmful capability elicitation before deployment. The service is particularly valuable for regulated industries (financial services, healthcare, defense) where AI deployment requires demonstrating that reasonable adversarial testing has been conducted — a requirement that is emerging in both U.S. and EU regulatory frameworks.",
+      "<blockquote>Data labeling built Scale. AI evaluation will define Scale. Every major AI deployment in the next five years will require professional adversarial testing and documented safety evaluation. We built the human expertise and systematic methodology to provide that at scale. This is a larger market than data labeling, with higher technical barriers and better margins. — Alexandr Wang, CEO, Scale AI</blockquote>",
+      "Scale AI maintains its core data labeling business, which generated $870 million in revenue in 2025, while redirecting growth investment toward the evaluation and safety services vertical. The company is simultaneously launching Scale Luminate — an AI evaluation platform that enables enterprises to run standardized safety and capability assessments on their deployed AI systems — targeting the compliance workflow that large enterprises will need as AI regulations require documented model evaluation.",
+    ],
+    company: 'Scale AI',
+    readTime: 5,
+    tags: ['Scale AI', 'AI Evaluation', 'Red-Teaming', 'AI Safety', 'Startups', 'Data Labeling'],
+  },
 ];
 
 TC.timelineData = {
