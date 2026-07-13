@@ -7605,6 +7605,24 @@ undefined
     readTime: 5,
     tags: ['Stability AI', 'Stable Diffusion 4', 'Video Generation', 'Open Source AI', 'AI Video', 'RTX 4090'],
   },
+
+  {
+    id: 422,
+    date: '2026-07-22',
+    category: 'Cloud',
+    title: 'Stripe Launches AI-Powered Fraud Prevention That Blocks 99.1% of Fraud While Approving 2.3% More Legitimate Transactions Than Previous ML Models',
+    excerpt: 'Stripe deploys an LLM-based fraud detection system trained on 500 billion transactions, achieving 99.1% fraud detection while simultaneously reducing false positives 18%, approving 2.3% more legitimate transactions that were previously blocked by overfitting ML models.',
+    body: [
+      "Stripe has deployed a large language model-based fraud detection system — trained on 500 billion transactions from Stripe's global payment network — that achieves 99.1% fraud detection rate while reducing false positives 18% compared to Stripe's previous gradient boosted ML models, approving 2.3% more legitimate transactions that were previously incorrectly blocked. The false positive reduction translates directly to revenue recovery for Stripe's merchants: 2.3% of approved transactions that were previously declined represents billions of dollars in annual revenue that merchants were losing to overly aggressive fraud blocking.",
+      "The LLM approach to fraud detection differs architecturally from traditional ML: rather than predicting fraud probability from a fixed feature set, the system reasons about transaction context — analyzing the sequence of a cardholder's recent transactions, the merchant's historical transaction patterns, device fingerprint evolution, and behavioral signals (typing rhythm, navigation patterns) as a coherent narrative. This contextual reasoning enables the system to distinguish between a legitimate cardholder making an unusual purchase (traveling abroad, buying in a new category) and a fraudster with stolen credentials making purchases that are unusual for the account.",
+      "Stripe's training data advantage is the foundation of the system's accuracy: 500 billion labeled transactions from millions of merchants across 200 countries provides the diversity of fraud patterns, merchant types, and cardholder behaviors that no single merchant's fraud system can access. Fraud evolves through adversarial adaptation — as one pattern is blocked, fraudsters develop new patterns — and Stripe's global dataset provides early warning of new fraud techniques appearing in any market before they scale to attack individual merchants.",
+      "<blockquote>Fraud is a language. Fraudsters communicate through transaction patterns — timing, amount sequences, merchant categories, device behaviors. Our LLM reads that language fluently. It does not just pattern-match. It understands the story of a transaction sequence and identifies when that story is being fabricated. That is qualitatively different from the feature engineering our previous models required. — Patrick Collison, CEO, Stripe</blockquote>",
+      "The improved fraud detection is available automatically to all Stripe Radar customers with no configuration changes required, with the 2.3% false positive reduction applied to live transaction approval decisions starting this week. Stripe is also releasing Radar Studio, a dashboard that explains each fraud decision in natural language — showing merchants why specific transactions were approved or declined, with the contextual reasoning the LLM used — replacing the opaque score output of previous ML systems with interpretable decisions.",
+    ],
+    company: 'Stripe',
+    readTime: 5,
+    tags: ['Stripe', 'Fraud Detection', 'LLM', 'Payments', 'Cloud', 'AI Finance'],
+  },
 ];
 
 TC.timelineData = {
