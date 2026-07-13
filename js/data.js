@@ -7587,6 +7587,24 @@ undefined
     readTime: 5,
     tags: ['Cloudflare', 'Workers AI', 'Edge AI', 'Cloud', 'Low Latency', 'Inference'],
   },
+
+  {
+    id: 421,
+    date: '2026-07-22',
+    category: 'AI',
+    title: 'Stability AI Stable Diffusion 4 Generates Photorealistic Video at 60fps: Open-Weight Video Generation Model Runs on Consumer RTX 4090 GPU',
+    excerpt: 'Stability AI releases Stable Diffusion 4, an open-weight video generation model producing 60fps photorealistic video at 1080p resolution on consumer RTX 4090 hardware, making high-quality AI video generation accessible to independent creators without cloud subscription costs.',
+    body: [
+      "Stability AI has released Stable Diffusion 4, an open-weight video generation model capable of producing 60 frames-per-second photorealistic video at 1080p resolution running on consumer NVIDIA RTX 4090 GPUs, generating 5-second clips in 3 minutes on a single GPU. The open-weight release — published under a Creative ML OpenRAIL++ license permitting commercial use — makes high-quality AI video generation accessible to independent creators, game developers, and small studios without subscription fees to closed platforms like Sora or Runway, where equivalent video quality costs $50-150 per minute of generated content.",
+      "Stable Diffusion 4 uses a spatial-temporal transformer architecture that processes video frames as 3D attention volumes rather than the sequential frame-by-frame approach of earlier video generation models, enabling coherent motion across frames without the flickering and temporal inconsistency that characterized first-generation video diffusion models. The architecture was trained on 10 billion video clips with human motion annotation, resulting in particularly strong performance on human-centric content — people walking, speaking, and interacting — the use case with the highest commercial demand for video generation.",
+      "The open-weight release strategy follows the same competitive logic that made Stable Diffusion dominant in image generation: open access creates a community of fine-tuners, researchers, and application developers that accelerates capability improvement and distribution far beyond what a closed API achieves. The Stable Diffusion community produced 50,000 fine-tuned image models; Stability AI expects a similar community formation around SD4 video, with niche fine-tunes for animation styles, product visualization, and domain-specific content types emerging within months of launch.",
+      "<blockquote>Sora is impressive. Runway is impressive. Both charge by the second and keep the model closed. We are giving every developer and creator the model itself. The community will do things with SD4 video that we never imagined — fine-tunes, ControlNet adaptations, inpainting tools, real-time applications. Open wins in the long run because open compounds. — Emad Mostaque, Founder, Stability AI</blockquote>",
+      "SD4 Video is available for download on Hugging Face and the Stability AI website, with a ComfyUI workflow plugin enabling consumer-friendly generation through a graphical interface without command-line expertise. Stability AI is simultaneously releasing SD4 Video API access at $0.04 per second of generated video for creators who prefer cloud generation over local GPU deployment — 70% cheaper than comparable closed-platform APIs.",
+    ],
+    company: 'Stability AI',
+    readTime: 5,
+    tags: ['Stability AI', 'Stable Diffusion 4', 'Video Generation', 'Open Source AI', 'AI Video', 'RTX 4090'],
+  },
 ];
 
 TC.timelineData = {
