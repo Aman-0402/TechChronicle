@@ -7443,6 +7443,24 @@ undefined
     readTime: 5,
     tags: ['NSA', 'Post-Quantum Cryptography', 'NIST PQC', 'Cybersecurity', 'Federal Security', 'Quantum Threat'],
   },
+
+  {
+    id: 413,
+    date: '2026-07-20',
+    category: 'Programming',
+    title: 'Bun 2.0 JavaScript Runtime Achieves 5x Faster Cold Starts Than Node.js: Full Node.js Compatibility With Native Package Manager and SQLite',
+    excerpt: 'Bun releases version 2.0 with 5x faster cold start times than Node.js, complete Node.js API compatibility including native module support, and built-in package management and SQLite that eliminate the most common external dependencies from JavaScript server applications.',
+    body: [
+      "Bun has released version 2.0, achieving 5x faster cold start times than Node.js on equivalent applications through a combination of its JavaScriptCore (WebKit) engine's faster initialization path, a custom module resolution implementation tuned for startup time, and ahead-of-time compilation caching that eliminates repeated module parsing on consecutive starts. The 5x improvement translates to 8ms median cold start for a typical Express-equivalent application in Bun versus 40ms in Node.js — a difference that becomes significant in serverless environments where cold starts occur on every deployment and substantially under autoscaling traffic spikes.",
+      "Bun 2.0 achieves complete Node.js API compatibility, including native module support via N-API — the binary addon interface that allows C++ modules to run in Node.js. Previous Bun versions could not run packages with native C++ addons (including sharp, better-sqlite3, and many cryptography packages), limiting adoption for applications with native module dependencies. Bun 2.0's N-API implementation enables direct compatibility with the 10% of npm packages that use native modules, removing the last major category of Node.js dependency that blocked migration.",
+      "Built-in package management (Bun's package manager achieving 30x faster installs than npm through parallelized downloads and binary package caching) and native SQLite integration are Bun's signature features that differentiate it from the Node.js ecosystem beyond raw performance. The package manager stores packages in a global binary cache and uses hardlinks for project-level node_modules, making repeated installs across projects nearly instantaneous. Native SQLite provides an embedded database without additional dependencies — covering the single-server use case that previously required either PostgreSQL setup overhead or better-sqlite3 native module compilation.",
+      "<blockquote>Node.js is 17 years old. It accumulated a lot of historical decisions that cannot be undone without breaking the ecosystem. Bun started fresh with the goal of being the JavaScript runtime for the next decade — faster, with better defaults, with tools built in. The 5x cold start improvement is real. The compatibility is real. The question for every JavaScript developer is: why is Node.js still my default? — Jarred Sumner, CEO, Oven (Bun creators)</blockquote>",
+      "Bun 2.0 also ships a built-in test runner, hot module reload for server-side development, and WebSocket support that achieves 4x higher throughput than Node.js + ws in benchmarks. The runtime now supports Windows natively with the same performance characteristics as macOS and Linux, removing the last platform restriction that had limited Bun adoption in enterprise environments with mixed operating system deployments.",
+    ],
+    company: 'Bun',
+    readTime: 5,
+    tags: ['Bun', 'JavaScript', 'Runtime', 'Node.js Alternative', 'Programming', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
