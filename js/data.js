@@ -7731,6 +7731,24 @@ undefined
     readTime: 5,
     tags: ['Sentry', 'Dev Tools', 'Error Monitoring', 'AI Triage', 'Automatic Fix', 'Production Debugging'],
   },
+
+  {
+    id: 429,
+    date: '2026-07-22',
+    category: 'Startups',
+    title: 'Anysphere Raises $900M at $10B Valuation: Cursor Parent Company Becomes Most Valuable AI Developer Tools Startup After 300% Revenue Growth',
+    excerpt: 'Anysphere, the company behind Cursor AI coding assistant, closes $900M Series C at $10B valuation following 300% year-over-year revenue growth to $500M ARR, making it the highest-valued AI developer tools company and validating AI-native IDEs as a standalone market.',
+    body: [
+      "Anysphere, the parent company of Cursor, has closed a $900 million Series C funding round at a $10 billion valuation — led by Andreessen Horowitz with participation from Thrive Capital, General Catalyst, and OpenAI — following 300% year-over-year revenue growth that brought Cursor to $500 million in annualized recurring revenue. The valuation makes Anysphere the highest-valued AI developer tools company in history, surpassing GitHub (acquired by Microsoft for $7.5 billion in 2018) and validating AI-native integrated development environments as a standalone market rather than a feature within established developer tool platforms.",
+      "Cursor's growth to $500M ARR in 18 months from launch represents the fastest revenue growth trajectory of any developer tools company in the category's history, driven by a flywheel that is difficult for incumbents to replicate: developer word-of-mouth adoption (Cursor's NPS score of 72 is higher than any major developer tool in Stack Overflow's annual survey) combined with bottom-up enterprise expansion where individual developers adopt Cursor personally and advocate for team licenses. The average enterprise contract starts at 10 seats from individual adoption and expands to 200+ seats within 12 months.",
+      "The $900M Series C will fund three expansion vectors: international growth (Cursor is currently 65% U.S.-based, with plans to localize for Japanese, Korean, German, and French developer markets), enterprise features (compliance, SSO, organization-level settings, on-premise deployment for air-gapped environments), and research into the next generation of autonomous coding capabilities beyond the Autonomous Agent mode launched in Cursor 2.0. Anysphere has hired 40 researchers from DeepMind, OpenAI, and academic institutions for the research function.",
+      "<blockquote>Cursor is not a better VS Code. Cursor is a different thing — an AI system that has a code editor built in, not an editor that has AI bolted on. That distinction drives everything: the architecture, the user experience, the capability ceiling. At $500M ARR we have proven the market. At $10B valuation we have the capital to build the research team and infrastructure to define what AI-native software development becomes. — Michael Truell, CEO, Anysphere</blockquote>",
+      "Anysphere is announcing Cursor for Teams — an enterprise collaboration layer adding shared AI context (team-wide codebase understanding accessible to all developers), organization-level AI usage analytics, and centralized model configuration that controls which AI models developers can use and at what cost thresholds. Cursor for Teams is priced at $35/user/month for organizations of 25+ developers, with volume discounts for enterprise contracts.",
+    ],
+    company: 'Anysphere',
+    readTime: 5,
+    tags: ['Anysphere', 'Cursor', 'Dev Tools', 'Startups', 'AI IDE', 'Series C'],
+  },
 ];
 
 TC.timelineData = {
