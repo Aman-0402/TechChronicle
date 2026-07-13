@@ -7803,6 +7803,24 @@ undefined
     readTime: 5,
     tags: ['Okta', 'Identity Security', 'Behavioral Biometrics', 'Cybersecurity', 'MFA', 'Continuous Authentication'],
   },
+
+  {
+    id: 433,
+    date: '2026-07-22',
+    category: 'Programming',
+    title: 'Go 1.24 Ships Generics v2 With Type Aliases for Generic Types and Improved Type Inference: Go Finally Reaches Generics Ergonomics Comparable to Rust and Swift',
+    excerpt: 'Go 1.24 completes the generics story started in Go 1.18 with type aliases for generic types, dramatically improved type inference that eliminates most explicit type parameter annotations, and range-over-function iterators, making Go generics ergonomically comparable to Rust and Swift.',
+    body: [
+      "Go 1.24 ships what the community has called 'Generics v2' — completing the generics implementation introduced in Go 1.18 with three features that resolve the ergonomic limitations that made Go generics verbose and awkward compared to Rust or Swift: type aliases for generic types (enabling 'type Stack[T any] = []T' without creating new named types), dramatically improved type inference that eliminates explicit type parameter annotations in 85% of generic function call sites, and range-over-function iterators that enable custom collection types to work with Go's for-range loop without boilerplate.",
+      "Type aliases for generic types solve a real-world library design problem: before Go 1.24, a library author defining a generic data structure had to choose between making it a concrete type (limiting flexibility) or exposing complex generic signatures to users (creating verbose call sites). Type aliases enable library authors to define generic implementations internally and expose named type aliases that read like non-generic types, giving users ergonomic APIs backed by generic implementations. The Go standard library is being updated to use this pattern for collections and iterator types.",
+      "The improved type inference reduces the most common ergonomic complaint about Go generics: that explicit type parameters in function calls 'func[T any](x T)' required callers to write 'func[int](x)' rather than the compiler inferring 'T = int' from the argument. Go 1.24's bidirectional type inference propagates type information from function arguments, return type expectations, and assignment targets simultaneously, achieving 85% annotation elimination in the Go standard library's own generic code — matching the annotation density of Rust and Swift generics in practical usage.",
+      "<blockquote>Go 1.18 gave us generics. Go 1.24 gives us good generics. The difference is that Go 1.18 generics required developers to think about type parameters constantly. Go 1.24 generics mostly get out of the way — the compiler figures out the types, the code reads like regular Go, and you get the abstraction benefits without the annotation overhead. That is the generics story we wanted to tell from the beginning. — Robert Griesemer, Go Core Team, Google</blockquote>",
+      "Go 1.24 also ships experimental range-over-function support as a stable feature — enabling custom types to implement the iterator protocol and participate in for-range loops — completing the foundation for a Go standard library collections package that the community has requested since generics were introduced. The Go team is publishing a collections package proposal alongside 1.24 for community feedback, with target inclusion in Go 1.25.",
+    ],
+    company: 'Google',
+    readTime: 5,
+    tags: ['Go', 'Golang', 'Programming', 'Generics', 'Type Inference', 'Google'],
+  },
 ];
 
 TC.timelineData = {
