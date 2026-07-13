@@ -7677,6 +7677,24 @@ undefined
     readTime: 5,
     tags: ['SK Hynix', 'HBM4', 'Memory', 'AI Hardware', 'Bandwidth', 'GPU Memory'],
   },
+
+  {
+    id: 426,
+    date: '2026-07-22',
+    category: 'Open Source',
+    title: 'Eclipse Foundation Launches Theia 2.0: Open-Source VS Code Alternative for Enterprise IDEs With Full Language Server Protocol and No Telemetry',
+    excerpt: 'The Eclipse Foundation releases Theia 2.0, a production-ready open-source VS Code alternative with VS Code extension compatibility, zero telemetry, and enterprise deployment features, enabling organizations to self-host their development environment without Microsoft dependency.',
+    body: [
+      "The Eclipse Foundation has released Theia 2.0, a production-ready open-source IDE framework built on the same Language Server Protocol and Debug Adapter Protocol foundations as VS Code, but without Microsoft's telemetry, proprietary extensions, or Marketplace Terms of Service restrictions that prevent enterprise organizations from deploying VS Code-based IDEs without Microsoft license agreements. Theia 2.0 supports VS Code extension format compatibility — most VS Code extensions install and run in Theia without modification — enabling organizations to self-host their development environment on private infrastructure with the ecosystem of VS Code's extension library.",
+      "Theia's enterprise differentiation from VS Code is in deployment model: VS Code is a desktop application with Microsoft-controlled update delivery, telemetry that cannot be fully disabled in enterprise environments, and an extension marketplace with Terms of Service that restrict certain commercial deployments. Theia is designed as a hosted web application that organizations deploy on their own infrastructure — an IDE accessible from any browser, with updates controlled by the organization, telemetry disabled by architecture rather than policy, and extension distribution through the organization's own registry.",
+      "Cloud development environment providers (Gitpod, Coder, JetBrains Space) and enterprise platform teams are the primary Theia adopters: organizations that need to provide a consistent, centrally-managed development environment to hundreds or thousands of developers benefit from Theia's deployment model more than from VS Code's desktop-centric architecture. Theia's web-native design enables thin-client development workflows where compute runs on a central server and developers access their environment from any device without local setup.",
+      "<blockquote>VS Code is excellent software from a company that does not share your interests. Microsoft's interests include telemetry collection, GitHub Copilot upsell, and Azure deployment. Your interests include privacy, autonomy, and freedom from vendor lock-in. Theia is excellent software from a foundation whose interest is exactly yours: open source development tools that belong to the community, forever. — Mike Milinkovich, Executive Director, Eclipse Foundation</blockquote>",
+      "Theia 2.0 ships with AI coding assistance through the Eclipse AI framework — supporting multiple AI providers (Anthropic, OpenAI, Ollama for local models) through a provider-agnostic interface — and a plugin API that extends VS Code's extension model with enterprise-specific capabilities including organization-level settings management, audit logging of developer actions, and integration with enterprise secret management systems. The 2.0 release includes a migration guide from VS Code workspace configurations.",
+    ],
+    company: 'Eclipse Foundation',
+    readTime: 5,
+    tags: ['Eclipse', 'Theia', 'Open Source', 'IDE', 'VS Code Alternative', 'Enterprise Dev'],
+  },
 ];
 
 TC.timelineData = {
