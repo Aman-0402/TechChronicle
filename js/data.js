@@ -7893,6 +7893,24 @@ undefined
     readTime: 5,
     tags: ['Figma', 'Dev Mode AI', 'Dev Tools', 'React', 'Design to Code', 'Component Generation'],
   },
+
+  {
+    id: 438,
+    date: '2026-07-23',
+    category: 'Startups',
+    title: 'Runway ML Gen-4 Video Model Achieves Physical Realism Indistinguishable From Footage: Hollywood Studios Sign Multi-Year VFX Contracts Worth $500M Total',
+    excerpt: 'Runway releases Gen-4, a video generation model that produces physically realistic video indistinguishable from real footage in blind tests, with Warner Bros., Universal, and Disney signing multi-year VFX contracts totaling $500M to use Gen-4 for background generation, de-aging, and scene extension.',
+    body: [
+      "Runway has released Gen-4, a video generation model that produces physically realistic video — correct lighting, material behavior, fluid dynamics, and human motion — that is indistinguishable from real footage in blind testing with visual effects professionals at an 82% real/synthetic confusion rate. The physical realism milestone is enabled by Gen-4's physics simulation layer, a differentiable physics engine integrated into the generation process that constrains video synthesis to be consistent with Newtonian physics, eliminating the limb distortion, impossible lighting, and material behavior errors that made earlier AI video clearly artificial to trained observers.",
+      "The Hollywood studio contracts represent the commercial validation that physical realism enables: Warner Bros. has signed a $200M three-year VFX services agreement for background generation, crowd replication, and environment extension on feature films; Universal Pictures has committed $180M for similar services with specific focus on historical period recreation; and Disney has contracted $120M for de-aging and character performance enhancement. Each contract was contingent on Gen-4 passing VFX supervisor quality review — the professional evaluation that studio VFX departments use to approve vendor deliverables for theatrical release.",
+      "The economics of AI VFX are transformative for production budgets: traditional VFX background work costs $50,000-200,000 per minute of screen time. Gen-4 produces the same output at $200-800 per minute — a 100-250x cost reduction that makes VFX-intensive scenes economically feasible for mid-budget productions that previously could not afford digital environments. The major studio contracts capture the high end of the market; Runway is simultaneously targeting independent films and streaming productions that represent 10x the major studio VFX market by volume.",
+      "<blockquote>VFX is about trust. Editors trust footage that obeys physics. Until Gen-4, AI video failed the physics test — things moved wrong, light behaved wrong, materials looked wrong. Gen-4 obeys physics. That is why the studios are signing contracts. Not because it is cheap. Because it is good. The cheap part is a bonus. — Cristobal Valenzuela, CEO, Runway</blockquote>",
+      "Runway is announcing a professional subscription tier at $500/month that provides API access to Gen-4 at rates designed for commercial production use, alongside enterprise contracts for high-volume studio deployments. The company is hiring 200 VFX professionals to build integration workflows between Gen-4 and industry-standard production tools (Adobe Premiere, DaVinci Resolve, Avid Media Composer), reducing the technical barrier for production teams adopting AI VFX without specialized machine learning expertise.",
+    ],
+    company: 'Runway',
+    readTime: 5,
+    tags: ['Runway', 'Gen-4', 'AI Video', 'VFX', 'Startups', 'Hollywood'],
+  },
 ];
 
 TC.timelineData = {
