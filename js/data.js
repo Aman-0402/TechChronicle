@@ -7533,6 +7533,24 @@ undefined
     readTime: 5,
     tags: ['GitHub', 'Copilot Workspace', 'AI Coding', 'Dev Tools', 'Pull Requests', 'Autonomous Development'],
   },
+
+  {
+    id: 418,
+    date: '2026-07-21',
+    category: 'Startups',
+    title: 'Perplexity AI Reaches $9B Valuation After $500M Series E: AI Answer Engine Surpasses 100M Monthly Active Users With Real-Time Web Search Integration',
+    excerpt: 'Perplexity AI closes $500M Series E at a $9B valuation after crossing 100 million monthly active users, establishing its AI answer engine with real-time web citations as the first viable challenger to Google Search for information retrieval among knowledge workers.',
+    body: [
+      "Perplexity AI has closed a $500 million Series E funding round at a $9 billion valuation — led by SoftBank Vision Fund 3 with participation from Bezos Expeditions, IVP, and Nvidia — after crossing 100 million monthly active users. The growth trajectory (from 10 million users 18 months ago to 100 million today) makes Perplexity the fastest-growing consumer internet product since ChatGPT's initial launch, and positions the AI answer engine as the first product in 25 years to credibly challenge Google's dominance of information retrieval for knowledge-intensive queries.",
+      "Perplexity's core product proposition — provide a direct answer to a question with real-time web citations, rather than a list of links to click through — is resonating most strongly with the knowledge worker segment: professionals (doctors, lawyers, researchers, analysts) who need synthesized answers with verifiable sources rather than ten links to read. The knowledge worker segment has higher retention, higher willingness to pay, and higher referral rates than casual search users, driving the economics that enable the enterprise product Perplexity is building alongside the consumer experience.",
+      "Perplexity Enterprise launches this week — a premium version with organization-level search history, private document search integration (connecting to Google Drive, Confluence, Notion), and the ability to limit search scope to curated source lists for compliance-sensitive research. Enterprise pricing starts at $40/user/month, targeting the research-intensive workflow where knowledge workers currently toggle between internet search, internal documentation search, and AI chat tools as separate applications.",
+      "<blockquote>Google built a portal to the internet. We are building an answer to your question. The difference matters more every year because information on the internet is growing faster than anyone can synthesize it. The next generation of information retrieval is not better search. It is answers. With sources. In real time. That is Perplexity. — Aravind Srinivas, CEO, Perplexity AI</blockquote>",
+      "Perplexity's $500M Series E will fund expansion into voice search (a Perplexity voice assistant launching in September 2026), international markets (current user base is 70% U.S.-based, with aggressive expansion targeting EU and APAC knowledge workers), and the proprietary web index that will eventually replace Perplexity's current dependency on Bing's web index for search results — reducing per-query costs and giving Perplexity control over the freshness and coverage of its search capability.",
+    ],
+    company: 'Perplexity AI',
+    readTime: 5,
+    tags: ['Perplexity AI', 'AI Search', 'Startups', 'Answer Engine', 'Google Alternative', 'Series E'],
+  },
 ];
 
 TC.timelineData = {
