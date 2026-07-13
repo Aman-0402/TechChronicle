@@ -8073,6 +8073,24 @@ undefined
     readTime: 5,
     tags: ['NeRF', 'Carnegie Mellon', 'Research', 'Mobile AR', 'Neural Rendering', 'iPhone'],
   },
+
+  {
+    id: 448,
+    date: '2026-07-24',
+    category: 'Dev Tools',
+    title: 'Datadog APM AI Insights: Automatic Performance Bottleneck Detection and Fix Suggestions Reduce Mean Time to Resolution by 65% for P95 Latency Regressions',
+    excerpt: 'Datadog releases APM AI Insights, using ML to automatically identify performance bottlenecks in distributed traces, correlate regressions with recent deployments, and suggest specific code-level fixes, reducing mean time to resolution for latency regressions 65% in early access testing.',
+    body: [
+      "Datadog has released APM AI Insights — a machine learning layer on top of its Application Performance Monitoring platform that automatically identifies performance bottlenecks in distributed traces, correlates latency regressions with specific recent deployments, and suggests code-level fixes based on the patterns of the bottleneck. In early access testing across 500 enterprise customers, APM AI Insights reduced mean time to resolution for p95 latency regressions 65%, eliminating the 2-4 hour investigation cycle that engineers typically spend correlating trace data with deployment history before beginning to address the root cause.",
+      "The bottleneck identification system builds an ML model of normal service performance from 30 days of baseline trace data, then flags statistically significant deviations in specific spans — identifying not just that a service is slow but which specific database query, external API call, or computation step is responsible and how much it is contributing to the overall latency regression. The specificity eliminates the common false start where engineers investigate a downstream service based on high latency metrics, discover the actual bottleneck is an upstream cache miss, and restart their investigation from a different starting point.",
+      "Deployment correlation is the feature with the highest impact on resolution time: APM AI Insights automatically correlates performance regressions with the specific code changes deployed in the preceding 4-hour window, presenting a diff view of the changed code alongside the performance impact on the affected spans. Engineers can immediately review the specific change most likely responsible rather than searching deployment history and manually correlating timing with performance data. The correlation is accurate (matches engineer-determined root cause) 82% of the time in Datadog's internal evaluation.",
+      "<blockquote>Distributed systems are too complex for human-only performance debugging. Hundreds of services, millions of spans per minute, thousands of deployments per week. APM AI Insights does the correlation work that takes engineers hours — finding the bottleneck, finding the deployment that caused it, suggesting the fix — in seconds. The engineer reviews a complete investigation rather than starting from scratch. — Olivier Pomel, CEO, Datadog</blockquote>",
+      "APM AI Insights is available to all Datadog APM Pro and Enterprise customers at no additional charge, with the AI analysis running on Datadog's infrastructure using the trace data already being collected. Customers do not need to configure new data collection or change their instrumentation — the AI layer applies to existing trace data retroactively, enabling immediate value without implementation work.",
+    ],
+    company: 'Datadog',
+    readTime: 5,
+    tags: ['Datadog', 'APM', 'Dev Tools', 'Performance Monitoring', 'AI Insights', 'Observability'],
+  },
 ];
 
 TC.timelineData = {
