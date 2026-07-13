@@ -7821,6 +7821,24 @@ undefined
     readTime: 5,
     tags: ['Go', 'Golang', 'Programming', 'Generics', 'Type Inference', 'Google'],
   },
+
+  {
+    id: 434,
+    date: '2026-07-22',
+    category: 'Hardware',
+    title: 'Cerebras Wafer-Scale Engine 3 Processes 1 Million Tokens Per Second: Largest AI Chip Destroys Inference Throughput Records for Ultra-Long Context Windows',
+    excerpt: 'Cerebras ships Wafer-Scale Engine 3, the world largest single chip at 900,000 AI cores on a single silicon wafer, achieving 1 million tokens per second inference throughput for 128K context window models, enabling real-time processing of book-length documents and entire codebases.',
+    body: [
+      "Cerebras Systems has shipped Wafer-Scale Engine 3 (WSE-3), the third generation of its unconventional entire-wafer AI chip that integrates 900,000 AI cores and 44GB of on-chip SRAM on a single 300mm silicon wafer — eliminating the chip-to-chip communication bottleneck that limits multi-chip GPU clusters by keeping all memory and compute on a single die. WSE-3 achieves 1 million tokens per second inference throughput for transformer models with 128,000 token context windows, enabling real-time processing of book-length documents, entire large codebases, or multi-hour conversation histories within a single inference pass.",
+      "The throughput milestone is architecturally significant for long-context AI applications: current GPU clusters achieve 10,000-50,000 tokens per second for 128K context models, limited by the inter-chip communication overhead that grows with context length as attention patterns span multiple GPU memory spaces. WSE-3's single-chip architecture has no inter-chip communication — all attention computations happen within the on-chip SRAM that holds the full KV cache for 128K contexts — achieving throughput proportional to compute rather than communication bandwidth.",
+      "Practical applications enabled by 1 million tokens per second include real-time legal document review (processing a 300-page contract in 2 seconds), codebase analysis (analyzing a 500,000-line repository in one pass), and simultaneous processing of thousands of customer service conversations — use cases that are theoretically possible with GPU clusters but economically impractical at current throughput rates and the associated compute costs.",
+      "<blockquote>GPU clusters process long contexts slowly because moving data between chips is slow. WSE-3 processes long contexts quickly because there is no data movement — everything is on one chip. One million tokens per second for 128K context is not an optimization. It is a qualitatively different capability that enables applications that cannot be built on GPU infrastructure at any budget. — Andrew Feldman, CEO, Cerebras</blockquote>",
+      "Cerebras is offering WSE-3 inference through Cerebras Cloud at $0.60 per million input tokens and $1.80 per million output tokens for 128K context models — 40% cheaper than equivalent GPU inference at the same throughput, reflecting the efficiency advantage of single-chip architecture over multi-chip clusters. Enterprise customers requiring dedicated WSE-3 capacity can purchase co-location agreements for on-premise WSE-3 deployment through Cerebras's hardware partner program.",
+    ],
+    company: 'Cerebras',
+    readTime: 5,
+    tags: ['Cerebras', 'WSE-3', 'AI Chip', 'Hardware', 'Inference', 'Wafer-Scale'],
+  },
 ];
 
 TC.timelineData = {
