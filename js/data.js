@@ -7911,6 +7911,24 @@ undefined
     readTime: 5,
     tags: ['Runway', 'Gen-4', 'AI Video', 'VFX', 'Startups', 'Hollywood'],
   },
+
+  {
+    id: 439,
+    date: '2026-07-23',
+    category: 'AI',
+    title: 'DeepSeek R3 Matches GPT-5 at One-Tenth the Training Cost: Chinese AI Lab Releases State-of-the-Art Reasoning Model With Full Open Weights',
+    excerpt: 'DeepSeek releases R3, a reasoning model that matches GPT-5 performance on mathematical and coding benchmarks while requiring one-tenth the training compute, publishing full model weights and the architectural innovations that achieved the efficiency milestone.',
+    body: [
+      "DeepSeek has released R3, a reasoning model that matches GPT-5 performance on MATH, AIME, and HumanEval benchmarks (92.1%, 89.3%, and 95.2% respectively, versus GPT-5's 91.8%, 90.1%, and 94.7%) while requiring one-tenth the training compute of equivalent performance Western models — achieved through three architectural innovations that DeepSeek is publishing alongside the model weights: Multi-Head Latent Attention (MLA) that reduces KV cache memory by 90%, DeepSeekMoE architecture with fine-grained expert routing that activates only 37B of 671B total parameters per token, and a multi-token prediction training objective that improves sample efficiency by 3x.",
+      "The 10x training efficiency advantage is not a benchmark cherry-pick: DeepSeek has published the complete training run details, compute cost breakdown, and methodology allowing independent verification of the training cost claim. The published figures show R3 trained on 14.8 trillion tokens using 2.048 million H800 GPU hours at a total cost of approximately $5.6 million — compared to the $50-100 million training runs that industry analysts estimate for comparable Western frontier models. The cost advantage comes from architectural efficiency, not hardware access (H800 is a slightly downclocked H100 available to Chinese organizations under U.S. export controls).",
+      "R3's full open-weight release — under the MIT license, the most permissive available — is particularly significant given its frontier capability level: a model matching GPT-5 on reasoning benchmarks with public weights enables research, fine-tuning, and deployment that closed-weight frontier models cannot. The release immediately makes the world's most capable open-weight reasoning model available for commercial deployment without API costs, a disruption to the closed frontier model API market that compounds with each DeepSeek efficiency improvement.",
+      "<blockquote>We published every architectural detail because we believe AI research should be open. The efficiency techniques in R3 — MLA, MoE routing, multi-token prediction — are not proprietary advantages. They are scientific contributions. The community will build on them, improve them, and publish improvements. That is how science works. That is how AI should work. — Liang Wenfeng, CEO, DeepSeek</blockquote>",
+      "R3 is available for download on Hugging Face in BF16, FP8, and quantized formats, with deployment guides for vLLM, TGI, and Ollama for local inference. DeepSeek is also offering R3 API access at $0.14 per million input tokens and $0.28 per million output tokens — 96% cheaper than equivalent GPT-5 API pricing — making frontier reasoning capability accessible at commodity prices for the first time.",
+    ],
+    company: 'DeepSeek',
+    readTime: 5,
+    tags: ['DeepSeek', 'R3', 'AI', 'Reasoning Model', 'Open Weights', 'Training Efficiency'],
+  },
 ];
 
 TC.timelineData = {
