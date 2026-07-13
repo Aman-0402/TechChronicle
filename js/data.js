@@ -7857,6 +7857,24 @@ undefined
     readTime: 5,
     tags: ['Grafana', 'Open Source', 'Observability', 'Incident Intelligence', 'AIOps', 'Root Cause Analysis'],
   },
+
+  {
+    id: 436,
+    date: '2026-07-23',
+    category: 'Research',
+    title: 'Oxford Study: AI Tutors Outperform Human Tutors for STEM Subjects in Randomized Controlled Trial, With Largest Gains for Under-Resourced Students',
+    excerpt: 'Oxford University publishes a randomized controlled trial showing AI tutors deliver 28% better learning outcomes than human tutors for STEM subjects on average, with the largest gains (41%) among students in under-resourced schools where human tutor quality is most variable.',
+    body: [
+      "Oxford University has published a large-scale randomized controlled trial comparing AI tutors to human tutors for STEM subjects across 12,000 students in 300 schools over an academic year, finding that AI-tutored students achieved 28% better learning outcomes on standardized assessments than human-tutored students, with the performance gap widest (41%) among students in under-resourced schools where the quality of available human tutors is most variable. The study, published in Nature Human Behaviour, is the first randomized controlled trial of AI tutoring at sufficient scale and duration to yield statistically robust outcome comparisons.",
+      "The AI tutoring advantage is concentrated in two mechanisms that randomized trial methodology can isolate: infinite availability (AI tutors are available at 11pm before an exam, during summer breaks, and on weekends when human tutors are unavailable) and adaptive pacing (AI tutors adjust problem difficulty and explanation depth in real time based on student response patterns, rather than following the fixed curriculum that constrains human tutor sessions). Students in the AI condition studied 40% more hours than students in the human tutor condition, the largest contributor to the outcome improvement.",
+      "The inequality finding is the study's most policy-relevant result: AI tutors reduce the variance in educational outcomes by providing consistent high-quality tutoring to students regardless of whether they attend a school with access to strong human tutors. In under-resourced schools where human tutors averaged below-median quality (assessed by credential and student outcome data), AI tutoring delivered outcomes equivalent to accessing above-median quality human tutors — effectively eliminating the tutoring quality gap between well-resourced and under-resourced schools for the subjects the AI covered.",
+      "<blockquote>We spent decades trying to scale the best teachers. It did not work — great teachers are rare and geography-bound. AI tutors scale perfectly, cost nearly nothing per student, and adjust to every student's exact learning pace. The trial shows they are better on average. For disadvantaged students, they are dramatically better. This is the most significant educational equity development in decades. — Sir Kevan Collins, Former Head of Education Recovery, UK Government</blockquote>",
+      "The Oxford study covers the Khanmigo tutoring system, Synthesis Tutor, and two AI tutoring platforms developed by UK EdTech companies, averaging results across all four platforms. Individual platform results show variation, but all four outperform human tutors on average outcomes. The study recommends AI tutoring as a supplement to (not replacement for) classroom instruction, noting that social and motivational outcomes favor human instruction while learning efficiency outcomes favor AI tutoring.",
+    ],
+    company: 'Oxford University',
+    readTime: 5,
+    tags: ['AI Education', 'Oxford', 'AI Tutors', 'EdTech', 'Research', 'Educational Equity'],
+  },
 ];
 
 TC.timelineData = {
