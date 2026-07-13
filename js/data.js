@@ -8055,6 +8055,24 @@ undefined
     readTime: 5,
     tags: ['Apache Spark', 'Open Source', 'AI/ML', 'DataFrame', 'Distributed Computing', 'Model Inference'],
   },
+
+  {
+    id: 447,
+    date: '2026-07-24',
+    category: 'Research',
+    title: 'Carnegie Mellon Achieves Real-Time Neural Rendering at 120fps on iPhone: NeRF Technology Leaves Research Labs for Consumer AR Applications',
+    excerpt: 'Carnegie Mellon researchers demonstrate real-time neural radiance field rendering at 120fps on iPhone 17 Pro hardware, enabling photorealistic 3D scene capture and real-time AR overlay using smartphone cameras without specialized hardware.',
+    body: [
+      "Carnegie Mellon University researchers have demonstrated real-time neural radiance field (NeRF) rendering at 120 frames per second on iPhone 17 Pro hardware, compressing what was a multi-hour offline rendering process in 2021 to real-time inference using the iPhone's Apple Neural Engine. The advance enables consumer applications that were previously research demonstrations: photorealistic 3D scene capture using a smartphone camera, real-time AR object placement into accurately lit 3D scenes, and live NeRF telepresence where a remote participant is represented as a photorealistic 3D presence in a local space.",
+      "The rendering speed breakthrough comes from InstantNeRF-Mobile, an architecture developed at CMU that factorizes the NeRF representation into a sparse voxel grid (for scene geometry) and a tiny MLP (for view-dependent appearance) that runs efficiently on mobile neural processing units. Training time is reduced from hours to 30 seconds using the iPhone's on-device GPU with a new initialization strategy that leverages COLMAP point cloud estimates as a geometry prior, enabling the NeRF to focus optimization on appearance rather than geometry reconstruction.",
+      "Apple has announced iPhone 17 Pro includes a new 'NeRF Mode' in the Camera app powered by InstantNeRF-Mobile, enabling users to capture 3D scenes in 30 seconds and view them as photorealistic 3D objects that can be placed in AR environments. Third-party developers can access the NeRF capture and rendering pipeline through a new ARKit NeRF API, enabling applications ranging from home design (place captured furniture in your room) to e-commerce (view captured products from any angle) to gaming (play levels based on real captured environments).",
+      "<blockquote>NeRF went from a research paper in 2020 to a research demo in 2022 to a research toy in 2024. InstantNeRF-Mobile in 2026 is the moment NeRF leaves research entirely. 120fps on a smartphone means NeRF is a product technology, not a research technology. The applications that build on this in the next five years will be extraordinary. — Deva Ramanan, Professor, Carnegie Mellon University</blockquote>",
+      "The CMU team is releasing InstantNeRF-Mobile as an open-source implementation under the MIT license, including the training code, model architecture, and benchmark dataset used to evaluate mobile NeRF performance. The release targets mobile AR developers and the broader research community studying efficient neural rendering, with documentation covering both the research contributions and practical deployment considerations for consumer applications.",
+    ],
+    company: 'Carnegie Mellon',
+    readTime: 5,
+    tags: ['NeRF', 'Carnegie Mellon', 'Research', 'Mobile AR', 'Neural Rendering', 'iPhone'],
+  },
 ];
 
 TC.timelineData = {
