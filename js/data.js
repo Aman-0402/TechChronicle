@@ -7875,6 +7875,24 @@ undefined
     readTime: 5,
     tags: ['AI Education', 'Oxford', 'AI Tutors', 'EdTech', 'Research', 'Educational Equity'],
   },
+
+  {
+    id: 437,
+    date: '2026-07-23',
+    category: 'Dev Tools',
+    title: 'Figma Dev Mode AI Generates Production React Components From Designs With 90% Code Acceptance Rate: Bridge Between Design and Engineering Closes',
+    excerpt: 'Figma releases Dev Mode AI that generates production-quality React and Vue components from Figma designs with a 90% code acceptance rate in beta testing, enabling designers to ship components directly to codebases without engineering implementation time.',
+    body: [
+      "Figma has released Dev Mode AI — a capability that generates production-quality React and Vue components from Figma designs with a 90% code acceptance rate in beta testing across 500 companies — narrowing the design-to-engineering gap that has traditionally required days of implementation work to translate design specifications into running code. The system generates components that conform to the target codebase's existing patterns (design system tokens, naming conventions, component structure) by analyzing the repository before generating code, rather than producing generic implementations that require significant customization.",
+      "The 90% acceptance rate — measured as the percentage of generated components that are merged into production codebases without significant modification — is achieved through repository-aware generation: before generating a component, Dev Mode AI analyzes the codebase's existing component library, identifies the design system being used (shadcn/ui, MUI, Radix, Chakra, or custom), extracts naming patterns and code style from existing components, and generates the new component in the same style as its siblings rather than from a blank-slate template. Generated components import from the correct design token sources, use the project's preferred CSS approach, and follow the file structure the project uses for components.",
+      "The practical workflow change is significant for product teams: designers can annotate Figma components with interaction specifications, responsive breakpoints, and state variations, then trigger component generation that produces a pull request for engineering review rather than a handoff document that engineering must interpret and implement. The implementation time for a standard UI component drops from 2-4 hours of engineering work to 20 minutes of PR review — a 6-8x efficiency improvement on one of the highest-volume engineering tasks in product development.",
+      "<blockquote>The biggest friction in product development is the translation from design to code. Designers design. Engineers implement. The same component, twice, in different tools. Dev Mode AI collapses that step. The designer's design becomes the component. Engineering reviews it. The design and code are the same thing. That is the product workflow we should have had 10 years ago. — Dylan Field, CEO, Figma</blockquote>",
+      "Dev Mode AI supports React (TypeScript and JavaScript), Vue 3, Svelte, and Angular as generation targets, with Next.js and Nuxt framework awareness for components that require server/client boundary annotations. Figma is simultaneously launching Design System Sync — bidirectional synchronization that keeps Figma component specifications and codebase component implementations in alignment, flagging divergences when developers modify components without updating the Figma design.",
+    ],
+    company: 'Figma',
+    readTime: 5,
+    tags: ['Figma', 'Dev Mode AI', 'Dev Tools', 'React', 'Design to Code', 'Component Generation'],
+  },
 ];
 
 TC.timelineData = {
