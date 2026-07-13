@@ -8145,6 +8145,24 @@ undefined
     readTime: 5,
     tags: ['IBM', 'watsonx', 'Enterprise AI', 'Federated Learning', 'Cloud', 'Regulated Industries'],
   },
+
+  {
+    id: 452,
+    date: '2026-07-24',
+    category: 'Cybersecurity',
+    title: 'Recorded Future AI Threat Intelligence Platform Predicts Ransomware Attacks 14 Days in Advance: Preemptive Threat Hunting Prevents $2.3B in Estimated Damages',
+    excerpt: 'Recorded Future announces its AI threat intelligence platform successfully predicted 73% of major ransomware attacks 14 days before execution in 2025, enabling preemptive defender action that prevented an estimated $2.3 billion in damages across customers that acted on the advance warnings.',
+    body: [
+      "Recorded Future has published its 2025 threat intelligence effectiveness report, showing that its AI-powered threat intelligence platform successfully predicted 73% of major ransomware attacks on its customers 14 days before execution — with sufficient specificity (identified threat actor, likely attack vector, affected industry sector) that customers could take preemptive defensive action before attacks launched. The platform's predictions enabled defensive interventions that Recorded Future estimates prevented $2.3 billion in ransom payments, recovery costs, and business disruption across the customer base that acted on advance warnings.",
+      "The 14-day prediction capability relies on behavioral signals that precede ransomware execution: threat actors performing reconnaissance on target infrastructure (appearing in dark web forums discussing specific target organizations), purchasing initial access credentials from access brokers (dark web marketplace transactions for specific target organizations), and deploying pre-attack tooling (command and control infrastructure registration patterns that precede specific threat actor campaigns). Recorded Future's AI correlates these signals across dark web monitoring, threat actor tracking, and technical indicator analysis to produce attack predictions weeks before the attack executes.",
+      "The 73% prediction rate and 14-day advance warning represent significant improvements over Recorded Future's 2024 performance (61% prediction rate, 8-day advance warning), driven by expanded dark web monitoring coverage and improved ML models for threat actor behavior correlation. The 27% of attacks not predicted in advance involved threat actors with no dark web presence and attacks launched without the typical pre-execution reconnaissance phases — a category that Recorded Future is targeting for improvement in its 2026 product roadmap.",
+      "<blockquote>The security industry has spent 30 years reacting to attacks. We have invested billions in detection and response because we assumed attacks were inevitable. Threat intelligence changes the model: attacks are not inevitable, they are predictable, and predictable attacks can be prevented. 73% prediction at 14 days means 73% of our customers' ransomware attacks can be stopped before they start. — Christopher Ahlberg, CEO, Recorded Future</blockquote>",
+      "Recorded Future is announcing a threat intelligence API that integrates predictions directly into customers' security orchestration platforms (Splunk SOAR, Palo Alto XSOAR, IBM QRadar SOAR), enabling automatic defensive playbook execution when attack predictions cross confidence thresholds — isolating vulnerable systems, requiring credential rotation for accounts at risk, and activating enhanced monitoring before the attack window. The automated response integration reduces the manual intervention required to act on advance warnings.",
+    ],
+    company: 'Recorded Future',
+    readTime: 5,
+    tags: ['Recorded Future', 'Threat Intelligence', 'Cybersecurity', 'Ransomware', 'Predictive Security', 'AI Security'],
+  },
 ];
 
 TC.timelineData = {
