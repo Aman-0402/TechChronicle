@@ -8289,6 +8289,24 @@ undefined
     readTime: 5,
     tags: ['NVIDIA', 'NIM', 'AI Inference', 'Containerized AI', 'Enterprise Deployment', 'Foundation Models'],
   },
+
+  {
+    id: 460,
+    date: '2026-07-25',
+    category: 'Cloud',
+    title: 'Cloudflare Workers AI Reaches 100 Billion Requests Per Month: Edge-Native AI Inference Becomes Cost-Competitive With Centralized Cloud GPU Clusters',
+    excerpt: 'Cloudflare announces Workers AI has crossed 100 billion monthly inference requests across its global network of 300 cities, demonstrating that distributed edge inference at sub-10ms latency is cost-competitive with centralized GPU clusters for latency-sensitive AI workloads.',
+    body: [
+      "Cloudflare has announced that Workers AI — its distributed AI inference platform running on GPUs deployed across Cloudflare's 300-city global network — has crossed 100 billion monthly inference requests, marking a major milestone for edge-native AI inference as an architectural pattern. The scale validates Cloudflare's bet that distributing inference compute to the network edge rather than centralizing it in large GPU clusters delivers better latency, lower egress costs, and competitive economics for AI workloads serving globally distributed users.",
+      "Workers AI's technical architecture differs fundamentally from centralized cloud GPU inference: rather than routing user requests to a GPU cluster in a single region, Workers AI executes inference on the GPU-equipped server geographically closest to each user. The result is sub-10ms inference latency for users within range of a Cloudflare PoP, compared to 50-300ms typical for round-trips to centralized cloud GPU endpoints. For real-time applications — voice assistants, code completion, interactive chatbots — the latency difference is user-perceptible and affects product quality.",
+      "Cloudflare's cost model for Workers AI also differs from centralized GPU APIs: because inference runs on existing network infrastructure shared with Cloudflare's CDN and security products, marginal inference costs are lower than dedicated GPU cluster economics. Cloudflare passes this through as per-inference pricing that undercuts dedicated GPU instance pricing for workloads with variable and bursty demand patterns, where reserved GPU capacity goes underutilized during off-peak hours.",
+      "<blockquote>The AI inference wars are being won at the edge, not the data center. When your users are in 190 countries and you need sub-10ms AI responses, routing to a GPU cluster in Virginia or Oregon is the wrong architecture. We built AI inference into the network itself, and 100 billion requests a month tells us developers agree. — Matthew Prince, CEO, Cloudflare</blockquote>",
+      "Cloudflare is expanding Workers AI capabilities with dedicated GPU inference for fine-tuned and custom models (complementing existing support for hosted foundation models), persistent vector storage integrated with inference for RAG workloads at the edge, and multimodal inference supporting vision and audio models alongside text. The roadmap positions Workers AI as a full-stack edge AI platform rather than just a hosted model API, targeting developers building AI-native applications that need low latency, global reach, and simple pricing without GPU infrastructure management.",
+    ],
+    company: 'Cloudflare',
+    readTime: 5,
+    tags: ['Cloudflare', 'Workers AI', 'Edge Computing', 'AI Inference', 'Cloud', 'Distributed Systems'],
+  },
 ];
 
 TC.timelineData = {
