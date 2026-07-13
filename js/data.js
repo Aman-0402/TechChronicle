@@ -8019,6 +8019,24 @@ undefined
     readTime: 5,
     tags: ['NIST', 'AI Security', 'Cybersecurity', 'AI Framework', 'Prompt Injection', 'Federal Standards'],
   },
+
+  {
+    id: 445,
+    date: '2026-07-24',
+    category: 'Hardware',
+    title: 'NVIDIA Jetson Thor Ships: Edge AI Computer Delivers 2,000 TOPS for Autonomous Robots, Enabling Full ChatGPT-Class Reasoning in a 20-Watt Form Factor',
+    excerpt: 'NVIDIA releases Jetson Thor, a 20-watt edge AI computer delivering 2,000 TOPS of compute — sufficient to run 7B parameter language models at 30 tokens per second — targeting autonomous robots, drones, and industrial AI systems that require ChatGPT-class reasoning without cloud connectivity.',
+    body: [
+      "NVIDIA has released Jetson Thor, a 20-watt edge AI computer module delivering 2,000 TOPS (trillion operations per second) of AI compute in a module smaller than a credit card — sufficient to run 7 billion parameter language models at 30 tokens per second in 4-bit quantization, enabling full ChatGPT-class reasoning in autonomous robots, drones, and industrial systems without cloud connectivity. The 2,000 TOPS figure represents a 10x improvement over the previous Jetson Orin (200 TOPS) at the same power envelope, achieved through NVIDIA's new Blackwell-based edge architecture and TSMC N3E manufacturing process.",
+      "Jetson Thor's primary target market is the next generation of autonomous mobile robots: warehouse robots that need to understand natural language instructions from workers, service robots that must interpret complex environment scenes and make real-time navigation decisions, agricultural drones that analyze crop health and make spray decisions in real time, and industrial inspection robots that must identify defects and make rejection decisions without human review. Each application requires the combination of computer vision, natural language understanding, and real-time decision-making that previous Jetson modules could handle separately but struggled to run simultaneously at production speeds.",
+      "NVIDIA is simultaneously releasing Isaac ROS 4.0 — the robotics operating system optimized for Jetson Thor — with pre-built AI pipelines for the most common robotics use cases: manipulation (grasp pose estimation, object detection), navigation (occupancy mapping, path planning), and interaction (speech recognition, natural language command processing). The pre-built pipelines reduce Jetson Thor application development time from months to weeks for robotics teams building on standard use cases.",
+      "<blockquote>Every robot needs to think. Not just react — think. Understand what it is looking at, understand what it has been asked to do, reason about how to accomplish it safely. Jetson Thor gives robots that capability at 20 watts. That is the power budget of a light bulb enabling the reasoning capability of a large language model. We have changed what autonomy means at the edge. — Jensen Huang, CEO, NVIDIA</blockquote>",
+      "Jetson Thor developer kits ship at $599 for the 16GB variant and $899 for the 64GB variant, with production module pricing starting at $299 at 1,000-unit quantities. NVIDIA has announced partnerships with Boston Dynamics (Spot SDK integration), ABB Robotics (industrial arm integration), and DJI (drone SDK integration) as launch ecosystem partners, ensuring Jetson Thor is available through established robotics hardware supply chains rather than requiring custom integration from scratch.",
+    ],
+    company: 'NVIDIA',
+    readTime: 5,
+    tags: ['NVIDIA', 'Jetson Thor', 'Edge AI', 'Hardware', 'Robotics', 'Autonomous Systems'],
+  },
 ];
 
 TC.timelineData = {
