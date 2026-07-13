@@ -7425,6 +7425,24 @@ undefined
     readTime: 5,
     tags: ['Databricks', 'Tabular', 'Apache Iceberg', 'Data Lakehouse', 'Cloud', 'Acquisition'],
   },
+
+  {
+    id: 412,
+    date: '2026-07-20',
+    category: 'Cybersecurity',
+    title: 'NSA Publishes Post-Quantum Cryptography Migration Guide: All Federal Systems Must Use NIST PQC Standards by 2028 as Quantum Threat Timeline Accelerates',
+    excerpt: 'The NSA releases a comprehensive migration guide requiring all national security systems to implement NIST post-quantum cryptography standards by 2028, accelerating the timeline in response to intelligence assessments that quantum computing capable of breaking RSA-2048 may arrive earlier than previously projected.',
+    body: [
+      "The National Security Agency has published a comprehensive Post-Quantum Cryptography Migration Guide requiring all National Security Systems — systems handling classified information or supporting critical national security missions — to complete migration to NIST-standardized post-quantum cryptography algorithms (ML-KEM, ML-DSA, SLH-DSA) by December 31, 2028, two years earlier than the NSA's previous 2030 guidance. The accelerated timeline is attributed to updated intelligence assessments of adversary quantum computing progress, though the NSA declined to provide specific details of the classified threat assessment driving the change.",
+      "The NIST PQC algorithms finalized in August 2024 are the mandatory targets: ML-KEM (CRYSTALS-Kyber) for key encapsulation, ML-DSA (CRYSTALS-Dilithium) for digital signatures, and SLH-DSA (SPHINCS+) as a hash-based backup signature algorithm. All federal systems must replace RSA and elliptic curve Diffie-Hellman key exchange with ML-KEM, and replace RSA and ECDSA digital signatures with ML-DSA, across TLS connections, code signing, certificate infrastructure, and data-at-rest encryption key derivation.",
+      "The migration scope is enormous: an estimated 4,000 federal systems use cryptography that will be broken by a sufficiently powerful quantum computer, and migration requires cryptographic library updates, certificate authority changes, hardware security module firmware updates, and protocol configuration changes across each system. CISA has published an automated discovery tool that scans federal network traffic for quantum-vulnerable cryptographic protocols, providing agencies with an inventory of systems requiring migration before the 2028 deadline.",
+      "<blockquote>Harvest now, decrypt later is already happening. Adversaries are collecting encrypted federal communications today with the intent to decrypt them when quantum computers become available. Every day we delay migration is another day of communications that will eventually be readable by adversaries. The 2028 deadline is aggressive. It is also necessary. — Paul Nakasone, Director, NSA</blockquote>",
+      "The NSA guide includes a vendor compliance requirement: federal system vendors must provide PQC-capable versions of their products with a compliance certification by June 2027 to remain eligible for federal contracts. Major security vendors including Cisco, Palo Alto Networks, Fortinet, and Zscaler have announced PQC roadmaps in response, with Cisco and Palo Alto Networks publishing the first PQC-capable firmware updates for their enterprise hardware this week.",
+    ],
+    company: 'NSA',
+    readTime: 5,
+    tags: ['NSA', 'Post-Quantum Cryptography', 'NIST PQC', 'Cybersecurity', 'Federal Security', 'Quantum Threat'],
+  },
 ];
 
 TC.timelineData = {
