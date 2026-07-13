@@ -7659,6 +7659,24 @@ undefined
     readTime: 5,
     tags: ['Palo Alto Networks', 'XSIAM', 'Cybersecurity', 'Supply Chain Attack', 'AI SOC', 'Behavioral Detection'],
   },
+
+  {
+    id: 425,
+    date: '2026-07-22',
+    category: 'Hardware',
+    title: 'SK Hynix HBM4 Memory Ships With 6.4 TB/s Bandwidth: AI Accelerator Memory Bandwidth Doubles With New Stack Architecture Designed for Trillion-Parameter Models',
+    excerpt: 'SK Hynix begins shipping HBM4 memory with 6.4 terabytes per second bandwidth per stack — double HBM3e — enabling AI accelerator designs that can sustain inference on trillion-parameter models without the memory bandwidth bottleneck that throttles current GPU performance.',
+    body: [
+      "SK Hynix has begun shipping HBM4 (High Bandwidth Memory 4th generation) with 6.4 terabytes per second bandwidth per memory stack — double the 3.2 TB/s of HBM3e used in current NVIDIA H200 and AMD MI300X accelerators — addressing the memory bandwidth bottleneck that increasingly limits AI inference performance as model sizes scale toward trillion parameters. HBM4 uses a new 16-Hi (16-layer) stacking architecture that doubles layer count while maintaining the same physical footprint as HBM3e's 12-Hi stacks, achieving the bandwidth increase through wider parallel data paths rather than higher clock speeds.",
+      "Memory bandwidth is the primary performance constraint for large language model inference: transformer attention mechanisms require loading enormous parameter matrices for every token generated, and the bandwidth between memory and compute determines how many tokens per second the system can produce. Current H200 GPUs (3.35 TB/s HBM3e) achieve approximately 100 tokens per second for 70B parameter models; HBM4's doubled bandwidth theoretically enables 200 tokens per second on the same architecture, making real-time interactive inference feasible for significantly larger models than current hardware supports.",
+      "NVIDIA and AMD are confirmed HBM4 customers, with HBM4-equipped AI accelerators (NVIDIA's next-generation chip after Blackwell) targeted for production in Q2 2027. The 6.4 TB/s bandwidth specification accommodates trillion-parameter dense model inference — a class of models that current hardware cannot run at interactive speeds — enabling AI capability categories that have been theoretically possible but practically infeasible due to memory bandwidth constraints.",
+      "<blockquote>HBM3e was the memory that enabled the AI boom. HBM4 is the memory that enables the next phase — models 10x larger, inference 2x faster, applications that do not yet exist because the hardware did not yet exist. Memory bandwidth is the multiplier on everything else in the AI stack. SK Hynix ships HBM4. The industry builds the future around it. — Kwak Noh-Jung, CEO, SK Hynix</blockquote>",
+      "SK Hynix is simultaneously announcing HBM4E (enhanced HBM4) targeting 8 TB/s bandwidth per stack for 2028 production, providing the roadmap visibility that AI accelerator designers need to plan next-generation chip architectures. The HBM4 supply chain is scaling to meet the unprecedented demand from AI infrastructure buildouts: SK Hynix has committed to 300% capacity increase through 2027 for HBM production, with a new dedicated HBM fabrication facility opening in Cheongju, South Korea in late 2026.",
+    ],
+    company: 'SK Hynix',
+    readTime: 5,
+    tags: ['SK Hynix', 'HBM4', 'Memory', 'AI Hardware', 'Bandwidth', 'GPU Memory'],
+  },
 ];
 
 TC.timelineData = {
