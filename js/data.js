@@ -7479,6 +7479,24 @@ undefined
     readTime: 5,
     tags: ['Apple', 'Mac Pro', 'M4 Ultra Extreme', 'Local AI', 'Hardware', 'On-Premise Inference'],
   },
+
+  {
+    id: 415,
+    date: '2026-07-20',
+    category: 'Open Source',
+    title: 'Apache Kafka 4.0 Removes ZooKeeper Dependency: Distributed Streaming Platform Simplifies Deployment With Native KRaft Consensus and 50% Throughput Improvement',
+    excerpt: 'Apache Kafka 4.0 completes the removal of ZooKeeper as a required dependency, with all cluster coordination handled natively by the KRaft consensus protocol, reducing operational complexity while delivering 50% throughput improvement and millisecond metadata propagation.',
+    body: [
+      "Apache Kafka 4.0 completes a multi-year architectural transition by removing ZooKeeper as a required dependency entirely — all cluster coordination, topic metadata, and broker election is now handled natively by the KRaft (Kafka Raft) consensus protocol built into Kafka's own broker processes. The elimination of ZooKeeper simplifies Kafka deployment from two separate distributed systems (Kafka brokers + ZooKeeper ensemble) to a single system, reducing operational overhead, infrastructure cost, and the operational expertise required to run Kafka in production.",
+      "The ZooKeeper removal delivers concrete performance improvements alongside operational simplification: metadata propagation time drops from 200-500ms (ZooKeeper's replication latency) to under 5ms with KRaft's direct peer-to-peer metadata replication, enabling Kafka to handle topic partition reassignments and broker failures 40x faster than ZooKeeper-based clusters. Benchmark results show 50% end-to-end throughput improvement on high-partition workloads where ZooKeeper's metadata bottlenecks previously limited producer throughput.",
+      "Kafka 4.0's migration from ZooKeeper mode to KRaft mode is supported by automated migration tooling that converts existing ZooKeeper-based clusters in-place without downtime, using a dual-mode transitional state where the cluster runs both ZooKeeper and KRaft simultaneously during migration before cutting over to KRaft-only operation. The migration tooling has been validated on clusters with up to 10,000 partitions in testing, covering the vast majority of production Kafka deployments outside hyperscale environments.",
+      "<blockquote>ZooKeeper served Kafka well for 15 years. It also made Kafka harder to operate than it needed to be — two systems to understand, two systems to monitor, two systems to secure, two systems to upgrade. KRaft gives us everything ZooKeeper gave us, built into Kafka itself, faster and simpler. Kafka 4.0 is Kafka as it should have been from the beginning. — Jun Rao, Apache Kafka PMC Chair</blockquote>",
+      "Kafka 4.0 also introduces tiered storage as a production-ready feature, enabling Kafka to offload historical log segments to S3, GCS, or Azure Blob Storage while maintaining hot segments on local NVMe, enabling effectively unlimited retention periods without proportional broker disk costs. Tiered storage addresses the long-standing economics problem of Kafka retention — keeping months of event history in Kafka's replicated log is expensive, making most organizations archive old data to data lakes and lose Kafka's replay and consumer group capabilities on historical data.",
+    ],
+    company: 'Apache Kafka',
+    readTime: 5,
+    tags: ['Apache Kafka', 'Open Source', 'Streaming', 'KRaft', 'ZooKeeper Removal', 'Distributed Systems'],
+  },
 ];
 
 TC.timelineData = {
