@@ -7299,6 +7299,24 @@ undefined
     readTime: 5,
     tags: ['CrowdStrike', 'Cybersecurity', 'AI Malware', 'Falcon', 'Threat Detection', 'LLM Security'],
   },
+
+  {
+    id: 405,
+    date: '2026-07-20',
+    category: 'Hardware',
+    title: 'TSMC N2 Process Begins Mass Production: 2nm Chips Deliver 15% Speed Improvement and 30% Power Reduction, Enabling Next Generation iPhone and AI Accelerators',
+    excerpt: 'TSMC begins mass production on its N2 (2-nanometer) process node, delivering 15% performance improvement and 30% power reduction versus N3E, with Apple A20 chips for iPhone 18 and custom AI accelerators from Google and Amazon as initial customers.',
+    body: [
+      "TSMC has begun mass production on its N2 (2-nanometer) process node, the most advanced semiconductor manufacturing process available commercially, delivering 15% CPU performance improvement and 30% power reduction compared to N3E — the current process used in Apple's A17 Pro and NVIDIA's H100. Apple, Google, and Amazon are confirmed initial customers, with Apple's A20 chip (for iPhone 18) and Google's TPU v6 and Amazon's Trainium 3 being the first mass production designs on N2.",
+      "N2 uses Gate-All-Around (GAA) transistors — a fundamentally different transistor architecture from the FinFET used in all previous process nodes — that surround the gate material around all four sides of the silicon channel, providing better electrostatic control and enabling continued transistor scaling below 3nm where FinFET physics become insufficient. The transition to GAA is the most significant transistor architecture change since FinFETs replaced planar transistors in 2012, requiring TSMC to redesign significant portions of its manufacturing process and customers to redesign cell libraries and standard cells for their chip designs.",
+      "AI accelerator density improvements from N2 are particularly significant: NVIDIA's next-generation Blackwell Ultra successor (rumored as 'Blackwell X') will use N2 for GPU compute dies, targeting 30% better performance-per-watt versus current H200 chips. For AI infrastructure operators running thousands of GPU servers, the power reduction translates directly to data center operating cost savings — a 30% power reduction across 100,000 GPUs represents over $50 million in annual energy cost savings at current commercial electricity rates.",
+      "<blockquote>N2 is the node that keeps Moore's Law alive for another generation. GAA transistors are more complex to manufacture than FinFET, but they deliver the performance scaling that the industry needs. Every major AI chip for 2027 will be on N2. The AI infrastructure buildout is the largest semiconductor demand cycle in history, and N2 is the process that will define it. — C.C. Wei, CEO, TSMC</blockquote>",
+      "TSMC is simultaneously announcing N2P (enhanced N2 with additional performance optimization) for 2027, targeting 5% additional performance improvement over baseline N2 for customers willing to accept a longer process qualification timeline. The N2/N2P roadmap extends TSMC's technology leadership into 2028, with N1.4 (1.4nm) announced as the next architectural milestone targeting 2028 mass production.",
+    ],
+    company: 'TSMC',
+    readTime: 5,
+    tags: ['TSMC', 'N2', '2nm', 'Semiconductor', 'Hardware', 'GAA Transistors'],
+  },
 ];
 
 TC.timelineData = {
