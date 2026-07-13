@@ -7767,6 +7767,24 @@ undefined
     readTime: 5,
     tags: ['Baidu', 'ERNIE 5.0', 'Chinese AI', 'AI', 'Language Model', 'China Tech'],
   },
+
+  {
+    id: 431,
+    date: '2026-07-22',
+    category: 'Cloud',
+    title: 'HashiCorp OpenTofu Reaches 1 Million Downloads Per Week: Open-Source Terraform Fork Achieves Enterprise Adoption After BSL License Controversy',
+    excerpt: 'OpenTofu, the open-source fork of Terraform created after HashiCorp switched to Business Source License, reaches 1 million weekly downloads and enterprise adoption at 3,000 companies, validating the fork as a credible long-term alternative to HashiCorp Terraform.',
+    body: [
+      "OpenTofu, the Linux Foundation-hosted open-source fork of Terraform created in response to HashiCorp's controversial switch from Mozilla Public License to Business Source License in August 2023, has reached 1 million downloads per week and enterprise adoption at over 3,000 companies — establishing the fork as a credible long-term infrastructure as code platform rather than a protest project. The growth trajectory validates the community's assessment that Terraform's BSL change created sufficient license risk for enterprise users to justify migrating to a fork with guaranteed open-source status.",
+      "Enterprise adoption is driven by two concerns about HashiCorp's Terraform BSL: the BSL restriction that prohibits using Terraform in competing products creates ambiguity for companies whose internal platforms could be construed as Terraform alternatives, and IBM's acquisition of HashiCorp (completed in 2024) introduces corporate strategic uncertainty about Terraform's long-term pricing and feature direction. OpenTofu's Linux Foundation governance provides the perpetual open-source guarantee that enterprise legal teams require for infrastructure tooling that is deeply embedded in deployment pipelines.",
+      "OpenTofu 1.8 ships this week with three features that were on Terraform's roadmap but not delivered: provider-defined functions (enabling reusable logic within Terraform providers without external data sources), workspace scoped variables (variable definitions that apply to specific workspaces rather than all workspaces), and early evaluation of variables and locals in module blocks. The features demonstrate that OpenTofu is not just maintaining Terraform parity but extending the platform based on community priorities rather than commercial roadmap decisions.",
+      "<blockquote>HashiCorp changed the license without warning and asked the community to trust that it would not matter for most use cases. The community answered: we will create a version where it cannot matter, because the license cannot change. OpenTofu at 1 million downloads per week is the community's answer to the question of whether open source infrastructure tooling has a market. It does. — Kris Nova, OpenTofu Technical Steering Committee</blockquote>",
+      "The OpenTofu project is announcing the OpenTofu Registry — a community-hosted alternative to Terraform Registry providing provider and module distribution for OpenTofu users without dependency on HashiCorp infrastructure. The registry mirrors the 4,000 providers and 10,000 modules published on Terraform Registry (under licenses that permit redistribution) and adds new providers contributed by OpenTofu community members, completing the infrastructure needed for organizations to run fully OpenTofu-native stacks without HashiCorp dependency.",
+    ],
+    company: 'OpenTofu',
+    readTime: 5,
+    tags: ['OpenTofu', 'Terraform', 'Open Source', 'Infrastructure as Code', 'Cloud', 'HashiCorp'],
+  },
 ];
 
 TC.timelineData = {
