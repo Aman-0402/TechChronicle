@@ -7245,6 +7245,24 @@ undefined
     readTime: 5,
     tags: ['Anthropic', 'Claude 4', 'Medical AI', 'USMLE', 'Clinical AI', 'AI Safety'],
   },
+
+  {
+    id: 402,
+    date: '2026-07-20',
+    category: 'Cloud',
+    title: 'Snowflake Cortex AI Platform Reaches 10,000 Enterprise Customers: Data Cloud Becomes Primary AI Deployment Layer for Fortune 500 Data Teams',
+    excerpt: 'Snowflake announces Cortex AI has reached 10,000 enterprise customers, establishing its data cloud as the primary deployment layer for enterprise AI on structured data, with 80% of Fortune 500 companies using Cortex AI for analytics, prediction, and LLM-powered data workflows.',
+    body: [
+      "Snowflake has announced that its Cortex AI platform — the suite of AI capabilities embedded directly in the Snowflake Data Cloud — has reached 10,000 enterprise customers and is now used by 80% of Fortune 500 companies for AI-powered data analytics. Cortex AI embeds large language model capabilities (powered by Snowflake-optimized versions of Mistral and Meta's Llama models running within Snowflake's security perimeter) directly into SQL queries, enabling data teams to apply AI to their existing Snowflake data without separate infrastructure, API credentials, or data movement.",
+      "The embedded AI model is Cortex AI's architectural advantage: AI runs where the data lives, eliminating the data governance complexity of sending Snowflake data to external AI APIs. Data teams write SQL that calls AI functions — SNOWFLAKE.CORTEX.COMPLETE() for text generation, SNOWFLAKE.CORTEX.CLASSIFY_TEXT() for classification, SNOWFLAKE.CORTEX.EXTRACT_ANSWER() for document Q&A — and AI executes within Snowflake's compute layer with the same row-level security, data masking, and audit logging applied to standard SQL queries. Regulated industries that cannot send data to external APIs gain frontier AI capability within their existing Snowflake governance framework.",
+      "Snowflake's growth trajectory in AI reflects a broader enterprise pattern: data teams that already manage petabytes in Snowflake are choosing to add AI capabilities in place rather than building separate AI infrastructure. The consolidation of data and AI in a single platform reduces the data engineering work required to prepare data for AI models, eliminates ETL pipelines between data warehouse and AI systems, and provides unified cost management for data and AI compute in a single monthly bill.",
+      "<blockquote>Data teams do not want to learn a new platform to use AI. They want AI where their data already is. Cortex AI makes Snowflake the AI platform for the data teams who already chose Snowflake as the data platform. We are not asking them to adopt new infrastructure. We are bringing AI to infrastructure they already trust. — Sridhar Ramaswamy, CEO, Snowflake</blockquote>",
+      "Snowflake is announcing Cortex Agents — autonomous AI workflows that can query, analyze, and act on Snowflake data across multi-step tasks — available in preview for enterprise customers. Cortex Agents enable use cases such as automated financial anomaly investigation (detecting an anomaly, querying related tables, generating a root cause analysis report, and routing to the appropriate team) without manual orchestration code, extending Cortex AI from data analytics to data-driven workflow automation.",
+    ],
+    company: 'Snowflake',
+    readTime: 5,
+    tags: ['Snowflake', 'Cortex AI', 'Cloud', 'Data Cloud', 'Enterprise AI', 'Fortune 500'],
+  },
 ];
 
 TC.timelineData = {
