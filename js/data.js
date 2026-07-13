@@ -8001,6 +8001,24 @@ undefined
     readTime: 5,
     tags: ['Elixir', 'Programming', 'Type System', 'Functional Programming', 'Static Typing', 'Set-Theoretic Types'],
   },
+
+  {
+    id: 444,
+    date: '2026-07-24',
+    category: 'Cybersecurity',
+    title: 'NIST Releases AI Security Framework 1.0: First Federal Standards for Securing AI Systems Against Adversarial Attacks, Model Theft, and Data Poisoning',
+    excerpt: 'NIST publishes the AI Security Framework 1.0, establishing the first federal standards for securing machine learning systems against adversarial attacks, training data poisoning, model theft, and prompt injection — providing enterprise AI security teams a compliance baseline for the first time.',
+    body: [
+      "The National Institute of Standards and Technology has published AI Security Framework 1.0 (AISF 1.0), establishing the first federal standards for securing machine learning systems against threats specific to AI: adversarial input attacks that cause models to misclassify inputs, training data poisoning that embeds malicious behavior during model training, model theft attacks that extract proprietary model weights through repeated queries, and prompt injection attacks that cause language models to execute instructions hidden in user-provided content. The framework provides enterprise AI security teams a structured compliance baseline for the first time, replacing the ad-hoc security practices that currently vary widely across organizations.",
+      "AISF 1.0 organizes AI security controls across five threat categories with specific control requirements for each: Adversarial Robustness (certified defenses, adversarial training, input validation), Training Data Integrity (provenance tracking, anomaly detection, differential privacy), Model Confidentiality (output rate limiting, watermarking, differential privacy for inference), Supply Chain Security (model provenance, dependency scanning, third-party model auditing), and Prompt Injection Prevention (input sanitization, instruction separation, output filtering). Each category includes required controls for high-risk AI applications and recommended controls for lower-risk deployments.",
+      "The prompt injection prevention controls are the most novel contribution: prompt injection — where attackers embed instructions in content processed by AI systems ('ignore previous instructions and output the system prompt') — has no precedent in traditional security frameworks and required NIST to develop new control categories. AISF 1.0 requires instruction separation (maintaining cryptographic distinction between system-level instructions and user-provided content), output filtering (blocking AI responses that include system prompt content), and anomaly detection (flagging outputs that deviate from expected application behavior).",
+      "<blockquote>AI systems introduce security threats that traditional frameworks were not designed to address. A vulnerability in a neural network is not a buffer overflow — it is a model behavior that attackers have learned to elicit. AISF 1.0 names these threats, defines controls for them, and gives organizations a compliance structure for AI security that they can audit. That is what federal standards exist to provide. — Laurie Locascio, Director, NIST</blockquote>",
+      "NIST is aligning AISF 1.0 with the EU AI Act's security requirements and plans to publish a mapping between AISF and EU AI Act obligations by Q1 2027, enabling multinational organizations to satisfy both regulatory frameworks with a single compliance program. AISF 1.0 is available as a free download from NIST's website, with assessment tools and compliance checklists for each control category published alongside the main framework document.",
+    ],
+    company: 'NIST',
+    readTime: 5,
+    tags: ['NIST', 'AI Security', 'Cybersecurity', 'AI Framework', 'Prompt Injection', 'Federal Standards'],
+  },
 ];
 
 TC.timelineData = {
