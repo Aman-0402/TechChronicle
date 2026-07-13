@@ -7407,6 +7407,24 @@ undefined
     readTime: 5,
     tags: ['Google', 'NotebookLM', 'AI Research', 'Education', 'Knowledge Management', 'AI Tools'],
   },
+
+  {
+    id: 411,
+    date: '2026-07-20',
+    category: 'Cloud',
+    title: 'Databricks Acquires Tabular for $2.4B: Unified Data Lakehouse Strategy Consolidates Apache Iceberg Ecosystem Around Single Commercial Platform',
+    excerpt: 'Databricks acquires Tabular, the company founded by the original Apache Iceberg creators, for $2.4B, consolidating the open table format ecosystem and positioning the combined entity to compete with Snowflake for the enterprise data platform market.',
+    body: [
+      "Databricks has acquired Tabular, the company founded by the original creators of Apache Iceberg — Ryan Blue, Daniel Weeks, and Jason Reid — for $2.4 billion in cash and stock, consolidating control of the open table format ecosystem that has become the default storage layer for enterprise data lakehouses. The acquisition combines Databricks' Delta Lake format (previously its primary open table format investment) and Tabular's Iceberg expertise into a unified strategy centered on Apache Iceberg, signaling Databricks' decision to align with the format that has achieved the broadest multi-cloud vendor support.",
+      "Apache Iceberg has become the de facto open table format for enterprise data lakehouses over the past 18 months, gaining support from Snowflake (through Universal Iceberg), AWS (through S3 Tables), Google BigQuery (through BigLake), and Microsoft Fabric (through OneLake). The broad vendor support reflects an industry consensus that Iceberg's ACID transaction model, schema evolution capabilities, and time-travel features provide the correct foundation for enterprise data governance — and that no single vendor's proprietary format (including Databricks' own Delta Lake) can achieve the ecosystem lock-in required for long-term competitive advantage.",
+      "The Databricks-Tabular combination creates a data platform that offers both managed Iceberg services (through Tabular's cloud product) and the Databricks unified analytics platform — covering data engineering, machine learning, and AI in a single vendor relationship with open format data that is not locked to any single platform. The combined product targets Snowflake's core enterprise customer base, where Databricks has gained ground on data engineering workloads but lagged on SQL analytics and BI use cases where Snowflake's warehouse performance remains superior.",
+      "<blockquote>Delta Lake and Iceberg converge at Databricks. Open formats win when the whole industry adopts them. Databricks adopting Iceberg is not a concession — it is a bet that open wins, and that the company that best serves the open ecosystem wins the market. Tabular's team wrote Iceberg. Now they build the platform that makes Iceberg the center of enterprise data. — Ali Ghodsi, CEO, Databricks</blockquote>",
+      "Tabular's standalone product will continue to operate and serve existing customers, with Databricks providing a migration path to the combined Databricks-Tabular platform for customers who want the broader analytics capabilities. Tabular's co-founders join Databricks as distinguished engineers leading the company's open table format strategy, with Ryan Blue taking the role of VP of Engineering for Data Platform.",
+    ],
+    company: 'Databricks',
+    readTime: 5,
+    tags: ['Databricks', 'Tabular', 'Apache Iceberg', 'Data Lakehouse', 'Cloud', 'Acquisition'],
+  },
 ];
 
 TC.timelineData = {
