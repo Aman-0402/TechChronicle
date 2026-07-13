@@ -7713,6 +7713,24 @@ undefined
     readTime: 5,
     tags: ['AI Research', 'Princeton', 'World Models', 'Interpretability', 'Activation Steering', 'LLM Internals'],
   },
+
+  {
+    id: 428,
+    date: '2026-07-22',
+    category: 'Dev Tools',
+    title: 'Sentry 10 Launches AI Error Triage: Automatically Finds Root Cause, Identifies Responsible Commit, and Opens Draft Fix PR for 65% of Production Errors',
+    excerpt: 'Sentry releases version 10 with AI-powered error triage that automatically analyzes stack traces, identifies the responsible commit, explains the root cause in plain English, and opens a draft pull request with a proposed fix for 65% of common production error patterns.',
+    body: [
+      "Sentry has released version 10, introducing AI-powered error triage that autonomously investigates production errors — analyzing stack traces against the codebase, identifying the specific commit that introduced each error using git bisect methodology, explaining the root cause in plain English for non-technical stakeholders, and opening a draft pull request with a proposed code fix for 65% of common error patterns (null pointer dereferences, missing null checks, off-by-one errors, and type mismatches in dynamically-typed languages). The automation transforms error response from alert-and-investigate to fix-and-review.",
+      "The 65% auto-fix rate is achieved by focusing on the error categories that are structurally straightforward to repair: Sentry's AI identifies the exact line where the error occurs, the data flow that produced the unexpected value, and the minimal code change that prevents the error path from being reachable. Complex errors involving race conditions, architectural issues, or business logic faults are escalated to developers with a detailed investigation summary rather than an attempted fix, maintaining accuracy by staying within the capability boundary where automated fixes are reliable.",
+      "Sentry's codebase integration enables precise fix generation: the system has full access to the repository, test suite, and code history, enabling it to generate fixes that conform to the codebase's existing patterns (using the same null-checking style, error handling approach, and logging conventions used elsewhere in the file). Generated fixes are opened as draft PRs rather than committed directly, requiring developer approval before merging — maintaining human oversight while eliminating the investigation and fix-writing work that consumed 40% of on-call engineer time in Sentry's pre-AI baseline measurement.",
+      "<blockquote>On-call engineers spend 40% of their time figuring out what broke and why. That is the wrong use of the best engineers. Sentry 10 does the figuring out. The engineer reviews a complete investigation with a proposed fix. That is 10 minutes instead of 2 hours. The engineer is still in the loop — they approve the fix. They just do not have to do the detective work anymore. — David Cramer, CEO, Sentry</blockquote>",
+      "Sentry 10 also introduces Session Replay AI analysis — automatic identification of the user action sequences most likely to trigger each error, extracted from session replay data — providing the reproduction path that developers need to verify fixes before deployment. The combination of root cause analysis, proposed fix, and reproduction path gives developers everything they need to review, test, and merge error fixes without additional investigation time.",
+    ],
+    company: 'Sentry',
+    readTime: 5,
+    tags: ['Sentry', 'Dev Tools', 'Error Monitoring', 'AI Triage', 'Automatic Fix', 'Production Debugging'],
+  },
 ];
 
 TC.timelineData = {
