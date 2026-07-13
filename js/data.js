@@ -7785,6 +7785,24 @@ undefined
     readTime: 5,
     tags: ['OpenTofu', 'Terraform', 'Open Source', 'Infrastructure as Code', 'Cloud', 'HashiCorp'],
   },
+
+  {
+    id: 432,
+    date: '2026-07-22',
+    category: 'Cybersecurity',
+    title: 'Okta Identity Cloud Introduces AI Behavioral Biometrics: Continuous Authentication Replaces Periodic MFA With Real-Time Typing and Navigation Pattern Verification',
+    excerpt: 'Okta launches AI-powered behavioral biometrics that continuously verify user identity through typing rhythm, mouse movement patterns, and application navigation behavior, replacing periodic MFA prompts with always-on authentication that detects credential theft within 30 seconds.',
+    body: [
+      "Okta has launched AI-powered behavioral biometrics for Okta Identity Cloud, continuously verifying user identity through typing rhythm, mouse movement patterns, scroll behavior, and application navigation sequences — replacing periodic multi-factor authentication prompts with always-on behavioral authentication that detects credential theft or account takeover within 30 seconds of anomalous behavior. The system establishes a behavioral baseline for each user over 14 days of normal activity, then monitors real-time deviation from that baseline as a continuous authentication signal.",
+      "Behavioral biometrics addresses the fundamental limitation of periodic MFA: a stolen credential plus a compromised MFA token (obtained through phishing, SIM swap, or push notification fatigue attacks) provides an attacker with authenticated access that persists until the next MFA challenge or session expiry. Continuous behavioral authentication detects the behavioral difference between the legitimate user and an attacker using their credentials — attackers type differently, navigate applications differently, and exhibit different behavioral patterns from the legitimate user — generating a re-authentication challenge when behavioral confidence drops below a configurable threshold.",
+      "The system achieves 99.3% user recognition accuracy (correctly identifying that a behavioral pattern matches the registered user) with a 0.4% false positive rate (incorrectly flagging legitimate users as anomalous) in Okta's evaluation across 2 million user sessions. The false positive rate is low enough to deploy as a frictionless background signal — anomalous behavioral patterns trigger a passive MFA re-prompt rather than immediate session termination, giving users a 60-second window to confirm their identity before session suspension.",
+      "<blockquote>Passwords are authentication. MFA is authentication. Both happen at login and then stop. The attacker who steals your credentials and your MFA token is authenticated. Behavioral biometrics is authentication that never stops — it watches how you work, not just whether you logged in correctly. A thief who knows your password does not know how you type. That is the difference. — Todd McKinnon, CEO, Okta</blockquote>",
+      "Okta Behavioral Biometrics is available for Okta Identity Cloud Enterprise customers as an add-on at $2/user/month, integrated with Okta's Adaptive MFA policy engine to customize the re-authentication response when behavioral anomalies are detected. The feature integrates with existing Okta workflows, requiring no application changes — behavioral signals are collected by a JavaScript agent embedded in Okta's authentication pages, covering all applications that use Okta for SSO regardless of application type.",
+    ],
+    company: 'Okta',
+    readTime: 5,
+    tags: ['Okta', 'Identity Security', 'Behavioral Biometrics', 'Cybersecurity', 'MFA', 'Continuous Authentication'],
+  },
 ];
 
 TC.timelineData = {
