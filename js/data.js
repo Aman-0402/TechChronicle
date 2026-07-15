@@ -8685,6 +8685,24 @@ undefined
     readTime: 5,
     tags: ['Anthropic', 'Claude 4', 'AI Benchmarks', 'Professional AI', 'Legal AI', 'Medical AI'],
   },
+
+  {
+    id: 482,
+    date: '2026-07-28',
+    category: 'Cloud',
+    title: 'HashiCorp OpenTofu Reaches 1 Million Weekly Downloads: Open Source Terraform Fork Becomes Enterprise Infrastructure Standard After HashiCorp License Change',
+    excerpt: 'OpenTofu, the open source fork of Terraform created after HashiCorp switched to the Business Source License, reaches 1 million weekly downloads and 3,000 enterprise adopters, establishing the community-governed fork as the dominant infrastructure-as-code tool for organizations requiring open source licensing.',
+    body: [
+      "OpenTofu has reached 1 million weekly downloads and 3,000 enterprise adopters, 18 months after the Linux Foundation-governed fork was created in response to HashiCorp's switch of Terraform from the Mozilla Public License to the Business Source License (BSL). The BSL change — which prohibits using HashiCorp software in competing products without a commercial license — triggered immediate adoption of OpenTofu by cloud providers, managed service vendors, and enterprises whose legal teams flagged BSL compliance risk. OpenTofu's governance under the Linux Foundation provides the open source licensing guarantee that the Terraform community historically relied on.",
+      "OpenTofu has maintained feature parity with Terraform through version 1.8 and added capabilities beyond Terraform's current release: native support for variable validation with custom error messages, improved state encryption for sensitive infrastructure secrets, and a plugin framework that is backward-compatible with existing Terraform providers. The provider compatibility is commercially critical — Terraform's ecosystem of 3,000+ providers for cloud platforms, SaaS tools, and infrastructure services works with OpenTofu without modification, meaning organizations can migrate without losing their existing provider integrations.",
+      "Enterprise adoption is concentrated in three segments: cloud-native companies that run infrastructure automation at scale and needed BSL-free licensing for internal tooling, DevOps platform vendors that embed infrastructure-as-code in their products and could not accept BSL restrictions on commercialization, and regulated industries (financial services, healthcare, government) whose procurement policies require OSI-approved open source licensing for infrastructure tooling. Survey data from the OpenTofu community shows 78% of enterprise adopters migrated from Terraform specifically due to licensing concerns rather than technical preference.",
+      "<blockquote>When HashiCorp changed Terraform's license, they assumed the community would follow the brand. What they underestimated is how much the infrastructure community cares about open source licensing — not as an ideology but as a practical requirement. Enterprises build on Terraform for decades. BSL creates legal uncertainty that procurement teams cannot accept. OpenTofu is what happens when the community decides the tool matters more than the brand. — Kief Morris, OpenTofu Technical Steering Committee</blockquote>",
+      "The Linux Foundation is expanding OpenTofu's governance with a Technical Advisory Board including representatives from AWS, Google Cloud, Microsoft Azure, IBM, and 15 enterprise users. The board structure mirrors successful open source governance models like the Cloud Native Computing Foundation and ensures that OpenTofu development priorities reflect enterprise user needs rather than a single vendor's commercial roadmap. HashiCorp, now owned by IBM after a 6.4 billion dollar acquisition, continues developing Terraform commercially while OpenTofu serves as the community alternative — a split that mirrors the MySQL-MariaDB precedent in the database market.",
+    ],
+    company: 'OpenTofu',
+    readTime: 5,
+    tags: ['OpenTofu', 'Terraform', 'Infrastructure as Code', 'Open Source', 'HashiCorp', 'DevOps'],
+  },
 ];
 
 TC.timelineData = {
