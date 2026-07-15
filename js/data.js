@@ -8631,6 +8631,24 @@ undefined
     readTime: 5,
     tags: ['Perplexity AI', 'AI Search', 'Answer Engine', 'Growth', 'Search Disruption', 'Startups'],
   },
+
+  {
+    id: 479,
+    date: '2026-07-27',
+    category: 'AI',
+    title: 'Meta Releases Llama 4 Scout 17B With 10 Million Token Context Window: Open Source Model Enables Processing of Entire Codebases and Book-Length Documents in Single Inference',
+    excerpt: 'Meta releases Llama 4 Scout, a 17 billion parameter open source language model with a 10 million token context window — the longest context window of any publicly available model — enabling single-inference processing of entire software repositories, legal document collections, and multi-year research corpora.',
+    body: [
+      "Meta has released Llama 4 Scout, a 17 billion parameter language model with a 10 million token context window, establishing a new record for context length among open source language models and exceeding the context windows of most proprietary models. A 10 million token context window enables processing approximately 7.5 million words in a single inference — sufficient to hold an entire medium-sized software repository, multiple years of email and document history, or dozens of full-length books simultaneously. Scout achieves this context length through a combination of interleaved attention — mixing local and global attention patterns — and a new positional encoding scheme that maintains coherent long-range relationships across the full context length without the quality degradation at long contexts that affects earlier long-context models.",
+      "Scout's 17 billion parameter size is deliberately calibrated for consumer hardware deployment: the model fits in 24GB of GPU VRAM in 8-bit quantization (a single NVIDIA RTX 4090 or consumer workstation GPU) and 12GB in 4-bit quantization (fitting on a gaming GPU). This means the 10 million token context window is available on hardware accessible to individual developers rather than requiring data center infrastructure. Meta's choice to optimize for consumer hardware reach over maximum capability reflects the Llama series' community accessibility philosophy — making capable open models runnable without cloud API dependency.",
+      "Benchmark performance of Scout at 17 billion parameters is comparable to 70 billion parameter models from earlier generations on standard language model evaluations, reflecting architectural improvements in the Llama 4 family. On long-context benchmarks specifically — tasks requiring retrieval and reasoning across content distributed throughout a long context — Scout outperforms models with larger parameter counts but shorter context windows, demonstrating that context length and parameter count interact: more context enables better task performance for tasks that require broader information access.",
+      "<blockquote>We built Llama 4 Scout to answer a specific question: what becomes possible when an entire codebase fits in context? The answer is that AI coding assistance becomes qualitatively different. Instead of working file by file, the model understands how the whole system fits together. That changes what you can ask it to do. We open-sourced Scout because we believe that kind of capability should be available to every developer, not just those with enterprise API budgets. — Yann LeCun, Chief AI Scientist, Meta</blockquote>",
+      "Llama 4 Scout is available for download from Meta AI's model hub under the Llama 4 Community License, which permits commercial use with attribution. Meta is also providing Scout through its own inference API and through major model hosting platforms (Together AI, Fireworks AI, Replicate). Community adoption has been immediate: within 24 hours of release, Scout appeared on Hugging Face's trending models with 50,000 downloads, and the open source community published integration guides for LangChain, LlamaIndex, and direct API usage for long-context applications.",
+    ],
+    company: 'Meta',
+    readTime: 5,
+    tags: ['Meta', 'Llama 4', 'Open Source AI', 'Context Window', 'Language Model', 'Long Context'],
+  },
 ];
 
 TC.timelineData = {
