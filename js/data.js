@@ -8541,6 +8541,24 @@ undefined
     readTime: 5,
     tags: ['Rust', 'Programming Language', 'Async Traits', 'Linear Types', 'Systems Programming', 'Memory Safety'],
   },
+
+  {
+    id: 474,
+    date: '2026-07-26',
+    category: 'Hardware',
+    title: 'Samsung Foundry 2nm Process Node Enters Mass Production: Gate-All-Around Transistor Architecture Delivers 25 Percent Power Reduction at Same Performance vs 3nm',
+    excerpt: 'Samsung Foundry announces mass production readiness of its 2nm SF2 process node using gate-all-around nanosheet transistor architecture, delivering 25 percent power reduction at equivalent performance to 3nm and enabling the next generation of mobile application processors and AI inference chips.',
+    body: [
+      "Samsung Foundry has announced mass production readiness of its 2nm SF2 process node, marking the commercial debut of gate-all-around (GAA) nanosheet transistor architecture in volume manufacturing. GAA transistors wrap the gate material around all four sides of the silicon channel rather than three sides as in FinFET architecture, providing better electrostatic control of current flow and enabling smaller transistor dimensions without the leakage current increase that limited FinFET scaling below 3nm. Samsung's SF2 node achieves 25% power reduction at equivalent performance versus SF3 (3nm FinFET), or alternatively 15% performance improvement at the same power budget.",
+      "The manufacturing yield challenge for GAA at 2nm has been Samsung Foundry's primary focus since announcing the node in 2023: GAA nanosheets require new deposition processes that are more sensitive to defects than FinFET manufacturing, and achieving production-viable yield rates required process refinements across lithography, deposition, and etch steps. Samsung reports SF2 yield rates sufficient for commercial production of mobile and AI chip designs, though exact yield numbers are not disclosed. The yield achievement is significant given that TSMC's competing N2 node, also GAA-based, has faced yield improvement challenges that delayed initial production runs.",
+      "Initial SF2 customers include Qualcomm (next-generation Snapdragon 8 Gen 5 mobile processor), AMD (data center GPU variants), and two unnamed AI chip startups. Samsung is positioning SF2 competitively against TSMC N2 on power efficiency and lead time, having secured manufacturing agreements that leverage Samsung's additional fab capacity in Pyeongtaek, South Korea and Taylor, Texas. The Texas facility is particularly commercially significant for US customers seeking domestic semiconductor supply chain options under CHIPS Act provisions.",
+      "<blockquote>Gate-all-around is the transistor architecture that carries us through the 2020s and into the 2030s. SF2 is not just a new process node — it is the commercial proof that GAA nanosheet manufacturing works at scale. Every mobile chip, AI accelerator, and data center processor for the next decade will be built on this architecture. Samsung delivering it to production first matters enormously for our customers and for the global semiconductor supply chain. — Kyehyun Kyung, CEO, Samsung Semiconductor</blockquote>",
+      "Samsung Foundry is already disclosing roadmap details for SF1.4 (effective 1.4nm) targeting 2028 production, using the same GAA architecture with further nanosheet dimension scaling and improved gate dielectric materials. The roadmap indicates that GAA enables continued transistor scaling without the fundamental electrostatic barriers that halted FinFET below 3nm, providing confidence that Moore's Law scaling continues at the most advanced process nodes for at least another two generations beyond the current 2nm introduction.",
+    ],
+    company: 'Samsung',
+    readTime: 5,
+    tags: ['Samsung', 'Semiconductor', '2nm', 'Gate-All-Around', 'Process Node', 'Foundry'],
+  },
 ];
 
 TC.timelineData = {
