@@ -8955,6 +8955,24 @@ undefined
     readTime: 5,
     tags: ['Google DeepMind', 'AlphaChip', 'Chip Design', 'Reinforcement Learning', 'AI Hardware', 'Semiconductor'],
   },
+
+  {
+    id: 497,
+    date: '2026-07-29',
+    category: 'Dev Tools',
+    title: 'GitHub Actions Launches GPU-Native Runners: CI/CD Platform Adds H100 and A100 Compute for AI Model Training and Testing Directly in Workflow Pipelines',
+    excerpt: 'GitHub announces GPU-native runners for GitHub Actions, enabling CI/CD workflows that include H100 and A100 compute steps for ML model training, fine-tuning validation, and AI application integration testing without external GPU compute orchestration.',
+    body: [
+      "GitHub has announced GPU-native runners for GitHub Actions, adding H100 (80GB) and A100 (40GB) compute options to the Actions runner catalog alongside existing CPU runners. The capability enables ML engineering workflows that previously required external GPU compute orchestration — triggering a training run on a separate GPU cluster, waiting for completion, then pulling results back into the CI/CD pipeline — to be expressed as native Actions workflow steps. A model training job, fine-tuning validation, or inference benchmark can now run directly in a GitHub Actions YAML file with the same workflow syntax used for software builds and tests.",
+      "The integration simplifies the AI application development lifecycle: teams can write workflows that train a model on new data, run evaluation benchmarks, compare metrics to a baseline threshold, and block a pull request merge if the model's performance degrades below acceptable levels. This CI/CD pattern for ML models — commonly called ML Continuous Integration — was previously complex to implement because GPU compute required separate orchestration systems (Kubeflow, MLflow, SageMaker Pipelines) that did not integrate natively with the code review and merge workflow where development decisions are made.",
+      "GPU runner pricing is per-minute: H100 runners at 10 dollars per minute and A100 runners at 4 dollars per minute, with 50% discount for GitHub Enterprise customers. The pricing positions GPU runners for short training runs (fine-tuning on small datasets), evaluation benchmarks (running inference on a test set), and integration tests (verifying that an AI-powered feature works end-to-end) rather than large pre-training runs that run for days — the latter remain more economical on dedicated GPU clusters with volume pricing. GitHub provides usage caps and budget alerts to prevent runaway GPU costs from misconfigured workflows.",
+      "<blockquote>AI applications need CI/CD like any other software, but AI CI/CD needs GPU compute. Asking ML teams to maintain separate infrastructure for training and evaluation alongside their GitHub workflow created unnecessary complexity and broke the single-pane-of-glass experience that makes GitHub valuable. GPU runners bring AI compute into the developer workflow, where it belongs — same YAML, same pull request comments, same merge gates, just with GPU steps added. — Thomas Dohmke, CEO, GitHub</blockquote>",
+      "GitHub is also launching Actions AI, a set of pre-built workflow templates for common ML CI/CD patterns: model evaluation against held-out test sets, safety testing for AI outputs, performance regression detection, and deployment to common ML serving platforms (Hugging Face Spaces, Replicate, Modal). The templates reduce the expertise required to implement ML CI/CD from needing to understand GPU orchestration to needing to understand YAML syntax and ML metrics — a significantly lower barrier that enables smaller teams and individual developers to adopt ML CI/CD practices.",
+    ],
+    company: 'GitHub',
+    readTime: 5,
+    tags: ['GitHub', 'GitHub Actions', 'GPU Runners', 'CI/CD', 'ML Engineering', 'Developer Tools'],
+  },
 ];
 
 TC.timelineData = {
