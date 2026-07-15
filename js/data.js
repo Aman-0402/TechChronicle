@@ -8559,6 +8559,24 @@ undefined
     readTime: 5,
     tags: ['Samsung', 'Semiconductor', '2nm', 'Gate-All-Around', 'Process Node', 'Foundry'],
   },
+
+  {
+    id: 475,
+    date: '2026-07-26',
+    category: 'Open Source',
+    title: 'Linux Kernel 7.0 Merges Rust as Co-Equal Systems Language: 15 Percent of New Kernel Subsystems Written in Rust as Memory Safety Migration Accelerates',
+    excerpt: 'Linus Torvalds merges Linux kernel 7.0 with Rust elevated to co-equal systems programming language alongside C, with 15 percent of new subsystem code written in Rust and a formal memory safety policy requiring new kernel code in specified risk categories to be written in Rust rather than C.',
+    body: [
+      "Linux kernel 7.0, merged by Linus Torvalds, marks the transition of Rust from an experimental addition to a co-equal systems programming language in the Linux kernel alongside C. The 7.0 release includes 15% of new subsystem code written in Rust — up from 1% in kernel 6.1 when Rust support was first merged — and introduces a formal memory safety policy: new kernel code in five specified risk categories (device drivers for untrusted hardware, network protocol parsers, filesystem implementations, cryptographic primitives, and IPC mechanisms) must be written in Rust rather than C unless a formal exception is approved by subsystem maintainers. The policy formalizes what has been informal guidance from the Linux Foundation's security working group since 2024.",
+      "The acceleration of Rust adoption in the kernel is driven by concrete security data: a retrospective analysis of 15 years of Linux kernel CVEs found that 67% of remotely exploitable kernel vulnerabilities were memory safety issues — use-after-free, buffer overflows, type confusion — that Rust's ownership system prevents at compile time. The Rust subsystems shipped in kernel 6.x have had zero memory safety CVEs in production, compared to equivalent C subsystems' historical rate of approximately 1.2 CVEs per 100,000 lines of code per year. The empirical evidence has converted kernel maintainers who were skeptical of Rust in 2022 into active contributors.",
+      "The kernel 7.0 Rust integration includes mature abstractions for kernel-specific programming patterns: interrupt handlers, spinlocks and mutexes, DMA memory management, reference counting for kernel objects, and the kernel's internal allocator interface. These abstractions were the missing piece in early Rust kernel work — without safe wrappers for kernel synchronization primitives, Rust code in the kernel required excessive unsafe blocks that negated memory safety benefits. The 7.0 abstractions enable writing complete kernel subsystems in Rust with unsafe blocks limited to the boundary with the C kernel core.",
+      "<blockquote>I have been skeptical of Rust in the kernel. I still prefer C. But I cannot argue with the CVE data — memory safety bugs are the dominant source of serious kernel vulnerabilities, and Rust eliminates them at compile time. We are not replacing C. C is not going anywhere. But for new code in the highest-risk categories, requiring Rust is the right engineering decision. The kernel's security record will be better for it. — Linus Torvalds, Linux Kernel Creator</blockquote>",
+      "Major Linux distributions including Fedora, Ubuntu, Debian, and Arch Linux have committed to shipping kernel 7.0 within their next release cycles. Enterprise Linux vendors (Red Hat, SUSE, Canonical) are evaluating accelerated kernel update schedules specifically to deliver Rust-based subsystem security improvements to enterprise customers. The kernel 7.0 Rust device driver framework is expected to drive a wave of new hardware drivers — the Rust driver model is significantly less error-prone than the C driver model, lowering the expertise barrier for hardware vendors writing kernel support for new devices.",
+    ],
+    company: 'Linux Foundation',
+    readTime: 5,
+    tags: ['Linux', 'Rust', 'Kernel', 'Memory Safety', 'Open Source', 'Systems Programming'],
+  },
 ];
 
 TC.timelineData = {
