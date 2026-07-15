@@ -8613,6 +8613,24 @@ undefined
     readTime: 5,
     tags: ['JetBrains', 'Fleet', 'Remote Development', 'IDE', 'Developer Tools', 'Distributed Systems'],
   },
+
+  {
+    id: 478,
+    date: '2026-07-27',
+    category: 'Startups',
+    title: 'Perplexity AI Crosses 100 Million Monthly Active Users: Answer Engine Grows 10x in 18 Months as AI-Native Search Displaces Traditional Query-and-Link Results',
+    excerpt: 'Perplexity AI announces 100 million monthly active users and 500 million daily queries, establishing the AI answer engine as a mainstream search alternative and triggering accelerated AI search investments from Google, Microsoft, and a new generation of well-funded search startups.',
+    body: [
+      "Perplexity AI has announced 100 million monthly active users and 500 million daily queries across its AI answer engine platform, representing 10x growth in 18 months from 10 million MAU in January 2025. The growth validates what Perplexity CEO Aravind Srinivas has argued since the company's founding: that users prefer synthesized answers with cited sources over lists of links to pages they must read themselves, and that the information retrieval paradigm established by 1990s search engines is ready for fundamental replacement. Perplexity's user demographics skew heavily toward knowledge workers (42% of users work in professional services, technology, or academia) and younger users (58% under 35) who have low attachment to traditional search patterns.",
+      "Perplexity's technical architecture differs from AI chatbots in a key way: the system performs real-time web retrieval at query time rather than relying on training data, meaning answers reflect current information and include citations that users can verify. The retrieval-augmented approach addresses the hallucination problem that makes chatbot answers unreliable for factual queries — Perplexity answers are grounded in retrieved sources and users can see exactly which sources contributed to each answer. The citation requirement also creates accountability that pure generative answers lack: wrong answers with citations are discoverable and correctable.",
+      "Monetization has evolved from the subscription-only model Perplexity launched with: the platform now operates a free tier supported by contextual advertising integrated into answer pages, a Pro tier at 20 dollars per month removing ads and enabling advanced model selection, and an Enterprise tier at 40 dollars per user per month with team features, API access, and private source connectors for internal document search. The advertising model drew initial criticism but has been accepted by users who prefer relevant contextual ads to paywalls, and Perplexity reports advertiser CPMs 3x higher than traditional search advertising due to query-level intent data.",
+      "<blockquote>Search is a 200 billion dollar industry built on a paradigm from 1998. The web has changed, users have changed, and AI has changed what is possible. Perplexity is not a better search engine — it is a different thing. You ask a question, you get an answer. You do not get ten blue links and figure it out yourself. 100 million people agreeing to use this every month is the market telling us that the paradigm has shifted. — Aravind Srinivas, CEO, Perplexity AI</blockquote>",
+      "Competitive response from incumbents has accelerated: Google has reoriented Search around AI Overviews (formerly SGE), Microsoft has deepened Bing's Copilot integration, and Apple has confirmed integration of AI-powered search as a Safari default option alongside traditional search engines. The incumbent responses validate Perplexity's model while also intensifying competition for the query volume that drives AI answer engine economics. Perplexity is differentiating on depth — multi-step research queries, document analysis, and domain-specific professional search — targeting use cases where incumbent AI search integrations remain shallow.",
+    ],
+    company: 'Perplexity AI',
+    readTime: 5,
+    tags: ['Perplexity AI', 'AI Search', 'Answer Engine', 'Growth', 'Search Disruption', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
