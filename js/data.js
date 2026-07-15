@@ -8667,6 +8667,24 @@ undefined
     readTime: 5,
     tags: ['Microsoft Azure', 'Confidential Computing', 'AI Privacy', 'Trusted Execution', 'NVIDIA H100', 'Healthcare AI'],
   },
+
+  {
+    id: 481,
+    date: '2026-07-28',
+    category: 'AI',
+    title: 'Anthropic Claude 4 Opus Achieves 90th Percentile on Bar Exam and Medical Licensing Test: Frontier AI Crosses Professional Certification Threshold in Law and Medicine',
+    excerpt: 'Anthropic releases Claude 4 Opus achieving 90th percentile performance on the Uniform Bar Examination and United States Medical Licensing Examination Step 1, establishing frontier AI as qualified to perform professional-grade legal research and clinical decision support at certified practitioner level.',
+    body: [
+      "Anthropic has released Claude 4 Opus, the flagship model in the Claude 4 family, achieving 90th percentile performance on the Uniform Bar Examination — a score that would qualify for bar admission in all 50 US states — and 90th percentile on USMLE Step 1, the foundational medical licensing examination. The benchmarks represent a meaningful threshold: not just above passing, but at the performance level of top-quartile human professionals who take these examinations. Anthropic emphasizes that benchmark performance does not constitute legal or medical qualification, but the results demonstrate that Claude 4 Opus can perform the reasoning and knowledge retrieval tasks that underlie legal research and clinical decision support at professional grade.",
+      "Claude 4 Opus introduces Constitutional AI 3.0, Anthropic's third generation of alignment framework, which extends beyond the original Constitutional AI approach to include reasoning-time safety checks: the model evaluates potential responses against a set of principles before generating output, can refuse mid-generation if reasoning leads toward harmful territory, and provides structured explanations when declining requests. The reasoning-time evaluation is distinct from post-generation filtering — it affects what the model generates rather than what it outputs, reducing the adversarial prompt effectiveness that bypasses output filters.",
+      "Enterprise adoption signals for Claude 4 Opus are strong in knowledge-intensive professional services: Morgan Stanley has deployed Claude 4 Opus for equity research synthesis, Skadden Arps is piloting contract review automation, and Mayo Clinic is evaluating differential diagnosis support. The professional benchmark performance provides customers with a credible baseline for assessing suitability for high-stakes applications, though Anthropic and enterprise customers are clear that human review remains required for any consequential professional decision.",
+      "<blockquote>Crossing the 90th percentile on bar and medical licensing exams tells us something important: the knowledge and reasoning capabilities needed for professional-grade analysis are now present in AI systems. That does not mean AI should practice law or medicine — human judgment, ethics, and accountability matter enormously. It means AI can be a genuinely capable research partner for professionals in these fields, not a tool that requires constant correction. — Dario Amodei, CEO, Anthropic</blockquote>",
+      "Claude 4 Opus is available through the Anthropic API with a context window of 500,000 tokens and pricing of 15 dollars per million input tokens and 75 dollars per million output tokens — reflecting the model's position as Anthropic's highest-capability offering. Claude 4 Sonnet and Claude 4 Haiku are releasing simultaneously at lower capability and cost tiers for volume applications. Anthropic reports that Claude 4 Opus demonstrates measurably better calibration than Claude 3 Opus — it is more accurate about its own uncertainty, more likely to acknowledge when it does not know something, and less prone to confident-sounding errors on questions outside its training.",
+    ],
+    company: 'Anthropic',
+    readTime: 5,
+    tags: ['Anthropic', 'Claude 4', 'AI Benchmarks', 'Professional AI', 'Legal AI', 'Medical AI'],
+  },
 ];
 
 TC.timelineData = {
