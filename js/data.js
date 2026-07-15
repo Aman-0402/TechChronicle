@@ -8919,6 +8919,24 @@ undefined
     readTime: 5,
     tags: ['Qualcomm', 'Snapdragon X2', 'NPU', 'AI PC', 'On-Device AI', 'ARM'],
   },
+
+  {
+    id: 495,
+    date: '2026-07-28',
+    category: 'Open Source',
+    title: 'Deno 3.0 Achieves Full npm Compatibility and Ships Built-In SQLite: JavaScript Runtime Eliminates Remaining Friction Points That Kept Node.js Dominant for Enterprise Backends',
+    excerpt: 'Deno releases version 3.0 with complete npm package compatibility, built-in SQLite support for zero-dependency data persistence, and a native key-value store, resolving the ecosystem gaps that prevented enterprise adoption and positioning Deno as a viable Node.js alternative for production backend workloads.',
+    body: [
+      "Deno has released version 3.0, addressing the two biggest barriers to enterprise adoption of the secure JavaScript runtime: npm package compatibility and built-in data persistence. Full npm compatibility means any npm package that runs on Node.js runs on Deno 3.0 without modification, including packages with native bindings. Deno's npm compatibility layer translates npm package resolution to Deno's URL-based module system transparently, so developers can use express, pg, redis, aws-sdk, and the rest of the npm ecosystem in Deno applications while retaining Deno's security model, TypeScript-first development experience, and built-in toolchain.",
+      "Built-in SQLite support in Deno 3.0 provides zero-dependency embedded database functionality through the Deno.Sqlite API, enabling applications that need local data persistence without requiring a PostgreSQL or MySQL connection. The SQLite integration is particularly valuable for CLI tools, local development utilities, edge function deployments, and prototypes that benefit from structured data storage without external database infrastructure. Deno's SQLite implementation uses the system SQLite library where available and a WASM-compiled fallback, ensuring consistent behavior across platforms without additional installation.",
+      "Deno's native key-value store (Deno KV, introduced in 2.0) is graduating from beta to stable in version 3.0, providing a built-in distributed key-value database for Deno Deploy deployments with global replication and ACID transactions. For applications deployed on Deno Deploy (Deno's hosting platform), Deno KV eliminates the need for external Redis or DynamoDB for session storage, rate limiting, and feature flag storage — common operational requirements that currently require external service dependencies. The combination of SQLite for local persistence and Deno KV for deployed persistence covers the majority of backend data storage patterns.",
+      "<blockquote>We built Deno because we thought JavaScript could be better for server-side development — better defaults, better security, TypeScript out of the box. But we made a mistake by breaking npm compatibility, and that one decision kept most developers on Node.js regardless of our technical advantages. Deno 3.0 fixes that mistake. You keep all of npm's ecosystem and get all of Deno's improvements. There is no longer a reason to choose between them. — Ryan Dahl, Creator, Deno</blockquote>",
+      "Deno 3.0's performance improvements close the gap with Bun, which has led on raw JavaScript execution speed: HTTP throughput benchmarks show Deno 3.0 at 95% of Bun's requests-per-second on standard web server workloads, up from 70% for Deno 2.0. TypeScript compilation performance is 40% faster in Deno 3.0 through a rewritten module graph resolver. Deno is also launching a new enterprise support tier at 15,000 dollars per year providing dedicated support SLAs, security vulnerability notifications, and architecture consulting for teams building production systems on Deno.",
+    ],
+    company: 'Deno',
+    readTime: 5,
+    tags: ['Deno', 'JavaScript', 'Node.js', 'npm Compatibility', 'SQLite', 'Open Source'],
+  },
 ];
 
 TC.timelineData = {
