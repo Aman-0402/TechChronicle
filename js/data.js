@@ -8307,6 +8307,24 @@ undefined
     readTime: 5,
     tags: ['Cloudflare', 'Workers AI', 'Edge Computing', 'AI Inference', 'Cloud', 'Distributed Systems'],
   },
+
+  {
+    id: 461,
+    date: '2026-07-26',
+    category: 'AI',
+    title: 'OpenAI o4 Reasoning Model Solves International Math Olympiad Problems at Gold Medal Level: Formal Mathematical Reasoning Crosses Human Expert Threshold',
+    excerpt: 'OpenAI announces o4, a reasoning model that achieves gold medal performance on International Mathematical Olympiad problems, solving 42 of 45 problems across six IMO competitions and demonstrating that large language models can now perform sustained multi-step formal mathematical reasoning at elite human level.',
+    body: [
+      "OpenAI has released o4, a reasoning model that achieves gold medal level performance on International Mathematical Olympiad problems, solving 42 of 45 problems across six consecutive IMO competitions — a benchmark widely regarded as the most demanding test of mathematical reasoning available, requiring sustained multi-step proof construction, creative problem decomposition, and knowledge of advanced number theory, combinatorics, geometry, and algebra. The result represents a step change from o3, which achieved silver medal performance, and establishes formal mathematical reasoning as a capability where AI systems now match or exceed the world's elite human mathematicians.",
+      "o4's architectural advancement over o3 centers on extended reasoning chains with formal verification: rather than generating proofs as unverified text, o4 integrates with the Lean 4 formal verification system to check intermediate proof steps for logical validity during generation. This hybrid approach — generative reasoning checked by formal verification — eliminates a class of errors common in pure language model mathematical output where plausible-sounding but logically invalid reasoning steps lead to incorrect proofs. The formal verification integration increases inference cost but dramatically improves reliability for rigorous mathematical tasks.",
+      "Practical applications of o4-level mathematical reasoning extend beyond competition mathematics: formal verification of software specifications and cryptographic protocols, automated theorem proving for scientific research, rigorous derivation checking in physics and engineering, and curriculum generation for mathematics education. OpenAI is making o4 available through the API with extended reasoning mode enabled, priced at a premium to o3 reflecting the higher inference cost of integrated formal verification.",
+      "<blockquote>IMO gold is not just a benchmark number — it means the model can do something that maybe 500 people on Earth can do well. That changes what AI can be used for in science. Every domain where progress requires sustained formal reasoning — mathematics, physics, cryptography, biology — just got a new kind of collaborator. — Sam Altman, CEO, OpenAI</blockquote>",
+      "OpenAI is pursuing what it terms 'scalable formal reasoning' — extending the hybrid generative-verification approach from mathematics to other formal domains including code verification, logical constraint satisfaction, and scientific proof checking. The research roadmap targets automated proof of open mathematical conjectures as a long-term objective, with near-term focus on making o4-level reasoning useful for working mathematicians and scientists as a research tool rather than purely a benchmark-optimization system.",
+    ],
+    company: 'OpenAI',
+    readTime: 5,
+    tags: ['OpenAI', 'o4', 'Mathematical Reasoning', 'IMO', 'Formal Verification', 'AI Research'],
+  },
 ];
 
 TC.timelineData = {
