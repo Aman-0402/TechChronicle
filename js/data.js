@@ -8469,6 +8469,24 @@ undefined
     readTime: 5,
     tags: ['Mistral AI', 'Funding', 'European AI', 'Series C', 'Foundation Models', 'AI Infrastructure'],
   },
+
+  {
+    id: 470,
+    date: '2026-07-26',
+    category: 'AI',
+    title: 'Google DeepMind AlphaFold 3 Predicts Protein-DNA and Protein-RNA Interactions: Structure Prediction Expands to Full Molecular Biology of the Cell',
+    excerpt: 'Google DeepMind releases AlphaFold 3 with expanded structure prediction covering protein-DNA complexes, protein-RNA complexes, and small molecule binding sites, completing the structural coverage needed for computational drug discovery, gene therapy design, and RNA therapeutics development.',
+    body: [
+      "Google DeepMind has released AlphaFold 3, extending the landmark protein structure prediction system to cover the full range of biomolecular interactions relevant to drug discovery and therapeutic development. While AlphaFold 2 predicted the structure of individual proteins and AlphaFold 3's initial capabilities extended to protein-protein interactions and antibody binding, the new release adds accurate prediction of protein-DNA complexes (critical for understanding transcription factor binding and gene regulation), protein-RNA complexes (essential for RNA therapeutics and splicing factor biology), and protein-small molecule binding geometry (directly applicable to computational drug design). Together these additions cover the molecular interactions that drive most human disease processes.",
+      "The technical advance enabling protein-DNA and protein-RNA prediction is a unified atomic representation model that treats all molecular types — proteins, DNA, RNA, small molecules, ions — as collections of atoms with learned interaction potentials, rather than using separate architecture components for each molecule type. This unified approach allows AlphaFold 3 to predict the conformational changes that occur when a protein binds DNA or RNA, capturing the induced-fit dynamics that are critical for accurate binding geometry prediction. Benchmark results show AlphaFold 3 predicts protein-DNA binding geometry with accuracy sufficient for cryo-EM structure determination guidance in 78% of test cases.",
+      "Pharmaceutical industry response to AlphaFold 3's expanded capabilities is immediate: Pfizer, Roche, Novartis, and AstraZeneca have all announced AlphaFold 3 integration into their computational drug discovery pipelines. The small molecule binding prediction capability is particularly commercially significant, enabling computational screening of drug candidate binding geometry before synthesis — a step that can eliminate 40-60% of compounds that would fail binding assays in wet lab testing. DeepMind reports that two pharmaceutical partnerships are already using AlphaFold 3 to guide lead optimization in active drug discovery programs.",
+      "<blockquote>Biology is the science of molecular interactions. AlphaFold 2 solved one piece — how proteins fold. AlphaFold 3 solves the interactions between proteins and all the other molecules they work with: DNA they regulate, RNA they process, drugs that modulate them. That is structural biology at the scale of cellular function, not just individual molecules. The applications to medicine are not theoretical — they are happening in drug pipelines right now. — Demis Hassabis, CEO, Google DeepMind</blockquote>",
+      "AlphaFold 3 is available through DeepMind's AlphaFold Server for academic researchers at no cost, with a commercial API for pharmaceutical and biotech companies. DeepMind has also released model weights for the protein-only components of AlphaFold 3 under a research license; the protein-DNA, protein-RNA, and small molecule components remain API-only pending additional safety review of dual-use implications for biodefense-relevant pathogens and toxin engineering. The decision reflects DeepMind's biosecurity assessment that certain capabilities require deployment controls rather than open weights release.",
+    ],
+    company: 'Google DeepMind',
+    readTime: 5,
+    tags: ['Google DeepMind', 'AlphaFold', 'Protein Structure', 'Drug Discovery', 'Computational Biology', 'AI Research'],
+  },
 ];
 
 TC.timelineData = {
