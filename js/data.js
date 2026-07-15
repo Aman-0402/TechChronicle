@@ -8865,6 +8865,24 @@ undefined
     readTime: 5,
     tags: ['Snowflake', 'Cortex AI', 'SQL AI', 'Data Cloud', 'LLM Analytics', 'Enterprise AI'],
   },
+
+  {
+    id: 492,
+    date: '2026-07-28',
+    category: 'Cybersecurity',
+    title: 'NIST Post-Quantum Cryptography Standards Finalized: ML-KEM and ML-DSA Become Official US Federal Standards for Quantum-Resistant Encryption',
+    excerpt: 'NIST publishes final versions of FIPS 203 and FIPS 205, establishing ML-KEM for key encapsulation and ML-DSA for digital signatures as the official US federal post-quantum cryptography standards, triggering mandatory migration timelines for federal systems and the broader technology industry.',
+    body: [
+      "The National Institute of Standards and Technology has published FIPS 203 (ML-KEM, Module-Lattice-Based Key Encapsulation Mechanism) and FIPS 205 (ML-DSA, Module-Lattice-Based Digital Signature Algorithm) as official US federal cryptography standards, completing a seven-year standardization process that began in response to concerns about quantum computers' ability to break current public-key cryptography. ML-KEM replaces RSA and elliptic curve Diffie-Hellman for key exchange in protocols like TLS, SSH, and IPsec. ML-DSA replaces RSA and ECDSA for digital signatures in code signing, certificate authorities, and authentication protocols. Both standards are based on lattice mathematics, believed to be resistant to attacks from both classical and quantum computers.",
+      "The publication triggers mandatory migration timelines established by NSA's Commercial National Security Algorithm Suite 2.0: federal agencies must complete post-quantum cryptography migration for national security systems by 2030, with non-national security federal systems required to migrate by 2035. The timelines reflect the 'harvest now, decrypt later' threat: adversaries can collect encrypted traffic today and decrypt it using quantum computers in the future, making data with long-term sensitivity (classified information, healthcare records, financial transactions) already at risk from quantum computers that do not yet exist but are expected to within the next 10-15 years.",
+      "Industry migration is already underway: Apple has deployed ML-KEM in iMessage, Signal added post-quantum key exchange in 2024, and Cloudflare has enabled ML-KEM in TLS 1.3 handshakes by default. Enterprise VPN and certificate management vendors are releasing updates with post-quantum support. The migration complexity varies by system: browser TLS migration is relatively straightforward (update the TLS library), while PKI infrastructure migration (certificate authority hierarchies, code signing certificates, timestamping authorities) is complex and multi-year due to the interconnected nature of trust chains.",
+      "<blockquote>Post-quantum cryptography standardization is the most consequential cryptography transition in 40 years. The last major transition was from DES to AES in the early 2000s. Post-quantum is harder: the algorithms are more complex, the key sizes are larger, and the migration scope is larger — virtually every system that uses public-key cryptography needs to be updated. FIPS 203 and 205 give the industry the stable targets they have been waiting for to begin that migration in earnest. — Dustin Moody, NIST Post-Quantum Cryptography Project</blockquote>",
+      "NIST is also finalizing FIPS 204 (ML-DSA with additional security properties) and has initiated evaluation of additional post-quantum signature algorithms for diversity of cryptographic options. The diversity goal reflects the cryptographic community's principle of not depending on a single mathematical assumption — if lattice-based cryptography is unexpectedly broken, having hash-based and code-based alternatives provides defense in depth. Enterprise security teams are advised to implement crypto-agility — designing systems to swap cryptographic algorithms without full re-architecture — so that future algorithm transitions can be executed more rapidly than the current decade-long migration timeline.",
+    ],
+    company: 'NIST',
+    readTime: 5,
+    tags: ['NIST', 'Post-Quantum Cryptography', 'ML-KEM', 'ML-DSA', 'Cybersecurity', 'Quantum Computing'],
+  },
 ];
 
 TC.timelineData = {
