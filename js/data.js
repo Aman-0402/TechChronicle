@@ -8595,6 +8595,24 @@ undefined
     readTime: 5,
     tags: ['MIT', 'Neural Network Compression', 'On-Device AI', 'Model Quantization', 'Smartphone AI', 'Research'],
   },
+
+  {
+    id: 477,
+    date: '2026-07-27',
+    category: 'Dev Tools',
+    title: 'JetBrains Fleet 2.0 Ships Remote Development at Parity With Local: Distributed IDE Architecture Eliminates Latency That Made Remote Coding Unusable',
+    excerpt: 'JetBrains releases Fleet 2.0 with a distributed architecture that achieves sub-20ms editor responsiveness for remote development environments, making remote coding indistinguishable from local development and enabling development on remote GPU clusters, air-gapped environments, and shared codebases.',
+    body: [
+      "JetBrains has released Fleet 2.0, introducing a distributed IDE architecture that achieves sub-20ms editor responsiveness for remote development environments — below the human perception threshold for input lag that makes remote development feel sluggish compared to local editors. Fleet 2.0's architecture separates the rendering engine (running locally) from the language intelligence and build tools (running remotely) with a custom binary protocol designed for low-latency state synchronization over high-latency connections. The result: editing code on a remote server over a 50ms network round-trip feels equivalent to local editing because the local rendering engine predicts and speculatively applies edits before remote confirmation arrives.",
+      "The speculative edit application approach — rendering keystrokes locally and reconciling with remote state asynchronously — is the key technical innovation in Fleet 2.0. Previous remote development solutions (VS Code Remote, JetBrains Gateway) proxied all editor events to the remote server, meaning every keystroke incurred network round-trip latency. Fleet 2.0's local rendering engine maintains a locally-consistent copy of the editor state and applies edits speculatively, only blocking on remote confirmation for operations that require server-side knowledge (autocompletion results, type checking errors, build output). The conflict resolution protocol handles the rare cases where speculative local edits conflict with server-side state changes.",
+      "Fleet 2.0's remote development targets three use cases previously underserved by existing tools: GPU cluster development (writing CUDA and ML training code in an IDE on the cluster rather than editing locally and deploying), air-gapped environment development (editing code in secure networks where local machines cannot access the codebase), and shared codebase development (multiple developers working on the same running server environment with live code sharing). The Fleet 2.0 server component is available as a Docker container deployable on any Linux host with 4GB RAM, with JetBrains hosting managed Fleet servers for teams that prefer SaaS over self-hosted.",
+      "<blockquote>Remote development has been technically inferior to local development since the beginning of cloud IDEs. The latency problem looked unsolvable because everyone assumed you had to wait for the server to confirm each edit. We do not wait — we predict, apply locally, and reconcile. The result is that remote development in Fleet 2.0 is not just usable; it is indistinguishable from local for most workflows. That changes what remote development can be used for. — Dmitry Jemerov, CTO, JetBrains</blockquote>",
+      "Fleet 2.0 supports all major programming languages through a plugin architecture compatible with JetBrains' existing language intelligence libraries from IntelliJ IDEA, PyCharm, and GoLand. Teams using JetBrains IDEs for local development can switch to Fleet 2.0 remote development without losing language intelligence features — the same inspections, refactoring tools, and debugger capabilities work in remote mode. JetBrains is pricing Fleet 2.0 remote development at 15 dollars per user per month for self-hosted servers and 25 dollars per user per month for JetBrains-managed servers, positioning it competitively against GitHub Codespaces and Gitpod.",
+    ],
+    company: 'JetBrains',
+    readTime: 5,
+    tags: ['JetBrains', 'Fleet', 'Remote Development', 'IDE', 'Developer Tools', 'Distributed Systems'],
+  },
 ];
 
 TC.timelineData = {
