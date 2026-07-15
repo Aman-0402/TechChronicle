@@ -8793,6 +8793,24 @@ undefined
     readTime: 5,
     tags: ['AI Healthcare', 'Lung Cancer', 'Medical AI', 'Clinical Trial', 'NHS', 'Radiology'],
   },
+
+  {
+    id: 488,
+    date: '2026-07-28',
+    category: 'Dev Tools',
+    title: 'Cursor AI Editor Reaches 2 Million Paid Subscribers: AI-Native Code Editor Displaces VS Code as Primary IDE for 40 Percent of Professional Developers Under 35',
+    excerpt: 'Cursor announces 2 million paid subscribers and reports displacing VS Code as the primary development environment for 40 percent of professional developers under 35 surveyed, marking the first sustained shift in IDE market share in a decade and validating AI-native editor design as a category.',
+    body: [
+      "Cursor has announced 2 million paid subscribers at its 20 dollar per month Pro tier, generating 40 million dollars in monthly recurring revenue and establishing itself as the fastest-growing paid developer tool in history. A developer survey conducted by Stack Overflow in partnership with Cursor found that 40% of professional developers under 35 now use Cursor as their primary IDE, up from 8% a year ago — the first sustained shift in IDE primary-tool preference since VS Code displaced Sublime Text and Atom in 2017-2019. The growth reflects Cursor's core design bet: that building an editor from scratch with AI integration as a first-class architectural concern produces a fundamentally better AI-assisted coding experience than adding AI features to an existing editor through extensions.",
+      "Cursor's technical differentiation from VS Code plus GitHub Copilot centers on codebase-level context: while Copilot provides AI assistance based on the currently open file, Cursor indexes the entire codebase and uses that index to generate suggestions and answers that understand how the file being edited relates to the rest of the project. Multi-file edits — refactoring a function and automatically updating all its callers, renaming a type and propagating the change across the codebase, adding a new feature that requires changes in multiple layers — are native capabilities in Cursor rather than requiring manual identification of files to change.",
+      "Enterprise adoption is accelerating: Stripe, Linear, Figma, and Notion have standardized on Cursor across their engineering organizations, reporting 30-40% reduction in time for standard development tasks. Enterprise plan features at 40 dollars per user per month include private codebase indexing (the codebase index does not leave the enterprise's infrastructure), SSO integration, usage analytics, and audit logs required by security-conscious organizations. Cursor's enterprise sales motion has been primarily bottom-up — engineering teams adopt individually and procurement follows usage rather than the other way around.",
+      "<blockquote>VS Code won by being the most extensible editor. We are winning by being the most AI-native editor. Those are different design philosophies with different outcomes. Extensibility means you can add AI; AI-nativity means AI is how the editor works, not a feature you add to an editor that was designed without it. The 2 million subscribers choosing to pay for Cursor tells us developers can feel the difference. — Michael Truell, CEO, Cursor</blockquote>",
+      "Cursor is expanding beyond individual developer tooling into team collaboration features: shared codebase context that enables AI assistance aware of all team members' recent changes, AI-powered code review that understands change history and reviewer preferences, and automated documentation generation that produces living documentation updated when code changes. These team features target the collaborative dimension of software development that individual-focused AI coding tools do not address, and represent Cursor's expansion from a single-player productivity tool into a team development platform.",
+    ],
+    company: 'Cursor',
+    readTime: 5,
+    tags: ['Cursor', 'AI Code Editor', 'IDE', 'Developer Tools', 'VS Code', 'AI Coding'],
+  },
 ];
 
 TC.timelineData = {
