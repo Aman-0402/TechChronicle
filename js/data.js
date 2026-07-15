@@ -8487,6 +8487,24 @@ undefined
     readTime: 5,
     tags: ['Google DeepMind', 'AlphaFold', 'Protein Structure', 'Drug Discovery', 'Computational Biology', 'AI Research'],
   },
+
+  {
+    id: 471,
+    date: '2026-07-26',
+    category: 'Cloud',
+    title: 'Google Cloud Introduces Carbon-Free Energy Commitment at Regional Level: Hyperscaler Matches Real-Time Renewable Energy Supply to Customer Compute Demand',
+    excerpt: 'Google Cloud announces carbon-free energy matching at hourly and regional granularity for all compute services, enabling enterprise customers to verify that their cloud workloads run on renewable energy in real-time rather than relying on annual renewable energy certificate averaging.',
+    body: [
+      "Google Cloud has announced carbon-free energy matching at hourly and regional granularity for Google Compute Engine, Google Kubernetes Engine, and BigQuery, enabling enterprise customers to verify real-time renewable energy consumption rather than relying on annual renewable energy certificate (REC) averaging. Hourly matching — verifying that renewable energy supplied to the grid matches compute consumption in the same hour rather than averaging over a year — is significantly more demanding than REC-based claims, as it requires renewable generation and storage capacity that can match variable compute demand rather than just offsetting annual consumption on paper.",
+      "Google's implementation relies on a combination of directly contracted renewable generation (solar and wind facilities with power purchase agreements tied to specific Google Cloud regions), battery storage systems at data centers that buffer renewable supply during generation gaps, and real-time grid carbon intensity data that triggers workload migration to lower-carbon regions when local renewable supply is insufficient. The system achieves hourly carbon-free energy matching for 97% of compute hours in Google's most renewable-supplied regions (Oregon, Finland, Iowa) and 78% average globally across all Google Cloud regions.",
+      "Enterprise carbon reporting implications are significant: companies reporting Scope 3 carbon emissions (emissions from supply chain and purchased services) under GHG Protocol standards can now substantiate cloud compute emissions reductions with hourly verification data rather than vendor-provided annual averages. Google Cloud is providing carbon reporting APIs that integrate with enterprise sustainability platforms including Salesforce Net Zero Cloud, ServiceNow ESG Performance Management, and SAP Sustainability Control Tower, enabling automated Scope 3 reporting with hourly granularity.",
+      "<blockquote>Annual REC matching is accounting. Hourly carbon-free energy matching is physics. When you say your data center ran on renewable energy last year because you bought RECs, you are describing a financial transaction. When you say your compute ran on renewable energy at 3 PM on Tuesday, you are describing electrons. We built the infrastructure to make the physics statement true, and we are making that verifiable for our customers. — Urs Hoelzle, SVP Infrastructure, Google</blockquote>",
+      "Google Cloud is publishing hourly carbon intensity data for all regions as a public API, enabling customers to implement carbon-aware scheduling — migrating batch workloads like data processing pipelines and ML training jobs to time windows and regions with higher renewable supply. Google's internal carbon-aware workload scheduling, applied across its own infrastructure since 2020, has reduced Google's data center carbon emissions by 18% without changing total compute consumed. Google Cloud customers using the public API for similar scheduling are reporting 8-15% carbon intensity reductions on eligible workloads in initial deployments.",
+    ],
+    company: 'Google Cloud',
+    readTime: 5,
+    tags: ['Google Cloud', 'Carbon-Free Energy', 'Sustainability', 'Renewable Energy', 'Cloud Computing', 'ESG'],
+  },
 ];
 
 TC.timelineData = {
