@@ -8847,6 +8847,24 @@ undefined
     readTime: 5,
     tags: ['xAI', 'Grok 3', 'Coding AI', 'Benchmark', 'Open Weights', 'Frontier Models'],
   },
+
+  {
+    id: 491,
+    date: '2026-07-28',
+    category: 'Cloud',
+    title: 'Snowflake Cortex AI Reaches General Availability: Data Cloud Platform Embeds LLM Inference Directly in SQL Queries Without Data Movement to External AI Services',
+    excerpt: 'Snowflake announces general availability of Cortex AI, enabling SQL queries that call large language model inference on Snowflake-stored data without moving data to external AI APIs, eliminating the data movement overhead and privacy concerns that made AI-augmented analytics architecturally complex.',
+    body: [
+      "Snowflake has announced general availability of Cortex AI, a set of SQL functions that call LLM inference directly within Snowflake query execution on data stored in Snowflake tables. The capability eliminates the extract-transform-load step previously required to use AI models on Snowflake data: rather than exporting data to Python, calling an external AI API, and reimporting results, analysts write SQL queries using CORTEX.COMPLETE(), CORTEX.SENTIMENT(), and CORTEX.SUMMARIZE() functions that execute inference in-place within the Snowflake query engine. Data never leaves Snowflake's governance and security perimeter.",
+      "Cortex AI supports multiple models including Snowflake's own Arctic LLM (optimized for enterprise analytics workloads), Mistral Large, Llama 3 70B, and Mixtral 8x7B. Model selection is per-query, allowing analysts to choose the appropriate model for each use case — Arctic for structured analytical text tasks, Llama 3 for general reasoning, Mistral for multilingual workloads. Pricing is per-token consumed, added to standard Snowflake compute credits, without the per-API-call pricing structure of external AI services that makes high-volume analytical AI workloads expensive to prototype.",
+      "Enterprise use cases that Cortex AI enables with SQL simplicity include: sentiment analysis on customer feedback tables (CORTEX.SENTIMENT on a column of text returns sentiment scores at SQL query speed), contract clause extraction (CORTEX.EXTRACT on contract text returns structured fields without manual NER pipeline development), support ticket categorization (CORTEX.CLASSIFY on ticket descriptions applies custom taxonomy without external ML infrastructure), and competitive intelligence synthesis (CORTEX.SUMMARIZE on news article tables produces executive summaries at table scale). These workloads previously required data engineering pipelines; Cortex AI reduces them to SQL queries any analyst can write.",
+      "<blockquote>The hardest thing about AI in analytics was not the AI — it was getting the data to the AI and getting the results back into your data platform while maintaining governance. We eliminated that problem. If your data is in Snowflake, your AI runs in Snowflake. No data movement, no governance gap, no separate infrastructure to manage. SQL analysts can write AI queries on day one without learning a new tool. — Sridhar Ramaswamy, CEO, Snowflake</blockquote>",
+      "Snowflake is expanding Cortex AI with three upcoming capabilities: Cortex Search (LLM-powered semantic search over Snowflake tables as a managed service), Cortex Analyst (natural language to SQL translation allowing business users to query data in plain language), and Cortex Guard (safety screening of AI outputs for enterprise policy compliance). Together these capabilities position Snowflake as a full AI-augmented analytics platform rather than a storage-and-compute service that requires external AI tooling — a strategic pivot to compete with Databricks, which has made AI-first analytics its core positioning.",
+    ],
+    company: 'Snowflake',
+    readTime: 5,
+    tags: ['Snowflake', 'Cortex AI', 'SQL AI', 'Data Cloud', 'LLM Analytics', 'Enterprise AI'],
+  },
 ];
 
 TC.timelineData = {
