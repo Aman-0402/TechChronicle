@@ -8325,6 +8325,24 @@ undefined
     readTime: 5,
     tags: ['OpenAI', 'o4', 'Mathematical Reasoning', 'IMO', 'Formal Verification', 'AI Research'],
   },
+
+  {
+    id: 462,
+    date: '2026-07-26',
+    category: 'Cloud',
+    title: 'AWS Lambda Adds Persistent Memory Across Invocations: Stateful Serverless Eliminates Cold Start Penalty and Enables New Class of Long-Running Function Architectures',
+    excerpt: 'Amazon Web Services announces Lambda Persistent Memory, allowing function instances to retain in-memory state across multiple invocations, eliminating cold start initialization overhead and enabling serverless architectures that previously required always-on container infrastructure.',
+    body: [
+      "Amazon Web Services has announced Lambda Persistent Memory, a new execution model that allows Lambda function instances to retain allocated memory state across multiple sequential invocations rather than starting from a clean slate each time. The capability fundamentally changes Lambda's execution model: rather than each invocation initializing database connections, loading ML models, parsing configuration, and warming caches from scratch, persistent memory instances retain this initialized state and serve subsequent invocations with zero cold start overhead. AWS reports that workloads with heavy initialization — ML inference, database-connected functions, large configuration loading — see 60-95% latency reduction on non-cold invocations with persistent memory enabled.",
+      "Lambda Persistent Memory works through a new instance lifecycle model: rather than terminating function instances immediately after an invocation completes, AWS keeps instances warm with their memory state intact for a configurable duration (1 minute to 24 hours). Subsequent invocations routed to the same instance skip initialization entirely and execute against the pre-warmed state. Developers control persistence through an explicit API — marking data structures as persistent across invocations — giving fine-grained control over what state survives between calls versus what is reinitialized per invocation.",
+      "The billing model for persistent memory maintains Lambda's pay-per-invocation economics: customers pay for invocation duration as before, plus a small standby charge for the memory footprint of warm instances between invocations. For high-frequency functions, the standby cost is negligible compared to initialization savings; for low-frequency functions, the tradeoff requires analysis. AWS provides cost modeling tools that project persistent memory economics against function invocation patterns before enabling the feature.",
+      "<blockquote>The distinction between serverless and containers has always been: serverless is simpler but stateless, containers are complex but stateful. Lambda Persistent Memory removes that tradeoff. You get serverless operational simplicity — no server management, auto-scaling, pay-per-use — with the performance characteristics of a stateful long-running process. — Werner Vogels, CTO, Amazon</blockquote>",
+      "Lambda Persistent Memory is launching in all AWS regions with support for all Lambda runtimes. AWS is releasing integration patterns for the most common use cases: ML model serving (load model once, serve thousands of invocations), database connection pooling (maintain pool across invocations), large configuration objects (parse once, cache persistently), and in-memory caching (accumulate cache entries across requests). The feature is expected to drive significant Lambda adoption for workloads that previously required ECS or EC2 due to initialization overhead constraints.",
+    ],
+    company: 'Amazon Web Services',
+    readTime: 5,
+    tags: ['AWS', 'Lambda', 'Serverless', 'Persistent Memory', 'Cloud Computing', 'Cold Start'],
+  },
 ];
 
 TC.timelineData = {
