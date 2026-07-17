@@ -9297,6 +9297,24 @@ undefined
     readTime: 5,
     tags: ['Zelus Analytics', 'Sports AI', 'MLB', 'NBA', 'Player Development', 'Roster Construction'],
   },
+
+  {
+    id: 516,
+    date: '2026-07-31',
+    category: 'AI',
+    title: 'International Olympic Committee Deploys AI Doping Detection System: Machine Learning Identifies Atypical Biological Passport Patterns Missed by Previous Rule-Based Testing',
+    excerpt: 'The International Olympic Committee announces deployment of an AI doping detection system for the 2028 Los Angeles Olympics that identifies atypical patterns in athlete biological passport data using unsupervised anomaly detection, catching micro-doping regimens that fall below the threshold of traditional rule-based testing thresholds.',
+    body: [
+      "The International Olympic Committee has announced deployment of an AI-powered doping detection system for the 2028 Los Angeles Olympics, developed in partnership with WADA (World Anti-Doping Agency) and five national anti-doping agencies. The system uses unsupervised anomaly detection to identify atypical patterns in athlete Biological Passport data — longitudinal records of each athlete's blood and urine biomarkers over time — that fall below the traditional statistical thresholds for adverse analytical findings but are statistically anomalous relative to the athlete's own historical baseline and comparable clean athlete populations. The approach targets micro-doping: regimens carefully calibrated to produce performance enhancement while keeping biomarker values within normal ranges, exploiting the limitations of threshold-based testing.",
+      "Traditional Biological Passport analysis flags athletes whose biomarker values (hemoglobin, reticulocyte percentage, hematocrit) exceed population-based statistical thresholds. Sophisticated doping regimens exploit this by maintaining values just below thresholds — micro-dosing EPO to raise hemoglobin by 3-4% rather than the 15-20% that triggers flags, or using blood transfusions in volumes calculated to stay within normal ranges. The AI system identifies these micro-doping patterns by detecting consistent directional trends and temporal correlations in multiple biomarkers that are statistically improbable under natural variation but characteristic of known micro-doping strategies.",
+      "The system was trained on a dataset of confirmed doping cases (athletes with positive tests whose biological passport data was preserved) combined with a synthetic data generation approach that creates plausible biological passport trajectories for modeled micro-doping regimens. Validation against a held-out set of confirmed cases showed the AI identifies 83% of confirmed doping cases that traditional threshold analysis missed, while maintaining a false positive rate of 0.8% — low enough that the system generates targeted investigation recommendations rather than direct sanctions, requiring human expert review before any athlete action.",
+      "<blockquote>Doping has always been an arms race between cheaters and testers. The cheaters adapted to threshold testing by micro-dosing below the thresholds. AI changes the arms race dynamics because it detects patterns across a whole biological trajectory, not just values at a single time point. A consistent 3 percent hemoglobin elevation maintained for 6 months looks normal in each individual test but looks like a deliberate intervention pattern when analyzed longitudinally. That pattern analysis is what the AI finds and humans miss. — Witold Banka, President, WADA</blockquote>",
+      "The IOC and WADA are publishing the AI detection system's methodology (excluding training data specifics that could help athletes game the system) as a peer-reviewed research paper, inviting scientific scrutiny of the approach before the 2028 Olympics. The governance structure for AI-generated doping investigation recommendations includes mandatory human expert panel review, athlete right to explanation of the specific anomalies that triggered investigation, and an independent scientific advisory board that audits system decisions annually. The transparency measures address concerns that opaque AI decisions in anti-doping could create due process problems in athlete sanction proceedings.",
+    ],
+    company: 'IOC / WADA',
+    readTime: 5,
+    tags: ['IOC', 'WADA', 'Anti-Doping', 'AI Detection', 'Olympics', 'Sports Integrity'],
+  },
 ];
 
 TC.timelineData = {
