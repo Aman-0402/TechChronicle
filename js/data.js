@@ -9063,6 +9063,24 @@ undefined
     readTime: 5,
     tags: ['Catapult Sports', 'Wearables', 'Athlete Monitoring', 'Sports Technology', 'GPS', 'Biomechanics'],
   },
+
+  {
+    id: 503,
+    date: '2026-07-30',
+    category: 'Startups',
+    title: 'Hudl Raises 200 Million at 2 Billion Valuation: Sports Video Analysis Platform Now Covers 6 Million Athletes From Youth Leagues to NFL With AI Coaching Recommendations',
+    excerpt: 'Hudl closes a 200 million dollar Series F round at a 2 billion dollar valuation, expanding its AI-powered sports video analysis platform from elite professional teams to youth athletics and claiming 6 million active athletes using Hudl-powered coaching feedback across 40 sports.',
+    body: [
+      "Hudl has closed a 200 million dollar Series F funding round at a 2 billion dollar valuation, with investment from Silver Lake, KKR, and existing investor Accel. The round funds expansion of Hudl's AI coaching analysis platform — originally built for college and professional teams to analyze game film — down-market into youth sports and up-market into enterprise sports broadcast analytics. Hudl's platform now covers 6 million active athletes across 40 sports, from youth soccer players using Hudl Assist on iPhone video to NFL teams using Hudl Pro with enterprise video infrastructure and AI analysis tools.",
+      "Hudl's market expansion strategy leverages a self-reinforcing data flywheel: video and outcome data from youth and amateur athletes is anonymized and aggregated to improve the AI models that serve professional teams, while insights from professional team analysis improve the recommendations delivered to youth coaches who use the platform. The 6 million athlete dataset represents the largest structured sports performance database in existence, enabling training data scale for sports AI models that individual professional leagues cannot match independently.",
+      "The core AI product is Hudl Assist, an automated video tagging and analysis system that processes uploaded game footage and produces a structured breakdown: plays tagged by type (run, pass, set piece, etc.), player tracking for all athletes in frame, statistical summaries by player and team, and AI-generated coaching observations highlighting patterns that differ from established best practices or the team's own historical baseline. Coaches using Hudl Assist report spending 70% less time on video review compared to manual tagging, freeing time for direct player interaction and practice planning.",
+      "<blockquote>Every coach at every level wants to give players better feedback, but most coaches spend half their preparation time tagging video manually. Hudl Assist turns hours of film work into minutes of review. We started with college football coaches because they had the money and the need. We are expanding to youth soccer coaches because they have the same need — they just could not previously afford what we were selling. The six million athlete number tells us that the market for good coaching tools is not professional sports. It is all sports. — David Graff, CEO, Hudl</blockquote>",
+      "Hudl is using the Series F capital for three strategic priorities: expanding the Hudl Assist AI to 15 additional sports (current coverage includes football, basketball, soccer, volleyball, and baseball), building a highlight generation feature that automatically produces recruitment and social media highlight reels from game footage, and launching Hudl Broadcast — a sports broadcast analytics product that provides real-time AI analysis overlays for television sports coverage, competing with Second Spectrum's NBA broadcast analytics in football, soccer, and baseball markets.",
+    ],
+    company: 'Hudl',
+    readTime: 5,
+    tags: ['Hudl', 'Sports Video Analysis', 'AI Coaching', 'Sports Technology', 'Youth Sports', 'Startups'],
+  },
 ];
 
 TC.timelineData = {
