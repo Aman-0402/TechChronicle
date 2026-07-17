@@ -9099,6 +9099,24 @@ undefined
     readTime: 5,
     tags: ['MIT', 'NFL', 'AI Play Calling', 'Sports Analytics', 'Football Strategy', 'Sports Research'],
   },
+
+  {
+    id: 505,
+    date: '2026-07-30',
+    category: 'AI',
+    title: 'FIFA Deploys Hawk-Eye 3.0 Computer Vision for All World Cup 2026 Matches: 32 Cameras Per Stadium Enable Millimeter-Accurate Offside Decisions in Under 15 Seconds',
+    excerpt: 'FIFA confirms deployment of Hawk-Eye 3.0 computer vision system across all 16 World Cup 2026 stadiums in the United States, Canada, and Mexico, providing millimeter-accurate semi-automated offside technology that delivers VAR decisions in under 15 seconds versus the 3-5 minutes of traditional video review.',
+    body: [
+      "FIFA has confirmed deployment of Hawk-Eye 3.0 semi-automated offside technology across all 16 stadiums hosting the 2026 FIFA World Cup, upgrading from the Hawk-Eye system piloted at the 2022 Qatar World Cup. Each stadium is equipped with 32 dedicated tracking cameras mounted at multiple heights and angles, providing complete multi-angle coverage of every player and the ball throughout each match. The system tracks 29 body points per player at 50 frames per second using computer vision models trained on 3 million annotated tracking frames, producing skeletal pose estimates that determine the position of the relevant body part (typically the shoulder or hip) at the exact moment of the through-pass to assess offside.",
+      "The 15-second decision time for Hawk-Eye 3.0 offside decisions represents a 90% reduction from the 3-5 minutes required for traditional VAR offside review using manually drawn lines on freeze-frames. The speed improvement comes from eliminating manual steps: rather than VAR officials watching video replays, manually selecting the frame of the pass, and manually drawing offside lines, the Hawk-Eye system automatically identifies the pass frame from ball trajectory data, computes all player positions from skeletal tracking, and renders the offside decision with visualization in seconds. The automated pipeline also removes the subjective judgment involved in manual frame selection and line placement.",
+      "Accuracy improvement in Hawk-Eye 3.0 versus the 2022 system comes from increased camera count (32 versus 12 cameras per stadium) and improved skeletal pose models trained on larger datasets. The 2022 system achieved offside determination accuracy within 5 centimeters; Hawk-Eye 3.0 achieves accuracy within 2 centimeters, sufficient to resolve offside decisions involving arm and shoulder positions that are definitionally on the boundary between onside and offside. The body part tracking also handles the specific FIFA rule that upper arm and shoulder but not hand are considered the relevant body parts for offside — a distinction the pose model is explicitly trained to implement.",
+      "<blockquote>Offside is the most disputed call in football because human perception cannot reliably track 22 moving players and a ball simultaneously and determine precise positions at specific moments. Hawk-Eye solves the perception problem with measurement. A decision that takes three minutes of manual video review and still generates controversy takes 15 seconds with Hawk-Eye and is accurate to two centimeters. The controversy comes from human uncertainty; the technology eliminates the uncertainty. — Pierluigi Collina, Chairman, FIFA Referees Committee</blockquote>",
+      "FIFA is also deploying Hawk-Eye 3.0's ball tracking capability for automatic goal-line technology decisions, replacing the magnetic field goal-line systems used since 2012 with camera-based tracking that requires no stadium infrastructure beyond the offside tracking cameras already installed. The camera-based approach reduces stadium installation cost and enables the same system to provide ball tracking for tactical analysis, broadcast graphics (real-time ball speed, trajectory visualization), and live statistics that the previous dedicated goal-line technology systems could not provide.",
+    ],
+    company: 'FIFA / Hawk-Eye',
+    readTime: 5,
+    tags: ['FIFA', 'Hawk-Eye', 'Computer Vision', 'VAR', 'World Cup', 'Sports Technology'],
+  },
 ];
 
 TC.timelineData = {
