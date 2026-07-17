@@ -9261,6 +9261,24 @@ undefined
     readTime: 5,
     tags: ['Sportradar', 'Sports Data API', 'Developer Platform', 'Sports Technology', 'Open Data', 'Dev Tools'],
   },
+
+  {
+    id: 514,
+    date: '2026-07-30',
+    category: 'Cloud',
+    title: 'Formula 1 Oracle Red Bull Racing Processes 1.5 Terabytes of Telemetry Per Race Weekend: Cloud Architecture Behind the Fastest Data Pipeline in Professional Sports',
+    excerpt: 'Oracle and Red Bull Racing publish the architecture behind the Formula 1 team data infrastructure that processes 1.5 terabytes of car telemetry per race weekend across 300 sensors per car, enabling real-time pit stop strategy decisions, tire degradation modeling, and aerodynamic performance analysis in under 100 milliseconds.',
+    body: [
+      "Oracle and Red Bull Racing have published the technical architecture behind the Formula 1 team data infrastructure that processes 1.5 terabytes of car telemetry per race weekend — the most data-intensive real-time analytics operation in professional sports. Each Red Bull F1 car carries 300 sensors measuring temperature, pressure, strain, acceleration, fuel flow, and component vibration at sampling rates from 20Hz to 2,000Hz, transmitting data to the pit wall via encrypted radio telemetry and to the Oracle Cloud via satellite uplink continuously throughout practice, qualifying, and race sessions. The total data architecture must process and analyze sensor streams with under 100 milliseconds of latency to enable race strategy decisions that depend on real-time car state.",
+      "The Oracle Cloud infrastructure supporting Red Bull Racing uses a purpose-built streaming pipeline: sensor data arrives via satellite at Oracle's London data center (closest to most European circuits), enters an Apache Kafka streaming layer that routes data to parallel analysis pipelines, and is processed by purpose-built models for tire degradation prediction, fuel consumption forecasting, competitor gap analysis, and safety car probability estimation. Results are pushed to the Red Bull pit wall dashboard and to the Oracle Cloud analytics environment where engineers at the Milton Keynes factory can analyze the same live data as pit lane engineers during races.",
+      "Tire degradation modeling — predicting when tires will lose performance and how long they can run before a mandatory pit stop becomes strategically necessary — is the highest-stakes real-time analytics application in F1 strategy. The degradation model ingests continuous tire temperature, pressure, and lateral force data, combines it with track surface abrasiveness measured by embedded track sensors, and produces per-lap degradation rate estimates that update the optimal pit stop window estimate continuously. A degradation model that incorrectly predicts a tire's remaining performance can result in a pit stop that is 1-2 laps too late — enough to cost a race win in close competition.",
+      "<blockquote>Formula 1 is the highest-stakes real-time analytics environment in sports. Every decision — pit stop timing, tire compound selection, fuel load, safety car response — is made under time pressure with real-time data determining the optimal choice. We process 1.5 terabytes to make decisions that play out in seconds on track. The competitive advantage we get from better analysis of that data is worth more than almost any other investment a team can make. — Christian Horner, Team Principal, Red Bull Racing</blockquote>",
+      "Oracle is releasing a public case study and reference architecture document from the Red Bull Racing deployment, enabling sports organizations in other disciplines to adapt the streaming telemetry architecture for their use cases. The architecture is applicable wherever real-time sensor data informs time-sensitive operational decisions: athlete health monitoring, stadium operations, sports equipment performance analysis, and sports broadcasting analytics. Oracle is also partnering with NASCAR, IndyCar, and MotoGP to bring equivalent telemetry analytics infrastructure to American and international motorsports series.",
+    ],
+    company: 'Oracle / Red Bull Racing',
+    readTime: 5,
+    tags: ['Formula 1', 'Oracle', 'Red Bull Racing', 'Sports Analytics', 'Telemetry', 'Cloud Architecture'],
+  },
 ];
 
 TC.timelineData = {
