@@ -9333,6 +9333,24 @@ undefined
     readTime: 5,
     tags: ['Adidas', 'Smart Ball', 'Football', 'Sports Hardware', 'IMU', 'Player Development'],
   },
+
+  {
+    id: 518,
+    date: '2026-07-31',
+    category: 'Startups',
+    title: 'Tempus Ex Machina Builds Real-Time Sports Betting Data Infrastructure: Startup Processes 50 Million Data Events Per Second to Power Legal Betting Markets Across 30 States',
+    excerpt: 'Tempus Ex Machina raises 80 million dollars to expand its real-time sports data infrastructure that processes 50 million data events per second for legal sports betting operators, providing the sub-100-millisecond official data delivery that enables in-game betting markets requiring faster data than traditional sports data vendors supply.',
+    body: [
+      "Tempus Ex Machina has raised an 80 million dollar Series C to expand its real-time sports data infrastructure, which processes 50 million data events per second across NFL, NBA, MLB, NHL, and soccer data feeds to provide legal sports betting operators with the sub-100-millisecond official data delivery that in-game betting markets require. In-game betting — placing bets on the outcome of the next play, possession, or period while the game is in progress — has grown to represent 72% of total US sports betting handle, requiring data latency performance that traditional sports data vendors (Sportradar, Stats Perform) were not originally designed to deliver at scale.",
+      "The technical challenge of in-game sports betting data is stricter than broadcast or fantasy applications: sportsbooks must update odds before their customers can exploit stale prices using faster data sources. A betting platform that displays odds based on data 2 seconds old can be systematically exploited by bettors using a 500-millisecond-latency data source, placing bets before the platform has updated to reflect new game information. Tempus Ex's architecture co-locates data processing infrastructure in the same facilities as official league data sources, achieving sub-50-millisecond end-to-end latency from the stadium sensor to the sportsbook odds calculation engine.",
+      "Tempus Ex processes three categories of sports data simultaneously: official league data from league-sanctioned tracking systems (Next Gen Stats for NFL, SportVU for NBA), broadcast signal data extracted from official production feeds with sub-second latency, and referee signal data for decisions that affect game state (scoring plays, fouls, penalties) transmitted directly from officiating systems where league agreements permit. The fusion of three independent data streams provides redundancy and cross-verification that reduces the data error rate to 0.02% — critical because a data error in a betting context can result in settling bets incorrectly.",
+      "<blockquote>Sports betting is a real-time financial market. Odds are prices. Prices must reflect current information. If your data is slow, your prices are wrong, and wrong prices cost you money — either through exploitable bets or through protective suspension of betting markets that kills volume. We built the infrastructure to keep sports betting prices current at the speed the market demands. The 50 million events per second is not a marketing number — it is the actual volume that legal US sports betting generates on a Sunday in football season. — Adam Frisch, CEO, Tempus Ex Machina</blockquote>",
+      "Tempus Ex Machina is expanding into European betting markets, where in-game betting is more mature (representing 85% of handle in the UK) and latency competition is more intense given the higher density of sophisticated betting operators. The European expansion requires data partnerships with UK and European league officiating bodies, whose data commercial relationships differ substantially from the US leagues Tempus Ex currently serves. The Series C capital is primarily earmarked for European infrastructure buildout — co-location facilities in London, Frankfurt, and Madrid — and the regulatory compliance work required to serve regulated betting operators in each European jurisdiction.",
+    ],
+    company: 'Tempus Ex Machina',
+    readTime: 5,
+    tags: ['Sports Betting', 'Real-Time Data', 'In-Game Betting', 'Sports Technology', 'Startups', 'Data Infrastructure'],
+  },
 ];
 
 TC.timelineData = {
