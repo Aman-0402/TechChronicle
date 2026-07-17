@@ -9401,7 +9401,7 @@ TC.timelineData = {
       },
     },
     July: {
-      count: 420,
+      count: 440,
       topics: ['AI', 'Cybersecurity', 'Hardware', 'Open Source', 'Programming', 'Cloud', 'Research', 'Dev Tools', 'Startups'],
       dates: {
         1: { count: 20, label: 'Jul 1' },
@@ -9433,12 +9433,14 @@ TC.timelineData = {
         27: { count: 5, label: 'Jul 27' },
         28: { count: 15, label: 'Jul 28' },
         29: { count: 5, label: 'Jul 29' },
+        30: { count: 15, label: 'Jul 30' },
+        31: { count: 5, label: 'Jul 31' },
       },
     },
   },
 };
 
 TC.activeDates = [28, 29, 30];
-TC.activeJulyDates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29];
+TC.activeJulyDates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 // Articles 21-40 appended below
