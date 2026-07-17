@@ -9351,6 +9351,24 @@ undefined
     readTime: 5,
     tags: ['Sports Betting', 'Real-Time Data', 'In-Game Betting', 'Sports Technology', 'Startups', 'Data Infrastructure'],
   },
+
+  {
+    id: 519,
+    date: '2026-07-31',
+    category: 'Research',
+    title: 'UC Berkeley Study Finds AI Nutrition Coaching Improves Endurance Athlete Performance by 8 Percent Through Personalized Fueling Protocols: Generic Plans Leave Measurable Gains Unrealized',
+    excerpt: 'University of California Berkeley publishes a controlled trial showing AI-personalized nutrition and fueling protocols improved endurance performance by 8 percent on average over 6 months compared to athletes following standard evidence-based nutrition guidelines, driven by individualization of carbohydrate intake timing and volume.',
+    body: [
+      "The University of California Berkeley has published a controlled trial of 340 competitive endurance athletes (cyclists, triathletes, and distance runners) comparing AI-personalized nutrition protocols against standard evidence-based nutrition guidelines over 6 months, finding an average 8% improvement in performance test results (time trial completion time for a standardized 40km cycling test and 10km running test) for the AI-personalized group versus 3% improvement for the guidelines group. The 5 percentage point differential represents a meaningful competitive advantage for serious amateur athletes and suggests that individual variation in carbohydrate metabolism, gut tolerance, and recovery nutrition requirements is large enough that population-average guidelines leave substantial performance potential unrealized.",
+      "The AI personalization system ingested continuous glucose monitor data (measuring blood glucose response to training and nutrition), heart rate variability data from wearables (measuring recovery status), subjective energy and gut comfort ratings, and weekly performance test results to build individual metabolic models for each athlete. The system used these models to personalize three key nutrition variables: pre-workout carbohydrate dose and timing (which varies substantially between individuals based on gastric emptying rate and glucose response), intra-workout fueling frequency (ranging from 20 to 60 grams of carbohydrate per hour depending on individual oxidation capacity), and post-workout recovery nutrition timing (the window of enhanced carbohydrate uptake varies from 15 to 90 minutes post-exercise between individuals).",
+      "The mechanism analysis identified pre-workout carbohydrate timing as the largest source of performance variance across individuals: athletes with rapid gastric emptying and high glucose sensitivity performed best with carbohydrate consumption 45-60 minutes pre-exercise, while athletes with slow gastric emptying performed better with 2-3 hour pre-exercise timing. Standard guidelines recommend a population-average 1-2 hour timing that is suboptimal for both groups. The AI system identified each athlete's optimal timing within 4 weeks through systematic variation and continuous glucose monitoring feedback.",
+      "<blockquote>Nutrition science has excellent population-level evidence about what works for average athletes. The problem is that no athlete is average — the variance around those averages is enormous. An 8 percent performance gap between personalized and standard nutrition is larger than the gap between training 12 hours per week and 15 hours per week for most athletes. We are finding that nutrition personalization might be the highest-return performance optimization available to athletes who have already maxed out training volume. — Stacy Sims, Associate Professor, UC Berkeley Human Performance Lab</blockquote>",
+      "The AI nutrition coaching system used in the study is being commercialized through a partnership with Supersapiens (continuous glucose monitor for athletes) and Whoop (recovery wearable), combining glucose, HRV, sleep, and strain data to deliver daily nutrition recommendations through a mobile app. The commercial version launches at 49 dollars per month including CGM sensor hardware costs amortized over a subscription, targeting the competitive amateur endurance athlete market that invests heavily in training equipment and coaching but has not had access to personalized nutrition science at this level of precision.",
+    ],
+    company: 'UC Berkeley',
+    readTime: 5,
+    tags: ['Sports Nutrition', 'AI Coaching', 'Endurance Sports', 'Research', 'Personalization', 'Performance'],
+  },
 ];
 
 TC.timelineData = {
