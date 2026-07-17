@@ -9369,6 +9369,24 @@ undefined
     readTime: 5,
     tags: ['Sports Nutrition', 'AI Coaching', 'Endurance Sports', 'Research', 'Personalization', 'Performance'],
   },
+
+  {
+    id: 520,
+    date: '2026-07-31',
+    category: 'Startups',
+    title: 'Overwolf Esports Platform Reaches 30 Million Monthly Players: In-Game Apps Ecosystem Generates 500 Million Dollars Annually as Competitive Gaming Becomes Creator Economy',
+    excerpt: 'Overwolf announces 30 million monthly active players using its in-game application platform, with the creator ecosystem generating 500 million dollars annually through app subscriptions, skin marketplaces, and coaching tools built by 90,000 independent developers for games including League of Legends, Valorant, and Fortnite.',
+    body: [
+      "Overwolf has announced 30 million monthly active players using its in-game application platform — a developer ecosystem that enables independent creators to build overlay applications, coaching tools, and analytics dashboards that run inside games without violating terms of service. The creator ecosystem generates 500 million dollars annually across app subscription revenue, virtual item marketplaces, and tournament management tools, establishing Overwolf as the App Store of competitive gaming and validating esports as a creator economy capable of sustaining tens of thousands of independent developers building tools for the games' communities.",
+      "Overwolf's most popular applications are performance analysis tools: overlays that display real-time team composition analysis in League of Legends draft phase (helping players select optimal champions against the enemy team), kill and death hotspot maps in Valorant that identify dangerous rotations in specific maps, and building material tracking in Fortnite that shows resource consumption rates and optimal gathering routes. These tools provide analytical insights that improve competitive performance, and players who take ranked progression seriously pay subscription fees (typically 5-10 dollars per month) for access to the most sophisticated analysis tools.",
+      "The 90,000 independent developers building on Overwolf's platform range from solo developers building niche tools for specific game communities to studios with teams of 20-30 people generating millions in annual revenue from their gaming applications. The largest Overwolf apps (Mobalytics for League of Legends, Tracker Network for Destiny 2 and Apex Legends) generate 10-20 million dollars annually and employ teams comparable to mid-size mobile app companies. The creator economy dynamic — where application development expertise combined with deep game community knowledge produces substantial revenue — mirrors the YouTube or Twitch creator economy in gaming adjacent content.",
+      "<blockquote>Esports created millions of players who want to improve competitively but are not professionals. Those players want coaching, analytics, and tools — the same support infrastructure that professional teams have, scaled to the individual. Overwolf is the platform where independent developers can build those tools and earn a living doing it. Thirty million players, five hundred million dollars in developer revenue, ninety thousand developers — this is the gaming creator economy that nobody predicted and everyone is now trying to replicate. — Uri Marchand, CEO, Overwolf</blockquote>",
+      "Overwolf is expanding into official league and tournament infrastructure: partnerships with Riot Games (Valorant Champions Tour), Activision Blizzard (Call of Duty League), and Epic Games (Fortnite Championship Series) to provide official tournament bracket management, statistics tracking, and broadcast data tools through the Overwolf platform. The official league partnerships validate Overwolf's platform for professional esports operations and provide distribution to professional teams and organizations as customers alongside the consumer gaming audience. Overwolf raised 75 million dollars in Series C funding to accelerate the official league infrastructure expansion.",
+    ],
+    company: 'Overwolf',
+    readTime: 5,
+    tags: ['Overwolf', 'Esports', 'Gaming Platform', 'Creator Economy', 'In-Game Apps', 'Competitive Gaming'],
+  },
 ];
 
 TC.timelineData = {
