@@ -9279,6 +9279,24 @@ undefined
     readTime: 5,
     tags: ['Formula 1', 'Oracle', 'Red Bull Racing', 'Sports Analytics', 'Telemetry', 'Cloud Architecture'],
   },
+
+  {
+    id: 515,
+    date: '2026-07-30',
+    category: 'Startups',
+    title: 'Zelus Analytics Raises 50 Million to Expand AI Roster Construction Platform: Statistical Models Used by 40 MLB and NBA Teams Predict Player Development Curves 3 Years Out',
+    excerpt: 'Zelus Analytics closes a 50 million dollar Series B round to expand its AI-powered player valuation and roster construction platform, which is used by 40 MLB and NBA teams for player acquisition analysis and claims prediction accuracy on 3-year player development trajectories that exceeds traditional scouting assessments by 31 percent.',
+    body: [
+      "Zelus Analytics has raised a 50 million dollar Series B round led by General Catalyst to expand its AI-powered player valuation platform, which provides MLB and NBA teams with statistical models for player acquisition decisions, contract valuation, and roster construction optimization. The platform is used by 40 professional teams across baseball and basketball, representing the highest market penetration of any sports analytics software provider in professional sports. Zelus competes with in-house analytics departments by providing access to models trained on larger datasets than any single team can accumulate, covering 30 years of minor league baseball and NBA G League development trajectories.",
+      "Zelus's core product is player development trajectory modeling: predicting how a player's statistical performance will evolve over the next 3 years based on their current performance profile, physical attributes, age, and comparable player development patterns from historical data. The 3-year forecasting horizon corresponds to typical MLB and NBA contract lengths, making development trajectory accuracy directly relevant to contract valuation — overpaying for a player whose performance will decline costs roster flexibility, while underpaying for a player about to peak creates value. Zelus claims its models outperform traditional scouting assessments on 3-year development prediction accuracy by 31%, measured against actual statistical outcomes.",
+      "The platform's injury risk modeling has become a key selling point after several high-profile contract signings validated the approach: the Zelus injury risk model flagged three players who subsequently suffered significant injuries in the contract year, providing teams that acted on the flag with negotiating leverage or alternative acquisition targets. Injury risk models combine biomechanical data (pitch mechanics, running gait patterns), usage history (pitch count, innings pitched, sprint rate), and medical screening results to estimate probability of specific injury types over the contract period.",
+      "<blockquote>Teams make 20-30 million dollar decisions on player acquisitions based on information that has not changed fundamentally in 30 years — scouting evaluations, traditional statistics, and gut feel. We are giving those decisions the same data infrastructure that financial services uses to value assets. The 31 percent accuracy improvement is not a research number — it translates directly to avoided bad contracts and identified undervalued players. Over a 162-game baseball season, the teams that make better acquisition decisions win more games. — Justin Vrendenburg, CEO, Zelus Analytics</blockquote>",
+      "Zelus is expanding the platform to cover European football (soccer) roster construction, where transfer fees of 50-150 million euros make player valuation accuracy as commercially significant as in North American sports. The European expansion requires building development trajectory models from scratch for football's different statistical measurement environment — soccer statistics are less granular than baseball or basketball and require different modeling approaches. Zelus is hiring 30 additional data scientists with football domain expertise for the European expansion, funded by the Series B proceeds.",
+    ],
+    company: 'Zelus Analytics',
+    readTime: 5,
+    tags: ['Zelus Analytics', 'Sports AI', 'MLB', 'NBA', 'Player Development', 'Roster Construction'],
+  },
 ];
 
 TC.timelineData = {
