@@ -9045,6 +9045,24 @@ undefined
     readTime: 5,
     tags: ['NFL', 'Sports AI', 'Injury Prevention', 'Next Gen Stats', 'AWS', 'Biomechanics'],
   },
+
+  {
+    id: 502,
+    date: '2026-07-30',
+    category: 'Hardware',
+    title: 'Catapult Sports Launches Vector T7 Wearable: Sub-Millimeter GPS Accuracy and 1000Hz IMU Enable Biomechanical Analysis Previously Requiring Lab Equipment on Every Athlete',
+    excerpt: 'Catapult Sports releases the Vector T7 athlete monitoring device with sub-millimeter differential GPS accuracy and a 1000Hz inertial measurement unit, bringing laboratory-grade biomechanical measurement to field conditions for elite sports teams at a cost accessible to university and semi-professional programs.',
+    body: [
+      "Catapult Sports has released the Vector T7, its seventh generation athlete monitoring device, achieving sub-millimeter differential GPS positional accuracy through a new dual-frequency GNSS receiver combined with real-time kinematic correction signals from Catapult's ground reference network. The 1000Hz (1,000 measurements per second) inertial measurement unit captures movement data at a resolution previously available only in laboratory biomechanics settings using motion capture systems that require athletes to wear reflective markers and move within a fixed camera volume. The Vector T7 delivers equivalent biomechanical measurement fidelity in a 32-gram vest-worn device that athletes can wear during live competition without performance impact.",
+      "The practical significance of 1000Hz IMU sampling versus the 100Hz standard in previous Catapult devices is the ability to capture transient biomechanical events that occur faster than 100 samples per second can resolve: the impact phase of a foot strike (lasting 50-100 milliseconds), the peak force development during a change of direction (occurring in 30-50 milliseconds), and the shoulder external rotation during a throwing motion (completing in 40-80 milliseconds). These events are biomechanically critical for injury risk and performance analysis but were previously invisible to wearable sensors that sample too slowly to capture them accurately.",
+      "Vector T7 generates 2.4 gigabytes of raw data per athlete per game — substantially more than previous devices — requiring Catapult's Vector software platform to perform real-time data reduction and feature extraction on-device before transmitting summary metrics to the team analytics dashboard. The on-device processing uses a dedicated motion co-processor that runs Catapult's proprietary biomechanical feature extraction algorithms, reducing transmitted data to 50 kilobytes per athlete per game while preserving all analytically relevant information. Teams can access raw data for specific plays or time windows for detailed offline analysis.",
+      "<blockquote>We started with GPS to track where athletes go. Then we added accelerometers to track how they move. Vector T7 is the first device where the measurement quality on the field matches what you would measure in a biomechanics lab. That matters because athletes do not perform in labs — they perform in stadiums, under pressure, at full intensity. Now we can measure what they actually do, not what they do in controlled conditions. — Will Lopes, CEO, Catapult Sports</blockquote>",
+      "Vector T7 is priced at 1,800 dollars per device with annual software licensing, down from the 3,200 dollar price point of the previous flagship Vector T6 — a price reduction driven by component cost improvements in GNSS and IMU hardware. The lower price point makes professional-grade athlete monitoring accessible to college programs, which represent 60% of Catapult's potential market by team count but have historically been excluded by the economics of elite hardware. Catapult ships Vector T7 with pre-built integrations for the major sports science platforms (Kitman Labs, Teamworks, Smartabase) used by elite sports organizations.",
+    ],
+    company: 'Catapult Sports',
+    readTime: 5,
+    tags: ['Catapult Sports', 'Wearables', 'Athlete Monitoring', 'Sports Technology', 'GPS', 'Biomechanics'],
+  },
 ];
 
 TC.timelineData = {
