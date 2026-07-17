@@ -9225,6 +9225,24 @@ undefined
     readTime: 5,
     tags: ['Strivr', 'VR Training', 'NFL', 'Virtual Reality', 'Sports Technology', 'Quarterback Training'],
   },
+
+  {
+    id: 512,
+    date: '2026-07-30',
+    category: 'AI',
+    title: 'Wimbledon Deploys AI Ball Tracking System That Calls Lines Without Human Line Judges: Computer Vision System Achieves 99.97 Percent Accuracy Across 2026 Championships',
+    excerpt: 'Wimbledon replaces all human line judges with an AI ball tracking system across all courts for the 2026 championships, with the system achieving 99.97 percent agreement with Hawk-Eye challenge reviews and eliminating the 0.3 percent human line call error rate that previously generated player controversies.',
+    body: [
+      "Wimbledon has replaced all human line judges across all 18 courts with an AI ball tracking system for the 2026 Championships, following the US Open's switch to electronic line calling in 2020 and the Australian Open's adoption in 2021. The Wimbledon system uses 10 cameras per court feeding a real-time computer vision pipeline that determines ball landing position within 2 millimeters, calling in or out within 150 milliseconds of ball bounce — faster than human perception and before players can dispute the call. Across 1.2 million line calls during the 2026 Championships, the system achieved 99.97% agreement with Hawk-Eye review challenges, compared to the 0.3% human line judge error rate that has historically generated player controversies.",
+      "The transition to electronic line calling required changes to Wimbledon's operational procedures: the traditional line judge corps of 300 people per day was reduced to a small team of technicians monitoring the camera systems and handling edge cases requiring human judgment (ball landing in a divot, system calibration verification, camera obstruction). The challenge system — where players can challenge calls — continues as an audit mechanism, with challenges now serving as spot-checks of system accuracy rather than tools to correct human error. Player challenge success rates have dropped from 23% to 4%, reflecting the dramatically higher accuracy of electronic calling.",
+      "Wimbledon's implementation uses a hybrid camera and sound system: the primary ball position determination uses camera tracking, while a secondary acoustic system using microphone arrays detects the ball bounce sound to provide independent timing for ball landing versus out-call timing synchronization. The acoustic system adds redundancy for situations where camera angle or ball spin creates tracking uncertainty, and the sensor fusion of camera and audio data provides higher confidence in borderline calls than either system alone.",
+      "<blockquote>Line judges are part of Wimbledon's tradition, and the decision to replace them was not taken lightly. The evidence drove us to this decision: the system is more accurate, more consistent, faster, and free of the cognitive biases that affect human perception under competitive pressure. Tennis is a sport of millimeters and milliseconds. Our job is to call those millimeters and milliseconds correctly. The technology does that better than human perception can. Tradition serves the sport; accuracy serves the sport better. — Sally Bolton, CEO, All England Club</blockquote>",
+      "The ATP and WTA tours have now adopted electronic line calling at all Masters 1000 and Premier Mandatory events, with plans for full electronic implementation at all tour-level events by 2028. The transition is accelerating as camera costs decrease: the 10-camera court setup that cost 800,000 dollars per court in 2020 now costs 120,000 dollars, making electronic line calling economically viable at qualifying-level events and large national tournaments that previously could not afford the technology.",
+    ],
+    company: 'Wimbledon',
+    readTime: 5,
+    tags: ['Wimbledon', 'AI Ball Tracking', 'Tennis', 'Computer Vision', 'Electronic Line Calling', 'Sports Technology'],
+  },
 ];
 
 TC.timelineData = {
