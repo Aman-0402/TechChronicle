@@ -9315,6 +9315,24 @@ undefined
     readTime: 5,
     tags: ['IOC', 'WADA', 'Anti-Doping', 'AI Detection', 'Olympics', 'Sports Integrity'],
   },
+
+  {
+    id: 517,
+    date: '2026-07-31',
+    category: 'Hardware',
+    title: 'Adidas Smart Ball Tracks 4000 Data Points Per Second: Connected Football Records Spin Rate, Trajectory, and Impact Zone for Every Touch in Training and Match Play',
+    excerpt: 'Adidas launches the Connected Ball Pro, embedding a 6-axis IMU and pressure sensor array in a FIFA-certified football that records 4,000 data points per second for every touch, providing coaches with precise spin rate, trajectory angle, and foot impact zone data that was previously measurable only with laboratory equipment.',
+    body: [
+      "Adidas has launched the Connected Ball Pro, a FIFA Quality Pro-certified football embedding a 6-axis inertial measurement unit (IMU) and an array of 16 pressure sensors distributed across the ball's surface. The ball records 4,000 data points per second for every touch, capturing spin rate (rotations per minute and axis of spin), trajectory angle at contact, ball speed, kick impact location on the ball surface (which part of the foot contacted which zone of the ball), and flight curve data. All data is transmitted via Bluetooth 5.3 to a companion app on iOS and Android within 1 second of the touch, enabling real-time coaching feedback without the GPS beacons or fixed camera systems that previous sports ball tracking required.",
+      "The spin rate measurement capability is the most technically significant addition for player development: ball spin determines curve trajectory in free kicks, crosses, and passes, and developing consistent spin delivery is a fundamental skill for technical players. Coaches previously had no objective measure of whether a player was delivering the intended spin — they could observe trajectory but not the causal spin mechanics producing it. The Connected Ball Pro provides spin rate, spin axis angle, and kick impact location simultaneously, enabling coaches to identify whether trajectory inconsistency comes from variable spin rate, spin axis variation, or inconsistent foot contact location.",
+      "Manufacturing the Connected Ball Pro to FIFA Quality Pro standards while embedding the sensor package was the primary engineering challenge: FIFA's ball specifications require consistent weight distribution, surface texture, and deformation characteristics under match conditions. Adidas's solution places the IMU in a neutral buoyancy housing at the ball's center (where it does not affect weight distribution) and routes the pressure sensor array through the bladder surface without affecting inflation properties. Independent FIFA testing found the Connected Ball Pro's flight characteristics meet Quality Pro standards across the full range of kick forces and environmental conditions.",
+      "<blockquote>Football coaching has always been observational — coaches watch what the ball does and try to infer what the player did to make it happen. The Connected Ball inverts that. You see exactly what the player did: where their foot hit the ball, the spin they imparted, the force they applied. The trajectory is just the consequence of those inputs. When you can see the inputs, you can teach them directly instead of correcting the outputs indirectly. — Bjorn Gulden, CEO, Adidas</blockquote>",
+      "Adidas is launching Connected Ball Pro in two formats: a training edition at 280 dollars for club and academy use, and a match-legal version approved for official UEFA youth competition and training at 380 dollars. The companion app includes session recording, touch-by-touch replay with data overlays, progress tracking over time, and coach dashboard access enabling multiple coaches to monitor data from a session simultaneously. Major football academies including Barcelona Academy, Ajax Youth, and FC Dallas Academy have announced adoption for their development programs.",
+    ],
+    company: 'Adidas',
+    readTime: 5,
+    tags: ['Adidas', 'Smart Ball', 'Football', 'Sports Hardware', 'IMU', 'Player Development'],
+  },
 ];
 
 TC.timelineData = {
