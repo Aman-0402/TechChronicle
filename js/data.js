@@ -9189,6 +9189,24 @@ undefined
     readTime: 5,
     tags: ['Stanford', 'AI Training', 'Marathon', 'Sports Science', 'Wearables', 'Running'],
   },
+
+  {
+    id: 510,
+    date: '2026-07-30',
+    category: 'Hardware',
+    title: 'Smart Stadiums Network: SoFi Stadium Deploys 35,000 IoT Sensors for Real-Time Fan Experience Optimization From Concession Wait Times to Seat Comfort Temperature',
+    excerpt: 'SoFi Stadium in Los Angeles announces completion of a 35,000 IoT sensor deployment covering concession queues, entry gate throughput, seat occupancy, HVAC zones, and parking flow, creating a real-time operational data platform that has reduced average concession wait times by 40 percent and fan exit times by 12 minutes.',
+    body: [
+      "SoFi Stadium, home of the Los Angeles Rams and Chargers, has announced completion of a 35,000 IoT sensor network covering every operationally significant aspect of the 70,000-seat venue, creating a real-time operational intelligence platform that manages fan experience from parking lot entry to post-game exit. The sensor deployment includes computer vision cameras at all 200 concession points monitoring queue length and wait time in real-time, occupancy sensors in each of 70,000 seats tracking section fill rates for dynamic staff deployment, temperature sensors in each HVAC zone enabling targeted climate control, and flow sensors at 85 entry gates tracking throughput and flagging bottleneck points before they cause cascading delays.",
+      "The operational impact after the 2025-2026 NFL season operating with the full sensor network: average concession wait times reduced from 7.2 minutes to 4.3 minutes (40% reduction) through dynamic pricing signals that direct fans to shorter queues and staff redeployment from overstaffed to understaffed locations in real-time; fan exit times after games reduced by 12 minutes through coordinated traffic signal timing with LA Metro and an exit flow routing app that shows fans the shortest route to their parked car updated every 30 seconds; and HVAC energy consumption reduced 22% through zone-by-zone temperature optimization based on actual seat occupancy rather than planned attendance estimates.",
+      "The fan-facing mobile experience built on the IoT data platform includes a stadium navigation app showing real-time queue lengths at all concession locations with route guidance to the shortest queue from any seat, parking spot availability in real-time across the stadium's 12,000-space lot, and seat comfort controls for premium sections where HVAC zone temperature can be adjusted by section through the app. Game-day NPS (net promoter score) for SoFi Stadium improved from 68 to 79 in the season following the full sensor deployment, with reduced wait times cited as the primary driver of the improvement.",
+      "<blockquote>A stadium is not a building — it is a 70,000-person real-time logistics problem. Every game day, we are moving 70,000 people in, feeding them, and moving them out in a 4-hour window. The IoT network gives us visibility into every part of that logistics chain in real time. Problems we would previously discover in post-game surveys — long queues in section 300, a gate backup at gate C — we now see as they develop and resolve them before fans notice. — Jason Gannon, Managing Director, SoFi Stadium</blockquote>",
+      "SoFi Stadium's technology partner for the sensor deployment is Cisco, whose DNA Spaces platform manages the data ingestion and analytics layer for the 35,000 sensor endpoints. The deployment architecture uses a private 5G network for sensor connectivity rather than stadium WiFi, providing the reliability and latency guarantees required for operational applications versus the best-effort WiFi appropriate for fan devices. Cisco is replicating the SoFi Stadium deployment model at 12 additional NFL and NBA venues in 2026, with a standardized sensor kit that reduces deployment time from 18 months (SoFi) to 6 months for new stadium implementations.",
+    ],
+    company: 'SoFi Stadium',
+    readTime: 5,
+    tags: ['Smart Stadium', 'IoT', 'Fan Experience', 'SoFi Stadium', 'Sports Technology', 'Cisco'],
+  },
 ];
 
 TC.timelineData = {
